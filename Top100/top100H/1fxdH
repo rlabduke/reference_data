@@ -1,0 +1,1028 @@
+USER  MOD reduceV2.10.2 H: found=0, std=0, add=388, rem=0, adj=6
+USER  MOD set occupancy to 0.0 for atoms CS-11 SD and CE to fix
+USER  MOD   problem with long SS bond to CYS-11
+HEADER    ELECTRON TRANSFER(IRON-SULFUR)          08-APR-91   1FXD      1FXD   2
+COMPND    FERREDOXIN II                                                 1FXD   3
+SOURCE    (DESULFOVIBRIO $GIGAS)                                        1FXD   4
+AUTHOR    C.R.KISSINGER,L.C.SIEKER,E.T.ADMAN,L.H.JENSEN                 1FXD   5
+REVDAT   1   15-APR-93 1FXD    0                                        1FXD   6
+JRNL        AUTH   C.R.KISSINGER,L.C.SIEKER,E.T.ADMAN,L.H.JENSEN        1FXD   7
+JRNL        TITL   REFINED CRYSTAL STRUCTURE OF FERREDOXIN II FROM      1FXD   8
+JRNL        TITL 2 DESULFOVIBRIO GIGAS AT 1.7 ANGSTROMS                 1FXD   9
+JRNL        REF    J.MOL.BIOL.                   V. 219   693 1991      1FXD  10
+JRNL        REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  1FXD  11
+REMARK   1                                                              1FXD  12
+REMARK   1 REFERENCE 1                                                  1FXD  13
+REMARK   1  AUTH   C.R.KISSINGER,E.T.ADMAN,L.C.SIEKER,L.H.JENSEN,       1FXD  14
+REMARK   1  AUTH 2 J.LE*GALL                                            1FXD  15
+REMARK   1  TITL   THE CRYSTAL STRUCTURE OF THE THREE-IRON              1FXD  16
+REMARK   1  TITL 2 FERREDOXIN II FROM DESULFOVIBRIO GIGAS               1FXD  17
+REMARK   1  REF    /FEBS$ LETT.                  V. 244   447 1989      1FXD  18
+REMARK   1  REFN   ASTM FEBLAL  NE ISSN 0014-5793                  165  1FXD  19
+REMARK   1 REFERENCE 2                                                  1FXD  20
+REMARK   1  AUTH   C.R.KISSINGER,E.T.ADMAN,L.C.SIEKER,L.H.JENSEN        1FXD  21
+REMARK   1  TITL   STRUCTURE OF THE 3*FE-4*S CLUSTER IN                 1FXD  22
+REMARK   1  TITL 2 DESULFOVIBRIO GIGAS FERREDOXIN /II$                  1FXD  23
+REMARK   1  REF    J.AM.CHEM.SOC.                V. 110  8721 1988      1FXD  24
+REMARK   1  REFN   ASTM JACSAT  US ISSN 0002-7863                  004  1FXD  25
+REMARK   1 REFERENCE 3                                                  1FXD  26
+REMARK   1  AUTH   L.C.SIEKER,E.T.ADMAN,L.H.JENSEN,J.LE*GALL            1FXD  27
+REMARK   1  TITL   CRYSTALLIZATION AND PRELIMINARY X-RAY DIFFRACTION    1FXD  28
+REMARK   1  TITL 2 STUDY OF THE 3-*FE FERREDOXIN /II$ FROM THE          1FXD  29
+REMARK   1  TITL 3 BACTERIUM DESULFOVIBRIO GIGAS                        1FXD  30
+REMARK   1  REF    J.MOL.BIOL.                   V. 179   151 1984      1FXD  31
+REMARK   1  REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  1FXD  32
+REMARK   2                                                              1FXD  33
+REMARK   2 RESOLUTION. 1.7  ANGSTROMS.                                  1FXD  34
+REMARK   3                                                              1FXD  35
+REMARK   3 REFINEMENT.                                                  1FXD  36
+REMARK   3    PROGRAM                    PROFFT                         1FXD  37
+REMARK   3    AUTHORS                    HENDRICKSON,KONNERT,FINZEL     1FXD  38
+REMARK   3    R VALUE                    0.157                          1FXD  39
+REMARK   3    RMSD BOND DISTANCES        0.02  ANGSTROMS                1FXD  40
+REMARK   3    RMSD BOND ANGLE DISTANCES  0.04  ANGSTROMS                1FXD  41
+REMARK   4                                                              1FXD  42
+REMARK   4 THE STRUCTURE WAS SOLVED USING RESOLVED ANOMALOUS PHASING.   1FXD  43
+REMARK   5                                                              1FXD  44
+REMARK   5 THE STRUCTURE CONTAINS A MODIFIED CYSTEINE (CYS 11).  THE    1FXD  45
+REMARK   5 ADDITIONAL ATOMS SD AND CE ARE PRESENTED AS HET GROUP CS AT  1FXD  46
+REMARK   5 THE END OF THE CHAIN.                                        1FXD  47
+REMARK   6                                                              1FXD  48
+REMARK   6 THE SIDE-CHAIN ATOM NAMES IN THIS ENTRY HAVE BEEN MODIFIED   1FXD  49
+REMARK   6 TO FOLLOW IUPAC/IUB SPECIFICATIONS.  THIS RESULTED IN THE    1FXD  50
+REMARK   6 INTERCHANGE OF SIDE-CHAIN ATOM NAMES FOR THE FOLLOWING       1FXD  51
+REMARK   6 RESIDUES:                                                    1FXD  52
+REMARK   6     GLU      3                                               1FXD  53
+REMARK   6     ASP      6                                               1FXD  54
+REMARK   6     GLU     12                                               1FXD  55
+REMARK   6     GLU     16                                               1FXD  56
+REMARK   6     PHE     22                                               1FXD  57
+REMARK   6     GLU     23                                               1FXD  58
+REMARK   6     GLU     26                                               1FXD  59
+REMARK   6     GLU     27                                               1FXD  60
+REMARK   6     ASP     29                                               1FXD  61
+REMARK   6     ASP     37                                               1FXD  62
+REMARK   6     ASP     39                                               1FXD  63
+REMARK   6     ASP     41                                               1FXD  64
+REMARK   6     GLU     44                                               1FXD  65
+REMARK   6     GLU     45                                               1FXD  66
+REMARK   6     ASP     48                                               1FXD  67
+REMARK   6 BECAUSE OF THESE INTERCHANGES, THERE ARE DISCREPANCIES       1FXD  68
+REMARK   6 BETWEEN THE ATOM NAMES THAT APPEAR IN THE JRNL REFERENCE     1FXD  69
+REMARK   6 ABOVE AND THOSE THAT APPEAR IN THIS ENTRY FOR THESE          1FXD  70
+REMARK   6 RESIDUES.                                                    1FXD  71
+REMARK   7                                                              1FXD  72
+REMARK   7 IN ORDER TO PRESERVE THE AUTHORS' NOMENCLATURE, THERE ARE    1FXD  73
+REMARK   7 DIFFERENT ATOM NAMING SCHEMES AND HET GROUP NAMES USED FOR   1FXD  74
+REMARK   7 IRON-SULFUR CLUSTERS IN VARIOUS PDB ENTRIES.                 1FXD  75
+SEQRES   1     58  PRO ILE GLU VAL ASN ASP ASP CYS MET ALA CYS GLU ALA  1FXD  76
+SEQRES   2     58  CYS VAL GLU ILE CYS PRO ASP VAL PHE GLU MET ASN GLU  1FXD  77
+SEQRES   3     58  GLU GLY ASP LYS ALA VAL VAL ILE ASN PRO ASP SER ASP  1FXD  78
+SEQRES   4     58  LEU ASP CYS VAL GLU GLU ALA ILE ASP SER CYS PRO ALA  1FXD  79
+SEQRES   5     58  GLU ALA ILE VAL ARG SER                              1FXD  80
+HET     CS     11       2     SD-CE BONDED TO SG OF CYS 11              1FXD  81
+HET    F3S     59       7     FE3-S4 CLUSTER                            1FXD  82
+FORMUL   2   CS    C1 S1                                                1FXD  83
+FORMUL   3  F3S    FE3 S4                                               1FXD  84
+FORMUL   4  HOH   *56(H2 O1)                                            1FXD  85
+HELIX    1   A ALA     13  ILE     17  1                                1FXD  86
+HELIX    2   B ASP     41  SER     49  1                                1FXD  87
+SHEET    1   A 2 PRO     1  VAL     4  0                                1FXD  88
+SHEET    2   A 2 ILE    55  SER    58 -1  O  VAL    56   N  GLU     3   1FXD  89
+SHEET    1   B 2 PHE    22  MET    24  0                                1FXD  90
+SHEET    2   B 2 ALA    31  VAL    33 -1  N  VAL    32   O  GLU    23   1FXD  91
+TURN     1  T1 ASN     5  CYS     8     TYPE I/ASX                      1FXD  92
+TURN     2  T2 CYS    18  VAL    21     TYPE I                          1FXD  93
+TURN     3  T5 ASN    25  ASP    29     ASX                             1FXD  94
+TURN     4  T3 ASN    35  SER    38     TYPE I/ASX                      1FXD  95
+TURN     5  T4 CYS    50  GLU    53     TYPE I/ASX                      1FXD  96
+SSBOND   1 CYS     18    CYS     42                                     1FXD  97
+SITE     1 FES  3 CYS     8  CYS    14  CYS    50                       1FXD  98
+CRYST1   40.870   45.280   26.470  90.00 104.70  90.00 C 2           4  1FXD  99
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1FXD 100
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1FXD 101
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1FXD 102
+SCALE1      0.024468  0.000000  0.006419        0.00000                 1FXD 103
+SCALE2      0.000000  0.022085  0.000000        0.00000                 1FXD 104
+SCALE3      0.000000  0.000000  0.039057        0.00000                 1FXD 105
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD NoAdj-H:    8 CYS HG  :    8 CYS SG  :   59 F3SFE1  :(RXR or RXXR)
+USER  MOD NoAdj-H:   11 CYS HG  :   11 CYS SG  :   11  CS SD  :(RXR or RXXR)
+USER  MOD NoAdj-H:   14 CYS HG  :   14 CYS SG  :   59 F3SFE3  :(RXR or RXXR)
+USER  MOD NoAdj-H:   18 CYS HG  :   18 CYS SG  :   42 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:   42 CYS HG  :   42 CYS SG  :   18 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:   50 CYS HG  :   50 CYS SG  :   59 F3SFE4  :(RXR or RXXR)
+USER  MOD Single :    5 ASN     :      amide:sc=  -0.716  K(o=-0.72,f=-14!)
+USER  MOD Single :    9 MET CE  :methyl -178:sc=   -0.63   (180deg=-0.671)
+USER  MOD Single :   24 MET CE  :methyl  177:sc= -0.0798   (180deg=-0.1)
+USER  MOD Single :   25 ASN     :      amide:sc=   0.205  K(o=0.2,f=-12!)
+USER  MOD Single :   30 LYS NZ  :NH3+   -149:sc=   0.277   (180deg=0.0233)
+USER  MOD Single :   35 ASN     :      amide:sc=-0.00616  K(o=-0.0062,f=-1.2)
+USER  MOD Single :   38 SER OG  :   rot  120:sc=     0.1
+USER  MOD Single :   49 SER OG  :   rot   79:sc=    1.22
+USER  MOD Single :   58 SER OG  :   rot -129:sc=  0.0522
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   PRO     1      12.316 -13.580  12.822  1.00 28.45      1FXD 106
+ATOM      2  CA  PRO     1      12.075 -12.153  13.089  1.00 25.54      1FXD 107
+ATOM      3  C   PRO     1      11.736 -11.390  11.805  1.00 20.48      1FXD 108
+ATOM      4  O   PRO     1      11.830 -11.858  10.668  1.00 17.08      1FXD 109
+ATOM      5  CB  PRO     1      13.325 -11.655  13.759  1.00 26.46      1FXD 110
+ATOM      6  CG  PRO     1      14.247 -12.854  13.841  1.00 28.75      1FXD 111
+ATOM      7  CD  PRO     1      13.297 -14.068  13.823  1.00 28.17      1FXD 112
+ATOM      8 1H   PRO     1      12.668 -13.709  11.895  1.00 28.45      new  H +
+ATOM      9 2H   PRO     1      11.463 -14.098  12.886  1.00 28.45      new  H +
+ATOM     10  HA  PRO     1      11.201 -11.995  13.737  1.00 25.54      new  H
+ATOM     11 1HB  PRO     1      13.786 -10.840  13.181  1.00 26.46      new  H
+ATOM     12 2HB  PRO     1      13.105 -11.255  14.760  1.00 26.46      new  H
+ATOM     13 1HG  PRO     1      14.948 -12.880  12.993  1.00 28.75      new  H
+ATOM     14 2HG  PRO     1      14.853 -12.832  14.759  1.00 28.75      new  H
+ATOM     15 1HD  PRO     1      13.799 -14.995  13.509  1.00 28.17      new  H
+ATOM     16 2HD  PRO     1      12.841 -14.265  14.804  1.00 28.17      new  H
+ATOM     17  N   ILE     2      11.320 -10.164  12.105  1.00 15.72      1FXD 113
+ATOM     18  CA  ILE     2      10.910  -9.284  10.994  1.00 15.73      1FXD 114
+ATOM     19  C   ILE     2      12.167  -8.681  10.353  1.00 13.05      1FXD 115
+ATOM     20  O   ILE     2      13.027  -8.158  11.087  1.00 12.26      1FXD 116
+ATOM     21  CB  ILE     2       9.958  -8.126  11.558  1.00 15.12      1FXD 117
+ATOM     22  CG1 ILE     2       8.918  -8.635  12.536  1.00 16.45      1FXD 118
+ATOM     23  CG2 ILE     2       9.308  -7.336  10.359  1.00 16.41      1FXD 119
+ATOM     24  CD1 ILE     2       8.314  -7.573  13.524  1.00 17.48      1FXD 120
+ATOM     25  H   ILE     2      11.257  -9.774  13.024  1.00 15.72      new  H
+ATOM     26  HA  ILE     2      10.356  -9.857  10.236  1.00 15.73      new  H
+ATOM     27  HB  ILE     2      10.584  -7.433  12.139  1.00 15.12      new  H
+ATOM     28 1HG1 ILE     2       8.093  -9.081  11.962  1.00 16.45      new  H
+ATOM     29 2HG1 ILE     2       9.369  -9.443  13.131  1.00 16.45      new  H
+ATOM     30 1HG2 ILE     2       8.656  -6.543  10.753  1.00 16.41      new  H
+ATOM     31 2HG2 ILE     2      10.101  -6.886   9.743  1.00 16.41      new  H
+ATOM     32 3HG2 ILE     2       8.713  -8.027   9.743  1.00 16.41      new  H
+ATOM     33 1HD1 ILE     2       7.576  -8.059  14.179  1.00 17.48      new  H
+ATOM     34 2HD1 ILE     2       9.119  -7.141  14.136  1.00 17.48      new  H
+ATOM     35 3HD1 ILE     2       7.823  -6.774  12.949  1.00 17.48      new  H
+ATOM     36  N   GLU     3      12.196  -8.666   9.044  1.00 13.85      1FXD 121
+ATOM     37  CA  GLU     3      13.201  -8.094   8.180  1.00 14.39      1FXD 122
+ATOM     38  C   GLU     3      12.637  -7.236   7.047  1.00 13.49      1FXD 123
+ATOM     39  O   GLU     3      11.516  -7.489   6.603  1.00 14.32      1FXD 124
+ATOM     40  CB  GLU     3      13.900  -9.221   7.400  1.00 22.91      1FXD 125
+ATOM     41  CG  GLU     3      14.677 -10.232   8.246  1.00 34.90      1FXD 126
+ATOM     42  CD  GLU     3      15.781 -10.828   7.375  1.00 42.41      1FXD 127
+ATOM     43  OE1 GLU     3      15.273 -11.400   6.382  1.00 44.21      1FXD 128
+ATOM     44  OE2 GLU     3      16.944 -10.631   7.666  1.00 45.74      1FXD 129
+ATOM     45  H   GLU     3      11.459  -9.087   8.515  1.00 13.85      new  H
+ATOM     46  HA  GLU     3      13.837  -7.503   8.856  1.00 14.39      new  H
+ATOM     47 1HB  GLU     3      13.141  -9.764   6.819  1.00 22.91      new  H
+ATOM     48 2HB  GLU     3      14.594  -8.766   6.678  1.00 22.91      new  H
+ATOM     49 1HG  GLU     3      15.108  -9.742   9.131  1.00 34.90      new  H
+ATOM     50 2HG  GLU     3      14.006 -11.024   8.612  1.00 34.90      new  H
+ATOM     51  N   VAL     4      13.383  -6.285   6.533  1.00 13.52      1FXD 130
+ATOM     52  CA  VAL     4      13.004  -5.439   5.388  1.00 11.17      1FXD 131
+ATOM     53  C   VAL     4      14.019  -5.854   4.315  1.00 11.46      1FXD 132
+ATOM     54  O   VAL     4      15.236  -5.805   4.571  1.00 12.17      1FXD 133
+ATOM     55  CB  VAL     4      13.116  -3.920   5.612  1.00 10.32      1FXD 134
+ATOM     56  CG1 VAL     4      12.750  -3.236   4.310  1.00 10.15      1FXD 135
+ATOM     57  CG2 VAL     4      12.222  -3.521   6.738  1.00 14.71      1FXD 136
+ATOM     58  H   VAL     4      14.288  -6.063   6.896  1.00 13.52      new  H
+ATOM     59  HA  VAL     4      11.941  -5.591   5.149  1.00 11.17      new  H
+ATOM     60  HB  VAL     4      14.137  -3.621   5.891  1.00 10.32      new  H
+ATOM     61 1HG1 VAL     4      12.820  -2.145   4.436  1.00 10.15      new  H
+ATOM     62 2HG1 VAL     4      13.442  -3.559   3.518  1.00 10.15      new  H
+ATOM     63 3HG1 VAL     4      11.721  -3.507   4.029  1.00 10.15      new  H
+ATOM     64 1HG2 VAL     4      12.299  -2.436   6.901  1.00 14.71      new  H
+ATOM     65 2HG2 VAL     4      11.182  -3.781   6.491  1.00 14.71      new  H
+ATOM     66 3HG2 VAL     4      12.525  -4.051   7.653  1.00 14.71      new  H
+ATOM     67  N   ASN     5      13.568  -6.291   3.184  1.00 11.77      1FXD 137
+ATOM     68  CA  ASN     5      14.458  -6.766   2.116  1.00 10.03      1FXD 138
+ATOM     69  C   ASN     5      14.789  -5.583   1.199  1.00 11.13      1FXD 139
+ATOM     70  O   ASN     5      14.344  -4.445   1.415  1.00 12.10      1FXD 140
+ATOM     71  CB  ASN     5      13.946  -8.017   1.480  1.00 11.57      1FXD 141
+ATOM     72  CG  ASN     5      12.848  -7.772   0.466  1.00 16.21      1FXD 142
+ATOM     73  OD1 ASN     5      12.689  -6.645  -0.059  1.00 13.83      1FXD 143
+ATOM     74  ND2 ASN     5      12.053  -8.818   0.195  1.00 21.32      1FXD 144
+ATOM     75  H   ASN     5      12.595  -6.337   2.956  1.00 11.77      new  H
+ATOM     76  HA  ASN     5      15.427  -7.107   2.509  1.00 10.03      new  H
+ATOM     77 1HB  ASN     5      14.781  -8.536   0.987  1.00 11.57      new  H
+ATOM     78 2HB  ASN     5      13.567  -8.689   2.264  1.00 11.57      new  H
+ATOM     79 1HD2 ASN     5      11.296  -8.716  -0.450  1.00 21.32      new  H
+ATOM     80 2HD2 ASN     5      12.218  -9.699   0.638  1.00 21.32      new  H
+ATOM     81  N   ASP     6      15.618  -5.903   0.199  1.00 12.66      1FXD 145
+ATOM     82  CA  ASP     6      16.112  -4.893  -0.730  1.00 11.33      1FXD 146
+ATOM     83  C   ASP     6      15.079  -4.363  -1.721  1.00 12.51      1FXD 147
+ATOM     84  O   ASP     6      15.495  -3.413  -2.454  1.00 13.71      1FXD 148
+ATOM     85  CB  ASP     6      17.384  -5.371  -1.401  1.00 15.65      1FXD 149
+ATOM     86  CG  ASP     6      18.659  -5.325  -0.569  1.00 22.96      1FXD 150
+ATOM     87  OD1 ASP     6      18.801  -4.501   0.370  1.00 23.09      1FXD 151
+ATOM     88  OD2 ASP     6      19.497  -6.190  -0.906  1.00 24.77      1FXD 152
+ATOM     89  H   ASP     6      15.950  -6.829   0.020  1.00 12.66      new  H
+ATOM     90  HA  ASP     6      16.348  -4.008  -0.121  1.00 11.33      new  H
+ATOM     91 1HB  ASP     6      17.228  -6.408  -1.732  1.00 15.65      new  H
+ATOM     92 2HB  ASP     6      17.543  -4.765  -2.305  1.00 15.65      new  H
+ATOM     93  N   ASP     7      13.880  -4.907  -1.729  1.00 10.59      1FXD 153
+ATOM     94  CA  ASP     7      12.794  -4.439  -2.583  1.00  7.21      1FXD 154
+ATOM     95  C   ASP     7      12.209  -3.160  -1.956  1.00  6.61      1FXD 155
+ATOM     96  O   ASP     7      11.492  -2.418  -2.638  1.00 10.39      1FXD 156
+ATOM     97  CB  ASP     7      11.797  -5.518  -2.912  1.00  9.69      1FXD 157
+ATOM     98  CG  ASP     7      12.320  -6.398  -4.061  1.00 14.96      1FXD 158
+ATOM     99  OD1 ASP     7      13.154  -5.917  -4.839  1.00 23.14      1FXD 159
+ATOM    100  OD2 ASP     7      11.923  -7.547  -4.214  1.00 20.85      1FXD 160
+ATOM    101  H   ASP     7      13.628  -5.682  -1.149  1.00 10.59      new  H
+ATOM    102  HA  ASP     7      13.177  -4.173  -3.579  1.00  7.21      new  H
+ATOM    103 1HB  ASP     7      11.610  -6.137  -2.022  1.00  9.69      new  H
+ATOM    104 2HB  ASP     7      10.836  -5.065  -3.196  1.00  9.69      new  H
+ATOM    105  N   CYS     8      12.577  -2.811  -0.763  1.00  4.66      1FXD 161
+ATOM    106  CA  CYS     8      12.026  -1.600  -0.155  1.00  6.42      1FXD 162
+ATOM    107  C   CYS     8      12.148  -0.423  -1.086  1.00  7.09      1FXD 163
+ATOM    108  O   CYS     8      13.262  -0.102  -1.496  1.00 11.37      1FXD 164
+ATOM    109  CB  CYS     8      12.634  -1.381   1.223  1.00  9.43      1FXD 165
+ATOM    110  SG  CYS     8      12.195   0.225   2.023  1.00 10.79      1FXD 166
+ATOM    111  H   CYS     8      13.230  -3.314  -0.196  1.00  4.66      new  H
+ATOM    112  HA  CYS     8      10.945  -1.723   0.007  1.00  6.42      new  H
+ATOM    113 1HB  CYS     8      12.315  -2.201   1.883  1.00  9.43      new  H
+ATOM    114 2HB  CYS     8      13.729  -1.444   1.138  1.00  9.43      new  H
+ATOM    115  N   MET     9      11.073   0.260  -1.346  1.00 10.37      1FXD 167
+ATOM    116  CA  MET     9      11.001   1.414  -2.222  1.00 11.01      1FXD 168
+ATOM    117  C   MET     9      10.921   2.715  -1.459  1.00 11.23      1FXD 169
+ATOM    118  O   MET     9      10.683   3.763  -2.078  1.00 10.91      1FXD 170
+ATOM    119  CB  MET     9       9.770   1.255  -3.080  1.00 16.26      1FXD 171
+ATOM    120  CG  MET     9       9.891   0.132  -4.059  1.00 18.97      1FXD 172
+ATOM    121  SD  MET     9       8.578   0.489  -5.360  1.00 22.64      1FXD 173
+ATOM    122  CE  MET     9       7.405  -0.680  -4.681  1.00 15.27      1FXD 174
+ATOM    123  H   MET     9      10.187   0.027  -0.944  1.00 10.37      new  H
+ATOM    124  HA  MET     9      11.918   1.458  -2.827  1.00 11.01      new  H
+ATOM    125 1HB  MET     9       8.897   1.080  -2.433  1.00 16.26      new  H
+ATOM    126 2HB  MET     9       9.584   2.192  -3.625  1.00 16.26      new  H
+ATOM    127 1HG  MET     9      10.896   0.097  -4.505  1.00 18.97      new  H
+ATOM    128 2HG  MET     9       9.720  -0.841  -3.575  1.00 18.97      new  H
+ATOM    129 1HE  MET     9       6.502  -0.701  -5.309  1.00 15.27      new  H
+ATOM    130 2HE  MET     9       7.857  -1.682  -4.657  1.00 15.27      new  H
+ATOM    131 3HE  MET     9       7.134  -0.376  -3.659  1.00 15.27      new  H
+ATOM    132  N   ALA    10      11.090   2.670  -0.183  1.00 11.51      1FXD 175
+ATOM    133  CA  ALA    10      11.027   3.760   0.789  1.00 12.03      1FXD 176
+ATOM    134  C   ALA    10       9.652   4.435   0.737  1.00 12.34      1FXD 177
+ATOM    135  O   ALA    10       9.659   5.661   0.733  1.00 13.45      1FXD 178
+ATOM    136  CB  ALA    10      12.042   4.874   0.638  1.00 15.37      1FXD 179
+ATOM    137  H   ALA    10      11.295   1.801   0.267  1.00 11.51      new  H
+ATOM    138  HA  ALA    10      11.246   3.249   1.738  1.00 12.03      new  H
+ATOM    139 1HB  ALA    10      11.885   5.624   1.427  1.00 15.37      new  H
+ATOM    140 2HB  ALA    10      13.057   4.460   0.724  1.00 15.37      new  H
+ATOM    141 3HB  ALA    10      11.922   5.349  -0.347  1.00 15.37      new  H
+ATOM    142  N   CYS    11       8.630   3.624   0.713  1.00 11.03      1FXD 180
+ATOM    143  CA  CYS    11       7.210   4.036   0.672  1.00 13.08      1FXD 181
+ATOM    144  C   CYS    11       6.826   4.734   1.980  1.00 15.21      1FXD 182
+ATOM    145  O   CYS    11       6.023   5.689   1.980  1.00 14.42      1FXD 183
+ATOM    146  CB  CYS    11       6.400   2.761   0.461  1.00 14.23      1FXD 184
+ATOM    147  SG  CYS    11       6.454   2.147  -1.265  1.00 16.53      1FXD 185
+ATOM    148  H   CYS    11       8.742   2.630   0.721  1.00 11.03      new  H
+ATOM    149  HA  CYS    11       7.016   4.754  -0.138  1.00 13.08      new  H
+ATOM    150 1HB  CYS    11       6.780   1.978   1.134  1.00 14.23      new  H
+ATOM    151 2HB  CYS    11       5.354   2.948   0.744  1.00 14.23      new  H
+ATOM    152  N   GLU    12       7.407   4.266   3.073  1.00 15.26      1FXD 186
+ATOM    153  CA  GLU    12       7.299   4.622   4.448  1.00 16.74      1FXD 187
+ATOM    154  C   GLU    12       5.910   4.399   5.048  1.00 15.35      1FXD 188
+ATOM    155  O   GLU    12       5.615   4.997   6.090  1.00 16.93      1FXD 189
+ATOM    156  CB  GLU    12       7.592   6.073   4.866  1.00 18.38      1FXD 190
+ATOM    157  CG  GLU    12       8.606   6.642   3.853  1.00 27.43      1FXD 191
+ATOM    158  CD  GLU    12       9.272   7.915   4.195  1.00 31.02      1FXD 192
+ATOM    159  OE1 GLU    12       8.906   8.375   5.294  1.00 39.68      1FXD 193
+ATOM    160  OE2 GLU    12      10.095   8.430   3.459  1.00 38.35      1FXD 194
+ATOM    161  H   GLU    12       8.060   3.515   2.978  1.00 15.26      new  H
+ATOM    162  HA  GLU    12       8.087   3.950   4.818  1.00 16.74      new  H
+ATOM    163 1HB  GLU    12       6.668   6.671   4.869  1.00 18.38      new  H
+ATOM    164 2HB  GLU    12       8.001   6.108   5.887  1.00 18.38      new  H
+ATOM    165 1HG  GLU    12       9.386   5.884   3.692  1.00 27.43      new  H
+ATOM    166 2HG  GLU    12       8.086   6.778   2.893  1.00 27.43      new  H
+ATOM    167  N   ALA    13       5.144   3.553   4.398  1.00 13.75      1FXD 195
+ATOM    168  CA  ALA    13       3.834   3.237   4.991  1.00 12.75      1FXD 196
+ATOM    169  C   ALA    13       4.116   2.559   6.338  1.00 13.71      1FXD 197
+ATOM    170  O   ALA    13       3.377   2.852   7.317  1.00 15.22      1FXD 198
+ATOM    171  CB  ALA    13       3.033   2.317   4.073  1.00 13.21      1FXD 199
+ATOM    172  H   ALA    13       5.364   3.099   3.534  1.00 13.75      new  H
+ATOM    173  HA  ALA    13       3.232   4.147   5.129  1.00 12.75      new  H
+ATOM    174 1HB  ALA    13       2.060   2.094   4.535  1.00 13.21      new  H
+ATOM    175 2HB  ALA    13       2.874   2.813   3.104  1.00 13.21      new  H
+ATOM    176 3HB  ALA    13       3.588   1.380   3.918  1.00 13.21      new  H
+ATOM    177  N   CYS    14       5.067   1.655   6.394  1.00 11.54      1FXD 200
+ATOM    178  CA  CYS    14       5.372   0.922   7.651  1.00  8.83      1FXD 201
+ATOM    179  C   CYS    14       5.704   1.890   8.802  1.00 10.84      1FXD 202
+ATOM    180  O   CYS    14       5.341   1.592   9.959  1.00  9.07      1FXD 203
+ATOM    181  CB  CYS    14       6.528  -0.042   7.425  1.00 14.48      1FXD 204
+ATOM    182  SG  CYS    14       8.046   0.758   6.840  1.00 11.70      1FXD 205
+ATOM    183  H   CYS    14       5.641   1.399   5.616  1.00 11.54      new  H
+ATOM    184  HA  CYS    14       4.475   0.353   7.938  1.00  8.83      new  H
+ATOM    185 1HB  CYS    14       6.742  -0.569   8.366  1.00 14.48      new  H
+ATOM    186 2HB  CYS    14       6.220  -0.803   6.693  1.00 14.48      new  H
+ATOM    187  N   VAL    15       6.373   2.975   8.539  1.00  9.76      1FXD 206
+ATOM    188  CA  VAL    15       6.730   3.963   9.602  1.00 12.35      1FXD 207
+ATOM    189  C   VAL    15       5.529   4.690  10.173  1.00 15.06      1FXD 208
+ATOM    190  O   VAL    15       5.441   5.089  11.374  1.00 15.30      1FXD 209
+ATOM    191  CB  VAL    15       7.838   4.845   8.951  1.00 16.87      1FXD 210
+ATOM    192  CG1 VAL    15       8.201   6.097   9.747  1.00 21.59      1FXD 211
+ATOM    193  CG2 VAL    15       9.092   4.006   8.760  1.00 14.41      1FXD 212
+ATOM    194  H   VAL    15       6.692   3.223   7.624  1.00  9.76      new  H
+ATOM    195  HA  VAL    15       7.120   3.495  10.518  1.00 12.35      new  H
+ATOM    196  HB  VAL    15       7.424   5.196   7.994  1.00 16.87      new  H
+ATOM    197 1HG1 VAL    15       8.986   6.655   9.216  1.00 21.59      new  H
+ATOM    198 2HG1 VAL    15       7.310   6.733   9.857  1.00 21.59      new  H
+ATOM    199 3HG1 VAL    15       8.568   5.806  10.742  1.00 21.59      new  H
+ATOM    200 1HG2 VAL    15       9.879   4.622   8.301  1.00 14.41      new  H
+ATOM    201 2HG2 VAL    15       9.439   3.637   9.736  1.00 14.41      new  H
+ATOM    202 3HG2 VAL    15       8.866   3.152   8.105  1.00 14.41      new  H
+ATOM    203  N   GLU    16       4.529   5.021   9.386  1.00 16.42      1FXD 213
+ATOM    204  CA  GLU    16       3.280   5.689   9.685  1.00 17.03      1FXD 214
+ATOM    205  C   GLU    16       2.291   4.813  10.484  1.00 13.91      1FXD 215
+ATOM    206  O   GLU    16       1.659   5.283  11.432  1.00 14.35      1FXD 216
+ATOM    207  CB  GLU    16       2.533   6.113   8.390  1.00 21.19      1FXD 217
+ATOM    208  CG  GLU    16       3.286   7.213   7.608  1.00 25.93      1FXD 218
+ATOM    209  CD  GLU    16       2.562   7.639   6.331  1.00 20.00      1FXD 219
+ATOM    210  OE1 GLU    16       1.440   7.088   6.011  1.00 20.00      1FXD 220
+ATOM    211  OE2 GLU    16       3.073   8.550   5.574  1.00 20.00      1FXD 221
+ATOM    212  H   GLU    16       4.579   4.803   8.411  1.00 16.42      new  H
+ATOM    213  HA  GLU    16       3.578   6.560  10.287  1.00 17.03      new  H
+ATOM    214 1HB  GLU    16       2.399   5.234   7.743  1.00 21.19      new  H
+ATOM    215 2HB  GLU    16       1.528   6.476   8.652  1.00 21.19      new  H
+ATOM    216 1HG  GLU    16       3.420   8.091   8.257  1.00 25.93      new  H
+ATOM    217 2HG  GLU    16       4.291   6.848   7.349  1.00 25.93      new  H
+ATOM    218  N   ILE    17       2.215   3.576  10.109  1.00 11.73      1FXD 222
+ATOM    219  CA  ILE    17       1.396   2.513  10.642  1.00  9.58      1FXD 223
+ATOM    220  C   ILE    17       1.904   1.894  11.892  1.00  9.42      1FXD 224
+ATOM    221  O   ILE    17       1.128   1.595  12.801  1.00 11.98      1FXD 225
+ATOM    222  CB  ILE    17       1.343   1.337   9.535  1.00 11.05      1FXD 226
+ATOM    223  CG1 ILE    17       0.374   1.709   8.435  1.00 13.25      1FXD 227
+ATOM    224  CG2 ILE    17       1.053  -0.011  10.247  1.00 15.93      1FXD 228
+ATOM    225  CD1 ILE    17       0.488   0.799   7.188  1.00 14.27      1FXD 229
+ATOM    226  H   ILE    17       2.776   3.247   9.350  1.00 11.73      new  H
+ATOM    227  HA  ILE    17       0.422   2.967  10.878  1.00  9.58      new  H
+ATOM    228  HB  ILE    17       2.311   1.209   9.028  1.00 11.05      new  H
+ATOM    229 1HG1 ILE    17      -0.653   1.656   8.826  1.00 13.25      new  H
+ATOM    230 2HG1 ILE    17       0.551   2.753   8.137  1.00 13.25      new  H
+ATOM    231 1HG2 ILE    17       1.015  -0.819   9.502  1.00 15.93      new  H
+ATOM    232 2HG2 ILE    17       1.851  -0.221  10.974  1.00 15.93      new  H
+ATOM    233 3HG2 ILE    17       0.087   0.050  10.770  1.00 15.93      new  H
+ATOM    234 1HD1 ILE    17      -0.241   1.122   6.430  1.00 14.27      new  H
+ATOM    235 2HD1 ILE    17       1.504   0.870   6.773  1.00 14.27      new  H
+ATOM    236 3HD1 ILE    17       0.281  -0.243   7.474  1.00 14.27      new  H
+ATOM    237  N   CYS    18       3.189   1.671  12.042  1.00  9.58      1FXD 230
+ATOM    238  CA  CYS    18       3.785   1.013  13.224  1.00  9.78      1FXD 231
+ATOM    239  C   CYS    18       5.128   1.616  13.603  1.00  9.51      1FXD 232
+ATOM    240  O   CYS    18       6.156   0.971  13.493  1.00  8.56      1FXD 233
+ATOM    241  CB  CYS    18       3.988  -0.458  12.784  1.00  8.61      1FXD 234
+ATOM    242  SG  CYS    18       3.982  -1.667  14.117  1.00 12.90      1FXD 235
+ATOM    243  H   CYS    18       3.866   1.935  11.355  1.00  9.58      new  H
+ATOM    244  HA  CYS    18       3.138   1.127  14.107  1.00  9.78      new  H
+ATOM    245 1HB  CYS    18       3.195  -0.722  12.068  1.00  8.61      new  H
+ATOM    246 2HB  CYS    18       4.945  -0.534  12.247  1.00  8.61      new  H
+ATOM    247  N   PRO    19       5.118   2.834  14.130  1.00 10.61      1FXD 236
+ATOM    248  CA  PRO    19       6.317   3.589  14.490  1.00 13.88      1FXD 237
+ATOM    249  C   PRO    19       7.180   2.989  15.568  1.00 12.62      1FXD 238
+ATOM    250  O   PRO    19       8.402   3.287  15.651  1.00 14.26      1FXD 239
+ATOM    251  CB  PRO    19       5.745   4.961  14.907  1.00 14.79      1FXD 240
+ATOM    252  CG  PRO    19       4.400   4.570  15.432  1.00 13.20      1FXD 241
+ATOM    253  CD  PRO    19       3.897   3.646  14.314  1.00 13.15      1FXD 242
+ATOM    254  HA  PRO    19       7.022   3.619  13.646  1.00 13.88      new  H
+ATOM    255 1HB  PRO    19       6.363   5.453  15.673  1.00 14.79      new  H
+ATOM    256 2HB  PRO    19       5.673   5.656  14.057  1.00 14.79      new  H
+ATOM    257 1HG  PRO    19       4.467   4.051  16.400  1.00 13.20      new  H
+ATOM    258 2HG  PRO    19       3.743   5.440  15.578  1.00 13.20      new  H
+ATOM    259 1HD  PRO    19       3.027   3.045  14.617  1.00 13.15      new  H
+ATOM    260 2HD  PRO    19       3.609   4.194  13.405  1.00 13.15      new  H
+ATOM    261  N   ASP    20       6.656   2.118  16.352  1.00 12.75      1FXD 243
+ATOM    262  CA  ASP    20       7.357   1.417  17.434  1.00 13.10      1FXD 244
+ATOM    263  C   ASP    20       8.189   0.286  16.884  1.00 14.69      1FXD 245
+ATOM    264  O   ASP    20       9.029  -0.229  17.636  1.00 15.21      1FXD 246
+ATOM    265  CB  ASP    20       6.318   0.867  18.439  1.00 15.71      1FXD 247
+ATOM    266  CG  ASP    20       5.853   2.095  19.228  1.00 23.03      1FXD 248
+ATOM    267  OD1 ASP    20       6.673   2.675  19.951  1.00 24.15      1FXD 249
+ATOM    268  OD2 ASP    20       4.674   2.448  19.032  1.00 24.14      1FXD 250
+ATOM    269  H   ASP    20       5.697   1.847  16.277  1.00 12.75      new  H
+ATOM    270  HA  ASP    20       8.029   2.123  17.943  1.00 13.10      new  H
+ATOM    271 1HB  ASP    20       5.477   0.383  17.920  1.00 15.71      new  H
+ATOM    272 2HB  ASP    20       6.764   0.111  19.102  1.00 15.71      new  H
+ATOM    273  N   VAL    21       7.934  -0.127  15.668  1.00 10.69      1FXD 251
+ATOM    274  CA  VAL    21       8.691  -1.247  15.085  1.00  9.03      1FXD 252
+ATOM    275  C   VAL    21       9.515  -0.797  13.870  1.00  8.51      1FXD 253
+ATOM    276  O   VAL    21      10.550  -1.449  13.643  1.00 10.81      1FXD 254
+ATOM    277  CB  VAL    21       7.754  -2.413  14.765  1.00  9.70      1FXD 255
+ATOM    278  CG1 VAL    21       8.419  -3.544  13.978  1.00 10.59      1FXD 256
+ATOM    279  CG2 VAL    21       7.045  -2.944  16.061  1.00  9.15      1FXD 257
+ATOM    280  H   VAL    21       7.237   0.268  15.069  1.00 10.69      new  H
+ATOM    281  HA  VAL    21       9.417  -1.606  15.829  1.00  9.03      new  H
+ATOM    282  HB  VAL    21       6.985  -2.006  14.093  1.00  9.70      new  H
+ATOM    283 1HG1 VAL    21       7.684  -4.340  13.788  1.00 10.59      new  H
+ATOM    284 2HG1 VAL    21       8.793  -3.154  13.020  1.00 10.59      new  H
+ATOM    285 3HG1 VAL    21       9.259  -3.952  14.560  1.00 10.59      new  H
+ATOM    286 1HG2 VAL    21       6.380  -3.780  15.799  1.00  9.15      new  H
+ATOM    287 2HG2 VAL    21       7.803  -3.290  16.779  1.00  9.15      new  H
+ATOM    288 3HG2 VAL    21       6.455  -2.134  16.515  1.00  9.15      new  H
+ATOM    289  N   PHE    22       9.140   0.218  13.130  1.00  8.23      1FXD 258
+ATOM    290  CA  PHE    22       9.851   0.619  11.922  1.00  8.14      1FXD 259
+ATOM    291  C   PHE    22      10.234   2.110  11.923  1.00 10.87      1FXD 260
+ATOM    292  O   PHE    22       9.432   2.951  12.293  1.00  9.86      1FXD 261
+ATOM    293  CB  PHE    22       9.091   0.360  10.582  1.00  8.54      1FXD 262
+ATOM    294  CG  PHE    22       8.571  -1.041  10.442  1.00  9.77      1FXD 263
+ATOM    295  CD1 PHE    22       9.429  -2.001   9.888  1.00 11.62      1FXD 264
+ATOM    296  CD2 PHE    22       7.305  -1.409  10.887  1.00  8.04      1FXD 265
+ATOM    297  CE1 PHE    22       9.019  -3.345   9.748  1.00 11.55      1FXD 266
+ATOM    298  CE2 PHE    22       6.915  -2.742  10.773  1.00  8.51      1FXD 267
+ATOM    299  CZ  PHE    22       7.747  -3.706  10.176  1.00  5.47      1FXD 268
+ATOM    300  H   PHE    22       8.345   0.787  13.339  1.00  8.23      new  H
+ATOM    301  HA  PHE    22      10.740  -0.028  11.957  1.00  8.14      new  H
+ATOM    302 1HB  PHE    22       8.248   1.063  10.507  1.00  8.54      new  H
+ATOM    303 2HB  PHE    22       9.766   0.576   9.741  1.00  8.54      new  H
+ATOM    304  HD1 PHE    22      10.435  -1.703   9.558  1.00 11.62      new  H
+ATOM    305  HD2 PHE    22       6.625  -0.661  11.321  1.00  8.04      new  H
+ATOM    306  HE1 PHE    22       9.695  -4.093   9.308  1.00 11.55      new  H
+ATOM    307  HE2 PHE    22       5.932  -3.048  11.160  1.00  8.51      new  H
+ATOM    308  HZ  PHE    22       7.393  -4.740  10.049  1.00  5.47      new  H
+ATOM    309  N   GLU    23      11.485   2.264  11.476  1.00 14.66      1FXD 269
+ATOM    310  CA  GLU    23      12.064   3.622  11.337  1.00 14.04      1FXD 270
+ATOM    311  C   GLU    23      12.804   3.631  10.001  1.00 14.51      1FXD 271
+ATOM    312  O   GLU    23      13.060   2.532   9.474  1.00 13.11      1FXD 272
+ATOM    313  CB  GLU    23      12.911   4.067  12.462  1.00 15.58      1FXD 273
+ATOM    314  CG  GLU    23      14.319   3.781  12.773  1.00 22.65      1FXD 274
+ATOM    315  CD  GLU    23      15.048   4.312  13.961  1.00 25.38      1FXD 275
+ATOM    316  OE1 GLU    23      14.443   4.900  14.879  1.00 28.76      1FXD 276
+ATOM    317  OE2 GLU    23      16.244   4.091  14.120  1.00 30.33      1FXD 277
+ATOM    318  H   GLU    23      12.093   1.514  11.215  1.00 14.66      new  H
+ATOM    319  HA  GLU    23      11.251   4.363  11.360  1.00 14.04      new  H
+ATOM    320 1HB  GLU    23      12.857   5.165  12.427  1.00 15.58      new  H
+ATOM    321 2HB  GLU    23      12.363   3.747  13.360  1.00 15.58      new  H
+ATOM    322 1HG  GLU    23      14.402   2.686  12.830  1.00 22.65      new  H
+ATOM    323 2HG  GLU    23      14.896   4.102  11.893  1.00 22.65      new  H
+ATOM    324  N   MET    24      13.018   4.834   9.483  1.00 13.59      1FXD 278
+ATOM    325  CA  MET    24      13.773   4.966   8.209  1.00 16.16      1FXD 279
+ATOM    326  C   MET    24      15.277   5.057   8.587  1.00 18.15      1FXD 280
+ATOM    327  O   MET    24      15.636   5.524   9.708  1.00 18.45      1FXD 281
+ATOM    328  CB  MET    24      13.356   6.136   7.352  1.00 14.39      1FXD 282
+ATOM    329  CG  MET    24      12.076   6.184   6.636  1.00 12.78      1FXD 283
+ATOM    330  SD  MET    24      11.712   4.586   5.837  1.00 15.44      1FXD 284
+ATOM    331  CE  MET    24      12.398   4.762   4.234  1.00 13.38      1FXD 285
+ATOM    332  H   MET    24      12.706   5.694   9.886  1.00 13.59      new  H
+ATOM    333  HA  MET    24      13.556   4.088   7.582  1.00 16.16      new  H
+ATOM    334 1HB  MET    24      13.385   7.024   8.000  1.00 14.39      new  H
+ATOM    335 2HB  MET    24      14.143   6.265   6.594  1.00 14.39      new  H
+ATOM    336 1HG  MET    24      11.268   6.440   7.338  1.00 12.78      new  H
+ATOM    337 2HG  MET    24      12.106   6.979   5.877  1.00 12.78      new  H
+ATOM    338 1HE  MET    24      12.278   3.820   3.678  1.00 13.38      new  H
+ATOM    339 2HE  MET    24      11.879   5.571   3.699  1.00 13.38      new  H
+ATOM    340 3HE  MET    24      13.468   5.005   4.317  1.00 13.38      new  H
+ATOM    341  N   ASN    25      16.133   4.542   7.702  1.00 16.29      1FXD 286
+ATOM    342  CA  ASN    25      17.579   4.654   7.904  1.00 16.88      1FXD 287
+ATOM    343  C   ASN    25      17.955   6.151   7.694  1.00 18.18      1FXD 288
+ATOM    344  O   ASN    25      17.113   6.987   7.265  1.00 15.52      1FXD 289
+ATOM    345  CB  ASN    25      18.349   3.725   6.982  1.00 16.22      1FXD 290
+ATOM    346  CG  ASN    25      18.210   4.051   5.522  1.00 11.26      1FXD 291
+ATOM    347  OD1 ASN    25      17.516   4.997   5.128  1.00 16.79      1FXD 292
+ATOM    348  ND2 ASN    25      18.913   3.220   4.725  1.00 16.08      1FXD 293
+ATOM    349  H   ASN    25      15.862   4.061   6.868  1.00 16.29      new  H
+ATOM    350  HA  ASN    25      17.855   4.339   8.921  1.00 16.88      new  H
+ATOM    351 1HB  ASN    25      19.414   3.758   7.253  1.00 16.22      new  H
+ATOM    352 2HB  ASN    25      18.006   2.693   7.150  1.00 16.22      new  H
+ATOM    353 1HD2 ASN    25      18.897   3.346   3.733  1.00 16.08      new  H
+ATOM    354 2HD2 ASN    25      19.450   2.478   5.126  1.00 16.08      new  H
+ATOM    355  N   GLU    26      19.241   6.418   8.008  1.00 18.91      1FXD 294
+ATOM    356  CA  GLU    26      19.718   7.806   7.892  1.00 22.74      1FXD 295
+ATOM    357  C   GLU    26      19.647   8.335   6.467  1.00 21.82      1FXD 296
+ATOM    358  O   GLU    26      19.203   9.495   6.240  1.00 21.19      1FXD 297
+ATOM    359  CB  GLU    26      21.088   8.074   8.505  1.00 32.65      1FXD 298
+ATOM    360  CG  GLU    26      21.464   9.535   8.759  1.00 41.68      1FXD 299
+ATOM    361  CD  GLU    26      22.879  10.014   8.717  1.00 47.21      1FXD 300
+ATOM    362  OE1 GLU    26      23.747   9.125   8.487  1.00 48.90      1FXD 301
+ATOM    363  OE2 GLU    26      23.175  11.207   8.898  1.00 49.46      1FXD 302
+ATOM    364  H   GLU    26      19.915   5.748   8.319  1.00 18.91      new  H
+ATOM    365  HA  GLU    26      19.004   8.373   8.508  1.00 22.74      new  H
+ATOM    366 1HB  GLU    26      21.145   7.535   9.462  1.00 32.65      new  H
+ATOM    367 2HB  GLU    26      21.850   7.635   7.844  1.00 32.65      new  H
+ATOM    368 1HG  GLU    26      20.905  10.137   8.027  1.00 41.68      new  H
+ATOM    369 2HG  GLU    26      21.073   9.793   9.754  1.00 41.68      new  H
+ATOM    370  N   GLU    27      20.005   7.508   5.491  1.00 20.41      1FXD 303
+ATOM    371  CA  GLU    27      19.951   7.884   4.077  1.00 21.94      1FXD 304
+ATOM    372  C   GLU    27      18.495   8.207   3.729  1.00 23.80      1FXD 305
+ATOM    373  O   GLU    27      18.231   9.074   2.890  1.00 23.26      1FXD 306
+ATOM    374  CB  GLU    27      20.406   6.783   3.112  1.00 22.86      1FXD 307
+ATOM    375  CG  GLU    27      21.731   7.066   2.382  1.00 32.30      1FXD 308
+ATOM    376  CD  GLU    27      21.616   8.309   1.494  1.00 20.00      1FXD 309
+ATOM    377  OE1 GLU    27      20.506   8.963   1.434  1.00 20.00      1FXD 310
+ATOM    378  OE2 GLU    27      22.632   8.699   0.803  1.00 20.00      1FXD 311
+ATOM    379  H   GLU    27      20.334   6.577   5.651  1.00 20.41      new  H
+ATOM    380  HA  GLU    27      20.638   8.735   3.956  1.00 21.94      new  H
+ATOM    381 1HB  GLU    27      20.508   5.843   3.674  1.00 22.86      new  H
+ATOM    382 2HB  GLU    27      19.618   6.625   2.361  1.00 22.86      new  H
+ATOM    383 1HG  GLU    27      22.536   7.210   3.118  1.00 32.30      new  H
+ATOM    384 2HG  GLU    27      22.008   6.197   1.768  1.00 32.30      new  H
+ATOM    385  N   GLY    28      17.598   7.444   4.378  1.00 19.53      1FXD 312
+ATOM    386  CA  GLY    28      16.179   7.621   4.138  1.00 16.72      1FXD 313
+ATOM    387  C   GLY    28      15.734   6.856   2.921  1.00 15.53      1FXD 314
+ATOM    388  O   GLY    28      14.794   7.322   2.277  1.00 18.71      1FXD 315
+ATOM    389  H   GLY    28      17.830   6.733   5.042  1.00 19.53      new  H
+ATOM    390 1HA  GLY    28      15.610   7.282   5.016  1.00 16.72      new  H
+ATOM    391 2HA  GLY    28      15.957   8.690   4.004  1.00 16.72      new  H
+ATOM    392  N   ASP    29      16.313   5.740   2.582  1.00 14.90      1FXD 316
+ATOM    393  CA  ASP    29      15.911   5.008   1.362  1.00 13.44      1FXD 317
+ATOM    394  C   ASP    29      15.580   3.570   1.711  1.00 13.38      1FXD 318
+ATOM    395  O   ASP    29      15.323   2.777   0.765  1.00 13.82      1FXD 319
+ATOM    396  CB  ASP    29      16.984   5.137   0.283  1.00 17.69      1FXD 320
+ATOM    397  CG  ASP    29      18.374   4.649   0.625  1.00 20.31      1FXD 321
+ATOM    398  OD1 ASP    29      18.770   4.241   1.742  1.00 16.30      1FXD 322
+ATOM    399  OD2 ASP    29      19.202   4.638  -0.336  1.00 22.61      1FXD 323
+ATOM    400  H   ASP    29      17.049   5.308   3.104  1.00 14.90      new  H
+ATOM    401  HA  ASP    29      14.998   5.453   0.941  1.00 13.44      new  H
+ATOM    402 1HB  ASP    29      16.640   4.589  -0.606  1.00 17.69      new  H
+ATOM    403 2HB  ASP    29      17.056   6.197  -0.001  1.00 17.69      new  H
+ATOM    404  N   LYS    30      15.612   3.305   3.025  1.00 13.29      1FXD 324
+ATOM    405  CA  LYS    30      15.251   1.941   3.437  1.00 11.56      1FXD 325
+ATOM    406  C   LYS    30      14.737   1.982   4.870  1.00 13.21      1FXD 326
+ATOM    407  O   LYS    30      15.269   2.745   5.696  1.00 13.70      1FXD 327
+ATOM    408  CB  LYS    30      16.339   0.899   3.322  1.00 11.63      1FXD 328
+ATOM    409  CG  LYS    30      15.783  -0.532   3.244  1.00 11.23      1FXD 329
+ATOM    410  CD  LYS    30      16.851  -1.590   3.115  1.00 15.84      1FXD 330
+ATOM    411  CE  LYS    30      16.245  -2.967   3.351  1.00 19.58      1FXD 331
+ATOM    412  NZ  LYS    30      17.334  -3.986   3.463  1.00 24.37      1FXD 332
+ATOM    413  H   LYS    30      15.857   3.944   3.754  1.00 13.29      new  H
+ATOM    414  HA  LYS    30      14.482   1.616   2.721  1.00 11.56      new  H
+ATOM    415 1HB  LYS    30      16.943   1.103   2.426  1.00 11.63      new  H
+ATOM    416 2HB  LYS    30      17.012   0.980   4.188  1.00 11.63      new  H
+ATOM    417 1HG  LYS    30      15.186  -0.734   4.146  1.00 11.23      new  H
+ATOM    418 2HG  LYS    30      15.101  -0.605   2.384  1.00 11.23      new  H
+ATOM    419 1HD  LYS    30      17.305  -1.546   2.114  1.00 15.84      new  H
+ATOM    420 2HD  LYS    30      17.655  -1.403   3.842  1.00 15.84      new  H
+ATOM    421 1HE  LYS    30      15.640  -2.960   4.270  1.00 19.58      new  H
+ATOM    422 2HE  LYS    30      15.569  -3.228   2.523  1.00 19.58      new  H
+ATOM    423 1HZ  LYS    30      17.005  -4.866   3.120  1.00 24.37      new  H +
+ATOM    424 2HZ  LYS    30      18.123  -3.692   2.923  1.00 24.37      new  H +
+ATOM    425 3HZ  LYS    30      17.604  -4.082   4.421  1.00 24.37      new  H +
+ATOM    426  N   ALA    31      13.703   1.128   5.104  1.00 11.72      1FXD 333
+ATOM    427  CA  ALA    31      13.183   1.073   6.483  1.00 12.28      1FXD 334
+ATOM    428  C   ALA    31      14.105   0.143   7.308  1.00 11.46      1FXD 335
+ATOM    429  O   ALA    31      14.697  -0.807   6.739  1.00 12.71      1FXD 336
+ATOM    430  CB  ALA    31      11.754   0.610   6.577  1.00  9.40      1FXD 337
+ATOM    431  H   ALA    31      13.260   0.533   4.433  1.00 11.72      new  H
+ATOM    432  HA  ALA    31      13.184   2.098   6.882  1.00 12.28      new  H
+ATOM    433 1HB  ALA    31      11.441   0.596   7.631  1.00  9.40      new  H
+ATOM    434 2HB  ALA    31      11.107   1.298   6.012  1.00  9.40      new  H
+ATOM    435 3HB  ALA    31      11.668  -0.403   6.156  1.00  9.40      new  H
+ATOM    436  N   VAL    32      14.127   0.412   8.578  1.00 10.75      1FXD 338
+ATOM    437  CA  VAL    32      14.893  -0.329   9.571  1.00 11.47      1FXD 339
+ATOM    438  C   VAL    32      13.936  -0.909  10.607  1.00  9.78      1FXD 340
+ATOM    439  O   VAL    32      13.009  -0.192  11.014  1.00 10.76      1FXD 341
+ATOM    440  CB  VAL    32      15.887   0.668  10.254  1.00 12.83      1FXD 342
+ATOM    441  CG1 VAL    32      16.547  -0.010  11.411  1.00 18.59      1FXD 343
+ATOM    442  CG2 VAL    32      16.913   1.262   9.301  1.00 17.90      1FXD 344
+ATOM    443  H   VAL    32      13.605   1.168   8.974  1.00 10.75      new  H
+ATOM    444  HA  VAL    32      15.451  -1.154   9.103  1.00 11.47      new  H
+ATOM    445  HB  VAL    32      15.297   1.526  10.608  1.00 12.83      new  H
+ATOM    446 1HG1 VAL    32      17.247   0.687  11.895  1.00 18.59      new  H
+ATOM    447 2HG1 VAL    32      15.783  -0.324  12.137  1.00 18.59      new  H
+ATOM    448 3HG1 VAL    32      17.098  -0.893  11.054  1.00 18.59      new  H
+ATOM    449 1HG2 VAL    32      17.572   1.949   9.852  1.00 17.90      new  H
+ATOM    450 2HG2 VAL    32      17.514   0.454   8.859  1.00 17.90      new  H
+ATOM    451 3HG2 VAL    32      16.396   1.813   8.502  1.00 17.90      new  H
+ATOM    452  N   VAL    33      14.207  -2.102  11.067  1.00  8.94      1FXD 345
+ATOM    453  CA  VAL    33      13.377  -2.737  12.098  1.00  7.88      1FXD 346
+ATOM    454  C   VAL    33      13.946  -2.475  13.490  1.00 10.93      1FXD 347
+ATOM    455  O   VAL    33      15.014  -3.056  13.810  1.00 10.83      1FXD 348
+ATOM    456  CB  VAL    33      13.365  -4.274  11.823  1.00  9.71      1FXD 349
+ATOM    457  CG1 VAL    33      12.565  -5.026  12.860  1.00  8.70      1FXD 350
+ATOM    458  CG2 VAL    33      12.952  -4.508  10.376  1.00  8.75      1FXD 351
+ATOM    459  H   VAL    33      14.980  -2.657  10.759  1.00  8.94      new  H
+ATOM    460  HA  VAL    33      12.359  -2.321  12.061  1.00  7.88      new  H
+ATOM    461  HB  VAL    33      14.374  -4.697  11.934  1.00  9.71      new  H
+ATOM    462 1HG1 VAL    33      12.583  -6.101  12.629  1.00  8.70      new  H
+ATOM    463 2HG1 VAL    33      13.003  -4.858  13.855  1.00  8.70      new  H
+ATOM    464 3HG1 VAL    33      11.525  -4.667  12.853  1.00  8.70      new  H
+ATOM    465 1HG2 VAL    33      12.939  -5.588  10.168  1.00  8.75      new  H
+ATOM    466 2HG2 VAL    33      11.948  -4.091  10.209  1.00  8.75      new  H
+ATOM    467 3HG2 VAL    33      13.670  -4.014   9.705  1.00  8.75      new  H
+ATOM    468  N   ILE    34      13.293  -1.693  14.283  1.00 10.23      1FXD 352
+ATOM    469  CA  ILE    34      13.734  -1.394  15.647  1.00 11.42      1FXD 353
+ATOM    470  C   ILE    34      13.538  -2.580  16.590  1.00 12.34      1FXD 354
+ATOM    471  O   ILE    34      14.248  -2.591  17.616  1.00 17.20      1FXD 355
+ATOM    472  CB  ILE    34      12.854  -0.213  16.180  1.00 13.15      1FXD 356
+ATOM    473  CG1 ILE    34      13.061   1.060  15.361  1.00 18.04      1FXD 357
+ATOM    474  CG2 ILE    34      13.053  -0.033  17.699  1.00 20.08      1FXD 358
+ATOM    475  CD1 ILE    34      11.887   2.032  15.737  1.00 17.01      1FXD 359
+ATOM    476  H   ILE    34      12.442  -1.236  14.025  1.00 10.23      new  H
+ATOM    477  HA  ILE    34      14.806  -1.149  15.619  1.00 11.42      new  H
+ATOM    478  HB  ILE    34      11.792  -0.465  16.041  1.00 13.15      new  H
+ATOM    479 1HG1 ILE    34      14.035   1.517  15.589  1.00 18.04      new  H
+ATOM    480 2HG1 ILE    34      13.054   0.837  14.284  1.00 18.04      new  H
+ATOM    481 1HG2 ILE    34      12.428   0.799  18.055  1.00 20.08      new  H
+ATOM    482 2HG2 ILE    34      12.763  -0.958  18.219  1.00 20.08      new  H
+ATOM    483 3HG2 ILE    34      14.110   0.188  17.907  1.00 20.08      new  H
+ATOM    484 1HD1 ILE    34      11.991   2.969  15.171  1.00 17.01      new  H
+ATOM    485 2HD1 ILE    34      10.925   1.559  15.490  1.00 17.01      new  H
+ATOM    486 3HD1 ILE    34      11.921   2.250  16.815  1.00 17.01      new  H
+ATOM    487  N   ASN    35      12.578  -3.443  16.386  1.00 10.19      1FXD 360
+ATOM    488  CA  ASN    35      12.340  -4.600  17.288  1.00 12.73      1FXD 361
+ATOM    489  C   ASN    35      11.889  -5.756  16.405  1.00 11.67      1FXD 362
+ATOM    490  O   ASN    35      10.701  -5.849  16.035  1.00 13.12      1FXD 363
+ATOM    491  CB  ASN    35      11.369  -4.308  18.405  1.00 16.34      1FXD 364
+ATOM    492  CG  ASN    35      11.222  -5.501  19.379  1.00 22.89      1FXD 365
+ATOM    493  OD1 ASN    35      11.981  -6.519  19.311  1.00 24.06      1FXD 366
+ATOM    494  ND2 ASN    35      10.214  -5.322  20.248  1.00 23.69      1FXD 367
+ATOM    495  H   ASN    35      11.941  -3.389  15.617  1.00 10.19      new  H
+ATOM    496  HA  ASN    35      13.269  -4.854  17.820  1.00 12.73      new  H
+ATOM    497 1HB  ASN    35      11.709  -3.422  18.962  1.00 16.34      new  H
+ATOM    498 2HB  ASN    35      10.385  -4.062  17.978  1.00 16.34      new  H
+ATOM    499 1HD2 ASN    35      10.004  -6.029  20.923  1.00 23.69      new  H
+ATOM    500 2HD2 ASN    35       9.673  -4.481  20.220  1.00 23.69      new  H
+ATOM    501  N   PRO    36      12.816  -6.602  16.070  1.00 12.80      1FXD 368
+ATOM    502  CA  PRO    36      12.564  -7.686  15.132  1.00 14.58      1FXD 369
+ATOM    503  C   PRO    36      11.755  -8.816  15.676  1.00 13.28      1FXD 370
+ATOM    504  O   PRO    36      11.314  -9.598  14.820  1.00 15.01      1FXD 371
+ATOM    505  CB  PRO    36      13.924  -8.127  14.598  1.00 15.08      1FXD 372
+ATOM    506  CG  PRO    36      14.917  -7.437  15.426  1.00 15.83      1FXD 373
+ATOM    507  CD  PRO    36      14.251  -6.504  16.428  1.00 15.56      1FXD 374
+ATOM    508  HA  PRO    36      11.921  -7.315  14.320  1.00 14.58      new  H
+ATOM    509 1HB  PRO    36      14.041  -9.219  14.668  1.00 15.08      new  H
+ATOM    510 2HB  PRO    36      14.038  -7.858  13.537  1.00 15.08      new  H
+ATOM    511 1HG  PRO    36      15.529  -8.177  15.962  1.00 15.83      new  H
+ATOM    512 2HG  PRO    36      15.598  -6.861  14.782  1.00 15.83      new  H
+ATOM    513 1HD  PRO    36      14.435  -6.821  17.465  1.00 15.56      new  H
+ATOM    514 2HD  PRO    36      14.625  -5.473  16.336  1.00 15.56      new  H
+ATOM    515  N   ASP    37      11.593  -8.839  16.968  1.00 15.15      1FXD 375
+ATOM    516  CA  ASP    37      10.717  -9.868  17.608  1.00 17.25      1FXD 376
+ATOM    517  C   ASP    37       9.335  -9.333  18.072  1.00 17.45      1FXD 377
+ATOM    518  O   ASP    37       8.641  -9.994  18.899  1.00 16.85      1FXD 378
+ATOM    519  CB  ASP    37      11.481 -10.495  18.777  1.00 23.76      1FXD 379
+ATOM    520  CG  ASP    37      12.644 -11.352  18.306  1.00 31.86      1FXD 380
+ATOM    521  OD1 ASP    37      12.408 -12.242  17.466  1.00 35.97      1FXD 381
+ATOM    522  OD2 ASP    37      13.767 -11.126  18.782  1.00 39.90      1FXD 382
+ATOM    523  H   ASP    37      12.023  -8.198  17.604  1.00 15.15      new  H
+ATOM    524  HA  ASP    37      10.481 -10.621  16.841  1.00 17.25      new  H
+ATOM    525 1HB  ASP    37      11.857  -9.699  19.436  1.00 23.76      new  H
+ATOM    526 2HB  ASP    37      10.793 -11.110  19.375  1.00 23.76      new  H
+ATOM    527  N   SER    38       8.878  -8.167  17.627  1.00 14.03      1FXD 383
+ATOM    528  CA  SER    38       7.632  -7.535  18.022  1.00 14.08      1FXD 384
+ATOM    529  C   SER    38       6.412  -8.414  17.707  1.00 13.07      1FXD 385
+ATOM    530  O   SER    38       6.350  -9.065  16.623  1.00 14.29      1FXD 386
+ATOM    531  CB  SER    38       7.419  -6.181  17.285  1.00 12.61      1FXD 387
+ATOM    532  OG  SER    38       6.298  -5.517  17.868  1.00 10.61      1FXD 388
+ATOM    533  H   SER    38       9.386  -7.623  16.959  1.00 14.03      new  H
+ATOM    534  HA  SER    38       7.715  -7.378  19.108  1.00 14.08      new  H
+ATOM    535 1HB  SER    38       7.245  -6.353  16.213  1.00 12.61      new  H
+ATOM    536 2HB  SER    38       8.320  -5.555  17.369  1.00 12.61      new  H
+ATOM    537  HG  SER    38       6.588  -4.635  18.239  1.00 10.61      new  H
+ATOM    538  N   ASP    39       5.489  -8.361  18.618  1.00 11.39      1FXD 389
+ATOM    539  CA  ASP    39       4.196  -9.046  18.479  1.00 13.49      1FXD 390
+ATOM    540  C   ASP    39       3.051  -8.039  18.207  1.00 14.00      1FXD 391
+ATOM    541  O   ASP    39       1.907  -8.492  18.186  1.00 14.35      1FXD 392
+ATOM    542  CB  ASP    39       3.851  -9.848  19.734  1.00 23.27      1FXD 393
+ATOM    543  CG  ASP    39       4.607 -11.142  19.811  1.00 30.13      1FXD 394
+ATOM    544  OD1 ASP    39       5.123 -11.555  18.765  1.00 32.90      1FXD 395
+ATOM    545  OD2 ASP    39       4.668 -11.740  20.904  1.00 37.58      1FXD 396
+ATOM    546  H   ASP    39       5.589  -7.854  19.474  1.00 11.39      new  H
+ATOM    547  HA  ASP    39       4.295  -9.730  17.623  1.00 13.49      new  H
+ATOM    548 1HB  ASP    39       4.073  -9.243  20.625  1.00 23.27      new  H
+ATOM    549 2HB  ASP    39       2.771 -10.056  19.748  1.00 23.27      new  H
+ATOM    550  N   LEU    40       3.334  -6.756  18.076  1.00 12.03      1FXD 397
+ATOM    551  CA  LEU    40       2.323  -5.729  17.884  1.00 10.57      1FXD 398
+ATOM    552  C   LEU    40       1.515  -6.089  16.660  1.00 11.22      1FXD 399
+ATOM    553  O   LEU    40       2.015  -6.604  15.655  1.00 12.58      1FXD 400
+ATOM    554  CB  LEU    40       2.970  -4.371  17.792  1.00  7.53      1FXD 401
+ATOM    555  CG  LEU    40       3.609  -3.739  18.994  1.00 11.66      1FXD 402
+ATOM    556  CD1 LEU    40       4.351  -2.429  18.659  1.00 11.86      1FXD 403
+ATOM    557  CD2 LEU    40       2.524  -3.438  20.030  1.00 14.73      1FXD 404
+ATOM    558  H   LEU    40       4.268  -6.398  18.100  1.00 12.03      new  H
+ATOM    559  HA  LEU    40       1.638  -5.678  18.743  1.00 10.57      new  H
+ATOM    560 1HB  LEU    40       3.742  -4.434  17.011  1.00  7.53      new  H
+ATOM    561 2HB  LEU    40       2.202  -3.672  17.429  1.00  7.53      new  H
+ATOM    562  HG  LEU    40       4.353  -4.450  19.382  1.00 11.66      new  H
+ATOM    563 1HD1 LEU    40       4.796  -2.015  19.575  1.00 11.86      new  H
+ATOM    564 2HD1 LEU    40       5.145  -2.634  17.926  1.00 11.86      new  H
+ATOM    565 3HD1 LEU    40       3.641  -1.703  18.236  1.00 11.86      new  H
+ATOM    566 1HD2 LEU    40       2.981  -2.974  20.916  1.00 14.73      new  H
+ATOM    567 2HD2 LEU    40       1.784  -2.749  19.597  1.00 14.73      new  H
+ATOM    568 3HD2 LEU    40       2.026  -4.374  20.323  1.00 14.73      new  H
+ATOM    569  N   ASP    41       0.222  -5.789  16.769  1.00 12.78      1FXD 405
+ATOM    570  CA  ASP    41      -0.713  -6.054  15.653  1.00 11.72      1FXD 406
+ATOM    571  C   ASP    41      -0.384  -5.109  14.494  1.00 11.60      1FXD 407
+ATOM    572  O   ASP    41      -0.710  -5.453  13.353  1.00 11.36      1FXD 408
+ATOM    573  CB  ASP    41      -2.179  -5.884  16.087  1.00 17.50      1FXD 409
+ATOM    574  CG  ASP    41      -2.674  -6.839  17.154  1.00 18.81      1FXD 410
+ATOM    575  OD1 ASP    41      -2.242  -8.002  17.094  1.00 21.26      1FXD 411
+ATOM    576  OD2 ASP    41      -3.446  -6.371  18.042  1.00 20.00      1FXD 412
+ATOM    577  H   ASP    41      -0.197  -5.379  17.579  1.00 12.78      new  H
+ATOM    578  HA  ASP    41      -0.591  -7.099  15.331  1.00 11.72      new  H
+ATOM    579 1HB  ASP    41      -2.314  -4.856  16.453  1.00 17.50      new  H
+ATOM    580 2HB  ASP    41      -2.818  -5.996  15.199  1.00 17.50      new  H
+ATOM    581  N   CYS    42       0.247  -3.952  14.776  1.00 10.50      1FXD 413
+ATOM    582  CA  CYS    42       0.541  -3.062  13.618  1.00 10.69      1FXD 414
+ATOM    583  C   CYS    42       1.581  -3.706  12.679  1.00 10.74      1FXD 415
+ATOM    584  O   CYS    42       1.766  -3.151  11.574  1.00 10.64      1FXD 416
+ATOM    585  CB  CYS    42       0.910  -1.633  13.952  1.00  9.35      1FXD 417
+ATOM    586  SG  CYS    42       2.298  -1.446  15.128  1.00 14.22      1FXD 418
+ATOM    587  H   CYS    42       0.536  -3.633  15.679  1.00 10.50      new  H
+ATOM    588  HA  CYS    42      -0.423  -2.967  13.097  1.00 10.69      new  H
+ATOM    589 1HB  CYS    42       1.167  -1.109  13.019  1.00  9.35      new  H
+ATOM    590 2HB  CYS    42       0.025  -1.130  14.370  1.00  9.35      new  H
+ATOM    591  N   VAL    43       2.280  -4.728  13.176  1.00  9.71      1FXD 419
+ATOM    592  CA  VAL    43       3.296  -5.365  12.297  1.00  9.46      1FXD 420
+ATOM    593  C   VAL    43       2.535  -5.947  11.111  1.00 10.06      1FXD 421
+ATOM    594  O   VAL    43       2.975  -5.781   9.930  1.00 11.60      1FXD 422
+ATOM    595  CB  VAL    43       4.184  -6.368  13.073  1.00  8.15      1FXD 423
+ATOM    596  CG1 VAL    43       5.030  -7.238  12.120  1.00  6.97      1FXD 424
+ATOM    597  CG2 VAL    43       5.039  -5.654  14.095  1.00  9.63      1FXD 425
+ATOM    598  H   VAL    43       2.186  -5.112  14.094  1.00  9.71      new  H
+ATOM    599  HA  VAL    43       4.031  -4.640  11.917  1.00  9.46      new  H
+ATOM    600  HB  VAL    43       3.519  -7.053  13.618  1.00  8.15      new  H
+ATOM    601 1HG1 VAL    43       5.645  -7.935  12.708  1.00  6.97      new  H
+ATOM    602 2HG1 VAL    43       4.364  -7.808  11.455  1.00  6.97      new  H
+ATOM    603 3HG1 VAL    43       5.684  -6.592  11.517  1.00  6.97      new  H
+ATOM    604 1HG2 VAL    43       5.659  -6.387  14.632  1.00  9.63      new  H
+ATOM    605 2HG2 VAL    43       5.689  -4.927  13.586  1.00  9.63      new  H
+ATOM    606 3HG2 VAL    43       4.392  -5.128  14.812  1.00  9.63      new  H
+ATOM    607  N   GLU    44       1.467  -6.655  11.425  1.00 11.49      1FXD 426
+ATOM    608  CA  GLU    44       0.702  -7.304  10.306  1.00 11.66      1FXD 427
+ATOM    609  C   GLU    44       0.142  -6.303   9.371  1.00 10.01      1FXD 428
+ATOM    610  O   GLU    44       0.146  -6.422   8.144  1.00 10.17      1FXD 429
+ATOM    611  CB  GLU    44      -0.193  -8.426  10.795  1.00 13.89      1FXD 430
+ATOM    612  CG  GLU    44       0.368  -9.807  10.222  1.00 20.67      1FXD 431
+ATOM    613  CD  GLU    44      -0.473 -11.008  10.663  1.00 20.00      1FXD 432
+ATOM    614  OE1 GLU    44      -1.510 -10.855  11.416  1.00 20.00      1FXD 433
+ATOM    615  OE2 GLU    44      -0.130 -12.187  10.269  1.00 20.00      1FXD 434
+ATOM    616  H   GLU    44       1.112  -6.804  12.348  1.00 11.49      new  H
+ATOM    617  HA  GLU    44       1.392  -7.857   9.652  1.00 11.66      new  H
+ATOM    618 1HB  GLU    44      -0.212  -8.448  11.895  1.00 13.89      new  H
+ATOM    619 2HB  GLU    44      -1.228  -8.264  10.458  1.00 13.89      new  H
+ATOM    620 1HG  GLU    44       0.390  -9.763   9.123  1.00 20.67      new  H
+ATOM    621 2HG  GLU    44       1.406  -9.946  10.559  1.00 20.67      new  H
+ATOM    622  N   GLU    45      -0.286  -5.179   9.930  1.00 10.07      1FXD 435
+ATOM    623  CA  GLU    45      -0.797  -4.115   9.069  1.00 11.40      1FXD 436
+ATOM    624  C   GLU    45       0.231  -3.527   8.138  1.00  9.58      1FXD 437
+ATOM    625  O   GLU    45       0.009  -3.235   6.911  1.00  8.56      1FXD 438
+ATOM    626  CB  GLU    45      -1.350  -3.072  10.056  1.00 15.81      1FXD 439
+ATOM    627  CG  GLU    45      -2.612  -2.404   9.538  1.00 26.72      1FXD 440
+ATOM    628  CD  GLU    45      -2.697  -1.015  10.164  1.00 31.83      1FXD 441
+ATOM    629  OE1 GLU    45      -2.544  -1.095  11.397  1.00 26.47      1FXD 442
+ATOM    630  OE2 GLU    45      -2.826  -0.042   9.423  1.00 38.36      1FXD 443
+ATOM    631  H   GLU    45      -0.292  -4.985  10.911  1.00 10.07      new  H
+ATOM    632  HA  GLU    45      -1.559  -4.500   8.375  1.00 11.40      new  H
+ATOM    633 1HB  GLU    45      -1.564  -3.558  11.019  1.00 15.81      new  H
+ATOM    634 2HB  GLU    45      -0.583  -2.306  10.245  1.00 15.81      new  H
+ATOM    635 1HG  GLU    45      -2.587  -2.331   8.441  1.00 26.72      new  H
+ATOM    636 2HG  GLU    45      -3.499  -3.000   9.800  1.00 26.72      new  H
+ATOM    637  N   ALA    46       1.417  -3.316   8.695  1.00  9.99      1FXD 444
+ATOM    638  CA  ALA    46       2.584  -2.786   7.908  1.00  8.96      1FXD 445
+ATOM    639  C   ALA    46       2.980  -3.721   6.777  1.00  9.73      1FXD 446
+ATOM    640  O   ALA    46       3.259  -3.240   5.660  1.00 11.00      1FXD 447
+ATOM    641  CB  ALA    46       3.700  -2.583   8.953  1.00 11.95      1FXD 448
+ATOM    642  H   ALA    46       1.617  -3.490   9.659  1.00  9.99      new  H
+ATOM    643  HA  ALA    46       2.349  -1.843   7.393  1.00  8.96      new  H
+ATOM    644 1HB  ALA    46       4.601  -2.193   8.457  1.00 11.95      new  H
+ATOM    645 2HB  ALA    46       3.363  -1.866   9.716  1.00 11.95      new  H
+ATOM    646 3HB  ALA    46       3.934  -3.545   9.432  1.00 11.95      new  H
+ATOM    647  N   ILE    47       2.984  -5.041   7.063  1.00  6.98      1FXD 449
+ATOM    648  CA  ILE    47       3.357  -6.045   6.035  1.00  8.27      1FXD 450
+ATOM    649  C   ILE    47       2.395  -5.969   4.870  1.00 11.00      1FXD 451
+ATOM    650  O   ILE    47       2.767  -5.904   3.694  1.00 11.69      1FXD 452
+ATOM    651  CB  ILE    47       3.316  -7.479   6.709  1.00  7.13      1FXD 453
+ATOM    652  CG1 ILE    47       4.435  -7.665   7.716  1.00  8.81      1FXD 454
+ATOM    653  CG2 ILE    47       3.330  -8.561   5.608  1.00 11.44      1FXD 455
+ATOM    654  CD1 ILE    47       4.559  -9.028   8.456  1.00 10.77      1FXD 456
+ATOM    655  H   ILE    47       2.745  -5.425   7.955  1.00  6.98      new  H
+ATOM    656  HA  ILE    47       4.368  -5.848   5.650  1.00  8.27      new  H
+ATOM    657  HB  ILE    47       2.382  -7.577   7.282  1.00  7.13      new  H
+ATOM    658 1HG1 ILE    47       5.386  -7.481   7.195  1.00  8.81      new  H
+ATOM    659 2HG1 ILE    47       4.330  -6.880   8.479  1.00  8.81      new  H
+ATOM    660 1HG2 ILE    47       3.302  -9.558   6.072  1.00 11.44      new  H
+ATOM    661 2HG2 ILE    47       2.452  -8.435   4.958  1.00 11.44      new  H
+ATOM    662 3HG2 ILE    47       4.247  -8.463   5.008  1.00 11.44      new  H
+ATOM    663 1HD1 ILE    47       5.416  -8.995   9.145  1.00 10.77      new  H
+ATOM    664 2HD1 ILE    47       3.638  -9.222   9.026  1.00 10.77      new  H
+ATOM    665 3HD1 ILE    47       4.711  -9.832   7.721  1.00 10.77      new  H
+ATOM    666  N   ASP    48       1.071  -5.906   5.238  1.00 12.89      1FXD 457
+ATOM    667  CA  ASP    48      -0.061  -5.867   4.298  1.00 13.07      1FXD 458
+ATOM    668  C   ASP    48      -0.113  -4.579   3.517  1.00 13.09      1FXD 459
+ATOM    669  O   ASP    48      -0.524  -4.595   2.344  1.00 13.64      1FXD 460
+ATOM    670  CB  ASP    48      -1.361  -6.330   4.925  1.00 12.18      1FXD 461
+ATOM    671  CG  ASP    48      -1.363  -7.770   5.374  1.00 17.08      1FXD 462
+ATOM    672  OD1 ASP    48      -0.601  -8.644   4.871  1.00 21.64      1FXD 463
+ATOM    673  OD2 ASP    48      -2.151  -8.111   6.279  1.00 16.46      1FXD 464
+ATOM    674  H   ASP    48       0.783  -5.882   6.195  1.00 12.89      new  H
+ATOM    675  HA  ASP    48       0.118  -6.626   3.522  1.00 13.07      new  H
+ATOM    676 1HB  ASP    48      -1.584  -5.689   5.791  1.00 12.18      new  H
+ATOM    677 2HB  ASP    48      -2.175  -6.185   4.199  1.00 12.18      new  H
+ATOM    678  N   SER    49       0.381  -3.518   4.114  1.00 12.43      1FXD 465
+ATOM    679  CA  SER    49       0.422  -2.196   3.495  1.00 12.76      1FXD 466
+ATOM    680  C   SER    49       1.666  -1.862   2.713  1.00 14.25      1FXD 467
+ATOM    681  O   SER    49       1.682  -0.757   2.080  1.00 16.58      1FXD 468
+ATOM    682  CB  SER    49       0.273  -1.090   4.572  1.00 17.18      1FXD 469
+ATOM    683  OG  SER    49      -0.957  -1.313   5.226  1.00 18.59      1FXD 470
+ATOM    684  H   SER    49       0.765  -3.540   5.037  1.00 12.43      new  H
+ATOM    685  HA  SER    49      -0.414  -2.231   2.781  1.00 12.76      new  H
+ATOM    686 1HB  SER    49       0.293  -0.092   4.110  1.00 17.18      new  H
+ATOM    687 2HB  SER    49       1.107  -1.129   5.288  1.00 17.18      new  H
+ATOM    688  HG  SER    49      -0.853  -2.053   5.890  1.00 18.59      new  H
+ATOM    689  N   CYS    50       2.666  -2.760   2.749  1.00 11.48      1FXD 471
+ATOM    690  CA  CYS    50       3.861  -2.439   1.990  1.00 10.26      1FXD 472
+ATOM    691  C   CYS    50       3.679  -2.829   0.507  1.00  9.17      1FXD 473
+ATOM    692  O   CYS    50       3.538  -4.031   0.217  1.00  9.86      1FXD 474
+ATOM    693  CB  CYS    50       5.087  -3.180   2.577  1.00 14.03      1FXD 475
+ATOM    694  SG  CYS    50       6.588  -2.884   1.560  1.00  8.58      1FXD 476
+ATOM    695  H   CYS    50       2.669  -3.627   3.247  1.00 11.48      new  H
+ATOM    696  HA  CYS    50       4.031  -1.354   2.056  1.00 10.26      new  H
+ATOM    697 1HB  CYS    50       5.266  -2.841   3.608  1.00 14.03      new  H
+ATOM    698 2HB  CYS    50       4.879  -4.259   2.625  1.00 14.03      new  H
+ATOM    699  N   PRO    51       3.802  -1.838  -0.351  1.00  9.79      1FXD 477
+ATOM    700  CA  PRO    51       3.566  -2.099  -1.799  1.00 11.94      1FXD 478
+ATOM    701  C   PRO    51       4.588  -2.976  -2.439  1.00 14.19      1FXD 479
+ATOM    702  O   PRO    51       4.373  -3.701  -3.436  1.00 15.11      1FXD 480
+ATOM    703  CB  PRO    51       3.485  -0.711  -2.398  1.00 11.83      1FXD 481
+ATOM    704  CG  PRO    51       3.286   0.239  -1.251  1.00 13.91      1FXD 482
+ATOM    705  CD  PRO    51       3.996  -0.413  -0.076  1.00 10.59      1FXD 483
+ATOM    706  HA  PRO    51       2.650  -2.683  -1.969  1.00 11.94      new  H
+ATOM    707 1HB  PRO    51       4.405  -0.469  -2.951  1.00 11.83      new  H
+ATOM    708 2HB  PRO    51       2.652  -0.641  -3.113  1.00 11.83      new  H
+ATOM    709 1HG  PRO    51       3.711   1.229  -1.475  1.00 13.91      new  H
+ATOM    710 2HG  PRO    51       2.217   0.389  -1.038  1.00 13.91      new  H
+ATOM    711 1HD  PRO    51       5.062  -0.143  -0.038  1.00 10.59      new  H
+ATOM    712 2HD  PRO    51       3.555  -0.116   0.887  1.00 10.59      new  H
+ATOM    713  N   ALA    52       5.798  -2.919  -1.830  1.00 13.53      1FXD 484
+ATOM    714  CA  ALA    52       6.975  -3.646  -2.312  1.00 12.59      1FXD 485
+ATOM    715  C   ALA    52       7.072  -5.062  -1.784  1.00 11.72      1FXD 486
+ATOM    716  O   ALA    52       7.937  -5.822  -2.265  1.00  9.90      1FXD 487
+ATOM    717  CB  ALA    52       8.245  -2.859  -1.953  1.00 12.70      1FXD 488
+ATOM    718  H   ALA    52       5.971  -2.376  -1.008  1.00 13.53      new  H
+ATOM    719  HA  ALA    52       6.871  -3.734  -3.404  1.00 12.59      new  H
+ATOM    720 1HB  ALA    52       9.129  -3.404  -2.315  1.00 12.70      new  H
+ATOM    721 2HB  ALA    52       8.208  -1.867  -2.426  1.00 12.70      new  H
+ATOM    722 3HB  ALA    52       8.308  -2.742  -0.861  1.00 12.70      new  H
+ATOM    723  N   GLU    53       6.249  -5.313  -0.805  1.00 12.36      1FXD 489
+ATOM    724  CA  GLU    53       6.205  -6.605  -0.097  1.00 15.96      1FXD 490
+ATOM    725  C   GLU    53       7.609  -6.936   0.425  1.00 13.54      1FXD 491
+ATOM    726  O   GLU    53       8.110  -8.054   0.331  1.00 11.29      1FXD 492
+ATOM    727  CB  GLU    53       5.698  -7.718  -0.966  1.00 23.34      1FXD 493
+ATOM    728  CG  GLU    53       4.397  -7.437  -1.749  1.00 29.86      1FXD 494
+ATOM    729  CD  GLU    53       3.906  -8.729  -2.362  1.00 34.06      1FXD 495
+ATOM    730  OE1 GLU    53       4.661  -9.488  -2.943  1.00 35.57      1FXD 496
+ATOM    731  OE2 GLU    53       2.690  -8.914  -2.151  1.00 39.40      1FXD 497
+ATOM    732  H   GLU    53       5.587  -4.646  -0.463  1.00 12.36      new  H
+ATOM    733  HA  GLU    53       5.498  -6.511   0.740  1.00 15.96      new  H
+ATOM    734 1HB  GLU    53       6.486  -7.978  -1.688  1.00 23.34      new  H
+ATOM    735 2HB  GLU    53       5.536  -8.603  -0.334  1.00 23.34      new  H
+ATOM    736 1HG  GLU    53       3.632  -7.019  -1.078  1.00 29.86      new  H
+ATOM    737 2HG  GLU    53       4.580  -6.689  -2.534  1.00 29.86      new  H
+ATOM    738  N   ALA    54       8.203  -5.835   0.930  1.00 12.82      1FXD 498
+ATOM    739  CA  ALA    54       9.554  -5.856   1.419  1.00 12.16      1FXD 499
+ATOM    740  C   ALA    54       9.623  -6.368   2.841  1.00 11.16      1FXD 500
+ATOM    741  O   ALA    54      10.749  -6.767   3.221  1.00 11.33      1FXD 501
+ATOM    742  CB  ALA    54      10.279  -4.502   1.245  1.00 10.28      1FXD 502
+ATOM    743  H   ALA    54       7.755  -4.944   0.999  1.00 12.82      new  H
+ATOM    744  HA  ALA    54      10.104  -6.570   0.789  1.00 12.16      new  H
+ATOM    745 1HB  ALA    54      11.304  -4.581   1.636  1.00 10.28      new  H
+ATOM    746 2HB  ALA    54      10.314  -4.239   0.178  1.00 10.28      new  H
+ATOM    747 3HB  ALA    54       9.736  -3.721   1.797  1.00 10.28      new  H
+ATOM    748  N   ILE    55       8.528  -6.383   3.556  1.00 10.56      1FXD 503
+ATOM    749  CA  ILE    55       8.582  -6.803   4.985  1.00 10.84      1FXD 504
+ATOM    750  C   ILE    55       8.278  -8.263   5.139  1.00 11.05      1FXD 505
+ATOM    751  O   ILE    55       7.201  -8.658   4.715  1.00 13.20      1FXD 506
+ATOM    752  CB  ILE    55       7.700  -5.854   5.876  1.00  9.26      1FXD 507
+ATOM    753  CG1 ILE    55       8.080  -4.374   5.580  1.00 10.10      1FXD 508
+ATOM    754  CG2 ILE    55       7.907  -6.191   7.362  1.00 10.03      1FXD 509
+ATOM    755  CD1 ILE    55       7.041  -3.408   6.213  1.00  9.61      1FXD 510
+ATOM    756  H   ILE    55       7.621  -6.129   3.219  1.00 10.56      new  H
+ATOM    757  HA  ILE    55       9.611  -6.689   5.357  1.00 10.84      new  H
+ATOM    758  HB  ILE    55       6.636  -5.999   5.639  1.00  9.26      new  H
+ATOM    759 1HG1 ILE    55       9.082  -4.159   5.981  1.00 10.10      new  H
+ATOM    760 2HG1 ILE    55       8.127  -4.211   4.493  1.00 10.10      new  H
+ATOM    761 1HG2 ILE    55       7.288  -5.524   7.980  1.00 10.03      new  H
+ATOM    762 2HG2 ILE    55       7.615  -7.236   7.546  1.00 10.03      new  H
+ATOM    763 3HG2 ILE    55       8.966  -6.055   7.625  1.00 10.03      new  H
+ATOM    764 1HD1 ILE    55       7.325  -2.368   5.994  1.00  9.61      new  H
+ATOM    765 2HD1 ILE    55       6.046  -3.612   5.792  1.00  9.61      new  H
+ATOM    766 3HD1 ILE    55       7.015  -3.559   7.302  1.00  9.61      new  H
+ATOM    767  N   VAL    56       9.119  -9.050   5.745  1.00 12.49      1FXD 511
+ATOM    768  CA  VAL    56       8.866 -10.494   5.856  1.00 14.92      1FXD 512
+ATOM    769  C   VAL    56       9.203 -10.985   7.246  1.00 16.48      1FXD 513
+ATOM    770  O   VAL    56       9.783 -10.223   8.022  1.00 16.95      1FXD 514
+ATOM    771  CB  VAL    56       9.756 -11.145   4.765  1.00 18.49      1FXD 515
+ATOM    772  CG1 VAL    56       9.334 -10.596   3.376  1.00 23.13      1FXD 516
+ATOM    773  CG2 VAL    56      11.274 -10.958   4.938  1.00 18.89      1FXD 517
+ATOM    774  H   VAL    56       9.972  -8.743   6.167  1.00 12.49      new  H
+ATOM    775  HA  VAL    56       7.808 -10.754   5.703  1.00 14.92      new  H
+ATOM    776  HB  VAL    56       9.586 -12.228   4.861  1.00 18.49      new  H
+ATOM    777 1HG1 VAL    56       9.960 -11.052   2.595  1.00 23.13      new  H
+ATOM    778 2HG1 VAL    56       8.278 -10.842   3.189  1.00 23.13      new  H
+ATOM    779 3HG1 VAL    56       9.464  -9.504   3.358  1.00 23.13      new  H
+ATOM    780 1HG2 VAL    56      11.802 -11.458   4.113  1.00 18.89      new  H
+ATOM    781 2HG2 VAL    56      11.515  -9.885   4.930  1.00 18.89      new  H
+ATOM    782 3HG2 VAL    56      11.591 -11.398   5.895  1.00 18.89      new  H
+ATOM    783  N   ARG    57       8.836 -12.213   7.507  1.00 18.00      1FXD 518
+ATOM    784  CA  ARG    57       9.094 -12.894   8.773  1.00 24.11      1FXD 519
+ATOM    785  C   ARG    57      10.037 -14.072   8.443  1.00 27.87      1FXD 520
+ATOM    786  O   ARG    57       9.453 -15.018   7.865  1.00 28.21      1FXD 521
+ATOM    787  CB  ARG    57       7.850 -13.584   9.345  1.00 30.49      1FXD 522
+ATOM    788  CG  ARG    57       7.181 -12.896  10.486  1.00 39.29      1FXD 523
+ATOM    789  CD  ARG    57       5.912 -13.559  10.974  1.00 43.69      1FXD 524
+ATOM    790  NE  ARG    57       4.891 -12.480  11.045  1.00 48.02      1FXD 525
+ATOM    791  CZ  ARG    57       4.888 -11.557  12.015  1.00 48.16      1FXD 526
+ATOM    792  NH1 ARG    57       5.742 -11.665  13.037  1.00 50.66      1FXD 527
+ATOM    793  NH2 ARG    57       4.121 -10.467  11.911  1.00 47.87      1FXD 528
+ATOM    794  H   ARG    57       8.345 -12.781   6.847  1.00 18.00      new  H
+ATOM    795  HA  ARG    57       9.473 -12.145   9.483  1.00 24.11      new  H
+ATOM    796 1HB  ARG    57       7.116 -13.701   8.534  1.00 30.49      new  H
+ATOM    797 2HB  ARG    57       8.135 -14.596   9.670  1.00 30.49      new  H
+ATOM    798 1HG  ARG    57       7.890 -12.834  11.324  1.00 39.29      new  H
+ATOM    799 2HG  ARG    57       6.946 -11.864  10.186  1.00 39.29      new  H
+ATOM    800 1HD  ARG    57       5.595 -14.357  10.287  1.00 43.69      new  H
+ATOM    801 2HD  ARG    57       6.064 -14.024  11.959  1.00 43.69      new  H
+ATOM    802  HE  ARG    57       4.180 -12.442  10.342  1.00 48.02      new  H +
+ATOM    803 1HH1 ARG    57       6.381 -12.433  13.076  1.00 50.66      new  H +
+ATOM    804 2HH1 ARG    57       5.742 -10.977  13.763  1.00 50.66      new  H +
+ATOM    805 1HH2 ARG    57       3.544 -10.337  11.105  1.00 47.87      new  H +
+ATOM    806 2HH2 ARG    57       4.124  -9.782  12.640  1.00 47.87      new  H +
+ATOM    807  N   SER    58      11.272 -13.975   8.860  1.00 30.01      1FXD 529
+ATOM    808  CA  SER    58      12.307 -14.983   8.626  1.00 31.87      1FXD 530
+ATOM    809  C   SER    58      12.549 -15.974   9.752  1.00 32.56      1FXD 531
+ATOM    810  O   SER    58      12.841 -17.137   9.359  1.00 34.80      1FXD 532
+ATOM    811  CB  SER    58      13.639 -14.289   8.311  1.00 32.88      1FXD 533
+ATOM    812  OG  SER    58      13.368 -13.196   7.441  1.00 39.87      1FXD 534
+ATOM    813  OXT SER    58      12.464 -15.583  10.912  1.00 33.73      1FXD 535
+ATOM    814  H   SER    58      11.603 -13.187   9.380  1.00 30.01      new  H
+ATOM    815  HA  SER    58      11.919 -15.575   7.784  1.00 31.87      new  H
+ATOM    816 1HB  SER    58      14.338 -14.994   7.837  1.00 32.88      new  H
+ATOM    817 2HB  SER    58      14.117 -13.935   9.236  1.00 32.88      new  H
+ATOM    818  HG  SER    58      13.975 -13.243   6.647  1.00 39.87      new  H
+TER     818      SER    58                                              1FXD 536
+HETATM  819  SD   CS    11       5.696   3.911  -2.520  0.00 21.59      1FXD 537
+HETATM  820  CE   CS    11       4.056   3.489  -2.030  0.00 21.46      1FXD 538
+HETATM  821 FE1  F3S    59       9.970   0.183   2.543  1.00 12.19      1FXD 539
+HETATM  822 FE3  F3S    59       8.234   0.467   4.591  1.00 11.58      1FXD 540
+HETATM  823 FE4  F3S    59       7.501  -1.030   2.358  1.00 11.17      1FXD 541
+HETATM  824  S1  F3S    59       9.574   2.048   3.697  1.00 11.54      1FXD 542
+HETATM  825  S2  F3S    59       8.567   0.118   0.689  1.00 12.36      1FXD 543
+HETATM  826  S3  F3S    59       9.167  -1.539   3.882  1.00  9.69      1FXD 544
+HETATM  827  S4  F3S    59       6.287   0.494   3.416  1.00 12.60      1FXD 545
+HETATM  828  O   HOH    67      15.662  -7.141  11.041  1.00 15.46      1FXD 546
+HETATM  829  O   HOH    68      16.655  -3.489  10.034  1.00 17.53      1FXD 547
+HETATM  830  O   HOH    69      16.181  -0.376  -0.391  1.00 15.39      1FXD 548
+HETATM  831  O   HOH    70      12.459   7.187  10.752  1.00 24.31      1FXD 549
+HETATM  832  O   HOH    71      16.717  -2.728   7.169  1.00 17.93      1FXD 550
+HETATM  833  O   HOH    72       3.803   1.253  16.631  1.00 12.42      1FXD 551
+HETATM  834  O   HOH    73       5.569  -6.902   3.021  1.00 12.23      1FXD 552
+HETATM  835  O   HOH    74       2.473  -6.380   1.053  1.00 23.83      1FXD 553
+HETATM  836  O   HOH    75       0.677   1.671   1.265  1.00 12.83      1FXD 554
+HETATM  837  O   HOH    76       2.409   4.793   0.677  1.00 25.62      1FXD 555
+HETATM  838  O   HOH    77      -0.772   2.474   3.345  1.00 17.73      1FXD 556
+HETATM  839  O   HOH    79       8.031 -13.157  18.694  1.00 16.01      1FXD 557
+HETATM  840  O   HOH    81       8.387 -10.156  -0.964  1.00 20.02      1FXD 558
+HETATM  841  O   HOH    82       5.361  -6.456  -4.976  1.00 14.84      1FXD 559
+HETATM  842  O   HOH    84      16.031  -5.899   8.422  1.00 19.42      1FXD 560
+HETATM  843  O   HOH    85      13.418 -17.968  11.945  1.00 15.81      1FXD 561
+HETATM  844  O   HOH    87      15.566 -20.954  12.518  1.00 15.49      1FXD 562
+HETATM  845  O   HOH    88      13.034 -20.134   9.684  1.00 16.94      1FXD 563
+HETATM  846  O   HOH    90      16.982  -2.266  -4.676  1.00 34.91      1FXD 564
+HETATM  847  O   HOH    91      13.890  -0.670  -4.295  1.00 18.19      1FXD 565
+HETATM  848  O   HOH    92       9.678 -14.743  12.918  1.00 20.19      1FXD 566
+HETATM  849  O   HOH    93      15.740   9.227   7.777  1.00 21.41      1FXD 567
+HETATM  850  O   HOH    94       9.734   1.508  20.232  1.00 22.59      1FXD 568
+HETATM  851  O   HOH    95      -0.653  -2.291  17.380  1.00 17.92      1FXD 569
+HETATM  852  O   HOH    96      -1.138  -4.154  18.956  1.00 18.61      1FXD 570
+HETATM  853  O   HOH    97      14.171  -3.571  -6.100  1.00 17.68      1FXD 571
+HETATM  854  O   HOH    99       9.358   5.688  13.484  1.00 19.53      1FXD 572
+HETATM  855  O   HOH   100      16.845 -10.212  11.388  1.00 17.44      1FXD 573
+HETATM  856  O   HOH   102      11.038   4.905  16.647  1.00 30.82      1FXD 574
+HETATM  857  O   HOH   107       3.523 -13.050  16.453  1.00 24.06      1FXD 575
+HETATM  858  O   HOH   109       9.081  -8.082  21.683  1.00 14.86      1FXD 576
+HETATM  859  O   HOH   110       8.646  -7.818  -3.845  1.00 21.72      1FXD 577
+HETATM  860  O   HOH   112      20.128  -3.558  -4.514  1.00 34.42      1FXD 578
+HETATM  861  O   HOH   113      17.077  -5.266  12.802  1.00 27.99      1FXD 579
+HETATM  862  O   HOH   114      -1.883  -0.950  19.092  1.00 31.59      1FXD 580
+HETATM  863  O   HOH   115      20.726   0.288   4.723  1.00 32.43      1FXD 581
+HETATM  864  O   HOH   116       9.998 -13.306  15.666  1.00 20.40      1FXD 582
+HETATM  865  O   HOH   117       5.729 -10.881   4.000  1.00 20.36      1FXD 583
+HETATM  866  O   HOH   118       2.074  -8.938  14.360  1.00 25.86      1FXD 584
+HETATM  867  O   HOH   119      -3.358  -6.181  12.802  1.00 29.91      1FXD 585
+HETATM  868  O   HOH   120      20.043  -1.472   1.173  1.00 28.42      1FXD 586
+HETATM  869  O   HOH   121       7.896 -10.632  15.051  1.00 22.41      1FXD 587
+HETATM  870  O   HOH   122       0.001  -2.626   0.000  1.00 25.46      1FXD 588
+HETATM  871  O   HOH   123      14.537   2.961  -1.690  1.00 17.79      1FXD 589
+HETATM  872  O   HOH   124      -0.329 -10.132  13.452  1.00 36.73      1FXD 590
+HETATM  873  O   HOH   125      -3.357 -11.300  12.802  1.00 48.04      1FXD 591
+HETATM  874  O   HOH   126      -0.712 -13.199  12.377  1.00 29.06      1FXD 592
+HETATM  875  O   HOH   127      18.061  -6.561   3.052  1.00 18.39      1FXD 593
+HETATM  876  O   HOH   128      18.995  -8.365  -2.201  1.00 27.87      1FXD 594
+HETATM  877  O   HOH   129       7.082 -13.580   5.422  1.00 22.20      1FXD 595
+HETATM  878  O   HOH   130       7.208 -16.712   7.224  1.00 18.08      1FXD 596
+HETATM  879  O   HOH   131       4.323  -9.881  14.932  1.00 20.91      1FXD 597
+HETATM  880  O   HOH   133      16.131 -18.426  13.811  1.00 24.86      1FXD 598
+HETATM  881  O   HOH   134       2.983   4.784  19.462  1.00 20.33      1FXD 599
+HETATM  882  O   HOH   135      12.277   5.236  -4.135  1.00 21.91      1FXD 600
+HETATM  883  O   HOH   136      -3.357  -3.064  12.802  1.00 16.66      1FXD 601
+CONECT  110  109  821                                                   1FXD 602
+CONECT  147  146  819                                                   1FXD 603
+CONECT  182  181  822                                                   1FXD 604
+CONECT  242  241  586                                                   1FXD 605
+CONECT  586  242  585                                                   1FXD 606
+CONECT  694  693  823                                                   1FXD 607
+CONECT  819  147  820                                                   1FXD 608
+CONECT  820  819                                                        1FXD 609
+CONECT  821  110  824  825  826                                         1FXD 610
+CONECT  822  182  824  826  827                                         1FXD 611
+CONECT  823  694  825  826  827                                         1FXD 612
+CONECT  824  821  822                                                   1FXD 613
+CONECT  825  821  823                                                   1FXD 614
+CONECT  826  821  822  823                                              1FXD 615
+CONECT  827  822  823                                                   1FXD 616
+END                                                                     1FXD 618

@@ -1,0 +1,1826 @@
+USER  MOD reduceV2.10.2 H: found=762, std=762, add=0, rem=0, adj=20
+HEADER    ELECTRON TRANSPORT                      11-MAR-92   1PLC      1PLC   2
+COMPND    PLASTOCYANIN (CU2+, PH 6.0)                                   1PLC   3
+SOURCE    POPLAR (POPULUS NIGRA, VARIANT ITALICA) LEAVES                1PLC   4
+AUTHOR    J.M.GUSS,H.C.FREEMAN                                          1PLC   5
+REVDAT   1   31-OCT-93 1PLC    0                                        1PLC   6
+SPRSDE     15-OCT-93 1PLC      1PCY                                     1PLC   7
+JRNL        AUTH   J.M.GUSS,H.D.BARTUNIK,H.C.FREEMAN                    1PLC   8
+JRNL        TITL   ACCURACY AND PRECISION IN PROTEIN CRYSTAL            1PLC   9
+JRNL        TITL 2 STRUCTURE ANALYSIS: RESTRAINED LEAST-SQUARES         1PLC  10
+JRNL        TITL 3 REFINEMENT OF THE CRYSTAL STRUCTURE OF POPLAR        1PLC  11
+JRNL        TITL 4 PLASTOCYANIN AT 1.33 ANGSTROMS RESOLUTION            1PLC  12
+JRNL        REF    ACTA CRYSTALLOGR.,SECT.B      V.  48   790 1992      1PLC  13
+JRNL        REFN   ASTM ASBSDK  DK ISSN 0108-7681                  622  1PLC  14
+REMARK   1                                                              1PLC  15
+REMARK   1 REFERENCE 1                                                  1PLC  16
+REMARK   1  AUTH   J.M.GUSS,H.C.FREEMAN                                 1PLC  17
+REMARK   1  TITL   STRUCTURE OF OXIDIZED POPLAR PLASTOCYANIN AT 1.6     1PLC  18
+REMARK   1  TITL 2 ANGSTROMS RESOLUTION                                 1PLC  19
+REMARK   1  REF    J.MOL.BIOL.                   V. 169   521 1983      1PLC  20
+REMARK   1  REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  1PLC  21
+REMARK   1 REFERENCE 2                                                  1PLC  22
+REMARK   1  AUTH   P.M.COLMAN,H.C.FREEMAN,J.M.GUSS,M.MURATA,            1PLC  23
+REMARK   1  AUTH 2 V.A.NORRIS,J.A.M.RAMSHAW,M.P.VENKATAPPA              1PLC  24
+REMARK   1  TITL   X-RAY CRYSTAL STRUCTURE ANALYSIS OF                  1PLC  25
+REMARK   1  TITL 2 PLASTOCYANIN AT 2.7 ANGSTROMS RESOLUTION             1PLC  26
+REMARK   1  REF    NATURE                        V. 272   319 1978      1PLC  27
+REMARK   1  REFN   ASTM NATUAS  UK ISSN 0028-0836                  006  1PLC  28
+REMARK   1 REFERENCE 3                                                  1PLC  29
+REMARK   1  AUTH   G.V.CHAPMAN,P.M.COLMAN,H.C.FREEMAN,J.M.GUSS,         1PLC  30
+REMARK   1  AUTH 2 M.MURATA,V.A.NORRIS,J.A.M.RAMSHAW,M.P.VENKATAPPA     1PLC  31
+REMARK   1  TITL   PRELIMINARY CRYSTALLOGRAPHIC DATA FOR A              1PLC  32
+REMARK   1  TITL 2 COPPER CONTAINING PROTEIN, PLASTOCYANIN              1PLC  33
+REMARK   1  REF    J.MOL.BIOL.                   V. 110   187 1977      1PLC  34
+REMARK   1  REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  1PLC  35
+REMARK   2                                                              1PLC  36
+REMARK   2 RESOLUTION. 1.33 ANGSTROMS.                                  1PLC  37
+REMARK   3                                                              1PLC  38
+REMARK   3 REFINEMENT.                                                  1PLC  39
+REMARK   3   PROGRAM                    PROLSQ                          1PLC  40
+REMARK   3   AUTHORS                    KONNERT,HENDRICKSON             1PLC  41
+REMARK   3   R VALUE                    0.15                            1PLC  42
+REMARK   3                                                              1PLC  43
+REMARK   3   NUMBER OF REFLECTIONS      14303                           1PLC  44
+REMARK   3   RESOLUTION RANGE        8. - 1.33 ANGSTROMS                1PLC  45
+REMARK   3                                                              1PLC  46
+REMARK   3   NUMBER OF PROTEIN ATOMS                       1546         1PLC  47
+REMARK   3   NUMBER OF SOLVENT ATOMS                        110         1PLC  48
+REMARK   3                                                              1PLC  49
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES (THE VALUES OF             1PLC  50
+REMARK   3      SIGMA, IN PARENTHESES, ARE THE INPUT ESTIMATED          1PLC  51
+REMARK   3      STANDARD DEVIATIONS THAT DETERMINE THE RELATIVE         1PLC  52
+REMARK   3      WEIGHTS OF THE CORRESPONDING RESTRAINTS)                1PLC  53
+REMARK   3    DISTANCE RESTRAINTS (ANGSTROMS)                           1PLC  54
+REMARK   3      BOND DISTANCE                            0.016(0.030)   1PLC  55
+REMARK   3      ANGLE DISTANCE                           0.032(0.040)   1PLC  56
+REMARK   3      PLANAR 1-4 DISTANCE                      0.036(0.050)   1PLC  57
+REMARK   3    PLANE RESTRAINT (ANGSTROMS)                0.011(0.020)   1PLC  58
+REMARK   3    CHIRAL-CENTER RESTRAINT (ANGSTROMS**3)     0.118(0.150)   1PLC  59
+REMARK   3    NON-BONDED CONTACT RESTRAINTS (ANGSTROMS)                 1PLC  60
+REMARK   3      SINGLE TORSION CONTACT                   0.143(0.500)   1PLC  61
+REMARK   3      MULTIPLE TORSION CONTACT                 0.199(0.500)   1PLC  62
+REMARK   3      H-BONDED (X...Y)                         0.195(0.500)   1PLC  63
+REMARK   3      H-BONDED (H...Y)                         0.093(0.500)   1PLC  64
+REMARK   3    CONFORMATIONAL TORSION ANGLE RESTRAINT (DEGREES)          1PLC  65
+REMARK   3      PLANAR                                     2.6(5.0)     1PLC  66
+REMARK   3      CHI                                       14.1(15.0)    1PLC  67
+REMARK   3      AROMATIC                                  12.4(22.0)    1PLC  68
+REMARK   3    ISOTROPIC THERMAL FACTOR RESTRAINTS (ANGSTROMS**2)        1PLC  69
+REMARK   3      MAIN-CHAIN BOND                            2.2(5.0)     1PLC  70
+REMARK   3      MAIN-CHAIN ANGLE                           3.0(7.5)     1PLC  71
+REMARK   3      SIDE-CHAIN BOND                            3.9(10.0)    1PLC  72
+REMARK   3      SIDE-CHAIN ANGLE                           6.0(15.0)    1PLC  73
+REMARK   3      X-H BONDS                                  2.5(10.0)    1PLC  74
+REMARK   3      X-H ANGLES                                 3.3(10.0)    1PLC  75
+REMARK   3    RESTRAINTS AGAINST EXCESSIVE SHIFT                        1PLC  76
+REMARK   3      POSITIONAL PARAMETERS (ANGSTROMS)             (0.1)     1PLC  77
+REMARK   3      MAIN-CHAIN ANGLE  (ANGSTROMS**2)              (3.0)     1PLC  78
+REMARK   3    REDUCTION OF VAN DER WAALS CONTACT DISTANCES              1PLC  79
+REMARK   3      SINGLE                                        (0.3)     1PLC  80
+REMARK   3      MULTIPLE                                      (0.0)     1PLC  81
+REMARK   3      H-BOND                                        (0.2)     1PLC  82
+REMARK   4                                                              1PLC  83
+REMARK   4 HOH 187 AND HOH 183 FORM A DISORDERED PAIR AND BOTH ARE NOT  1PLC  84
+REMARK   4 PRESENT SIMULTANEOUSLY.                                      1PLC  85
+SEQRES   1     99  ILE ASP VAL LEU LEU GLY ALA ASP ASP GLY SER LEU ALA  1PLC  86
+SEQRES   2     99  PHE VAL PRO SER GLU PHE SER ILE SER PRO GLY GLU LYS  1PLC  87
+SEQRES   3     99  ILE VAL PHE LYS ASN ASN ALA GLY PHE PRO HIS ASN ILE  1PLC  88
+SEQRES   4     99  VAL PHE ASP GLU ASP SER ILE PRO SER GLY VAL ASP ALA  1PLC  89
+SEQRES   5     99  SER LYS ILE SER MET SER GLU GLU ASP LEU LEU ASN ALA  1PLC  90
+SEQRES   6     99  LYS GLY GLU THR PHE GLU VAL ALA LEU SER ASN LYS GLY  1PLC  91
+SEQRES   7     99  GLU TYR SER PHE TYR CYS SER PRO HIS GLN GLY ALA GLY  1PLC  92
+SEQRES   8     99  MET VAL GLY LYS VAL THR VAL ASN                      1PLC  93
+FTNOTE   1                                                              1PLC  94
+FTNOTE   1 RESIDUES 16 AND 36 ARE CIS PROLINES.                         1PLC  95
+HET     CU    100       1     COPPER ++ ION                             1PLC  96
+FORMUL   2   CU    CU1 ++                                               1PLC  97
+FORMUL   3  HOH   *110(H2 O1)                                           1PLC  98
+HELIX    1  H1 ALA     52  ILE     55  1 THE ONLY TURN OF HELIX         1PLC  99
+SHEET    1   A 4 ALA    13  VAL    15  0                                1PLC 100
+SHEET    2   A 4 ILE     1  GLY     6 -1  N  LEU     4   O  VAL    15   1PLC 101
+SHEET    3   A 4 LYS    26  ALA    33  1  N  ILE     1   O  LYS    26   1PLC 102
+SHEET    4   A 4 GLY    67  LEU    74 -1  N  GLY    67   O  ASN    31   1PLC 103
+SHEET    1   B 4 SER    17  ILE    21  0                                1PLC 104
+SHEET    2   B 4 MET    92  ASN    99  1  N  LYS    95   O  SER    17   1PLC 105
+SHEET    3   B 4 GLY    78  CYS    84 -1  N  GLY    78   O  VAL    98   1PLC 106
+SHEET    4   B 4 VAL    40  ASP    42 -1  N  VAL    40   O  TYR    83   1PLC 107
+TURN     1  T1 ALA     7  GLY    10     H-BOND N(10)....O(7)            1PLC 108
+TURN     2  T2 PHE    14  SER    17     CIS PRO AT 16                   1PLC 109
+TURN     3  T3 SER    22  GLU    25     H-BOND N(25)....O(22)           1PLC 110
+TURN     4  T4 ASP    42  SER    45     H-BOND N(45)....O(42)           1PLC 111
+TURN     5  T5 PRO    47  VAL    50     H-BOND N(50)....O(47)           1PLC 112
+TURN     6  T6 SER    58  ASP    61     H-BOND N(61)....O(58)           1PLC 113
+TURN     7  T7 ALA    65  GLU    68     H-BOND N(68)....O(65)           1PLC 114
+TURN     8  T8 CYS    84  HIS    87     NO H-BOND (OPEN TURN)           1PLC 115
+TURN     9  T9 GLN    88  GLY    91     H-BOND N(91)....O(88)           1PLC 116
+CRYST1   29.600   46.860   57.600  90.00  90.00  90.00 P 21 21 21    4  1PLC 117
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1PLC 118
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1PLC 119
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1PLC 120
+SCALE1      0.033784  0.000000  0.000000        0.00000                 1PLC 121
+SCALE2      0.000000  0.021340  0.000000        0.00000                 1PLC 122
+SCALE3      0.000000  0.000000  0.017361        0.00000                 1PLC 123
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD NoAdj-H:   37 HIS HD1 :   37 HIS ND1 :  100  CUCU   :(H bumps)
+USER  MOD NoAdj-H:   84 CYS HG  :   84 CYS SG  :  100  CUCU   :(RXR or RXXR)
+USER  MOD NoAdj-H:   87 HIS HD1 :   87 HIS ND1 :  100  CUCU   :(H bumps)
+USER  MOD Set 1.1:   45 SER OG A:   rot  -82:sc=   0.264
+USER  MOD Set 1.2:   81 SER OG  :   rot   94:sc=    1.38
+USER  MOD Set 2.1:   38 ASN     :      amide:sc=    1.24  K(o=1.3,f=-7.4!)
+USER  MOD Set 2.2:   85 SER OG  :   rot  170:sc=  0.0484
+USER  MOD Set 3.1:   32 ASN     :      amide:sc=    3.47  K(o=4.1,f=-0.66)
+USER  MOD Set 3.2:   66 LYS NZ A:NH3+   -133:sc=   0.616   (180deg=0.0589)
+USER  MOD Single :    1 ILE N   :NH3+    160:sc=   0.418   (180deg=-0.228)
+USER  MOD Single :   11 SER OG  :   rot   76:sc=    1.07
+USER  MOD Single :   17 SER OG  :   rot  -88:sc=   0.573
+USER  MOD Single :   20 SER OG  :   rot -150:sc=   0.249
+USER  MOD Single :   22 SER OG  :   rot  111:sc=   0.701
+USER  MOD Single :   26 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :   30 LYS NZ A:NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :   31 ASN     :      amide:sc=  -0.531  K(o=-0.53,f=-4.9!)
+USER  MOD Single :   48 SER OG  :   rot  180:sc=       0
+USER  MOD Single :   53 SER OG  :   rot   75:sc=    0.78
+USER  MOD Single :   54 LYS NZ A:NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :   56 SER OG A:   rot   87:sc=   0.104
+USER  MOD Single :   58 SER OG  :   rot -117:sc=  -0.679!
+USER  MOD Single :   64 ASN    A:      amide:sc=-0.000228  K(o=-0.00023,f=-2.1!)
+USER  MOD Single :   69 THR OG1 :   rot  113:sc=    1.33
+USER  MOD Single :   75 SER OG A:   rot  180:sc=       0
+USER  MOD Single :   76 ASN     :      amide:sc=  0.0956  K(o=0.096,f=-1.1)
+USER  MOD Single :   77 LYS NZ  :NH3+    178:sc=       0   (180deg=-0.00289)
+USER  MOD Single :   80 TYR OH  :   rot   10:sc=    1.73
+USER  MOD Single :   83 TYR OH  :   rot -176:sc=    2.19
+USER  MOD Single :   88 GLN     :      amide:sc=   0.972  K(o=0.97,f=-1.1)
+USER  MOD Single :   95 LYS NZ  :NH3+   -176:sc= 0.00673   (180deg=0.0052)
+USER  MOD Single :   97 THR OG1 :   rot   77:sc=    1.09
+USER  MOD Single :   99 ASN     :      amide:sc=  -0.125  K(o=-0.12,f=-2.7!)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   ILE     1      -1.492  19.511  26.826  1.00 13.46      1PLC 124
+ATOM      2  CA  ILE     1      -1.280  20.833  27.511  1.00 12.56      1PLC 125
+ATOM      3  C   ILE     1      -1.342  21.935  26.477  1.00 12.21      1PLC 126
+ATOM      4  O   ILE     1      -0.827  21.772  25.344  1.00 11.05      1PLC 127
+ATOM      5  CB  ILE     1       0.032  20.826  28.259  1.00 13.31      1PLC 128
+ATOM      6  CG1 ILE     1       0.255  22.122  29.005  1.00 15.73      1PLC 129
+ATOM      7  CG2 ILE     1       1.210  20.589  27.304  1.00 16.66      1PLC 130
+ATOM      8  CD1 ILE     1       1.509  22.087  29.907  1.00 22.36      1PLC 131
+ATOM      9 1H   ILE     1      -1.140  18.774  27.404  1.00 12.75      std  132
+ATOM     10 2H   ILE     1      -2.468  19.317  26.728  1.00 12.05      std  133
+ATOM     11 3H   ILE     1      -0.960  19.513  25.979  1.00 10.60      std  134
+ATOM     12  HA  ILE     1      -2.122  20.974  28.205  1.00 11.61      std  135
+ATOM     13  HB  ILE     1      -0.009  20.001  28.986  1.00 13.21      std  136
+ATOM     14 1HG1 ILE     1       0.464  22.857  28.214  1.00 17.02      std  137
+ATOM     15 2HG1 ILE     1      -0.633  22.416  29.584  1.00 15.67      std  138
+ATOM     16 1HG2 ILE     1       0.983  19.689  26.714  1.00 13.64      std  139
+ATOM     17 2HG2 ILE     1       1.390  21.475  26.677  1.00 10.88      std  140
+ATOM     18 3HG2 ILE     1       2.089  20.337  27.916  1.00 14.38      std  141
+ATOM     19 1HD1 ILE     1       1.570  21.075  30.334  1.00 18.54      std  142
+ATOM     20 2HD1 ILE     1       2.340  22.128  29.187  1.00 21.13      std  143
+ATOM     21 3HD1 ILE     1       1.585  22.960  30.572  1.00 19.26      std  144
+ATOM     22  N   ASP     2      -1.981  23.043  26.836  1.00 10.41      1PLC 145
+ATOM     23  CA  ASP     2      -2.131  24.214  26.012  1.00 10.22      1PLC 146
+ATOM     24  C   ASP     2      -1.074  25.269  26.448  1.00 11.57      1PLC 147
+ATOM     25  O   ASP     2      -0.921  25.535  27.660  1.00 10.70      1PLC 148
+ATOM     26  CB  ASP     2      -3.473  24.926  26.092  1.00 16.07      1PLC 149
+ATOM     27  CG  ASP     2      -4.624  24.149  25.533  1.00 21.44      1PLC 150
+ATOM     28  OD1 ASP     2      -4.378  23.104  24.818  1.00 18.98      1PLC 151
+ATOM     29  OD2 ASP     2      -5.760  24.544  25.775  1.00 31.59      1PLC 152
+ATOM     30  H   ASP     2      -2.368  23.121  27.755  1.00 11.47      std  153
+ATOM     31  HA  ASP     2      -1.997  23.962  24.950  1.00 11.18      std  154
+ATOM     32 1HB  ASP     2      -3.695  25.246  27.121  1.00 14.50      std  155
+ATOM     33 2HB  ASP     2      -3.399  25.877  25.545  1.00 14.80      std  156
+ATOM     34  N   VAL     3      -0.432  25.796  25.423  1.00  8.21      1PLC 157
+ATOM     35  CA  VAL     3       0.594  26.828  25.602  1.00  6.24      1PLC 158
+ATOM     36  C   VAL     3       0.219  28.034  24.733  1.00  6.93      1PLC 159
+ATOM     37  O   VAL     3       0.062  27.864  23.513  1.00  9.88      1PLC 160
+ATOM     38  CB  VAL     3       2.007  26.315  25.248  1.00  7.41      1PLC 161
+ATOM     39  CG1 VAL     3       3.058  27.415  25.387  1.00  9.37      1PLC 162
+ATOM     40  CG2 VAL     3       2.381  25.115  26.090  1.00 11.06      1PLC 163
+ATOM     41  H   VAL     3      -0.610  25.545  24.472  1.00  9.41      std  164
+ATOM     42  HA  VAL     3       0.655  27.121  26.660  1.00  5.64      std  165
+ATOM     43  HB  VAL     3       1.969  26.043  24.183  1.00  4.32      std  166
+ATOM     44 1HG1 VAL     3       2.707  28.427  25.636  1.00  8.84      std  167
+ATOM     45 2HG1 VAL     3       3.886  27.113  26.045  1.00  7.86      std  168
+ATOM     46 3HG1 VAL     3       3.595  27.416  24.427  1.00  8.88      std  169
+ATOM     47 1HG2 VAL     3       1.553  24.464  26.408  1.00 10.40      std  170
+ATOM     48 2HG2 VAL     3       3.172  24.493  25.645  1.00 13.89      std  171
+ATOM     49 3HG2 VAL     3       2.792  25.481  27.042  1.00 11.34      std  172
+ATOM     50  N   LEU     4       0.140  29.195  25.359  1.00  6.15      1PLC 173
+ATOM     51  CA  LEU     4      -0.177  30.428  24.666  1.00  4.79      1PLC 174
+ATOM     52  C   LEU     4       1.085  31.027  24.046  1.00  7.04      1PLC 175
+ATOM     53  O   LEU     4       2.132  31.023  24.710  1.00  7.45      1PLC 176
+ATOM     54  CB  LEU     4      -0.784  31.467  25.599  1.00  7.98      1PLC 177
+ATOM     55  CG  LEU     4      -2.104  31.074  26.254  1.00 15.61      1PLC 178
+ATOM     56  CD1 LEU     4      -2.491  32.178  27.213  1.00 20.68      1PLC 179
+ATOM     57  CD2 LEU     4      -3.194  30.844  25.257  1.00 14.59      1PLC 180
+ATOM     58  H   LEU     4       0.305  29.255  26.343  1.00  9.14      std  181
+ATOM     59  HA  LEU     4      -0.877  30.181  23.854  1.00  7.18      std  182
+ATOM     60 1HB  LEU     4      -0.100  31.651  26.440  1.00  4.82      std  183
+ATOM     61 2HB  LEU     4      -0.906  32.440  25.101  1.00  5.82      std  184
+ATOM     62  HG  LEU     4      -1.961  30.126  26.794  1.00 14.81      std  185
+ATOM     63 1HD1 LEU     4      -1.622  32.400  27.850  1.00 19.53      std  186
+ATOM     64 2HD1 LEU     4      -2.727  33.068  26.612  1.00 19.26      std  187
+ATOM     65 3HD1 LEU     4      -3.355  31.869  27.819  1.00 19.04      std  188
+ATOM     66 1HD2 LEU     4      -3.219  31.600  24.459  1.00 12.42      std  189
+ATOM     67 2HD2 LEU     4      -3.064  29.845  24.816  1.00 13.56      std  190
+ATOM     68 3HD2 LEU     4      -4.168  30.837  25.768  1.00 13.87      std  191
+ATOM     69  N   LEU     5       0.929  31.467  22.794  1.00  7.25      1PLC 192
+ATOM     70  CA  LEU     5       2.032  32.154  22.065  1.00  5.57      1PLC 193
+ATOM     71  C   LEU     5       1.689  33.640  22.219  1.00  7.41      1PLC 194
+ATOM     72  O   LEU     5       0.805  34.175  21.519  1.00  6.33      1PLC 195
+ATOM     73  CB  LEU     5       2.085  31.715  20.645  1.00  9.24      1PLC 196
+ATOM     74  CG  LEU     5       2.266  30.195  20.452  1.00 11.82      1PLC 197
+ATOM     75  CD1 LEU     5       1.983  29.749  19.052  1.00 15.31      1PLC 198
+ATOM     76  CD2 LEU     5       3.663  29.805  20.834  1.00 13.28      1PLC 199
+ATOM     77  H   LEU     5       0.043  31.464  22.330  1.00  7.01      std  200
+ATOM     78  HA  LEU     5       2.993  31.989  22.573  1.00  8.17      std  201
+ATOM     79 1HB  LEU     5       1.146  32.026  20.164  1.00  4.62      std  202
+ATOM     80 2HB  LEU     5       2.959  32.237  20.228  1.00  2.01      std  203
+ATOM     81  HG  LEU     5       1.630  29.660  21.172  1.00 10.60      std  204
+ATOM     82 1HD1 LEU     5       0.999  29.980  18.618  1.00  9.32      std  205
+ATOM     83 2HD1 LEU     5       2.887  29.641  18.434  1.00  4.78      std  206
+ATOM     84 3HD1 LEU     5       1.781  28.695  19.293  1.00 10.87      std  207
+ATOM     85 1HD2 LEU     5       4.362  30.518  20.373  1.00  9.42      std  208
+ATOM     86 2HD2 LEU     5       3.753  29.750  21.929  1.00 10.64      std  209
+ATOM     87 3HD2 LEU     5       3.895  28.821  20.401  1.00 13.93      std  210
+ATOM     88  N   GLY     6       2.369  34.241  23.188  1.00  6.25      1PLC 211
+ATOM     89  CA  GLY     6       2.137  35.668  23.550  1.00  5.18      1PLC 212
+ATOM     90  C   GLY     6       1.166  35.714  24.718  1.00  7.71      1PLC 213
+ATOM     91  O   GLY     6       0.113  35.017  24.709  1.00  8.73      1PLC 214
+ATOM     92  H   GLY     6       3.049  33.768  23.749  1.00  6.43      std  215
+ATOM     93 1HA  GLY     6       3.116  36.121  23.765  1.00  5.01      std  216
+ATOM     94 2HA  GLY     6       1.690  36.129  22.657  1.00  4.72      std  217
+ATOM     95  N   ALA     7       1.489  36.495  25.765  1.00  7.25      1PLC 218
+ATOM     96  CA  ALA     7       0.611  36.649  26.937  1.00  6.54      1PLC 219
+ATOM     97  C   ALA     7      -0.520  37.631  26.626  1.00  6.29      1PLC 220
+ATOM     98  O   ALA     7      -0.457  38.398  25.671  1.00  7.02      1PLC 221
+ATOM     99  CB  ALA     7       1.428  37.111  28.138  1.00  9.59      1PLC 222
+ATOM    100  H   ALA     7       2.327  37.041  25.745  1.00  8.34      std  223
+ATOM    101  HA  ALA     7       0.229  35.662  27.236  1.00  6.86      std  224
+ATOM    102 1HB  ALA     7       2.439  36.695  28.014  1.00  6.73      std  225
+ATOM    103 2HB  ALA     7       1.587  38.194  28.035  1.00  7.03      std  226
+ATOM    104 3HB  ALA     7       0.952  36.784  29.074  1.00  4.02      std  227
+ATOM    105  N   ASP     8      -1.560  37.615  27.464  1.00  6.68      1PLC 228
+ATOM    106  CA  ASP     8      -2.742  38.445  27.338  1.00  8.79      1PLC 229
+ATOM    107  C   ASP     8      -2.466  39.936  27.476  1.00  9.14      1PLC 230
+ATOM    108  O   ASP     8      -3.374  40.737  27.138  1.00 13.31      1PLC 231
+ATOM    109  CB  ASP     8      -3.833  37.961  28.298  1.00 11.97      1PLC 232
+ATOM    110  CG  ASP     8      -4.597  36.788  27.818  1.00 14.95      1PLC 233
+ATOM    111  OD1 ASP     8      -4.447  36.270  26.722  1.00 20.29      1PLC 234
+ATOM    112  OD2 ASP     8      -5.481  36.321  28.660  1.00 12.79      1PLC 235
+ATOM    113  H   ASP     8      -1.578  36.973  28.230  1.00  4.77      std  236
+ATOM    114  HA  ASP     8      -3.246  38.291  26.372  1.00  7.43      std  237
+ATOM    115 1HB  ASP     8      -3.352  37.695  29.251  1.00 12.19      std  238
+ATOM    116 2HB  ASP     8      -4.507  38.785  28.574  1.00 12.27      std  239
+ATOM    117  N   ASP     9      -1.313  40.317  27.948  1.00  8.96      1PLC 240
+ATOM    118  CA  ASP     9      -0.950  41.734  28.089  1.00  8.73      1PLC 241
+ATOM    119  C   ASP     9      -0.032  42.118  26.941  1.00  9.59      1PLC 242
+ATOM    120  O   ASP     9       0.514  43.231  26.985  1.00 12.50      1PLC 243
+ATOM    121  CB  ASP     9      -0.248  42.105  29.395  1.00 10.10      1PLC 244
+ATOM    122  CG  ASP     9       1.021  41.343  29.613  1.00  9.72      1PLC 245
+ATOM    123  OD1 ASP     9       1.480  40.535  28.807  1.00 10.08      1PLC 246
+ATOM    124  OD2 ASP     9       1.599  41.525  30.746  1.00 12.13      1PLC 247
+ATOM    125  H   ASP     9      -0.610  39.652  28.200  1.00  9.94      std  248
+ATOM    126  HA  ASP     9      -1.875  42.328  28.058  1.00 10.09      std  249
+ATOM    127 1HB  ASP     9       0.056  43.162  29.375  1.00 10.08      std  250
+ATOM    128 2HB  ASP     9      -0.951  42.023  30.237  1.00  8.50      std  251
+ATOM    129  N   GLY    10       0.115  41.223  25.974  1.00  8.19      1PLC 252
+ATOM    130  CA  GLY    10       0.996  41.476  24.841  1.00 11.30      1PLC 253
+ATOM    131  C   GLY    10       2.448  41.082  24.998  1.00 12.38      1PLC 254
+ATOM    132  O   GLY    10       3.236  41.283  24.002  1.00 16.85      1PLC 255
+ATOM    133  H   GLY    10      -0.365  40.348  26.033  1.00  6.31      std  256
+ATOM    134 1HA  GLY    10       0.587  40.913  23.989  1.00  9.96      std  257
+ATOM    135 2HA  GLY    10       0.891  42.525  24.526  1.00 10.32      std  258
+ATOM    136  N   SER    11       2.887  40.527  26.099  1.00 11.08      1PLC 259
+ATOM    137  CA  SER    11       4.282  40.098  26.314  1.00 11.02      1PLC 260
+ATOM    138  C   SER    11       4.658  38.959  25.334  1.00  9.99      1PLC 261
+ATOM    139  O   SER    11       3.826  38.108  25.087  1.00  9.54      1PLC 262
+ATOM    140  CB  SER    11       4.611  39.582  27.700  1.00 13.67      1PLC 263
+ATOM    141  OG  SER    11       4.295  40.621  28.598  1.00 18.39      1PLC 264
+ATOM    142  H   SER    11       2.217  40.390  26.828  1.00 13.45      std  265
+ATOM    143  HA  SER    11       4.955  40.951  26.140  1.00 14.82      std  266
+ATOM    144 1HB  SER    11       4.102  38.637  27.942  1.00 11.58      std  267
+ATOM    145 2HB  SER    11       5.687  39.358  27.736  1.00 10.49      std  268
+ATOM    146  HG  SER    11       3.297  40.576  28.636  1.00 14.79      std  269
+ATOM    147  N   LEU    12       5.906  39.033  24.892  1.00  8.59      1PLC 270
+ATOM    148  CA  LEU    12       6.419  38.043  23.946  1.00  7.00      1PLC 271
+ATOM    149  C   LEU    12       7.003  36.867  24.702  1.00  9.16      1PLC 272
+ATOM    150  O   LEU    12       8.225  36.771  24.872  1.00 11.44      1PLC 273
+ATOM    151  CB  LEU    12       7.510  38.711  23.093  1.00 10.61      1PLC 274
+ATOM    152  CG  LEU    12       6.922  39.796  22.176  1.00 13.59      1PLC 275
+ATOM    153  CD1 LEU    12       8.051  40.483  21.497  1.00 17.42      1PLC 276
+ATOM    154  CD2 LEU    12       5.911  39.166  21.235  1.00 18.50      1PLC 277
+ATOM    155  H   LEU    12       6.526  39.774  25.151  1.00  9.46      std  278
+ATOM    156  HA  LEU    12       5.634  37.712  23.250  1.00  2.31      std  279
+ATOM    157 1HB  LEU    12       8.269  39.174  23.740  1.00  7.18      std  280
+ATOM    158 2HB  LEU    12       7.976  37.966  22.432  1.00  3.69      std  281
+ATOM    159  HG  LEU    12       6.400  40.522  22.817  1.00 15.18      std  282
+ATOM    160 1HD1 LEU    12       8.971  40.407  22.094  1.00 14.15      std  283
+ATOM    161 2HD1 LEU    12       8.201  40.115  20.471  1.00 14.50      std  284
+ATOM    162 3HD1 LEU    12       7.779  41.549  21.483  1.00 14.86      std  285
+ATOM    163 1HD2 LEU    12       6.396  38.369  20.652  1.00 15.58      std  286
+ATOM    164 2HD2 LEU    12       5.080  38.656  21.743  1.00 14.90      std  287
+ATOM    165 3HD2 LEU    12       5.455  39.898  20.552  1.00 15.10      std  288
+ATOM    166  N   ALA    13       6.123  35.996  25.119  1.00  5.33      1PLC 289
+ATOM    167  CA  ALA    13       6.414  34.828  25.867  1.00  6.90      1PLC 290
+ATOM    168  C   ALA    13       5.474  33.654  25.599  1.00  4.18      1PLC 291
+ATOM    169  O   ALA    13       4.335  33.891  25.226  1.00  7.63      1PLC 292
+ATOM    170  CB  ALA    13       6.182  35.195  27.366  1.00  9.47      1PLC 293
+ATOM    171  H   ALA    13       5.148  36.142  24.954  1.00  8.53      std  294
+ATOM    172  HA  ALA    13       7.441  34.443  25.784  1.00  7.52      std  295
+ATOM    173 1HB  ALA    13       6.518  36.218  27.591  1.00  8.52      std  296
+ATOM    174 2HB  ALA    13       5.092  35.168  27.514  1.00  7.41      std  297
+ATOM    175 3HB  ALA    13       6.559  34.391  28.016  1.00  4.98      std  298
+ATOM    176  N   PHE    14       6.027  32.513  25.873  1.00  3.52      1PLC 299
+ATOM    177  CA  PHE    14       5.251  31.249  25.849  1.00  5.11      1PLC 300
+ATOM    178  C   PHE    14       4.623  31.193  27.286  1.00  8.60      1PLC 301
+ATOM    179  O   PHE    14       5.366  31.408  28.256  1.00  7.23      1PLC 302
+ATOM    180  CB  PHE    14       6.075  30.017  25.639  1.00  5.85      1PLC 303
+ATOM    181  CG  PHE    14       6.684  29.892  24.289  1.00  5.45      1PLC 304
+ATOM    182  CD1 PHE    14       5.944  29.306  23.267  1.00  6.53      1PLC 305
+ATOM    183  CD2 PHE    14       7.983  30.331  24.022  1.00  5.12      1PLC 306
+ATOM    184  CE1 PHE    14       6.483  29.171  21.980  1.00  7.91      1PLC 307
+ATOM    185  CE2 PHE    14       8.507  30.197  22.730  1.00  6.89      1PLC 308
+ATOM    186  CZ  PHE    14       7.769  29.606  21.714  1.00  6.03      1PLC 309
+ATOM    187  H   PHE    14       6.945  32.397  26.253  1.00  6.64      std  310
+ATOM    188  HA  PHE    14       4.468  31.201  25.078  1.00  5.77      std  311
+ATOM    189 1HB  PHE    14       6.784  29.933  26.476  1.00  6.30      std  312
+ATOM    190 2HB  PHE    14       5.413  29.151  25.786  1.00  2.33      std  313
+ATOM    191  HD1 PHE    14       4.926  28.954  23.492  1.00  6.81      std  314
+ATOM    192  HD2 PHE    14       8.543  30.793  24.848  1.00  7.14      std  315
+ATOM    193  HE1 PHE    14       5.880  28.698  21.191  1.00  7.04      std  316
+ATOM    194  HE2 PHE    14       9.527  30.541  22.503  1.00  9.09      std  317
+ATOM    195  HZ  PHE    14       8.188  29.501  20.703  1.00  4.37      std  318
+ATOM    196  N   VAL    15       3.369  30.905  27.386  1.00  7.80      1PLC 319
+ATOM    197  CA  VAL    15       2.670  30.761  28.670  1.00  5.53      1PLC 320
+ATOM    198  C   VAL    15       2.005  29.391  28.787  1.00  7.01      1PLC 321
+ATOM    199  O   VAL    15       0.987  29.194  28.109  1.00  7.51      1PLC 322
+ATOM    200  CB  VAL    15       1.647  31.896  28.863  1.00  8.96      1PLC 323
+ATOM    201  CG1 VAL    15       1.030  31.812  30.265  1.00 11.54      1PLC 324
+ATOM    202  CG2 VAL    15       2.253  33.266  28.658  1.00 12.05      1PLC 325
+ATOM    203  H   VAL    15       2.827  30.717  26.567  1.00  8.04      std  326
+ATOM    204  HA  VAL    15       3.400  30.870  29.485  1.00  7.10      std  327
+ATOM    205  HB  VAL    15       0.900  31.771  28.065  1.00  7.76      std  328
+ATOM    206 1HG1 VAL    15       0.563  30.833  30.451  1.00 10.18      std  329
+ATOM    207 2HG1 VAL    15       1.828  31.971  31.005  1.00  5.90      std  330
+ATOM    208 3HG1 VAL    15       0.251  32.577  30.395  1.00 11.33      std  331
+ATOM    209 1HG2 VAL    15       2.648  33.370  27.637  1.00 12.33      std  332
+ATOM    210 2HG2 VAL    15       1.430  33.993  28.718  1.00 10.65      std  333
+ATOM    211 3HG2 VAL    15       3.016  33.525  29.406  1.00  6.18      std  334
+ATOM    212  N   PRO    16       2.536  28.477  29.565  1.00  7.10      1PLC 335
+ATOM    213  CA  PRO    16       3.740  28.502  30.348  1.00  7.47      1PLC 336
+ATOM    214  C   PRO    16       4.985  28.306  29.451  1.00  5.22      1PLC 337
+ATOM    215  O   PRO    16       4.894  27.849  28.301  1.00  7.12      1PLC 338
+ATOM    216  CB  PRO    16       3.574  27.301  31.291  1.00  8.43      1PLC 339
+ATOM    217  CG  PRO    16       2.777  26.278  30.525  1.00 10.20      1PLC 340
+ATOM    218  CD  PRO    16       1.861  27.128  29.660  1.00 10.48      1PLC 341
+ATOM    219  HA  PRO    16       3.791  29.444  30.914  1.00  6.68      std  342
+ATOM    220 1HB  PRO    16       4.581  26.890  31.454  1.00 10.11      std  343
+ATOM    221 2HB  PRO    16       3.202  27.519  32.303  1.00 12.14      std  344
+ATOM    222 1HG  PRO    16       3.316  25.532  29.922  1.00 10.15      std  345
+ATOM    223 2HG  PRO    16       2.193  25.684  31.244  1.00  9.90      std  346
+ATOM    224 1HD  PRO    16       1.539  26.802  28.660  1.00  9.42      std  347
+ATOM    225 2HD  PRO    16       0.913  27.306  30.188  1.00  8.04      std  348
+ATOM    226  N   SER    17       6.135  28.645  30.005  1.00  8.20      1PLC 349
+ATOM    227  CA  SER    17       7.389  28.534  29.236  1.00  9.60      1PLC 350
+ATOM    228  C   SER    17       8.224  27.343  29.628  1.00  5.32      1PLC 351
+ATOM    229  O   SER    17       9.042  26.891  28.829  1.00  7.62      1PLC 352
+ATOM    230  CB  SER    17       8.187  29.831  29.317  1.00  9.54      1PLC 353
+ATOM    231  OG  SER    17       8.593  29.972  30.638  1.00 10.81      1PLC 354
+ATOM    232  H   SER    17       6.200  29.023  30.929  1.00  7.66      std  355
+ATOM    233  HA  SER    17       7.104  28.474  28.175  1.00  8.42      std  356
+ATOM    234 1HB  SER    17       9.045  29.789  28.630  1.00 12.00      std  357
+ATOM    235 2HB  SER    17       7.529  30.669  29.042  1.00  9.27      std  358
+ATOM    236  HG  SER    17       7.838  30.457  31.079  1.00 10.57      std  359
+ATOM    237  N   GLU    18       8.023  26.842  30.831  1.00  6.48      1PLC 360
+ATOM    238  CA  GLU    18       8.742  25.639  31.304  1.00  6.49      1PLC 361
+ATOM    239  C   GLU    18       7.693  24.710  31.870  1.00  8.12      1PLC 362
+ATOM    240  O   GLU    18       6.926  25.115  32.735  1.00 11.98      1PLC 363
+ATOM    241  CB  GLU    18       9.819  25.913  32.297  1.00 15.67      1PLC 364
+ATOM    242  CG  GLU    18      11.060  26.714  31.926  1.00 23.86      1PLC 365
+ATOM    243  CD  GLU    18      12.016  26.950  33.087  1.00 29.82      1PLC 366
+ATOM    244  OE1 GLU    18      12.744  25.896  33.357  1.00 35.92      1PLC 367
+ATOM    245  OE2 GLU    18      12.081  28.005  33.707  1.00 32.74      1PLC 368
+ATOM    246  H   GLU    18       7.327  27.233  31.433  1.00  8.07      std  369
+ATOM    247  HA  GLU    18       9.127  25.172  30.385  1.00  8.08      std  370
+ATOM    248 1HB  GLU    18       9.339  26.421  33.146  1.00 16.37      std  371
+ATOM    249 2HB  GLU    18      10.191  24.955  32.690  1.00 14.49      std  372
+ATOM    250 1HG  GLU    18      11.635  26.304  31.083  1.00 23.77      std  373
+ATOM    251 2HG  GLU    18      10.722  27.706  31.593  1.00 22.90      std  374
+ATOM    252  N   PHE    19       7.629  23.473  31.342  1.00  9.17      1PLC 375
+ATOM    253  CA  PHE    19       6.634  22.517  31.788  1.00  6.38      1PLC 376
+ATOM    254  C   PHE    19       7.159  21.120  31.521  1.00  7.25      1PLC 377
+ATOM    255  O   PHE    19       8.140  20.963  30.805  1.00 10.01      1PLC 378
+ATOM    256  CB  PHE    19       5.258  22.718  31.129  1.00 11.63      1PLC 379
+ATOM    257  CG  PHE    19       5.315  22.910  29.643  1.00 10.74      1PLC 380
+ATOM    258  CD1 PHE    19       5.641  24.161  29.112  1.00  9.24      1PLC 381
+ATOM    259  CD2 PHE    19       5.070  21.832  28.808  1.00 11.54      1PLC 382
+ATOM    260  CE1 PHE    19       5.724  24.328  27.714  1.00 10.00      1PLC 383
+ATOM    261  CE2 PHE    19       5.167  21.984  27.419  1.00 13.19      1PLC 384
+ATOM    262  CZ  PHE    19       5.483  23.225  26.886  1.00 10.78      1PLC 385
+ATOM    263  H   PHE    19       8.260  23.193  30.618  1.00  6.36      std  386
+ATOM    264  HA  PHE    19       6.407  22.658  32.855  1.00  9.19      std  387
+ATOM    265 1HB  PHE    19       4.774  21.744  31.293  1.00 14.12      std  388
+ATOM    266 2HB  PHE    19       4.623  23.443  31.658  1.00 14.37      std  389
+ATOM    267  HD1 PHE    19       5.836  25.002  29.793  1.00 10.15      std  390
+ATOM    268  HD2 PHE    19       4.837  20.857  29.260  1.00 10.60      std  391
+ATOM    269  HE1 PHE    19       5.976  25.298  27.260  1.00 11.05      std  392
+ATOM    270  HE2 PHE    19       4.970  21.126  26.760  1.00 12.80      std  393
+ATOM    271  HZ  PHE    19       5.537  23.339  25.793  1.00 14.44      std  394
+ATOM    272  N   SER    20       6.451  20.179  32.115  1.00  8.58      1PLC 395
+ATOM    273  CA  SER    20       6.826  18.748  31.946  1.00  9.60      1PLC 396
+ATOM    274  C   SER    20       5.578  18.028  31.436  1.00 10.53      1PLC 397
+ATOM    275  O   SER    20       4.448  18.459  31.703  1.00 13.22      1PLC 398
+ATOM    276  CB  SER    20       7.293  18.052  33.194  1.00 15.33      1PLC 399
+ATOM    277  OG  SER    20       8.307  18.706  33.878  1.00 13.64      1PLC 400
+ATOM    278  H   SER    20       5.651  20.369  32.684  1.00  7.03      std  401
+ATOM    279  HA  SER    20       7.627  18.686  31.194  1.00  3.67      std  402
+ATOM    280 1HB  SER    20       6.426  17.877  33.848  1.00 12.21      std  403
+ATOM    281 2HB  SER    20       7.627  17.036  32.938  1.00 12.56      std  404
+ATOM    282  HG  SER    20       8.884  18.043  34.355  1.00 15.53      std  405
+ATOM    283  N   ILE    21       5.840  16.969  30.742  1.00 10.76      1PLC 406
+ATOM    284  CA  ILE    21       4.774  16.149  30.150  1.00 12.08      1PLC 407
+ATOM    285  C   ILE    21       5.243  14.697  30.124  1.00 11.74      1PLC 408
+ATOM    286  O   ILE    21       6.426  14.396  30.339  1.00 14.01      1PLC 409
+ATOM    287  CB  ILE    21       4.403  16.558  28.746  1.00 10.35      1PLC 410
+ATOM    288  CG1 ILE    21       5.611  16.414  27.827  1.00 14.93      1PLC 411
+ATOM    289  CG2 ILE    21       3.814  17.967  28.619  1.00 14.89      1PLC 412
+ATOM    290  CD1 ILE    21       5.296  16.425  26.333  1.00 20.39      1PLC 413
+ATOM    291  H   ILE    21       6.766  16.646  30.547  1.00 11.01      std  414
+ATOM    292  HA  ILE    21       3.906  16.175  30.825  1.00 12.00      std  415
+ATOM    293  HB  ILE    21       3.640  15.826  28.444  1.00 15.83      std  416
+ATOM    294 1HG1 ILE    21       6.304  17.245  28.025  1.00 14.43      std  417
+ATOM    295 2HG1 ILE    21       6.050  15.419  27.991  1.00 13.81      std  418
+ATOM    296 1HG2 ILE    21       2.939  18.131  29.265  1.00 10.51      std  419
+ATOM    297 2HG2 ILE    21       4.566  18.766  28.694  1.00  9.63      std  420
+ATOM    298 3HG2 ILE    21       3.336  18.009  27.629  1.00 10.03      std  421
+ATOM    299 1HD1 ILE    21       4.574  17.238  26.164  1.00 17.01      std  422
+ATOM    300 2HD1 ILE    21       6.203  16.622  25.743  1.00 16.83      std  423
+ATOM    301 3HD1 ILE    21       4.878  15.432  26.111  1.00 15.71      std  424
+ATOM    302  N   SER    22       4.246  13.873  29.900  1.00 12.70      1PLC 425
+ATOM    303  CA  SER    22       4.470  12.429  29.796  1.00 13.74      1PLC 426
+ATOM    304  C   SER    22       4.566  12.157  28.308  1.00 11.68      1PLC 427
+ATOM    305  O   SER    22       3.996  12.854  27.452  1.00 14.49      1PLC 428
+ATOM    306  CB  SER    22       3.299  11.683  30.463  1.00 15.77      1PLC 429
+ATOM    307  OG  SER    22       3.269  12.008  31.835  1.00 26.31      1PLC 430
+ATOM    308  H   SER    22       3.297  14.132  29.719  1.00 11.52      std  431
+ATOM    309  HA  SER    22       5.373  12.158  30.363  1.00 13.78      std  432
+ATOM    310 1HB  SER    22       2.361  12.032  30.007  1.00 16.27      std  433
+ATOM    311 2HB  SER    22       3.407  10.594  30.349  1.00 17.11      std  434
+ATOM    312  HG  SER    22       2.460  12.567  32.014  1.00 20.14      std  435
+ATOM    313  N   PRO    23       5.298  11.122  27.962  1.00 13.74      1PLC 436
+ATOM    314  CA  PRO    23       5.443  10.697  26.586  1.00 13.83      1PLC 437
+ATOM    315  C   PRO    23       4.066  10.495  25.948  1.00 15.99      1PLC 438
+ATOM    316  O   PRO    23       3.105   9.927  26.535  1.00 13.50      1PLC 439
+ATOM    317  CB  PRO    23       6.205   9.387  26.684  1.00 12.81      1PLC 440
+ATOM    318  CG  PRO    23       7.021   9.516  27.932  1.00 16.75      1PLC 441
+ATOM    319  CD  PRO    23       6.039  10.222  28.893  1.00 15.60      1PLC 442
+ATOM    320  HA  PRO    23       5.951  11.476  25.999  1.00 14.02      std  443
+ATOM    321 1HB  PRO    23       5.492   8.562  26.829  1.00 14.57      std  444
+ATOM    322 2HB  PRO    23       6.700   9.050  25.761  1.00 15.97      std  445
+ATOM    323 1HG  PRO    23       7.434   8.603  28.386  1.00 18.99      std  446
+ATOM    324 2HG  PRO    23       7.824  10.241  27.733  1.00 19.29      std  447
+ATOM    325 1HD  PRO    23       5.449   9.756  29.696  1.00 15.65      std  448
+ATOM    326 2HD  PRO    23       6.708  10.922  29.415  1.00 14.99      std  449
+ATOM    327  N   GLY    24       4.032  10.977  24.713  1.00 17.87      1PLC 450
+ATOM    328  CA  GLY    24       2.828  10.889  23.869  1.00 19.46      1PLC 451
+ATOM    329  C   GLY    24       1.815  11.958  24.169  1.00 19.66      1PLC 452
+ATOM    330  O   GLY    24       0.841  12.095  23.396  1.00 18.65      1PLC 453
+ATOM    331  H   GLY    24       4.807  11.417  24.259  1.00 16.21      std  454
+ATOM    332 1HA  GLY    24       3.231  11.180  22.888  1.00 15.49      std  455
+ATOM    333 2HA  GLY    24       2.467   9.872  23.658  1.00 17.09      std  456
+ATOM    334  N   GLU    25       1.983  12.717  25.236  1.00 18.75      1PLC 457
+ATOM    335  CA  GLU    25       1.070  13.825  25.589  1.00 18.21      1PLC 458
+ATOM    336  C   GLU    25       1.185  14.930  24.529  1.00 17.91      1PLC 459
+ATOM    337  O   GLU    25       2.340  15.301  24.159  1.00 21.31      1PLC 460
+ATOM    338  CB  GLU    25       1.407  14.447  26.922  1.00 19.05      1PLC 461
+ATOM    339  CG  GLU    25       0.547  15.597  27.413  1.00 23.08      1PLC 462
+ATOM    340  CD  GLU    25       0.557  15.888  28.880  1.00 25.06      1PLC 463
+ATOM    341  OE1 GLU    25       1.252  15.037  29.588  1.00 25.49      1PLC 464
+ATOM    342  OE2 GLU    25      -0.031  16.856  29.338  1.00 29.96      1PLC 465
+ATOM    343  H   GLU    25       2.785  12.580  25.817  1.00 19.82      std  466
+ATOM    344  HA  GLU    25       0.041  13.437  25.609  1.00 19.35      std  467
+ATOM    345 1HB  GLU    25       1.311  13.677  27.702  1.00 21.01      std  468
+ATOM    346 2HB  GLU    25       2.466  14.744  26.899  1.00 17.92      std  469
+ATOM    347 1HG  GLU    25       0.896  16.537  26.961  1.00 24.07      std  470
+ATOM    348 2HG  GLU    25      -0.482  15.524  27.030  1.00 25.26      std  471
+ATOM    349  N   LYS    26       0.051  15.420  24.060  1.00 13.00      1PLC 472
+ATOM    350  CA  LYS    26       0.099  16.470  23.043  1.00 14.65      1PLC 473
+ATOM    351  C   LYS    26       0.199  17.845  23.709  1.00 14.09      1PLC 474
+ATOM    352  O   LYS    26      -0.385  18.154  24.741  1.00 13.89      1PLC 475
+ATOM    353  CB  LYS    26      -1.094  16.450  22.089  1.00 18.52      1PLC 476
+ATOM    354  CG  LYS    26      -2.272  17.274  22.604  1.00 28.68      1PLC 477
+ATOM    355  CD  LYS    26      -3.506  17.164  21.679  1.00 37.29      1PLC 478
+ATOM    356  CE  LYS    26      -4.731  17.837  22.271  1.00 43.83      1PLC 479
+ATOM    357  NZ  LYS    26      -5.959  17.761  21.436  1.00 46.53      1PLC 480
+ATOM    358  H   LYS    26      -0.841  15.096  24.375  1.00 15.75      std  481
+ATOM    359  HA  LYS    26       0.992  16.316  22.420  1.00 12.53      std  482
+ATOM    360 1HB  LYS    26      -0.789  16.861  21.115  1.00 17.55      std  483
+ATOM    361 2HB  LYS    26      -1.358  15.398  21.905  1.00 16.24      std  484
+ATOM    362 1HG  LYS    26      -2.518  16.978  23.634  1.00 29.17      std  485
+ATOM    363 2HG  LYS    26      -1.989  18.334  22.684  1.00 27.82      std  486
+ATOM    364 1HD  LYS    26      -3.263  17.714  20.758  1.00 36.18      std  487
+ATOM    365 2HD  LYS    26      -3.687  16.110  21.420  1.00 36.43      std  488
+ATOM    366 1HE  LYS    26      -4.986  17.453  23.270  1.00 44.60      std  489
+ATOM    367 2HE  LYS    26      -4.534  18.913  22.390  1.00 44.31      std  490
+ATOM    368 1HZ  LYS    26      -6.754  18.210  21.844  1.00 46.50      std  491
+ATOM    369 2HZ  LYS    26      -5.777  18.045  20.495  1.00 46.16      std  492
+ATOM    370 3HZ  LYS    26      -6.250  16.812  21.316  1.00 45.37      std  493
+ATOM    371  N   ILE    27       1.003  18.659  23.026  1.00  9.36      1PLC 494
+ATOM    372  CA  ILE    27       1.255  20.065  23.349  1.00  8.92      1PLC 495
+ATOM    373  C   ILE    27       0.509  20.856  22.244  1.00  8.36      1PLC 496
+ATOM    374  O   ILE    27       0.770  20.615  21.060  1.00  9.77      1PLC 497
+ATOM    375  CB  ILE    27       2.707  20.494  23.292  1.00 10.04      1PLC 498
+ATOM    376  CG1 ILE    27       3.611  19.662  24.183  1.00 13.02      1PLC 499
+ATOM    377  CG2 ILE    27       2.870  21.982  23.636  1.00 11.67      1PLC 500
+ATOM    378  CD1 ILE    27       5.103  19.909  23.983  1.00 16.21      1PLC 501
+ATOM    379  H   ILE    27       1.441  18.389  22.169  1.00 13.04      std  502
+ATOM    380  HA  ILE    27       0.832  20.363  24.320  1.00  8.21      std  503
+ATOM    381  HB  ILE    27       3.096  20.436  22.265  1.00  9.30      std  504
+ATOM    382 1HG1 ILE    27       3.384  19.917  25.229  1.00 14.91      std  505
+ATOM    383 2HG1 ILE    27       3.439  18.588  24.017  1.00 13.40      std  506
+ATOM    384 1HG2 ILE    27       2.490  22.199  24.645  1.00  9.37      std  507
+ATOM    385 2HG2 ILE    27       3.948  22.194  23.576  1.00  9.74      std  508
+ATOM    386 3HG2 ILE    27       2.379  22.572  22.848  1.00  9.97      std  509
+ATOM    387 1HD1 ILE    27       5.211  20.393  23.001  1.00 17.11      std  510
+ATOM    388 2HD1 ILE    27       5.431  20.617  24.758  1.00 16.63      std  511
+ATOM    389 3HD1 ILE    27       5.673  18.969  24.008  1.00 16.89      std  512
+ATOM    390  N   VAL    28      -0.424  21.729  22.640  1.00  5.97      1PLC 513
+ATOM    391  CA  VAL    28      -1.116  22.571  21.650  1.00  6.49      1PLC 514
+ATOM    392  C   VAL    28      -0.656  24.024  21.841  1.00  7.51      1PLC 515
+ATOM    393  O   VAL    28      -1.018  24.590  22.863  1.00  8.57      1PLC 516
+ATOM    394  CB  VAL    28      -2.625  22.466  21.769  1.00  8.61      1PLC 517
+ATOM    395  CG1 VAL    28      -3.285  23.439  20.804  1.00 13.57      1PLC 518
+ATOM    396  CG2 VAL    28      -3.101  21.042  21.537  1.00 11.69      1PLC 519
+ATOM    397  H   VAL    28      -0.572  21.888  23.616  1.00  7.45      std  520
+ATOM    398  HA  VAL    28      -0.855  22.264  20.627  1.00  4.12      std  521
+ATOM    399  HB  VAL    28      -2.844  22.754  22.808  1.00  6.03      std  522
+ATOM    400 1HG1 VAL    28      -2.678  24.314  20.528  1.00  8.48      std  523
+ATOM    401 2HG1 VAL    28      -3.561  22.912  19.878  1.00 12.63      std  524
+ATOM    402 3HG1 VAL    28      -4.233  23.755  21.265  1.00 12.64      std  525
+ATOM    403 1HG2 VAL    28      -2.395  20.338  22.001  1.00  4.90      std  526
+ATOM    404 2HG2 VAL    28      -4.101  20.897  21.971  1.00  7.27      std  527
+ATOM    405 3HG2 VAL    28      -3.153  20.893  20.448  1.00  2.00      std  528
+ATOM    406  N   PHE    29       0.128  24.524  20.906  1.00  8.68      1PLC 529
+ATOM    407  CA  PHE    29       0.638  25.921  20.936  1.00  6.03      1PLC 530
+ATOM    408  C   PHE    29      -0.452  26.775  20.275  1.00  9.04      1PLC 531
+ATOM    409  O   PHE    29      -0.806  26.464  19.118  1.00 10.82      1PLC 532
+ATOM    410  CB  PHE    29       1.963  26.022  20.224  1.00  7.34      1PLC 533
+ATOM    411  CG  PHE    29       3.109  25.341  20.897  1.00  6.43      1PLC 534
+ATOM    412  CD1 PHE    29       3.763  25.970  21.952  1.00 10.79      1PLC 535
+ATOM    413  CD2 PHE    29       3.514  24.075  20.470  1.00  8.42      1PLC 536
+ATOM    414  CE1 PHE    29       4.872  25.328  22.560  1.00 11.21      1PLC 537
+ATOM    415  CE2 PHE    29       4.601  23.426  21.052  1.00  9.69      1PLC 538
+ATOM    416  CZ  PHE    29       5.273  24.060  22.088  1.00  8.97      1PLC 539
+ATOM    417  H   PHE    29       0.382  24.004  20.090  1.00  7.08      std  540
+ATOM    418  HA  PHE    29       0.833  26.322  21.941  1.00  4.13      std  541
+ATOM    419 1HB  PHE    29       1.893  25.718  19.169  1.00  4.31      std  542
+ATOM    420 2HB  PHE    29       2.210  27.092  20.164  1.00  7.23      std  543
+ATOM    421  HD1 PHE    29       3.452  26.970  22.288  1.00  8.34      std  544
+ATOM    422  HD2 PHE    29       2.972  23.613  19.632  1.00  7.94      std  545
+ATOM    423  HE1 PHE    29       5.428  25.791  23.389  1.00 10.50      std  546
+ATOM    424  HE2 PHE    29       4.919  22.431  20.708  1.00  7.29      std  547
+ATOM    425  HZ  PHE    29       6.116  23.540  22.567  1.00 10.61      std  548
+ATOM    426  N   LYS    30      -0.930  27.774  20.957  1.00  8.07      1PLC 549
+ATOM    427  CA  LYS    30      -2.028  28.602  20.421  1.00 10.86      1PLC 550
+ATOM    428  C   LYS    30      -1.629  30.029  20.254  1.00  9.16      1PLC 551
+ATOM    429  O   LYS    30      -1.226  30.665  21.243  1.00  7.63      1PLC 552
+ATOM    430  CB ALYS    30      -3.201  28.489  21.415  0.50 13.41      1PLC 553
+ATOM    431  CB BLYS    30      -3.250  28.517  21.354  0.50 15.09      1PLC 554
+ATOM    432  CG ALYS    30      -4.397  29.366  21.249  0.50 16.84      1PLC 555
+ATOM    433  CG BLYS    30      -4.600  28.495  20.646  0.50 21.50      1PLC 556
+ATOM    434  CD ALYS    30      -5.681  28.891  21.893  0.50 20.64      1PLC 557
+ATOM    435  CD BLYS    30      -5.745  28.171  21.589  0.50 24.43      1PLC 558
+ATOM    436  CE ALYS    30      -5.527  28.212  23.225  0.50 23.18      1PLC 559
+ATOM    437  CE BLYS    30      -5.585  26.973  22.460  0.50 24.88      1PLC 560
+ATOM    438  NZ ALYS    30      -6.825  28.052  23.929  0.50 20.02      1PLC 561
+ATOM    439  NZ BLYS    30      -5.971  25.681  21.860  0.50 26.52      1PLC 562
+ATOM    440  H   LYS    30      -0.632  27.963  21.893  1.00  8.96      std  563
+ATOM    441  HA  LYS    30      -2.343  28.174  19.458  1.00 10.61      std  564
+ATOM    442 1HB ALYS    30      -3.405  27.446  21.699  0.50 14.09      std  565
+ATOM    443 1HB BLYS    30      -3.121  27.623  21.982  0.50 15.93      std  566
+ATOM    444 2HB ALYS    30      -2.694  28.885  22.307  0.50 13.96      std  567
+ATOM    445 2HB BLYS    30      -3.182  29.407  21.997  0.50 15.16      std  568
+ATOM    446 1HG ALYS    30      -4.197  30.381  21.622  0.50 18.44      std  569
+ATOM    447 1HG BLYS    30      -4.795  29.485  20.209  0.50 20.74      std  570
+ATOM    448 2HG ALYS    30      -4.625  29.551  20.189  0.50 17.98      std  571
+ATOM    449 2HG BLYS    30      -4.632  27.841  19.762  0.50 20.04      std  572
+ATOM    450 1HD ALYS    30      -6.320  29.769  22.069  0.50 21.47      std  573
+ATOM    451 1HD BLYS    30      -5.945  29.048  22.222  0.50 24.46      std  574
+ATOM    452 2HD ALYS    30      -6.282  28.288  21.196  0.50 21.94      std  575
+ATOM    453 2HD BLYS    30      -6.668  28.088  20.997  0.50 24.54      std  576
+ATOM    454 1HE ALYS    30      -5.098  27.204  23.120  0.50 22.69      std  577
+ATOM    455 1HE BLYS    30      -4.600  26.854  22.936  0.50 25.84      std  578
+ATOM    456 2HE ALYS    30      -4.894  28.792  23.913  0.50 23.28      std  579
+ATOM    457 2HE BLYS    30      -6.289  27.067  23.300  0.50 25.75      std  580
+ATOM    458 1HZ ALYS    30      -6.695  27.598  24.811  0.50 21.25      std  581
+ATOM    459 1HZ BLYS    30      -6.798  25.746  21.301  0.50 26.03      std  582
+ATOM    460 2HZ ALYS    30      -7.267  28.946  24.000  0.50 21.83      std  583
+ATOM    461 2HZ BLYS    30      -5.201  25.158  21.496  0.50 25.17      std  584
+ATOM    462 3HZ ALYS    30      -7.444  27.490  23.380  0.50 21.60      std  585
+ATOM    463 3HZ BLYS    30      -6.290  25.092  22.602  0.50 25.92      std  586
+ATOM    464  N   ASN    31      -1.793  30.521  19.014  1.00  7.42      1PLC 587
+ATOM    465  CA  ASN    31      -1.447  31.939  18.715  1.00  7.53      1PLC 588
+ATOM    466  C   ASN    31      -2.374  32.861  19.522  1.00  9.46      1PLC 589
+ATOM    467  O   ASN    31      -3.591  32.775  19.351  1.00 11.13      1PLC 590
+ATOM    468  CB  ASN    31      -1.554  32.203  17.229  1.00 11.76      1PLC 591
+ATOM    469  CG  ASN    31      -0.407  32.980  16.662  1.00 11.26      1PLC 592
+ATOM    470  OD1 ASN    31       0.627  33.123  17.323  1.00 12.70      1PLC 593
+ATOM    471  ND2 ASN    31      -0.562  33.414  15.407  1.00 14.62      1PLC 594
+ATOM    472  H   ASN    31      -2.130  29.947  18.268  1.00  6.05      std  595
+ATOM    473  HA  ASN    31      -0.389  32.095  18.972  1.00  8.16      std  596
+ATOM    474 1HB  ASN    31      -1.646  31.263  16.665  1.00 13.21      std  597
+ATOM    475 2HB  ASN    31      -2.489  32.744  17.023  1.00 12.15      std  598
+ATOM    476 1HD2 ASN    31       0.172  33.933  14.968  1.00 12.99      std  599
+ATOM    477 2HD2 ASN    31      -1.410  33.264  14.898  1.00 14.05      std  600
+ATOM    478  N   ASN    32      -1.733  33.683  20.351  1.00  7.02      1PLC 601
+ATOM    479  CA  ASN    32      -2.541  34.528  21.255  1.00  7.24      1PLC 602
+ATOM    480  C   ASN    32      -2.353  36.000  21.144  1.00 10.08      1PLC 603
+ATOM    481  O   ASN    32      -3.411  36.664  21.010  1.00 13.20      1PLC 604
+ATOM    482  CB  ASN    32      -2.307  34.032  22.688  1.00  7.64      1PLC 605
+ATOM    483  CG  ASN    32      -3.246  34.581  23.701  1.00 12.38      1PLC 606
+ATOM    484  OD1 ASN    32      -4.466  34.449  23.546  1.00 13.95      1PLC 607
+ATOM    485  ND2 ASN    32      -2.712  35.185  24.752  1.00 10.31      1PLC 608
+ATOM    486  H   ASN    32      -0.741  33.682  20.480  1.00  7.36      std  609
+ATOM    487  HA  ASN    32      -3.597  34.230  21.173  1.00  8.35      std  610
+ATOM    488 1HB  ASN    32      -2.559  32.961  22.696  1.00  6.31      std  611
+ATOM    489 2HB  ASN    32      -1.261  34.121  23.016  1.00  6.17      std  612
+ATOM    490 1HD2 ASN    32      -3.296  35.566  25.469  1.00 14.15      std  613
+ATOM    491 2HD2 ASN    32      -1.721  35.272  24.853  1.00 13.62      std  614
+ATOM    492  N   ALA    33      -1.169  36.500  21.211  1.00  8.64      1PLC 615
+ATOM    493  CA  ALA    33      -0.936  37.960  21.110  1.00  9.51      1PLC 616
+ATOM    494  C   ALA    33       0.486  38.184  20.636  1.00 11.88      1PLC 617
+ATOM    495  O   ALA    33       1.365  37.341  20.914  1.00  9.93      1PLC 618
+ATOM    496  CB  ALA    33      -1.149  38.581  22.474  1.00 13.76      1PLC 619
+ATOM    497  H   ALA    33      -0.359  35.924  21.322  1.00 10.93      std  620
+ATOM    498  HA  ALA    33      -1.676  38.403  20.428  1.00  9.09      std  621
+ATOM    499 1HB  ALA    33      -2.037  38.146  22.955  1.00 10.43      std  622
+ATOM    500 2HB  ALA    33      -0.229  38.401  23.049  1.00  9.17      std  623
+ATOM    501 3HB  ALA    33      -1.247  39.676  22.429  1.00  6.33      std  624
+ATOM    502  N   GLY    34       0.686  39.280  19.934  1.00 11.55      1PLC 625
+ATOM    503  CA  GLY    34       2.028  39.646  19.462  1.00 11.77      1PLC 626
+ATOM    504  C   GLY    34       2.546  38.795  18.327  1.00 11.00      1PLC 627
+ATOM    505  O   GLY    34       3.769  38.726  18.101  1.00 12.71      1PLC 628
+ATOM    506  H   GLY    34      -0.048  39.934  19.751  1.00  9.39      std  629
+ATOM    507 1HA  GLY    34       1.982  40.699  19.149  1.00 11.73      std  630
+ATOM    508 2HA  GLY    34       2.706  39.659  20.328  1.00 10.68      std  631
+ATOM    509  N   PHE    35       1.596  38.157  17.636  1.00 13.52      1PLC 632
+ATOM    510  CA  PHE    35       1.903  37.294  16.476  1.00 15.17      1PLC 633
+ATOM    511  C   PHE    35       2.364  38.230  15.334  1.00 16.86      1PLC 634
+ATOM    512  O   PHE    35       2.163  39.446  15.413  1.00 19.38      1PLC 635
+ATOM    513  CB  PHE    35       0.765  36.371  16.051  1.00 15.13      1PLC 636
+ATOM    514  CG  PHE    35      -0.574  37.003  16.304  1.00 13.76      1PLC 637
+ATOM    515  CD1 PHE    35      -1.101  37.879  15.360  1.00 18.14      1PLC 638
+ATOM    516  CD2 PHE    35      -1.253  36.738  17.489  1.00 16.11      1PLC 639
+ATOM    517  CE1 PHE    35      -2.340  38.478  15.586  1.00 21.52      1PLC 640
+ATOM    518  CE2 PHE    35      -2.500  37.311  17.739  1.00 15.28      1PLC 641
+ATOM    519  CZ  PHE    35      -3.030  38.194  16.769  1.00 19.44      1PLC 642
+ATOM    520  H   PHE    35       0.627  38.252  17.863  1.00 12.99      std  643
+ATOM    521  HA  PHE    35       2.699  36.578  16.729  1.00 16.15      std  644
+ATOM    522 1HB  PHE    35       0.811  36.234  14.960  1.00 14.08      std  645
+ATOM    523 2HB  PHE    35       0.858  35.382  16.523  1.00 15.30      std  646
+ATOM    524  HD1 PHE    35      -0.539  38.079  14.436  1.00 17.21      std  647
+ATOM    525  HD2 PHE    35      -0.799  36.040  18.208  1.00 17.51      std  648
+ATOM    526  HE1 PHE    35      -2.770  39.165  14.842  1.00 18.26      std  649
+ATOM    527  HE2 PHE    35      -3.065  37.117  18.663  1.00 17.96      std  650
+ATOM    528  HZ  PHE    35      -4.005  38.670  16.949  1.00 20.27      std  651
+ATOM    529  N   PRO    36       2.981  37.662  14.335  1.00 16.08      1PLC 652
+ATOM    530  CA  PRO    36       3.263  36.259  14.099  1.00 12.93      1PLC 653
+ATOM    531  C   PRO    36       4.286  35.653  15.040  1.00  9.07      1PLC 654
+ATOM    532  O   PRO    36       5.189  36.299  15.576  1.00  9.71      1PLC 655
+ATOM    533  CB  PRO    36       3.774  36.173  12.649  1.00 14.31      1PLC 656
+ATOM    534  CG  PRO    36       3.412  37.521  12.008  1.00 20.30      1PLC 657
+ATOM    535  CD  PRO    36       3.467  38.507  13.169  1.00 19.70      1PLC 658
+ATOM    536  HA  PRO    36       2.347  35.651  14.129  1.00 13.03      std  659
+ATOM    537 1HB  PRO    36       4.869  36.085  12.699  1.00 12.40      std  660
+ATOM    538 2HB  PRO    36       3.421  35.306  12.071  1.00 10.24      std  661
+ATOM    539 1HG  PRO    36       4.126  37.792  11.216  1.00 19.65      std  662
+ATOM    540 2HG  PRO    36       2.382  37.477  11.625  1.00 19.10      std  663
+ATOM    541 1HD  PRO    36       4.431  38.947  13.463  1.00 16.72      std  664
+ATOM    542 2HD  PRO    36       2.826  39.378  12.969  1.00 13.73      std  665
+ATOM    543  N   HIS    37       4.103  34.339  15.185  1.00  9.09      1PLC 666
+ATOM    544  CA  HIS    37       4.992  33.545  15.990  1.00  7.13      1PLC 667
+ATOM    545  C   HIS    37       5.176  32.169  15.301  1.00  9.86      1PLC 668
+ATOM    546  O   HIS    37       4.427  31.772  14.434  1.00  7.84      1PLC 669
+ATOM    547  CB  HIS    37       4.395  33.294  17.344  1.00  8.68      1PLC 670
+ATOM    548  CG  HIS    37       4.163  34.407  18.291  1.00  7.40      1PLC 671
+ATOM    549  ND1 HIS    37       5.162  35.218  18.775  1.00  7.57      1PLC 672
+ATOM    550  CD2 HIS    37       2.952  34.795  18.848  1.00  8.92      1PLC 673
+ATOM    551  CE1 HIS    37       4.572  36.081  19.598  1.00  9.97      1PLC 674
+ATOM    552  NE2 HIS    37       3.236  35.857  19.674  1.00  9.88      1PLC 675
+ATOM    553  H   HIS    37       3.376  33.836  14.719  1.00  6.82      std  676
+ATOM    554  HA  HIS    37       5.962  34.062  16.030  1.00  3.82      std  677
+ATOM    555 1HB  HIS    37       3.385  32.896  17.165  1.00  2.00      std  678
+ATOM    556 2HB  HIS    37       5.001  32.502  17.808  1.00  2.00      std  679
+ATOM    557  HD2 HIS    37       1.933  34.402  18.717  1.00  9.89      std  680
+ATOM    558  HE1 HIS    37       5.115  36.867  20.143  1.00  6.73      std  681
+ATOM    559  HE2 HIS    37       2.586  36.381  20.224  1.00  8.98      std  682
+ATOM    560  N   ASN    38       6.198  31.468  15.812  1.00  5.70      1PLC 683
+ATOM    561  CA  ASN    38       6.450  30.074  15.388  1.00  6.81      1PLC 684
+ATOM    562  C   ASN    38       7.065  29.344  16.612  1.00  6.62      1PLC 685
+ATOM    563  O   ASN    38       7.373  29.977  17.639  1.00  7.05      1PLC 686
+ATOM    564  CB  ASN    38       7.216  29.930  14.115  1.00  6.69      1PLC 687
+ATOM    565  CG  ASN    38       8.627  30.396  14.180  1.00  8.61      1PLC 688
+ATOM    566  OD1 ASN    38       9.197  30.596  15.266  1.00  6.89      1PLC 689
+ATOM    567  ND2 ASN    38       9.231  30.533  12.973  1.00 11.77      1PLC 690
+ATOM    568  H   ASN    38       6.746  31.816  16.573  1.00  8.32      std  691
+ATOM    569  HA  ASN    38       5.450  29.683  15.147  1.00  5.58      std  692
+ATOM    570 1HB  ASN    38       7.274  28.863  13.854  1.00  5.74      std  693
+ATOM    571 2HB  ASN    38       6.695  30.370  13.252  1.00  9.74      std  694
+ATOM    572 1HD2 ASN    38      10.182  30.840  13.005  1.00  8.32      std  695
+ATOM    573 2HD2 ASN    38       8.775  30.362  12.100  1.00  6.48      std  696
+ATOM    574  N   ILE    39       7.218  28.035  16.440  1.00  4.80      1PLC 697
+ATOM    575  CA  ILE    39       7.791  27.176  17.452  1.00  5.19      1PLC 698
+ATOM    576  C   ILE    39       8.865  26.331  16.758  1.00  7.04      1PLC 699
+ATOM    577  O   ILE    39       8.531  25.549  15.873  1.00  6.76      1PLC 700
+ATOM    578  CB  ILE    39       6.853  26.198  18.106  1.00  9.38      1PLC 701
+ATOM    579  CG1 ILE    39       5.657  26.885  18.701  1.00 10.75      1PLC 702
+ATOM    580  CG2 ILE    39       7.589  25.335  19.140  1.00 11.88      1PLC 703
+ATOM    581  CD1 ILE    39       4.565  27.280  17.735  1.00 16.33      1PLC 704
+ATOM    582  H   ILE    39       6.964  27.569  15.593  1.00  4.71      std  705
+ATOM    583  HA  ILE    39       8.306  27.800  18.197  1.00  7.92      std  706
+ATOM    584  HB  ILE    39       6.514  25.516  17.312  1.00 13.18      std  707
+ATOM    585 1HG1 ILE    39       5.220  26.273  19.504  1.00 12.36      std  708
+ATOM    586 2HG1 ILE    39       6.017  27.810  19.176  1.00 11.50      std  709
+ATOM    587 1HG2 ILE    39       8.625  25.181  18.804  1.00  9.17      std  710
+ATOM    588 2HG2 ILE    39       7.621  25.981  20.030  1.00  2.70      std  711
+ATOM    589 3HG2 ILE    39       7.154  24.328  19.219  1.00  2.00      std  712
+ATOM    590 1HD1 ILE    39       4.598  26.607  16.866  1.00 14.48      std  713
+ATOM    591 2HD1 ILE    39       3.600  27.212  18.259  1.00 14.33      std  714
+ATOM    592 3HD1 ILE    39       4.788  28.303  17.397  1.00 13.59      std  715
+ATOM    593  N   VAL    40      10.083  26.549  17.187  1.00  5.77      1PLC 716
+ATOM    594  CA  VAL    40      11.263  25.869  16.664  1.00  8.95      1PLC 717
+ATOM    595  C   VAL    40      12.026  25.212  17.791  1.00  8.54      1PLC 718
+ATOM    596  O   VAL    40      12.342  25.839  18.788  1.00  6.05      1PLC 719
+ATOM    597  CB  VAL    40      12.140  26.925  15.899  1.00 10.00      1PLC 720
+ATOM    598  CG1 VAL    40      13.390  26.244  15.376  1.00 12.98      1PLC 721
+ATOM    599  CG2 VAL    40      11.345  27.664  14.847  1.00 10.03      1PLC 722
+ATOM    600  H   VAL    40      10.271  27.212  17.912  1.00  5.69      std  723
+ATOM    601  HA  VAL    40      10.985  25.152  15.877  1.00  7.91      std  724
+ATOM    602  HB  VAL    40      12.457  27.657  16.656  1.00  8.47      std  725
+ATOM    603 1HG1 VAL    40      13.945  25.653  16.120  1.00  5.62      std  726
+ATOM    604 2HG1 VAL    40      13.194  25.712  14.434  1.00  9.65      std  727
+ATOM    605 3HG1 VAL    40      14.110  27.037  15.127  1.00 11.90      std  728
+ATOM    606 1HG2 VAL    40      10.248  27.716  14.788  1.00  3.10      std  729
+ATOM    607 2HG2 VAL    40      11.629  28.714  15.009  1.00  8.51      std  730
+ATOM    608 3HG2 VAL    40      11.809  27.559  13.855  1.00  7.01      std  731
+ATOM    609  N   PHE    41      12.324  23.917  17.592  1.00  7.92      1PLC 732
+ATOM    610  CA  PHE    41      13.084  23.138  18.566  1.00  8.56      1PLC 733
+ATOM    611  C   PHE    41      14.566  23.296  18.180  1.00 10.78      1PLC 734
+ATOM    612  O   PHE    41      14.878  23.108  17.012  1.00 10.62      1PLC 735
+ATOM    613  CB  PHE    41      12.663  21.689  18.679  1.00  7.77      1PLC 736
+ATOM    614  CG  PHE    41      11.426  21.521  19.500  1.00 11.64      1PLC 737
+ATOM    615  CD1 PHE    41      10.178  21.585  18.876  1.00 13.98      1PLC 738
+ATOM    616  CD2 PHE    41      11.501  21.338  20.883  1.00 10.87      1PLC 739
+ATOM    617  CE1 PHE    41       9.007  21.424  19.647  1.00 13.49      1PLC 740
+ATOM    618  CE2 PHE    41      10.361  21.187  21.639  1.00  9.11      1PLC 741
+ATOM    619  CZ  PHE    41       9.104  21.246  21.022  1.00 10.89      1PLC 742
+ATOM    620  H   PHE    41      12.055  23.455  16.747  1.00  9.89      std  743
+ATOM    621  HA  PHE    41      12.922  23.517  19.586  1.00  9.50      std  744
+ATOM    622 1HB  PHE    41      12.563  21.228  17.685  1.00  9.35      std  745
+ATOM    623 2HB  PHE    41      13.498  21.140  19.138  1.00  9.37      std  746
+ATOM    624  HD1 PHE    41      10.129  21.736  17.788  1.00 11.68      std  747
+ATOM    625  HD2 PHE    41      12.493  21.301  21.357  1.00 11.13      std  748
+ATOM    626  HE1 PHE    41       8.007  21.471  19.191  1.00 14.71      std  749
+ATOM    627  HE2 PHE    41      10.444  21.040  22.726  1.00 12.08      std  750
+ATOM    628  HZ  PHE    41       8.199  21.123  21.635  1.00 12.90      std  751
+ATOM    629  N   ASP    42      15.360  23.612  19.169  1.00  8.74      1PLC 752
+ATOM    630  CA  ASP    42      16.825  23.777  18.943  1.00 14.17      1PLC 753
+ATOM    631  C   ASP    42      17.440  22.386  18.711  1.00 12.42      1PLC 754
+ATOM    632  O   ASP    42      17.399  21.560  19.658  1.00 11.15      1PLC 755
+ATOM    633  CB  ASP    42      17.408  24.487  20.169  1.00 18.50      1PLC 756
+ATOM    634  CG  ASP    42      18.895  24.735  20.043  1.00 25.69      1PLC 757
+ATOM    635  OD1 ASP    42      19.570  24.151  19.225  1.00 22.65      1PLC 758
+ATOM    636  OD2 ASP    42      19.361  25.643  20.879  1.00 30.18      1PLC 759
+ATOM    637  H   ASP    42      15.029  23.737  20.104  1.00  7.89      std  760
+ATOM    638  HA  ASP    42      16.991  24.373  18.033  1.00 12.85      std  761
+ATOM    639 1HB  ASP    42      16.885  25.424  20.410  1.00 17.87      std  762
+ATOM    640 2HB  ASP    42      17.240  23.889  21.077  1.00 17.92      std  763
+ATOM    641  N   GLU    43      17.991  22.170  17.548  1.00 11.85      1PLC 764
+ATOM    642  CA  GLU    43      18.570  20.874  17.190  1.00 14.53      1PLC 765
+ATOM    643  C   GLU    43      19.705  20.399  18.049  1.00 13.97      1PLC 766
+ATOM    644  O   GLU    43      19.920  19.170  18.186  1.00 17.06      1PLC 767
+ATOM    645  CB  GLU    43      18.979  20.793  15.725  1.00 24.13      1PLC 768
+ATOM    646  CG  GLU    43      20.028  21.779  15.242  1.00 35.55      1PLC 769
+ATOM    647  CD  GLU    43      20.568  21.588  13.851  1.00 45.58      1PLC 770
+ATOM    648  OE1 GLU    43      19.799  20.826  13.092  1.00 47.44      1PLC 771
+ATOM    649  OE2 GLU    43      21.635  22.093  13.456  1.00 51.88      1PLC 772
+ATOM    650  H   GLU    43      17.962  22.892  16.857  1.00 13.29      std  773
+ATOM    651  HA  GLU    43      17.758  20.144  17.321  1.00 17.11      std  774
+ATOM    652 1HB  GLU    43      19.462  19.808  15.651  1.00 21.93      std  775
+ATOM    653 2HB  GLU    43      18.072  20.784  15.103  1.00 20.58      std  776
+ATOM    654 1HG  GLU    43      19.681  22.819  15.334  1.00 35.37      std  777
+ATOM    655 2HG  GLU    43      20.873  21.703  15.942  1.00 35.44      std  778
+ATOM    656  N   ASP    44      20.406  21.310  18.683  1.00 10.22      1PLC 779
+ATOM    657  CA  ASP    44      21.538  21.037  19.588  1.00 12.17      1PLC 780
+ATOM    658  C   ASP    44      21.095  20.967  21.036  1.00 14.63      1PLC 781
+ATOM    659  O   ASP    44      21.944  20.816  21.936  1.00 16.18      1PLC 782
+ATOM    660  CB  ASP    44      22.537  22.224  19.575  1.00 14.93      1PLC 783
+ATOM    661  CG  ASP    44      23.161  22.414  18.230  1.00 23.97      1PLC 784
+ATOM    662  OD1 ASP    44      23.696  21.299  17.808  1.00 27.75      1PLC 785
+ATOM    663  OD2 ASP    44      23.149  23.476  17.627  1.00 24.92      1PLC 786
+ATOM    664  H   ASP    44      20.183  22.276  18.551  1.00 14.05      std  787
+ATOM    665  HA  ASP    44      22.143  20.163  19.304  1.00 11.76      std  788
+ATOM    666 1HB  ASP    44      22.127  23.145  20.016  1.00 15.78      std  789
+ATOM    667 2HB  ASP    44      23.331  21.926  20.275  1.00 16.69      std  790
+ATOM    668  N  ASER    45      19.777  21.080  21.256  0.50 10.74      1PLC 791
+ATOM    669  N  BSER    45      19.793  21.129  21.224  0.50 11.75      1PLC 792
+ATOM    670  CA ASER    45      19.275  21.052  22.635  0.50 11.38      1PLC 793
+ATOM    671  CA BSER    45      19.182  21.159  22.546  0.50 13.02      1PLC 794
+ATOM    672  C  ASER    45      17.990  20.269  22.831  0.50  9.43      1PLC 795
+ATOM    673  C  BSER    45      17.918  20.335  22.685  0.50  9.84      1PLC 796
+ATOM    674  O  ASER    45      17.059  20.662  23.574  0.50  7.02      1PLC 797
+ATOM    675  O  BSER    45      16.903  20.790  23.260  0.50 10.89      1PLC 798
+ATOM    676  CB ASER    45      19.173  22.472  23.201  0.50 15.10      1PLC 799
+ATOM    677  CB BSER    45      18.896  22.641  22.904  0.50 17.19      1PLC 800
+ATOM    678  OG ASER    45      19.498  22.443  24.579  0.50 19.08      1PLC 801
+ATOM    679  OG BSER    45      20.065  23.439  22.743  0.50 21.40      1PLC 802
+ATOM    680  H  ASER    45      19.133  21.212  20.502  0.50 13.05      std  803
+ATOM    681  H  BSER    45      19.168  21.280  20.458  0.50 13.71      std  804
+ATOM    682  HA ASER    45      20.060  20.592  23.253  0.50 12.23      std  805
+ATOM    683  HA BSER    45      19.926  20.852  23.296  0.50 13.19      std  806
+ATOM    684 1HB ASER    45      19.977  23.050  22.722  0.50 17.19      std  807
+ATOM    685 1HB BSER    45      18.172  23.016  22.166  0.50 16.18      std  808
+ATOM    686 2HB ASER    45      18.217  22.957  22.953  0.50 16.09      std  809
+ATOM    687 2HB BSER    45      18.476  22.723  23.917  0.50 17.72      std  810
+ATOM    688  HG ASER    45      18.696  22.156  25.103  0.50 19.37      std  811
+ATOM    689  HG BSER    45      20.728  23.213  23.457  0.50 19.19      std  812
+ATOM    690  N   ILE    46      17.983  19.116  22.207  1.00  7.95      1PLC 813
+ATOM    691  CA  ILE    46      16.913  18.109  22.254  1.00  8.14      1PLC 814
+ATOM    692  C   ILE    46      17.646  16.768  22.455  1.00  5.02      1PLC 815
+ATOM    693  O   ILE    46      18.873  16.645  22.221  1.00  8.08      1PLC 816
+ATOM    694  CB  ILE    46      15.967  18.130  21.081  1.00  7.68      1PLC 817
+ATOM    695  CG1 ILE    46      16.592  17.877  19.736  1.00 10.70      1PLC 818
+ATOM    696  CG2 ILE    46      15.234  19.506  21.087  1.00  9.41      1PLC 819
+ATOM    697  CD1 ILE    46      15.618  17.736  18.540  1.00 10.14      1PLC 820
+ATOM    698  H   ILE    46      18.762  18.823  21.652  1.00 10.55      std  821
+ATOM    699  HA  ILE    46      16.376  18.243  23.205  1.00  5.41      std  822
+ATOM    700  HB  ILE    46      15.196  17.364  21.250  1.00 11.13      std  823
+ATOM    701 1HG1 ILE    46      17.345  18.614  19.421  1.00  2.00      std  824
+ATOM    702 2HG1 ILE    46      17.067  16.887  19.805  1.00  6.94      std  825
+ATOM    703 1HG2 ILE    46      15.926  20.361  21.070  1.00  7.97      std  826
+ATOM    704 2HG2 ILE    46      14.448  19.513  20.318  1.00  9.30      std  827
+ATOM    705 3HG2 ILE    46      14.739  19.568  22.068  1.00  4.09      std  828
+ATOM    706 1HD1 ILE    46      14.605  18.089  18.782  1.00  8.88      std  829
+ATOM    707 2HD1 ILE    46      16.077  18.396  17.789  1.00  8.53      std  830
+ATOM    708 3HD1 ILE    46      15.660  16.702  18.166  1.00 10.27      std  831
+ATOM    709  N   PRO    47      16.912  15.797  22.899  1.00  6.52      1PLC 832
+ATOM    710  CA  PRO    47      17.496  14.467  23.171  1.00  7.87      1PLC 833
+ATOM    711  C   PRO    47      18.104  13.871  21.923  1.00  9.51      1PLC 834
+ATOM    712  O   PRO    47      17.649  14.036  20.787  1.00  9.45      1PLC 835
+ATOM    713  CB  PRO    47      16.382  13.635  23.745  1.00 10.71      1PLC 836
+ATOM    714  CG  PRO    47      15.335  14.639  24.255  1.00  9.92      1PLC 837
+ATOM    715  CD  PRO    47      15.485  15.789  23.259  1.00  6.09      1PLC 838
+ATOM    716  HA  PRO    47      18.265  14.662  23.933  1.00  5.03      std  839
+ATOM    717 1HB  PRO    47      16.007  13.017  22.916  1.00 10.01      std  840
+ATOM    718 2HB  PRO    47      16.638  12.856  24.479  1.00 11.50      std  841
+ATOM    719 1HG  PRO    47      14.312  14.243  24.338  1.00  5.97      std  842
+ATOM    720 2HG  PRO    47      15.664  15.047  25.222  1.00  9.01      std  843
+ATOM    721 1HD  PRO    47      14.839  15.757  22.369  1.00  9.10      std  844
+ATOM    722 2HD  PRO    47      15.244  16.700  23.827  1.00 10.09      std  845
+ATOM    723  N   SER    48      19.208  13.179  22.184  1.00 11.34      1PLC 846
+ATOM    724  CA  SER    48      19.983  12.496  21.141  1.00 14.15      1PLC 847
+ATOM    725  C   SER    48      19.113  11.554  20.333  1.00 10.02      1PLC 848
+ATOM    726  O   SER    48      18.308  10.783  20.856  1.00 14.03      1PLC 849
+ATOM    727  CB  SER    48      21.165  11.753  21.790  1.00 20.69      1PLC 850
+ATOM    728  OG  SER    48      22.131  12.789  22.113  1.00 30.42      1PLC 851
+ATOM    729  H   SER    48      19.573  13.047  23.106  1.00 11.92      std  852
+ATOM    730  HA  SER    48      20.449  13.231  20.468  1.00 11.39      std  853
+ATOM    731 1HB  SER    48      20.807  11.229  22.689  1.00 20.52      std  854
+ATOM    732 2HB  SER    48      21.576  11.011  21.090  1.00 20.98      std  855
+ATOM    733  HG  SER    48      22.923  12.354  22.542  1.00 31.05      std  856
+ATOM    734  N   GLY    49      19.274  11.661  19.031  1.00 11.15      1PLC 857
+ATOM    735  CA  GLY    49      18.568  10.847  18.044  1.00 11.00      1PLC 858
+ATOM    736  C   GLY    49      17.255  11.369  17.535  1.00 11.94      1PLC 859
+ATOM    737  O   GLY    49      16.724  10.861  16.523  1.00 12.45      1PLC 860
+ATOM    738  H   GLY    49      19.938  12.295  18.636  1.00 12.57      std  861
+ATOM    739 1HA  GLY    49      19.263  10.636  17.218  1.00 11.62      std  862
+ATOM    740 2HA  GLY    49      18.413   9.866  18.516  1.00 11.83      std  863
+ATOM    741  N   VAL    50      16.690  12.370  18.210  1.00  9.25      1PLC 864
+ATOM    742  CA  VAL    50      15.431  12.965  17.817  1.00  5.96      1PLC 865
+ATOM    743  C   VAL    50      15.627  13.878  16.592  1.00  8.11      1PLC 866
+ATOM    744  O   VAL    50      16.530  14.684  16.523  1.00  9.35      1PLC 867
+ATOM    745  CB  VAL    50      14.803  13.764  18.994  1.00  7.82      1PLC 868
+ATOM    746  CG1 VAL    50      13.588  14.581  18.517  1.00  7.99      1PLC 869
+ATOM    747  CG2 VAL    50      14.441  12.899  20.166  1.00  7.78      1PLC 870
+ATOM    748  H   VAL    50      17.154  12.743  19.014  1.00  9.63      std  871
+ATOM    749  HA  VAL    50      14.698  12.162  17.648  1.00  6.61      std  872
+ATOM    750  HB  VAL    50      15.558  14.490  19.329  1.00  3.63      std  873
+ATOM    751 1HG1 VAL    50      13.715  15.171  17.598  1.00  2.00      std  874
+ATOM    752 2HG1 VAL    50      12.698  13.935  18.539  1.00  4.17      std  875
+ATOM    753 3HG1 VAL    50      13.364  15.239  19.370  1.00  4.29      std  876
+ATOM    754 1HG2 VAL    50      15.148  12.090  20.400  1.00  6.08      std  877
+ATOM    755 2HG2 VAL    50      14.351  13.532  21.061  1.00  4.98      std  878
+ATOM    756 3HG2 VAL    50      13.478  12.396  19.995  1.00  7.73      std  879
+ATOM    757  N   ASP    51      14.718  13.726  15.655  1.00  9.41      1PLC 880
+ATOM    758  CA  ASP    51      14.642  14.516  14.400  1.00  9.10      1PLC 881
+ATOM    759  C   ASP    51      13.851  15.825  14.671  1.00  6.01      1PLC 882
+ATOM    760  O   ASP    51      12.634  15.774  14.742  1.00  9.81      1PLC 883
+ATOM    761  CB  ASP    51      13.988  13.714  13.316  1.00 10.37      1PLC 884
+ATOM    762  CG  ASP    51      13.944  14.325  11.945  1.00 13.25      1PLC 885
+ATOM    763  OD1 ASP    51      14.341  15.515  11.809  1.00 13.62      1PLC 886
+ATOM    764  OD2 ASP    51      13.514  13.625  11.036  1.00 17.11      1PLC 887
+ATOM    765  H   ASP    51      13.970  13.070  15.755  1.00  9.46      std  888
+ATOM    766  HA  ASP    51      15.623  14.845  14.027  1.00  7.59      std  889
+ATOM    767 1HB  ASP    51      14.233  12.643  13.255  1.00 10.28      std  890
+ATOM    768 2HB  ASP    51      12.926  13.696  13.602  1.00  9.07      std  891
+ATOM    769  N   ALA    52      14.583  16.891  14.787  1.00 10.59      1PLC 892
+ATOM    770  CA  ALA    52      13.950  18.201  15.030  1.00 10.82      1PLC 893
+ATOM    771  C   ALA    52      12.884  18.480  13.996  1.00 12.09      1PLC 894
+ATOM    772  O   ALA    52      11.893  19.193  14.262  1.00 13.41      1PLC 895
+ATOM    773  CB  ALA    52      15.018  19.300  15.078  1.00 12.21      1PLC 896
+ATOM    774  H   ALA    52      15.581  16.905  14.720  1.00  9.22      std  897
+ATOM    775  HA  ALA    52      13.499  18.180  16.033  1.00 14.05      std  898
+ATOM    776 1HB  ALA    52      15.724  19.056  15.886  1.00 11.37      std  899
+ATOM    777 2HB  ALA    52      15.619  19.414  14.164  1.00  9.20      std  900
+ATOM    778 3HB  ALA    52      14.597  20.279  15.350  1.00  9.40      std  901
+ATOM    779  N   SER    53      13.062  17.925  12.790  1.00 12.10      1PLC 902
+ATOM    780  CA  SER    53      12.110  18.196  11.692  1.00 11.50      1PLC 903
+ATOM    781  C   SER    53      10.727  17.662  11.920  1.00 13.20      1PLC 904
+ATOM    782  O   SER    53       9.758  18.300  11.445  1.00 19.11      1PLC 905
+ATOM    783  CB  SER    53      12.709  17.709  10.343  1.00 12.68      1PLC 906
+ATOM    784  OG  SER    53      12.397  16.358  10.147  1.00 17.12      1PLC 907
+ATOM    785  H   SER    53      13.875  17.376  12.594  1.00 10.17      std  908
+ATOM    786  HA  SER    53      12.042  19.291  11.607  1.00  9.99      std  909
+ATOM    787 1HB  SER    53      12.191  18.264   9.547  1.00 12.49      std  910
+ATOM    788 2HB  SER    53      13.782  17.933  10.255  1.00  9.48      std  911
+ATOM    789  HG  SER    53      11.451  16.176   9.879  1.00 17.51      std  912
+ATOM    790  N   LYS    54      10.577  16.579  12.618  1.00 10.98      1PLC 913
+ATOM    791  CA  LYS    54       9.337  15.927  12.919  1.00 14.26      1PLC 914
+ATOM    792  C   LYS    54       8.524  16.653  13.993  1.00 11.99      1PLC 915
+ATOM    793  O   LYS    54       7.299  16.455  14.008  1.00 15.35      1PLC 916
+ATOM    794  CB ALYS    54       9.518  14.513  13.452  0.50 16.59      1PLC 917
+ATOM    795  CB BLYS    54       9.554  14.470  13.319  0.50 17.56      1PLC 918
+ATOM    796  CG ALYS    54      10.028  13.404  12.557  0.50 18.42      1PLC 919
+ATOM    797  CG BLYS    54      10.299  13.683  12.221  0.50 20.51      1PLC 920
+ATOM    798  CD ALYS    54       9.948  12.073  13.322  0.50 20.31      1PLC 921
+ATOM    799  CD BLYS    54      10.248  12.193  12.553  0.50 24.33      1PLC 922
+ATOM    800  CE ALYS    54      10.264  10.852  12.502  0.50 23.60      1PLC 923
+ATOM    801  CE BLYS    54      10.885  11.350  11.467  0.50 27.38      1PLC 924
+ATOM    802  NZ ALYS    54      10.150   9.606  13.326  0.50 27.44      1PLC 925
+ATOM    803  NZ BLYS    54      12.227  11.878  11.124  0.50 27.38      1PLC 926
+ATOM    804  H   LYS    54      11.390  16.116  12.972  1.00 14.54      std  927
+ATOM    805  HA  LYS    54       8.752  15.866  11.990  1.00 14.60      std  928
+ATOM    806 1HB ALYS    54      10.106  14.553  14.381  0.50 17.02      std  929
+ATOM    807 1HB BLYS    54      10.115  14.413  14.263  0.50 18.16      std  930
+ATOM    808 2HB ALYS    54       8.512  14.226  13.791  0.50 17.11      std  931
+ATOM    809 2HB BLYS    54       8.554  14.033  13.455  0.50 18.36      std  932
+ATOM    810 1HG ALYS    54       9.486  13.344  11.601  0.50 18.27      std  933
+ATOM    811 1HG BLYS    54       9.872  13.889  11.229  0.50 19.82      std  934
+ATOM    812 2HG ALYS    54      11.079  13.572  12.278  0.50 17.82      std  935
+ATOM    813 2HG BLYS    54      11.353  13.995  12.169  0.50 19.31      std  936
+ATOM    814 1HD ALYS    54      10.607  12.112  14.202  0.50 20.57      std  937
+ATOM    815 1HD BLYS    54      10.748  12.004  13.514  0.50 24.16      std  938
+ATOM    816 2HD ALYS    54       8.929  11.982  13.726  0.50 21.18      std  939
+ATOM    817 2HD BLYS    54       9.194  11.901  12.671  0.50 24.05      std  940
+ATOM    818 1HE ALYS    54       9.591  10.712  11.643  0.50 23.94      std  941
+ATOM    819 1HE BLYS    54      10.976  10.288  11.739  0.50 26.46      std  942
+ATOM    820 2HE ALYS    54      11.300  10.874  12.132  0.50 23.86      std  943
+ATOM    821 2HE BLYS    54      10.300  11.431  10.539  0.50 27.13      std  944
+ATOM    822 1HZ ALYS    54      10.359   8.789  12.788  0.50 26.83      std  945
+ATOM    823 1HZ BLYS    54      12.797  12.024  11.932  0.50 27.43      std  946
+ATOM    824 2HZ ALYS    54      10.733   9.698  14.134  0.50 27.26      std  947
+ATOM    825 2HZ BLYS    54      12.694  11.220  10.534  0.50 28.10      std  948
+ATOM    826 3HZ ALYS    54       9.228   9.482  13.693  0.50 27.00      std  949
+ATOM    827 3HZ BLYS    54      12.114  12.685  10.544  0.50 27.77      std  950
+ATOM    828  N   ILE    55       9.174  17.453  14.840  1.00  9.43      1PLC 951
+ATOM    829  CA  ILE    55       8.474  18.151  15.906  1.00 11.93      1PLC 952
+ATOM    830  C   ILE    55       8.460  19.660  15.860  1.00 10.33      1PLC 953
+ATOM    831  O   ILE    55       7.833  20.297  16.756  1.00 12.94      1PLC 954
+ATOM    832  CB  ILE    55       9.123  17.762  17.284  1.00 11.45      1PLC 955
+ATOM    833  CG1 ILE    55      10.583  18.069  17.333  1.00  9.75      1PLC 956
+ATOM    834  CG2 ILE    55       8.859  16.285  17.559  1.00 13.55      1PLC 957
+ATOM    835  CD1 ILE    55      11.326  17.919  18.663  1.00 13.84      1PLC 958
+ATOM    836  H   ILE    55      10.167  17.553  14.771  1.00 12.06      std  959
+ATOM    837  HA  ILE    55       7.439  17.784  15.962  1.00  9.08      std  960
+ATOM    838  HB  ILE    55       8.583  18.405  17.995  1.00 12.56      std  961
+ATOM    839 1HG1 ILE    55      11.118  17.469  16.582  1.00 11.84      std  962
+ATOM    840 2HG1 ILE    55      10.759  19.126  17.085  1.00 11.74      std  963
+ATOM    841 1HG2 ILE    55       9.026  15.668  16.664  1.00 12.81      std  964
+ATOM    842 2HG2 ILE    55       9.484  16.012  18.422  1.00  6.74      std  965
+ATOM    843 3HG2 ILE    55       7.786  16.192  17.784  1.00  9.63      std  966
+ATOM    844 1HD1 ILE    55      10.587  18.130  19.450  1.00 10.07      std  967
+ATOM    845 2HD1 ILE    55      11.666  16.877  18.760  1.00  6.59      std  968
+ATOM    846 3HD1 ILE    55      12.180  18.610  18.711  1.00  4.39      std  969
+ATOM    847  N   SER    56       9.130  20.257  14.932  1.00  6.72      1PLC 970
+ATOM    848  CA  SER    56       9.251  21.709  14.808  1.00  7.64      1PLC 971
+ATOM    849  C   SER    56       8.628  22.304  13.563  1.00  8.94      1PLC 972
+ATOM    850  O   SER    56       8.417  21.664  12.512  1.00  9.20      1PLC 973
+ATOM    851  CB ASER    56      10.742  22.092  14.684  0.50 10.01      1PLC 974
+ATOM    852  CB BSER    56      10.787  21.889  14.852  0.50  9.42      1PLC 975
+ATOM    853  OG ASER    56      11.602  21.697  15.662  0.50  6.84      1PLC 976
+ATOM    854  OG BSER    56      11.304  23.152  14.988  0.50 10.34      1PLC 977
+ATOM    855  H   SER    56       9.648  19.735  14.255  1.00 11.81      std  978
+ATOM    856  HA  SER    56       8.857  22.181  15.720  1.00  6.14      std  979
+ATOM    857 1HB ASER    56      11.063  21.604  13.752  0.50  9.91      std  980
+ATOM    858 1HB BSER    56      11.118  21.257  15.690  0.50  9.25      std  981
+ATOM    859 2HB ASER    56      10.821  23.157  14.420  0.50  8.56      std  982
+ATOM    860 2HB BSER    56      11.203  21.380  13.970  0.50 10.65      std  983
+ATOM    861  HG ASER    56      11.942  20.778  15.463  0.50  9.52      std  984
+ATOM    862  HG BSER    56      11.686  23.465  14.119  0.50  5.50      std  985
+ATOM    863  N   MET    57       8.349  23.594  13.627  1.00  9.54      1PLC 986
+ATOM    864  CA  MET    57       7.929  24.417  12.482  1.00  9.62      1PLC 987
+ATOM    865  C   MET    57       9.303  24.790  11.842  1.00  9.91      1PLC 988
+ATOM    866  O   MET    57      10.402  24.685  12.466  1.00 11.53      1PLC 989
+ATOM    867  CB  MET    57       7.184  25.696  12.809  1.00  6.57      1PLC 990
+ATOM    868  CG  MET    57       5.814  25.350  13.385  1.00  7.68      1PLC 991
+ATOM    869  SD  MET    57       4.901  26.826  13.914  1.00 10.04      1PLC 992
+ATOM    870  CE  MET    57       4.757  27.638  12.296  1.00 11.77      1PLC 993
+ATOM    871  H   MET    57       8.595  24.127  14.436  1.00 11.92      std  994
+ATOM    872  HA  MET    57       7.329  23.935  11.696  1.00  8.40      std  995
+ATOM    873 1HB  MET    57       7.802  26.482  13.266  1.00  3.45      std  996
+ATOM    874 2HB  MET    57       6.968  26.133  11.823  1.00  7.66      std  997
+ATOM    875 1HG  MET    57       5.071  24.928  12.692  1.00  5.74      std  998
+ATOM    876 2HG  MET    57       5.929  24.688  14.256  1.00  3.64      std  999
+ATOM    877 1HE  MET    57       5.739  27.595  11.803  1.00  8.57      std 1000
+ATOM    878 2HE  MET    57       3.993  27.056  11.760  1.00 10.92      std 1001
+ATOM    879 3HE  MET    57       4.435  28.661  12.541  1.00 10.05      std 1002
+ATOM    880  N   SER    58       9.266  25.205  10.617  1.00 16.66      1PLC1003
+ATOM    881  CA  SER    58      10.513  25.667   9.962  1.00 17.90      1PLC1004
+ATOM    882  C   SER    58      10.685  27.108  10.488  1.00 15.48      1PLC1005
+ATOM    883  O   SER    58       9.672  27.709  10.888  1.00 13.28      1PLC1006
+ATOM    884  CB  SER    58      10.371  25.647   8.473  1.00 24.91      1PLC1007
+ATOM    885  OG  SER    58      11.365  26.444   7.857  1.00 34.22      1PLC1008
+ATOM    886  H   SER    58       8.406  25.326  10.121  1.00 14.42      std 1009
+ATOM    887  HA  SER    58      11.320  25.016  10.330  1.00 18.63      std 1010
+ATOM    888 1HB  SER    58      10.388  24.618   8.086  1.00 24.71      std 1011
+ATOM    889 2HB  SER    58       9.397  26.083   8.207  1.00 23.55      std 1012
+ATOM    890  HG  SER    58      10.891  27.182   7.376  1.00 33.43      std 1013
+ATOM    891  N   GLU    59      11.883  27.627  10.528  1.00 13.69      1PLC1014
+ATOM    892  CA  GLU    59      12.138  28.987  10.963  1.00 17.25      1PLC1015
+ATOM    893  C   GLU    59      11.401  29.972  10.059  1.00 15.02      1PLC1016
+ATOM    894  O   GLU    59      11.030  31.096  10.477  1.00 14.75      1PLC1017
+ATOM    895  CB  GLU    59      13.633  29.313  10.984  1.00 25.54      1PLC1018
+ATOM    896  CG  GLU    59      14.407  28.840  12.233  1.00 33.97      1PLC1019
+ATOM    897  CD  GLU    59      15.716  29.556  12.466  1.00 41.74      1PLC1020
+ATOM    898  OE1 GLU    59      16.211  30.227  11.556  1.00 49.51      1PLC1021
+ATOM    899  OE2 GLU    59      16.263  29.433  13.654  1.00 39.00      1PLC1022
+ATOM    900  H   GLU    59      12.673  27.117  10.189  1.00 17.51      std 1023
+ATOM    901  HA  GLU    59      11.745  29.056  11.988  1.00 18.41      std 1024
+ATOM    902 1HB  GLU    59      14.082  28.712  10.179  1.00 24.04      std 1025
+ATOM    903 2HB  GLU    59      13.822  30.361  10.710  1.00 23.65      std 1026
+ATOM    904 1HG  GLU    59      13.781  28.914  13.135  1.00 33.83      std 1027
+ATOM    905 2HG  GLU    59      14.665  27.783  12.075  1.00 33.81      std 1028
+ATOM    906  N   GLU    60      11.114  29.572   8.811  1.00 14.95      1PLC1029
+ATOM    907  CA  GLU    60      10.407  30.449   7.865  1.00 12.28      1PLC1030
+ATOM    908  C   GLU    60       8.912  30.336   7.909  1.00 11.11      1PLC1031
+ATOM    909  O   GLU    60       8.232  31.140   7.256  1.00 13.08      1PLC1032
+ATOM    910  CB  GLU    60      10.810  30.259   6.389  1.00 20.20      1PLC1033
+ATOM    911  CG  GLU    60      12.318  30.386   6.064  1.00 27.19      1PLC1034
+ATOM    912  CD  GLU    60      13.141  29.253   6.641  1.00 35.18      1PLC1035
+ATOM    913  OE1 GLU    60      12.537  28.083   6.647  1.00 33.94      1PLC1036
+ATOM    914  OE2 GLU    60      14.278  29.377   7.097  1.00 45.62      1PLC1037
+ATOM    915  H   GLU    60      11.419  28.665   8.521  1.00 13.99      std 1038
+ATOM    916  HA  GLU    60      10.619  31.504   8.093  1.00 16.02      std 1039
+ATOM    917 1HB  GLU    60      10.496  29.258   6.059  1.00 17.79      std 1040
+ATOM    918 2HB  GLU    60      10.231  31.016   5.840  1.00 17.01      std 1041
+ATOM    919 1HG  GLU    60      12.532  30.524   4.994  1.00 25.58      std 1042
+ATOM    920 2HG  GLU    60      12.652  31.337   6.505  1.00 24.57      std 1043
+ATOM    921  N  AASP    61       8.427  29.359   8.624  0.60 11.45      1PLC1044
+ATOM    922  N  BASP    61       8.405  29.384   8.629  0.40 11.83      1PLC1045
+ATOM    923  CA AASP    61       6.966  29.154   8.737  0.60 11.90      1PLC1046
+ATOM    924  CA BASP    61       6.967  29.063   8.823  0.40 12.12      1PLC1047
+ATOM    925  C  AASP    61       6.509  30.105   9.852  0.60 12.56      1PLC1048
+ATOM    926  C  BASP    61       6.443  29.942   9.952  0.40 11.65      1PLC1049
+ATOM    927  O  AASP    61       7.324  30.444  10.746  0.60 12.45      1PLC1050
+ATOM    928  O  BASP    61       7.144  30.074  10.985  0.40  7.35      1PLC1051
+ATOM    929  CB AASP    61       6.613  27.728   8.997  0.60 11.43      1PLC1052
+ATOM    930  CB BASP    61       6.869  27.593   9.103  0.40 14.16      1PLC1053
+ATOM    931  CG AASP    61       7.262  26.633   8.221  0.60 17.05      1PLC1054
+ATOM    932  CG BASP    61       5.630  26.803   9.116  0.40 18.52      1PLC1055
+ATOM    933  OD1AASP    61       7.546  26.760   7.033  0.60 21.09      1PLC1056
+ATOM    934  OD1BASP    61       4.485  27.203   9.173  0.40 20.89      1PLC1057
+ATOM    935  OD2AASP    61       7.495  25.490   8.859  0.60 11.58      1PLC1058
+ATOM    936  OD2BASP    61       5.855  25.479   9.066  0.40 16.16      1PLC1059
+ATOM    937  H  AASP    61       9.009  28.725   9.133  0.60 11.37      std 1060
+ATOM    938  H  BASP    61       9.001  28.757   9.131  0.40 11.68      std 1061
+ATOM    939  HA AASP    61       6.501  29.493   7.799  0.60 12.01      std 1062
+ATOM    940  HA BASP    61       6.428  29.288   7.891  0.40 12.95      std 1063
+ATOM    941 1HB AASP    61       6.686  27.465  10.063  0.60 15.83      std 1064
+ATOM    942 1HB BASP    61       7.602  27.055   8.484  0.40 15.86      std 1065
+ATOM    943 2HB AASP    61       5.532  27.648   8.808  0.60 13.47      std 1066
+ATOM    944 2HB BASP    61       7.385  27.414  10.058  0.40 15.45      std 1067
+ATOM    945  N   LEU    62       5.274  30.514   9.784  1.00 11.05      1PLC1068
+ATOM    946  CA  LEU    62       4.688  31.403  10.794  1.00 10.19      1PLC1069
+ATOM    947  C   LEU    62       3.193  31.175  11.010  1.00 13.25      1PLC1070
+ATOM    948  O   LEU    62       2.477  30.811  10.070  1.00 12.56      1PLC1071
+ATOM    949  CB  LEU    62       4.910  32.859  10.421  1.00 14.04      1PLC1072
+ATOM    950  CG  LEU    62       6.294  33.485  10.479  1.00 16.24      1PLC1073
+ATOM    951  CD1 LEU    62       6.124  34.815   9.790  1.00 22.77      1PLC1074
+ATOM    952  CD2 LEU    62       6.878  33.665  11.847  1.00 11.31      1PLC1075
+ATOM    953  H   LEU    62       4.756  30.384   8.938  1.00 10.84      std 1076
+ATOM    954  HA  LEU    62       5.248  31.187  11.716  1.00 10.17      std 1077
+ATOM    955 1HB  LEU    62       4.420  33.140   9.477  1.00  8.89      std 1078
+ATOM    956 2HB  LEU    62       4.331  33.438  11.156  1.00  7.68      std 1079
+ATOM    957  HG  LEU    62       7.005  32.891   9.885  1.00 16.32      std 1080
+ATOM    958 1HD1 LEU    62       5.070  35.117   9.878  1.00 21.79      std 1081
+ATOM    959 2HD1 LEU    62       6.799  35.538  10.271  1.00 22.21      std 1082
+ATOM    960 3HD1 LEU    62       6.345  34.633   8.728  1.00 22.11      std 1083
+ATOM    961 1HD2 LEU    62       6.289  34.320  12.506  1.00 10.78      std 1084
+ATOM    962 2HD2 LEU    62       7.057  32.716  12.374  1.00  7.09      std 1085
+ATOM    963 3HD2 LEU    62       7.849  34.177  11.784  1.00 10.67      std 1086
+ATOM    964  N   LEU    63       2.763  31.392  12.235  1.00 13.96      1PLC1087
+ATOM    965  CA  LEU    63       1.337  31.343  12.683  1.00 13.70      1PLC1088
+ATOM    966  C   LEU    63       1.086  32.882  12.665  1.00 11.85      1PLC1089
+ATOM    967  O   LEU    63       1.723  33.624  13.431  1.00 13.28      1PLC1090
+ATOM    968  CB  LEU    63       1.074  30.693  13.984  1.00 10.24      1PLC1091
+ATOM    969  CG  LEU    63       1.454  29.225  14.197  1.00  9.58      1PLC1092
+ATOM    970  CD1 LEU    63       1.097  28.776  15.568  1.00 12.33      1PLC1093
+ATOM    971  CD2 LEU    63       0.798  28.329  13.168  1.00 12.58      1PLC1094
+ATOM    972  H   LEU    63       3.374  31.731  12.951  1.00 15.32      std 1095
+ATOM    973  HA  LEU    63       0.719  30.905  11.885  1.00 12.75      std 1096
+ATOM    974 1HB  LEU    63       1.548  31.323  14.751  1.00  7.83      std 1097
+ATOM    975 2HB  LEU    63       0.006  30.760  14.239  1.00  7.49      std 1098
+ATOM    976  HG  LEU    63       2.542  29.117  14.072  1.00  8.52      std 1099
+ATOM    977 1HD1 LEU    63       0.017  28.951  15.684  1.00  6.74      std 1100
+ATOM    978 2HD1 LEU    63       1.208  27.684  15.639  1.00  9.07      std 1101
+ATOM    979 3HD1 LEU    63       1.724  29.229  16.350  1.00  8.27      std 1102
+ATOM    980 1HD2 LEU    63      -0.248  28.583  12.941  1.00 10.78      std 1103
+ATOM    981 2HD2 LEU    63       1.423  28.167  12.277  1.00  8.37      std 1104
+ATOM    982 3HD2 LEU    63       0.703  27.344  13.648  1.00 12.26      std 1105
+ATOM    983  N   ASN    64       0.226  33.260  11.756  1.00 15.77      1PLC1106
+ATOM    984  CA  ASN    64      -0.051  34.682  11.523  1.00 15.83      1PLC1107
+ATOM    985  C   ASN    64      -1.273  35.272  12.174  1.00 16.04      1PLC1108
+ATOM    986  O   ASN    64      -1.274  36.524  12.355  1.00 21.66      1PLC1109
+ATOM    987  CB AASN    64      -0.108  34.889   9.986  0.50 19.86      1PLC1110
+ATOM    988  CB BASN    64      -0.108  34.905   9.979  0.50 21.16      1PLC1111
+ATOM    989  CG AASN    64       1.189  34.884   9.237  0.50 22.76      1PLC1112
+ATOM    990  CG BASN    64       1.249  35.327   9.450  0.50 25.60      1PLC1113
+ATOM    991  OD1AASN    64       2.318  34.904   9.771  0.50 25.35      1PLC1114
+ATOM    992  OD1BASN    64       1.746  36.412   9.802  0.50 28.80      1PLC1115
+ATOM    993  ND2AASN    64       1.074  34.880   7.893  0.50 26.16      1PLC1116
+ATOM    994  ND2BASN    64       1.843  34.478   8.617  0.50 27.13      1PLC1117
+ATOM    995  H   ASN    64      -0.221  32.626  11.125  1.00 11.74      std 1118
+ATOM    996  HA  ASN    64       0.818  35.299  11.794  1.00 16.20      std 1119
+ATOM    997 1HB AASN    64      -0.764  34.108   9.575  0.50 18.46      std 1120
+ATOM    998 1HB BASN    64      -0.416  33.960   9.507  0.50 19.90      std 1121
+ATOM    999 2HB AASN    64      -0.621  35.844   9.802  0.50 19.79      std 1122
+ATOM   1000 2HB BASN    64      -0.857  35.678   9.755  0.50 21.54      std 1123
+ATOM   1001 1HD2AASN    64       1.885  34.885   7.309  0.50 24.46      std 1124
+ATOM   1002 1HD2BASN    64       2.740  34.718   8.246  0.50 26.25      std 1125
+ATOM   1003 2HD2AASN    64       0.176  34.875   7.453  0.50 24.40      std 1126
+ATOM   1004 2HD2BASN    64       1.407  33.616   8.359  0.50 25.86      std 1127
+ATOM   1005  N   ALA    65      -2.257  34.477  12.467  1.00 13.56      1PLC1128
+ATOM   1006  CA  ALA    65      -3.514  34.940  13.042  1.00 13.08      1PLC1129
+ATOM   1007  C   ALA    65      -3.879  34.357  14.370  1.00 12.35      1PLC1130
+ATOM   1008  O   ALA    65      -3.485  33.224  14.732  1.00 11.36      1PLC1131
+ATOM   1009  CB  ALA    65      -4.606  34.531  11.989  1.00 17.95      1PLC1132
+ATOM   1010  H   ALA    65      -2.197  33.499  12.267  1.00 16.80      std 1133
+ATOM   1011  HA  ALA    65      -3.530  36.038  13.109  1.00 10.22      std 1134
+ATOM   1012 1HB  ALA    65      -4.157  33.772  11.331  1.00 16.43      std 1135
+ATOM   1013 2HB  ALA    65      -5.438  34.053  12.528  1.00 17.08      std 1136
+ATOM   1014 3HB  ALA    65      -4.894  35.392  11.368  1.00 17.26      std 1137
+ATOM   1015  N   LYS    66      -4.653  35.130  15.102  1.00 11.88      1PLC1138
+ATOM   1016  CA  LYS    66      -5.119  34.744  16.429  1.00 12.77      1PLC1139
+ATOM   1017  C   LYS    66      -5.908  33.443  16.315  1.00 12.52      1PLC1140
+ATOM   1018  O   LYS    66      -6.775  33.319  15.424  1.00 15.32      1PLC1141
+ATOM   1019  CB ALYS    66      -6.001  35.747  17.166  0.50 17.73      1PLC1142
+ATOM   1020  CB BLYS    66      -6.005  35.830  17.000  0.50 17.94      1PLC1143
+ATOM   1021  CG ALYS    66      -6.293  35.208  18.588  0.50 19.67      1PLC1144
+ATOM   1022  CG BLYS    66      -6.129  35.848  18.531  0.50 21.24      1PLC1145
+ATOM   1023  CD ALYS    66      -7.136  36.145  19.416  0.50 22.47      1PLC1146
+ATOM   1024  CD BLYS    66      -6.905  37.097  18.930  0.50 24.95      1PLC1147
+ATOM   1025  CE ALYS    66      -7.365  35.629  20.822  0.50 24.08      1PLC1148
+ATOM   1026  CE BLYS    66      -6.816  37.468  20.380  0.50 27.06      1PLC1149
+ATOM   1027  NZ ALYS    66      -6.254  36.022  21.720  0.50 26.25      1PLC1150
+ATOM   1028  NZ BLYS    66      -7.426  38.815  20.617  0.50 29.66      1PLC1151
+ATOM   1029  H   LYS    66      -4.960  36.033  14.802  1.00 12.67      std 1152
+ATOM   1030  HA  LYS    66      -4.274  34.528  17.100  1.00 15.91      std 1153
+ATOM   1031 1HB ALYS    66      -5.553  36.751  17.213  0.50 16.80      std 1154
+ATOM   1032 1HB BLYS    66      -5.651  36.819  16.674  0.50 16.24      std 1155
+ATOM   1033 2HB ALYS    66      -6.955  35.770  16.620  0.50 17.21      std 1156
+ATOM   1034 2HB BLYS    66      -7.008  35.671  16.577  0.50 17.51      std 1157
+ATOM   1035 1HG ALYS    66      -6.876  34.284  18.463  0.50 20.30      std 1158
+ATOM   1036 1HG BLYS    66      -6.634  34.937  18.885  0.50 22.00      std 1159
+ATOM   1037 2HG ALYS    66      -5.376  34.876  19.097  0.50 19.53      std 1160
+ATOM   1038 2HG BLYS    66      -5.129  35.870  18.988  0.50 22.07      std 1161
+ATOM   1039 1HD ALYS    66      -6.647  37.128  19.489  0.50 22.22      std 1162
+ATOM   1040 1HD BLYS    66      -6.538  37.939  18.325  0.50 25.61      std 1163
+ATOM   1041 2HD ALYS    66      -8.114  36.298  18.936  0.50 22.63      std 1164
+ATOM   1042 2HD BLYS    66      -7.959  36.944  18.654  0.50 25.37      std 1165
+ATOM   1043 1HE ALYS    66      -8.305  36.021  21.238  0.50 25.35      std 1166
+ATOM   1044 1HE BLYS    66      -7.308  36.740  21.042  0.50 27.92      std 1167
+ATOM   1045 2HE ALYS    66      -7.392  34.529  20.826  0.50 24.05      std 1168
+ATOM   1046 2HE BLYS    66      -5.764  37.584  20.680  0.50 27.91      std 1169
+ATOM   1047 1HZ ALYS    66      -5.933  35.250  22.269  0.50 26.01      std 1170
+ATOM   1048 1HZ BLYS    66      -7.059  39.467  19.953  0.50 29.36      std 1171
+ATOM   1049 2HZ ALYS    66      -5.466  36.334  21.190  0.50 26.42      std 1172
+ATOM   1050 2HZ BLYS    66      -8.424  38.769  20.571  0.50 29.47      std 1173
+ATOM   1051 3HZ ALYS    66      -6.515  36.816  22.269  0.50 26.94      std 1174
+ATOM   1052 3HZ BLYS    66      -7.173  39.181  21.513  0.50 29.18      std 1175
+ATOM   1053  N   GLY    67      -5.576  32.530  17.198  1.00 13.16      1PLC1176
+ATOM   1054  CA  GLY    67      -6.254  31.238  17.222  1.00 10.35      1PLC1177
+ATOM   1055  C   GLY    67      -5.646  30.139  16.433  1.00 11.03      1PLC1178
+ATOM   1056  O   GLY    67      -6.091  28.963  16.597  1.00 14.16      1PLC1179
+ATOM   1057  H   GLY    67      -4.876  32.699  17.892  1.00 13.68      std 1180
+ATOM   1058 1HA  GLY    67      -6.227  30.938  18.280  1.00 11.54      std 1181
+ATOM   1059 2HA  GLY    67      -7.319  31.403  17.000  1.00 14.08      std 1182
+ATOM   1060  N   GLU    68      -4.690  30.418  15.596  1.00 10.90      1PLC1183
+ATOM   1061  CA  GLU    68      -3.990  29.386  14.815  1.00 12.10      1PLC1184
+ATOM   1062  C   GLU    68      -3.164  28.555  15.827  1.00 14.05      1PLC1185
+ATOM   1063  O   GLU    68      -2.617  29.117  16.771  1.00 10.59      1PLC1186
+ATOM   1064  CB  GLU    68      -3.024  29.888  13.798  1.00 11.59      1PLC1187
+ATOM   1065  CG  GLU    68      -3.441  30.636  12.555  1.00 20.12      1PLC1188
+ATOM   1066  CD  GLU    68      -2.343  30.764  11.506  1.00 20.94      1PLC1189
+ATOM   1067  OE1 GLU    68      -1.893  29.812  10.857  1.00 28.39      1PLC1190
+ATOM   1068  OE2 GLU    68      -1.923  31.973  11.399  1.00 23.57      1PLC1191
+ATOM   1069  H   GLU    68      -4.357  31.357  15.514  1.00 11.84      std 1192
+ATOM   1070  HA  GLU    68      -4.735  28.684  14.413  1.00 12.29      std 1193
+ATOM   1071 1HB  GLU    68      -2.219  30.442  14.302  1.00 12.52      std 1194
+ATOM   1072 2HB  GLU    68      -2.553  28.975  13.404  1.00 14.43      std 1195
+ATOM   1073 1HG  GLU    68      -4.434  30.429  12.129  1.00 16.43      std 1196
+ATOM   1074 2HG  GLU    68      -3.504  31.669  12.929  1.00 16.95      std 1197
+ATOM   1075  N   THR    69      -3.142  27.240  15.574  1.00 12.66      1PLC1198
+ATOM   1076  CA  THR    69      -2.406  26.343  16.470  1.00  9.59      1PLC1199
+ATOM   1077  C   THR    69      -1.353  25.517  15.751  1.00 11.70      1PLC1200
+ATOM   1078  O   THR    69      -1.446  25.335  14.555  1.00 11.54      1PLC1201
+ATOM   1079  CB  THR    69      -3.420  25.416  17.164  1.00 11.93      1PLC1202
+ATOM   1080  OG1 THR    69      -4.062  24.716  16.104  1.00 13.55      1PLC1203
+ATOM   1081  CG2 THR    69      -4.416  26.150  18.029  1.00 10.49      1PLC1204
+ATOM   1082  H   THR    69      -3.623  26.852  14.788  1.00 12.36      std 1205
+ATOM   1083  HA  THR    69      -1.916  26.914  17.272  1.00 13.14      std 1206
+ATOM   1084  HB  THR    69      -2.895  24.657  17.762  1.00 13.62      std 1207
+ATOM   1085  HG1 THR    69      -3.822  23.746  16.127  1.00 12.34      std 1208
+ATOM   1086 1HG2 THR    69      -3.935  26.915  18.656  1.00 10.81      std 1209
+ATOM   1087 2HG2 THR    69      -5.159  26.660  17.398  1.00 13.58      std 1210
+ATOM   1088 3HG2 THR    69      -4.973  25.430  18.646  1.00  8.04      std 1211
+ATOM   1089  N   PHE    70      -0.425  25.009  16.519  1.00  8.78      1PLC1212
+ATOM   1090  CA  PHE    70       0.632  24.091  16.122  1.00  8.83      1PLC1213
+ATOM   1091  C   PHE    70       0.586  23.015  17.231  1.00 10.04      1PLC1214
+ATOM   1092  O   PHE    70       0.788  23.375  18.395  1.00  9.40      1PLC1215
+ATOM   1093  CB  PHE    70       2.049  24.660  15.971  1.00  9.51      1PLC1216
+ATOM   1094  CG  PHE    70       3.111  23.655  15.600  1.00  9.88      1PLC1217
+ATOM   1095  CD1 PHE    70       3.088  23.009  14.381  1.00 12.94      1PLC1218
+ATOM   1096  CD2 PHE    70       4.134  23.343  16.501  1.00 16.64      1PLC1219
+ATOM   1097  CE1 PHE    70       4.053  22.067  14.019  1.00 14.12      1PLC1220
+ATOM   1098  CE2 PHE    70       5.113  22.388  16.176  1.00 17.15      1PLC1221
+ATOM   1099  CZ  PHE    70       5.058  21.766  14.924  1.00 13.56      1PLC1222
+ATOM   1100  H   PHE    70      -0.442  25.157  17.508  1.00 10.49      std 1223
+ATOM   1101  HA  PHE    70       0.377  23.604  15.170  1.00  9.74      std 1224
+ATOM   1102 1HB  PHE    70       2.048  25.556  15.333  1.00  8.72      std 1225
+ATOM   1103 2HB  PHE    70       2.295  25.031  16.977  1.00  6.78      std 1226
+ATOM   1104  HD1 PHE    70       2.277  23.270  13.686  1.00 13.50      std 1227
+ATOM   1105  HD2 PHE    70       4.149  23.841  17.482  1.00 13.63      std 1228
+ATOM   1106  HE1 PHE    70       4.001  21.581  13.034  1.00 13.32      std 1229
+ATOM   1107  HE2 PHE    70       5.930  22.128  16.866  1.00 14.87      std 1230
+ATOM   1108  HZ  PHE    70       5.823  21.025  14.648  1.00 15.64      std 1231
+ATOM   1109  N  AGLU    71       0.336  21.789  16.842  0.50  9.76      1PLC1232
+ATOM   1110  N  BGLU    71       0.336  21.790  16.834  0.50 10.86      1PLC1233
+ATOM   1111  CA AGLU    71       0.246  20.663  17.802  0.50 14.13      1PLC1234
+ATOM   1112  CA BGLU    71       0.282  20.664  17.759  0.50 15.82      1PLC1235
+ATOM   1113  C  AGLU    71       1.343  19.650  17.567  0.50 12.67      1PLC1236
+ATOM   1114  C  BGLU    71       1.513  19.766  17.546  0.50 14.23      1PLC1237
+ATOM   1115  O  AGLU    71       1.611  19.262  16.416  0.50 12.05      1PLC1238
+ATOM   1116  O  BGLU    71       2.000  19.613  16.416  0.50 14.62      1PLC1239
+ATOM   1117  CB AGLU    71      -1.124  20.010  17.631  0.50 16.71      1PLC1240
+ATOM   1118  CB BGLU    71      -0.897  19.730  17.558  0.50 19.23      1PLC1241
+ATOM   1119  CG AGLU    71      -2.308  20.998  17.654  0.50 23.32      1PLC1242
+ATOM   1120  CG BGLU    71      -2.068  19.660  18.514  0.50 26.31      1PLC1243
+ATOM   1121  CD AGLU    71      -3.263  20.878  16.503  0.50 24.63      1PLC1244
+ATOM   1122  CD BGLU    71      -3.055  18.549  18.228  0.50 27.22      1PLC1245
+ATOM   1123  OE1AGLU    71      -3.634  19.815  16.036  0.50 28.03      1PLC1246
+ATOM   1124  OE1BGLU    71      -3.850  18.852  17.241  0.50 27.59      1PLC1247
+ATOM   1125  OE2AGLU    71      -3.657  22.040  16.050  0.50 24.74      1PLC1248
+ATOM   1126  OE2BGLU    71      -3.104  17.490  18.824  0.50 32.07      1PLC1249
+ATOM   1127  H  AGLU    71       0.173  21.558  15.883  0.50 10.12      std 1250
+ATOM   1128  H  BGLU    71       0.191  21.573  15.869  0.50 10.79      std 1251
+ATOM   1129  HA AGLU    71       0.306  21.082  18.817  0.50 13.80      std 1252
+ATOM   1130  HA BGLU    71       0.276  21.038  18.793  0.50 15.49      std 1253
+ATOM   1131 1HB AGLU    71      -1.124  19.510  16.651  0.50 17.54      std 1254
+ATOM   1132 1HB BGLU    71      -1.263  19.863  16.529  0.50 20.49      std 1255
+ATOM   1133 2HB AGLU    71      -1.224  19.242  18.412  0.50 17.27      std 1256
+ATOM   1134 2HB BGLU    71      -0.481  18.712  17.530  0.50 20.48      std 1257
+ATOM   1135 1HG AGLU    71      -2.923  20.894  18.560  0.50 21.95      std 1258
+ATOM   1136 1HG BGLU    71      -1.785  19.602  19.575  0.50 25.23      std 1259
+ATOM   1137 2HG AGLU    71      -1.909  22.023  17.654  0.50 22.10      std 1260
+ATOM   1138 2HG BGLU    71      -2.665  20.575  18.385  0.50 25.02      std 1261
+ATOM   1139  N   VAL    72       1.969  19.199  18.651  1.00 12.57      1PLC1262
+ATOM   1140  CA  VAL    72       3.086  18.264  18.615  1.00 13.05      1PLC1263
+ATOM   1141  C   VAL    72       3.022  17.319  19.814  1.00 11.79      1PLC1264
+ATOM   1142  O   VAL    72       2.636  17.718  20.882  1.00  9.51      1PLC1265
+ATOM   1143  CB  VAL    72       4.442  18.985  18.512  1.00 14.98      1PLC1266
+ATOM   1144  CG1 VAL    72       4.788  19.838  19.702  1.00 17.09      1PLC1267
+ATOM   1145  CG2 VAL    72       5.558  17.983  18.273  1.00 22.08      1PLC1268
+ATOM   1146  H   VAL    72       1.535  19.315  19.545  1.00 13.99      std 1269
+ATOM   1147  HA  VAL    72       3.045  17.691  17.677  1.00 12.73      std 1270
+ATOM   1148  HB  VAL    72       4.416  19.620  17.614  1.00 17.21      std 1271
+ATOM   1149 1HG1 VAL    72       3.976  20.465  20.099  1.00 17.96      std 1272
+ATOM   1150 2HG1 VAL    72       5.372  19.306  20.467  1.00 14.45      std 1273
+ATOM   1151 3HG1 VAL    72       5.468  20.598  19.290  1.00 15.40      std 1274
+ATOM   1152 1HG2 VAL    72       5.305  17.237  17.506  1.00 18.35      std 1275
+ATOM   1153 2HG2 VAL    72       6.495  18.515  18.051  1.00 19.88      std 1276
+ATOM   1154 3HG2 VAL    72       5.748  17.481  19.233  1.00 19.74      std 1277
+ATOM   1155  N   ALA    73       3.411  16.080  19.578  1.00  9.33      1PLC1278
+ATOM   1156  CA  ALA    73       3.488  15.067  20.632  1.00  7.58      1PLC1279
+ATOM   1157  C   ALA    73       4.953  14.648  20.664  1.00  9.04      1PLC1280
+ATOM   1158  O   ALA    73       5.576  14.407  19.592  1.00 15.85      1PLC1281
+ATOM   1159  CB  ALA    73       2.534  13.917  20.400  1.00 10.80      1PLC1282
+ATOM   1160  H   ALA    73       3.760  15.795  18.685  1.00 11.55      std 1283
+ATOM   1161  HA  ALA    73       3.167  15.546  21.569  1.00  6.27      std 1284
+ATOM   1162 1HB  ALA    73       2.221  13.767  19.356  1.00  5.08      std 1285
+ATOM   1163 2HB  ALA    73       2.999  13.023  20.842  1.00 10.09      std 1286
+ATOM   1164 3HB  ALA    73       1.673  14.010  21.079  1.00  6.35      std 1287
+ATOM   1165  N   LEU    74       5.534  14.573  21.828  1.00 10.80      1PLC1288
+ATOM   1166  CA  LEU    74       6.916  14.170  22.041  1.00  9.21      1PLC1289
+ATOM   1167  C   LEU    74       6.891  12.784  22.701  1.00 13.47      1PLC1290
+ATOM   1168  O   LEU    74       6.032  12.553  23.557  1.00 17.01      1PLC1291
+ATOM   1169  CB  LEU    74       7.654  15.162  22.944  1.00  8.40      1PLC1292
+ATOM   1170  CG  LEU    74       7.642  16.589  22.479  1.00  7.41      1PLC1293
+ATOM   1171  CD1 LEU    74       8.373  17.426  23.477  1.00 10.72      1PLC1294
+ATOM   1172  CD2 LEU    74       8.232  16.695  21.099  1.00 11.86      1PLC1295
+ATOM   1173  H   LEU    74       5.000  14.760  22.653  1.00 10.57      std 1296
+ATOM   1174  HA  LEU    74       7.428  14.084  21.071  1.00 10.79      std 1297
+ATOM   1175 1HB  LEU    74       7.164  15.172  23.929  1.00  7.16      std 1298
+ATOM   1176 2HB  LEU    74       8.714  14.896  23.068  1.00  8.33      std 1299
+ATOM   1177  HG  LEU    74       6.582  16.868  22.387  1.00  9.54      std 1300
+ATOM   1178 1HD1 LEU    74       8.182  17.016  24.480  1.00 10.00      std 1301
+ATOM   1179 2HD1 LEU    74       9.448  17.335  23.263  1.00 11.46      std 1302
+ATOM   1180 3HD1 LEU    74       8.084  18.482  23.373  1.00  7.56      std 1303
+ATOM   1181 1HD2 LEU    74       9.159  16.107  21.037  1.00 11.09      std 1304
+ATOM   1182 2HD2 LEU    74       7.483  16.357  20.368  1.00 12.19      std 1305
+ATOM   1183 3HD2 LEU    74       8.474  17.737  20.844  1.00 14.28      std 1306
+ATOM   1184  N   SER    75       7.824  11.980  22.260  1.00 13.39      1PLC1307
+ATOM   1185  CA  SER    75       7.924  10.599  22.795  1.00 18.36      1PLC1308
+ATOM   1186  C   SER    75       9.210  10.353  23.546  1.00 16.87      1PLC1309
+ATOM   1187  O   SER    75       9.160   9.792  24.689  1.00 21.96      1PLC1310
+ATOM   1188  CB ASER    75       7.714   9.614  21.644  0.50 20.51      1PLC1311
+ATOM   1189  CB BSER    75       7.743   9.598  21.653  0.50 18.79      1PLC1312
+ATOM   1190  OG ASER    75       6.985  10.225  20.590  0.50 25.50      1PLC1313
+ATOM   1191  OG BSER    75       8.731   9.809  20.662  0.50 20.86      1PLC1314
+ATOM   1192  H   SER    75       8.487  12.230  21.554  1.00 13.95      std 1315
+ATOM   1193  HA  SER    75       7.054  10.437  23.448  1.00 16.51      std 1316
+ATOM   1194 1HB ASER    75       8.698   9.282  21.281  0.50 21.97      std 1317
+ATOM   1195 1HB BSER    75       7.955   8.606  22.079  0.50 19.47      std 1318
+ATOM   1196 2HB ASER    75       7.171   8.734  22.019  0.50 22.63      std 1319
+ATOM   1197 2HB BSER    75       6.713   9.617  21.268  0.50 19.09      std 1320
+ATOM   1198  HG ASER    75       6.880   9.539  19.870  0.50 25.17      std 1321
+ATOM   1199  HG BSER    75       9.575   9.397  21.006  0.50 21.94      std 1322
+ATOM   1200  N   ASN    76      10.359  10.729  22.989  1.00 10.23      1PLC1323
+ATOM   1201  CA  ASN    76      11.635  10.519  23.669  1.00 10.74      1PLC1324
+ATOM   1202  C   ASN    76      11.714  11.340  24.962  1.00 10.72      1PLC1325
+ATOM   1203  O   ASN    76      11.410  12.537  24.949  1.00 11.54      1PLC1326
+ATOM   1204  CB  ASN    76      12.828  10.816  22.765  1.00 14.64      1PLC1327
+ATOM   1205  CG  ASN    76      12.826   9.983  21.501  1.00 23.01      1PLC1328
+ATOM   1206  OD1 ASN    76      11.970  10.214  20.638  1.00 28.17      1PLC1329
+ATOM   1207  ND2 ASN    76      13.768   9.051  21.415  1.00 26.23      1PLC1330
+ATOM   1208  H   ASN    76      10.358  11.170  22.092  1.00 15.82      std 1331
+ATOM   1209  HA  ASN    76      11.744   9.445  23.881  1.00 14.04      std 1332
+ATOM   1210 1HB  ASN    76      12.710  11.855  22.423  1.00 15.80      std 1333
+ATOM   1211 2HB  ASN    76      13.809  10.760  23.259  1.00 13.24      std 1334
+ATOM   1212 1HD2 ASN    76      13.811   8.474  20.599  1.00 25.11      std 1335
+ATOM   1213 2HD2 ASN    76      14.428   8.922  22.155  1.00 24.93      std 1336
+ATOM   1214  N   LYS    77      12.163  10.685  26.015  1.00 10.74      1PLC1337
+ATOM   1215  CA  LYS    77      12.347  11.352  27.307  1.00  8.71      1PLC1338
+ATOM   1216  C   LYS    77      13.599  12.224  27.266  1.00 11.50      1PLC1339
+ATOM   1217  O   LYS    77      14.598  11.906  26.602  1.00 13.74      1PLC1340
+ATOM   1218  CB  LYS    77      12.491  10.373  28.445  1.00 11.09      1PLC1341
+ATOM   1219  CG  LYS    77      11.182   9.586  28.679  1.00 18.54      1PLC1342
+ATOM   1220  CD  LYS    77      11.365   8.686  29.895  1.00 22.59      1PLC1343
+ATOM   1221  CE  LYS    77      10.023   8.105  30.302  1.00 28.61      1PLC1344
+ATOM   1222  NZ  LYS    77       9.816   6.904  29.456  1.00 34.75      1PLC1345
+ATOM   1223  H   LYS    77      12.430   9.721  25.990  1.00 10.92      std 1346
+ATOM   1224  HA  LYS    77      11.438  11.939  27.501  1.00 12.50      std 1347
+ATOM   1225 1HB  LYS    77      13.329   9.682  28.269  1.00 12.23      std 1348
+ATOM   1226 2HB  LYS    77      12.680  10.999  29.330  1.00 11.15      std 1349
+ATOM   1227 1HG  LYS    77      10.285  10.217  28.760  1.00 17.39      std 1350
+ATOM   1228 2HG  LYS    77      11.015   8.926  27.815  1.00 19.08      std 1351
+ATOM   1229 1HD  LYS    77      11.989   7.834  29.586  1.00 20.09      std 1352
+ATOM   1230 2HD  LYS    77      11.830   9.227  30.732  1.00 22.45      std 1353
+ATOM   1231 1HE  LYS    77       9.950   7.842  31.368  1.00 29.06      std 1354
+ATOM   1232 2HE  LYS    77       9.246   8.826  30.009  1.00 27.91      std 1355
+ATOM   1233 1HZ  LYS    77       8.955   6.461  29.707  1.00 33.69      std 1356
+ATOM   1234 2HZ  LYS    77       9.785   7.221  28.508  1.00 34.40      std 1357
+ATOM   1235 3HZ  LYS    77      10.580   6.263  29.523  1.00 34.91      std 1358
+ATOM   1236  N   GLY    78      13.546  13.320  28.014  1.00  8.52      1PLC1359
+ATOM   1237  CA  GLY    78      14.656  14.264  28.125  1.00  9.16      1PLC1360
+ATOM   1238  C   GLY    78      14.129  15.702  28.009  1.00  7.35      1PLC1361
+ATOM   1239  O   GLY    78      12.933  15.962  27.974  1.00  8.59      1PLC1362
+ATOM   1240  H   GLY    78      12.725  13.534  28.544  1.00 11.24      std 1363
+ATOM   1241 1HA  GLY    78      14.956  14.145  29.176  1.00  6.00      std 1364
+ATOM   1242 2HA  GLY    78      15.575  14.061  27.556  1.00  5.24      std 1365
+ATOM   1243  N   GLU    79      15.092  16.601  27.917  1.00  7.60      1PLC1366
+ATOM   1244  CA  GLU    79      14.785  18.020  27.845  1.00  9.48      1PLC1367
+ATOM   1245  C   GLU    79      14.861  18.538  26.427  1.00  5.17      1PLC1368
+ATOM   1246  O   GLU    79      15.745  18.133  25.676  1.00  9.89      1PLC1369
+ATOM   1247  CB  GLU    79      15.728  18.865  28.698  1.00 12.58      1PLC1370
+ATOM   1248  CG  GLU    79      15.757  18.544  30.190  1.00 15.49      1PLC1371
+ATOM   1249  CD  GLU    79      16.419  19.618  31.030  1.00 24.90      1PLC1372
+ATOM   1250  OE1 GLU    79      17.445  20.164  30.738  1.00 27.45      1PLC1373
+ATOM   1251  OE2 GLU    79      15.719  19.902  32.118  1.00 33.89      1PLC1374
+ATOM   1252  H   GLU    79      16.066  16.379  27.960  1.00  9.64      std 1375
+ATOM   1253  HA  GLU    79      13.752  18.142  28.202  1.00  8.89      std 1376
+ATOM   1254 1HB  GLU    79      16.749  18.743  28.306  1.00 11.43      std 1377
+ATOM   1255 2HB  GLU    79      15.471  19.927  28.570  1.00  8.52      std 1378
+ATOM   1256 1HG  GLU    79      14.740  18.372  30.573  1.00 13.90      std 1379
+ATOM   1257 2HG  GLU    79      16.396  17.658  30.317  1.00 14.88      std 1380
+ATOM   1258  N   TYR    80      13.903  19.346  26.136  1.00  3.82      1PLC1381
+ATOM   1259  CA  TYR    80      13.796  19.992  24.826  1.00  4.47      1PLC1382
+ATOM   1260  C   TYR    80      13.690  21.528  24.960  1.00  5.84      1PLC1383
+ATOM   1261  O   TYR    80      12.731  22.022  25.581  1.00  7.39      1PLC1384
+ATOM   1262  CB  TYR    80      12.547  19.510  24.118  1.00  6.73      1PLC1385
+ATOM   1263  CG  TYR    80      12.358  18.042  23.815  1.00  4.79      1PLC1386
+ATOM   1264  CD1 TYR    80      12.185  17.099  24.829  1.00  6.76      1PLC1387
+ATOM   1265  CD2 TYR    80      12.305  17.621  22.494  1.00  6.42      1PLC1388
+ATOM   1266  CE1 TYR    80      11.976  15.750  24.510  1.00  7.20      1PLC1389
+ATOM   1267  CE2 TYR    80      12.089  16.278  22.174  1.00  6.39      1PLC1390
+ATOM   1268  CZ  TYR    80      11.928  15.357  23.168  1.00  7.01      1PLC1391
+ATOM   1269  OH  TYR    80      11.723  14.063  22.812  1.00  9.56      1PLC1392
+ATOM   1270  H   TYR    80      13.197  19.643  26.779  1.00  4.01      std 1393
+ATOM   1271  HA  TYR    80      14.706  19.751  24.257  1.00  4.86      std 1394
+ATOM   1272 1HB  TYR    80      11.709  19.790  24.773  1.00  4.69      std 1395
+ATOM   1273 2HB  TYR    80      12.390  20.138  23.229  1.00  3.60      std 1396
+ATOM   1274  HD1 TYR    80      12.213  17.395  25.888  1.00  6.27      std 1397
+ATOM   1275  HD2 TYR    80      12.421  18.342  21.672  1.00  7.38      std 1398
+ATOM   1276  HE1 TYR    80      11.843  15.014  25.316  1.00  8.52      std 1399
+ATOM   1277  HE2 TYR    80      12.056  15.966  21.120  1.00  8.60      std 1400
+ATOM   1278  HH  TYR    80      11.461  13.493  23.590  1.00  4.90      std 1401
+ATOM   1279  N   SER    81      14.644  22.213  24.359  1.00  5.44      1PLC1402
+ATOM   1280  CA  SER    81      14.641  23.683  24.338  1.00  7.25      1PLC1403
+ATOM   1281  C   SER    81      14.008  24.124  23.024  1.00  8.08      1PLC1404
+ATOM   1282  O   SER    81      14.318  23.546  21.963  1.00  7.66      1PLC1405
+ATOM   1283  CB  SER    81      16.017  24.285  24.497  1.00 12.14      1PLC1406
+ATOM   1284  OG  SER    81      16.521  23.914  25.787  1.00 16.02      1PLC1407
+ATOM   1285  H   SER    81      15.376  21.766  23.845  1.00  7.18      std 1408
+ATOM   1286  HA  SER    81      14.017  24.024  25.177  1.00 11.75      std 1409
+ATOM   1287 1HB  SER    81      16.683  23.861  23.731  1.00 10.98      std 1410
+ATOM   1288 2HB  SER    81      15.965  25.377  24.373  1.00 11.41      std 1411
+ATOM   1289  HG  SER    81      17.062  23.081  25.673  1.00 13.48      std 1412
+ATOM   1290  N   PHE    82      13.161  25.150  23.139  1.00  7.37      1PLC1413
+ATOM   1291  CA  PHE    82      12.442  25.649  21.929  1.00  6.44      1PLC1414
+ATOM   1292  C   PHE    82      12.399  27.167  22.017  1.00  5.47      1PLC1415
+ATOM   1293  O   PHE    82      12.609  27.754  23.059  1.00  6.56      1PLC1416
+ATOM   1294  CB  PHE    82      11.058  25.032  21.746  1.00  6.09      1PLC1417
+ATOM   1295  CG  PHE    82      10.102  25.262  22.862  1.00  5.89      1PLC1418
+ATOM   1296  CD1 PHE    82       9.369  26.425  22.925  1.00  7.87      1PLC1419
+ATOM   1297  CD2 PHE    82       9.946  24.318  23.874  1.00  7.81      1PLC1420
+ATOM   1298  CE1 PHE    82       8.471  26.651  23.986  1.00  9.74      1PLC1421
+ATOM   1299  CE2 PHE    82       9.071  24.508  24.935  1.00  8.16      1PLC1422
+ATOM   1300  CZ  PHE    82       8.345  25.695  24.992  1.00  7.88      1PLC1423
+ATOM   1301  H   PHE    82      12.935  25.582  24.012  1.00  6.22      std 1424
+ATOM   1302  HA  PHE    82      12.954  25.369  20.997  1.00  8.31      std 1425
+ATOM   1303 1HB  PHE    82      10.656  25.666  20.942  1.00  7.01      std 1426
+ATOM   1304 2HB  PHE    82      11.038  24.026  21.302  1.00  7.83      std 1427
+ATOM   1305  HD1 PHE    82       9.493  27.180  22.135  1.00  9.27      std 1428
+ATOM   1306  HD2 PHE    82      10.544  23.397  23.812  1.00  9.56      std 1429
+ATOM   1307  HE1 PHE    82       7.880  27.576  24.062  1.00  7.72      std 1430
+ATOM   1308  HE2 PHE    82       8.974  23.747  25.723  1.00  9.01      std 1431
+ATOM   1309  HZ  PHE    82       7.649  25.841  25.831  1.00  8.87      std 1432
+ATOM   1310  N   TYR    83      12.081  27.749  20.871  1.00  4.89      1PLC1433
+ATOM   1311  CA  TYR    83      12.016  29.218  20.778  1.00  4.63      1PLC1434
+ATOM   1312  C   TYR    83      11.137  29.641  19.623  1.00  6.90      1PLC1435
+ATOM   1313  O   TYR    83      10.801  28.833  18.767  1.00  6.48      1PLC1436
+ATOM   1314  CB  TYR    83      13.443  29.793  20.631  1.00  6.80      1PLC1437
+ATOM   1315  CG  TYR    83      14.212  29.298  19.432  1.00  8.77      1PLC1438
+ATOM   1316  CD1 TYR    83      15.002  28.155  19.451  1.00 11.23      1PLC1439
+ATOM   1317  CD2 TYR    83      14.129  30.007  18.219  1.00 12.67      1PLC1440
+ATOM   1318  CE1 TYR    83      15.695  27.726  18.314  1.00 11.61      1PLC1441
+ATOM   1319  CE2 TYR    83      14.817  29.596  17.082  1.00 12.34      1PLC1442
+ATOM   1320  CZ  TYR    83      15.595  28.450  17.139  1.00 14.14      1PLC1443
+ATOM   1321  OH  TYR    83      16.262  28.018  16.023  1.00 18.49      1PLC1444
+ATOM   1322  H   TYR    83      11.915  27.262  20.013  1.00  8.67      std 1445
+ATOM   1323  HA  TYR    83      11.630  29.573  21.745  1.00  5.93      std 1446
+ATOM   1324 1HB  TYR    83      13.412  30.892  20.646  1.00  8.51      std 1447
+ATOM   1325 2HB  TYR    83      13.944  29.441  21.545  1.00  8.72      std 1448
+ATOM   1326  HD1 TYR    83      15.073  27.578  20.385  1.00 10.85      std 1449
+ATOM   1327  HD2 TYR    83      13.521  30.922  18.157  1.00 12.39      std 1450
+ATOM   1328  HE1 TYR    83      16.307  26.812  18.342  1.00 12.37      std 1451
+ATOM   1329  HE2 TYR    83      14.728  30.179  16.154  1.00 13.31      std 1452
+ATOM   1330  HH  TYR    83      16.159  28.670  15.272  1.00 16.15      std 1453
+ATOM   1331  N   CYS    84      10.796  30.916  19.636  1.00  6.68      1PLC1454
+ATOM   1332  CA  CYS    84      10.020  31.569  18.549  1.00  4.22      1PLC1455
+ATOM   1333  C   CYS    84      11.116  32.329  17.768  1.00  4.56      1PLC1456
+ATOM   1334  O   CYS    84      11.756  33.220  18.363  1.00  6.65      1PLC1457
+ATOM   1335  CB  CYS    84       8.950  32.469  19.093  1.00  8.98      1PLC1458
+ATOM   1336  SG  CYS    84       8.211  33.486  17.848  1.00  6.99      1PLC1459
+ATOM   1337  H   CYS    84      11.114  31.564  20.328  1.00  5.69      std 1460
+ATOM   1338  HA  CYS    84       9.502  30.816  17.937  1.00  3.98      std 1461
+ATOM   1339 1HB  CYS    84       8.122  31.938  19.586  1.00  9.49      std 1462
+ATOM   1340 2HB  CYS    84       9.429  33.147  19.815  1.00  7.16      std 1463
+ATOM   1341  N   SER    85      11.350  31.961  16.523  1.00  6.06      1PLC1464
+ATOM   1342  CA  SER    85      12.452  32.557  15.725  1.00  7.33      1PLC1465
+ATOM   1343  C   SER    85      12.472  34.050  15.620  1.00  5.86      1PLC1466
+ATOM   1344  O   SER    85      13.530  34.640  15.914  1.00  7.58      1PLC1467
+ATOM   1345  CB  SER    85      12.715  31.846  14.408  1.00  9.60      1PLC1468
+ATOM   1346  OG  SER    85      11.776  32.068  13.444  1.00 14.58      1PLC1469
+ATOM   1347  H   SER    85      10.832  31.210  16.114  1.00  7.42      std 1470
+ATOM   1348  HA  SER    85      13.348  32.248  16.283  1.00  4.54      std 1471
+ATOM   1349 1HB  SER    85      13.675  32.193  13.998  1.00  2.33      std 1472
+ATOM   1350 2HB  SER    85      12.895  30.783  14.628  1.00  9.25      std 1473
+ATOM   1351  HG  SER    85      12.192  31.675  12.624  1.00 10.71      std 1474
+ATOM   1352  N   PRO    86      11.394  34.734  15.287  1.00  6.87      1PLC1475
+ATOM   1353  CA  PRO    86      11.444  36.213  15.195  1.00  8.95      1PLC1476
+ATOM   1354  C   PRO    86      11.581  36.933  16.535  1.00 10.90      1PLC1477
+ATOM   1355  O   PRO    86      11.951  38.136  16.595  1.00 10.11      1PLC1478
+ATOM   1356  CB  PRO    86      10.110  36.547  14.498  1.00  8.54      1PLC1479
+ATOM   1357  CG  PRO    86       9.164  35.391  14.731  1.00 11.13      1PLC1480
+ATOM   1358  CD  PRO    86      10.081  34.195  14.886  1.00  6.36      1PLC1481
+ATOM   1359  HA  PRO    86      12.196  36.259  14.394  1.00  3.95      std 1482
+ATOM   1360 1HB  PRO    86       9.707  37.496  14.881  1.00  4.14      std 1483
+ATOM   1361 2HB  PRO    86      10.290  36.660  13.419  1.00  7.82      std 1484
+ATOM   1362 1HG  PRO    86       8.535  35.498  15.627  1.00  8.65      std 1485
+ATOM   1363 2HG  PRO    86       8.477  35.226  13.888  1.00  8.77      std 1486
+ATOM   1364 1HD  PRO    86       9.718  33.317  15.439  1.00  4.23      std 1487
+ATOM   1365 2HD  PRO    86      10.177  33.808  13.861  1.00  6.33      std 1488
+ATOM   1366  N   HIS    87      11.296  36.270  17.651  1.00  8.25      1PLC1489
+ATOM   1367  CA  HIS    87      11.306  36.871  18.972  1.00  7.41      1PLC1490
+ATOM   1368  C   HIS    87      12.266  36.245  19.959  1.00  8.16      1PLC1491
+ATOM   1369  O   HIS    87      12.106  36.448  21.183  1.00  9.85      1PLC1492
+ATOM   1370  CB  HIS    87       9.880  36.740  19.559  1.00  6.49      1PLC1493
+ATOM   1371  CG  HIS    87       8.845  37.461  18.738  1.00 10.59      1PLC1494
+ATOM   1372  ND1 HIS    87       7.577  36.945  18.572  1.00  9.56      1PLC1495
+ATOM   1373  CD2 HIS    87       8.935  38.696  18.126  1.00 10.65      1PLC1496
+ATOM   1374  CE1 HIS    87       6.944  37.818  17.826  1.00 13.47      1PLC1497
+ATOM   1375  NE2 HIS    87       7.709  38.881  17.542  1.00 12.24      1PLC1498
+ATOM   1376  H   HIS    87      10.979  35.323  17.595  1.00 10.18      std 1499
+ATOM   1377  HA  HIS    87      11.453  37.959  18.905  1.00  6.21      std 1500
+ATOM   1378 1HB  HIS    87       9.692  35.672  19.742  1.00  3.61      std 1501
+ATOM   1379 2HB  HIS    87       9.954  37.164  20.571  1.00  5.24      std 1502
+ATOM   1380  HD2 HIS    87       9.780  39.397  18.055  1.00  7.74      std 1503
+ATOM   1381  HE1 HIS    87       5.902  37.717  17.489  1.00 11.29      std 1504
+ATOM   1382  HE2 HIS    87       7.448  39.679  17.000  1.00 12.58      std 1505
+ATOM   1383  N   GLN    88      13.217  35.482  19.430  1.00  7.74      1PLC1506
+ATOM   1384  CA  GLN    88      14.183  34.788  20.285  1.00  8.62      1PLC1507
+ATOM   1385  C   GLN    88      14.953  35.774  21.165  1.00  8.42      1PLC1508
+ATOM   1386  O   GLN    88      15.099  35.591  22.380  1.00 11.00      1PLC1509
+ATOM   1387  CB  GLN    88      15.080  33.883  19.461  1.00 10.56      1PLC1510
+ATOM   1388  CG  GLN    88      15.959  32.975  20.312  1.00 13.15      1PLC1511
+ATOM   1389  CD  GLN    88      16.874  32.130  19.453  1.00 19.31      1PLC1512
+ATOM   1390  OE1 GLN    88      17.267  32.475  18.333  1.00 20.02      1PLC1513
+ATOM   1391  NE2 GLN    88      17.176  30.960  20.031  1.00 23.87      1PLC1514
+ATOM   1392  H   GLN    88      13.278  35.345  18.441  1.00  8.14      std 1515
+ATOM   1393  HA  GLN    88      13.630  34.090  20.931  1.00  9.14      std 1516
+ATOM   1394 1HB  GLN    88      14.352  33.195  19.006  1.00 11.80      std 1517
+ATOM   1395 2HB  GLN    88      15.592  34.281  18.573  1.00 10.95      std 1518
+ATOM   1396 1HG  GLN    88      16.573  33.555  21.017  1.00 10.35      std 1519
+ATOM   1397 2HG  GLN    88      15.328  32.261  20.861  1.00 11.65      std 1520
+ATOM   1398 1HE2 GLN    88      17.772  30.319  19.547  1.00 20.08      std 1521
+ATOM   1399 2HE2 GLN    88      16.840  30.696  20.935  1.00 19.92      std 1522
+ATOM   1400  N   GLY    89      15.452  36.826  20.544  1.00 10.35      1PLC1523
+ATOM   1401  CA  GLY    89      16.232  37.878  21.217  1.00 10.58      1PLC1524
+ATOM   1402  C   GLY    89      15.446  38.564  22.300  1.00 11.47      1PLC1525
+ATOM   1403  O   GLY    89      16.049  39.012  23.297  1.00 17.09      1PLC1526
+ATOM   1404  H   GLY    89      15.331  36.962  19.561  1.00 10.78      std 1527
+ATOM   1405 1HA  GLY    89      17.043  37.358  21.749  1.00 10.01      std 1528
+ATOM   1406 2HA  GLY    89      16.751  38.537  20.506  1.00 11.49      std 1529
+ATOM   1407  N   ALA    90      14.147  38.715  22.134  1.00 10.78      1PLC1530
+ATOM   1408  CA  ALA    90      13.235  39.316  23.068  1.00  9.50      1PLC1531
+ATOM   1409  C   ALA    90      12.974  38.393  24.266  1.00 11.02      1PLC1532
+ATOM   1410  O   ALA    90      12.372  38.817  25.260  1.00 10.54      1PLC1533
+ATOM   1411  CB  ALA    90      11.905  39.662  22.395  1.00 13.13      1PLC1534
+ATOM   1412  H   ALA    90      13.724  38.334  21.312  1.00 13.35      std 1535
+ATOM   1413  HA  ALA    90      13.647  40.274  23.418  1.00 10.12      std 1536
+ATOM   1414 1HB  ALA    90      11.768  38.967  21.554  1.00 11.80      std 1537
+ATOM   1415 2HB  ALA    90      11.078  39.366  23.057  1.00 10.29      std 1538
+ATOM   1416 3HB  ALA    90      11.887  40.708  22.055  1.00 10.41      std 1539
+ATOM   1417  N   GLY    91      13.410  37.135  24.157  1.00 10.05      1PLC1540
+ATOM   1418  CA  GLY    91      13.245  36.187  25.280  1.00  8.38      1PLC1541
+ATOM   1419  C   GLY    91      12.102  35.234  25.176  1.00  7.12      1PLC1542
+ATOM   1420  O   GLY    91      11.726  34.599  26.189  1.00  7.48      1PLC1543
+ATOM   1421  H   GLY    91      13.907  36.839  23.342  1.00  9.12      std 1544
+ATOM   1422 1HA  GLY    91      14.149  35.571  25.394  1.00  5.34      std 1545
+ATOM   1423 2HA  GLY    91      13.141  36.787  26.196  1.00  8.23      std 1546
+ATOM   1424  N   MET    92      11.565  35.142  23.943  1.00  3.70      1PLC1547
+ATOM   1425  CA  MET    92      10.455  34.174  23.708  1.00  4.21      1PLC1548
+ATOM   1426  C   MET    92      11.047  32.771  23.434  1.00  5.06      1PLC1549
+ATOM   1427  O   MET    92      11.195  32.324  22.289  1.00  5.86      1PLC1550
+ATOM   1428  CB  MET    92       9.557  34.671  22.579  1.00  6.73      1PLC1551
+ATOM   1429  CG  MET    92       8.275  33.872  22.515  1.00  7.63      1PLC1552
+ATOM   1430  SD  MET    92       7.019  34.631  21.519  1.00  7.49      1PLC1553
+ATOM   1431  CE  MET    92       5.801  33.261  21.553  1.00  7.95      1PLC1554
+ATOM   1432  H   MET    92      11.909  35.647  23.151  1.00  5.42      std 1555
+ATOM   1433  HA  MET    92       9.906  34.095  24.658  1.00  2.00      std 1556
+ATOM   1434 1HB  MET    92       9.334  35.735  22.747  1.00 10.27      std 1557
+ATOM   1435 2HB  MET    92      10.048  34.651  21.595  1.00  5.99      std 1558
+ATOM   1436 1HG  MET    92       8.330  32.864  22.078  1.00  6.82      std 1559
+ATOM   1437 2HG  MET    92       7.844  33.777  23.523  1.00  5.97      std 1560
+ATOM   1438 1HE  MET    92       6.422  32.356  21.629  1.00  3.95      std 1561
+ATOM   1439 2HE  MET    92       5.081  33.542  22.336  1.00  5.15      std 1562
+ATOM   1440 3HE  MET    92       5.451  33.170  20.514  1.00  6.02      std 1563
+ATOM   1441  N   VAL    93      11.413  32.111  24.504  1.00  4.95      1PLC1564
+ATOM   1442  CA  VAL    93      12.046  30.806  24.615  1.00  5.81      1PLC1565
+ATOM   1443  C   VAL    93      11.334  29.963  25.675  1.00  3.80      1PLC1566
+ATOM   1444  O   VAL    93      10.606  30.467  26.527  1.00  5.64      1PLC1567
+ATOM   1445  CB  VAL    93      13.552  31.016  24.969  1.00  6.59      1PLC1568
+ATOM   1446  CG1 VAL    93      14.297  31.833  23.909  1.00  8.12      1PLC1569
+ATOM   1447  CG2 VAL    93      13.689  31.649  26.367  1.00  9.17      1PLC1570
+ATOM   1448  H   VAL    93      11.286  32.545  25.396  1.00  6.34      std 1571
+ATOM   1449  HA  VAL    93      12.075  30.245  23.669  1.00  5.25      std 1572
+ATOM   1450  HB  VAL    93      14.013  30.019  25.020  1.00  3.93      std 1573
+ATOM   1451 1HG1 VAL    93      14.210  31.530  22.855  1.00  2.00      std 1574
+ATOM   1452 2HG1 VAL    93      14.084  32.912  23.872  1.00  2.00      std 1575
+ATOM   1453 3HG1 VAL    93      15.364  31.833  24.175  1.00  2.07      std 1576
+ATOM   1454 1HG2 VAL    93      13.068  31.134  27.114  1.00  2.00      std 1577
+ATOM   1455 2HG2 VAL    93      14.720  31.720  26.744  1.00  3.41      std 1578
+ATOM   1456 3HG2 VAL    93      13.271  32.666  26.352  1.00  2.00      std 1579
+ATOM   1457  N   GLY    94      11.531  28.687  25.645  1.00  3.82      1PLC1580
+ATOM   1458  CA  GLY    94      10.938  27.739  26.582  1.00  5.11      1PLC1581
+ATOM   1459  C   GLY    94      11.700  26.427  26.608  1.00  5.78      1PLC1582
+ATOM   1460  O   GLY    94      12.639  26.206  25.852  1.00  5.48      1PLC1583
+ATOM   1461  H   GLY    94      12.126  28.272  24.957  1.00  7.48      std 1584
+ATOM   1462 1HA  GLY    94      10.942  28.156  27.600  1.00  4.46      std 1585
+ATOM   1463 2HA  GLY    94       9.877  27.622  26.315  1.00  3.88      std 1586
+ATOM   1464  N   LYS    95      11.242  25.594  27.532  1.00  6.64      1PLC1587
+ATOM   1465  CA  LYS    95      11.853  24.258  27.685  1.00  6.25      1PLC1588
+ATOM   1466  C   LYS    95      10.804  23.303  28.248  1.00  8.27      1PLC1589
+ATOM   1467  O   LYS    95      10.128  23.607  29.235  1.00  8.45      1PLC1590
+ATOM   1468  CB  LYS    95      13.077  24.327  28.616  1.00 12.02      1PLC1591
+ATOM   1469  CG  LYS    95      13.830  23.026  28.787  1.00 14.37      1PLC1592
+ATOM   1470  CD  LYS    95      15.115  23.141  29.577  1.00 25.81      1PLC1593
+ATOM   1471  CE  LYS    95      14.896  23.798  30.921  1.00 30.21      1PLC1594
+ATOM   1472  NZ  LYS    95      15.826  23.250  31.940  1.00 36.98      1PLC1595
+ATOM   1473  H   LYS    95      10.469  25.774  28.140  1.00  2.67      std 1596
+ATOM   1474  HA  LYS    95      12.206  23.911  26.703  1.00  4.80      std 1597
+ATOM   1475 1HB  LYS    95      13.788  25.127  28.362  1.00  8.19      std 1598
+ATOM   1476 2HB  LYS    95      12.638  24.599  29.587  1.00  7.27      std 1599
+ATOM   1477 1HG  LYS    95      13.226  22.165  29.108  1.00 19.38      std 1600
+ATOM   1478 2HG  LYS    95      14.185  22.741  27.785  1.00 20.29      std 1601
+ATOM   1479 1HD  LYS    95      15.443  22.108  29.765  1.00 23.64      std 1602
+ATOM   1480 2HD  LYS    95      15.900  23.637  28.988  1.00 22.47      std 1603
+ATOM   1481 1HE  LYS    95      15.004  24.891  30.868  1.00 30.99      std 1604
+ATOM   1482 2HE  LYS    95      13.906  23.541  31.325  1.00 31.80      std 1605
+ATOM   1483 1HZ  LYS    95      15.695  23.595  32.870  1.00 35.18      std 1606
+ATOM   1484 2HZ  LYS    95      15.739  22.254  31.948  1.00 36.27      std 1607
+ATOM   1485 3HZ  LYS    95      16.755  23.478  31.647  1.00 35.11      std 1608
+ATOM   1486  N   VAL    96      10.669  22.162  27.588  1.00  6.07      1PLC1609
+ATOM   1487  CA  VAL    96       9.757  21.110  28.028  1.00  5.53      1PLC1610
+ATOM   1488  C   VAL    96      10.625  19.869  28.356  1.00  6.30      1PLC1611
+ATOM   1489  O   VAL    96      11.563  19.509  27.615  1.00  7.63      1PLC1612
+ATOM   1490  CB  VAL    96       8.667  20.834  26.991  1.00  6.94      1PLC1613
+ATOM   1491  CG1 VAL    96       9.239  20.584  25.608  1.00  8.77      1PLC1614
+ATOM   1492  CG2 VAL    96       7.744  19.658  27.317  1.00  9.53      1PLC1615
+ATOM   1493  H   VAL    96      11.252  21.938  26.807  1.00  7.51      std 1616
+ATOM   1494  HA  VAL    96       9.321  21.461  28.975  1.00  2.00      std 1617
+ATOM   1495  HB  VAL    96       8.017  21.721  26.962  1.00  6.53      std 1618
+ATOM   1496 1HG1 VAL    96      10.064  21.236  25.284  1.00  6.01      std 1619
+ATOM   1497 2HG1 VAL    96       9.675  19.578  25.698  1.00  7.32      std 1620
+ATOM   1498 3HG1 VAL    96       8.471  20.343  24.858  1.00  4.93      std 1621
+ATOM   1499 1HG2 VAL    96       8.268  18.809  27.781  1.00  6.01      std 1622
+ATOM   1500 2HG2 VAL    96       6.795  19.971  27.778  1.00  6.10      std 1623
+ATOM   1501 3HG2 VAL    96       7.372  19.299  26.346  1.00  2.53      std 1624
+ATOM   1502  N   THR    97      10.239  19.246  29.453  1.00  6.76      1PLC1625
+ATOM   1503  CA  THR    97      10.859  18.027  29.947  1.00  6.56      1PLC1626
+ATOM   1504  C   THR    97       9.851  16.869  29.772  1.00  6.91      1PLC1627
+ATOM   1505  O   THR    97       8.727  16.988  30.233  1.00 10.18      1PLC1628
+ATOM   1506  CB  THR    97      11.277  18.114  31.423  1.00 10.10      1PLC1629
+ATOM   1507  OG1 THR    97      12.170  19.196  31.534  1.00 12.66      1PLC1630
+ATOM   1508  CG2 THR    97      11.999  16.872  31.901  1.00 13.14      1PLC1631
+ATOM   1509  H   THR    97       9.458  19.559  29.993  1.00  5.66      std 1632
+ATOM   1510  HA  THR    97      11.756  17.801  29.352  1.00  8.34      std 1633
+ATOM   1511  HB  THR    97      10.359  18.297  32.001  1.00  9.25      std 1634
+ATOM   1512  HG1 THR    97      11.711  20.085  31.530  1.00 12.30      std 1635
+ATOM   1513 1HG2 THR    97      12.921  16.718  31.321  1.00 11.77      std 1636
+ATOM   1514 2HG2 THR    97      12.376  17.015  32.924  1.00 12.00      std 1637
+ATOM   1515 3HG2 THR    97      11.318  16.010  31.842  1.00 13.75      std 1638
+ATOM   1516  N   VAL    98      10.298  15.853  29.096  1.00  6.54      1PLC1639
+ATOM   1517  CA  VAL    98       9.478  14.638  28.848  1.00 11.00      1PLC1640
+ATOM   1518  C   VAL    98      10.014  13.631  29.903  1.00 10.11      1PLC1641
+ATOM   1519  O   VAL    98      11.161  13.231  29.782  1.00  8.82      1PLC1642
+ATOM   1520  CB  VAL    98       9.523  14.142  27.400  1.00  8.54      1PLC1643
+ATOM   1521  CG1 VAL    98       8.721  12.849  27.220  1.00 10.67      1PLC1644
+ATOM   1522  CG2 VAL    98       9.082  15.202  26.417  1.00 12.21      1PLC1645
+ATOM   1523  H   VAL    98      11.234  15.811  28.746  1.00 10.15      std 1646
+ATOM   1524  HA  VAL    98       8.435  14.888  29.091  1.00  8.60      std 1647
+ATOM   1525  HB  VAL    98      10.567  13.899  27.153  1.00  8.68      std 1648
+ATOM   1526 1HG1 VAL    98       8.725  12.291  28.168  1.00  7.81      std 1649
+ATOM   1527 2HG1 VAL    98       7.720  12.897  26.766  1.00  5.28      std 1650
+ATOM   1528 3HG1 VAL    98       9.413  12.198  26.665  1.00  7.80      std 1651
+ATOM   1529 1HG2 VAL    98       8.282  15.877  26.756  1.00  9.36      std 1652
+ATOM   1530 2HG2 VAL    98       9.922  15.904  26.306  1.00 11.04      std 1653
+ATOM   1531 3HG2 VAL    98       8.901  14.801  25.409  1.00 11.96      std 1654
+ATOM   1532  N   ASN    99       9.166  13.321  30.876  1.00 12.86      1PLC1655
+ATOM   1533  CA  ASN    99       9.591  12.407  31.960  1.00 17.59      1PLC1656
+ATOM   1534  C   ASN    99       8.601  11.255  32.122  1.00 24.92      1PLC1657
+ATOM   1535  O   ASN    99       7.553  11.293  31.444  1.00 27.96      1PLC1658
+ATOM   1536  CB  ASN    99       9.842  13.176  33.279  1.00 25.68      1PLC1659
+ATOM   1537  CG  ASN    99       8.614  13.925  33.744  1.00 27.89      1PLC1660
+ATOM   1538  OD1 ASN    99       7.523  13.716  33.177  1.00 33.45      1PLC1661
+ATOM   1539  ND2 ASN    99       8.763  14.800  34.732  1.00 31.51      1PLC1662
+ATOM   1540  OXT ASN    99       8.932  10.327  32.908  1.00 32.10      1PLC1663
+ATOM   1541  H   ASN    99       8.245  13.708  30.916  1.00 11.45      std 1664
+ATOM   1542  HA  ASN    99      10.596  12.048  31.694  1.00 18.40      std 1665
+ATOM   1543 1HB  ASN    99      10.108  12.489  34.096  1.00 24.02      std 1666
+ATOM   1544 2HB  ASN    99      10.712  13.846  33.214  1.00 22.17      std 1667
+ATOM   1545 1HD2 ASN    99       7.973  15.319  35.057  1.00 29.75      std 1668
+ATOM   1546 2HD2 ASN    99       9.663  14.941  35.145  1.00 30.04      std 1669
+TER    1547      ASN    99                                              1PLC1670
+HETATM 1548 CU    CU   100       7.050  34.960  18.716  1.00  8.78      1PLC1671
+HETATM 1549  O   HOH   101      17.504  16.825  14.073  1.00 20.28      1PLC1672
+HETATM 1550  O   HOH   102      18.877  15.088  18.086  1.00 22.16      1PLC1673
+HETATM 1551  O   HOH   103      11.165  21.823  31.513  1.00 16.99      1PLC1674
+HETATM 1552  O   HOH   104       8.855  32.590  26.747  0.94  6.45      1PLC1675
+HETATM 1553  O   HOH   105      -1.489  28.251  28.882  1.00 21.68      1PLC1676
+HETATM 1554  O   HOH   106      -5.831  37.423  13.595  1.00 20.74      1PLC1677
+HETATM 1555  O   HOH   107      13.467  39.503  19.144  1.00 15.10      1PLC1678
+HETATM 1556  O   HOH   108      10.190  12.893  20.620  1.00 16.07      1PLC1679
+HETATM 1557  O   HOH   109      15.508  27.763  24.576  1.00 17.51      1PLC1680
+HETATM 1558  O   HOH   110       7.350  41.303  25.714  1.00 27.53      1PLC1681
+HETATM 1559  O   HOH   111       8.375  22.720   8.292  0.59 29.47      1PLC1682
+HETATM 1560  O   HOH   112      13.111  12.650  31.577  0.88 22.20      1PLC1683
+HETATM 1561  O   HOH   113      13.034  23.720  12.137  0.66 20.03      1PLC1684
+HETATM 1562  O   HOH   114       2.999   7.867  28.704  1.00 19.73      1PLC1685
+HETATM 1563  O   HOH   115      -5.177  33.615  29.779  0.64 16.18      1PLC1686
+HETATM 1564  O   HOH   116      -1.606  40.977  19.564  0.69 17.97      1PLC1687
+HETATM 1565  O   HOH   117       9.954  15.104   9.502  1.00 33.42      1PLC1688
+HETATM 1566  O   HOH   118      10.151  21.424  10.325  0.87 25.98      1PLC1689
+HETATM 1567  O   HOH   119       6.659  19.221  11.902  0.93 36.20      1PLC1690
+HETATM 1568  O   HOH   120      -3.832  38.607  12.247  0.52 14.88      1PLC1691
+HETATM 1569  O   HOH   121       0.147  24.441  12.270  0.64 20.69      1PLC1692
+HETATM 1570  O   HOH   122      -4.965  26.334  13.302  0.84 35.87      1PLC1693
+HETATM 1571  O   HOH   123      15.088  22.959  14.107  0.92 28.03      1PLC1694
+HETATM 1572  O   HOH   124      -0.239  21.142  13.967  0.98 30.52      1PLC1695
+HETATM 1573  O   HOH   125      12.909  11.316  15.913  1.00 23.67      1PLC1696
+HETATM 1574  O   HOH   126      15.993  33.395  16.165  0.93 28.69      1PLC1697
+HETATM 1575  O   HOH   127      19.054  16.995  16.181  0.74 23.14      1PLC1698
+HETATM 1576  O   HOH   128      20.985  13.545  17.470  0.73 20.71      1PLC1699
+HETATM 1577  O   HOH   129      13.966   9.649  17.643  1.00 32.67      1PLC1700
+HETATM 1578  O   HOH   130      -2.718  26.904  12.167  1.00 54.84      1PLC1701
+HETATM 1579  O   HOH   131      16.503  28.827  22.523  1.00 24.64      1PLC1702
+HETATM 1580  O   HOH   132       4.222  10.292  20.000  0.76 50.63      1PLC1703
+HETATM 1581  O   HOH   133      20.040  13.117  24.870  0.65 13.23      1PLC1704
+HETATM 1582  O   HOH   134      18.515  18.151  25.720  1.00 26.20      1PLC1705
+HETATM 1583  O   HOH   135      12.913   7.770  25.797  0.81 13.74      1PLC1706
+HETATM 1584  O   HOH   136      13.651  41.673  25.927  1.00 36.86      1PLC1707
+HETATM 1585  O   HOH   137       0.507   9.101  26.098  0.90 28.59      1PLC1708
+HETATM 1586  O   HOH   138      17.223  21.535  26.480  0.91 18.90      1PLC1709
+HETATM 1587  O   HOH   139      -1.649  25.325  30.452  0.73 22.49      1PLC1710
+HETATM 1588  O   HOH   140       6.507  32.955  30.558  0.64 19.83      1PLC1711
+HETATM 1589  O   HOH   141      -0.330  39.116  11.779  1.00 34.52      1PLC1712
+HETATM 1590  O   HOH   142       2.732  39.487  31.797  0.68 25.65      1PLC1713
+HETATM 1591  O   HOH   143       0.845  13.633  32.178  0.89 31.27      1PLC1714
+HETATM 1592  O   HOH   144      17.884  18.697  12.260  1.00 30.05      1PLC1715
+HETATM 1593  O   HOH   145       8.726  17.398   8.858  1.00 45.08      1PLC1716
+HETATM 1594  O   HOH   146      -8.411  31.164  14.472  0.53 22.42      1PLC1717
+HETATM 1595  O   HOH   147      -3.315  40.285  24.206  1.00 37.76      1PLC1718
+HETATM 1596  O   HOH   148      14.529  26.179  10.784  0.98 37.63      1PLC1719
+HETATM 1597  O   HOH   149       0.141  40.887  16.746  0.76 28.28      1PLC1720
+HETATM 1598  O   HOH   150       7.359  12.909  18.048  1.00 26.95      1PLC1721
+HETATM 1599  O   HOH   151      -7.770  28.276  18.650  0.61 23.97      1PLC1722
+HETATM 1600  O   HOH   152      21.759  25.195  18.182  0.98 32.56      1PLC1723
+HETATM 1601  O   HOH   153      -0.046  24.727  32.478  0.43 19.21      1PLC1724
+HETATM 1602  O   HOH   154      20.437  17.066  20.087  1.00 33.94      1PLC1725
+HETATM 1603  O   HOH   155      -4.309  39.723  20.616  0.86 36.21      1PLC1726
+HETATM 1604  O   HOH   156       3.781  42.389  21.845  0.53 21.87      1PLC1727
+HETATM 1605  O   HOH   157      10.698  10.744  35.445  0.68 57.69      1PLC1728
+HETATM 1606  O   HOH   158      -2.507  13.791  24.498  0.85 33.28      1PLC1729
+HETATM 1607  O   HOH   159       1.274  18.523  31.825  0.63 27.70      1PLC1730
+HETATM 1608  O   HOH   160      -5.734  32.083  23.087  0.77 29.50      1PLC1731
+HETATM 1609  O   HOH   161       9.949  38.046  26.558  0.74 22.72      1PLC1732
+HETATM 1610  O   HOH   162      -5.968  33.849  26.226  1.00 26.27      1PLC1733
+HETATM 1611  O   HOH   163      19.229  15.792  26.220  0.84 25.81      1PLC1734
+HETATM 1612  O   HOH   164      19.409  26.285  25.122  0.48 45.67      1PLC1735
+HETATM 1613  O   HOH   165       6.999  29.130  32.885  1.00 39.08      1PLC1736
+HETATM 1614  O   HOH   166      11.076  13.243  16.169  0.49 19.93      1PLC1737
+HETATM 1615  O   HOH   167      10.664  17.171  35.721  0.75 38.78      1PLC1738
+HETATM 1616  O   HOH   168      -6.106  32.695  20.749  1.00 37.09      1PLC1739
+HETATM 1617  O   HOH   169      -5.981  37.919  24.900  1.00 57.06      1PLC1740
+HETATM 1618  O   HOH   170      19.419  39.933  23.228  1.00 77.63      1PLC1741
+HETATM 1619  O   HOH   171       9.203   7.201  25.758  0.62 22.98      1PLC1742
+HETATM 1620  O   HOH   172      18.166  17.537  10.031  0.69 27.13      1PLC1743
+HETATM 1621  O   HOH   173      -7.433  31.947  27.430  0.69 30.37      1PLC1744
+HETATM 1622  O   HOH   174      -2.238  17.828  28.345  0.45 17.71      1PLC1745
+HETATM 1623  O   HOH   175      -3.972  28.167  28.669  0.62 25.62      1PLC1746
+HETATM 1624  O   HOH   176      -3.613  23.230  29.455  1.00 30.88      1PLC1747
+HETATM 1625  O   HOH   177       1.549  27.925   9.405  0.58 20.78      1PLC1748
+HETATM 1626  O   HOH   178      13.794  19.287  33.830  0.55 23.07      1PLC1749
+HETATM 1627  O   HOH   179      11.580  14.592  35.704  0.53 32.69      1PLC1750
+HETATM 1628  O   HOH   180      13.981  27.014  35.873  0.74 35.90      1PLC1751
+HETATM 1629  O   HOH   181       4.557  18.014  14.623  1.00 55.01      1PLC1752
+HETATM 1630  O   HOH   182       7.910  44.238  22.803  0.73 48.58      1PLC1753
+HETATM 1631  O   HOH   183       4.471  42.552  18.994  0.43 27.23      1PLC1754
+HETATM 1632  O   HOH   184      10.962   8.504  18.457  0.34 20.26      1PLC1755
+HETATM 1633  O   HOH   185      10.318  25.738   5.364  1.00 23.32      1PLC1756
+HETATM 1634  O   HOH   186      16.150   9.477  20.283  0.64 38.93      1PLC1757
+HETATM 1635  O   HOH   187       5.160  41.383  17.848  0.52 17.29      1PLC1758
+HETATM 1636  O   HOH   188       3.664  38.595   8.941  0.95 57.93      1PLC1759
+HETATM 1637  O   HOH   189      16.775  24.053  15.445  1.00 44.83      1PLC1760
+HETATM 1638  O   HOH   190       5.294  42.915  23.626  0.50 23.27      1PLC1761
+HETATM 1639  O   HOH   191      -4.063  20.221  25.475  0.41 14.21      1PLC1762
+HETATM 1640  O   HOH   192      -9.882  33.425  27.405  1.00 41.27      1PLC1763
+HETATM 1641  O   HOH   193      15.719  18.715   8.082  0.70 31.09      1PLC1764
+HETATM 1642  O   HOH   194      12.806  35.042  28.455  1.00 14.54      1PLC1765
+HETATM 1643  O   HOH   195      -4.594  26.305  30.129  0.58 33.37      1PLC1766
+HETATM 1644  O   HOH   196       2.488  44.319  30.230  0.37 18.77      1PLC1767
+HETATM 1645  O   HOH   197      22.519  14.623  15.006  0.41 16.88      1PLC1768
+HETATM 1646  O   HOH   198      19.141  19.620   8.185  0.38 12.99      1PLC1769
+HETATM 1647  O   HOH   199       9.114  21.718  33.876  0.75 32.55      1PLC1770
+HETATM 1648  O   HOH   200      -1.925  21.669  11.783  0.90 57.13      1PLC1771
+HETATM 1649  O   HOH   201       8.691  39.897  27.907  0.45 23.16      1PLC1772
+HETATM 1650  O   HOH   202      18.031  25.999  16.595  0.74 27.01      1PLC1773
+HETATM 1651  O   HOH   203       4.494  13.546  33.888  1.00 53.19      1PLC1774
+HETATM 1652  O   HOH   204      19.169  20.998  27.980  0.85 45.25      1PLC1775
+HETATM 1653  O   HOH   205       3.688  23.586  34.166  1.00 47.05      1PLC1776
+HETATM 1654  O   HOH   206      -5.835  19.800  27.880  0.40 26.88      1PLC1777
+HETATM 1655  O   HOH   207       6.053  16.332  11.126  0.64 39.41      1PLC1778
+HETATM 1656  O   HOH   208       6.429   8.490  32.113  0.59 38.12      1PLC1779
+HETATM 1657  O   HOH   209      20.084  30.985  17.907  0.82 48.17      1PLC1780
+HETATM 1658  O   HOH   210       1.885  18.141  13.780  1.00 59.97      1PLC1781
+CONECT  549  548  551 1548                                              1PLC1782
+CONECT 1336 1335 1548                                                   1PLC1783
+CONECT 1372 1371 1374 1548                                              1PLC1784
+CONECT 1430 1429 1431 1548                                              1PLC1785
+CONECT 1548  549 1336 1372 1430                                         1PLC1786
+END                                                                     1PLC1788

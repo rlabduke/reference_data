@@ -1,0 +1,879 @@
+USER  MOD reduceV2.10.2 H: found=75, std=73, add=0, rem=0, adj=0
+USER  MOD hand edited the position of CYS160 HXT (orig at 94 deg)
+USER  MOD edited to convert U**2 to B-factor
+HEADER    ENTEROTOXIN                             15-MAR-94   1ETM      1ETM   2
+COMPND    MOL_ID: 1;                                                    1ETM   3
+COMPND   2 MOLECULE: 5-BETA-MERCAPTOPROPIONATE HEAT-STABLE              1ETM   4
+COMPND   3 ENTEROTOXIN;                                                 1ETM   5
+COMPND   4 CHAIN: NULL;                                                 1ETM   6
+COMPND   5 DOMAIN: TOXIC DOMAIN (RESIDUES 5 - 17);                      1ETM   7
+COMPND   6 SYNONYM: (MPR==5==,LEU==13==)STP(5-17);                      1ETM   8
+COMPND   7 ENGINEERED: YES;                                             1ETM   9
+COMPND   8 MUTATION: A13L                                               1ETM  10
+SOURCE    MOL_ID: 1;                                                    1ETM  11
+SOURCE   2 SYNTHETIC: YES;                                              1ETM  12
+SOURCE   3 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                       1ETM  13
+SOURCE   4 STRAIN: 18D                                                  1ETM  14
+EXPDTA    X-RAY DIFFRACTION                                             1ETM  15
+AUTHOR    T.SATO,Y.SHIMONISHI                                           1ETM  16
+REVDAT   1   29-JAN-96 1ETM    0                                        1ETM  17
+JRNL        AUTH   T.SATO,H.OZAKI,Y.HATA,Y.KITAGAWA,Y.KATSUBE,          1ETM  18
+JRNL        AUTH 2 Y.SHIMONISHI                                         1ETM  19
+JRNL        TITL   STRUCTURAL CHARACTERISTICS FOR BIOLOGICAL ACTIVITY   1ETM  20
+JRNL        TITL 2 OF HEAT-STABLE ENTEROTOXIN PRODUCED BY               1ETM  21
+JRNL        TITL 3 ENTEROTOXIGENIC ESCHERICHIA COLI:  X-RAY             1ETM  22
+JRNL        TITL 4 CRYSTALLOGRAPHY OF WEAKLY TOXIC AND NONTOXIC         1ETM  23
+JRNL        TITL 5 ANALOGS                                              1ETM  24
+JRNL        REF    BIOCHEMISTRY                  V.  33  8641 1994      1ETM  25
+JRNL        REFN   ASTM BICHAW  US ISSN 0006-2960                 0033  1ETM  26
+REMARK   1                                                              1ETM  27
+REMARK   1 REFERENCE 1                                                  1ETM  28
+REMARK   1  AUTH   T.SATO,H.ITO,Y.TAKEDA,Y.SHIMONISHI                   1ETM  29
+REMARK   1  TITL   SEMI-PREPARATIVE PURIFICATION AND CRYSTALLIZATION    1ETM  30
+REMARK   1  TITL 2 OF SYNTHETIC ANALOGS OF HEAT-STABLE ENTEROTOXIN OF   1ETM  31
+REMARK   1  TITL 3 ENTEROTOXIGENIC ESCHERICHIA COLI                     1ETM  32
+REMARK   1  REF    BULL.CHEM.SOC.JPN.            V.  65   938 1992      1ETM  33
+REMARK   1  REFN   ASTM BCSJA8  JA ISSN 0009-2673                 0007  1ETM  34
+REMARK   1 REFERENCE 2                                                  1ETM  35
+REMARK   1  AUTH   H.OZAKI,T.SATO,H.KUBOTA,Y.HATA,Y.KATSUBE,            1ETM  36
+REMARK   1  AUTH 2 Y.SHIMONISHI                                         1ETM  37
+REMARK   1  TITL   MOLECULAR STRUCTURE OF THE TOXIC DOMAIN OF           1ETM  38
+REMARK   1  TITL 2 HEAT-STABLE ENTEROTOXIN PRODUCED BY A PATHOGENIC     1ETM  39
+REMARK   1  TITL 3 STRAIN OF ESCHERICHIA COLI                           1ETM  40
+REMARK   1  REF    J.BIOL.CHEM.                  V. 266  5934 1991      1ETM  41
+REMARK   1  REFN   ASTM JBCHA3  US ISSN 0021-9258                 0071  1ETM  42
+REMARK   1 REFERENCE 3                                                  1ETM  43
+REMARK   1  AUTH   S.YAMASAKI,T.SATO,Y.HIDAKA,H.OZAKI,H.ITO,            1ETM  44
+REMARK   1  AUTH 2 T.HIRAYAMA,Y.TAKEDA,T.SUGIMURA,A.TAI,Y.SHIMONISHI    1ETM  45
+REMARK   1  TITL   STRUCTURE-ACTIVITY RELATIONSHIP OF ESCHERICHIA COLI  1ETM  46
+REMARK   1  TITL 2 HEAT-STABLE ENTEROTOXIN: ROLE OF ALA RESIDUE AT      1ETM  47
+REMARK   1  TITL 3 POSITION 14 IN TOXIN-RECEPTOR INTERACTION            1ETM  48
+REMARK   1  REF    BULL.CHEM.SOC.JPN.            V.  63  2063 1990      1ETM  49
+REMARK   1  REFN   ASTM BCSJA8  JA ISSN 0009-2673                 0007  1ETM  50
+REMARK   1 REFERENCE 4                                                  1ETM  51
+REMARK   1  AUTH   S.YOSHIMURA,H.IKEMURA,H.WATANABE,S.AIMOTO,           1ETM  52
+REMARK   1  AUTH 2 Y.SHIMONISHI,S.HARA,T.TAKEDA,T.MIWATANI,Y.TAKEDA     1ETM  53
+REMARK   1  TITL   ESSENTIAL STRUCTURE FOR FULL ENTEROTOXIGENIC         1ETM  54
+REMARK   1  TITL 2 ACTIVITY OF HEAT-STABLE ENTEROTOXIN PRODUCED BY      1ETM  55
+REMARK   1  TITL 3 ENTEROTOXIGENIC ESCHERICHIA COLI                     1ETM  56
+REMARK   1  REF    FEBS LETT.                    V. 181   138 1985      1ETM  57
+REMARK   1  REFN   ASTM FEBLAL  NE ISSN 0014-5793                 0165  1ETM  58
+REMARK   2                                                              1ETM  59
+REMARK   2 RESOLUTION. 0.89 ANGSTROMS.                                  1ETM  60
+REMARK   3                                                              1ETM  61
+REMARK   3 REFINEMENT.                                                  1ETM  62
+REMARK   3   PROGRAM                    FMLS/VP                         1ETM  63
+REMARK   3   AUTHORS                    SATO                            1ETM  64
+REMARK   3   R VALUE                    0.065                           1ETM  65
+REMARK   3                                                              1ETM  66
+REMARK   3   NUMBER OF REFLECTIONS      6046                            1ETM  67
+REMARK   3   RESOLUTION RANGE      16.5 - 0.89 ANGSTROMS                1ETM  68
+REMARK   3   DATA CUTOFF                3.0    SIGMA(F)                 1ETM  69
+REMARK   3   PERCENT COMPLETION         84.7                            1ETM  70
+REMARK   3                                                              1ETM  71
+REMARK   3   NUMBER OF PROTEIN ATOMS                        160         1ETM  72
+REMARK   3   NUMBER OF NUCLEIC ACID ATOMS                     0         1ETM  73
+REMARK   3   NUMBER OF SOLVENT ATOMS                         10         1ETM  74
+REMARK   3                                                              1ETM  75
+REMARK   3  FULL-MATRIX LEAST-SQUARES REFINEMENT USING FMLS/VP          1ETM  76
+REMARK   3  (T. SATO, 1991) WHICH IS A FULLY VECTORIZED VERSION OF      1ETM  77
+REMARK   3  FMLS (T. ASIDA (1979), THE UNIVERSAL CRYSTALLOGRAPHIC       1ETM  78
+REMARK   3  COMPUTING SYSTEM-OSAKA, THE COMPUTATION CENTER, OSAKA       1ETM  79
+REMARK   3  UNIVERSITY, OSAKA, JAPAN) AND IS MODIFIED TO DEAL WITH      1ETM  80
+REMARK   3  PEPTIDE AND PROTEIN.  NON-HYDROGEN ATOMS INCLUDING WATER    1ETM  81
+REMARK   3  OXYGENS WERE REFINED WITH ANISOTROPIC THERMAL PARAMETERS.   1ETM  82
+REMARK   3  NO CONSTRAINTS WERE PLACED ON ATOMIC POSITIONS AND THERMAL  1ETM  83
+REMARK   3  PARAMETERS OF THESE ATOMS.  SIGMA VALUES WHICH APPEAR IN    1ETM  84
+REMARK   3  THE SIGATM RECORD ARE THOSE ESTIMATES OBTAINED FROM THE     1ETM  85
+REMARK   3  LEAST SQUARES PROCESS OF THE LAST CYCLE.                    1ETM  86
+REMARK   3                                                              1ETM  87
+REMARK   3  THERE ARE 10 MOLECULES OF WATER PER ASYMMETRIC UNIT         1ETM  88
+REMARK   3  CALCULATED FROM THE MEASURED DENSITY AND CELL PARAMETERS.   1ETM  89
+REMARK   3  THE PRECISION OF THESE MEASUREMENTS IS BETTER THAN ONE      1ETM  90
+REMARK   3  WATER MOLECULE.  THE VALUE WELL AGREES WITH THE FACT THAT   1ETM  91
+REMARK   3  THE REFINED STRUCTURE ACCOUNTS FOR AN ADDITIONAL 10 FULL    1ETM  92
+REMARK   3  OCCUPANCY SITES OTHER THAN HYDROGEN ATOMS.                  1ETM  93
+REMARK   3                                                              1ETM  94
+REMARK   3  THE HYDROGEN ATOMS OF THE PEPTIDE WERE INCLUDED IN THE      1ETM  95
+REMARK   3  FINAL FEW CYCLES OF REFINEMENT WITH ISOTROPIC THERMAL       1ETM  96
+REMARK   3  PARAMETERS.  THE INITIAL POSITIONS OF THE HYDROGEN ATOMS    1ETM  97
+REMARK   3  WERE CALCULATED GEOMETRICALLY, ALTHOUGH THE HYDROGEN ATOMS  1ETM  98
+REMARK   3  OF METHYL GROUPS IN LEU 8, LEU 13, AND ALA 15, OF CARBOXYL  1ETM  99
+REMARK   3  GROUPS IN GLU 7 AND CYS 17, AND OF THE AMIDE GROUP IN ASN   1ETM 100
+REMARK   3  11 WERE FOUND IN A DIFFERENCE FOURIER MAP.  THE OTHER       1ETM 101
+REMARK   3  HYDROGEN ATOMS, SUCH AS WATER MOLECULE, WERE NOT INCLUDED   1ETM 102
+REMARK   3  IN STRUCTURE FACTOR CALCULATIONS AND REFINEMENT BECAUSE     1ETM 103
+REMARK   3  THEY WERE NOT FOUND IN THE MAPS.  THE ISOTROPIC EQUIVALENT  1ETM 104
+REMARK   3  OF ANISOTROPIC B-VALUE OF THE ATTACHED ATOM WAS ASSIGNED    1ETM 105
+REMARK   3  TO THE HYDROGEN ATOM AS AN INITIAL VALUE.  SINCE MOST OF    1ETM 106
+REMARK   3  THE STANDARD DEVIATIONS OF UEQ VALUE IN THE SIGATM RECORD   1ETM 107
+REMARK   3  ARE LESS THAN 0.005, THESE VALUES WERE INDICATED AS 0.00.   1ETM 108
+REMARK   3  OCCUPANCY OF EACH ATOM WAS NOT REFINED, STANDARD            1ETM 109
+REMARK   3  DEVIATIONS OF THEM ARE SHOWN AS 0.00.                       1ETM 110
+REMARK   4                                                              1ETM 111
+REMARK   4 THIRTEEN-RESIDUE PEPTIDE COMPRISING POSITIONS 5 TO 17 OF     1ETM 112
+REMARK   4 WILD-TYPE STP HAS BEEN STUDIED AND PRESENTED IN THIS ENTRY.  1ETM 113
+REMARK   4 THIS REGION FORMS THE TOXIC DOMAIN OF ST AND HAS FULL        1ETM 114
+REMARK   4 TOXIC ACTIVITY.                                              1ETM 115
+REMARK   5                                                              1ETM 116
+REMARK   5 THE NAME OF THIS MOLECULE COULD BE ABBREVIATED AS            1ETM 117
+REMARK   5 [MPR==5==,LEU==13==]STP(5-17) ACCORDING TO THE               1ETM 118
+REMARK   5 RECOMMENDATIONS OF THE IUPAC-IUB COMMISSION ON BIOCHEMICAL   1ETM 119
+REMARK   5 NOMENCLATURE (J. BIOL. CHEM.  242, 555 (1967)).              1ETM 120
+REMARK   6                                                              1ETM 121
+REMARK   6 SITE S1 (ASN 11, PRO 12, LEU(ALA) 13) IS THE RECEPTOR        1ETM 122
+REMARK   6 BINDING SITE DEDUCED FROM CHEMICAL MUTATION STUDY.  (CF.     1ETM 123
+REMARK   6 JRNL, REF2).                                                 1ETM 124
+REMARK   7                                                              1ETM 125
+REMARK   7 SITE S2 (FROM PRO 12 TO CYS 17) IS A PUTATIVE CATION         1ETM 126
+REMARK   7 BINDING SITE SUGGESTED FROM CONFORMATIONAL SIMILARITIES TO   1ETM 127
+REMARK   7 IONOPHORE PEPTIDES.  (CF. JRNL).                             1ETM 128
+REMARK   8                                                              1ETM 129
+REMARK   8 HYDROGEN AND DEUTERIUM ATOMS IN THIS ENTRY HAVE BEEN         1ETM 130
+REMARK   8 ASSIGNED NAMES CONSISTENT WITH THE RECOMMENDATIONS OF THE    1ETM 131
+REMARK   8 IUPAC-IUB COMMISSION ON BIOCHEMICAL NOMENCLATURE (E.G.       1ETM 132
+REMARK   8 J.MOL.BIOL. (1970) VOL.52, PP 1-17).  THE PROTEIN DATA BANK  1ETM 133
+REMARK   8 HAS FOLLOWED RULE 4.4 OF THE RECOMMENDATIONS WITH THE        1ETM 134
+REMARK   8 FOLLOWING MODIFICATION - WHEN MORE THAN ONE HYDROGEN ATOM    1ETM 135
+REMARK   8 IS BONDED TO A SINGLE NON-HYDROGEN ATOM, THE HYDROGEN ATOM   1ETM 136
+REMARK   8 NUMBER DESIGNATION IS GIVEN AS THE FIRST CHARACTER OF THE    1ETM 137
+REMARK   8 ATOM NAME RATHER THAN AS THE LAST CHARACTER (E.G. H*BETA*1   1ETM 138
+REMARK   8 IS DENOTED AS 1HB ).                                         1ETM 139
+REMARK   9                                                              1ETM 140
+REMARK   9 IN SITE RECORDS BELOW, LEU 13 IS ALA 13 IN NATURAL TOXIN.    1ETM 141
+REMARK  10                                                              1ETM 142
+REMARK  10 THE SEQUENCE IS BASED ON SEQUENCE FROM ENTEROTOXIGENIC       1ETM 143
+REMARK  10 (ESCHERICHIA COLI STRAIN 18D).  THE THIRTEEN RESIDUE         1ETM 144
+REMARK  10 PEPTIDE CORRESPONDS TO RESIDUES FROM 5 TO 17, ALA 13         1ETM 145
+REMARK  10 REPLACED BY LEU.                                             1ETM 146
+DBREF  1ETM      6    17  SWS    P01559   HSTP_ECOLI      60     71     1ETM 147
+SEQADV 1ETM LEU     13  SWS  P01559    ALA    67 ENGINEERED             1ETM 148
+SEQRES   1     13  MPR CYS GLU LEU CYS CYS ASN PRO LEU CYS ALA GLY CYS  1ETM 149
+HET    MPR      5       9     BETA-MERCAPTOPROPIONATE                   1ETM 150
+FORMUL   1  MPR    C3 H6 O2 S1                                          1ETM 151
+FORMUL   2  HOH   *10(H2 O1)                                            1ETM 152
+HELIX    1  H1 MPR      5  CYS      9  5 N-TERMINAL SEGMENT             1ETM 153
+TURN     1  T1 ASN    11  CYS    14     NEAR TYPE I,CENTRAL SEGMENT     1ETM 154
+TURN     2  T2 CYS    14  CYS    17     TYPE II, C-TERMINAL SEGMENT     1ETM 155
+SSBOND   1 CYS      6    CYS     14                                     1ETM 156
+SSBOND   2 CYS      9    CYS     17                                     1ETM 157
+SITE     1  S1  3 ASN    11  PRO    12  LEU    13                       1ETM 158
+SITE     1  S2  6 PRO    12  LEU    13  CYS    14  ALA    15            1ETM 159
+SITE     2  S2  6 GLY    16  CYS    17                                  1ETM 160
+CRYST1   17.862   33.032   12.451  90.00  90.00  90.00 P 21 21 21    4  1ETM 161
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1ETM 162
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1ETM 163
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1ETM 164
+SCALE1      0.055985  0.000000  0.000000        0.00000                 1ETM 165
+SCALE2      0.000000  0.030274  0.000000        0.00000                 1ETM 166
+SCALE3      0.000000  0.000000  0.080315        0.00000                 1ETM 167
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD NoAdj-H:    5 MPR HS3 :    5 MPR S3  :   10 CYS SG  :...(RXR or RXXR)
+USER  MOD NoAdj-H:    6 CYS HG  :    6 CYS SG  :   14 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:    9 CYS HG  :    9 CYS SG  :   17 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:   10 CYS HG  :   10 CYS SG  :    5 MPR S3  :(RXR or RXXR)
+USER  MOD NoAdj-H:   14 CYS HG  :   14 CYS SG  :    6 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:   17 CYS HG  :   17 CYS SG  :    9 CYS SG  :(RXR or RXXR)
+USER  MOD Single :   11 ASN     :      amide:sc=  0.0981  K(o=0.098,f=-6.6!)
+USER  MOD -----------------------------------------------------------------
+HETATM    1  C1  MPR     5      -2.721   3.156  13.026  1.00  3.16      1ETM 168
+SIGATM    1  C1  MPR     5       0.009   0.009   0.010  0.00  0.00      1ETM 169
+ANISOU    1  C1  MPR     5      380    412    478    -54   -110    -67  1ETM 170
+SIGUIJ    1  C1  MPR     5        3      1      6      3      8      4  1ETM 171
+HETATM    2  O   MPR     5      -3.288   3.784  12.142  1.00  3.95      1ETM 172
+SIGATM    2  O   MPR     5       0.006   0.006   0.007  0.00  0.00      1ETM 173
+ANISOU    2  O   MPR     5      501    396    524    107   -143    102  1ETM 174
+SIGUIJ    2  O   MPR     5        2      1      5      2      6      3  1ETM 175
+HETATM    3  C2  MPR     5      -3.033   3.296  14.510  1.00  3.95      1ETM 176
+SIGATM    3  C2  MPR     5       0.011   0.011   0.010  0.00  0.00      1ETM 177
+ANISOU    3  C2  MPR     5      544    560    501    -22    -92     50  1ETM 178
+SIGUIJ    3  C2  MPR     5        4      1      6      3      9      5  1ETM 179
+HETATM    4  C3  MPR     5      -3.588   4.658  14.899  1.00  3.95      1ETM 180
+SIGATM    4  C3  MPR     5       0.010   0.010   0.012  0.00  0.00      1ETM 181
+ANISOU    4  C3  MPR     5      471    511    567     11    200    153  1ETM 182
+SIGUIJ    4  C3  MPR     5        3      1      8      3     10      5  1ETM 183
+HETATM    5  S3  MPR     5      -2.358   5.908  15.321  1.00  4.74      1ETM 184
+SIGATM    5  S3  MPR     5       0.003   0.003   0.003  0.00  0.00      1ETM 185
+ANISOU    5  S3  MPR     5      757    625    419   -295     58    -20  1ETM 186
+SIGUIJ    5  S3  MPR     5        1             2      1      2      1  1ETM 187
+HETATM    6 1H2  MPR     5      -2.108   3.135  15.083  1.00  3.95      std  188
+SIGATM    6 1H2  MPR     5       0.131   0.119   0.130  0.00  0.04      1ETM 189
+ANISOU    6 1H2  MPR     5      531    531    531      0      0      0  1ETM 190
+SIGUIJ    6 1H2  MPR     5      363    363    363                       1ETM 191
+HETATM    7 2H2  MPR     5      -3.763   2.522  14.788  1.00  3.95      std  192
+SIGATM    7 2H2  MPR     5       0.130   0.117   0.131  0.00  0.04      1ETM 193
+ANISOU    7 2H2  MPR     5      530    530    530      0      0      0  1ETM 194
+SIGUIJ    7 2H2  MPR     5      363    363    363                       1ETM 195
+HETATM    8 1H3  MPR     5      -4.193   5.025  14.057  1.00  3.95      std  196
+SIGATM    8 1H3  MPR     5       0.126   0.118   0.137  0.00  0.04      1ETM 197
+ANISOU    8 1H3  MPR     5      506    506    506      0      0      0  1ETM 198
+SIGUIJ    8 1H3  MPR     5      366    366    366                       1ETM 199
+HETATM    9 2H3  MPR     5      -4.267   4.520  15.753  1.00  3.95      std  200
+SIGATM    9 2H3  MPR     5       0.127   0.115   0.132  0.00  0.04      1ETM 201
+ANISOU    9 2H3  MPR     5      507    507    507      0      0      0  1ETM 202
+SIGUIJ    9 2H3  MPR     5      360    360    360                       1ETM 203
+ATOM     10  N   CYS     6      -1.838   2.168  12.744  1.00  3.95      1ETM 204
+SIGATM   10  N   CYS     6       0.008   0.008   0.009  0.00  0.00      1ETM 205
+ANISOU   10  N   CYS     6      461    473    489    170    -51    -32  1ETM 206
+SIGUIJ   10  N   CYS     6        3      1      6      2      6      4  1ETM 207
+ATOM     11  CA  CYS     6      -1.501   1.856  11.357  1.00  3.16      1ETM 208
+SIGATM   11  CA  CYS     6       0.009   0.009   0.010  0.00  0.00      1ETM 209
+ANISOU   11  CA  CYS     6      376    412    487     43    -55    -51  1ETM 210
+SIGUIJ   11  CA  CYS     6        3      1      6      3      8      4  1ETM 211
+ATOM     12  C   CYS     6      -2.711   1.429  10.499  1.00  3.16      1ETM 212
+SIGATM   12  C   CYS     6       0.009   0.009   0.010  0.00  0.00      1ETM 213
+ANISOU   12  C   CYS     6      325    414    516     81    117     95  1ETM 214
+SIGUIJ   12  C   CYS     6        3      1      8      3      8      4  1ETM 215
+ATOM     13  O   CYS     6      -2.700   1.672   9.296  1.00  3.16      1ETM 216
+SIGATM   13  O   CYS     6       0.006   0.006   0.006  0.00  0.00      1ETM 217
+ANISOU   13  O   CYS     6      456    403    467   -115    127     32  1ETM 218
+SIGUIJ   13  O   CYS     6        2      1      5      2      5      3  1ETM 219
+ATOM     14  CB  CYS     6      -0.431   0.750  11.269  1.00  3.95      1ETM 220
+SIGATM   14  CB  CYS     6       0.010   0.010   0.012  0.00  0.00      1ETM 221
+ANISOU   14  CB  CYS     6      364    538    657    -38    120    114  1ETM 222
+SIGUIJ   14  CB  CYS     6        3      1      9      3      9      5  1ETM 223
+ATOM     15  SG  CYS     6       1.221   1.279  11.825  1.00  4.74      1ETM 224
+SIGATM   15  SG  CYS     6       0.003   0.003   0.003  0.00  0.00      1ETM 225
+ANISOU   15  SG  CYS     6      392    911    617    -20     -8    299  1ETM 226
+SIGUIJ   15  SG  CYS     6        1             2      1      2      1  1ETM 227
+ATOM     16  H   CYS     6      -1.408   1.653  13.486  1.00  3.95      std  228
+SIGATM   16  H   CYS     6       0.127   0.116   0.127  0.00  0.03      1ETM 229
+ANISOU   16  H   CYS     6      474    474    474      0      0      0  1ETM 230
+SIGUIJ   16  H   CYS     6      348    348    348                       1ETM 231
+ATOM     17  HA  CYS     6      -1.104   2.812  10.984  1.00  3.16      std  232
+SIGATM   17  HA  CYS     6       0.118   0.116   0.120  0.00  0.03      1ETM 233
+ANISOU   17  HA  CYS     6      442    442    442      0      0      0  1ETM 234
+SIGUIJ   17  HA  CYS     6      336    336    336                       1ETM 235
+ATOM     18 1HB  CYS     6      -0.757  -0.117  11.862  1.00  3.95      std  236
+SIGATM   18 1HB  CYS     6       0.120   0.121   0.137  0.00  0.04      1ETM 237
+ANISOU   18 1HB  CYS     6      531    531    531      0      0      0  1ETM 238
+SIGUIJ   18 1HB  CYS     6      367    367    367                       1ETM 239
+ATOM     19 2HB  CYS     6      -0.364   0.423  10.221  1.00  3.95      std  240
+SIGATM   19 2HB  CYS     6       0.130   0.120   0.140  0.00  0.04      1ETM 241
+ANISOU   19 2HB  CYS     6      533    533    533      0      0      0  1ETM 242
+SIGUIJ   19 2HB  CYS     6      377    377    377                       1ETM 243
+ATOM     20  N   GLU     7      -3.697   0.814  11.127  1.00  3.16      1ETM 244
+SIGATM   20  N   GLU     7       0.007   0.007   0.008  0.00  0.00      1ETM 245
+ANISOU   20  N   GLU     7      381    379    456    -50      1     -5  1ETM 246
+SIGUIJ   20  N   GLU     7        2      1      6      2      6      3  1ETM 247
+ATOM     21  CA  GLU     7      -4.934   0.421  10.408  1.00  3.16      1ETM 248
+SIGATM   21  CA  GLU     7       0.010   0.009   0.010  0.00  0.00      1ETM 249
+ANISOU   21  CA  GLU     7      531    348    439   -127    -85     33  1ETM 250
+SIGUIJ   21  CA  GLU     7        4      1      6      3      8      4  1ETM 251
+ATOM     22  C   GLU     7      -5.713   1.624   9.897  1.00  3.16      1ETM 252
+SIGATM   22  C   GLU     7       0.009   0.009   0.010  0.00  0.00      1ETM 253
+ANISOU   22  C   GLU     7      454    381    515   -231   -223    105  1ETM 254
+SIGUIJ   22  C   GLU     7        3      1      6      3      9      4  1ETM 255
+ATOM     23  O   GLU     7      -6.644   1.421   9.107  1.00  6.32      1ETM 256
+SIGATM   23  O   GLU     7       0.009   0.007   0.009  0.00  0.00      1ETM 257
+ANISOU   23  O   GLU     7      886    520    990   -248  -1046     62  1ETM 258
+SIGUIJ   23  O   GLU     7        4      1      8      3     10      4  1ETM 259
+ATOM     24  CB  GLU     7      -5.814  -0.484  11.277  1.00  3.95      1ETM 260
+SIGATM   24  CB  GLU     7       0.011   0.009   0.012  0.00  0.00      1ETM 261
+ANISOU   24  CB  GLU     7      529    403    633   -366    162     27  1ETM 262
+SIGUIJ   24  CB  GLU     7        4      1      8      3     10      5  1ETM 263
+ATOM     25  CG  GLU     7      -6.680   0.137  12.376  1.00  3.95      1ETM 264
+SIGATM   25  CG  GLU     7       0.010   0.010   0.011  0.00  0.00      1ETM 265
+ANISOU   25  CG  GLU     7      464    486    573   -314     34      8  1ETM 266
+SIGUIJ   25  CG  GLU     7        3      1      8      3      9      5  1ETM 267
+ATOM     26  CD  GLU     7      -5.957   0.721  13.553  1.00  4.74      1ETM 268
+SIGATM   26  CD  GLU     7       0.011   0.010   0.011  0.00  0.00      1ETM 269
+ANISOU   26  CD  GLU     7      523    537    603   -344     79    214  1ETM 270
+SIGUIJ   26  CD  GLU     7        4      1      8      3     10      5  1ETM 271
+ATOM     27  OE1 GLU     7      -4.737   0.730  13.655  1.00  5.53      1ETM 272
+SIGATM   27  OE1 GLU     7       0.008   0.009   0.008  0.00  0.00      1ETM 273
+ANISOU   27  OE1 GLU     7      539   1166    522   -476     12    320  1ETM 274
+SIGUIJ   27  OE1 GLU     7        3      1      6      3      6      4  1ETM 275
+ATOM     28  OE2 GLU     7      -6.690   1.236  14.514  1.00  4.74      1ETM 276
+SIGATM   28  OE2 GLU     7       0.008   0.007   0.008  0.00  0.00      1ETM 277
+ANISOU   28  OE2 GLU     7      635    601    587     41    117    -94  1ETM 278
+SIGUIJ   28  OE2 GLU     7        3      1      6      3      6      3  1ETM 279
+ATOM     29  H   GLU     7      -3.606   0.610  12.102  1.00  3.16      std  280
+SIGATM   29  H   GLU     7       0.116   0.111   0.130  0.00  0.03      1ETM 281
+ANISOU   29  H   GLU     7      404    404    404      0      0      0  1ETM 282
+SIGUIJ   29  H   GLU     7      319    319    319                       1ETM 283
+ATOM     30  HA  GLU     7      -4.615  -0.151   9.524  1.00  3.16      std  284
+SIGATM   30  HA  GLU     7       0.123   0.119   0.129  0.00  0.03      1ETM 285
+ANISOU   30  HA  GLU     7      426    426    426      0      0      0  1ETM 286
+SIGUIJ   30  HA  GLU     7      330    330    330                       1ETM 287
+ATOM     31 1HB  GLU     7      -6.467  -1.039  10.587  1.00  3.95      std  288
+SIGATM   31 1HB  GLU     7       0.127   0.119   0.127  0.00  0.04      1ETM 289
+ANISOU   31 1HB  GLU     7      523    523    523      0      0      0  1ETM 290
+SIGUIJ   31 1HB  GLU     7      357    357    357                       1ETM 291
+ATOM     32 2HB  GLU     7      -5.135  -1.200  11.762  1.00  3.95      std  292
+SIGATM   32 2HB  GLU     7       0.126   0.119   0.124  0.00  0.04      1ETM 293
+ANISOU   32 2HB  GLU     7      518    518    518      0      0      0  1ETM 294
+SIGUIJ   32 2HB  GLU     7      359    359    359                       1ETM 295
+ATOM     33 1HG  GLU     7      -7.297   0.927  11.923  1.00  3.95      std  296
+SIGATM   33 1HG  GLU     7       0.121   0.122   0.130  0.00  0.04      1ETM 297
+ANISOU   33 1HG  GLU     7      507    507    507      0      0      0  1ETM 298
+SIGUIJ   33 1HG  GLU     7      352    352    352                       1ETM 299
+ATOM     34 2HG  GLU     7      -7.364  -0.641  12.746  1.00  3.95      std  300
+SIGATM   34 2HG  GLU     7       0.121   0.117   0.124  0.00  0.03      1ETM 301
+ANISOU   34 2HG  GLU     7      507    507    507      0      0      0  1ETM 302
+SIGUIJ   34 2HG  GLU     7      344    344    344                       1ETM 303
+ATOM     35  HE2 GLU     7      -5.858   1.652  14.942  1.00  4.74      1ETM 304
+SIGATM   35  HE2 GLU     7       0.145   0.129   0.142  0.00  0.04      1ETM 305
+ANISOU   35  HE2 GLU     7      611    611    611      0      0      0  1ETM 306
+SIGUIJ   35  HE2 GLU     7      417    417    417                       1ETM 307
+ATOM     36  N   LEU     8      -5.391   2.806  10.347  1.00  3.16      1ETM 308
+SIGATM   36  N   LEU     8       0.008   0.007   0.008  0.00  0.00      1ETM 309
+ANISOU   36  N   LEU     8      372    348    491    -37    -31    130  1ETM 310
+SIGUIJ   36  N   LEU     8        2      1      6      2      6      3  1ETM 311
+ATOM     37  CA  LEU     8      -5.955   4.075   9.959  1.00  3.16      1ETM 312
+SIGATM   37  CA  LEU     8       0.009   0.008   0.011  0.00  0.00      1ETM 313
+ANISOU   37  CA  LEU     8      307    359    666     -4    -87    168  1ETM 314
+SIGUIJ   37  CA  LEU     8        3      1      8      2      8      4  1ETM 315
+ATOM     38  C   LEU     8      -4.971   4.887   9.159  1.00  3.95      1ETM 316
+SIGATM   38  C   LEU     8       0.009   0.009   0.010  0.00  0.00      1ETM 317
+ANISOU   38  C   LEU     8      469    456    453     37   -214     87  1ETM 318
+SIGUIJ   38  C   LEU     8        3      1      6      3      8      4  1ETM 319
+ATOM     39  O   LEU     8      -5.198   6.064   8.846  1.00  3.95      1ETM 320
+SIGATM   39  O   LEU     8       0.006   0.006   0.008  0.00  0.00      1ETM 321
+ANISOU   39  O   LEU     8      453    411    743    108     16    319  1ETM 322
+SIGUIJ   39  O   LEU     8        2      1      6      2      6      3  1ETM 323
+ATOM     40  CB  LEU     8      -6.411   4.858  11.169  1.00  4.74      1ETM 324
+SIGATM   40  CB  LEU     8       0.011   0.009   0.013  0.00  0.00      1ETM 325
+ANISOU   40  CB  LEU     8      478    319    867     95    110    139  1ETM 326
+SIGUIJ   40  CB  LEU     8        4      1     10      3     11      5  1ETM 327
+ATOM     41  CG  LEU     8      -7.357   4.112  12.097  1.00  5.53      1ETM 328
+SIGATM   41  CG  LEU     8       0.013   0.011   0.014  0.00  0.00      1ETM 329
+ANISOU   41  CG  LEU     8      862    433    859    163    424    389  1ETM 330
+SIGUIJ   41  CG  LEU     8        5      1     11      4     13      6  1ETM 331
+ATOM     42  CD1 LEU     8      -7.452   4.796  13.460  1.00  7.11      1ETM 332
+SIGATM   42  CD1 LEU     8       0.016   0.019   0.016  0.00  0.00      1ETM 333
+ANISOU   42  CD1 LEU     8      730   1196    823    759    482   -312  1ETM 334
+SIGUIJ   42  CD1 LEU     8        6      2     13      6     15      9  1ETM 335
+ATOM     43  CD2 LEU     8      -8.704   3.846  11.505  1.00  9.47      1ETM 336
+SIGATM   43  CD2 LEU     8       0.018   0.029   0.024  0.00  0.00      1ETM 337
+ANISOU   43  CD2 LEU     8      708   1442   1319   -814    111    472  1ETM 338
+SIGUIJ   43  CD2 LEU     8        6      3     22      8     19     16  1ETM 339
+ATOM     44  H   LEU     8      -4.682   2.837  11.052  1.00  3.16      std  340
+SIGATM   44  H   LEU     8       0.120   0.108   0.125  0.00  0.03      1ETM 341
+ANISOU   44  H   LEU     8      414    414    414      0      0      0  1ETM 342
+SIGUIJ   44  H   LEU     8      335    335    335                       1ETM 343
+ATOM     45  HA  LEU     8      -6.827   3.863   9.323  1.00  3.95      std  344
+SIGATM   45  HA  LEU     8       0.127   0.118   0.121  0.00  0.03      1ETM 345
+ANISOU   45  HA  LEU     8      482    482    482      0      0      0  1ETM 346
+SIGUIJ   45  HA  LEU     8      343    343    343                       1ETM 347
+ATOM     46 1HB  LEU     8      -5.520   5.175  11.730  1.00  4.74      std  348
+SIGATM   46 1HB  LEU     8       0.138   0.118   0.132  0.00  0.04      1ETM 349
+ANISOU   46 1HB  LEU     8      568    568    568      0      0      0  1ETM 350
+SIGUIJ   46 1HB  LEU     8      382    382    382                       1ETM 351
+ATOM     47 2HB  LEU     8      -6.914   5.776  10.832  1.00  4.74      std  352
+SIGATM   47 2HB  LEU     8       0.128   0.126   0.127  0.00  0.04      1ETM 353
+ANISOU   47 2HB  LEU     8      571    571    571      0      0      0  1ETM 354
+SIGUIJ   47 2HB  LEU     8      381    381    381                       1ETM 355
+ATOM     48  HG  LEU     8      -6.921   3.112  12.240  1.00  5.53      std  356
+SIGATM   48  HG  LEU     8       0.140   0.137   0.142  0.00  0.04      1ETM 357
+ANISOU   48  HG  LEU     8      694    694    694      0      0      0  1ETM 358
+SIGUIJ   48  HG  LEU     8      424    424    424                       1ETM 359
+ATOM     49 1HD1 LEU     8      -6.510   4.956  14.006  1.00  7.11      std  360
+SIGATM   49 1HD1 LEU     8       0.186   0.154   0.167  0.00  0.05      1ETM 361
+ANISOU   49 1HD1 LEU     8      880    880    880      0      0      0  1ETM 362
+SIGUIJ   49 1HD1 LEU     8      545    545    545                       1ETM 363
+ATOM     50 2HD1 LEU     8      -7.824   5.822  13.323  1.00  7.11      std  364
+SIGATM   50 2HD1 LEU     8       0.167   0.163   0.166  0.00  0.05      1ETM 365
+ANISOU   50 2HD1 LEU     8      896    896    896      0      0      0  1ETM 366
+SIGUIJ   50 2HD1 LEU     8      542    542    542                       1ETM 367
+ATOM     51 3HD1 LEU     8      -8.144   4.236  14.107  1.00  7.11      std  368
+SIGATM   51 3HD1 LEU     8       0.176   0.153   0.172  0.00  0.06      1ETM 369
+ANISOU   51 3HD1 LEU     8      911    911    911      0      0      0  1ETM 370
+SIGUIJ   51 3HD1 LEU     8      563    563    563                       1ETM 371
+ATOM     52 1HD2 LEU     8      -9.012   4.832  11.127  1.00  8.69      std  372
+SIGATM   52 1HD2 LEU     8       0.222   0.200   0.235  0.00  0.09      1ETM 373
+ANISOU   52 1HD2 LEU     8     1124   1124   1124      0      0      0  1ETM 374
+SIGUIJ   52 1HD2 LEU     8      949    949    949                       1ETM 375
+ATOM     53 2HD2 LEU     8      -8.670   3.109  10.689  1.00  8.69      std  376
+SIGATM   53 2HD2 LEU     8       0.207   0.194   0.210  0.00  0.08      1ETM 377
+ANISOU   53 2HD2 LEU     8     1136   1136   1136      0      0      0  1ETM 378
+SIGUIJ   53 2HD2 LEU     8      787    787    787                       1ETM 379
+ATOM     54 3HD2 LEU     8      -9.421   3.523  12.274  1.00  8.69      std  380
+SIGATM   54 3HD2 LEU     8       0.192   0.183   0.191  0.00  0.07      1ETM 381
+ANISOU   54 3HD2 LEU     8     1132   1132   1132      0      0      0  1ETM 382
+SIGUIJ   54 3HD2 LEU     8      652    652    652                       1ETM 383
+ATOM     55  N   CYS     9      -3.767   4.334   8.877  1.00  3.16      1ETM 384
+SIGATM   55  N   CYS     9       0.008   0.007   0.008  0.00  0.00      1ETM 385
+ANISOU   55  N   CYS     9      468    284    533    -16    139    179  1ETM 386
+SIGUIJ   55  N   CYS     9        3      1      6      2      6      3  1ETM 387
+ATOM     56  CA  CYS     9      -2.641   5.072   8.356  1.00  3.16      1ETM 388
+SIGATM   56  CA  CYS     9       0.010   0.008   0.009  0.00  0.00      1ETM 389
+ANISOU   56  CA  CYS     9      513    268    440    -53    130     71  1ETM 390
+SIGUIJ   56  CA  CYS     9        3      1      6      3      8      4  1ETM 391
+ATOM     57  C   CYS     9      -2.405   6.362   9.112  1.00  3.16      1ETM 392
+SIGATM   57  C   CYS     9       0.009   0.009   0.009  0.00  0.00      1ETM 393
+ANISOU   57  C   CYS     9      353    425    412    -75    162    102  1ETM 394
+SIGUIJ   57  C   CYS     9        3      1      6      3      6      4  1ETM 395
+ATOM     58  O   CYS     9      -2.099   7.412   8.553  1.00  3.95      1ETM 396
+SIGATM   58  O   CYS     9       0.008   0.006   0.007  0.00  0.00      1ETM 397
+ANISOU   58  O   CYS     9      760    333    498   -153    300    103  1ETM 398
+SIGUIJ   58  O   CYS     9        3      1      5      2      6      3  1ETM 399
+ATOM     59  CB  CYS     9      -2.684   5.308   6.865  1.00  3.95      1ETM 400
+SIGATM   59  CB  CYS     9       0.010   0.009   0.010  0.00  0.00      1ETM 401
+ANISOU   59  CB  CYS     9      469    440    490    -81     91    250  1ETM 402
+SIGUIJ   59  CB  CYS     9        3      1      6      3      8      4  1ETM 403
+ATOM     60  SG  CYS     9      -2.379   3.816   5.873  1.00  3.95      1ETM 404
+SIGATM   60  SG  CYS     9       0.003   0.002   0.002  0.00  0.00      1ETM 405
+ANISOU   60  SG  CYS     9      502    432    435   -207    -15    -54  1ETM 406
+SIGUIJ   60  SG  CYS     9        1             2      1      2      1  1ETM 407
+ATOM     61  H   CYS     9      -3.403   3.414   9.024  1.00  3.16      std  408
+SIGATM   61  H   CYS     9       0.115   0.114   0.116  0.00  0.03      1ETM 409
+ANISOU   61  H   CYS     9      402    402    402      0      0      0  1ETM 410
+SIGUIJ   61  H   CYS     9      317    317    317                       1ETM 411
+ATOM     62  HA  CYS     9      -1.788   4.398   8.521  1.00  3.16      std  412
+SIGATM   62  HA  CYS     9       0.114   0.107   0.118  0.00  0.03      1ETM 413
+ANISOU   62  HA  CYS     9      401    401    401      0      0      0  1ETM 414
+SIGUIJ   62  HA  CYS     9      322    322    322                       1ETM 415
+ATOM     63 1HB  CYS     9      -3.679   5.698   6.605  1.00  3.95      std  416
+SIGATM   63 1HB  CYS     9       0.125   0.110   0.126  0.00  0.03      1ETM 417
+ANISOU   63 1HB  CYS     9      464    464    464      0      0      0  1ETM 418
+SIGUIJ   63 1HB  CYS     9      324    324    324                       1ETM 419
+ATOM     64 2HB  CYS     9      -1.951   6.084   6.601  1.00  3.95      std  420
+SIGATM   64 2HB  CYS     9       0.117   0.117   0.128  0.00  0.03      1ETM 421
+ANISOU   64 2HB  CYS     9      466    466    466      0      0      0  1ETM 422
+SIGUIJ   64 2HB  CYS     9      335    335    335                       1ETM 423
+ATOM     65  N   CYS    10      -2.445   6.271  10.463  1.00  3.16      1ETM 424
+SIGATM   65  N   CYS    10       0.007   0.007   0.007  0.00  0.00      1ETM 425
+ANISOU   65  N   CYS    10      394    335    425   -143    109    -15  1ETM 426
+SIGUIJ   65  N   CYS    10        2      1      5      2      6      3  1ETM 427
+ATOM     66  CA  CYS    10      -2.207   7.491  11.250  1.00  3.16      1ETM 428
+SIGATM   66  CA  CYS    10       0.009   0.009   0.010  0.00  0.00      1ETM 429
+ANISOU   66  CA  CYS    10      394    411    495     -2    -51    -82  1ETM 430
+SIGUIJ   66  CA  CYS    10        3      1      6      3      8      4  1ETM 431
+ATOM     67  C   CYS    10      -0.774   7.974  11.145  1.00  3.16      1ETM 432
+SIGATM   67  C   CYS    10       0.009   0.009   0.009  0.00  0.00      1ETM 433
+ANISOU   67  C   CYS    10      424    403    425   -116    142    -16  1ETM 434
+SIGUIJ   67  C   CYS    10        3      1      6      3      8      4  1ETM 435
+ATOM     68  O   CYS    10      -0.477   9.127  11.326  1.00  6.32      1ETM 436
+SIGATM   68  O   CYS    10       0.008   0.007   0.010  0.00  0.00      1ETM 437
+ANISOU   68  O   CYS    10      618    359   1335   -212    -32   -120  1ETM 438
+SIGUIJ   68  O   CYS    10        3      1     10      2      9      4  1ETM 439
+ATOM     69  CB  CYS    10      -2.568   7.285  12.705  1.00  3.95      1ETM 440
+SIGATM   69  CB  CYS    10       0.010   0.011   0.011  0.00  0.00      1ETM 441
+ANISOU   69  CB  CYS    10      472    577    553    128     84      0  1ETM 442
+SIGUIJ   69  CB  CYS    10        4      1      8      3      9      5  1ETM 443
+ATOM     70  SG  CYS    10      -1.392   6.215  13.574  1.00  3.95      1ETM 444
+SIGATM   70  SG  CYS    10       0.003   0.003   0.003  0.00  0.00      1ETM 445
+ANISOU   70  SG  CYS    10      436    628    491    -42    -15    150  1ETM 446
+SIGUIJ   70  SG  CYS    10        1             2      1      2      1  1ETM 447
+ATOM     71  H   CYS    10      -2.621   5.394  10.909  1.00  3.16      std  448
+SIGATM   71  H   CYS    10       0.118   0.114   0.114  0.00  0.03      1ETM 449
+ANISOU   71  H   CYS    10      392    392    392      0      0      0  1ETM 450
+SIGUIJ   71  H   CYS    10      319    319    319                       1ETM 451
+ATOM     72  HA  CYS    10      -2.866   8.268  10.835  1.00  3.16      std  452
+SIGATM   72  HA  CYS    10       0.118   0.109   0.120  0.00  0.03      1ETM 453
+ANISOU   72  HA  CYS    10      444    444    444      0      0      0  1ETM 454
+SIGUIJ   72  HA  CYS    10      338    338    338                       1ETM 455
+ATOM     73 1HB  CYS    10      -2.601   8.263  13.207  1.00  3.95      std  456
+SIGATM   73 1HB  CYS    10       0.125   0.123   0.122  0.00  0.04      1ETM 457
+ANISOU   73 1HB  CYS    10      530    530    530      0      0      0  1ETM 458
+SIGUIJ   73 1HB  CYS    10      372    372    372                       1ETM 459
+ATOM     74 2HB  CYS    10      -3.572   6.840  12.765  1.00  3.95      std  460
+SIGATM   74 2HB  CYS    10       0.131   0.114   0.131  0.00  0.04      1ETM 461
+ANISOU   74 2HB  CYS    10      534    534    534      0      0      0  1ETM 462
+SIGUIJ   74 2HB  CYS    10      358    358    358                       1ETM 463
+ATOM     75  N   ASN    11       0.140   7.012  10.907  1.00  3.95      1ETM 464
+SIGATM   75  N   ASN    11       0.007   0.008   0.009  0.00  0.00      1ETM 465
+ANISOU   75  N   ASN    11      396    422    602   -199    168   -247  1ETM 466
+SIGUIJ   75  N   ASN    11        3      1      6      2      6      4  1ETM 467
+ATOM     76  CA  ASN    11       1.577   7.219  10.819  1.00  3.16      1ETM 468
+SIGATM   76  CA  ASN    11       0.009   0.009   0.010  0.00  0.00      1ETM 469
+ANISOU   76  CA  ASN    11      321    480    473   -147    117    -58  1ETM 470
+SIGUIJ   76  CA  ASN    11        3      1      6      3      8      4  1ETM 471
+ATOM     77  C   ASN    11       1.976   6.815   9.413  1.00  3.16      1ETM 472
+SIGATM   77  C   ASN    11       0.008   0.009   0.009  0.00  0.00      1ETM 473
+ANISOU   77  C   ASN    11      242    491    400   -110    -50    -25  1ETM 474
+SIGUIJ   77  C   ASN    11        3      1      6      2      6      4  1ETM 475
+ATOM     78  O   ASN    11       1.775   5.642   9.055  1.00  3.95      1ETM 476
+SIGATM   78  O   ASN    11       0.006   0.006   0.007  0.00  0.00      1ETM 477
+ANISOU   78  O   ASN    11      456    465    527   -216    116   -170  1ETM 478
+SIGUIJ   78  O   ASN    11        2      1      5      2      6      3  1ETM 479
+ATOM     79  CB  ASN    11       2.259   6.395  11.903  1.00  3.95      1ETM 480
+SIGATM   79  CB  ASN    11       0.010   0.012   0.011  0.00  0.00      1ETM 481
+ANISOU   79  CB  ASN    11      363    763    500   -216     13     18  1ETM 482
+SIGUIJ   79  CB  ASN    11        3      1      6      3      8      5  1ETM 483
+ATOM     80  CG  ASN    11       3.767   6.326  11.798  1.00  3.95      1ETM 484
+SIGATM   80  CG  ASN    11       0.010   0.010   0.011  0.00  0.00      1ETM 485
+ANISOU   80  CG  ASN    11      471    570    514   -178    100   -261  1ETM 486
+SIGUIJ   80  CG  ASN    11        3      1      8      3      9      5  1ETM 487
+ATOM     81  OD1 ASN    11       4.376   6.781  10.824  1.00  4.74      1ETM 488
+SIGATM   81  OD1 ASN    11       0.007   0.008   0.008  0.00  0.00      1ETM 489
+ANISOU   81  OD1 ASN    11      447    945    535   -418    -94    168  1ETM 490
+SIGUIJ   81  OD1 ASN    11        2      1      6      3      6      4  1ETM 491
+ATOM     82  ND2 ASN    11       4.358   5.686  12.815  1.00  5.53      1ETM 492
+SIGATM   82  ND2 ASN    11       0.012   0.013   0.011  0.00  0.00      1ETM 493
+ANISOU   82  ND2 ASN    11      732    907    515    104     -4    268  1ETM 494
+SIGUIJ   82  ND2 ASN    11        4      1      8      4     10      6  1ETM 495
+ATOM     83  H   ASN    11      -0.191   6.076  10.786  1.00  3.95      std  496
+SIGATM   83  H   ASN    11       0.121   0.121   0.125  0.00  0.03      1ETM 497
+ANISOU   83  H   ASN    11      480    480    480      0      0      0  1ETM 498
+SIGUIJ   83  H   ASN    11      349    349    349                       1ETM 499
+ATOM     84  HA  ASN    11       1.884   8.264  10.974  1.00  3.16      std  500
+SIGATM   84  HA  ASN    11       0.113   0.113   0.116  0.00  0.03      1ETM 501
+ANISOU   84  HA  ASN    11      431    431    431      0      0      0  1ETM 502
+SIGUIJ   84  HA  ASN    11      328    328    328                       1ETM 503
+ATOM     85 1HB  ASN    11       1.993   6.830  12.878  1.00  3.95      std  504
+SIGATM   85 1HB  ASN    11       0.124   0.122   0.139  0.00  0.04      1ETM 505
+ANISOU   85 1HB  ASN    11      543    543    543      0      0      0  1ETM 506
+SIGUIJ   85 1HB  ASN    11      373    373    373                       1ETM 507
+ATOM     86 2HB  ASN    11       1.847   5.376  11.861  1.00  3.95      std  508
+SIGATM   86 2HB  ASN    11       0.128   0.129   0.130  0.00  0.04      1ETM 509
+ANISOU   86 2HB  ASN    11      543    543    543      0      0      0  1ETM 510
+SIGUIJ   86 2HB  ASN    11      376    376    376                       1ETM 511
+ATOM     87 1HD2 ASN    11       3.813   5.204  13.501  1.00  5.53      std  512
+SIGATM   87 1HD2 ASN    11       0.164   0.153   0.169  0.00  0.06      1ETM 513
+ANISOU   87 1HD2 ASN    11      706    706    706      0      0      0  1ETM 514
+SIGUIJ   87 1HD2 ASN    11      553    553    553                       1ETM 515
+ATOM     88 2HD2 ASN    11       4.895   6.292  13.401  1.00  5.53      std  516
+SIGATM   88 2HD2 ASN    11       0.154   0.145   0.161  0.00  0.05      1ETM 517
+ANISOU   88 2HD2 ASN    11      709    709    709      0      0      0  1ETM 518
+SIGUIJ   88 2HD2 ASN    11      512    512    512                       1ETM 519
+ATOM     89  N   PRO    12       2.457   7.728   8.566  1.00  3.16      1ETM 520
+SIGATM   89  N   PRO    12       0.008   0.007   0.008  0.00  0.00      1ETM 521
+ANISOU   89  N   PRO    12      506    378    447   -114   -171     -5  1ETM 522
+SIGUIJ   89  N   PRO    12        3      1      5      2      6      3  1ETM 523
+ATOM     90  CA  PRO    12       2.704   7.380   7.158  1.00  3.95      1ETM 524
+SIGATM   90  CA  PRO    12       0.010   0.009   0.010  0.00  0.00      1ETM 525
+ANISOU   90  CA  PRO    12      479    421    545   -155   -300    142  1ETM 526
+SIGUIJ   90  CA  PRO    12        3      1      6      3      9      4  1ETM 527
+ATOM     91  C   PRO    12       3.816   6.361   6.969  1.00  3.95      1ETM 528
+SIGATM   91  C   PRO    12       0.010   0.010   0.010  0.00  0.00      1ETM 529
+ANISOU   91  C   PRO    12      497    540    425   -257    -51    203  1ETM 530
+SIGUIJ   91  C   PRO    12        3      1      6      3      8      5  1ETM 531
+ATOM     92  O   PRO    12       3.927   5.825   5.870  1.00  4.74      1ETM 532
+SIGATM   92  O   PRO    12       0.008   0.007   0.007  0.00  0.00      1ETM 533
+ANISOU   92  O   PRO    12      675    734    431    -20    107   -181  1ETM 534
+SIGUIJ   92  O   PRO    12        3      1      5      3      6      4  1ETM 535
+ATOM     93  CB  PRO    12       3.062   8.732   6.529  1.00  6.32      1ETM 536
+SIGATM   93  CB  PRO    12       0.017   0.012   0.014  0.00  0.00      1ETM 537
+ANISOU   93  CB  PRO    12     1054    565    669   -166    164    406  1ETM 538
+SIGUIJ   93  CB  PRO    12        6      1     10      5     15      6  1ETM 539
+ATOM     94  CG  PRO    12       3.368   9.615   7.559  1.00 12.63      1ETM 540
+SIGATM   94  CG  PRO    12       0.040   0.020   0.019  0.00  0.00      1ETM 541
+ANISOU   94  CG  PRO    12     3328    860    730  -2176   1256   -143  1ETM 542
+SIGUIJ   94  CG  PRO    12       24      2     13     12     31      9  1ETM 543
+ATOM     95  CD  PRO    12       2.724   9.144   8.846  1.00  4.74      1ETM 544
+SIGATM   95  CD  PRO    12       0.013   0.011   0.012  0.00  0.00      1ETM 545
+ANISOU   95  CD  PRO    12      732    524    621   -443    131   -347  1ETM 546
+SIGUIJ   95  CD  PRO    12        5      1      9      4     11      5  1ETM 547
+ATOM     96  HA  PRO    12       1.818   6.905   6.712  1.00  3.95      std  548
+SIGATM   96  HA  PRO    12       0.121   0.115   0.125  0.00  0.03      1ETM 549
+ANISOU   96  HA  PRO    12      468    468    468      0      0      0  1ETM 550
+SIGUIJ   96  HA  PRO    12      343    343    343                       1ETM 551
+ATOM     97 1HB  PRO    12       3.889   8.618   5.812  1.00  5.53      std  552
+SIGATM   97 1HB  PRO    12       0.149   0.139   0.161  0.00  0.05      1ETM 553
+ANISOU   97 1HB  PRO    12      748    748    748      0      0      0  1ETM 554
+SIGUIJ   97 1HB  PRO    12      468    468    468                       1ETM 555
+ATOM     98 2HB  PRO    12       2.201   9.113   5.960  1.00  5.53      std  556
+SIGATM   98 2HB  PRO    12       0.148   0.141   0.158  0.00  0.05      1ETM 557
+ANISOU   98 2HB  PRO    12      749    749    749      0      0      0  1ETM 558
+SIGUIJ   98 2HB  PRO    12      469    469    469                       1ETM 559
+ATOM     99 1HG  PRO    12       4.461   9.635   7.680  1.00 11.84      std  560
+SIGATM   99 1HG  PRO    12       0.225   0.248   0.271  0.00  0.11      1ETM 561
+ANISOU   99 1HG  PRO    12     1528   1528   1528      0      0      0  1ETM 562
+SIGUIJ   99 1HG  PRO    12     1109   1109   1109                       1ETM 563
+ATOM    100 2HG  PRO    12       3.023  10.633   7.324  1.00 11.84      std  564
+SIGATM  100 2HG  PRO    12       0.236   0.225   0.229  0.00  0.09      1ETM 565
+ANISOU  100 2HG  PRO    12     1512   1512   1512      0      0      0  1ETM 566
+SIGUIJ  100 2HG  PRO    12      890    890    890                       1ETM 567
+ATOM    101 1HD  PRO    12       3.409   9.247   9.700  1.00  4.74      std  568
+SIGATM  101 1HD  PRO    12       0.141   0.127   0.143  0.00  0.04      1ETM 569
+ANISOU  101 1HD  PRO    12      640    640    640      0      0      0  1ETM 570
+SIGUIJ  101 1HD  PRO    12      412    412    412                       1ETM 571
+ATOM    102 2HD  PRO    12       1.818   9.712   9.106  1.00  4.74      std  572
+SIGATM  102 2HD  PRO    12       0.141   0.133   0.145  0.00  0.04      1ETM 573
+ANISOU  102 2HD  PRO    12      643    643    643      0      0      0  1ETM 574
+SIGUIJ  102 2HD  PRO    12      424    424    424                       1ETM 575
+ATOM    103  N   LEU    13       4.632   6.088   7.989  1.00  3.95      1ETM 576
+SIGATM  103  N   LEU    13       0.008   0.008   0.009  0.00  0.00      1ETM 577
+ANISOU  103  N   LEU    13      370    457    565   -192     61     35  1ETM 578
+SIGUIJ  103  N   LEU    13        3      1      6      2      6      4  1ETM 579
+ATOM    104  CA  LEU    13       5.672   5.084   7.878  1.00  3.95      1ETM 580
+SIGATM  104  CA  LEU    13       0.009   0.009   0.011  0.00  0.00      1ETM 581
+ANISOU  104  CA  LEU    13      341    467    621     -6    -97   -201  1ETM 582
+SIGUIJ  104  CA  LEU    13        3      1      8      3      8      5  1ETM 583
+ATOM    105  C   LEU    13       5.195   3.684   8.248  1.00  3.95      1ETM 584
+SIGATM  105  C   LEU    13       0.010   0.010   0.011  0.00  0.00      1ETM 585
+ANISOU  105  C   LEU    13      361    561    701    -99      0    -85  1ETM 586
+SIGUIJ  105  C   LEU    13        3      1      9      3      9      5  1ETM 587
+ATOM    106  O   LEU    13       5.937   2.718   8.130  1.00  5.53      1ETM 588
+SIGATM  106  O   LEU    13       0.007   0.007   0.009  0.00  0.00      1ETM 589
+ANISOU  106  O   LEU    13      436    527   1093     55    220    -20  1ETM 590
+SIGUIJ  106  O   LEU    13        2      1      8      2      8      4  1ETM 591
+ATOM    107  CB  LEU    13       6.902   5.505   8.680  1.00  5.53      1ETM 592
+SIGATM  107  CB  LEU    13       0.010   0.011   0.016  0.00  0.00      1ETM 593
+ANISOU  107  CB  LEU    13      333    529   1100    -55   -347    -38  1ETM 594
+SIGUIJ  107  CB  LEU    13        3      1     13      3     11      6  1ETM 595
+ATOM    108  CG  LEU    13       7.494   6.823   8.316  1.00  9.47      1ETM 596
+SIGATM  108  CG  LEU    13       0.015   0.015   0.027  0.00  0.00      1ETM 597
+ANISOU  108  CG  LEU    13      489    793   2337   -351   -596    592  1ETM 598
+SIGUIJ  108  CG  LEU    13        5      2     32      5     21     12  1ETM 599
+ATOM    109  CD1 LEU    13       8.701   7.112   9.244  1.00 11.84      1ETM 600
+SIGATM  109  CD1 LEU    13       0.018   0.021   0.040  0.00  0.00      1ETM 601
+ANISOU  109  CD1 LEU    13      533    908   3022   -534  -1269   -122  1ETM 602
+SIGUIJ  109  CD1 LEU    13        6      2     53      6     29     18  1ETM 603
+ATOM    110  CD2 LEU    13       7.851   6.895   6.897  1.00 15.00      1ETM 604
+SIGATM  110  CD2 LEU    13       0.033   0.040   0.036  0.00  0.00      1ETM 605
+ANISOU  110  CD2 LEU    13     1485   2171   1919  -2347   -468   2163  1ETM 606
+SIGUIJ  110  CD2 LEU    13       13      6     37     16     39     27  1ETM 607
+ATOM    111  H   LEU    13       4.526   6.592   8.846  1.00  3.95      std  608
+SIGATM  111  H   LEU    13       0.124   0.121   0.139  0.00  0.04      1ETM 609
+ANISOU  111  H   LEU    13      481    481    481      0      0      0  1ETM 610
+SIGUIJ  111  H   LEU    13      367    367    367                       1ETM 611
+ATOM    112  HA  LEU    13       5.943   4.993   6.816  1.00  3.95      std  612
+SIGATM  112  HA  LEU    13       0.121   0.109   0.133  0.00  0.03      1ETM 613
+ANISOU  112  HA  LEU    13      487    487    487      0      0      0  1ETM 614
+SIGUIJ  112  HA  LEU    13      348    348    348                       1ETM 615
+ATOM    113 1HB  LEU    13       6.634   5.519   9.747  1.00  5.53      std  616
+SIGATM  113 1HB  LEU    13       0.147   0.136   0.151  0.00  0.05      1ETM 617
+ANISOU  113 1HB  LEU    13      671    671    671      0      0      0  1ETM 618
+SIGUIJ  113 1HB  LEU    13      458    458    458                       1ETM 619
+ATOM    114 2HB  LEU    13       7.689   4.752   8.525  1.00  5.53      std  620
+SIGATM  114 2HB  LEU    13       0.152   0.132   0.145  0.00  0.04      1ETM 621
+ANISOU  114 2HB  LEU    13      664    664    664      0      0      0  1ETM 622
+SIGUIJ  114 2HB  LEU    13      416    416    416                       1ETM 623
+ATOM    115  HG  LEU    13       6.690   7.555   8.485  1.00  9.47      std  624
+SIGATM  115  HG  LEU    13       0.206   0.181   0.195  0.00  0.07      1ETM 625
+ANISOU  115  HG  LEU    13     1166   1166   1166      0      0      0  1ETM 626
+SIGUIJ  115  HG  LEU    13      669    669    669                       1ETM 627
+ATOM    116 1HD1 LEU    13       8.515   6.846  10.295  1.00 11.84      std  628
+SIGATM  116 1HD1 LEU    13       0.253   0.249   0.242  0.00  0.12      1ETM 629
+ANISOU  116 1HD1 LEU    13     1466   1466   1466      0      0      0  1ETM 630
+SIGUIJ  116 1HD1 LEU    13     1233   1233   1233                       1ETM 631
+ATOM    117 2HD1 LEU    13       9.541   6.532   8.834  1.00 11.84      std  632
+SIGATM  117 2HD1 LEU    13       0.239   0.219   0.241  0.00  0.09      1ETM 633
+ANISOU  117 2HD1 LEU    13     1459   1459   1459      0      0      0  1ETM 634
+SIGUIJ  117 2HD1 LEU    13      909    909    909                       1ETM 635
+ATOM    118 3HD1 LEU    13       8.934   8.184   9.159  1.00 11.84      std  636
+SIGATM  118 3HD1 LEU    13       0.233   0.219   0.224  0.00  0.08      1ETM 637
+ANISOU  118 3HD1 LEU    13     1462   1462   1462      0      0      0  1ETM 638
+SIGUIJ  118 3HD1 LEU    13      828    828    828                       1ETM 639
+ATOM    119 1HD2 LEU    13       8.293   5.953   6.540  1.00 14.21      std  640
+SIGATM  119 1HD2 LEU    13       0.280   0.265   0.323  0.00  0.15      1ETM 641
+ANISOU  119 1HD2 LEU    13     1811   1811   1811      0      0      0  1ETM 642
+SIGUIJ  119 1HD2 LEU    13     1509   1509   1509                       1ETM 643
+ATOM    120 2HD2 LEU    13       6.952   7.142   6.314  1.00 14.21      std  644
+SIGATM  120 2HD2 LEU    13       0.273   0.253   0.278  0.00  0.12      1ETM 645
+ANISOU  120 2HD2 LEU    13     1809   1809   1809      0      0      0  1ETM 646
+SIGUIJ  120 2HD2 LEU    13     1205   1205   1205                       1ETM 647
+ATOM    121 3HD2 LEU    13       8.573   7.715   6.768  1.00 14.21      std  648
+SIGATM  121 3HD2 LEU    13       0.267   0.252   0.272  0.00  0.10      1ETM 649
+ANISOU  121 3HD2 LEU    13     1799   1799   1799      0      0      0  1ETM 650
+SIGUIJ  121 3HD2 LEU    13     1019   1019   1019                       1ETM 651
+ATOM    122  N   CYS    14       3.909   3.556   8.663  1.00  3.95      1ETM 652
+SIGATM  122  N   CYS    14       0.007   0.007   0.009  0.00  0.00      1ETM 653
+ANISOU  122  N   CYS    14      339    367    739    -20     -1    -30  1ETM 654
+SIGUIJ  122  N   CYS    14        2      1      6      2      6      4  1ETM 655
+ATOM    123  CA  CYS    14       3.330   2.241   8.726  1.00  3.95      1ETM 656
+SIGATM  123  CA  CYS    14       0.010   0.009   0.011  0.00  0.00      1ETM 657
+ANISOU  123  CA  CYS    14      540    427    562   -144   -320    151  1ETM 658
+SIGUIJ  123  CA  CYS    14        4      1      8      3      9      5  1ETM 659
+ATOM    124  C   CYS    14       3.429   1.545   7.377  1.00  3.95      1ETM 660
+SIGATM  124  C   CYS    14       0.008   0.009   0.012  0.00  0.00      1ETM 661
+ANISOU  124  C   CYS    14      247    381    826    -63   -194    231  1ETM 662
+SIGUIJ  124  C   CYS    14        3      1      9      2      9      5  1ETM 663
+ATOM    125  O   CYS    14       3.324   2.171   6.343  1.00  4.74      1ETM 664
+SIGATM  125  O   CYS    14       0.008   0.007   0.008  0.00  0.00      1ETM 665
+ANISOU  125  O   CYS    14      670    464    672    -81    -47    255  1ETM 666
+SIGUIJ  125  O   CYS    14        3      1      6      2      6      4  1ETM 667
+ATOM    126  CB  CYS    14       1.839   2.386   9.084  1.00  4.74      1ETM 668
+SIGATM  126  CB  CYS    14       0.010   0.011   0.012  0.00  0.00      1ETM 669
+ANISOU  126  CB  CYS    14      447    539    671    -79     41     27  1ETM 670
+SIGUIJ  126  CB  CYS    14        3      1      9      3      9      5  1ETM 671
+ATOM    127  SG  CYS    14       1.520   2.981  10.769  1.00  4.74      1ETM 672
+SIGATM  127  SG  CYS    14       0.003   0.003   0.003  0.00  0.00      1ETM 673
+ANISOU  127  SG  CYS    14      536    644    695   -390    165   -142  1ETM 674
+SIGUIJ  127  SG  CYS    14        1             2      1      3      1  1ETM 675
+ATOM    128  H   CYS    14       3.364   4.359   8.905  1.00  3.95      std  676
+SIGATM  128  H   CYS    14       0.127   0.118   0.126  0.00  0.03      1ETM 677
+ANISOU  128  H   CYS    14      478    478    478      0      0      0  1ETM 678
+SIGUIJ  128  H   CYS    14      349    349    349                       1ETM 679
+ATOM    129  HA  CYS    14       3.884   1.655   9.474  1.00  3.95      std  680
+SIGATM  129  HA  CYS    14       0.123   0.118   0.128  0.00  0.04      1ETM 681
+ANISOU  129  HA  CYS    14      506    506    506      0      0      0  1ETM 682
+SIGUIJ  129  HA  CYS    14      357    357    357                       1ETM 683
+ATOM    130 1HB  CYS    14       1.378   3.085   8.371  1.00  3.95      std  684
+SIGATM  130 1HB  CYS    14       0.135   0.123   0.131  0.00  0.04      1ETM 685
+ANISOU  130 1HB  CYS    14      547    547    547      0      0      0  1ETM 686
+SIGUIJ  130 1HB  CYS    14      376    376    376                       1ETM 687
+ATOM    131 2HB  CYS    14       1.355   1.405   8.969  1.00  3.95      std  688
+SIGATM  131 2HB  CYS    14       0.126   0.124   0.127  0.00  0.04      1ETM 689
+ANISOU  131 2HB  CYS    14      543    543    543      0      0      0  1ETM 690
+SIGUIJ  131 2HB  CYS    14      368    368    368                       1ETM 691
+ATOM    132  N   ALA    15       3.541   0.212   7.421  1.00  3.95      1ETM 692
+SIGATM  132  N   ALA    15       0.009   0.008   0.010  0.00  0.00      1ETM 693
+ANISOU  132  N   ALA    15      517    455    610    -55   -162    154  1ETM 694
+SIGUIJ  132  N   ALA    15        3      1      6      3      8      4  1ETM 695
+ATOM    133  CA  ALA    15       3.603  -0.581   6.188  1.00  4.74      1ETM 696
+SIGATM  133  CA  ALA    15       0.011   0.009   0.012  0.00  0.00      1ETM 697
+ANISOU  133  CA  ALA    15      480    403    788    221    138    219  1ETM 698
+SIGUIJ  133  CA  ALA    15        3      1     10      3     10      5  1ETM 699
+ATOM    134  C   ALA    15       2.358  -0.331   5.373  1.00  3.95      1ETM 700
+SIGATM  134  C   ALA    15       0.010   0.009   0.010  0.00  0.00      1ETM 701
+ANISOU  134  C   ALA    15      529    337    586   -124    154    -62  1ETM 702
+SIGUIJ  134  C   ALA    15        4      1      8      3      9      4  1ETM 703
+ATOM    135  O   ALA    15       1.229  -0.452   5.845  1.00  4.74      1ETM 704
+SIGATM  135  O   ALA    15       0.007   0.008   0.008  0.00  0.00      1ETM 705
+ANISOU  135  O   ALA    15      466    878    578   -222     10    130  1ETM 706
+SIGUIJ  135  O   ALA    15        3      1      6      3      6      4  1ETM 707
+ATOM    136  CB  ALA    15       3.761  -2.066   6.507  1.00  6.32      1ETM 708
+SIGATM  136  CB  ALA    15       0.016   0.012   0.019  0.00  0.00      1ETM 709
+ANISOU  136  CB  ALA    15      846    474   1091    482   -255    386  1ETM 710
+SIGUIJ  136  CB  ALA    15        6      1     15      4     17      6  1ETM 711
+ATOM    137  H   ALA    15       3.575  -0.262   8.301  1.00  3.95      std  712
+SIGATM  137  H   ALA    15       0.135   0.122   0.140  0.00  0.04      1ETM 713
+ANISOU  137  H   ALA    15      519    519    519      0      0      0  1ETM 714
+SIGUIJ  137  H   ALA    15      379    379    379                       1ETM 715
+ATOM    138  HA  ALA    15       4.481  -0.251   5.613  1.00  3.95      std  716
+SIGATM  138  HA  ALA    15       0.138   0.121   0.140  0.00  0.04      1ETM 717
+ANISOU  138  HA  ALA    15      547    547    547      0      0      0  1ETM 718
+SIGUIJ  138  HA  ALA    15      369    369    369                       1ETM 719
+ATOM    139 1HB  ALA    15       4.501  -2.353   7.269  1.00  6.32      std  720
+SIGATM  139 1HB  ALA    15       0.169   0.157   0.173  0.00  0.05      1ETM 721
+ANISOU  139 1HB  ALA    15      808    808    808      0      0      0  1ETM 722
+SIGUIJ  139 1HB  ALA    15      543    543    543                       1ETM 723
+ATOM    140 2HB  ALA    15       2.787  -2.448   6.846  1.00  6.32      std  724
+SIGATM  140 2HB  ALA    15       0.169   0.144   0.164  0.00  0.05      1ETM 725
+ANISOU  140 2HB  ALA    15      810    810    810      0      0      0  1ETM 726
+SIGUIJ  140 2HB  ALA    15      512    512    512                       1ETM 727
+ATOM    141 3HB  ALA    15       4.041  -2.586   5.579  1.00  6.32      std  728
+SIGATM  141 3HB  ALA    15       0.162   0.155   0.170  0.00  0.05      1ETM 729
+ANISOU  141 3HB  ALA    15      811    811    811      0      0      0  1ETM 730
+SIGUIJ  141 3HB  ALA    15      524    524    524                       1ETM 731
+ATOM    142  N   GLY    16       2.541   0.011   4.108  1.00  4.74      1ETM 732
+SIGATM  142  N   GLY    16       0.011   0.008   0.009  0.00  0.00      1ETM 733
+ANISOU  142  N   GLY    16      743    451    555    176     86     24  1ETM 734
+SIGUIJ  142  N   GLY    16        4      1      6      3      9      4  1ETM 735
+ATOM    143  CA  GLY    16       1.392   0.213   3.218  1.00  5.53      1ETM 736
+SIGATM  143  CA  GLY    16       0.016   0.012   0.013  0.00  0.00      1ETM 737
+ANISOU  143  CA  GLY    16      993    518    626    455   -157   -164  1ETM 738
+SIGUIJ  143  CA  GLY    16        6      1     10      5     13      5  1ETM 739
+ATOM    144  C   GLY    16       0.786   1.608   3.267  1.00  3.95      1ETM 740
+SIGATM  144  C   GLY    16       0.011   0.010   0.010  0.00  0.00      1ETM 741
+ANISOU  144  C   GLY    16      626    562    384    157    132     55  1ETM 742
+SIGUIJ  144  C   GLY    16        4      1      6      3      9      5  1ETM 743
+ATOM    145  O   GLY    16      -0.250   1.802   2.645  1.00  5.53      1ETM 744
+SIGATM  145  O   GLY    16       0.009   0.007   0.009  0.00  0.00      1ETM 745
+ANISOU  145  O   GLY    16      951    584    710    237   -608   -128  1ETM 746
+SIGUIJ  145  O   GLY    16        4      1      6      3      9      4  1ETM 747
+ATOM    146  H   GLY    16       3.470   0.132   3.757  1.00  4.74      std  748
+SIGATM  146  H   GLY    16       0.150   0.130   0.143  0.00  0.04      1ETM 749
+ANISOU  146  H   GLY    16      595    595    595      0      0      0  1ETM 750
+SIGUIJ  146  H   GLY    16      428    428    428                       1ETM 751
+ATOM    147 1HA  GLY    16       1.684  -0.009   2.181  1.00  5.53      std  752
+SIGATM  147 1HA  GLY    16       0.152   0.132   0.162  0.00  0.05      1ETM 753
+ANISOU  147 1HA  GLY    16      721    721    721      0      0      0  1ETM 754
+SIGUIJ  147 1HA  GLY    16      463    463    463                       1ETM 755
+ATOM    148 2HA  GLY    16       0.601  -0.502   3.490  1.00  5.53      std  756
+SIGATM  148 2HA  GLY    16       0.146   0.144   0.153  0.00  0.05      1ETM 757
+ANISOU  148 2HA  GLY    16      721    721    721      0      0      0  1ETM 758
+SIGUIJ  148 2HA  GLY    16      466    466    466                       1ETM 759
+ATOM    149  N   CYS    17       1.374   2.544   4.012  1.00  3.95      1ETM 760
+SIGATM  149  N   CYS    17       0.008   0.007   0.008  0.00  0.00      1ETM 761
+ANISOU  149  N   CYS    17      471    358    528    -77   -167    -30  1ETM 762
+SIGUIJ  149  N   CYS    17        3      1      6      2      6      3  1ETM 763
+ATOM    150  CA  CYS    17       0.863   3.893   4.125  1.00  3.16      1ETM 764
+SIGATM  150  CA  CYS    17       0.009   0.009   0.010  0.00  0.00      1ETM 765
+ANISOU  150  CA  CYS    17      369    345    623    176     80     85  1ETM 766
+SIGUIJ  150  CA  CYS    17        3      1      8      3      8      4  1ETM 767
+ATOM    151  C   CYS    17       1.754   4.872   3.405  1.00  3.95      1ETM 768
+SIGATM  151  C   CYS    17       0.010   0.010   0.011  0.00  0.00      1ETM 769
+ANISOU  151  C   CYS    17      381    522    534    -20      1    216  1ETM 770
+SIGUIJ  151  C   CYS    17        3      1      6      3      9      5  1ETM 771
+ATOM    152  O   CYS    17       2.719   4.599   2.768  1.00  5.53      1ETM 772
+SIGATM  152  O   CYS    17       0.008   0.007   0.009  0.00  0.00      1ETM 773
+ANISOU  152  O   CYS    17      639    692    789    -10    488    190  1ETM 774
+SIGUIJ  152  O   CYS    17        3      1      6      3      8      4  1ETM 775
+ATOM    153  CB  CYS    17       0.636   4.290   5.565  1.00  3.95      1ETM 776
+SIGATM  153  CB  CYS    17       0.010   0.009   0.011  0.00  0.00      1ETM 777
+ANISOU  153  CB  CYS    17      469    383    651   -165    365     24  1ETM 778
+SIGUIJ  153  CB  CYS    17        3      1      8      3     10      4  1ETM 779
+ATOM    154  SG  CYS    17      -0.536   3.226   6.479  1.00  3.95      1ETM 780
+SIGATM  154  SG  CYS    17       0.003   0.002   0.003  0.00  0.00      1ETM 781
+ANISOU  154  SG  CYS    17      507    376    569     12    142     80  1ETM 782
+SIGUIJ  154  SG  CYS    17        1             2      1      2      1  1ETM 783
+ATOM    155  OXT CYS    17       1.306   6.116   3.581  1.00  5.53      1ETM 784
+SIGATM  155  OXT CYS    17       0.007   0.007   0.009  0.00  0.00      1ETM 785
+ANISOU  155  OXT CYS    17      520    480    964    110    166    302  1ETM 786
+SIGUIJ  155  OXT CYS    17        3      1      8      2      8      4  1ETM 787
+ATOM    156  H   CYS    17       2.192   2.304   4.535  1.00  3.95      std  788
+SIGATM  156  H   CYS    17       0.127   0.113   0.123  0.00  0.03      1ETM 789
+ANISOU  156  H   CYS    17      458    458    458      0      0      0  1ETM 790
+SIGUIJ  156  H   CYS    17      345    345    345                       1ETM 791
+ATOM    157  HA  CYS    17      -0.119   3.921   3.630  1.00  3.16      std  792
+SIGATM  157  HA  CYS    17       0.120   0.108   0.118  0.00  0.03      1ETM 793
+ANISOU  157  HA  CYS    17      433    433    433      0      0      0  1ETM 794
+SIGUIJ  157  HA  CYS    17      326    326    326                       1ETM 795
+ATOM    158 1HB  CYS    17       1.605   4.288   6.085  1.00  3.95      std  796
+SIGATM  158 1HB  CYS    17       0.131   0.111   0.124  0.00  0.04      1ETM 797
+ANISOU  158 1HB  CYS    17      481    481    481      0      0      0  1ETM 798
+SIGUIJ  158 1HB  CYS    17      354    354    354                       1ETM 799
+ATOM    159 2HB  CYS    17       0.253   5.321   5.574  1.00  3.95      std  800
+SIGATM  159 2HB  CYS    17       0.120   0.118   0.124  0.00  0.03      1ETM 801
+ANISOU  159 2HB  CYS    17      481    481    481      0      0      0  1ETM 802
+SIGUIJ  159 2HB  CYS    17      340    340    340                       1ETM 803
+ATOM    160  HXT CYS    17       2.057   6.763   3.448  1.00  5.53      new  H
+SIGATM  160  HXT CYS    17       0.148   0.132   0.137  0.00  0.04      1ETM 805
+ANISOU  160  HXT CYS    17      662    662    662      0      0      0  1ETM 806
+SIGUIJ  160  HXT CYS    17      425    425    425                       1ETM 807
+TER     161      CYS    17                                              1ETM 808
+HETATM  162  O   HOH     1      -7.547   2.402   6.788  1.00 18.95      1ETM 809
+SIGATM  162  O   HOH     1       0.023   0.025   0.018  0.00  0.00      1ETM 810
+ANISOU  162  O   HOH     1     2155   3569   1332   -469  -1095   1053  1ETM 811
+SIGUIJ  162  O   HOH     1       12      5     17     13     27     16  1ETM 812
+HETATM  163  O   HOH     2      -9.225   0.907  14.535  1.00  6.32      1ETM 813
+SIGATM  163  O   HOH     2       0.009   0.008   0.009  0.00  0.00      1ETM 814
+ANISOU  163  O   HOH     2      747    829    692    153    -77    -74  1ETM 815
+SIGUIJ  163  O   HOH     2        3      1      6      3      8      4  1ETM 816
+HETATM  164  O   HOH     3      -6.503   3.190  16.717  1.00 15.00      1ETM 817
+SIGATM  164  O   HOH     3       0.023   0.018   0.016  0.00  0.00      1ETM 818
+ANISOU  164  O   HOH     3     2624   1967   1217  -1899    -68     84  1ETM 819
+SIGUIJ  164  O   HOH     3       13      3     13     10     24     11  1ETM 820
+HETATM  165  O   HOH     4      -2.045  11.346  10.476  1.00  7.90      1ETM 821
+SIGATM  165  O   HOH     4       0.009   0.010   0.013  0.00  0.00      1ETM 822
+ANISOU  165  O   HOH     4      653    877   1425     36   -483   -256  1ETM 823
+SIGUIJ  165  O   HOH     4        3      1     11      3     11      6  1ETM 824
+HETATM  166  O   HOH     5       5.331   6.772   3.673  1.00  5.53      1ETM 825
+SIGATM  166  O   HOH     5       0.008   0.007   0.008  0.00  0.00      1ETM 826
+ANISOU  166  O   HOH     5      713    635    671    -86    301     68  1ETM 827
+SIGUIJ  166  O   HOH     5        3      1      6      3      8      4  1ETM 828
+HETATM  167  O   HOH     6       7.695   2.177   6.101  1.00 14.21      1ETM 829
+SIGATM  167  O   HOH     6       0.018   0.017   0.016  0.00  0.00      1ETM 830
+ANISOU  167  O   HOH     6     1751   2096   1409   1533    803    333  1ETM 831
+SIGUIJ  167  O   HOH     6        8      3     15      8     21     11  1ETM 832
+HETATM  168  O   HOH     7       3.421  -0.989  10.024  1.00  8.69      1ETM 833
+SIGATM  168  O   HOH     7       0.011   0.011   0.011  0.00  0.00      1ETM 834
+ANISOU  168  O   HOH     7     1137   1121    923   -854   -356    425  1ETM 835
+SIGUIJ  168  O   HOH     7        5      1      9      4     12      6  1ETM 836
+HETATM  169  O   HOH     8       4.949   3.501   4.282  1.00 10.26      1ETM 837
+SIGATM  169  O   HOH     8       0.013   0.011   0.015  0.00  0.00      1ETM 838
+ANISOU  169  O   HOH     8     1280    968   1604     86    628    -43  1ETM 839
+SIGUIJ  169  O   HOH     8        6      1     13      5     16      8  1ETM 840
+HETATM  170  O   HOH     9       3.006   7.885   2.598  1.00  5.53      1ETM 841
+SIGATM  170  O   HOH     9       0.008   0.007   0.008  0.00  0.00      1ETM 842
+ANISOU  170  O   HOH     9      719    491    802   -315      2      2  1ETM 843
+SIGUIJ  170  O   HOH     9        3      1      6      2      8      4  1ETM 844
+HETATM  171  O   HOH    10      -9.737   3.196  15.991  1.00 11.05      1ETM 845
+SIGATM  171  O   HOH    10       0.016   0.012   0.013  0.00  0.00      1ETM 846
+ANISOU  171  O   HOH    10     1962   1023   1233    646   1218    307  1ETM 847
+SIGUIJ  171  O   HOH    10        8      1     12      6     18      6  1ETM 848
+CONECT    1    2    3   10                                              1ETM 849
+CONECT    2    1                                                        1ETM 850
+CONECT    3    1    4    6    7                                         1ETM 851
+CONECT    4    3    5    8    9                                         1ETM 852
+CONECT    5    4   70                                                   1ETM 853
+CONECT    6    3                                                        1ETM 854
+CONECT    7    3                                                        1ETM 855
+CONECT    8    4                                                        1ETM 856
+CONECT    9    4                                                        1ETM 857
+CONECT   10    1   11   16                                              1ETM 858
+CONECT   15   14  127                                                   1ETM 859
+CONECT   60   59  154                                                   1ETM 860
+CONECT   70    5   69                                                   1ETM 861
+CONECT  127   15  126                                                   1ETM 862
+CONECT  154   60  153                                                   1ETM 863
+END                                                                     1ETM 865
