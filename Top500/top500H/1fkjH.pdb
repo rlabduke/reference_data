@@ -1,0 +1,2122 @@
+USER  MOD reduceV2.10.3 H: found=0, std=0, add=903, rem=0, adj=29
+HEADER    ROTAMASE                                18-AUG-95   1FKJ      1FKJ   2
+TITLE     ATOMIC STRUCTURE OF FKBP12-FK506, AN IMMUNOPHILIN             1FKJ   3
+TITLE    2 IMMUNOSUPPRESSANT COMPLEX                                    1FKJ   4
+COMPND    MOL_ID: 1;                                                    1FKJ   5
+COMPND   2 MOLECULE: FK506 BINDING PROTEIN;                             1FKJ   6
+COMPND   3 CHAIN: NULL;                                                 1FKJ   7
+COMPND   4 SYNONYM: FKBP12;                                             1FKJ   8
+COMPND   5 EC: 5.2.1.8;                                                 1FKJ   9
+COMPND   6 ENGINEERED: YES;                                             1FKJ  10
+COMPND   7 HETEROGEN: FK506;                                            1FKJ  11
+COMPND   8 OTHER_DETAILS: MR 12,000 DALTONS                             1FKJ  12
+SOURCE    MOL_ID: 1;                                                    1FKJ  13
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                           1FKJ  14
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                      1FKJ  15
+SOURCE   4 EXPRESSION_SYSTEM: ESCHERICHIA COLI                          1FKJ  16
+KEYWDS    FK506 BINDING PROTEIN, FKBP12, CIS-TRANS PROLYL-ISOMERASE     1FKJ  17
+EXPDTA    X-RAY DIFFRACTION                                             1FKJ  18
+AUTHOR    K.P.WILSON,M.D.SINTCHAK,J.A.THOMSON,M.A.NAVIA                 1FKJ  19
+REVDAT   1   07-DEC-95 1FKJ    0                                        1FKJ  20
+JRNL        AUTH   K.P.WILSON,M.M.YAMASHITA,M.D.SINTCHAK,S.H.ROTSTEIN,  1FKJ  21
+JRNL        AUTH 2 M.A.MURCKO,J.BOGER,J.A.THOMSON,M.J.FITZGIBBON,       1FKJ  22
+JRNL        AUTH 3 M.A.NAVIA                                            1FKJ  23
+JRNL        TITL   COMPARATIVE X-RAY STRUCTURES OF THE MAJOR BINDING    1FKJ  24
+JRNL        TITL 2 PROTEIN FOR THE IMMUNOSUPPRESSANT FK506              1FKJ  25
+JRNL        TITL 3 (TACROLIMUS) IN UNLIGANDED FORM AND IN COMPLEX       1FKJ  26
+JRNL        TITL 4 WITH FK506 AND RAPAMYCIN                             1FKJ  27
+JRNL        REF    ACTA CRYSTALLOGR.,SECT.D      V.  51   511 1995      1FKJ  28
+JRNL        REFN   ASTM ABCRE6  DK ISSN 0907-4449                 0766  1FKJ  29
+REMARK   1                                                              1FKJ  30
+REMARK   1 REFERENCE 1                                                  1FKJ  31
+REMARK   1  AUTH   J.P.GRIFFITH,J.L.KIM,E.E.KIM,M.D.SINTCHAK,           1FKJ  32
+REMARK   1  AUTH 2 J.A.THOMSON,M.J.FITZGIBBON,M.A.FLEMING,P.R.CARON,    1FKJ  33
+REMARK   1  AUTH 3 K.HSIAO,M.A.NAVIA                                    1FKJ  34
+REMARK   1  TITL   X-RAY STRUCTURE OF CALCINEURIN INHIBITED BY THE      1FKJ  35
+REMARK   1  TITL 2 IMMUNOPHILIN-IMMUNOSUPPRESSANT FKBP12-FK506 COMPLEX  1FKJ  36
+REMARK   1  REF    CELL(CAMBRIDGE,MASS.)         V.  82   507 1995      1FKJ  37
+REMARK   1  REFN   ASTM CELLB5  US ISSN 0092-8674                 0998  1FKJ  38
+REMARK   1 REFERENCE 2                                                  1FKJ  39
+REMARK   1  AUTH   J.ROTONDA,J.J.BURBAUM,H.K.CHAN,A.I.MARCY,J.W.BECKER  1FKJ  40
+REMARK   1  TITL   IMPROVED CALCINEURIN INHIBITION BY YEAST             1FKJ  41
+REMARK   1  TITL 2 FKBP12-DRUG COMPLEXES. CRYSTALLOGRAPHIC AND          1FKJ  42
+REMARK   1  TITL 3 FUNCTIONAL ANALYSIS                                  1FKJ  43
+REMARK   1  REF    J.BIOL.CHEM.                  V. 268  7607 1993      1FKJ  44
+REMARK   1  REFN   ASTM JBCHA3  US ISSN 0021-9258                 0071  1FKJ  45
+REMARK   1 REFERENCE 3                                                  1FKJ  46
+REMARK   1  AUTH   J.W.BECKER,J.ROTONDA,B.M.MCKEEVER,H.K.CHAN,          1FKJ  47
+REMARK   1  AUTH 2 A.I.MARCY,G.WIEDERRECHT,J.D.HERMES,J.P.SPRINGER      1FKJ  48
+REMARK   1  TITL   FK-506-BINDING PROTEIN: THREE-DIMENSIONAL            1FKJ  49
+REMARK   1  TITL 2 STRUCTURE OF THE COMPLEX WITH THE ANTAGONIST         1FKJ  50
+REMARK   1  TITL 3 L-685,818                                            1FKJ  51
+REMARK   1  REF    J.MOL.BIOL.                   V. 268 11335 1993      1FKJ  52
+REMARK   1  REFN   ASTM JMOBAK  UK ISSN 0022-2836                 0070  1FKJ  53
+REMARK   1 REFERENCE 4                                                  1FKJ  54
+REMARK   1  AUTH   G.D.VAN DUYNE,R.F.STANDAERT,P.A.KARPLUS,             1FKJ  55
+REMARK   1  AUTH 2 S.L.SCHREIBER,J.CLARDY                               1FKJ  56
+REMARK   1  TITL   ATOMIC STRUCTURES OF HUMAN IMMUNOPHILIN FKBP-12      1FKJ  57
+REMARK   1  TITL 2 COMPLEXES WITH FK506 AND RAPAMYCIN                   1FKJ  58
+REMARK   1  REF    J.MOL.BIOL.                   V. 229   105 1993      1FKJ  59
+REMARK   1  REFN   ASTM JMOBAK  UK ISSN 0022-2836                 0070  1FKJ  60
+REMARK   1 REFERENCE 5                                                  1FKJ  61
+REMARK   1  AUTH   G.D.VAN DUYNE,R.F.STANDAERT,S.L.SCHREIBER,J.CLARDY   1FKJ  62
+REMARK   1  TITL   ATOMIC STRUCTURE OF THE RAPAMYCIN HUMAN              1FKJ  63
+REMARK   1  TITL 2 IMMUNOPHILIN FKBP-12 COMPLEX                         1FKJ  64
+REMARK   1  REF    J.AM.CHEM.SOC.                V. 113  7433 1991      1FKJ  65
+REMARK   1  REFN   ASTM JACSAT  US ISSN 0002-7863                 0004  1FKJ  66
+REMARK   1 REFERENCE 6                                                  1FKJ  67
+REMARK   1  AUTH   G.D.VAN DUYNE,R.F.STANDAERT,P.A.KARPLUS,             1FKJ  68
+REMARK   1  AUTH 2 S.L.SCHREIBER,J.CLARDY                               1FKJ  69
+REMARK   1  TITL   ATOMIC STRUCTURE OF FKBP-FK506, AN                   1FKJ  70
+REMARK   1  TITL 2 IMMUNOPHILIN-IMMUNOSUPPRESSANT COMPLEX               1FKJ  71
+REMARK   1  REF    SCIENCE                       V. 252   839 1991      1FKJ  72
+REMARK   1  REFN   ASTM SCIEAS  US ISSN 0036-8075                 0038  1FKJ  73
+REMARK   2                                                              1FKJ  74
+REMARK   2 RESOLUTION. 1.7  ANGSTROMS.                                  1FKJ  75
+REMARK   3                                                              1FKJ  76
+REMARK   3 REFINEMENT.                                                  1FKJ  77
+REMARK   3   PROGRAM                    X-PLOR                          1FKJ  78
+REMARK   3   AUTHORS                    BRUNGER                         1FKJ  79
+REMARK   3   R VALUE                    0.162                           1FKJ  80
+REMARK   3   RMSD BOND DISTANCES        0.014  ANGSTROMS                1FKJ  81
+REMARK   3   RMSD BOND ANGLES           2.87   DEGREES                  1FKJ  82
+REMARK   3                                                              1FKJ  83
+REMARK   3   NUMBER OF REFLECTIONS      8631                            1FKJ  84
+REMARK   3   RESOLUTION RANGE        7. - 1.7  ANGSTROMS                1FKJ  85
+REMARK   3   DATA CUTOFF                2.     SIGMA(F)                 1FKJ  86
+REMARK   3                                                              1FKJ  87
+REMARK   3  REMARK: X-PLOR PARAMETERS - TOPH19X.PRO, PARAM19.PRO        1FKJ  88
+REMARK  18                                                              1FKJ  89
+REMARK  18 EXPERIMENTAL DETAILS.                                        1FKJ  90
+REMARK  18  MONOCHROMATIC (Y/N)            : Y                          1FKJ  91
+REMARK  18  LAUE (Y/N)                     : N                          1FKJ  92
+REMARK  18  WAVELENGTH OR RANGE (A)        : 1.54                       1FKJ  93
+REMARK  18  DETECTOR TYPE                  : IMAGE PLATE                1FKJ  94
+REMARK  18  INTENSITY-INTEGRATION SOFTWARE : MANUFACTURER SUPPLIED,     1FKJ  95
+REMARK  18                                   MSC                        1FKJ  96
+REMARK 999                                                              1FKJ  97
+REMARK 999 SEQUENCE                                                     1FKJ  98
+REMARK 999  REFERENCE                                                   1FKJ  99
+REMARK 999   REFERENCE: STANDAERT, R.F., ET AL., NATURE 346, 671        1FKJ 100
+REMARK 999   (1990).                                                    1FKJ 101
+DBREF  1FKJ      1   107  SWS    P20071   FKBP_HUMAN       1    107     1FKJ 102
+SEQRES   1    107  GLY VAL GLN VAL GLU THR ILE SER PRO GLY ASP GLY ARG  1FKJ 103
+SEQRES   2    107  THR PHE PRO LYS ARG GLY GLN THR CYS VAL VAL HIS TYR  1FKJ 104
+SEQRES   3    107  THR GLY MET LEU GLU ASP GLY LYS LYS PHE ASP SER SER  1FKJ 105
+SEQRES   4    107  ARG ASP ARG ASN LYS PRO PHE LYS PHE MET LEU GLY LYS  1FKJ 106
+SEQRES   5    107  GLN GLU VAL ILE ARG GLY TRP GLU GLU GLY VAL ALA GLN  1FKJ 107
+SEQRES   6    107  MET SER VAL GLY GLN ARG ALA LYS LEU THR ILE SER PRO  1FKJ 108
+SEQRES   7    107  ASP TYR ALA TYR GLY ALA THR GLY HIS PRO GLY ILE ILE  1FKJ 109
+SEQRES   8    107  PRO PRO HIS ALA THR LEU VAL PHE ASP VAL GLU LEU LEU  1FKJ 110
+SEQRES   9    107  LYS LEU GLU                                          1FKJ 111
+HET    FK5    108      57     FK506 ; ASCOMYCIN                         1FKJ 112
+FORMUL   2  FK5    C44 H69 N1 O12                                       1FKJ 113
+FORMUL   3  HOH   *97(H2 O1)                                            1FKJ 114
+HELIX    1   1 ARG     40  ARG     42  5                                1FKJ 115
+HELIX    2   2 ARG     57  GLN     65  1                                1FKJ 116
+HELIX    3   3 PRO     78  TYR     80  5                                1FKJ 117
+SHEET    1   A 5 PHE    46  MET    49  0                                1FKJ 118
+SHEET    2   A 5 THR    21  LEU    30 -1  N  VAL    24   O  PHE    46   1FKJ 119
+SHEET    3   A 5 LEU    97  LEU   106 -1  N  LYS   105   O  VAL    23   1FKJ 120
+SHEET    4   A 5 ARG    71  ILE    76 -1  N  ILE    76   O  LEU    97   1FKJ 121
+SHEET    5   A 5 VAL     2  SER     8 -1  N  SER     8   O  ARG    71   1FKJ 122
+SHEET    1   B 2 THR    27  MET    29  0                                1FKJ 123
+SHEET    2   B 2 LYS    35  SER    38 -1  N  ASP    37   O  GLY    28   1FKJ 124
+CRYST1   58.100   58.100   55.700  90.00  90.00  90.00 P 42 21 2     8  1FKJ 125
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1FKJ 126
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1FKJ 127
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1FKJ 128
+SCALE1      0.017212  0.000000  0.000000        0.00000                 1FKJ 129
+SCALE2      0.000000  0.017212  0.000000        0.00000                 1FKJ 130
+SCALE3      0.000000  0.000000  0.017953        0.00000                 1FKJ 131
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Set 1.1:   25 HIS     :     no HD1:sc=   0.733  K(o=2,f=-5.5!)
+USER  MOD Set 1.2:   39 SER OG  :   rot   75:sc=    1.22
+USER  MOD Set 2.1:    6 THR OG1 :   rot   83:sc=    1.82
+USER  MOD Set 2.2:   67 SER OG  :   rot -129:sc=   0.384
+USER  MOD Set 2.3:   70 GLN     :      amide:sc=   0.873  K(o=3.1,f=-1.9!)
+USER  MOD Set 3.1:   27 THR OG1 :   rot  180:sc=   0.603
+USER  MOD Set 3.2:   38 SER OG  :   rot   98:sc=   0.327
+USER  MOD Set 4.1:   29 MET CE  :methyl  151:sc=       0   (180deg=-0.00955)
+USER  MOD Set 4.2:   73 LYS NZ  :NH3+    143:sc=  -0.117   (180deg=-0.605)
+USER  MOD Set 5.1:    1 GLY N   :NH3+   -164:sc=    2.66   (180deg=2.3)
+USER  MOD Set 5.2:   77 SER OG  :   rot  117:sc=    2.27
+USER  MOD Set 6.1:   21 THR OG1 :   rot   84:sc=   0.543
+USER  MOD Set 6.2:   49 MET CE  :methyl -153:sc= -0.0333   (180deg=-1.5)
+USER  MOD Single :    3 GLN     :      amide:sc=   0.722  X(o=0.72,f=0.82)
+USER  MOD Single :    8 SER OG  :   rot  -70:sc=   0.568
+USER  MOD Single :   14 THR OG1 :   rot  100:sc=    2.08
+USER  MOD Single :   17 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :   20 GLN     :      amide:sc=    1.39  K(o=1.4,f=-4.8!)
+USER  MOD Single :   22 CYS SG  :   rot  180:sc=       0
+USER  MOD Single :   26 TYR OH  :   rot -175:sc=    1.48
+USER  MOD Single :   34 LYS NZ  :NH3+    159:sc=  -0.102   (180deg=-0.598)
+USER  MOD Single :   35 LYS NZ  :NH3+    153:sc=   0.513   (180deg=0.214)
+USER  MOD Single :   43 ASN     :      amide:sc=   0.572  X(o=0.57,f=0.59)
+USER  MOD Single :   44 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :   47 LYS NZ  :NH3+   -162:sc=   0.503   (180deg=0.36)
+USER  MOD Single :   52 LYS NZ  :NH3+   -136:sc=    1.22   (180deg=0.223)
+USER  MOD Single :   53 GLN     :      amide:sc=    1.56  X(o=1.6,f=1.1)
+USER  MOD Single :   65 GLN     :      amide:sc=   0.987  K(o=0.99,f=0.46)
+USER  MOD Single :   66 MET CE  :methyl  167:sc=  -0.027   (180deg=-0.235)
+USER  MOD Single :   75 THR OG1 :   rot   82:sc=    1.24
+USER  MOD Single :   80 TYR OH  :   rot  180:sc=       0
+USER  MOD Single :   82 TYR OH  :   rot  180:sc=    1.14
+USER  MOD Single :   85 THR OG1 :   rot  180:sc=       0
+USER  MOD Single :   87 HIS     :     no HE2:sc=   0.905  K(o=0.9,f=-2.3!)
+USER  MOD Single :   94 HIS     :     no HD1:sc=       0  X(o=0,f=0)
+USER  MOD Single :   96 THR OG1 :   rot  180:sc=       0
+USER  MOD Single :  105 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :  108 FK5 O10 :   rot -116:sc=   0.429
+USER  MOD Single :  108 FK5 O12 :   rot  180:sc=       0
+USER  MOD Single :  108 FK5 O6  :   rot  -75:sc=     1.2
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   GLY     1       9.297  17.206  21.418  1.00 13.98      1FKJ 132
+ATOM      2  CA  GLY     1       9.657  17.528  20.049  1.00 13.26      1FKJ 133
+ATOM      3  C   GLY     1       9.449  19.022  19.913  1.00 12.68      1FKJ 134
+ATOM      4  O   GLY     1       9.628  19.717  20.909  1.00 11.57      1FKJ 135
+ATOM      5 1H   GLY     1       9.652  16.301  21.652  1.00 13.98      new  H +
+ATOM      6 2H   GLY     1       9.689  17.888  22.035  1.00 13.98      new  H +
+ATOM      7 3H   GLY     1       8.301  17.207  21.510  1.00 13.98      new  H +
+ATOM      8 1HA  GLY     1      10.701  17.254  19.840  1.00 13.26      new  H
+ATOM      9 2HA  GLY     1       9.030  16.975  19.335  1.00 13.26      new  H
+ATOM     10  N   VAL     2       9.070  19.535  18.751  1.00 11.31      1FKJ 136
+ATOM     11  CA  VAL     2       8.841  20.966  18.539  1.00 10.88      1FKJ 137
+ATOM     12  C   VAL     2       7.514  21.098  17.808  1.00  9.15      1FKJ 138
+ATOM     13  O   VAL     2       7.276  20.313  16.894  1.00 11.20      1FKJ 139
+ATOM     14  CB  VAL     2      10.033  21.598  17.687  1.00 12.15      1FKJ 140
+ATOM     15  CG1 VAL     2      10.150  21.020  16.280  1.00 12.93      1FKJ 141
+ATOM     16  CG2 VAL     2       9.783  23.098  17.526  1.00 12.18      1FKJ 142
+ATOM     17  H   VAL     2       8.913  18.979  17.935  1.00 11.31      new  H
+ATOM     18  HA  VAL     2       8.807  21.509  19.495  1.00 10.88      new  H
+ATOM     19  HB  VAL     2      10.959  21.369  18.235  1.00 12.15      new  H
+ATOM     20 1HG1 VAL     2      10.988  21.500  15.754  1.00 12.93      new  H
+ATOM     21 2HG1 VAL     2      10.329  19.936  16.342  1.00 12.93      new  H
+ATOM     22 3HG1 VAL     2       9.217  21.206  15.728  1.00 12.93      new  H
+ATOM     23 1HG2 VAL     2      10.599  23.545  16.940  1.00 12.18      new  H
+ATOM     24 2HG2 VAL     2       8.828  23.257  17.005  1.00 12.18      new  H
+ATOM     25 3HG2 VAL     2       9.742  23.572  18.518  1.00 12.18      new  H
+ATOM     26  N   GLN     3       6.649  22.016  18.167  1.00  8.41      1FKJ 143
+ATOM     27  CA  GLN     3       5.409  22.275  17.443  1.00 11.79      1FKJ 144
+ATOM     28  C   GLN     3       5.574  23.643  16.837  1.00  9.33      1FKJ 145
+ATOM     29  O   GLN     3       6.098  24.528  17.508  1.00  8.55      1FKJ 146
+ATOM     30  CB  GLN     3       4.204  22.346  18.347  1.00 14.61      1FKJ 147
+ATOM     31  CG  GLN     3       3.932  21.068  19.116  1.00 21.90      1FKJ 148
+ATOM     32  CD  GLN     3       3.054  21.440  20.286  1.00 27.16      1FKJ 149
+ATOM     33  OE1 GLN     3       3.505  21.533  21.436  1.00 28.92      1FKJ 150
+ATOM     34  NE2 GLN     3       1.784  21.737  19.999  1.00 29.59      1FKJ 151
+ATOM     35  H   GLN     3       6.778  22.605  18.964  1.00  8.41      new  H
+ATOM     36  HA  GLN     3       5.242  21.463  16.720  1.00 11.79      new  H
+ATOM     37 1HB  GLN     3       4.344  23.169  19.063  1.00 14.61      new  H
+ATOM     38 2HB  GLN     3       3.319  22.593  17.742  1.00 14.61      new  H
+ATOM     39 1HG  GLN     3       3.434  20.326  18.475  1.00 21.90      new  H
+ATOM     40 2HG  GLN     3       4.872  20.614  19.463  1.00 21.90      new  H
+ATOM     41 1HE2 GLN     3       1.167  22.045  20.723  1.00 29.59      new  H
+ATOM     42 2HE2 GLN     3       1.450  21.652  19.060  1.00 29.59      new  H
+ATOM     43  N   VAL     4       5.144  23.845  15.600  1.00  9.76      1FKJ 152
+ATOM     44  CA  VAL     4       5.320  25.107  14.890  1.00  9.46      1FKJ 153
+ATOM     45  C   VAL     4       3.930  25.610  14.624  1.00 10.61      1FKJ 154
+ATOM     46  O   VAL     4       3.169  24.882  13.974  1.00 13.66      1FKJ 155
+ATOM     47  CB  VAL     4       6.052  24.899  13.527  1.00 10.02      1FKJ 156
+ATOM     48  CG1 VAL     4       6.204  26.225  12.773  1.00 10.72      1FKJ 157
+ATOM     49  CG2 VAL     4       7.392  24.284  13.791  1.00 10.19      1FKJ 158
+ATOM     50  H   VAL     4       4.668  23.146  15.065  1.00  9.76      new  H
+ATOM     51  HA  VAL     4       5.928  25.806  15.483  1.00  9.46      new  H
+ATOM     52  HB  VAL     4       5.454  24.229  12.892  1.00 10.02      new  H
+ATOM     53 1HG1 VAL     4       6.722  26.048  11.819  1.00 10.72      new  H
+ATOM     54 2HG1 VAL     4       5.209  26.651  12.576  1.00 10.72      new  H
+ATOM     55 3HG1 VAL     4       6.790  26.929  13.382  1.00 10.72      new  H
+ATOM     56 1HG2 VAL     4       7.920  24.131  12.838  1.00 10.19      new  H
+ATOM     57 2HG2 VAL     4       7.983  24.953  14.434  1.00 10.19      new  H
+ATOM     58 3HG2 VAL     4       7.259  23.315  14.295  1.00 10.19      new  H
+ATOM     59  N   GLU     5       3.540  26.793  15.084  1.00  8.93      1FKJ 159
+ATOM     60  CA  GLU     5       2.224  27.337  14.784  1.00  9.15      1FKJ 160
+ATOM     61  C   GLU     5       2.439  28.685  14.121  1.00 10.23      1FKJ 161
+ATOM     62  O   GLU     5       3.112  29.543  14.713  1.00  9.76      1FKJ 162
+ATOM     63  CB  GLU     5       1.447  27.494  16.057  1.00 11.80      1FKJ 163
+ATOM     64  CG  GLU     5       1.215  26.094  16.569  1.00 15.57      1FKJ 164
+ATOM     65  CD  GLU     5       0.716  25.970  17.991  1.00 19.74      1FKJ 165
+ATOM     66  OE1 GLU     5       1.096  26.752  18.872  1.00 19.93      1FKJ 166
+ATOM     67  OE2 GLU     5      -0.058  25.039  18.195  1.00 23.17      1FKJ 167
+ATOM     68  H   GLU     5       4.109  27.383  15.657  1.00  8.93      new  H
+ATOM     69  HA  GLU     5       1.656  26.670  14.119  1.00  9.15      new  H
+ATOM     70 1HB  GLU     5       2.006  28.095  16.789  1.00 11.80      new  H
+ATOM     71 2HB  GLU     5       0.493  28.012  15.877  1.00 11.80      new  H
+ATOM     72 1HG  GLU     5       0.490  25.600  15.905  1.00 15.57      new  H
+ATOM     73 2HG  GLU     5       2.159  25.536  16.485  1.00 15.57      new  H
+ATOM     74  N   THR     6       1.883  28.888  12.907  1.00  9.13      1FKJ 168
+ATOM     75  CA  THR     6       2.175  30.093  12.127  1.00  7.85      1FKJ 169
+ATOM     76  C   THR     6       1.349  31.319  12.474  1.00  8.70      1FKJ 170
+ATOM     77  O   THR     6       0.116  31.258  12.532  1.00  8.90      1FKJ 171
+ATOM     78  CB  THR     6       1.993  29.784  10.640  1.00  8.24      1FKJ 172
+ATOM     79  OG1 THR     6       2.940  28.761  10.330  1.00  9.07      1FKJ 173
+ATOM     80  CG2 THR     6       2.236  30.977   9.753  1.00  8.14      1FKJ 174
+ATOM     81  H   THR     6       1.251  28.250  12.466  1.00  9.13      new  H
+ATOM     82  HA  THR     6       3.213  30.354  12.381  1.00  7.85      new  H
+ATOM     83  HB  THR     6       0.953  29.478  10.457  1.00  8.24      new  H
+ATOM     84  HG1 THR     6       2.562  27.870  10.581  1.00  9.07      new  H
+ATOM     85 1HG2 THR     6       2.090  30.689   8.702  1.00  8.14      new  H
+ATOM     86 2HG2 THR     6       1.530  31.779  10.015  1.00  8.14      new  H
+ATOM     87 3HG2 THR     6       3.266  31.336   9.894  1.00  8.14      new  H
+ATOM     88  N   ILE     7       2.056  32.419  12.708  1.00  8.29      1FKJ 175
+ATOM     89  CA  ILE     7       1.456  33.717  12.969  1.00  8.73      1FKJ 176
+ATOM     90  C   ILE     7       1.289  34.432  11.626  1.00  8.51      1FKJ 177
+ATOM     91  O   ILE     7       0.206  34.945  11.338  1.00  8.94      1FKJ 178
+ATOM     92  CB  ILE     7       2.379  34.526  13.938  1.00  8.35      1FKJ 179
+ATOM     93  CG1 ILE     7       2.338  33.902  15.321  1.00  9.56      1FKJ 180
+ATOM     94  CG2 ILE     7       1.922  35.970  14.041  1.00  8.30      1FKJ 181
+ATOM     95  CD1 ILE     7       3.389  34.509  16.259  1.00  9.70      1FKJ 182
+ATOM     96  H   ILE     7       3.056  32.431  12.721  1.00  8.29      new  H
+ATOM     97  HA  ILE     7       0.472  33.616  13.450  1.00  8.73      new  H
+ATOM     98  HB  ILE     7       3.403  34.501  13.537  1.00  8.35      new  H
+ATOM     99 1HG1 ILE     7       1.337  34.041  15.755  1.00  9.56      new  H
+ATOM    100 2HG1 ILE     7       2.505  32.818  15.238  1.00  9.56      new  H
+ATOM    101 1HG2 ILE     7       2.586  36.517  14.727  1.00  8.30      new  H
+ATOM    102 2HG2 ILE     7       1.957  36.438  13.046  1.00  8.30      new  H
+ATOM    103 3HG2 ILE     7       0.892  36.003  14.425  1.00  8.30      new  H
+ATOM    104 1HD1 ILE     7       3.322  34.028  17.246  1.00  9.70      new  H
+ATOM    105 2HD1 ILE     7       4.393  34.347  15.840  1.00  9.70      new  H
+ATOM    106 3HD1 ILE     7       3.207  35.589  16.365  1.00  9.70      new  H
+ATOM    107  N   SER     8       2.327  34.539  10.804  1.00  8.50      1FKJ 183
+ATOM    108  CA  SER     8       2.202  35.175   9.482  1.00 10.11      1FKJ 184
+ATOM    109  C   SER     8       2.902  34.258   8.489  1.00  8.53      1FKJ 185
+ATOM    110  O   SER     8       3.982  33.750   8.815  1.00  8.00      1FKJ 186
+ATOM    111  CB  SER     8       2.896  36.541   9.412  1.00 12.13      1FKJ 187
+ATOM    112  OG  SER     8       2.296  37.441  10.332  1.00 21.01      1FKJ 188
+ATOM    113  H   SER     8       3.245  34.204  11.017  1.00  8.50      new  H
+ATOM    114  HA  SER     8       1.134  35.329   9.268  1.00 10.11      new  H
+ATOM    115 1HB  SER     8       2.825  36.946   8.392  1.00 12.13      new  H
+ATOM    116 2HB  SER     8       3.966  36.430   9.640  1.00 12.13      new  H
+ATOM    117  HG  SER     8       1.378  37.680  10.015  1.00 21.01      new  H
+ATOM    118  N   PRO     9       2.381  33.943   7.314  1.00  8.03      1FKJ 189
+ATOM    119  CA  PRO     9       3.005  32.996   6.418  1.00  7.37      1FKJ 190
+ATOM    120  C   PRO     9       4.292  33.507   5.779  1.00  8.82      1FKJ 191
+ATOM    121  O   PRO     9       4.494  34.720   5.658  1.00 10.65      1FKJ 192
+ATOM    122  CB  PRO     9       1.900  32.685   5.440  1.00  8.33      1FKJ 193
+ATOM    123  CG  PRO     9       1.022  33.891   5.434  1.00  8.18      1FKJ 194
+ATOM    124  CD  PRO     9       1.050  34.353   6.858  1.00  8.61      1FKJ 195
+ATOM    125  HA  PRO     9       3.373  32.096   6.932  1.00  7.37      new  H
+ATOM    126 1HB  PRO     9       2.304  32.484   4.437  1.00  8.33      new  H
+ATOM    127 2HB  PRO     9       1.340  31.789   5.747  1.00  8.33      new  H
+ATOM    128 1HG  PRO     9       1.401  34.664   4.750  1.00  8.18      new  H
+ATOM    129 2HG  PRO     9       0.000  33.646   5.108  1.00  8.18      new  H
+ATOM    130 1HD  PRO     9       0.911  35.441   6.935  1.00  8.61      new  H
+ATOM    131 2HD  PRO     9       0.253  33.884   7.454  1.00  8.61      new  H
+ATOM    132  N   GLY    10       5.177  32.605   5.352  1.00  8.51      1FKJ 196
+ATOM    133  CA  GLY    10       6.386  33.011   4.665  1.00  8.38      1FKJ 197
+ATOM    134  C   GLY    10       6.133  32.877   3.173  1.00 10.31      1FKJ 198
+ATOM    135  O   GLY    10       4.992  32.771   2.709  1.00 10.76      1FKJ 199
+ATOM    136  H   GLY    10       5.075  31.617   5.470  1.00  8.51      new  H
+ATOM    137 1HA  GLY    10       6.646  34.049   4.921  1.00  8.38      new  H
+ATOM    138 2HA  GLY    10       7.235  32.382   4.971  1.00  8.38      new  H
+ATOM    139  N   ASP    11       7.188  32.817   2.380  1.00  9.54      1FKJ 200
+ATOM    140  CA  ASP    11       6.982  32.746   0.959  1.00  9.01      1FKJ 201
+ATOM    141  C   ASP    11       6.609  31.367   0.465  1.00  9.40      1FKJ 202
+ATOM    142  O   ASP    11       6.491  31.204  -0.739  1.00 10.80      1FKJ 203
+ATOM    143  CB  ASP    11       8.232  33.235   0.258  1.00  9.28      1FKJ 204
+ATOM    144  CG  ASP    11       9.474  32.368   0.272  1.00 11.53      1FKJ 205
+ATOM    145  OD1 ASP    11       9.541  31.327   0.900  1.00 10.38      1FKJ 206
+ATOM    146  OD2 ASP    11      10.410  32.749  -0.402  1.00 14.76      1FKJ 207
+ATOM    147  H   ASP    11       8.141  32.816   2.682  1.00  9.54      new  H
+ATOM    148  HA  ASP    11       6.122  33.389   0.722  1.00  9.01      new  H
+ATOM    149 1HB  ASP    11       7.970  33.421  -0.794  1.00  9.28      new  H
+ATOM    150 2HB  ASP    11       8.501  34.206   0.700  1.00  9.28      new  H
+ATOM    151  N   GLY    12       6.541  30.329   1.303  1.00  9.30      1FKJ 208
+ATOM    152  CA  GLY    12       6.172  28.990   0.879  1.00 10.79      1FKJ 209
+ATOM    153  C   GLY    12       7.126  28.287  -0.083  1.00 12.41      1FKJ 210
+ATOM    154  O   GLY    12       6.736  27.287  -0.711  1.00 11.10      1FKJ 211
+ATOM    155  H   GLY    12       6.739  30.401   2.281  1.00  9.30      new  H
+ATOM    156 1HA  GLY    12       6.066  28.363   1.776  1.00 10.79      new  H
+ATOM    157 2HA  GLY    12       5.181  29.041   0.404  1.00 10.79      new  H
+ATOM    158  N   ARG    13       8.370  28.764  -0.274  1.00 12.36      1FKJ 212
+ATOM    159  CA  ARG    13       9.277  28.080  -1.172  1.00 15.06      1FKJ 213
+ATOM    160  C   ARG    13      10.729  28.160  -0.766  1.00 15.02      1FKJ 214
+ATOM    161  O   ARG    13      11.479  27.267  -1.165  1.00 15.76      1FKJ 215
+ATOM    162  CB  ARG    13       9.094  28.625  -2.588  1.00 18.61      1FKJ 216
+ATOM    163  CG  ARG    13       9.620  29.997  -2.768  1.00 23.49      1FKJ 217
+ATOM    164  CD  ARG    13       9.230  30.612  -4.075  1.00 28.80      1FKJ 218
+ATOM    165  NE  ARG    13      10.046  31.809  -4.182  1.00 32.29      1FKJ 219
+ATOM    166  CZ  ARG    13      11.149  31.807  -4.939  1.00 35.22      1FKJ 220
+ATOM    167  NH1 ARG    13      11.473  30.761  -5.731  1.00 36.19      1FKJ 221
+ATOM    168  NH2 ARG    13      11.913  32.899  -4.934  1.00 37.07      1FKJ 222
+ATOM    169  H   ARG    13       8.742  29.582   0.165  1.00 12.36      new  H
+ATOM    170  HA  ARG    13       9.016  27.012  -1.127  1.00 15.06      new  H
+ATOM    171 1HB  ARG    13       9.597  27.952  -3.298  1.00 18.61      new  H
+ATOM    172 2HB  ARG    13       8.023  28.616  -2.840  1.00 18.61      new  H
+ATOM    173 1HG  ARG    13       9.255  30.633  -1.948  1.00 23.49      new  H
+ATOM    174 2HG  ARG    13      10.717  29.974  -2.694  1.00 23.49      new  H
+ATOM    175 1HD  ARG    13       9.420  29.924  -4.912  1.00 28.80      new  H
+ATOM    176 2HD  ARG    13       8.158  30.857  -4.096  1.00 28.80      new  H
+ATOM    177  HE  ARG    13       9.782  32.638  -3.688  1.00 32.29      new  H +
+ATOM    178 1HH1 ARG    13      10.880  29.956  -5.764  1.00 36.19      new  H +
+ATOM    179 2HH1 ARG    13      12.305  30.792  -6.285  1.00 36.19      new  H +
+ATOM    180 1HH2 ARG    13      11.655  33.687  -4.375  1.00 37.07      new  H +
+ATOM    181 2HH2 ARG    13      12.744  32.930  -5.489  1.00 37.07      new  H +
+ATOM    182  N   THR    14      11.202  29.161  -0.009  1.00 11.99      1FKJ 223
+ATOM    183  CA  THR    14      12.603  29.198   0.410  1.00 11.69      1FKJ 224
+ATOM    184  C   THR    14      12.729  28.710   1.871  1.00 12.26      1FKJ 225
+ATOM    185  O   THR    14      12.454  29.459   2.831  1.00 10.32      1FKJ 226
+ATOM    186  CB  THR    14      13.114  30.659   0.258  1.00 13.47      1FKJ 227
+ATOM    187  OG1 THR    14      12.668  31.179  -1.005  1.00 12.69      1FKJ 228
+ATOM    188  CG2 THR    14      14.633  30.716   0.363  1.00 14.08      1FKJ 229
+ATOM    189  H   THR    14      10.650  29.930   0.314  1.00 11.99      new  H
+ATOM    190  HA  THR    14      13.214  28.531  -0.216  1.00 11.69      new  H
+ATOM    191  HB  THR    14      12.705  31.276   1.072  1.00 13.47      new  H
+ATOM    192  HG1 THR    14      11.860  31.750  -0.864  1.00 12.69      new  H
+ATOM    193 1HG2 THR    14      14.970  31.757   0.253  1.00 14.08      new  H
+ATOM    194 2HG2 THR    14      14.948  30.331   1.344  1.00 14.08      new  H
+ATOM    195 3HG2 THR    14      15.079  30.101  -0.432  1.00 14.08      new  H
+ATOM    196  N   PHE    15      13.097  27.439   2.023  1.00  8.89      1FKJ 230
+ATOM    197  CA  PHE    15      13.258  26.800   3.317  1.00 11.10      1FKJ 231
+ATOM    198  C   PHE    15      14.743  26.647   3.606  1.00 13.40      1FKJ 232
+ATOM    199  O   PHE    15      15.504  26.429   2.639  1.00 12.20      1FKJ 233
+ATOM    200  CB  PHE    15      12.597  25.427   3.302  1.00 10.82      1FKJ 234
+ATOM    201  CG  PHE    15      11.089  25.527   3.236  1.00 11.63      1FKJ 235
+ATOM    202  CD1 PHE    15      10.451  25.719   2.020  1.00 11.70      1FKJ 236
+ATOM    203  CD2 PHE    15      10.349  25.448   4.392  1.00 11.03      1FKJ 237
+ATOM    204  CE1 PHE    15       9.075  25.834   1.961  1.00 11.18      1FKJ 238
+ATOM    205  CE2 PHE    15       8.972  25.564   4.324  1.00 10.22      1FKJ 239
+ATOM    206  CZ  PHE    15       8.337  25.756   3.117  1.00 11.52      1FKJ 240
+ATOM    207  H   PHE    15      13.289  26.832   1.252  1.00  8.89      new  H
+ATOM    208  HA  PHE    15      12.785  27.415   4.096  1.00 11.10      new  H
+ATOM    209 1HB  PHE    15      12.964  24.853   2.438  1.00 10.82      new  H
+ATOM    210 2HB  PHE    15      12.888  24.871   4.205  1.00 10.82      new  H
+ATOM    211  HD1 PHE    15      11.044  25.780   1.096  1.00 11.70      new  H
+ATOM    212  HD2 PHE    15      10.847  25.294   5.361  1.00 11.03      new  H
+ATOM    213  HE1 PHE    15       8.574  25.987   0.994  1.00 11.18      new  H
+ATOM    214  HE2 PHE    15       8.376  25.502   5.247  1.00 10.22      new  H
+ATOM    215  HZ  PHE    15       7.241  25.847   3.079  1.00 11.52      new  H
+ATOM    216  N   PRO    16      15.198  26.772   4.881  1.00 13.32      1FKJ 241
+ATOM    217  CA  PRO    16      16.594  26.681   5.319  1.00 14.96      1FKJ 242
+ATOM    218  C   PRO    16      17.245  25.366   4.983  1.00 16.69      1FKJ 243
+ATOM    219  O   PRO    16      16.672  24.302   5.202  1.00 15.99      1FKJ 244
+ATOM    220  CB  PRO    16      16.539  26.907   6.793  1.00 14.13      1FKJ 245
+ATOM    221  CG  PRO    16      15.362  27.821   6.945  1.00 13.18      1FKJ 246
+ATOM    222  CD  PRO    16      14.381  27.124   6.047  1.00 12.91      1FKJ 247
+ATOM    223  HA  PRO    16      17.218  27.421   4.797  1.00 14.96      new  H
+ATOM    224 1HB  PRO    16      16.399  25.966   7.345  1.00 14.13      new  H
+ATOM    225 2HB  PRO    16      17.464  27.367   7.170  1.00 14.13      new  H
+ATOM    226 1HG  PRO    16      15.010  27.885   7.985  1.00 13.18      new  H
+ATOM    227 2HG  PRO    16      15.580  28.848   6.615  1.00 13.18      new  H
+ATOM    228 1HD  PRO    16      13.950  26.233   6.527  1.00 12.91      new  H
+ATOM    229 2HD  PRO    16      13.541  27.780   5.774  1.00 12.91      new  H
+ATOM    230  N   LYS    17      18.441  25.461   4.443  1.00 20.83      1FKJ 248
+ATOM    231  CA  LYS    17      19.228  24.301   4.105  1.00 26.49      1FKJ 249
+ATOM    232  C   LYS    17      20.461  24.365   4.989  1.00 28.18      1FKJ 250
+ATOM    233  O   LYS    17      20.834  25.459   5.432  1.00 28.05      1FKJ 251
+ATOM    234  CB  LYS    17      19.617  24.355   2.616  1.00 28.75      1FKJ 252
+ATOM    235  CG  LYS    17      18.441  24.105   1.683  1.00 32.64      1FKJ 253
+ATOM    236  CD  LYS    17      18.007  22.631   1.799  1.00 36.34      1FKJ 254
+ATOM    237  CE  LYS    17      16.633  22.244   1.216  1.00 38.31      1FKJ 255
+ATOM    238  NZ  LYS    17      15.558  22.414   2.194  1.00 39.19      1FKJ 256
+ATOM    239  H   LYS    17      18.885  26.332   4.231  1.00 20.83      new  H
+ATOM    240  HA  LYS    17      18.676  23.363   4.265  1.00 26.49      new  H
+ATOM    241 1HB  LYS    17      20.052  25.340   2.392  1.00 28.75      new  H
+ATOM    242 2HB  LYS    17      20.399  23.606   2.420  1.00 28.75      new  H
+ATOM    243 1HG  LYS    17      17.603  24.768   1.943  1.00 32.64      new  H
+ATOM    244 2HG  LYS    17      18.724  24.336   0.646  1.00 32.64      new  H
+ATOM    245 1HD  LYS    17      18.771  22.013   1.305  1.00 36.34      new  H
+ATOM    246 2HD  LYS    17      18.012  22.359   2.865  1.00 36.34      new  H
+ATOM    247 1HE  LYS    17      16.424  22.862   0.330  1.00 38.31      new  H
+ATOM    248 2HE  LYS    17      16.660  21.197   0.879  1.00 38.31      new  H
+ATOM    249 1HZ  LYS    17      14.686  22.154   1.780  1.00 39.19      new  H +
+ATOM    250 2HZ  LYS    17      15.735  21.834   2.989  1.00 39.19      new  H +
+ATOM    251 3HZ  LYS    17      15.517  23.371   2.482  1.00 39.19      new  H +
+ATOM    252  N   ARG    18      21.119  23.232   5.275  1.00 30.73      1FKJ 257
+ATOM    253  CA  ARG    18      22.320  23.228   6.114  1.00 32.32      1FKJ 258
+ATOM    254  C   ARG    18      23.403  24.045   5.466  1.00 31.28      1FKJ 259
+ATOM    255  O   ARG    18      23.485  24.084   4.238  1.00 30.09      1FKJ 260
+ATOM    256  CB  ARG    18      22.812  21.807   6.329  1.00 34.68      1FKJ 261
+ATOM    257  CG  ARG    18      21.853  21.230   7.362  1.00 39.30      1FKJ 262
+ATOM    258  CD  ARG    18      21.909  19.731   7.527  1.00 41.73      1FKJ 263
+ATOM    259  NE  ARG    18      23.215  19.321   7.990  1.00 43.83      1FKJ 264
+ATOM    260  CZ  ARG    18      23.375  18.208   8.689  1.00 44.74      1FKJ 265
+ATOM    261  NH1 ARG    18      22.349  17.425   9.028  1.00 44.59      1FKJ 266
+ATOM    262  NH2 ARG    18      24.609  17.897   9.065  1.00 47.05      1FKJ 267
+ATOM    263  H   ARG    18      20.844  22.329   4.944  1.00 30.73      new  H
+ATOM    264  HA  ARG    18      22.066  23.668   7.089  1.00 32.32      new  H
+ATOM    265 1HB  ARG    18      22.790  21.229   5.394  1.00 34.68      new  H
+ATOM    266 2HB  ARG    18      23.850  21.792   6.692  1.00 34.68      new  H
+ATOM    267 1HG  ARG    18      22.064  21.698   8.335  1.00 39.30      new  H
+ATOM    268 2HG  ARG    18      20.827  21.514   7.084  1.00 39.30      new  H
+ATOM    269 1HD  ARG    18      21.140  19.406   8.244  1.00 41.73      new  H
+ATOM    270 2HD  ARG    18      21.683  19.242   6.568  1.00 41.73      new  H
+ATOM    271  HE  ARG    18      24.012  19.888   7.779  1.00 43.83      new  H +
+ATOM    272 1HH1 ARG    18      21.420  17.672   8.753  1.00 44.59      new  H +
+ATOM    273 2HH1 ARG    18      22.509  16.592   9.557  1.00 44.59      new  H +
+ATOM    274 1HH2 ARG    18      25.372  18.494   8.819  1.00 47.05      new  H +
+ATOM    275 2HH2 ARG    18      24.776  17.065   9.595  1.00 47.05      new  H +
+ATOM    276  N   GLY    19      24.159  24.772   6.277  1.00 31.18      1FKJ 268
+ATOM    277  CA  GLY    19      25.224  25.587   5.738  1.00 29.49      1FKJ 269
+ATOM    278  C   GLY    19      24.733  26.942   5.254  1.00 29.32      1FKJ 270
+ATOM    279  O   GLY    19      25.502  27.712   4.672  1.00 30.66      1FKJ 271
+ATOM    280  H   GLY    19      24.056  24.810   7.271  1.00 31.18      new  H
+ATOM    281 1HA  GLY    19      25.995  25.734   6.509  1.00 29.49      new  H
+ATOM    282 2HA  GLY    19      25.702  25.054   4.903  1.00 29.49      new  H
+ATOM    283  N   GLN    20      23.467  27.296   5.410  1.00 27.08      1FKJ 272
+ATOM    284  CA  GLN    20      23.054  28.643   5.070  1.00 25.77      1FKJ 273
+ATOM    285  C   GLN    20      23.039  29.393   6.377  1.00 22.52      1FKJ 274
+ATOM    286  O   GLN    20      22.895  28.759   7.414  1.00 22.42      1FKJ 275
+ATOM    287  CB  GLN    20      21.660  28.685   4.507  1.00 27.10      1FKJ 276
+ATOM    288  CG  GLN    20      21.637  28.236   3.077  1.00 28.94      1FKJ 277
+ATOM    289  CD  GLN    20      20.241  28.397   2.526  1.00 30.54      1FKJ 278
+ATOM    290  OE1 GLN    20      19.341  27.618   2.835  1.00 30.28      1FKJ 279
+ATOM    291  NE2 GLN    20      19.982  29.433   1.739  1.00 32.17      1FKJ 280
+ATOM    292  H   GLN    20      22.742  26.699   5.753  1.00 27.08      new  H
+ATOM    293  HA  GLN    20      23.732  29.063   4.313  1.00 25.77      new  H
+ATOM    294 1HB  GLN    20      21.000  28.041   5.107  1.00 27.10      new  H
+ATOM    295 2HB  GLN    20      21.263  29.708   4.579  1.00 27.10      new  H
+ATOM    296 1HG  GLN    20      22.349  28.828   2.483  1.00 28.94      new  H
+ATOM    297 2HG  GLN    20      21.953  27.185   3.005  1.00 28.94      new  H
+ATOM    298 1HE2 GLN    20      19.054  29.581   1.396  1.00 32.17      new  H
+ATOM    299 2HE2 GLN    20      20.715  30.066   1.488  1.00 32.17      new  H
+ATOM    300  N   THR    21      23.170  30.688   6.442  1.00 19.92      1FKJ 281
+ATOM    301  CA  THR    21      23.022  31.353   7.706  1.00 17.49      1FKJ 282
+ATOM    302  C   THR    21      21.577  31.830   7.825  1.00 15.25      1FKJ 283
+ATOM    303  O   THR    21      21.076  32.541   6.956  1.00 13.11      1FKJ 284
+ATOM    304  CB  THR    21      24.054  32.495   7.747  1.00 18.07      1FKJ 285
+ATOM    305  OG1 THR    21      25.330  31.844   7.842  1.00 19.50      1FKJ 286
+ATOM    306  CG2 THR    21      23.832  33.481   8.893  1.00 17.21      1FKJ 287
+ATOM    307  H   THR    21      23.371  31.284   5.665  1.00 19.92      new  H
+ATOM    308  HA  THR    21      23.215  30.697   8.567  1.00 17.49      new  H
+ATOM    309  HB  THR    21      23.970  33.122   6.847  1.00 18.07      new  H
+ATOM    310  HG1 THR    21      25.640  31.582   6.928  1.00 19.50      new  H
+ATOM    311 1HG2 THR    21      24.603  34.264   8.858  1.00 17.21      new  H
+ATOM    312 2HG2 THR    21      22.838  33.941   8.794  1.00 17.21      new  H
+ATOM    313 3HG2 THR    21      23.895  32.948   9.853  1.00 17.21      new  H
+ATOM    314  N   CYS    22      20.865  31.425   8.872  1.00 11.57      1FKJ 288
+ATOM    315  CA  CYS    22      19.524  31.943   9.114  1.00 10.59      1FKJ 289
+ATOM    316  C   CYS    22      19.614  33.227   9.928  1.00  9.49      1FKJ 290
+ATOM    317  O   CYS    22      20.308  33.260  10.945  1.00  9.38      1FKJ 291
+ATOM    318  CB  CYS    22      18.678  30.950   9.896  1.00 11.15      1FKJ 292
+ATOM    319  SG  CYS    22      18.559  29.311   9.138  1.00 14.18      1FKJ 293
+ATOM    320  H   CYS    22      21.184  30.760   9.547  1.00 11.57      new  H
+ATOM    321  HA  CYS    22      19.055  32.126   8.136  1.00 10.59      new  H
+ATOM    322 1HB  CYS    22      19.099  30.844  10.906  1.00 11.15      new  H
+ATOM    323 2HB  CYS    22      17.664  31.362  10.012  1.00 11.15      new  H
+ATOM    324  HG  CYS    22      17.821  28.542   9.882  1.00 14.18      new  H
+ATOM    325  N   VAL    23      18.952  34.299   9.493  1.00  8.48      1FKJ 294
+ATOM    326  CA  VAL    23      18.897  35.559  10.224  1.00  8.96      1FKJ 295
+ATOM    327  C   VAL    23      17.481  35.661  10.801  1.00  8.77      1FKJ 296
+ATOM    328  O   VAL    23      16.479  35.657  10.059  1.00  7.90      1FKJ 297
+ATOM    329  CB  VAL    23      19.182  36.740   9.266  1.00 10.35      1FKJ 298
+ATOM    330  CG1 VAL    23      19.214  38.039  10.070  1.00  9.30      1FKJ 299
+ATOM    331  CG2 VAL    23      20.506  36.548   8.562  1.00  8.03      1FKJ 300
+ATOM    332  H   VAL    23      18.445  34.314   8.631  1.00  8.48      new  H
+ATOM    333  HA  VAL    23      19.651  35.596  11.024  1.00  8.96      new  H
+ATOM    334  HB  VAL    23      18.387  36.785   8.507  1.00 10.35      new  H
+ATOM    335 1HG1 VAL    23      19.416  38.884   9.395  1.00  9.30      new  H
+ATOM    336 2HG1 VAL    23      18.243  38.189  10.564  1.00  9.30      new  H
+ATOM    337 3HG1 VAL    23      20.006  37.980  10.831  1.00  9.30      new  H
+ATOM    338 1HG2 VAL    23      20.689  37.397   7.887  1.00  8.03      new  H
+ATOM    339 2HG2 VAL    23      21.313  36.492   9.307  1.00  8.03      new  H
+ATOM    340 3HG2 VAL    23      20.480  35.616   7.979  1.00  8.03      new  H
+ATOM    341  N   VAL    24      17.345  35.756  12.116  1.00  7.02      1FKJ 301
+ATOM    342  CA  VAL    24      16.032  35.774  12.758  1.00  7.76      1FKJ 302
+ATOM    343  C   VAL    24      15.875  36.846  13.839  1.00  8.83      1FKJ 303
+ATOM    344  O   VAL    24      16.845  37.426  14.367  1.00 10.07      1FKJ 304
+ATOM    345  CB  VAL    24      15.674  34.388  13.451  1.00  7.65      1FKJ 305
+ATOM    346  CG1 VAL    24      15.794  33.225  12.471  1.00  5.90      1FKJ 306
+ATOM    347  CG2 VAL    24      16.594  34.147  14.642  1.00  7.75      1FKJ 307
+ATOM    348  H   VAL    24      18.114  35.821  12.752  1.00  7.02      new  H
+ATOM    349  HA  VAL    24      15.352  35.992  11.921  1.00  7.76      new  H
+ATOM    350  HB  VAL    24      14.630  34.444  13.792  1.00  7.65      new  H
+ATOM    351 1HG1 VAL    24      15.540  32.285  12.983  1.00  5.90      new  H
+ATOM    352 2HG1 VAL    24      15.103  33.381  11.629  1.00  5.90      new  H
+ATOM    353 3HG1 VAL    24      16.825  33.168  12.093  1.00  5.90      new  H
+ATOM    354 1HG2 VAL    24      16.339  33.187  15.115  1.00  7.75      new  H
+ATOM    355 2HG2 VAL    24      17.639  34.120  14.299  1.00  7.75      new  H
+ATOM    356 3HG2 VAL    24      16.469  34.959  15.373  1.00  7.75      new  H
+ATOM    357  N   HIS    25      14.627  37.170  14.174  1.00  8.93      1FKJ 308
+ATOM    358  CA  HIS    25      14.348  37.924  15.389  1.00  7.74      1FKJ 309
+ATOM    359  C   HIS    25      13.571  36.951  16.253  1.00  7.07      1FKJ 310
+ATOM    360  O   HIS    25      12.815  36.145  15.706  1.00  6.21      1FKJ 311
+ATOM    361  CB  HIS    25      13.508  39.158  15.119  1.00  7.04      1FKJ 312
+ATOM    362  CG  HIS    25      14.358  40.410  15.179  1.00  9.57      1FKJ 313
+ATOM    363  ND1 HIS    25      15.253  40.772  16.105  1.00  8.85      1FKJ 314
+ATOM    364  CD2 HIS    25      14.285  41.423  14.246  1.00 11.57      1FKJ 315
+ATOM    365  CE1 HIS    25      15.709  41.959  15.760  1.00 11.89      1FKJ 316
+ATOM    366  NE2 HIS    25      15.126  42.337  14.651  1.00 12.11      1FKJ 317
+ATOM    367  H   HIS    25      13.819  36.929  13.637  1.00  8.93      new  H
+ATOM    368  HA  HIS    25      15.274  38.290  15.857  1.00  7.74      new  H
+ATOM    369 1HB  HIS    25      13.036  39.077  14.129  1.00  7.04      new  H
+ATOM    370 2HB  HIS    25      12.696  39.224  15.858  1.00  7.04      new  H
+ATOM    372  HD2 HIS    25      13.651  41.455  13.348  1.00 11.57      new  H
+ATOM    373  HE1 HIS    25      16.460  42.540  16.316  1.00 11.89      new  H
+ATOM    374  HE2 HIS    25      15.300  43.202  14.181  1.00 12.11      new  H
+ATOM    375  N   TYR    26      13.758  36.953  17.574  1.00  6.57      1FKJ 318
+ATOM    376  CA  TYR    26      13.078  36.005  18.460  1.00  4.89      1FKJ 319
+ATOM    377  C   TYR    26      12.798  36.681  19.784  1.00  5.78      1FKJ 320
+ATOM    378  O   TYR    26      13.519  37.641  20.137  1.00  6.15      1FKJ 321
+ATOM    379  CB  TYR    26      13.931  34.730  18.754  1.00  5.38      1FKJ 322
+ATOM    380  CG  TYR    26      15.140  34.900  19.666  1.00  4.90      1FKJ 323
+ATOM    381  CD1 TYR    26      16.349  35.257  19.113  1.00  6.11      1FKJ 324
+ATOM    382  CD2 TYR    26      15.019  34.745  21.040  1.00  7.05      1FKJ 325
+ATOM    383  CE1 TYR    26      17.446  35.470  19.925  1.00  7.21      1FKJ 326
+ATOM    384  CE2 TYR    26      16.114  34.963  21.857  1.00  6.75      1FKJ 327
+ATOM    385  CZ  TYR    26      17.322  35.323  21.294  1.00  8.01      1FKJ 328
+ATOM    386  OH  TYR    26      18.438  35.561  22.105  1.00  9.17      1FKJ 329
+ATOM    387  H   TYR    26      14.366  37.591  18.047  1.00  6.57      new  H
+ATOM    388  HA  TYR    26      12.156  35.695  17.947  1.00  4.89      new  H
+ATOM    389 1HB  TYR    26      13.270  33.972  19.200  1.00  5.38      new  H
+ATOM    390 2HB  TYR    26      14.282  34.325  17.793  1.00  5.38      new  H
+ATOM    391  HD1 TYR    26      16.442  35.373  18.023  1.00  6.11      new  H
+ATOM    392  HD2 TYR    26      14.054  34.449  21.478  1.00  7.05      new  H
+ATOM    393  HE1 TYR    26      18.413  35.755  19.485  1.00  7.21      new  H
+ATOM    394  HE2 TYR    26      16.023  34.850  22.947  1.00  6.75      new  H
+ATOM    395  HH  TYR    26      18.217  35.332  23.053  1.00  9.17      new  H
+ATOM    396  N   THR    27      11.752  36.176  20.451  1.00  6.59      1FKJ 330
+ATOM    397  CA  THR    27      11.433  36.461  21.846  1.00  4.92      1FKJ 331
+ATOM    398  C   THR    27      11.189  35.083  22.476  1.00  6.94      1FKJ 332
+ATOM    399  O   THR    27      10.426  34.249  21.940  1.00  6.91      1FKJ 333
+ATOM    400  CB  THR    27      10.186  37.282  21.945  1.00  4.16      1FKJ 334
+ATOM    401  OG1 THR    27      10.463  38.533  21.329  1.00  7.56      1FKJ 335
+ATOM    402  CG2 THR    27       9.765  37.508  23.362  1.00  4.00      1FKJ 336
+ATOM    403  H   THR    27      11.099  35.550  20.024  1.00  6.59      new  H
+ATOM    404  HA  THR    27      12.235  37.026  22.343  1.00  4.92      new  H
+ATOM    405  HB  THR    27       9.361  36.749  21.450  1.00  4.16      new  H
+ATOM    406  HG1 THR    27       9.650  39.114  21.373  1.00  7.56      new  H
+ATOM    407 1HG2 THR    27       8.847  38.114  23.380  1.00  4.00      new  H
+ATOM    408 2HG2 THR    27       9.574  36.539  23.847  1.00  4.00      new  H
+ATOM    409 3HG2 THR    27      10.564  38.037  23.903  1.00  4.00      new  H
+ATOM    410  N   GLY    28      11.893  34.782  23.570  1.00  5.48      1FKJ 337
+ATOM    411  CA  GLY    28      11.767  33.517  24.250  1.00  5.45      1FKJ 338
+ATOM    412  C   GLY    28      10.933  33.727  25.492  1.00  7.29      1FKJ 339
+ATOM    413  O   GLY    28      11.142  34.679  26.272  1.00  7.18      1FKJ 340
+ATOM    414  H   GLY    28      12.551  35.406  23.991  1.00  5.48      new  H
+ATOM    415 1HA  GLY    28      11.294  32.774  23.592  1.00  5.45      new  H
+ATOM    416 2HA  GLY    28      12.759  33.125  24.517  1.00  5.45      new  H
+ATOM    417  N   MET    29      10.016  32.800  25.746  1.00  7.54      1FKJ 341
+ATOM    418  CA  MET    29       9.066  32.933  26.846  1.00  9.57      1FKJ 342
+ATOM    419  C   MET    29       8.838  31.583  27.470  1.00  9.47      1FKJ 343
+ATOM    420  O   MET    29       9.050  30.568  26.800  1.00  7.50      1FKJ 344
+ATOM    421  CB  MET    29       7.700  33.391  26.372  1.00 11.26      1FKJ 345
+ATOM    422  CG  MET    29       7.678  34.740  25.671  1.00 15.86      1FKJ 346
+ATOM    423  SD  MET    29       6.176  34.877  24.680  1.00 18.40      1FKJ 347
+ATOM    424  CE  MET    29       6.750  34.092  23.205  1.00 14.27      1FKJ 348
+ATOM    425  H   MET    29       9.912  31.960  25.213  1.00  7.54      new  H
+ATOM    426  HA  MET    29       9.495  33.668  27.543  1.00  9.57      new  H
+ATOM    427 1HB  MET    29       7.294  32.633  25.686  1.00 11.26      new  H
+ATOM    428 2HB  MET    29       7.024  33.435  27.239  1.00 11.26      new  H
+ATOM    429 1HG  MET    29       7.717  35.552  26.412  1.00 15.86      new  H
+ATOM    430 2HG  MET    29       8.565  34.847  25.030  1.00 15.86      new  H
+ATOM    431 1HE  MET    29       5.903  33.617  22.688  1.00 14.27      new  H
+ATOM    432 2HE  MET    29       7.208  34.843  22.544  1.00 14.27      new  H
+ATOM    433 3HE  MET    29       7.497  33.327  23.463  1.00 14.27      new  H
+ATOM    434  N   LEU    30       8.446  31.568  28.751  1.00  9.95      1FKJ 349
+ATOM    435  CA  LEU    30       7.976  30.358  29.401  1.00 10.62      1FKJ 350
+ATOM    436  C   LEU    30       6.556  30.102  28.927  1.00 10.86      1FKJ 351
+ATOM    437  O   LEU    30       5.948  30.955  28.256  1.00 10.06      1FKJ 352
+ATOM    438  CB  LEU    30       8.006  30.564  30.891  1.00 13.98      1FKJ 353
+ATOM    439  CG  LEU    30       9.170  29.916  31.618  1.00 17.69      1FKJ 354
+ATOM    440  CD1 LEU    30      10.490  30.202  30.974  1.00 18.40      1FKJ 355
+ATOM    441  CD2 LEU    30       9.162  30.459  33.038  1.00 19.85      1FKJ 356
+ATOM    442  H   LEU    30       8.449  32.375  29.341  1.00  9.95      new  H
+ATOM    443  HA  LEU    30       8.612  29.495  29.153  1.00 10.62      new  H
+ATOM    444 1HB  LEU    30       8.026  31.645  31.093  1.00 13.98      new  H
+ATOM    445 2HB  LEU    30       7.069  30.175  31.316  1.00 13.98      new  H
+ATOM    446  HG  LEU    30       9.047  28.823  31.590  1.00 17.69      new  H
+ATOM    447 1HD1 LEU    30      11.291  29.708  31.543  1.00 18.40      new  H
+ATOM    448 2HD1 LEU    30      10.485  29.821  29.942  1.00 18.40      new  H
+ATOM    449 3HD1 LEU    30      10.665  31.288  30.962  1.00 18.40      new  H
+ATOM    450 1HD2 LEU    30       9.993  30.015  33.606  1.00 19.85      new  H
+ATOM    451 2HD2 LEU    30       9.278  31.553  33.014  1.00 19.85      new  H
+ATOM    452 3HD2 LEU    30       8.209  30.203  33.524  1.00 19.85      new  H
+ATOM    453  N   GLU    31       5.934  28.993  29.306  1.00 11.84      1FKJ 357
+ATOM    454  CA  GLU    31       4.602  28.658  28.823  1.00 14.88      1FKJ 358
+ATOM    455  C   GLU    31       3.512  29.593  29.266  1.00 13.70      1FKJ 359
+ATOM    456  O   GLU    31       2.420  29.621  28.697  1.00 15.03      1FKJ 360
+ATOM    457  CB  GLU    31       4.209  27.265  29.261  1.00 17.60      1FKJ 361
+ATOM    458  CG  GLU    31       4.362  26.276  28.154  1.00 20.73      1FKJ 362
+ATOM    459  CD  GLU    31       3.332  26.381  27.042  1.00 24.88      1FKJ 363
+ATOM    460  OE1 GLU    31       2.160  26.696  27.296  1.00 27.63      1FKJ 364
+ATOM    461  OE2 GLU    31       3.716  26.110  25.903  1.00 26.85      1FKJ 365
+ATOM    462  H   GLU    31       6.325  28.322  29.936  1.00 11.84      new  H
+ATOM    463  HA  GLU    31       4.686  28.740  27.729  1.00 14.88      new  H
+ATOM    464 1HB  GLU    31       4.831  26.959  30.115  1.00 17.60      new  H
+ATOM    465 2HB  GLU    31       3.165  27.270  29.608  1.00 17.60      new  H
+ATOM    466 1HG  GLU    31       5.364  26.394  27.715  1.00 20.73      new  H
+ATOM    467 2HG  GLU    31       4.315  25.263  28.580  1.00 20.73      new  H
+ATOM    468  N   ASP    32       3.791  30.338  30.333  1.00 10.98      1FKJ 366
+ATOM    469  CA  ASP    32       2.815  31.332  30.779  1.00 11.97      1FKJ 367
+ATOM    470  C   ASP    32       3.033  32.719  30.163  1.00 11.76      1FKJ 368
+ATOM    471  O   ASP    32       2.448  33.713  30.602  1.00 12.29      1FKJ 369
+ATOM    472  CB  ASP    32       2.860  31.432  32.299  1.00 12.20      1FKJ 370
+ATOM    473  CG  ASP    32       4.178  31.891  32.917  1.00 16.22      1FKJ 371
+ATOM    474  OD1 ASP    32       5.220  31.886  32.258  1.00 16.13      1FKJ 372
+ATOM    475  OD2 ASP    32       4.145  32.265  34.088  1.00 19.44      1FKJ 373
+ATOM    476  H   ASP    32       4.630  30.281  30.875  1.00 10.98      new  H
+ATOM    477  HA  ASP    32       1.827  30.990  30.437  1.00 11.97      new  H
+ATOM    478 1HB  ASP    32       2.070  32.126  32.621  1.00 12.20      new  H
+ATOM    479 2HB  ASP    32       2.611  30.445  32.716  1.00 12.20      new  H
+ATOM    480  N   GLY    33       3.950  32.829  29.206  1.00  9.79      1FKJ 374
+ATOM    481  CA  GLY    33       4.160  34.065  28.505  1.00  8.94      1FKJ 375
+ATOM    482  C   GLY    33       5.239  34.894  29.136  1.00 10.09      1FKJ 376
+ATOM    483  O   GLY    33       5.544  35.951  28.594  1.00 11.18      1FKJ 377
+ATOM    484  H   GLY    33       4.544  32.080  28.912  1.00  9.79      new  H
+ATOM    485 1HA  GLY    33       4.427  33.852  27.460  1.00  8.94      new  H
+ATOM    486 2HA  GLY    33       3.222  34.639  28.486  1.00  8.94      new  H
+ATOM    487  N   LYS    34       5.855  34.509  30.242  1.00 10.25      1FKJ 378
+ATOM    488  CA  LYS    34       6.892  35.377  30.788  1.00 11.70      1FKJ 379
+ATOM    489  C   LYS    34       8.168  35.380  29.964  1.00 10.54      1FKJ 380
+ATOM    490  O   LYS    34       8.827  34.345  29.760  1.00  8.35      1FKJ 381
+ATOM    491  CB  LYS    34       7.230  34.967  32.199  1.00 15.38      1FKJ 382
+ATOM    492  CG  LYS    34       6.332  35.660  33.202  1.00 20.53      1FKJ 383
+ATOM    493  CD  LYS    34       7.022  35.818  34.555  1.00 24.19      1FKJ 384
+ATOM    494  CE  LYS    34       7.219  34.540  35.393  1.00 27.76      1FKJ 385
+ATOM    495  NZ  LYS    34       8.238  33.619  34.904  1.00 30.29      1FKJ 386
+ATOM    496  H   LYS    34       5.675  33.666  30.748  1.00 10.25      new  H
+ATOM    497  HA  LYS    34       6.476  36.395  30.766  1.00 11.70      new  H
+ATOM    498 1HB  LYS    34       7.126  33.877  32.302  1.00 15.38      new  H
+ATOM    499 2HB  LYS    34       8.281  35.212  32.413  1.00 15.38      new  H
+ATOM    500 1HG  LYS    34       6.045  36.650  32.817  1.00 20.53      new  H
+ATOM    501 2HG  LYS    34       5.404  35.082  33.327  1.00 20.53      new  H
+ATOM    502 1HD  LYS    34       8.010  36.271  34.384  1.00 24.19      new  H
+ATOM    503 2HD  LYS    34       6.440  36.533  35.154  1.00 24.19      new  H
+ATOM    504 1HE  LYS    34       7.478  34.833  36.421  1.00 27.76      new  H
+ATOM    505 2HE  LYS    34       6.260  34.004  35.443  1.00 27.76      new  H
+ATOM    506 1HZ  LYS    34       8.535  33.023  35.650  1.00 30.29      new  H +
+ATOM    507 2HZ  LYS    34       7.858  33.063  34.165  1.00 30.29      new  H +
+ATOM    508 3HZ  LYS    34       9.021  34.139  34.561  1.00 30.29      new  H +
+ATOM    509  N   LYS    35       8.514  36.577  29.518  1.00  9.84      1FKJ 387
+ATOM    510  CA  LYS    35       9.646  36.748  28.633  1.00 10.32      1FKJ 388
+ATOM    511  C   LYS    35      10.978  36.591  29.366  1.00  9.79      1FKJ 389
+ATOM    512  O   LYS    35      11.168  37.132  30.457  1.00 11.27      1FKJ 390
+ATOM    513  CB  LYS    35       9.506  38.130  27.982  1.00 11.36      1FKJ 391
+ATOM    514  CG  LYS    35      10.626  38.478  27.015  1.00 14.45      1FKJ 392
+ATOM    515  CD  LYS    35      10.345  39.754  26.250  1.00 16.47      1FKJ 393
+ATOM    516  CE  LYS    35      10.528  41.005  27.105  1.00 19.21      1FKJ 394
+ATOM    517  NZ  LYS    35      10.333  42.188  26.295  1.00 18.96      1FKJ 395
+ATOM    518  H   LYS    35       8.036  37.424  29.751  1.00  9.84      new  H
+ATOM    519  HA  LYS    35       9.648  35.963  27.863  1.00 10.32      new  H
+ATOM    520 1HB  LYS    35       8.546  38.175  27.446  1.00 11.36      new  H
+ATOM    521 2HB  LYS    35       9.469  38.894  28.773  1.00 11.36      new  H
+ATOM    522 1HG  LYS    35      11.568  38.586  27.572  1.00 14.45      new  H
+ATOM    523 2HG  LYS    35      10.765  37.650  26.305  1.00 14.45      new  H
+ATOM    524 1HD  LYS    35      11.014  39.809  25.379  1.00 16.47      new  H
+ATOM    525 2HD  LYS    35       9.315  39.726  25.864  1.00 16.47      new  H
+ATOM    526 1HE  LYS    35       9.811  40.998  27.939  1.00 19.21      new  H
+ATOM    527 2HE  LYS    35      11.535  41.014  27.547  1.00 19.21      new  H
+ATOM    528 1HZ  LYS    35      10.019  42.941  26.874  1.00 18.96      new  H +
+ATOM    529 2HZ  LYS    35      11.197  42.441  25.860  1.00 18.96      new  H +
+ATOM    530 3HZ  LYS    35       9.648  42.001  25.591  1.00 18.96      new  H +
+ATOM    531  N   PHE    36      11.919  35.809  28.877  1.00  7.08      1FKJ 396
+ATOM    532  CA  PHE    36      13.224  35.797  29.510  1.00  7.50      1FKJ 397
+ATOM    533  C   PHE    36      14.313  36.377  28.622  1.00  8.31      1FKJ 398
+ATOM    534  O   PHE    36      15.399  36.678  29.133  1.00  7.68      1FKJ 399
+ATOM    535  CB  PHE    36      13.590  34.383  29.921  1.00  6.87      1FKJ 400
+ATOM    536  CG  PHE    36      13.571  33.337  28.827  1.00  7.16      1FKJ 401
+ATOM    537  CD1 PHE    36      14.636  33.217  27.938  1.00  7.26      1FKJ 402
+ATOM    538  CD2 PHE    36      12.474  32.505  28.730  1.00  7.48      1FKJ 403
+ATOM    539  CE1 PHE    36      14.588  32.263  26.955  1.00  5.54      1FKJ 404
+ATOM    540  CE2 PHE    36      12.446  31.555  27.741  1.00  8.19      1FKJ 405
+ATOM    541  CZ  PHE    36      13.493  31.440  26.863  1.00  7.94      1FKJ 406
+ATOM    542  H   PHE    36      11.815  35.205  28.087  1.00  7.08      new  H
+ATOM    543  HA  PHE    36      13.155  36.440  30.400  1.00  7.50      new  H
+ATOM    544 1HB  PHE    36      14.598  34.402  30.362  1.00  6.87      new  H
+ATOM    545 2HB  PHE    36      12.898  34.065  30.714  1.00  6.87      new  H
+ATOM    546  HD1 PHE    36      15.508  33.882  28.024  1.00  7.26      new  H
+ATOM    547  HD2 PHE    36      11.635  32.602  29.435  1.00  7.48      new  H
+ATOM    548  HE1 PHE    36      15.421  32.158  26.245  1.00  5.54      new  H
+ATOM    549  HE2 PHE    36      11.580  30.883  27.652  1.00  8.19      new  H
+ATOM    550  HZ  PHE    36      13.455  30.676  26.072  1.00  7.94      new  H
+ATOM    551  N   ASP    37      14.065  36.533  27.292  1.00  8.26      1FKJ 407
+ATOM    552  CA  ASP    37      15.043  37.099  26.353  1.00  8.91      1FKJ 408
+ATOM    553  C   ASP    37      14.410  37.529  25.037  1.00  9.25      1FKJ 409
+ATOM    554  O   ASP    37      13.345  37.009  24.687  1.00  9.29      1FKJ 410
+ATOM    555  CB  ASP    37      16.137  36.071  26.049  1.00  8.72      1FKJ 411
+ATOM    556  CG  ASP    37      17.345  36.534  25.256  1.00  9.49      1FKJ 412
+ATOM    557  OD1 ASP    37      17.591  37.747  25.140  1.00 10.55      1FKJ 413
+ATOM    558  OD2 ASP    37      18.036  35.649  24.756  1.00  8.24      1FKJ 414
+ATOM    559  H   ASP    37      13.200  36.273  26.863  1.00  8.26      new  H
+ATOM    560  HA  ASP    37      15.466  37.990  26.841  1.00  8.91      new  H
+ATOM    561 1HB  ASP    37      16.497  35.667  27.007  1.00  8.72      new  H
+ATOM    562 2HB  ASP    37      15.674  35.237  25.502  1.00  8.72      new  H
+ATOM    563  N   SER    38      15.001  38.502  24.335  1.00  8.43      1FKJ 415
+ATOM    564  CA  SER    38      14.492  38.911  23.044  1.00  8.66      1FKJ 416
+ATOM    565  C   SER    38      15.577  39.628  22.249  1.00  9.96      1FKJ 417
+ATOM    566  O   SER    38      16.219  40.557  22.754  1.00  9.26      1FKJ 418
+ATOM    567  CB  SER    38      13.284  39.849  23.241  1.00  9.44      1FKJ 419
+ATOM    568  OG  SER    38      12.847  40.365  21.986  1.00 10.66      1FKJ 420
+ATOM    569  H   SER    38      15.811  39.002  24.640  1.00  8.43      new  H
+ATOM    570  HA  SER    38      14.177  38.018  22.484  1.00  8.66      new  H
+ATOM    571 1HB  SER    38      13.559  40.677  23.910  1.00  9.44      new  H
+ATOM    572 2HB  SER    38      12.462  39.303  23.727  1.00  9.44      new  H
+ATOM    573  HG  SER    38      12.071  39.827  21.656  1.00 10.66      new  H
+ATOM    574  N   SER    39      15.788  39.238  20.993  1.00  8.05      1FKJ 421
+ATOM    575  CA  SER    39      16.713  39.942  20.136  1.00  8.83      1FKJ 422
+ATOM    576  C   SER    39      16.064  41.257  19.704  1.00 10.11      1FKJ 423
+ATOM    577  O   SER    39      16.754  42.211  19.330  1.00 12.61      1FKJ 424
+ATOM    578  CB  SER    39      17.035  39.129  18.880  1.00  9.15      1FKJ 425
+ATOM    579  OG  SER    39      15.907  38.876  18.011  1.00  6.54      1FKJ 426
+ATOM    580  H   SER    39      15.337  38.455  20.565  1.00  8.05      new  H
+ATOM    581  HA  SER    39      17.646  40.115  20.693  1.00  8.83      new  H
+ATOM    582 1HB  SER    39      17.466  38.165  19.186  1.00  9.15      new  H
+ATOM    583 2HB  SER    39      17.809  39.660  18.306  1.00  9.15      new  H
+ATOM    584  HG  SER    39      15.681  39.709  17.507  1.00  6.54      new  H
+ATOM    585  N   ARG    40      14.732  41.350  19.683  1.00 11.19      1FKJ 427
+ATOM    586  CA  ARG    40      14.060  42.550  19.211  1.00 14.28      1FKJ 428
+ATOM    587  C   ARG    40      14.371  43.673  20.179  1.00 15.78      1FKJ 429
+ATOM    588  O   ARG    40      14.633  44.799  19.755  1.00 17.70      1FKJ 430
+ATOM    589  CB  ARG    40      12.548  42.315  19.131  1.00 14.98      1FKJ 431
+ATOM    590  CG  ARG    40      12.142  41.190  18.166  1.00 16.96      1FKJ 432
+ATOM    591  CD  ARG    40      10.612  40.911  18.069  1.00 19.69      1FKJ 433
+ATOM    592  NE  ARG    40      10.289  39.900  17.053  1.00 20.03      1FKJ 434
+ATOM    593  CZ  ARG    40       9.900  38.633  17.340  1.00 21.74      1FKJ 435
+ATOM    594  NH1 ARG    40       9.728  38.221  18.605  1.00 19.95      1FKJ 436
+ATOM    595  NH2 ARG    40       9.661  37.751  16.347  1.00 18.60      1FKJ 437
+ATOM    596  H   ARG    40      14.116  40.621  19.982  1.00 11.19      new  H
+ATOM    597  HA  ARG    40      14.413  42.813  18.203  1.00 14.28      new  H
+ATOM    598 1HB  ARG    40      12.171  42.076  20.136  1.00 14.98      new  H
+ATOM    599 2HB  ARG    40      12.058  43.248  18.817  1.00 14.98      new  H
+ATOM    600 1HG  ARG    40      12.516  41.439  17.162  1.00 16.96      new  H
+ATOM    601 2HG  ARG    40      12.647  40.264  18.477  1.00 16.96      new  H
+ATOM    602 1HD  ARG    40      10.241  40.574  19.048  1.00 19.69      new  H
+ATOM    603 2HD  ARG    40      10.086  41.847  17.831  1.00 19.69      new  H
+ATOM    604  HE  ARG    40      10.360  40.162  16.091  1.00 20.03      new  H +
+ATOM    605 1HH1 ARG    40       9.887  38.854  19.363  1.00 19.95      new  H +
+ATOM    606 2HH1 ARG    40       9.441  37.281  18.790  1.00 19.95      new  H +
+ATOM    607 1HH2 ARG    40       9.771  38.030  15.393  1.00 18.60      new  H +
+ATOM    608 2HH2 ARG    40       9.374  36.818  16.565  1.00 18.60      new  H +
+ATOM    609  N   ASP    41      14.459  43.371  21.475  1.00 17.00      1FKJ 438
+ATOM    610  CA  ASP    41      14.815  44.377  22.464  1.00 17.85      1FKJ 439
+ATOM    611  C   ASP    41      16.208  44.931  22.321  1.00 17.62      1FKJ 440
+ATOM    612  O   ASP    41      16.479  46.024  22.798  1.00 19.64      1FKJ 441
+ATOM    613  CB  ASP    41      14.676  43.801  23.842  1.00 20.09      1FKJ 442
+ATOM    614  CG  ASP    41      13.232  43.516  24.220  1.00 23.01      1FKJ 443
+ATOM    615  OD1 ASP    41      12.308  44.107  23.646  1.00 24.65      1FKJ 444
+ATOM    616  OD2 ASP    41      13.043  42.694  25.117  1.00 25.98      1FKJ 445
+ATOM    617  H   ASP    41      14.292  42.460  21.851  1.00 17.00      new  H
+ATOM    618  HA  ASP    41      14.121  45.213  22.294  1.00 17.85      new  H
+ATOM    619 1HB  ASP    41      15.257  42.869  23.905  1.00 20.09      new  H
+ATOM    620 2HB  ASP    41      15.110  44.500  24.572  1.00 20.09      new  H
+ATOM    621  N   ARG    42      17.121  44.197  21.687  1.00 16.35      1FKJ 446
+ATOM    622  CA  ARG    42      18.481  44.645  21.431  1.00 16.48      1FKJ 447
+ATOM    623  C   ARG    42      18.579  45.277  20.044  1.00 16.58      1FKJ 448
+ATOM    624  O   ARG    42      19.658  45.727  19.660  1.00 19.64      1FKJ 449
+ATOM    625  CB  ARG    42      19.469  43.475  21.464  1.00 15.31      1FKJ 450
+ATOM    626  CG  ARG    42      19.526  42.759  22.780  1.00 13.98      1FKJ 451
+ATOM    627  CD  ARG    42      20.642  41.739  22.787  1.00 13.02      1FKJ 452
+ATOM    628  NE  ARG    42      20.350  40.573  21.967  1.00 14.10      1FKJ 453
+ATOM    629  CZ  ARG    42      19.756  39.481  22.467  1.00 12.83      1FKJ 454
+ATOM    630  NH1 ARG    42      19.281  39.428  23.705  1.00 13.25      1FKJ 455
+ATOM    631  NH2 ARG    42      19.587  38.425  21.686  1.00 12.31      1FKJ 456
+ATOM    632  H   ARG    42      16.933  43.278  21.340  1.00 16.35      new  H
+ATOM    633  HA  ARG    42      18.731  45.373  22.217  1.00 16.48      new  H
+ATOM    634 1HB  ARG    42      19.195  42.755  20.679  1.00 15.31      new  H
+ATOM    635 2HB  ARG    42      20.474  43.850  21.219  1.00 15.31      new  H
+ATOM    636 1HG  ARG    42      19.681  43.485  23.592  1.00 13.98      new  H
+ATOM    637 2HG  ARG    42      18.565  42.260  22.974  1.00 13.98      new  H
+ATOM    638 1HD  ARG    42      21.567  42.213  22.426  1.00 13.02      new  H
+ATOM    639 2HD  ARG    42      20.829  41.416  23.822  1.00 13.02      new  H
+ATOM    640  HE  ARG    42      20.601  40.587  20.999  1.00 14.10      new  H +
+ATOM    641 1HH1 ARG    42      19.359  40.224  24.305  1.00 13.25      new  H +
+ATOM    642 2HH1 ARG    42      18.845  38.592  24.038  1.00 13.25      new  H +
+ATOM    643 1HH2 ARG    42      19.901  38.450  20.737  1.00 12.31      new  H +
+ATOM    644 2HH2 ARG    42      19.145  37.603  22.045  1.00 12.31      new  H +
+ATOM    645  N   ASN    43      17.507  45.312  19.251  1.00 15.98      1FKJ 457
+ATOM    646  CA  ASN    43      17.496  45.775  17.862  1.00 19.02      1FKJ 458
+ATOM    647  C   ASN    43      18.592  45.157  16.994  1.00 17.95      1FKJ 459
+ATOM    648  O   ASN    43      19.181  45.795  16.127  1.00 18.65      1FKJ 460
+ATOM    649  CB  ASN    43      17.602  47.316  17.836  1.00 19.47      1FKJ 461
+ATOM    650  CG  ASN    43      16.396  47.944  18.510  1.00 21.19      1FKJ 462
+ATOM    651  OD1 ASN    43      15.297  48.026  17.962  1.00 24.37      1FKJ 463
+ATOM    652  ND2 ASN    43      16.543  48.388  19.736  1.00 20.13      1FKJ 464
+ATOM    653  H   ASN    43      16.606  45.013  19.564  1.00 15.98      new  H
+ATOM    654  HA  ASN    43      16.543  45.442  17.425  1.00 19.02      new  H
+ATOM    655 1HB  ASN    43      18.523  47.635  18.347  1.00 19.47      new  H
+ATOM    656 2HB  ASN    43      17.673  47.667  16.796  1.00 19.47      new  H
+ATOM    657 1HD2 ASN    43      15.765  48.790  20.219  1.00 20.13      new  H
+ATOM    658 2HD2 ASN    43      17.433  48.325  20.187  1.00 20.13      new  H
+ATOM    659  N   LYS    44      18.881  43.873  17.183  1.00 17.85      1FKJ 465
+ATOM    660  CA  LYS    44      19.964  43.215  16.470  1.00 17.83      1FKJ 466
+ATOM    661  C   LYS    44      19.501  41.802  16.203  1.00 15.51      1FKJ 467
+ATOM    662  O   LYS    44      19.263  41.052  17.146  1.00 14.52      1FKJ 468
+ATOM    663  CB  LYS    44      21.231  43.187  17.327  1.00 21.72      1FKJ 469
+ATOM    664  CG  LYS    44      22.362  42.327  16.759  1.00 26.15      1FKJ 470
+ATOM    665  CD  LYS    44      23.739  42.955  17.003  1.00 30.74      1FKJ 471
+ATOM    666  CE  LYS    44      24.888  41.932  17.144  1.00 32.98      1FKJ 472
+ATOM    667  NZ  LYS    44      25.100  41.077  15.979  1.00 35.48      1FKJ 473
+ATOM    668  H   LYS    44      18.385  43.279  17.816  1.00 17.85      new  H
+ATOM    669  HA  LYS    44      20.202  43.749  15.538  1.00 17.83      new  H
+ATOM    670 1HB  LYS    44      21.597  44.217  17.451  1.00 21.72      new  H
+ATOM    671 2HB  LYS    44      20.972  42.815  18.329  1.00 21.72      new  H
+ATOM    672 1HG  LYS    44      22.329  41.328  17.219  1.00 26.15      new  H
+ATOM    673 2HG  LYS    44      22.209  42.189  15.678  1.00 26.15      new  H
+ATOM    674 1HD  LYS    44      23.971  43.637  16.171  1.00 30.74      new  H
+ATOM    675 2HD  LYS    44      23.694  43.566  17.917  1.00 30.74      new  H
+ATOM    676 1HE  LYS    44      25.820  42.477  17.354  1.00 32.98      new  H
+ATOM    677 2HE  LYS    44      24.685  41.293  18.016  1.00 32.98      new  H
+ATOM    678 1HZ  LYS    44      25.858  40.450  16.158  1.00 35.48      new  H +
+ATOM    679 2HZ  LYS    44      24.270  40.551  15.795  1.00 35.48      new  H +
+ATOM    680 3HZ  LYS    44      25.318  41.644  15.184  1.00 35.48      new  H +
+ATOM    681  N   PRO    45      19.300  41.402  14.953  1.00 15.44      1FKJ 474
+ATOM    682  CA  PRO    45      18.926  40.045  14.597  1.00 13.62      1FKJ 475
+ATOM    683  C   PRO    45      19.945  39.045  15.101  1.00 12.02      1FKJ 476
+ATOM    684  O   PRO    45      21.126  39.371  15.264  1.00 12.53      1FKJ 477
+ATOM    685  CB  PRO    45      18.823  40.052  13.092  1.00 13.94      1FKJ 478
+ATOM    686  CG  PRO    45      18.757  41.507  12.690  1.00 16.11      1FKJ 479
+ATOM    687  CD  PRO    45      19.593  42.194  13.755  1.00 15.42      1FKJ 480
+ATOM    688  HA  PRO    45      17.976  39.738  15.059  1.00 13.62      new  H
+ATOM    689 1HB  PRO    45      19.692  39.555  12.635  1.00 13.94      new  H
+ATOM    690 2HB  PRO    45      17.928  39.509  12.755  1.00 13.94      new  H
+ATOM    691 1HG  PRO    45      19.167  41.670  11.682  1.00 16.11      new  H
+ATOM    692 2HG  PRO    45      17.722  41.880  12.681  1.00 16.11      new  H
+ATOM    693 1HD  PRO    45      20.664  42.179  13.507  1.00 15.42      new  H
+ATOM    694 2HD  PRO    45      19.307  43.249  13.882  1.00 15.42      new  H
+ATOM    695  N   PHE    46      19.491  37.817  15.302  1.00 10.44      1FKJ 481
+ATOM    696  CA  PHE    46      20.359  36.743  15.723  1.00  9.41      1FKJ 482
+ATOM    697  C   PHE    46      20.652  35.909  14.476  1.00  9.38      1FKJ 483
+ATOM    698  O   PHE    46      19.750  35.647  13.677  1.00  9.16      1FKJ 484
+ATOM    699  CB  PHE    46      19.635  35.928  16.793  1.00  7.64      1FKJ 485
+ATOM    700  CG  PHE    46      20.349  34.647  17.167  1.00  9.06      1FKJ 486
+ATOM    701  CD1 PHE    46      21.575  34.689  17.780  1.00  8.96      1FKJ 487
+ATOM    702  CD2 PHE    46      19.778  33.451  16.845  1.00  8.20      1FKJ 488
+ATOM    703  CE1 PHE    46      22.224  33.503  18.056  1.00 10.59      1FKJ 489
+ATOM    704  CE2 PHE    46      20.424  32.281  17.119  1.00  9.83      1FKJ 490
+ATOM    705  CZ  PHE    46      21.651  32.304  17.725  1.00 11.21      1FKJ 491
+ATOM    706  H   PHE    46      18.535  37.550  15.180  1.00 10.44      new  H
+ATOM    707  HA  PHE    46      21.304  37.101  16.158  1.00  9.41      new  H
+ATOM    708 1HB  PHE    46      19.515  36.547  17.694  1.00  7.64      new  H
+ATOM    709 2HB  PHE    46      18.625  35.683  16.434  1.00  7.64      new  H
+ATOM    710  HD1 PHE    46      22.034  35.652  18.047  1.00  8.96      new  H
+ATOM    711  HD2 PHE    46      18.790  33.430  16.361  1.00  8.20      new  H
+ATOM    712  HE1 PHE    46      23.209  33.521  18.546  1.00 10.59      new  H
+ATOM    713  HE2 PHE    46      19.959  31.320  16.853  1.00  9.83      new  H
+ATOM    714  HZ  PHE    46      22.175  31.362  17.945  1.00 11.21      new  H
+ATOM    715  N   LYS    47      21.879  35.459  14.289  1.00  8.49      1FKJ 492
+ATOM    716  CA  LYS    47      22.240  34.656  13.139  1.00 10.57      1FKJ 493
+ATOM    717  C   LYS    47      22.815  33.330  13.598  1.00 10.66      1FKJ 494
+ATOM    718  O   LYS    47      23.517  33.271  14.625  1.00 11.70      1FKJ 495
+ATOM    719  CB  LYS    47      23.275  35.353  12.308  1.00 13.31      1FKJ 496
+ATOM    720  CG  LYS    47      22.799  36.646  11.694  1.00 15.49      1FKJ 497
+ATOM    721  CD  LYS    47      23.925  37.221  10.833  1.00 18.62      1FKJ 498
+ATOM    722  CE  LYS    47      23.490  38.458  10.087  1.00 20.76      1FKJ 499
+ATOM    723  NZ  LYS    47      24.506  38.806   9.110  1.00 22.49      1FKJ 500
+ATOM    724  H   LYS    47      22.636  35.637  14.917  1.00  8.49      new  H
+ATOM    725  HA  LYS    47      21.332  34.496  12.539  1.00 10.57      new  H
+ATOM    726 1HB  LYS    47      24.156  35.559  12.934  1.00 13.31      new  H
+ATOM    727 2HB  LYS    47      23.602  34.676  11.505  1.00 13.31      new  H
+ATOM    728 1HG  LYS    47      21.902  36.471  11.082  1.00 15.49      new  H
+ATOM    729 2HG  LYS    47      22.517  37.361  12.481  1.00 15.49      new  H
+ATOM    730 1HD  LYS    47      24.787  37.463  11.472  1.00 18.62      new  H
+ATOM    731 2HD  LYS    47      24.261  36.459  10.114  1.00 18.62      new  H
+ATOM    732 1HE  LYS    47      22.527  38.280   9.586  1.00 20.76      new  H
+ATOM    733 2HE  LYS    47      23.338  39.291  10.789  1.00 20.76      new  H
+ATOM    734 1HZ  LYS    47      24.382  39.756   8.824  1.00 22.49      new  H +
+ATOM    735 2HZ  LYS    47      25.413  38.697   9.518  1.00 22.49      new  H +
+ATOM    736 3HZ  LYS    47      24.424  38.205   8.315  1.00 22.49      new  H +
+ATOM    737  N   PHE    48      22.522  32.253  12.862  1.00  9.17      1FKJ 501
+ATOM    738  CA  PHE    48      23.027  30.937  13.190  1.00  8.87      1FKJ 502
+ATOM    739  C   PHE    48      22.969  30.050  11.960  1.00 10.81      1FKJ 503
+ATOM    740  O   PHE    48      22.207  30.355  11.034  1.00 10.08      1FKJ 504
+ATOM    741  CB  PHE    48      22.205  30.318  14.323  1.00 10.36      1FKJ 505
+ATOM    742  CG  PHE    48      20.809  29.838  13.955  1.00 11.36      1FKJ 506
+ATOM    743  CD1 PHE    48      19.774  30.750  13.840  1.00 12.27      1FKJ 507
+ATOM    744  CD2 PHE    48      20.607  28.492  13.715  1.00 11.46      1FKJ 508
+ATOM    745  CE1 PHE    48      18.525  30.302  13.474  1.00 14.91      1FKJ 509
+ATOM    746  CE2 PHE    48      19.351  28.047  13.347  1.00 14.10      1FKJ 510
+ATOM    747  CZ  PHE    48      18.315  28.951  13.226  1.00 14.83      1FKJ 511
+ATOM    748  H   PHE    48      21.943  32.278  12.047  1.00  9.17      new  H
+ATOM    749  HA  PHE    48      24.071  31.027  13.525  1.00  8.87      new  H
+ATOM    750 1HB  PHE    48      22.767  29.466  14.732  1.00 10.36      new  H
+ATOM    751 2HB  PHE    48      22.114  31.060  15.130  1.00 10.36      new  H
+ATOM    752  HD1 PHE    48      19.947  31.818  14.038  1.00 12.27      new  H
+ATOM    753  HD2 PHE    48      21.439  27.780  13.816  1.00 11.46      new  H
+ATOM    754  HE1 PHE    48      17.692  31.014  13.378  1.00 14.91      new  H
+ATOM    755  HE2 PHE    48      19.178  26.978  13.152  1.00 14.10      new  H
+ATOM    756  HZ  PHE    48      17.315  28.599  12.931  1.00 14.83      new  H
+ATOM    757  N   MET    49      23.752  28.970  11.936  1.00 12.17      1FKJ 512
+ATOM    758  CA  MET    49      23.752  28.012  10.848  1.00 14.61      1FKJ 513
+ATOM    759  C   MET    49      23.246  26.666  11.321  1.00 14.66      1FKJ 514
+ATOM    760  O   MET    49      23.476  26.214  12.466  1.00 13.89      1FKJ 515
+ATOM    761  CB  MET    49      25.110  27.772  10.310  1.00 16.60      1FKJ 516
+ATOM    762  CG  MET    49      25.763  29.021   9.829  1.00 20.64      1FKJ 517
+ATOM    763  SD  MET    49      27.236  28.473   8.941  1.00 26.32      1FKJ 518
+ATOM    764  CE  MET    49      26.741  28.890   7.307  1.00 24.38      1FKJ 519
+ATOM    765  H   MET    49      24.395  28.745  12.668  1.00 12.17      new  H
+ATOM    766  HA  MET    49      23.105  28.445  10.071  1.00 14.61      new  H
+ATOM    767 1HB  MET    49      25.734  27.313  11.091  1.00 16.60      new  H
+ATOM    768 2HB  MET    49      25.050  27.051   9.481  1.00 16.60      new  H
+ATOM    769 1HG  MET    49      25.092  29.592   9.171  1.00 20.64      new  H
+ATOM    770 2HG  MET    49      26.028  29.680  10.669  1.00 20.64      new  H
+ATOM    771 1HE  MET    49      27.252  28.231   6.589  1.00 24.38      new  H
+ATOM    772 2HE  MET    49      25.653  28.764   7.210  1.00 24.38      new  H
+ATOM    773 3HE  MET    49      27.009  29.936   7.098  1.00 24.38      new  H
+ATOM    774  N   LEU    50      22.474  26.056  10.429  1.00 15.01      1FKJ 520
+ATOM    775  CA  LEU    50      21.885  24.761  10.676  1.00 15.82      1FKJ 521
+ATOM    776  C   LEU    50      22.981  23.716  10.486  1.00 16.49      1FKJ 522
+ATOM    777  O   LEU    50      23.898  23.888   9.671  1.00 16.56      1FKJ 523
+ATOM    778  CB  LEU    50      20.765  24.598   9.674  1.00 18.00      1FKJ 524
+ATOM    779  CG  LEU    50      19.346  24.293  10.047  1.00 19.91      1FKJ 525
+ATOM    780  CD1 LEU    50      18.773  25.277  11.017  1.00 19.96      1FKJ 526
+ATOM    781  CD2 LEU    50      18.569  24.288   8.744  1.00 19.06      1FKJ 527
+ATOM    782  H   LEU    50      22.248  26.444   9.535  1.00 15.01      new  H
+ATOM    783  HA  LEU    50      21.477  24.650  11.692  1.00 15.82      new  H
+ATOM    784 1HB  LEU    50      20.736  25.530   9.091  1.00 18.00      new  H
+ATOM    785 2HB  LEU    50      21.081  23.799   8.987  1.00 18.00      new  H
+ATOM    786  HG  LEU    50      19.288  23.325  10.565  1.00 19.91      new  H
+ATOM    787 1HD1 LEU    50      17.734  25.000  11.250  1.00 19.96      new  H
+ATOM    788 2HD1 LEU    50      19.370  25.272  11.941  1.00 19.96      new  H
+ATOM    789 3HD1 LEU    50      18.793  26.284  10.574  1.00 19.96      new  H
+ATOM    790 1HD2 LEU    50      17.511  24.068   8.948  1.00 19.06      new  H
+ATOM    791 2HD2 LEU    50      18.652  25.274   8.263  1.00 19.06      new  H
+ATOM    792 3HD2 LEU    50      18.980  23.518   8.074  1.00 19.06      new  H
+ATOM    793  N   GLY    51      22.959  22.679  11.305  1.00 15.94      1FKJ 528
+ATOM    794  CA  GLY    51      23.827  21.519  11.119  1.00 17.35      1FKJ 529
+ATOM    795  C   GLY    51      25.067  21.543  11.995  1.00 18.23      1FKJ 530
+ATOM    796  O   GLY    51      25.847  20.587  11.946  1.00 18.89      1FKJ 531
+ATOM    797  H   GLY    51      22.356  22.614  12.100  1.00 15.94      new  H
+ATOM    798 1HA  GLY    51      23.254  20.605  11.333  1.00 17.35      new  H
+ATOM    799 2HA  GLY    51      24.134  21.466  10.064  1.00 17.35      new  H
+ATOM    800  N   LYS    52      25.257  22.547  12.861  1.00 17.20      1FKJ 532
+ATOM    801  CA  LYS    52      26.517  22.681  13.578  1.00 16.39      1FKJ 533
+ATOM    802  C   LYS    52      26.415  22.624  15.094  1.00 15.79      1FKJ 534
+ATOM    803  O   LYS    52      27.359  23.060  15.762  1.00 15.53      1FKJ 535
+ATOM    804  CB  LYS    52      27.167  24.001  13.200  1.00 18.93      1FKJ 536
+ATOM    805  CG  LYS    52      27.560  24.112  11.739  1.00 24.00      1FKJ 537
+ATOM    806  CD  LYS    52      28.475  25.315  11.580  1.00 26.33      1FKJ 538
+ATOM    807  CE  LYS    52      29.011  25.368  10.170  1.00 29.72      1FKJ 539
+ATOM    808  NZ  LYS    52      30.073  26.348  10.094  1.00 32.18      1FKJ 540
+ATOM    809  H   LYS    52      24.577  23.249  13.071  1.00 17.20      new  H
+ATOM    810  HA  LYS    52      27.113  21.807  13.276  1.00 16.39      new  H
+ATOM    811 1HB  LYS    52      26.474  24.820  13.443  1.00 18.93      new  H
+ATOM    812 2HB  LYS    52      28.064  24.144  13.820  1.00 18.93      new  H
+ATOM    813 1HG  LYS    52      28.071  23.196  11.409  1.00 24.00      new  H
+ATOM    814 2HG  LYS    52      26.665  24.225  11.109  1.00 24.00      new  H
+ATOM    815 1HD  LYS    52      27.924  26.239  11.808  1.00 26.33      new  H
+ATOM    816 2HD  LYS    52      29.307  25.252  12.297  1.00 26.33      new  H
+ATOM    817 1HE  LYS    52      29.388  24.379   9.872  1.00 29.72      new  H
+ATOM    818 2HE  LYS    52      28.205  25.630   9.469  1.00 29.72      new  H
+ATOM    819 1HZ  LYS    52      29.959  26.900   9.268  1.00 32.18      new  H +
+ATOM    820 2HZ  LYS    52      30.038  26.941  10.898  1.00 32.18      new  H +
+ATOM    821 3HZ  LYS    52      30.957  25.881  10.063  1.00 32.18      new  H +
+ATOM    822  N   GLN    53      25.290  22.124  15.652  1.00 13.42      1FKJ 541
+ATOM    823  CA  GLN    53      24.954  22.169  17.084  1.00 13.45      1FKJ 542
+ATOM    824  C   GLN    53      25.080  23.563  17.701  1.00 13.67      1FKJ 543
+ATOM    825  O   GLN    53      25.393  23.780  18.879  1.00 15.22      1FKJ 544
+ATOM    826  CB  GLN    53      25.819  21.192  17.919  1.00 13.95      1FKJ 545
+ATOM    827  CG  GLN    53      25.526  19.716  17.714  1.00 13.01      1FKJ 546
+ATOM    828  CD  GLN    53      26.485  18.845  18.518  1.00 14.53      1FKJ 547
+ATOM    829  OE1 GLN    53      27.687  18.799  18.250  1.00 14.80      1FKJ 548
+ATOM    830  NE2 GLN    53      26.026  18.127  19.523  1.00 13.15      1FKJ 549
+ATOM    831  H   GLN    53      24.584  21.673  15.106  1.00 13.42      new  H
+ATOM    832  HA  GLN    53      23.898  21.865  17.121  1.00 13.45      new  H
+ATOM    833 1HB  GLN    53      26.878  21.373  17.681  1.00 13.95      new  H
+ATOM    834 2HB  GLN    53      25.683  21.430  18.984  1.00 13.95      new  H
+ATOM    835 1HG  GLN    53      24.490  19.500  18.015  1.00 13.01      new  H
+ATOM    836 2HG  GLN    53      25.609  19.468  16.646  1.00 13.01      new  H
+ATOM    837 1HE2 GLN    53      26.650  17.556  20.056  1.00 13.15      new  H
+ATOM    838 2HE2 GLN    53      25.053  18.153  19.753  1.00 13.15      new  H
+ATOM    839  N   GLU    54      24.736  24.552  16.885  1.00 11.82      1FKJ 550
+ATOM    840  CA  GLU    54      24.779  25.948  17.293  1.00 13.08      1FKJ 551
+ATOM    841  C   GLU    54      23.554  26.391  18.086  1.00 12.50      1FKJ 552
+ATOM    842  O   GLU    54      23.580  27.464  18.708  1.00 13.92      1FKJ 553
+ATOM    843  CB  GLU    54      24.859  26.871  16.105  1.00 14.95      1FKJ 554
+ATOM    844  CG  GLU    54      26.237  27.062  15.533  1.00 19.14      1FKJ 555
+ATOM    845  CD  GLU    54      26.231  27.947  14.289  1.00 21.84      1FKJ 556
+ATOM    846  OE1 GLU    54      25.568  28.976  14.264  1.00 18.91      1FKJ 557
+ATOM    847  OE2 GLU    54      26.897  27.596  13.324  1.00 25.99      1FKJ 558
+ATOM    848  H   GLU    54      24.427  24.411  15.944  1.00 11.82      new  H
+ATOM    849  HA  GLU    54      25.677  26.013  17.925  1.00 13.08      new  H
+ATOM    850 1HB  GLU    54      24.202  26.481  15.314  1.00 14.95      new  H
+ATOM    851 2HB  GLU    54      24.462  27.854  16.398  1.00 14.95      new  H
+ATOM    852 1HG  GLU    54      26.889  27.511  16.296  1.00 19.14      new  H
+ATOM    853 2HG  GLU    54      26.666  26.081  15.280  1.00 19.14      new  H
+ATOM    854  N   VAL    55      22.430  25.669  18.019  1.00 10.26      1FKJ 559
+ATOM    855  CA  VAL    55      21.236  26.060  18.750  1.00  9.02      1FKJ 560
+ATOM    856  C   VAL    55      20.645  24.794  19.344  1.00  8.69      1FKJ 561
+ATOM    857  O   VAL    55      21.044  23.681  18.973  1.00  8.93      1FKJ 562
+ATOM    858  CB  VAL    55      20.172  26.718  17.850  1.00  9.92      1FKJ 563
+ATOM    859  CG1 VAL    55      20.610  28.132  17.477  1.00 10.70      1FKJ 564
+ATOM    860  CG2 VAL    55      19.994  25.894  16.563  1.00 10.76      1FKJ 565
+ATOM    861  H   VAL    55      22.331  24.834  17.478  1.00 10.26      new  H
+ATOM    862  HA  VAL    55      21.519  26.801  19.512  1.00  9.02      new  H
+ATOM    863  HB  VAL    55      19.220  26.758  18.399  1.00  9.92      new  H
+ATOM    864 1HG1 VAL    55      19.847  28.596  16.835  1.00 10.70      new  H
+ATOM    865 2HG1 VAL    55      20.733  28.731  18.391  1.00 10.70      new  H
+ATOM    866 3HG1 VAL    55      21.567  28.089  16.936  1.00 10.70      new  H
+ATOM    867 1HG2 VAL    55      19.234  26.369  15.925  1.00 10.76      new  H
+ATOM    868 2HG2 VAL    55      20.950  25.849  16.021  1.00 10.76      new  H
+ATOM    869 3HG2 VAL    55      19.671  24.875  16.821  1.00 10.76      new  H
+ATOM    870  N   ILE    56      19.727  24.949  20.289  1.00  6.65      1FKJ 566
+ATOM    871  CA  ILE    56      19.025  23.812  20.855  1.00  6.61      1FKJ 567
+ATOM    872  C   ILE    56      18.307  23.092  19.720  1.00  7.46      1FKJ 568
+ATOM    873  O   ILE    56      17.900  23.688  18.700  1.00  5.17      1FKJ 569
+ATOM    874  CB  ILE    56      18.026  24.283  21.937  1.00  6.20      1FKJ 570
+ATOM    875  CG1 ILE    56      17.072  25.378  21.467  1.00  6.00      1FKJ 571
+ATOM    876  CG2 ILE    56      18.885  24.757  23.087  1.00  7.01      1FKJ 572
+ATOM    877  CD1 ILE    56      15.991  25.774  22.495  1.00  7.02      1FKJ 573
+ATOM    878  H   ILE    56      19.459  25.834  20.670  1.00  6.65      new  H
+ATOM    879  HA  ILE    56      19.733  23.124  21.341  1.00  6.61      new  H
+ATOM    880  HB  ILE    56      17.356  23.457  22.218  1.00  6.20      new  H
+ATOM    881 1HG1 ILE    56      17.659  26.272  21.210  1.00  6.00      new  H
+ATOM    882 2HG1 ILE    56      16.576  25.042  20.544  1.00  6.00      new  H
+ATOM    883 1HG2 ILE    56      18.241  25.112  23.905  1.00  7.01      new  H
+ATOM    884 2HG2 ILE    56      19.509  23.925  23.446  1.00  7.01      new  H
+ATOM    885 3HG2 ILE    56      19.532  25.580  22.748  1.00  7.01      new  H
+ATOM    886 1HD1 ILE    56      15.354  26.565  22.072  1.00  7.02      new  H
+ATOM    887 2HD1 ILE    56      15.374  24.896  22.736  1.00  7.02      new  H
+ATOM    888 3HD1 ILE    56      16.474  26.144  23.411  1.00  7.02      new  H
+ATOM    889  N   ARG    57      18.132  21.794  19.880  1.00  6.94      1FKJ 574
+ATOM    890  CA  ARG    57      17.576  20.982  18.805  1.00  8.63      1FKJ 575
+ATOM    891  C   ARG    57      16.176  21.410  18.368  1.00  7.31      1FKJ 576
+ATOM    892  O   ARG    57      15.793  21.260  17.198  1.00  7.98      1FKJ 577
+ATOM    893  CB  ARG    57      17.602  19.519  19.284  1.00  9.42      1FKJ 578
+ATOM    894  CG  ARG    57      17.332  18.488  18.193  1.00 11.82      1FKJ 579
+ATOM    895  CD  ARG    57      18.423  18.600  17.171  1.00 16.58      1FKJ 580
+ATOM    896  NE  ARG    57      18.163  17.670  16.094  1.00 21.86      1FKJ 581
+ATOM    897  CZ  ARG    57      19.151  17.208  15.331  1.00 25.53      1FKJ 582
+ATOM    898  NH1 ARG    57      20.421  17.599  15.497  1.00 27.45      1FKJ 583
+ATOM    899  NH2 ARG    57      18.859  16.320  14.381  1.00 27.72      1FKJ 584
+ATOM    900  H   ARG    57      18.358  21.291  20.714  1.00  6.94      new  H
+ATOM    901  HA  ARG    57      18.189  21.116  17.902  1.00  8.63      new  H
+ATOM    902 1HB  ARG    57      18.585  19.311  19.731  1.00  9.42      new  H
+ATOM    903 2HB  ARG    57      16.854  19.395  20.081  1.00  9.42      new  H
+ATOM    904 1HG  ARG    57      17.307  17.474  18.619  1.00 11.82      new  H
+ATOM    905 2HG  ARG    57      16.351  18.666  17.729  1.00 11.82      new  H
+ATOM    906 1HD  ARG    57      18.473  19.627  16.781  1.00 16.58      new  H
+ATOM    907 2HD  ARG    57      19.398  18.383  17.632  1.00 16.58      new  H
+ATOM    908  HE  ARG    57      17.225  17.369  15.920  1.00 21.86      new  H +
+ATOM    909 1HH1 ARG    57      20.652  18.259  16.212  1.00 27.45      new  H +
+ATOM    910 2HH1 ARG    57      21.139  17.231  14.906  1.00 27.45      new  H +
+ATOM    911 1HH2 ARG    57      17.915  16.016  14.254  1.00 27.72      new  H +
+ATOM    912 2HH2 ARG    57      19.584  15.958  13.795  1.00 27.72      new  H +
+ATOM    913  N   GLY    58      15.396  21.981  19.295  1.00  7.76      1FKJ 585
+ATOM    914  CA  GLY    58      14.040  22.430  19.030  1.00  6.79      1FKJ 586
+ATOM    915  C   GLY    58      14.033  23.498  17.964  1.00  6.22      1FKJ 587
+ATOM    916  O   GLY    58      13.117  23.546  17.140  1.00  8.95      1FKJ 588
+ATOM    917  H   GLY    58      15.693  22.139  20.237  1.00  7.76      new  H
+ATOM    918 1HA  GLY    58      13.422  21.579  18.708  1.00  6.79      new  H
+ATOM    919 2HA  GLY    58      13.591  22.823  19.954  1.00  6.79      new  H
+ATOM    920  N   TRP    59      15.059  24.352  17.960  1.00  5.07      1FKJ 589
+ATOM    921  CA  TRP    59      15.248  25.382  16.932  1.00  7.88      1FKJ 590
+ATOM    922  C   TRP    59      15.750  24.799  15.609  1.00  8.83      1FKJ 591
+ATOM    923  O   TRP    59      15.257  25.152  14.551  1.00  7.35      1FKJ 592
+ATOM    924  CB  TRP    59      16.267  26.440  17.369  1.00  7.20      1FKJ 593
+ATOM    925  CG  TRP    59      15.675  27.646  18.065  1.00  7.82      1FKJ 594
+ATOM    926  CD1 TRP    59      14.916  27.560  19.212  1.00  6.94      1FKJ 595
+ATOM    927  CD2 TRP    59      15.854  28.936  17.637  1.00  7.62      1FKJ 596
+ATOM    928  NE1 TRP    59      14.633  28.810  19.498  1.00  6.73      1FKJ 597
+ATOM    929  CE2 TRP    59      15.159  29.660  18.591  1.00  7.74      1FKJ 598
+ATOM    930  CE3 TRP    59      16.516  29.561  16.593  1.00  9.22      1FKJ 599
+ATOM    931  CZ2 TRP    59      15.105  31.039  18.526  1.00  8.27      1FKJ 600
+ATOM    932  CZ3 TRP    59      16.462  30.944  16.534  1.00  9.14      1FKJ 601
+ATOM    933  CH2 TRP    59      15.764  31.670  17.492  1.00  9.16      1FKJ 602
+ATOM    934  H   TRP    59      15.773  24.350  18.660  1.00  5.07      new  H
+ATOM    935  HA  TRP    59      14.255  25.833  16.793  1.00  7.88      new  H
+ATOM    936 1HB  TRP    59      16.997  25.968  18.043  1.00  7.20      new  H
+ATOM    937 2HB  TRP    59      16.821  26.782  16.483  1.00  7.20      new  H
+ATOM    938  HD1 TRP    59      14.617  26.655  19.760  1.00  6.94      new  H
+ATOM    939  HE1 TRP    59      14.094  29.097  20.290  1.00  6.73      new  H
+ATOM    940  HE3 TRP    59      17.065  28.980  15.838  1.00  9.22      new  H
+ATOM    941  HZ2 TRP    59      14.551  31.618  19.279  1.00  8.27      new  H
+ATOM    942  HZ3 TRP    59      16.978  31.474  15.719  1.00  9.14      new  H
+ATOM    943  HH2 TRP    59      15.737  32.768  17.424  1.00  9.16      new  H
+ATOM    944  N   GLU    60      16.718  23.896  15.615  1.00 10.11      1FKJ 603
+ATOM    945  CA  GLU    60      17.228  23.206  14.431  1.00 13.14      1FKJ 604
+ATOM    946  C   GLU    60      16.051  22.539  13.693  1.00 12.98      1FKJ 605
+ATOM    947  O   GLU    60      15.872  22.740  12.494  1.00 14.64      1FKJ 606
+ATOM    948  CB  GLU    60      18.232  22.226  14.987  1.00 15.58      1FKJ 607
+ATOM    949  CG  GLU    60      19.030  21.358  14.072  1.00 19.73      1FKJ 608
+ATOM    950  CD  GLU    60      20.359  21.964  13.665  1.00 21.38      1FKJ 609
+ATOM    951  OE1 GLU    60      20.936  22.802  14.360  1.00 21.96      1FKJ 610
+ATOM    952  OE2 GLU    60      20.844  21.537  12.633  1.00 24.37      1FKJ 611
+ATOM    953  H   GLU    60      17.180  23.616  16.456  1.00 10.11      new  H
+ATOM    954  HA  GLU    60      17.706  23.858  13.684  1.00 13.14      new  H
+ATOM    955 1HB  GLU    60      18.947  22.802  15.593  1.00 15.58      new  H
+ATOM    956 2HB  GLU    60      17.690  21.561  15.675  1.00 15.58      new  H
+ATOM    957 1HG  GLU    60      19.213  20.391  14.564  1.00 19.73      new  H
+ATOM    958 2HG  GLU    60      18.439  21.152  13.168  1.00 19.73      new  H
+ATOM    959  N   GLU    61      15.172  21.804  14.371  1.00  9.53      1FKJ 612
+ATOM    960  CA  GLU    61      14.014  21.207  13.720  1.00 11.83      1FKJ 613
+ATOM    961  C   GLU    61      12.867  22.143  13.413  1.00 10.11      1FKJ 614
+ATOM    962  O   GLU    61      12.104  21.862  12.482  1.00 11.38      1FKJ 615
+ATOM    963  CB  GLU    61      13.374  20.097  14.547  1.00 14.88      1FKJ 616
+ATOM    964  CG  GLU    61      14.297  19.008  15.018  1.00 22.28      1FKJ 617
+ATOM    965  CD  GLU    61      15.085  18.447  13.861  1.00 27.35      1FKJ 618
+ATOM    966  OE1 GLU    61      14.465  17.974  12.894  1.00 30.51      1FKJ 619
+ATOM    967  OE2 GLU    61      16.314  18.517  13.927  1.00 30.56      1FKJ 620
+ATOM    968  H   GLU    61      15.240  21.613  15.350  1.00  9.53      new  H
+ATOM    969  HA  GLU    61      14.470  20.849  12.785  1.00 11.83      new  H
+ATOM    970 1HB  GLU    61      12.897  20.552  15.428  1.00 14.88      new  H
+ATOM    971 2HB  GLU    61      12.573  19.638  13.949  1.00 14.88      new  H
+ATOM    972 1HG  GLU    61      14.984  19.405  15.780  1.00 22.28      new  H
+ATOM    973 2HG  GLU    61      13.715  18.207  15.496  1.00 22.28      new  H
+ATOM    974  N   GLY    62      12.633  23.169  14.232  1.00  7.20      1FKJ 621
+ATOM    975  CA  GLY    62      11.507  24.077  14.049  1.00  8.23      1FKJ 622
+ATOM    976  C   GLY    62      11.789  25.092  12.949  1.00  8.73      1FKJ 623
+ATOM    977  O   GLY    62      10.943  25.281  12.085  1.00  7.68      1FKJ 624
+ATOM    978  H   GLY    62      13.207  23.387  15.022  1.00  7.20      new  H
+ATOM    979 1HA  GLY    62      10.605  23.500  13.797  1.00  8.23      new  H
+ATOM    980 2HA  GLY    62      11.300  24.603  14.993  1.00  8.23      new  H
+ATOM    981  N   VAL    63      12.968  25.715  12.878  1.00  8.17      1FKJ 625
+ATOM    982  CA  VAL    63      13.246  26.727  11.851  1.00  8.97      1FKJ 626
+ATOM    983  C   VAL    63      13.384  26.084  10.467  1.00 10.21      1FKJ 627
+ATOM    984  O   VAL    63      13.008  26.690   9.462  1.00  9.70      1FKJ 628
+ATOM    985  CB  VAL    63      14.515  27.505  12.249  1.00  9.33      1FKJ 629
+ATOM    986  CG1 VAL    63      14.938  28.515  11.174  1.00 12.15      1FKJ 630
+ATOM    987  CG2 VAL    63      14.191  28.271  13.546  1.00  9.02      1FKJ 631
+ATOM    988  H   VAL    63      13.729  25.542  13.504  1.00  8.17      new  H
+ATOM    989  HA  VAL    63      12.403  27.430  11.788  1.00  8.97      new  H
+ATOM    990  HB  VAL    63      15.344  26.794  12.377  1.00  9.33      new  H
+ATOM    991 1HG1 VAL    63      15.845  29.043  11.503  1.00 12.15      new  H
+ATOM    992 2HG1 VAL    63      15.144  27.985  10.233  1.00 12.15      new  H
+ATOM    993 3HG1 VAL    63      14.128  29.242  11.014  1.00 12.15      new  H
+ATOM    994 1HG2 VAL    63      15.075  28.842  13.866  1.00  9.02      new  H
+ATOM    995 2HG2 VAL    63      13.354  28.962  13.365  1.00  9.02      new  H
+ATOM    996 3HG2 VAL    63      13.912  27.557  14.334  1.00  9.02      new  H
+ATOM    997  N   ALA    64      13.798  24.813  10.384  1.00  8.85      1FKJ 632
+ATOM    998  CA  ALA    64      13.867  24.092   9.121  1.00  9.97      1FKJ 633
+ATOM    999  C   ALA    64      12.515  23.962   8.428  1.00  9.79      1FKJ 634
+ATOM   1000  O   ALA    64      12.444  23.682   7.224  1.00 10.15      1FKJ 635
+ATOM   1001  CB  ALA    64      14.399  22.697   9.371  1.00  8.40      1FKJ 636
+ATOM   1002  H   ALA    64      14.086  24.274  11.176  1.00  8.85      new  H
+ATOM   1003  HA  ALA    64      14.530  24.674   8.463  1.00  9.97      new  H
+ATOM   1004 1HB  ALA    64      14.453  22.148   8.419  1.00  8.40      new  H
+ATOM   1005 2HB  ALA    64      15.404  22.761   9.814  1.00  8.40      new  H
+ATOM   1006 3HB  ALA    64      13.727  22.166  10.062  1.00  8.40      new  H
+ATOM   1007  N   GLN    65      11.430  24.108   9.197  1.00  8.85      1FKJ 637
+ATOM   1008  CA  GLN    65      10.061  24.008   8.721  1.00  9.01      1FKJ 638
+ATOM   1009  C   GLN    65       9.490  25.388   8.377  1.00  9.64      1FKJ 639
+ATOM   1010  O   GLN    65       8.285  25.494   8.083  1.00 11.77      1FKJ 640
+ATOM   1011  CB  GLN    65       9.149  23.379   9.795  1.00  8.96      1FKJ 641
+ATOM   1012  CG  GLN    65       9.490  21.935   9.999  1.00 13.57      1FKJ 642
+ATOM   1013  CD  GLN    65       8.671  21.261  11.073  1.00 16.01      1FKJ 643
+ATOM   1014  OE1 GLN    65       7.478  21.007  10.905  1.00 19.14      1FKJ 644
+ATOM   1015  NE2 GLN    65       9.268  20.921  12.204  1.00 15.54      1FKJ 645
+ATOM   1016  H   GLN    65      11.490  24.301  10.176  1.00  8.85      new  H
+ATOM   1017  HA  GLN    65      10.085  23.376   7.821  1.00  9.01      new  H
+ATOM   1018 1HB  GLN    65       9.260  23.925  10.743  1.00  8.96      new  H
+ATOM   1019 2HB  GLN    65       8.096  23.473   9.491  1.00  8.96      new  H
+ATOM   1020 1HG  GLN    65       9.347  21.397   9.050  1.00 13.57      new  H
+ATOM   1021 2HG  GLN    65      10.556  21.853  10.258  1.00 13.57      new  H
+ATOM   1022 1HE2 GLN    65       8.750  20.457  12.923  1.00 15.54      new  H
+ATOM   1023 2HE2 GLN    65      10.237  21.128  12.340  1.00 15.54      new  H
+ATOM   1024  N   MET    66      10.286  26.456   8.425  1.00  7.50      1FKJ 646
+ATOM   1025  CA  MET    66       9.776  27.783   8.158  1.00  8.55      1FKJ 647
+ATOM   1026  C   MET    66      10.320  28.290   6.832  1.00  7.58      1FKJ 648
+ATOM   1027  O   MET    66      11.436  27.940   6.455  1.00  9.62      1FKJ 649
+ATOM   1028  CB  MET    66      10.191  28.768   9.277  1.00  8.27      1FKJ 650
+ATOM   1029  CG  MET    66       9.531  28.455  10.626  1.00  8.82      1FKJ 651
+ATOM   1030  SD  MET    66      10.204  29.461  11.966  1.00 11.11      1FKJ 652
+ATOM   1031  CE  MET    66       9.621  31.056  11.501  1.00 10.76      1FKJ 653
+ATOM   1032  H   MET    66      11.262  26.420   8.642  1.00  7.50      new  H
+ATOM   1033  HA  MET    66       8.678  27.724   8.118  1.00  8.55      new  H
+ATOM   1034 1HB  MET    66      11.284  28.741   9.395  1.00  8.27      new  H
+ATOM   1035 2HB  MET    66       9.926  29.792   8.974  1.00  8.27      new  H
+ATOM   1036 1HG  MET    66       8.447  28.626  10.550  1.00  8.82      new  H
+ATOM   1037 2HG  MET    66       9.672  27.390  10.863  1.00  8.82      new  H
+ATOM   1038 1HE  MET    66       9.751  31.754  12.341  1.00 10.76      new  H
+ATOM   1039 2HE  MET    66      10.192  31.417  10.633  1.00 10.76      new  H
+ATOM   1040 3HE  MET    66       8.555  30.995  11.238  1.00 10.76      new  H
+ATOM   1041  N   SER    67       9.559  29.086   6.107  1.00  6.27      1FKJ 654
+ATOM   1042  CA  SER    67      10.057  29.671   4.886  1.00  6.68      1FKJ 655
+ATOM   1043  C   SER    67      10.335  31.146   5.127  1.00  7.57      1FKJ 656
+ATOM   1044  O   SER    67       9.848  31.755   6.098  1.00  6.01      1FKJ 657
+ATOM   1045  CB  SER    67       9.026  29.478   3.789  1.00  6.35      1FKJ 658
+ATOM   1046  OG  SER    67       7.692  29.938   4.034  1.00  6.79      1FKJ 659
+ATOM   1047  H   SER    67       8.618  29.334   6.339  1.00  6.27      new  H
+ATOM   1048  HA  SER    67      10.992  29.185   4.572  1.00  6.68      new  H
+ATOM   1049 1HB  SER    67       8.975  28.404   3.559  1.00  6.35      new  H
+ATOM   1050 2HB  SER    67       9.397  29.984   2.885  1.00  6.35      new  H
+ATOM   1051  HG  SER    67       7.043  29.205   3.829  1.00  6.79      new  H
+ATOM   1052  N   VAL    68      11.151  31.765   4.269  1.00  6.86      1FKJ 660
+ATOM   1053  CA  VAL    68      11.568  33.156   4.467  1.00  7.31      1FKJ 661
+ATOM   1054  C   VAL    68      10.392  34.107   4.556  1.00  7.89      1FKJ 662
+ATOM   1055  O   VAL    68       9.509  34.051   3.692  1.00  8.97      1FKJ 663
+ATOM   1056  CB  VAL    68      12.507  33.557   3.317  1.00  9.15      1FKJ 664
+ATOM   1057  CG1 VAL    68      12.948  35.020   3.433  1.00 11.40      1FKJ 665
+ATOM   1058  CG2 VAL    68      13.760  32.732   3.431  1.00 10.87      1FKJ 666
+ATOM   1059  H   VAL    68      11.528  31.335   3.449  1.00  6.86      new  H
+ATOM   1060  HA  VAL    68      12.094  33.227   5.430  1.00  7.31      new  H
+ATOM   1061  HB  VAL    68      11.970  33.404   2.370  1.00  9.15      new  H
+ATOM   1062 1HG1 VAL    68      13.616  35.269   2.596  1.00 11.40      new  H
+ATOM   1063 2HG1 VAL    68      12.064  35.674   3.403  1.00 11.40      new  H
+ATOM   1064 3HG1 VAL    68      13.481  35.169   4.384  1.00 11.40      new  H
+ATOM   1065 1HG2 VAL    68      14.451  33.000   2.618  1.00 10.87      new  H
+ATOM   1066 2HG2 VAL    68      14.242  32.928   4.400  1.00 10.87      new  H
+ATOM   1067 3HG2 VAL    68      13.505  31.665   3.358  1.00 10.87      new  H
+ATOM   1068  N   GLY    69      10.392  34.932   5.614  1.00  6.38      1FKJ 667
+ATOM   1069  CA  GLY    69       9.375  35.914   5.906  1.00  6.70      1FKJ 668
+ATOM   1070  C   GLY    69       8.350  35.404   6.920  1.00  8.43      1FKJ 669
+ATOM   1071  O   GLY    69       7.542  36.191   7.442  1.00  9.17      1FKJ 670
+ATOM   1072  H   GLY    69      11.124  34.921   6.296  1.00  6.38      new  H
+ATOM   1073 1HA  GLY    69       9.850  36.826   6.296  1.00  6.70      new  H
+ATOM   1074 2HA  GLY    69       8.859  36.193   4.975  1.00  6.70      new  H
+ATOM   1075  N   GLN    70       8.344  34.107   7.231  1.00  6.27      1FKJ 671
+ATOM   1076  CA  GLN    70       7.377  33.534   8.165  1.00  5.84      1FKJ 672
+ATOM   1077  C   GLN    70       7.663  33.947   9.602  1.00  5.91      1FKJ 673
+ATOM   1078  O   GLN    70       8.833  34.121  10.002  1.00  4.56      1FKJ 674
+ATOM   1079  CB  GLN    70       7.422  32.023   8.049  1.00  6.19      1FKJ 675
+ATOM   1080  CG  GLN    70       6.384  31.264   8.865  1.00  7.39      1FKJ 676
+ATOM   1081  CD  GLN    70       6.361  29.801   8.442  1.00 10.34      1FKJ 677
+ATOM   1082  OE1 GLN    70       6.983  29.401   7.451  1.00 10.36      1FKJ 678
+ATOM   1083  NE2 GLN    70       5.657  28.907   9.102  1.00 10.89      1FKJ 679
+ATOM   1084  H   GLN    70       8.990  33.444   6.854  1.00  6.27      new  H
+ATOM   1085  HA  GLN    70       6.377  33.913   7.905  1.00  5.84      new  H
+ATOM   1086 1HB  GLN    70       7.298  31.752   6.990  1.00  6.19      new  H
+ATOM   1087 2HB  GLN    70       8.422  31.681   8.354  1.00  6.19      new  H
+ATOM   1088 1HG  GLN    70       6.619  31.342   9.937  1.00  7.39      new  H
+ATOM   1089 2HG  GLN    70       5.390  31.713   8.720  1.00  7.39      new  H
+ATOM   1090 1HE2 GLN    70       5.643  27.955   8.795  1.00 10.89      new  H
+ATOM   1091 2HE2 GLN    70       5.136  29.179   9.911  1.00 10.89      new  H
+ATOM   1092  N   ARG    71       6.565  34.114  10.355  1.00  3.97      1FKJ 680
+ATOM   1093  CA  ARG    71       6.673  34.417  11.776  1.00  5.09      1FKJ 681
+ATOM   1094  C   ARG    71       5.920  33.267  12.430  1.00  6.56      1FKJ 682
+ATOM   1095  O   ARG    71       4.760  33.017  12.065  1.00  5.81      1FKJ 683
+ATOM   1096  CB  ARG    71       6.006  35.766  12.128  1.00  5.53      1FKJ 684
+ATOM   1097  CG  ARG    71       6.337  36.123  13.585  1.00  6.46      1FKJ 685
+ATOM   1098  CD  ARG    71       5.894  37.533  13.832  1.00  9.81      1FKJ 686
+ATOM   1099  NE  ARG    71       6.061  37.831  15.234  1.00 14.57      1FKJ 687
+ATOM   1100  CZ  ARG    71       6.236  39.072  15.695  1.00 17.71      1FKJ 688
+ATOM   1101  NH1 ARG    71       6.104  40.140  14.894  1.00 18.24      1FKJ 689
+ATOM   1102  NH2 ARG    71       6.477  39.256  17.002  1.00 18.96      1FKJ 690
+ATOM   1103  H   ARG    71       5.629  34.046  10.011  1.00  3.97      new  H
+ATOM   1104  HA  ARG    71       7.717  34.512  12.108  1.00  5.09      new  H
+ATOM   1105 1HB  ARG    71       6.366  36.556  11.452  1.00  5.53      new  H
+ATOM   1106 2HB  ARG    71       4.917  35.698  11.992  1.00  5.53      new  H
+ATOM   1107 1HG  ARG    71       5.827  35.434  14.274  1.00  6.46      new  H
+ATOM   1108 2HG  ARG    71       7.417  36.022  13.769  1.00  6.46      new  H
+ATOM   1109 1HD  ARG    71       6.485  38.231  13.221  1.00  9.81      new  H
+ATOM   1110 2HD  ARG    71       4.842  37.659  13.538  1.00  9.81      new  H
+ATOM   1111  HE  ARG    71       6.045  37.075  15.889  1.00 14.57      new  H +
+ATOM   1112 1HH1 ARG    71       5.870  40.016  13.930  1.00 18.24      new  H +
+ATOM   1113 2HH1 ARG    71       6.240  41.060  15.261  1.00 18.24      new  H +
+ATOM   1114 1HH2 ARG    71       6.524  38.469  17.617  1.00 18.96      new  H +
+ATOM   1115 2HH2 ARG    71       6.610  40.180  17.361  1.00 18.96      new  H +
+ATOM   1116  N   ALA    72       6.520  32.525  13.362  1.00  5.90      1FKJ 691
+ATOM   1117  CA  ALA    72       5.849  31.387  13.962  1.00  6.19      1FKJ 692
+ATOM   1118  C   ALA    72       6.164  31.291  15.444  1.00  7.33      1FKJ 693
+ATOM   1119  O   ALA    72       7.143  31.861  15.932  1.00  7.33      1FKJ 694
+ATOM   1120  CB  ALA    72       6.298  30.093  13.303  1.00  7.29      1FKJ 695
+ATOM   1121  H   ALA    72       7.445  32.692  13.704  1.00  5.90      new  H
+ATOM   1122  HA  ALA    72       4.768  31.533  13.817  1.00  6.19      new  H
+ATOM   1123 1HB  ALA    72       5.779  29.243  13.771  1.00  7.29      new  H
+ATOM   1124 2HB  ALA    72       6.056  30.124  12.230  1.00  7.29      new  H
+ATOM   1125 3HB  ALA    72       7.384  29.974  13.430  1.00  7.29      new  H
+ATOM   1126  N   LYS    73       5.309  30.582  16.181  1.00  6.99      1FKJ 696
+ATOM   1127  CA  LYS    73       5.553  30.303  17.564  1.00  7.96      1FKJ 697
+ATOM   1128  C   LYS    73       6.130  28.904  17.594  1.00  8.16      1FKJ 698
+ATOM   1129  O   LYS    73       5.502  27.988  17.037  1.00  8.27      1FKJ 699
+ATOM   1130  CB  LYS    73       4.242  30.362  18.305  1.00 12.25      1FKJ 700
+ATOM   1131  CG  LYS    73       4.307  31.527  19.288  1.00 18.29      1FKJ 701
+ATOM   1132  CD  LYS    73       3.001  32.293  19.402  1.00 20.78      1FKJ 702
+ATOM   1133  CE  LYS    73       3.116  33.382  20.452  1.00 23.29      1FKJ 703
+ATOM   1134  NZ  LYS    73       4.229  34.279  20.166  1.00 26.58      1FKJ 704
+ATOM   1135  H   LYS    73       4.454  30.202  15.829  1.00  6.99      new  H
+ATOM   1136  HA  LYS    73       6.239  31.021  18.037  1.00  7.96      new  H
+ATOM   1137 1HB  LYS    73       3.408  30.499  17.601  1.00 12.25      new  H
+ATOM   1138 2HB  LYS    73       4.060  29.418  18.839  1.00 12.25      new  H
+ATOM   1139 1HG  LYS    73       4.587  31.144  20.281  1.00 18.29      new  H
+ATOM   1140 2HG  LYS    73       5.103  32.218  18.974  1.00 18.29      new  H
+ATOM   1141 1HD  LYS    73       2.743  32.738  18.430  1.00 20.78      new  H
+ATOM   1142 2HD  LYS    73       2.186  31.604  19.667  1.00 20.78      new  H
+ATOM   1143 1HE  LYS    73       2.179  33.957  20.491  1.00 23.29      new  H
+ATOM   1144 2HE  LYS    73       3.255  32.926  21.443  1.00 23.29      new  H
+ATOM   1145 1HZ  LYS    73       3.976  35.214  20.412  1.00 26.58      new  H +
+ATOM   1146 2HZ  LYS    73       5.028  34.000  20.698  1.00 26.58      new  H +
+ATOM   1147 3HZ  LYS    73       4.448  34.239  19.191  1.00 26.58      new  H +
+ATOM   1148  N   LEU    74       7.274  28.656  18.201  1.00  4.41      1FKJ 705
+ATOM   1149  CA  LEU    74       7.832  27.317  18.281  1.00  5.91      1FKJ 706
+ATOM   1150  C   LEU    74       7.607  26.836  19.719  1.00  6.50      1FKJ 707
+ATOM   1151  O   LEU    74       8.038  27.567  20.602  1.00  9.58      1FKJ 708
+ATOM   1152  CB  LEU    74       9.355  27.323  17.985  1.00  5.28      1FKJ 709
+ATOM   1153  CG  LEU    74       9.944  27.800  16.656  1.00  9.31      1FKJ 710
+ATOM   1154  CD1 LEU    74      11.423  27.402  16.569  1.00  9.40      1FKJ 711
+ATOM   1155  CD2 LEU    74       9.230  27.162  15.500  1.00 10.86      1FKJ 712
+ATOM   1156  H   LEU    74       7.831  29.359  18.643  1.00  4.41      new  H
+ATOM   1157  HA  LEU    74       7.350  26.662  17.540  1.00  5.91      new  H
+ATOM   1158 1HB  LEU    74       9.823  27.934  18.771  1.00  5.28      new  H
+ATOM   1159 2HB  LEU    74       9.705  26.290  18.129  1.00  5.28      new  H
+ATOM   1160  HG  LEU    74       9.830  28.893  16.610  1.00  9.31      new  H
+ATOM   1161 1HD1 LEU    74      11.841  27.748  15.612  1.00  9.40      new  H
+ATOM   1162 2HD1 LEU    74      11.977  27.865  17.399  1.00  9.40      new  H
+ATOM   1163 3HD1 LEU    74      11.513  26.308  16.634  1.00  9.40      new  H
+ATOM   1164 1HD2 LEU    74       9.668  27.518  14.556  1.00 10.86      new  H
+ATOM   1165 2HD2 LEU    74       9.334  26.069  15.563  1.00 10.86      new  H
+ATOM   1166 3HD2 LEU    74       8.164  27.431  15.533  1.00 10.86      new  H
+ATOM   1167  N   THR    75       6.970  25.707  20.050  1.00  6.96      1FKJ 713
+ATOM   1168  CA  THR    75       6.839  25.247  21.434  1.00  4.44      1FKJ 714
+ATOM   1169  C   THR    75       7.743  24.035  21.527  1.00  6.63      1FKJ 715
+ATOM   1170  O   THR    75       7.586  23.048  20.812  1.00  7.27      1FKJ 716
+ATOM   1171  CB  THR    75       5.374  24.875  21.747  1.00  6.53      1FKJ 717
+ATOM   1172  OG1 THR    75       4.643  26.083  21.582  1.00  6.75      1FKJ 718
+ATOM   1173  CG2 THR    75       5.169  24.306  23.154  1.00  5.47      1FKJ 719
+ATOM   1174  H   THR    75       6.541  25.101  19.380  1.00  6.96      new  H
+ATOM   1175  HA  THR    75       7.120  26.023  22.161  1.00  4.44      new  H
+ATOM   1176  HB  THR    75       5.037  24.071  21.076  1.00  6.53      new  H
+ATOM   1177  HG1 THR    75       4.438  26.219  20.613  1.00  6.75      new  H
+ATOM   1178 1HG2 THR    75       4.106  24.066  23.302  1.00  5.47      new  H
+ATOM   1179 2HG2 THR    75       5.770  23.392  23.272  1.00  5.47      new  H
+ATOM   1180 3HG2 THR    75       5.484  25.050  23.900  1.00  5.47      new  H
+ATOM   1181  N   ILE    76       8.697  24.071  22.441  1.00  5.40      1FKJ 720
+ATOM   1182  CA  ILE    76       9.771  23.100  22.459  1.00  5.39      1FKJ 721
+ATOM   1183  C   ILE    76       9.730  22.357  23.783  1.00  4.39      1FKJ 722
+ATOM   1184  O   ILE    76       9.757  22.993  24.845  1.00  4.77      1FKJ 723
+ATOM   1185  CB  ILE    76      11.095  23.889  22.261  1.00  4.70      1FKJ 724
+ATOM   1186  CG1 ILE    76      11.168  24.546  20.876  1.00  5.71      1FKJ 725
+ATOM   1187  CG2 ILE    76      12.240  22.911  22.392  1.00  4.35      1FKJ 726
+ATOM   1188  CD1 ILE    76      12.221  25.637  20.728  1.00  6.88      1FKJ 727
+ATOM   1189  H   ILE    76       8.746  24.754  23.169  1.00  5.40      new  H
+ATOM   1190  HA  ILE    76       9.680  22.349  21.661  1.00  5.39      new  H
+ATOM   1191  HB  ILE    76      11.147  24.687  23.017  1.00  4.70      new  H
+ATOM   1192 1HG1 ILE    76      11.366  23.764  20.128  1.00  5.71      new  H
+ATOM   1193 2HG1 ILE    76      10.183  24.975  20.640  1.00  5.71      new  H
+ATOM   1194 1HG2 ILE    76      13.194  23.442  22.256  1.00  4.35      new  H
+ATOM   1195 2HG2 ILE    76      12.217  22.450  23.390  1.00  4.35      new  H
+ATOM   1196 3HG2 ILE    76      12.144  22.128  21.625  1.00  4.35      new  H
+ATOM   1197 1HD1 ILE    76      12.191  26.040  19.705  1.00  6.88      new  H
+ATOM   1198 2HD1 ILE    76      12.016  26.445  21.446  1.00  6.88      new  H
+ATOM   1199 3HD1 ILE    76      13.217  25.215  20.926  1.00  6.88      new  H
+ATOM   1200  N   SER    77       9.654  21.032  23.726  1.00  4.74      1FKJ 728
+ATOM   1201  CA  SER    77       9.682  20.206  24.926  1.00  7.00      1FKJ 729
+ATOM   1202  C   SER    77      11.048  20.280  25.637  1.00  7.98      1FKJ 730
+ATOM   1203  O   SER    77      12.061  20.453  24.943  1.00  8.14      1FKJ 731
+ATOM   1204  CB  SER    77       9.367  18.791  24.485  1.00  8.02      1FKJ 732
+ATOM   1205  OG  SER    77      10.363  18.324  23.571  1.00  9.13      1FKJ 733
+ATOM   1206  H   SER    77       9.574  20.516  22.873  1.00  4.74      new  H
+ATOM   1207  HA  SER    77       8.943  20.564  25.659  1.00  7.00      new  H
+ATOM   1208 1HB  SER    77       8.377  18.760  24.007  1.00  8.02      new  H
+ATOM   1209 2HB  SER    77       9.323  18.127  25.361  1.00  8.02      new  H
+ATOM   1210  HG  SER    77      10.844  17.544  23.971  1.00  9.13      new  H
+ATOM   1211  N   PRO    78      11.200  20.069  26.965  1.00  7.08      1FKJ 734
+ATOM   1212  CA  PRO    78      12.469  20.196  27.680  1.00  6.65      1FKJ 735
+ATOM   1213  C   PRO    78      13.597  19.356  27.080  1.00  5.88      1FKJ 736
+ATOM   1214  O   PRO    78      14.753  19.741  27.029  1.00  6.64      1FKJ 737
+ATOM   1215  CB  PRO    78      12.148  19.776  29.078  1.00  8.04      1FKJ 738
+ATOM   1216  CG  PRO    78      10.698  20.059  29.217  1.00  8.01      1FKJ 739
+ATOM   1217  CD  PRO    78      10.115  19.718  27.865  1.00  8.06      1FKJ 740
+ATOM   1218  HA  PRO    78      12.856  21.224  27.620  1.00  6.65      new  H
+ATOM   1219 1HB  PRO    78      12.367  18.710  29.238  1.00  8.04      new  H
+ATOM   1220 2HB  PRO    78      12.740  20.340  29.814  1.00  8.04      new  H
+ATOM   1221 1HG  PRO    78      10.246  19.450  30.014  1.00  8.01      new  H
+ATOM   1222 2HG  PRO    78      10.519  21.113  29.476  1.00  8.01      new  H
+ATOM   1223 1HD  PRO    78       9.847  18.654  27.790  1.00  8.06      new  H
+ATOM   1224 2HD  PRO    78       9.203  20.295  27.654  1.00  8.06      new  H
+ATOM   1225  N   ASP    79      13.344  18.157  26.595  1.00  7.55      1FKJ 741
+ATOM   1226  CA  ASP    79      14.403  17.329  26.017  1.00 10.36      1FKJ 742
+ATOM   1227  C   ASP    79      15.018  17.926  24.744  1.00 10.36      1FKJ 743
+ATOM   1228  O   ASP    79      16.148  17.619  24.357  1.00  8.00      1FKJ 744
+ATOM   1229  CB  ASP    79      13.845  15.909  25.742  1.00 14.59      1FKJ 745
+ATOM   1230  CG  ASP    79      12.562  15.796  24.900  1.00 18.15      1FKJ 746
+ATOM   1231  OD1 ASP    79      11.613  16.533  25.143  1.00 19.47      1FKJ 747
+ATOM   1232  OD2 ASP    79      12.500  14.932  24.025  1.00 20.02      1FKJ 748
+ATOM   1233  H   ASP    79      12.437  17.736  26.586  1.00  7.55      new  H
+ATOM   1234  HA  ASP    79      15.222  17.282  26.750  1.00 10.36      new  H
+ATOM   1235 1HB  ASP    79      14.632  15.327  25.240  1.00 14.59      new  H
+ATOM   1236 2HB  ASP    79      13.657  15.425  26.712  1.00 14.59      new  H
+ATOM   1237  N   TYR    80      14.279  18.815  24.086  1.00  8.08      1FKJ 749
+ATOM   1238  CA  TYR    80      14.781  19.454  22.891  1.00  7.23      1FKJ 750
+ATOM   1239  C   TYR    80      15.313  20.841  23.240  1.00  7.21      1FKJ 751
+ATOM   1240  O   TYR    80      15.612  21.631  22.340  1.00  6.10      1FKJ 752
+ATOM   1241  CB  TYR    80      13.631  19.512  21.839  1.00  6.97      1FKJ 753
+ATOM   1242  CG  TYR    80      13.558  18.225  21.036  1.00  9.39      1FKJ 754
+ATOM   1243  CD1 TYR    80      13.284  17.036  21.674  1.00 10.52      1FKJ 755
+ATOM   1244  CD2 TYR    80      13.856  18.229  19.694  1.00 11.02      1FKJ 756
+ATOM   1245  CE1 TYR    80      13.331  15.844  20.979  1.00 12.31      1FKJ 757
+ATOM   1246  CE2 TYR    80      13.904  17.036  18.996  1.00 12.40      1FKJ 758
+ATOM   1247  CZ  TYR    80      13.650  15.849  19.648  1.00 13.29      1FKJ 759
+ATOM   1248  OH  TYR    80      13.772  14.640  18.992  1.00 15.74      1FKJ 760
+ATOM   1249  H   TYR    80      13.359  19.096  24.358  1.00  8.08      new  H
+ATOM   1250  HA  TYR    80      15.616  18.883  22.459  1.00  7.23      new  H
+ATOM   1251 1HB  TYR    80      12.672  19.685  22.349  1.00  6.97      new  H
+ATOM   1252 2HB  TYR    80      13.793  20.363  21.161  1.00  6.97      new  H
+ATOM   1253  HD1 TYR    80      13.026  17.036  22.743  1.00 10.52      new  H
+ATOM   1254  HD2 TYR    80      14.056  19.179  19.177  1.00 11.02      new  H
+ATOM   1255  HE1 TYR    80      13.113  14.896  21.492  1.00 12.31      new  H
+ATOM   1256  HE2 TYR    80      14.144  17.035  17.923  1.00 12.40      new  H
+ATOM   1257  HH  TYR    80      14.005  14.802  18.033  1.00 15.74      new  H
+ATOM   1258  N   ALA    81      15.428  21.145  24.537  1.00  6.45      1FKJ 761
+ATOM   1259  CA  ALA    81      15.918  22.421  25.017  1.00  6.70      1FKJ 762
+ATOM   1260  C   ALA    81      16.797  22.160  26.247  1.00  6.14      1FKJ 763
+ATOM   1261  O   ALA    81      17.803  21.462  26.109  1.00  5.49      1FKJ 764
+ATOM   1262  CB  ALA    81      14.752  23.336  25.396  1.00  6.58      1FKJ 765
+ATOM   1263  H   ALA    81      15.183  20.510  25.269  1.00  6.45      new  H
+ATOM   1264  HA  ALA    81      16.498  22.919  24.227  1.00  6.70      new  H
+ATOM   1265 1HB  ALA    81      15.143  24.298  25.758  1.00  6.58      new  H
+ATOM   1266 2HB  ALA    81      14.117  23.507  24.514  1.00  6.58      new  H
+ATOM   1267 3HB  ALA    81      14.156  22.862  26.190  1.00  6.58      new  H
+ATOM   1268  N   TYR    82      16.531  22.585  27.480  1.00  5.90      1FKJ 766
+ATOM   1269  CA  TYR    82      17.497  22.447  28.574  1.00  6.32      1FKJ 767
+ATOM   1270  C   TYR    82      17.203  21.352  29.596  1.00  5.49      1FKJ 768
+ATOM   1271  O   TYR    82      17.842  21.274  30.662  1.00  7.75      1FKJ 769
+ATOM   1272  CB  TYR    82      17.628  23.830  29.251  1.00  5.39      1FKJ 770
+ATOM   1273  CG  TYR    82      18.088  24.882  28.239  1.00  7.37      1FKJ 771
+ATOM   1274  CD1 TYR    82      19.381  24.882  27.755  1.00  7.43      1FKJ 772
+ATOM   1275  CD2 TYR    82      17.173  25.814  27.792  1.00  6.60      1FKJ 773
+ATOM   1276  CE1 TYR    82      19.747  25.827  26.815  1.00  8.58      1FKJ 774
+ATOM   1277  CE2 TYR    82      17.533  26.752  26.853  1.00  9.04      1FKJ 775
+ATOM   1278  CZ  TYR    82      18.817  26.750  26.372  1.00  8.12      1FKJ 776
+ATOM   1279  OH  TYR    82      19.155  27.688  25.418  1.00  8.49      1FKJ 777
+ATOM   1280  H   TYR    82      15.670  23.020  27.744  1.00  5.90      new  H
+ATOM   1281  HA  TYR    82      18.445  22.111  28.127  1.00  6.32      new  H
+ATOM   1282 1HB  TYR    82      16.661  24.126  29.683  1.00  5.39      new  H
+ATOM   1283 2HB  TYR    82      18.347  23.772  30.081  1.00  5.39      new  H
+ATOM   1284  HD1 TYR    82      20.110  24.140  28.113  1.00  7.43      new  H
+ATOM   1285  HD2 TYR    82      16.148  25.806  28.190  1.00  6.60      new  H
+ATOM   1286  HE1 TYR    82      20.774  25.845  26.421  1.00  8.58      new  H
+ATOM   1287  HE2 TYR    82      16.803  27.492  26.494  1.00  9.04      new  H
+ATOM   1288  HH  TYR    82      18.362  28.265  25.222  1.00  8.49      new  H
+ATOM   1289  N   GLY    83      16.209  20.513  29.259  1.00  4.42      1FKJ 778
+ATOM   1290  CA  GLY    83      15.831  19.311  29.997  1.00  5.21      1FKJ 779
+ATOM   1291  C   GLY    83      15.632  19.518  31.491  1.00  5.09      1FKJ 780
+ATOM   1292  O   GLY    83      15.075  20.504  31.993  1.00  5.72      1FKJ 781
+ATOM   1293  H   GLY    83      15.641  20.662  28.450  1.00  4.42      new  H
+ATOM   1294 1HA  GLY    83      14.899  18.912  29.569  1.00  5.21      new  H
+ATOM   1295 2HA  GLY    83      16.607  18.546  29.847  1.00  5.21      new  H
+ATOM   1296  N   ALA    84      16.125  18.525  32.226  1.00  5.97      1FKJ 782
+ATOM   1297  CA  ALA    84      15.997  18.540  33.659  1.00  6.47      1FKJ 783
+ATOM   1298  C   ALA    84      16.904  19.558  34.364  1.00  6.66      1FKJ 784
+ATOM   1299  O   ALA    84      16.709  19.801  35.563  1.00  7.50      1FKJ 785
+ATOM   1300  CB  ALA    84      16.282  17.106  34.167  1.00  4.83      1FKJ 786
+ATOM   1301  H   ALA    84      16.601  17.728  31.854  1.00  5.97      new  H
+ATOM   1302  HA  ALA    84      14.975  18.864  33.906  1.00  6.47      new  H
+ATOM   1303 1HB  ALA    84      16.193  17.080  35.263  1.00  4.83      new  H
+ATOM   1304 2HB  ALA    84      15.556  16.408  33.724  1.00  4.83      new  H
+ATOM   1305 3HB  ALA    84      17.300  16.809  33.876  1.00  4.83      new  H
+ATOM   1306  N   THR    85      17.909  20.127  33.696  1.00  5.80      1FKJ 787
+ATOM   1307  CA  THR    85      18.823  21.038  34.369  1.00  5.64      1FKJ 788
+ATOM   1308  C   THR    85      18.258  22.446  34.325  1.00  5.08      1FKJ 789
+ATOM   1309  O   THR    85      18.231  23.156  35.327  1.00  6.16      1FKJ 790
+ATOM   1310  CB  THR    85      20.213  21.042  33.673  1.00  6.37      1FKJ 791
+ATOM   1311  OG1 THR    85      20.632  19.695  33.635  1.00  5.64      1FKJ 792
+ATOM   1312  CG2 THR    85      21.268  21.927  34.397  1.00  6.23      1FKJ 793
+ATOM   1313  H   THR    85      18.101  19.977  32.726  1.00  5.80      new  H
+ATOM   1314  HA  THR    85      18.941  20.701  35.409  1.00  5.64      new  H
+ATOM   1315  HB  THR    85      20.121  21.482  32.669  1.00  6.37      new  H
+ATOM   1316  HG1 THR    85      21.527  19.636  33.193  1.00  5.64      new  H
+ATOM   1317 1HG2 THR    85      22.222  21.882  33.851  1.00  6.23      new  H
+ATOM   1318 2HG2 THR    85      20.914  22.968  34.430  1.00  6.23      new  H
+ATOM   1319 3HG2 THR    85      21.415  21.558  35.423  1.00  6.23      new  H
+ATOM   1320  N   GLY    86      17.808  22.879  33.135  1.00  6.35      1FKJ 794
+ATOM   1321  CA  GLY    86      17.390  24.253  32.938  1.00  6.82      1FKJ 795
+ATOM   1322  C   GLY    86      18.599  25.060  32.496  1.00  7.31      1FKJ 796
+ATOM   1323  O   GLY    86      19.617  24.497  32.109  1.00  7.02      1FKJ 797
+ATOM   1324  H   GLY    86      17.731  22.302  32.322  1.00  6.35      new  H
+ATOM   1325 1HA  GLY    86      16.595  24.307  32.180  1.00  6.82      new  H
+ATOM   1326 2HA  GLY    86      16.974  24.664  33.870  1.00  6.82      new  H
+ATOM   1327  N   HIS    87      18.560  26.378  32.525  1.00  7.94      1FKJ 798
+ATOM   1328  CA  HIS    87      19.724  27.176  32.150  1.00  8.57      1FKJ 799
+ATOM   1329  C   HIS    87      19.956  28.087  33.350  1.00  9.93      1FKJ 800
+ATOM   1330  O   HIS    87      19.001  28.773  33.746  1.00  8.75      1FKJ 801
+ATOM   1331  CB  HIS    87      19.439  28.024  30.897  1.00  8.88      1FKJ 802
+ATOM   1332  CG  HIS    87      20.631  28.903  30.479  1.00 10.41      1FKJ 803
+ATOM   1333  ND1 HIS    87      21.653  28.550  29.700  1.00 10.35      1FKJ 804
+ATOM   1334  CD2 HIS    87      20.824  30.219  30.841  1.00  9.24      1FKJ 805
+ATOM   1335  CE1 HIS    87      22.448  29.587  29.580  1.00 10.10      1FKJ 806
+ATOM   1336  NE2 HIS    87      21.941  30.583  30.264  1.00 10.49      1FKJ 807
+ATOM   1337  H   HIS    87      17.759  26.911  32.796  1.00  7.94      new  H
+ATOM   1338  HA  HIS    87      20.593  26.546  31.909  1.00  8.57      new  H
+ATOM   1339 1HB  HIS    87      19.173  27.358  30.063  1.00  8.88      new  H
+ATOM   1340 2HB  HIS    87      18.566  28.666  31.087  1.00  8.88      new  H
+ATOM   1341  HD1 HIS    87      21.790  27.653  29.281  1.00 10.35      new  H
+ATOM   1342  HD2 HIS    87      20.175  30.835  31.481  1.00  9.24      new  H
+ATOM   1343  HE1 HIS    87      23.383  29.615  29.002  1.00 10.10      new  H
+ATOM   1345  N   PRO    88      21.146  28.161  33.957  1.00 11.18      1FKJ 808
+ATOM   1346  CA  PRO    88      21.364  28.768  35.256  1.00 13.44      1FKJ 809
+ATOM   1347  C   PRO    88      20.844  30.180  35.426  1.00 15.02      1FKJ 810
+ATOM   1348  O   PRO    88      21.102  31.090  34.632  1.00 15.40      1FKJ 811
+ATOM   1349  CB  PRO    88      22.876  28.674  35.484  1.00 12.80      1FKJ 812
+ATOM   1350  CG  PRO    88      23.441  28.475  34.127  1.00 12.27      1FKJ 813
+ATOM   1351  CD  PRO    88      22.386  27.555  33.504  1.00 12.28      1FKJ 814
+ATOM   1352  HA  PRO    88      20.776  28.228  36.013  1.00 13.44      new  H
+ATOM   1353 1HB  PRO    88      23.269  29.589  35.952  1.00 12.80      new  H
+ATOM   1354 2HB  PRO    88      23.130  27.837  36.151  1.00 12.80      new  H
+ATOM   1355 1HG  PRO    88      23.545  29.422  33.577  1.00 12.27      new  H
+ATOM   1356 2HG  PRO    88      24.436  28.008  34.155  1.00 12.27      new  H
+ATOM   1357 1HD  PRO    88      22.456  27.533  32.406  1.00 12.28      new  H
+ATOM   1358 2HD  PRO    88      22.488  26.517  33.853  1.00 12.28      new  H
+ATOM   1359  N   GLY    89      19.934  30.220  36.375  1.00 15.68      1FKJ 815
+ATOM   1360  CA  GLY    89      19.355  31.461  36.807  1.00 17.48      1FKJ 816
+ATOM   1361  C   GLY    89      18.459  32.090  35.777  1.00 17.74      1FKJ 817
+ATOM   1362  O   GLY    89      18.178  33.280  35.943  1.00 19.16      1FKJ 818
+ATOM   1363  H   GLY    89      19.588  29.413  36.853  1.00 15.68      new  H
+ATOM   1364 1HA  GLY    89      18.778  31.288  37.728  1.00 17.48      new  H
+ATOM   1365 2HA  GLY    89      20.161  32.165  37.060  1.00 17.48      new  H
+ATOM   1366  N   ILE    90      18.017  31.389  34.728  1.00 13.89      1FKJ 819
+ATOM   1367  CA  ILE    90      17.087  31.985  33.765  1.00 14.01      1FKJ 820
+ATOM   1368  C   ILE    90      15.946  31.002  33.547  1.00 14.38      1FKJ 821
+ATOM   1369  O   ILE    90      14.761  31.382  33.624  1.00 16.12      1FKJ 822
+ATOM   1370  CB  ILE    90      17.735  32.290  32.353  1.00 14.54      1FKJ 823
+ATOM   1371  CG1 ILE    90      19.012  33.155  32.448  1.00 16.13      1FKJ 824
+ATOM   1372  CG2 ILE    90      16.711  33.044  31.497  1.00 12.60      1FKJ 825
+ATOM   1373  CD1 ILE    90      18.889  34.567  33.059  1.00 15.39      1FKJ 826
+ATOM   1374  H   ILE    90      18.277  30.444  34.530  1.00 13.89      new  H
+ATOM   1375  HA  ILE    90      16.758  32.946  34.187  1.00 14.01      new  H
+ATOM   1376  HB  ILE    90      18.017  31.324  31.909  1.00 14.54      new  H
+ATOM   1377 1HG1 ILE    90      19.754  32.596  33.038  1.00 16.13      new  H
+ATOM   1378 2HG1 ILE    90      19.422  33.262  31.433  1.00 16.13      new  H
+ATOM   1379 1HG2 ILE    90      17.147  33.264  30.511  1.00 12.60      new  H
+ATOM   1380 2HG2 ILE    90      15.811  32.424  31.370  1.00 12.60      new  H
+ATOM   1381 3HG2 ILE    90      16.439  33.986  31.995  1.00 12.60      new  H
+ATOM   1382 1HD1 ILE    90      19.875  35.055  33.058  1.00 15.39      new  H
+ATOM   1383 2HD1 ILE    90      18.184  35.165  32.463  1.00 15.39      new  H
+ATOM   1384 3HD1 ILE    90      18.520  34.489  34.092  1.00 15.39      new  H
+ATOM   1385  N   ILE    91      16.264  29.736  33.268  1.00 12.32      1FKJ 827
+ATOM   1386  CA  ILE    91      15.217  28.768  32.937  1.00 10.73      1FKJ 828
+ATOM   1387  C   ILE    91      15.186  27.655  33.975  1.00  8.98      1FKJ 829
+ATOM   1388  O   ILE    91      16.247  27.075  34.222  1.00  7.83      1FKJ 830
+ATOM   1389  CB  ILE    91      15.483  28.217  31.502  1.00  9.00      1FKJ 831
+ATOM   1390  CG1 ILE    91      15.301  29.365  30.487  1.00 10.45      1FKJ 832
+ATOM   1391  CG2 ILE    91      14.465  27.102  31.154  1.00  7.91      1FKJ 833
+ATOM   1392  CD1 ILE    91      15.723  29.011  29.076  1.00 10.01      1FKJ 834
+ATOM   1393  H   ILE    91      17.195  29.371  33.264  1.00 12.32      new  H
+ATOM   1394  HA  ILE    91      14.229  29.251  32.951  1.00 10.73      new  H
+ATOM   1395  HB  ILE    91      16.504  27.809  31.461  1.00  9.00      new  H
+ATOM   1396 1HG1 ILE    91      14.244  29.668  30.477  1.00 10.45      new  H
+ATOM   1397 2HG1 ILE    91      15.882  30.235  30.825  1.00 10.45      new  H
+ATOM   1398 1HG2 ILE    91      14.666  26.725  30.140  1.00  7.91      new  H
+ATOM   1399 2HG2 ILE    91      14.561  26.279  31.877  1.00  7.91      new  H
+ATOM   1400 3HG2 ILE    91      13.444  27.510  31.197  1.00  7.91      new  H
+ATOM   1401 1HD1 ILE    91      15.563  29.877  28.417  1.00 10.01      new  H
+ATOM   1402 2HD1 ILE    91      16.788  28.737  29.069  1.00 10.01      new  H
+ATOM   1403 3HD1 ILE    91      15.124  28.161  28.716  1.00 10.01      new  H
+ATOM   1404  N   PRO    92      14.039  27.346  34.603  1.00  7.78      1FKJ 835
+ATOM   1405  CA  PRO    92      13.898  26.276  35.572  1.00  7.97      1FKJ 836
+ATOM   1406  C   PRO    92      14.043  24.894  34.936  1.00  7.59      1FKJ 837
+ATOM   1407  O   PRO    92      13.900  24.760  33.705  1.00  5.55      1FKJ 838
+ATOM   1408  CB  PRO    92      12.529  26.506  36.192  1.00  7.64      1FKJ 839
+ATOM   1409  CG  PRO    92      11.768  27.066  35.026  1.00  9.63      1FKJ 840
+ATOM   1410  CD  PRO    92      12.774  28.058  34.446  1.00  7.90      1FKJ 841
+ATOM   1411  HA  PRO    92      14.693  26.293  36.332  1.00  7.97      new  H
+ATOM   1412 1HB  PRO    92      12.083  25.574  36.570  1.00  7.64      new  H
+ATOM   1413 2HB  PRO    92      12.569  27.209  37.037  1.00  7.64      new  H
+ATOM   1414 1HG  PRO    92      11.492  26.287  34.301  1.00  9.63      new  H
+ATOM   1415 2HG  PRO    92      10.836  27.559  35.340  1.00  9.63      new  H
+ATOM   1416 1HD  PRO    92      12.561  28.289  33.392  1.00  7.90      new  H
+ATOM   1417 2HD  PRO    92      12.770  29.013  34.992  1.00  7.90      new  H
+ATOM   1418  N   PRO    93      14.345  23.839  35.723  1.00  6.60      1FKJ 842
+ATOM   1419  CA  PRO    93      14.135  22.447  35.369  1.00  7.10      1FKJ 843
+ATOM   1420  C   PRO    93      12.795  22.138  34.698  1.00  6.19      1FKJ 844
+ATOM   1421  O   PRO    93      11.738  22.596  35.152  1.00  6.27      1FKJ 845
+ATOM   1422  CB  PRO    93      14.300  21.710  36.700  1.00  7.02      1FKJ 846
+ATOM   1423  CG  PRO    93      15.371  22.495  37.384  1.00  6.65      1FKJ 847
+ATOM   1424  CD  PRO    93      14.845  23.909  37.088  1.00  8.25      1FKJ 848
+ATOM   1425  HA  PRO    93      14.850  22.131  34.595  1.00  7.10      new  H
+ATOM   1426 1HB  PRO    93      13.366  21.702  37.281  1.00  7.02      new  H
+ATOM   1427 2HB  PRO    93      14.595  20.661  36.551  1.00  7.02      new  H
+ATOM   1428 1HG  PRO    93      15.435  22.281  38.461  1.00  6.65      new  H
+ATOM   1429 2HG  PRO    93      16.370  22.314  36.960  1.00  6.65      new  H
+ATOM   1430 1HD  PRO    93      14.049  24.194  37.791  1.00  8.25      new  H
+ATOM   1431 2HD  PRO    93      15.643  24.660  37.183  1.00  8.25      new  H
+ATOM   1432  N   HIS    94      12.844  21.273  33.677  1.00  6.39      1FKJ 849
+ATOM   1433  CA  HIS    94      11.682  20.676  33.003  1.00  8.34      1FKJ 850
+ATOM   1434  C   HIS    94      10.809  21.738  32.334  1.00  8.78      1FKJ 851
+ATOM   1435  O   HIS    94       9.579  21.611  32.305  1.00 11.50      1FKJ 852
+ATOM   1436  CB  HIS    94      10.789  19.859  34.004  1.00  9.42      1FKJ 853
+ATOM   1437  CG  HIS    94      11.600  18.802  34.739  1.00 10.46      1FKJ 854
+ATOM   1438  ND1 HIS    94      12.118  17.686  34.240  1.00 12.54      1FKJ 855
+ATOM   1439  CD2 HIS    94      11.994  18.917  36.050  1.00 11.70      1FKJ 856
+ATOM   1440  CE1 HIS    94      12.827  17.128  35.192  1.00 11.99      1FKJ 857
+ATOM   1441  NE2 HIS    94      12.751  17.875  36.275  1.00 12.75      1FKJ 858
+ATOM   1442  H   HIS    94      13.712  20.963  33.289  1.00  6.39      new  H
+ATOM   1443  HA  HIS    94      12.089  20.000  32.236  1.00  8.34      new  H
+ATOM   1444 1HB  HIS    94      10.331  20.544  34.732  1.00  9.42      new  H
+ATOM   1445 2HB  HIS    94       9.967  19.377  33.455  1.00  9.42      new  H
+ATOM   1447  HD2 HIS    94      11.729  19.715  36.759  1.00 11.70      new  H
+ATOM   1448  HE1 HIS    94      13.393  16.189  35.101  1.00 11.99      new  H
+ATOM   1449  HE2 HIS    94      13.206  17.674  37.143  1.00 12.75      new  H
+ATOM   1450  N   ALA    95      11.401  22.774  31.747  1.00  5.63      1FKJ 859
+ATOM   1451  CA  ALA    95      10.559  23.827  31.203  1.00  6.76      1FKJ 860
+ATOM   1452  C   ALA    95      10.247  23.696  29.718  1.00  8.56      1FKJ 861
+ATOM   1453  O   ALA    95      11.170  23.497  28.908  1.00  7.56      1FKJ 862
+ATOM   1454  CB  ALA    95      11.219  25.193  31.447  1.00  6.90      1FKJ 863
+ATOM   1455  H   ALA    95      12.387  22.901  31.642  1.00  5.63      new  H
+ATOM   1456  HA  ALA    95       9.599  23.733  31.731  1.00  6.76      new  H
+ATOM   1457 1HB  ALA    95      10.580  25.988  31.035  1.00  6.90      new  H
+ATOM   1458 2HB  ALA    95      11.348  25.351  32.528  1.00  6.90      new  H
+ATOM   1459 3HB  ALA    95      12.202  25.219  30.953  1.00  6.90      new  H
+ATOM   1460  N   THR    96       8.960  23.736  29.325  1.00  5.87      1FKJ 864
+ATOM   1461  CA  THR    96       8.645  23.845  27.906  1.00  7.65      1FKJ 865
+ATOM   1462  C   THR    96       8.851  25.319  27.503  1.00  7.56      1FKJ 866
+ATOM   1463  O   THR    96       8.474  26.234  28.252  1.00  5.96      1FKJ 867
+ATOM   1464  CB  THR    96       7.219  23.405  27.704  1.00  7.83      1FKJ 868
+ATOM   1465  OG1 THR    96       7.243  21.987  27.931  1.00 11.37      1FKJ 869
+ATOM   1466  CG2 THR    96       6.670  23.766  26.328  1.00  7.43      1FKJ 870
+ATOM   1467  H   THR    96       8.171  23.696  29.938  1.00  5.87      new  H
+ATOM   1468  HA  THR    96       9.290  23.209  27.282  1.00  7.65      new  H
+ATOM   1469  HB  THR    96       6.537  23.923  28.394  1.00  7.83      new  H
+ATOM   1470  HG1 THR    96       6.322  21.615  27.816  1.00 11.37      new  H
+ATOM   1471 1HG2 THR    96       5.630  23.419  26.245  1.00  7.43      new  H
+ATOM   1472 2HG2 THR    96       6.703  24.857  26.194  1.00  7.43      new  H
+ATOM   1473 3HG2 THR    96       7.280  23.283  25.551  1.00  7.43      new  H
+ATOM   1474  N   LEU    97       9.532  25.578  26.389  1.00  5.91      1FKJ 871
+ATOM   1475  CA  LEU    97       9.851  26.930  25.959  1.00  6.36      1FKJ 872
+ATOM   1476  C   LEU    97       9.005  27.332  24.746  1.00  8.03      1FKJ 873
+ATOM   1477  O   LEU    97       8.712  26.495  23.869  1.00  7.34      1FKJ 874
+ATOM   1478  CB  LEU    97      11.330  26.988  25.601  1.00  7.31      1FKJ 875
+ATOM   1479  CG  LEU    97      12.355  26.672  26.693  1.00  9.76      1FKJ 876
+ATOM   1480  CD1 LEU    97      13.742  26.923  26.126  1.00  8.91      1FKJ 877
+ATOM   1481  CD2 LEU    97      12.141  27.544  27.922  1.00 11.21      1FKJ 878
+ATOM   1482  H   LEU    97       9.870  24.867  25.773  1.00  5.91      new  H
+ATOM   1483  HA  LEU    97       9.628  27.633  26.775  1.00  6.36      new  H
+ATOM   1484 1HB  LEU    97      11.501  26.290  24.768  1.00  7.31      new  H
+ATOM   1485 2HB  LEU    97      11.544  27.998  25.223  1.00  7.31      new  H
+ATOM   1486  HG  LEU    97      12.241  25.623  27.003  1.00  9.76      new  H
+ATOM   1487 1HD1 LEU    97      14.498  26.702  26.894  1.00  8.91      new  H
+ATOM   1488 2HD1 LEU    97      13.905  26.273  25.254  1.00  8.91      new  H
+ATOM   1489 3HD1 LEU    97      13.828  27.976  25.819  1.00  8.91      new  H
+ATOM   1490 1HD2 LEU    97      12.892  27.293  28.686  1.00 11.21      new  H
+ATOM   1491 2HD2 LEU    97      12.243  28.603  27.643  1.00 11.21      new  H
+ATOM   1492 3HD2 LEU    97      11.134  27.367  28.327  1.00 11.21      new  H
+ATOM   1493  N   VAL    98       8.595  28.600  24.673  1.00  7.33      1FKJ 879
+ATOM   1494  CA  VAL    98       7.823  29.125  23.555  1.00  6.82      1FKJ 880
+ATOM   1495  C   VAL    98       8.655  30.221  22.929  1.00  7.54      1FKJ 881
+ATOM   1496  O   VAL    98       9.034  31.182  23.618  1.00  7.97      1FKJ 882
+ATOM   1497  CB  VAL    98       6.483  29.751  23.999  1.00  6.79      1FKJ 883
+ATOM   1498  CG1 VAL    98       5.685  30.294  22.788  1.00  6.52      1FKJ 884
+ATOM   1499  CG2 VAL    98       5.698  28.668  24.744  1.00  7.67      1FKJ 885
+ATOM   1500  H   VAL    98       8.789  29.279  25.381  1.00  7.33      new  H
+ATOM   1501  HA  VAL    98       7.595  28.298  22.867  1.00  6.82      new  H
+ATOM   1502  HB  VAL    98       6.664  30.613  24.658  1.00  6.79      new  H
+ATOM   1503 1HG1 VAL    98       4.739  30.732  23.138  1.00  6.52      new  H
+ATOM   1504 2HG1 VAL    98       6.277  31.065  22.274  1.00  6.52      new  H
+ATOM   1505 3HG1 VAL    98       5.471  29.471  22.090  1.00  6.52      new  H
+ATOM   1506 1HG2 VAL    98       4.733  29.078  25.077  1.00  7.67      new  H
+ATOM   1507 2HG2 VAL    98       5.521  27.815  24.072  1.00  7.67      new  H
+ATOM   1508 3HG2 VAL    98       6.275  28.332  25.618  1.00  7.67      new  H
+ATOM   1509  N   PHE    99       8.994  30.102  21.646  1.00  5.69      1FKJ 886
+ATOM   1510  CA  PHE    99       9.722  31.146  20.962  1.00  6.72      1FKJ 887
+ATOM   1511  C   PHE    99       8.878  31.791  19.871  1.00  8.25      1FKJ 888
+ATOM   1512  O   PHE    99       8.217  31.085  19.108  1.00  8.89      1FKJ 889
+ATOM   1513  CB  PHE    99      10.974  30.563  20.354  1.00  6.86      1FKJ 890
+ATOM   1514  CG  PHE    99      12.039  30.304  21.408  1.00  7.04      1FKJ 891
+ATOM   1515  CD1 PHE    99      12.095  29.074  22.036  1.00  7.96      1FKJ 892
+ATOM   1516  CD2 PHE    99      12.991  31.272  21.669  1.00  7.08      1FKJ 893
+ATOM   1517  CE1 PHE    99      13.116  28.808  22.920  1.00  7.34      1FKJ 894
+ATOM   1518  CE2 PHE    99      14.014  31.003  22.558  1.00  7.55      1FKJ 895
+ATOM   1519  CZ  PHE    99      14.067  29.770  23.173  1.00  6.70      1FKJ 896
+ATOM   1520  H   PHE    99       8.777  29.307  21.080  1.00  5.69      new  H
+ATOM   1521  HA  PHE    99       9.981  31.924  21.695  1.00  6.72      new  H
+ATOM   1522 1HB  PHE    99      10.729  29.622  19.839  1.00  6.86      new  H
+ATOM   1523 2HB  PHE    99      11.369  31.252  19.593  1.00  6.86      new  H
+ATOM   1524  HD1 PHE    99      11.328  28.312  21.831  1.00  7.96      new  H
+ATOM   1525  HD2 PHE    99      12.934  32.251  21.171  1.00  7.08      new  H
+ATOM   1526  HE1 PHE    99      13.172  27.831  23.422  1.00  7.34      new  H
+ATOM   1527  HE2 PHE    99      14.778  31.765  22.773  1.00  7.55      new  H
+ATOM   1528  HZ  PHE    99      14.883  29.552  23.878  1.00  6.70      new  H
+ATOM   1529  N   ASP   100       8.811  33.118  19.820  1.00  7.75      1FKJ 897
+ATOM   1530  CA  ASP   100       8.166  33.835  18.727  1.00  7.51      1FKJ 898
+ATOM   1531  C   ASP   100       9.335  34.122  17.779  1.00  6.16      1FKJ 899
+ATOM   1532  O   ASP   100      10.167  34.977  18.078  1.00  6.83      1FKJ 900
+ATOM   1533  CB  ASP   100       7.546  35.136  19.282  1.00  7.97      1FKJ 901
+ATOM   1534  CG  ASP   100       6.831  36.018  18.279  1.00 10.66      1FKJ 902
+ATOM   1535  OD1 ASP   100       7.138  35.972  17.098  1.00  9.41      1FKJ 903
+ATOM   1536  OD2 ASP   100       5.969  36.782  18.686  1.00 13.43      1FKJ 904
+ATOM   1537  H   ASP   100       9.196  33.715  20.524  1.00  7.75      new  H
+ATOM   1538  HA  ASP   100       7.351  33.289  18.230  1.00  7.51      new  H
+ATOM   1539 1HB  ASP   100       6.834  34.868  20.076  1.00  7.97      new  H
+ATOM   1540 2HB  ASP   100       8.346  35.726  19.753  1.00  7.97      new  H
+ATOM   1541  N   VAL   101       9.417  33.470  16.639  1.00  5.47      1FKJ 905
+ATOM   1542  CA  VAL   101      10.554  33.600  15.741  1.00  6.32      1FKJ 906
+ATOM   1543  C   VAL   101      10.099  34.154  14.385  1.00  6.89      1FKJ 907
+ATOM   1544  O   VAL   101       9.070  33.741  13.836  1.00  4.74      1FKJ 908
+ATOM   1545  CB  VAL   101      11.206  32.183  15.589  1.00  8.51      1FKJ 909
+ATOM   1546  CG1 VAL   101      12.411  32.277  14.648  1.00  8.42      1FKJ 910
+ATOM   1547  CG2 VAL   101      11.730  31.652  16.914  1.00  7.12      1FKJ 911
+ATOM   1548  H   VAL   101       8.710  32.844  16.310  1.00  5.47      new  H
+ATOM   1549  HA  VAL   101      11.293  34.306  16.147  1.00  6.32      new  H
+ATOM   1550  HB  VAL   101      10.426  31.511  15.203  1.00  8.51      new  H
+ATOM   1551 1HG1 VAL   101      12.871  31.284  14.540  1.00  8.42      new  H
+ATOM   1552 2HG1 VAL   101      12.080  32.637  13.663  1.00  8.42      new  H
+ATOM   1553 3HG1 VAL   101      13.149  32.978  15.065  1.00  8.42      new  H
+ATOM   1554 1HG2 VAL   101      12.177  30.659  16.760  1.00  7.12      new  H
+ATOM   1555 2HG2 VAL   101      12.492  32.340  17.310  1.00  7.12      new  H
+ATOM   1556 3HG2 VAL   101      10.900  31.573  17.632  1.00  7.12      new  H
+ATOM   1557  N   GLU   102      10.858  35.071  13.811  1.00  6.46      1FKJ 912
+ATOM   1558  CA  GLU   102      10.583  35.619  12.507  1.00  9.32      1FKJ 913
+ATOM   1559  C   GLU   102      11.793  35.294  11.652  1.00  8.95      1FKJ 914
+ATOM   1560  O   GLU   102      12.891  35.721  12.021  1.00  7.28      1FKJ 915
+ATOM   1561  CB  GLU   102      10.392  37.122  12.639  1.00 12.60      1FKJ 916
+ATOM   1562  CG  GLU   102       9.930  37.715  11.349  1.00 19.44      1FKJ 917
+ATOM   1563  CD  GLU   102       9.290  39.084  11.491  1.00 22.53      1FKJ 918
+ATOM   1564  OE1 GLU   102       9.947  39.996  11.977  1.00 25.35      1FKJ 919
+ATOM   1565  OE2 GLU   102       8.125  39.235  11.118  1.00 26.47      1FKJ 920
+ATOM   1566  H   GLU   102      11.677  35.450  14.241  1.00  6.46      new  H
+ATOM   1567  HA  GLU   102       9.671  35.203  12.055  1.00  9.32      new  H
+ATOM   1568 1HB  GLU   102       9.657  37.335  13.429  1.00 12.60      new  H
+ATOM   1569 2HB  GLU   102      11.339  37.591  12.945  1.00 12.60      new  H
+ATOM   1570 1HG  GLU   102      10.788  37.792  10.665  1.00 19.44      new  H
+ATOM   1571 2HG  GLU   102       9.207  37.031  10.881  1.00 19.44      new  H
+ATOM   1572  N   LEU   103      11.661  34.558  10.551  1.00  7.86      1FKJ 921
+ATOM   1573  CA  LEU   103      12.807  34.254   9.718  1.00  9.11      1FKJ 922
+ATOM   1574  C   LEU   103      12.946  35.379   8.688  1.00 10.98      1FKJ 923
+ATOM   1575  O   LEU   103      12.188  35.466   7.712  1.00 10.56      1FKJ 924
+ATOM   1576  CB  LEU   103      12.608  32.906   9.032  1.00  7.61      1FKJ 925
+ATOM   1577  CG  LEU   103      13.725  32.511   8.035  1.00  9.31      1FKJ 926
+ATOM   1578  CD1 LEU   103      15.125  32.462   8.674  1.00  7.98      1FKJ 927
+ATOM   1579  CD2 LEU   103      13.325  31.172   7.461  1.00  9.23      1FKJ 928
+ATOM   1580  H   LEU   103      10.795  34.175  10.229  1.00  7.86      new  H
+ATOM   1581  HA  LEU   103      13.724  34.187  10.322  1.00  9.11      new  H
+ATOM   1582 1HB  LEU   103      12.533  32.126   9.804  1.00  7.61      new  H
+ATOM   1583 2HB  LEU   103      11.647  32.922   8.496  1.00  7.61      new  H
+ATOM   1584  HG  LEU   103      13.814  33.277   7.251  1.00  9.31      new  H
+ATOM   1585 1HD1 LEU   103      15.866  32.176   7.913  1.00  7.98      new  H
+ATOM   1586 2HD1 LEU   103      15.379  33.453   9.079  1.00  7.98      new  H
+ATOM   1587 3HD1 LEU   103      15.132  31.722   9.488  1.00  7.98      new  H
+ATOM   1588 1HD2 LEU   103      14.087  30.839   6.741  1.00  9.23      new  H
+ATOM   1589 2HD2 LEU   103      13.241  30.435   8.273  1.00  9.23      new  H
+ATOM   1590 3HD2 LEU   103      12.355  31.266   6.951  1.00  9.23      new  H
+ATOM   1591  N   LEU   104      13.933  36.249   8.896  1.00 10.47      1FKJ 929
+ATOM   1592  CA  LEU   104      14.075  37.426   8.057  1.00 11.64      1FKJ 930
+ATOM   1593  C   LEU   104      14.800  37.139   6.762  1.00 12.96      1FKJ 931
+ATOM   1594  O   LEU   104      14.374  37.686   5.743  1.00 12.46      1FKJ 932
+ATOM   1595  CB  LEU   104      14.838  38.555   8.787  1.00 11.59      1FKJ 933
+ATOM   1596  CG  LEU   104      14.395  38.978  10.183  1.00 12.22      1FKJ 934
+ATOM   1597  CD1 LEU   104      15.380  39.933  10.841  1.00 14.23      1FKJ 935
+ATOM   1598  CD2 LEU   104      13.065  39.646  10.053  1.00 13.68      1FKJ 936
+ATOM   1599  H   LEU   104      14.622  36.161   9.616  1.00 10.47      new  H
+ATOM   1600  HA  LEU   104      13.046  37.743   7.830  1.00 11.64      new  H
+ATOM   1601 1HB  LEU   104      15.893  38.251   8.854  1.00 11.59      new  H
+ATOM   1602 2HB  LEU   104      14.801  39.447   8.145  1.00 11.59      new  H
+ATOM   1603  HG  LEU   104      14.342  38.084  10.822  1.00 12.22      new  H
+ATOM   1604 1HD1 LEU   104      15.014  40.206  11.842  1.00 14.23      new  H
+ATOM   1605 2HD1 LEU   104      16.361  39.444  10.930  1.00 14.23      new  H
+ATOM   1606 3HD1 LEU   104      15.478  40.840  10.227  1.00 14.23      new  H
+ATOM   1607 1HD2 LEU   104      12.715  39.965  11.046  1.00 13.68      new  H
+ATOM   1608 2HD2 LEU   104      13.158  40.525   9.398  1.00 13.68      new  H
+ATOM   1609 3HD2 LEU   104      12.341  38.941   9.619  1.00 13.68      new  H
+ATOM   1610  N   LYS   105      15.841  36.321   6.722  1.00 14.72      1FKJ 937
+ATOM   1611  CA  LYS   105      16.643  36.165   5.524  1.00 18.13      1FKJ 938
+ATOM   1612  C   LYS   105      17.530  34.947   5.672  1.00 17.93      1FKJ 939
+ATOM   1613  O   LYS   105      17.761  34.471   6.789  1.00 16.97      1FKJ 940
+ATOM   1614  CB  LYS   105      17.451  37.461   5.384  1.00 22.54      1FKJ 941
+ATOM   1615  CG  LYS   105      18.401  37.760   4.241  1.00 28.05      1FKJ 942
+ATOM   1616  CD  LYS   105      18.993  39.147   4.522  1.00 31.63      1FKJ 943
+ATOM   1617  CE  LYS   105      19.635  39.219   5.919  1.00 34.61      1FKJ 944
+ATOM   1618  NZ  LYS   105      20.218  40.514   6.234  1.00 37.67      1FKJ 945
+ATOM   1619  H   LYS   105      16.143  35.764   7.496  1.00 14.72      new  H
+ATOM   1620  HA  LYS   105      16.036  36.004   4.621  1.00 18.13      new  H
+ATOM   1621 1HB  LYS   105      16.717  38.280   5.393  1.00 22.54      new  H
+ATOM   1622 2HB  LYS   105      18.045  37.551   6.306  1.00 22.54      new  H
+ATOM   1623 1HG  LYS   105      19.194  37.000   4.181  1.00 28.05      new  H
+ATOM   1624 2HG  LYS   105      17.871  37.748   3.277  1.00 28.05      new  H
+ATOM   1625 1HD  LYS   105      19.748  39.386   3.758  1.00 31.63      new  H
+ATOM   1626 2HD  LYS   105      18.202  39.907   4.442  1.00 31.63      new  H
+ATOM   1627 1HE  LYS   105      18.873  38.977   6.675  1.00 34.61      new  H
+ATOM   1628 2HE  LYS   105      20.417  38.448   5.993  1.00 34.61      new  H
+ATOM   1629 1HZ  LYS   105      20.614  40.487   7.152  1.00 37.67      new  H +
+ATOM   1630 2HZ  LYS   105      20.933  40.729   5.569  1.00 37.67      new  H +
+ATOM   1631 3HZ  LYS   105      19.508  41.217   6.198  1.00 37.67      new  H +
+ATOM   1632  N   LEU   106      18.000  34.427   4.553  1.00 17.09      1FKJ 946
+ATOM   1633  CA  LEU   106      18.969  33.359   4.507  1.00 18.38      1FKJ 947
+ATOM   1634  C   LEU   106      20.138  33.919   3.698  1.00 22.81      1FKJ 948
+ATOM   1635  O   LEU   106      19.939  34.519   2.617  1.00 22.41      1FKJ 949
+ATOM   1636  CB  LEU   106      18.391  32.150   3.811  1.00 16.67      1FKJ 950
+ATOM   1637  CG  LEU   106      17.228  31.424   4.472  1.00 17.92      1FKJ 951
+ATOM   1638  CD1 LEU   106      16.780  30.249   3.616  1.00 19.39      1FKJ 952
+ATOM   1639  CD2 LEU   106      17.674  30.887   5.822  1.00 17.94      1FKJ 953
+ATOM   1640  H   LEU   106      17.714  34.741   3.648  1.00 17.09      new  H
+ATOM   1641  HA  LEU   106      19.273  33.037   5.514  1.00 18.38      new  H
+ATOM   1642 1HB  LEU   106      18.064  32.464   2.809  1.00 16.67      new  H
+ATOM   1643 2HB  LEU   106      19.204  31.423   3.671  1.00 16.67      new  H
+ATOM   1644  HG  LEU   106      16.395  32.132   4.591  1.00 17.92      new  H
+ATOM   1645 1HD1 LEU   106      15.940  29.736   4.107  1.00 19.39      new  H
+ATOM   1646 2HD1 LEU   106      16.459  30.615   2.629  1.00 19.39      new  H
+ATOM   1647 3HD1 LEU   106      17.616  29.546   3.491  1.00 19.39      new  H
+ATOM   1648 1HD2 LEU   106      16.836  30.361   6.303  1.00 17.94      new  H
+ATOM   1649 2HD2 LEU   106      18.512  30.188   5.681  1.00 17.94      new  H
+ATOM   1650 3HD2 LEU   106      17.998  31.722   6.461  1.00 17.94      new  H
+ATOM   1651  N   GLU   107      21.314  33.757   4.309  1.00 25.53      1FKJ 954
+ATOM   1652  CA  GLU   107      22.619  34.153   3.802  1.00 30.47      1FKJ 955
+ATOM   1653  C   GLU   107      23.510  32.907   3.599  1.00 32.84      1FKJ 956
+ATOM   1654  O   GLU   107      24.678  33.027   3.232  1.00 35.92      1FKJ 957
+ATOM   1655  CB  GLU   107      23.300  35.081   4.793  1.00 30.35      1FKJ 958
+ATOM   1656  CG  GLU   107      22.573  36.389   5.053  1.00 32.65      1FKJ 959
+ATOM   1657  CD  GLU   107      23.216  37.279   6.115  1.00 33.53      1FKJ 960
+ATOM   1658  OE1 GLU   107      23.858  36.766   7.034  1.00 33.93      1FKJ 961
+ATOM   1659  OE2 GLU   107      23.058  38.497   6.030  1.00 34.89      1FKJ 962
+ATOM   1660  OXT GLU   107      23.058  31.783   3.813  1.00 35.48      1FKJ 963
+ATOM   1661  H   GLU   107      21.377  33.327   5.209  1.00 25.53      new  H
+ATOM   1662  HA  GLU   107      22.478  34.670   2.841  1.00 30.47      new  H
+ATOM   1663 1HB  GLU   107      23.418  34.549   5.748  1.00 30.35      new  H
+ATOM   1664 2HB  GLU   107      24.311  35.308   4.424  1.00 30.35      new  H
+ATOM   1665 1HG  GLU   107      22.513  36.952   4.110  1.00 32.65      new  H
+ATOM   1666 2HG  GLU   107      21.541  36.164   5.360  1.00 32.65      new  H
+TER    1666      GLU   107                                              1FKJ 964
+HETATM 1667  C1  FK5   108      19.949  28.568  21.857  1.00  6.98      1FKJ 965
+HETATM 1668  C2  FK5   108      18.568  29.218  21.970  1.00  6.27      1FKJ 966
+HETATM 1669  C3  FK5   108      17.964  29.385  20.574  1.00  6.51      1FKJ 967
+HETATM 1670  C4  FK5   108      18.601  30.521  19.741  1.00  6.40      1FKJ 968
+HETATM 1671  C5  FK5   108      18.415  31.830  20.474  1.00  5.73      1FKJ 969
+HETATM 1672  C6  FK5   108      19.035  31.693  21.862  1.00  4.15      1FKJ 970
+HETATM 1673  C8  FK5   108      17.851  30.621  23.859  1.00  5.94      1FKJ 971
+HETATM 1674  C9  FK5   108      17.676  31.834  24.546  1.00  6.76      1FKJ 972
+HETATM 1675  C10 FK5   108      18.801  32.356  25.503  1.00  5.82      1FKJ 973
+HETATM 1676  C11 FK5   108      19.456  31.256  26.382  1.00  7.78      1FKJ 974
+HETATM 1677  C12 FK5   108      20.815  31.750  26.990  1.00  9.19      1FKJ 975
+HETATM 1678  C13 FK5   108      21.717  32.449  25.922  1.00  9.10      1FKJ 976
+HETATM 1679  C14 FK5   108      20.920  33.571  25.237  1.00  9.26      1FKJ 977
+HETATM 1680  C15 FK5   108      21.593  34.502  24.165  1.00  8.63      1FKJ 978
+HETATM 1681  C16 FK5   108      22.372  33.745  23.045  1.00  8.27      1FKJ 979
+HETATM 1682  C17 FK5   108      22.953  34.547  21.834  1.00  9.32      1FKJ 980
+HETATM 1683  C18 FK5   108      24.421  35.099  22.062  1.00  9.14      1FKJ 981
+HETATM 1684  C19 FK5   108      25.460  33.954  21.902  1.00  9.94      1FKJ 982
+HETATM 1685  C20 FK5   108      25.966  33.352  23.026  1.00  9.31      1FKJ 983
+HETATM 1686  C21 FK5   108      27.014  32.209  23.143  1.00 10.82      1FKJ 984
+HETATM 1687  C22 FK5   108      26.232  30.858  23.278  1.00 10.37      1FKJ 985
+HETATM 1688  C23 FK5   108      26.069  30.036  21.976  1.00 10.41      1FKJ 986
+HETATM 1689  C24 FK5   108      24.856  29.092  22.033  1.00  9.24      1FKJ 987
+HETATM 1690  C25 FK5   108      23.440  29.778  22.123  1.00  8.06      1FKJ 988
+HETATM 1691  C26 FK5   108      22.356  28.681  22.369  1.00  7.84      1FKJ 989
+HETATM 1692  C27 FK5   108      22.556  27.857  23.672  1.00 10.03      1FKJ 990
+HETATM 1693  C28 FK5   108      22.729  26.520  23.525  1.00 10.40      1FKJ 991
+HETATM 1694  C29 FK5   108      23.355  25.568  24.559  1.00 13.26      1FKJ 992
+HETATM 1695  C30 FK5   108      22.523  24.253  24.438  1.00 13.98      1FKJ 993
+HETATM 1696  C31 FK5   108      23.130  23.136  25.286  1.00 14.91      1FKJ 994
+HETATM 1697  C32 FK5   108      24.607  22.941  24.866  1.00 15.37      1FKJ 995
+HETATM 1698  C33 FK5   108      25.466  24.221  25.017  1.00 14.96      1FKJ 996
+HETATM 1699  C34 FK5   108      24.853  25.370  24.176  1.00 13.98      1FKJ 997
+HETATM 1700  C35 FK5   108      18.475  30.707  27.445  1.00  6.91      1FKJ 998
+HETATM 1701  C36 FK5   108      22.005  35.668  21.322  1.00  9.15      1FKJ 999
+HETATM 1702  C37 FK5   108      25.928  33.684  20.437  1.00 10.56      1FKJ1000
+HETATM 1703  C38 FK5   108      27.922  32.514  24.417  1.00 11.18      1FKJ1001
+HETATM 1704  C39 FK5   108      28.894  31.377  24.743  1.00 14.89      1FKJ1002
+HETATM 1705  C40 FK5   108      29.736  30.826  23.846  1.00 14.73      1FKJ1003
+HETATM 1706  C41 FK5   108      23.047  30.603  20.842  1.00  7.88      1FKJ1004
+HETATM 1707  C42 FK5   108      22.464  28.537  25.044  1.00  6.75      1FKJ1005
+HETATM 1708  C43 FK5   108      24.070  32.136  26.629  1.00 13.04      1FKJ1006
+HETATM 1709  C44 FK5   108      21.810  36.765  25.210  1.00  8.77      1FKJ1007
+HETATM 1710  C45 FK5   108      21.434  21.447  25.907  1.00 15.72      1FKJ1008
+HETATM 1711  N7  FK5   108      18.444  30.544  22.615  1.00  5.19      1FKJ1009
+HETATM 1712  O1  FK5   108      21.027  29.295  22.381  1.00  8.14      1FKJ1010
+HETATM 1713  O2  FK5   108      20.133  27.538  21.287  1.00  8.71      1FKJ1011
+HETATM 1714  O3  FK5   108      17.438  29.618  24.457  1.00  6.75      1FKJ1012
+HETATM 1715  O4  FK5   108      16.721  32.566  24.306  1.00  6.94      1FKJ1013
+HETATM 1716  O5  FK5   108      19.784  32.946  24.608  1.00  8.22      1FKJ1014
+HETATM 1717  O6  FK5   108      18.277  33.391  26.367  1.00  5.34      1FKJ1015
+HETATM 1718  O7  FK5   108      22.924  33.019  26.551  1.00 10.93      1FKJ1016
+HETATM 1719  O8  FK5   108      22.457  35.505  24.791  1.00 10.18      1FKJ1017
+HETATM 1720  O9  FK5   108      25.973  30.364  24.376  1.00  9.44      1FKJ1018
+HETATM 1721  O10 FK5   108      24.910  28.163  20.936  1.00 12.91      1FKJ1019
+HETATM 1722  O11 FK5   108      22.382  21.937  24.951  1.00 14.51      1FKJ1020
+HETATM 1723  O12 FK5   108      25.184  21.863  25.625  1.00 18.43      1FKJ1021
+HETATM 1724  H2  FK5   108      18.053  28.513  22.639  1.00  6.27      new  H
+HETATM 1725 1H3  FK5   108      16.886  29.579  20.674  1.00  6.51      new  H
+HETATM 1726 2H3  FK5   108      18.071  28.438  20.025  1.00  6.51      new  H
+HETATM 1727 1H4  FK5   108      18.133  30.572  18.747  1.00  6.40      new  H
+HETATM 1728 2H4  FK5   108      19.671  30.322  19.583  1.00  6.40      new  H
+HETATM 1729 1H5  FK5   108      17.346  32.076  20.554  1.00  5.73      new  H
+HETATM 1730 2H5  FK5   108      18.893  32.651  19.920  1.00  5.73      new  H
+HETATM 1731 1H6  FK5   108      18.880  32.623  22.428  1.00  4.15      new  H
+HETATM 1732 2H6  FK5   108      20.122  31.551  21.768  1.00  4.15      new  H
+HETATM 1733  H11 FK5   108      19.698  30.402  25.732  1.00  7.78      new  H
+HETATM 1734 1H12 FK5   108      21.355  30.894  27.421  1.00  9.19      new  H
+HETATM 1735 2H12 FK5   108      20.614  32.451  27.813  1.00  9.19      new  H
+HETATM 1736  H13 FK5   108      22.028  31.700  25.179  1.00  9.10      new  H
+HETATM 1737  H14 FK5   108      20.726  34.271  26.063  1.00  9.26      new  H
+HETATM 1738  H15 FK5   108      20.750  35.003  23.665  1.00  8.63      new  H
+HETATM 1739 1H16 FK5   108      21.700  32.975  22.638  1.00  8.27      new  H
+HETATM 1740 2H16 FK5   108      23.211  33.219  23.525  1.00  8.27      new  H
+HETATM 1741  H17 FK5   108      23.027  33.793  21.037  1.00  9.32      new  H
+HETATM 1742 1H18 FK5   108      24.503  35.540  23.066  1.00  9.14      new  H
+HETATM 1743 2H18 FK5   108      24.635  35.901  21.340  1.00  9.14      new  H
+HETATM 1744  H20 FK5   108      25.574  33.732  23.981  1.00  9.31      new  H
+HETATM 1745  H21 FK5   108      27.670  32.139  22.263  1.00 10.82      new  H
+HETATM 1746 1H23 FK5   108      26.981  29.448  21.799  1.00 10.41      new  H
+HETATM 1747 2H23 FK5   108      25.958  30.722  21.123  1.00 10.41      new  H
+HETATM 1748  H24 FK5   108      24.950  28.569  22.996  1.00  9.24      new  H
+HETATM 1749  H25 FK5   108      23.493  30.494  22.956  1.00  8.06      new  H
+HETATM 1750  H26 FK5   108      22.459  27.967  21.538  1.00  7.84      new  H
+HETATM 1751  H28 FK5   108      22.390  26.075  22.578  1.00 10.40      new  H
+HETATM 1752  H29 FK5   108      23.333  25.934  25.596  1.00 13.26      new  H
+HETATM 1753 1H30 FK5   108      22.482  23.937  23.385  1.00 13.98      new  H
+HETATM 1754 2H30 FK5   108      21.488  24.440  24.759  1.00 13.98      new  H
+HETATM 1755  H31 FK5   108      23.087  23.361  26.362  1.00 14.91      new  H
+HETATM 1756  H32 FK5   108      24.605  22.698  23.793  1.00 15.37      new  H
+HETATM 1757 1H33 FK5   108      26.497  24.023  24.688  1.00 14.96      new  H
+HETATM 1758 2H33 FK5   108      25.518  24.516  26.075  1.00 14.96      new  H
+HETATM 1759 1H34 FK5   108      25.411  26.302  24.350  1.00 13.98      new  H
+HETATM 1760 2H34 FK5   108      24.939  25.138  23.104  1.00 13.98      new  H
+HETATM 1761 1H35 FK5   108      18.978  29.933  28.044  1.00  6.91      new  H
+HETATM 1762 2H35 FK5   108      17.598  30.271  26.945  1.00  6.91      new  H
+HETATM 1763 3H35 FK5   108      18.151  31.526  28.104  1.00  6.91      new  H
+HETATM 1764 1H36 FK5   108      22.475  36.188  20.474  1.00  9.15      new  H
+HETATM 1765 2H36 FK5   108      21.815  36.387  22.133  1.00  9.15      new  H
+HETATM 1766 3H36 FK5   108      21.053  35.223  20.996  1.00  9.15      new  H
+HETATM 1767 1H37 FK5   108      26.658  32.861  20.430  1.00 10.56      new  H
+HETATM 1768 2H37 FK5   108      26.396  34.592  20.028  1.00 10.56      new  H
+HETATM 1769 3H37 FK5   108      25.060  33.409  19.819  1.00 10.56      new  H
+HETATM 1770 1H38 FK5   108      27.274  32.696  25.287  1.00 11.18      new  H
+HETATM 1771 2H38 FK5   108      28.492  33.438  24.241  1.00 11.18      new  H
+HETATM 1772  H39 FK5   108      28.906  30.986  25.771  1.00 14.89      new  H
+HETATM 1773 1H40 FK5   108      29.751  31.192  22.809  1.00 14.73      new  H
+HETATM 1774 2H40 FK5   108      30.408  30.010  24.151  1.00 14.73      new  H
+HETATM 1775 1H41 FK5   108      22.051  31.048  20.983  1.00  7.88      new  H
+HETATM 1776 2H41 FK5   108      23.030  29.937  19.967  1.00  7.88      new  H
+HETATM 1777 3H41 FK5   108      23.785  31.402  20.679  1.00  7.88      new  H
+HETATM 1778 1H42 FK5   108      22.633  27.792  25.835  1.00  6.75      new  H
+HETATM 1779 2H42 FK5   108      21.465  28.981  25.167  1.00  6.75      new  H
+HETATM 1780 3H42 FK5   108      23.227  29.326  25.115  1.00  6.75      new  H
+HETATM 1781 1H43 FK5   108      24.906  32.662  27.113  1.00 13.04      new  H
+HETATM 1782 2H43 FK5   108      24.367  31.830  25.615  1.00 13.04      new  H
+HETATM 1783 3H43 FK5   108      23.808  31.245  27.219  1.00 13.04      new  H
+HETATM 1784 1H44 FK5   108      22.560  37.430  25.663  1.00  8.77      new  H
+HETATM 1785 2H44 FK5   108      21.023  36.546  25.946  1.00  8.77      new  H
+HETATM 1786 3H44 FK5   108      21.365  37.258  24.333  1.00  8.77      new  H
+HETATM 1787 1H45 FK5   108      20.951  20.541  25.514  1.00 15.72      new  H
+HETATM 1788 2H45 FK5   108      20.671  22.217  26.095  1.00 15.72      new  H
+HETATM 1789 3H45 FK5   108      21.952  21.207  26.848  1.00 15.72      new  H
+HETATM 1790  HO6 FK5   108      18.166  34.237  25.845  1.00  5.34      new  H
+HETATM 1791 0HO1 FK5   108      24.130  28.316  20.330  1.00 12.91      new  H
+HETATM 1792 2HO1 FK5   108      26.138  21.736  25.352  1.00 18.43      new  H
+HETATM 1793  O   HOH   109       8.188  36.359   2.493  1.00 15.95      1FKJ1022
+HETATM 1794  O   HOH   110       1.777  36.721   2.808  1.00 18.68      1FKJ1023
+HETATM 1795  O   HOH   111       3.968  35.378   2.697  1.00 43.67      1FKJ1024
+HETATM 1796  O   HOH   112       1.911  27.840   7.722  1.00 33.69      1FKJ1025
+HETATM 1797  O   HOH   113       5.495  38.110   7.142  1.00 28.74      1FKJ1026
+HETATM 1798  O   HOH   114      23.232  24.296  14.379  1.00  8.59      1FKJ1027
+HETATM 1799  O   HOH   115      21.365  21.415  17.333  1.00 14.38      1FKJ1028
+HETATM 1800  O   HOH   116      23.106  38.633  17.837  1.00 20.08      1FKJ1029
+HETATM 1801  O   HOH   117      10.238  14.899  22.502  1.00 25.59      1FKJ1030
+HETATM 1802  O   HOH   118      22.090  46.298  22.628  1.00 27.95      1FKJ1031
+HETATM 1803  O   HOH   119      24.811  35.580  26.016  1.00 19.12      1FKJ1032
+HETATM 1804  O   HOH   120       3.734  31.162  26.126  1.00 27.62      1FKJ1033
+HETATM 1805  O   HOH   121      14.096  23.771  28.794  1.00  6.37      1FKJ1034
+HETATM 1806  O   HOH   122      28.312  31.698  28.725  1.00 24.05      1FKJ1035
+HETATM 1807  O   HOH   123       4.908  34.799  37.682  1.00 46.90      1FKJ1036
+HETATM 1808  O   HOH   124      10.903  35.828  -6.286  1.00 48.37      1FKJ1037
+HETATM 1809  O   HOH   125      14.226  29.830  -6.242  1.00 55.64      1FKJ1038
+HETATM 1810  O   HOH   126      17.263  27.615   0.936  1.00 24.57      1FKJ1039
+HETATM 1811  O   HOH   127      16.569  35.162   2.046  1.00 29.99      1FKJ1040
+HETATM 1812  O   HOH   128       7.953  19.072   8.426  1.00 47.71      1FKJ1041
+HETATM 1813  O   HOH   129       5.452  39.426   9.598  1.00 49.85      1FKJ1042
+HETATM 1814  O   HOH   130      19.844  19.946  10.311  1.00 45.20      1FKJ1043
+HETATM 1815  O   HOH   131      19.346  42.452   8.931  1.00 50.39      1FKJ1044
+HETATM 1816  O   HOH   132      30.134  28.301  12.051  1.00 37.73      1FKJ1045
+HETATM 1817  O   HOH   133      27.599  44.178  18.830  1.00 52.48      1FKJ1046
+HETATM 1818  O   HOH   134      23.133  20.521  14.465  1.00 20.82      1FKJ1047
+HETATM 1819  O   HOH   135      13.162  47.622  19.877  1.00 53.97      1FKJ1048
+HETATM 1820  O   HOH   136      20.745  39.361  18.970  1.00 22.67      1FKJ1049
+HETATM 1821  O   HOH   137      31.911  32.233  20.817  1.00 26.60      1FKJ1050
+HETATM 1822  O   HOH   138      18.649  51.288  22.239  1.00 35.59      1FKJ1051
+HETATM 1823  O   HOH   139       6.981  38.809  30.714  1.00 26.11      1FKJ1052
+HETATM 1824  O   HOH   140      -5.229  43.410  27.826  1.00 53.82      1FKJ1053
+HETATM 1825  O   HOH   141      10.114  16.936  32.437  1.00 45.59      1FKJ1054
+HETATM 1826  O   HOH   142      14.541  23.162  31.364  1.00  6.46      1FKJ1055
+HETATM 1827  O   HOH   143       2.235  33.358  25.723  1.00 40.24      1FKJ1056
+HETATM 1828  O   HOH   144      14.022  34.250  33.577  1.00 28.52      1FKJ1057
+HETATM 1829  O   HOH   145      13.190  29.906  -3.433  1.00 36.21      1FKJ1058
+HETATM 1830  O   HOH   146       8.742  35.590  -2.276  1.00 32.33      1FKJ1059
+HETATM 1831  O   HOH   147       7.941  24.751  -1.579  1.00 29.64      1FKJ1060
+HETATM 1832  O   HOH   148      15.992  27.173  -1.382  1.00 42.23      1FKJ1061
+HETATM 1833  O   HOH   149      11.269  35.323  -1.491  1.00 34.58      1FKJ1062
+HETATM 1834  O   HOH   150      14.127  22.386   5.166  1.00 31.08      1FKJ1063
+HETATM 1835  O   HOH   151       3.031  30.081   2.693  1.00 27.09      1FKJ1064
+HETATM 1836  O   HOH   152       5.676  26.381   7.454  1.00 22.12      1FKJ1065
+HETATM 1837  O   HOH   153      26.072  31.097   5.042  1.00 36.33      1FKJ1066
+HETATM 1838  O   HOH   154       3.276  37.215   5.902  1.00 22.20      1FKJ1067
+HETATM 1839  O   HOH   155      10.079  19.705   6.740  1.00 28.86      1FKJ1068
+HETATM 1840  O   HOH   156      -1.220  32.781   8.408  1.00 39.66      1FKJ1069
+HETATM 1841  O   HOH   157      17.164  41.579   7.443  1.00 30.29      1FKJ1070
+HETATM 1842  O   HOH   158      21.750  26.572   7.719  1.00 30.19      1FKJ1071
+HETATM 1843  O   HOH   159      -0.454  37.662   8.530  1.00 34.40      1FKJ1072
+HETATM 1844  O   HOH   160       3.534  39.879  11.480  1.00 38.57      1FKJ1073
+HETATM 1845  O   HOH   161      23.029  15.633  14.212  1.00 43.43      1FKJ1074
+HETATM 1846  O   HOH   162      10.776  44.276  10.236  1.00 37.29      1FKJ1075
+HETATM 1847  O   HOH   163       2.685  26.074  10.699  1.00 26.62      1FKJ1076
+HETATM 1848  O   HOH   164      -4.859  36.093  11.320  1.00 42.92      1FKJ1077
+HETATM 1849  O   HOH   165      15.043  15.980  11.172  1.00 31.68      1FKJ1078
+HETATM 1850  O   HOH   166       2.130  22.785   7.546  1.00 34.43      1FKJ1079
+HETATM 1851  O   HOH   167      13.471  43.572  11.168  1.00 34.43      1FKJ1080
+HETATM 1852  O   HOH   168      18.404  12.927  12.733  1.00 32.47      1FKJ1081
+HETATM 1853  O   HOH   169      31.591  24.848  13.594  1.00 32.25      1FKJ1082
+HETATM 1854  O   HOH   170       0.829  39.762  11.085  1.00 41.83      1FKJ1083
+HETATM 1855  O   HOH   171      12.635  15.643  13.855  1.00 30.56      1FKJ1084
+HETATM 1856  O   HOH   172       7.554  19.422  14.169  1.00 25.60      1FKJ1085
+HETATM 1857  O   HOH   173       4.421  21.578  14.112  1.00 36.26      1FKJ1086
+HETATM 1858  O   HOH   174       9.343  39.730  14.488  1.00 25.82      1FKJ1087
+HETATM 1859  O   HOH   175      27.205  51.523  14.081  1.00 28.74      1FKJ1088
+HETATM 1860  O   HOH   176      29.271  31.655  20.250  1.00 37.78      1FKJ1089
+HETATM 1861  O   HOH   177      23.481  17.804  12.527  1.00 39.28      1FKJ1090
+HETATM 1862  O   HOH   178      28.660  19.586  15.737  1.00 35.53      1FKJ1091
+HETATM 1863  O   HOH   179      24.042  36.936  15.983  1.00 20.10      1FKJ1092
+HETATM 1864  O   HOH   180      26.025  34.067  16.420  1.00 43.83      1FKJ1093
+HETATM 1865  O   HOH   181      28.061  35.706  16.557  1.00 38.50      1FKJ1094
+HETATM 1866  O   HOH   182      10.044  17.993  14.489  1.00 34.55      1FKJ1095
+HETATM 1867  O   HOH   183      29.449  16.427  18.324  1.00 35.80      1FKJ1096
+HETATM 1868  O   HOH   184       1.374  22.302  16.596  1.00 39.51      1FKJ1097
+HETATM 1869  O   HOH   185       4.000  26.401  18.921  1.00 15.86      1FKJ1098
+HETATM 1870  O   HOH   186      25.135  31.275  16.226  1.00 28.48      1FKJ1099
+HETATM 1871  O   HOH   187      26.823  45.860  20.762  1.00 40.31      1FKJ1100
+HETATM 1872  O   HOH   188       6.352  37.826  21.479  1.00 27.02      1FKJ1101
+HETATM 1873  O   HOH   189      14.891  48.607  21.986  1.00 35.56      1FKJ1102
+HETATM 1874  O   HOH   190       6.236  20.722  21.987  1.00 23.54      1FKJ1103
+HETATM 1875  O   HOH   191       2.114  29.119  25.113  1.00 35.64      1FKJ1104
+HETATM 1876  O   HOH   192      18.435  19.394  24.057  1.00 13.16      1FKJ1105
+HETATM 1877  O   HOH   193      24.303  47.525  23.494  1.00 34.68      1FKJ1106
+HETATM 1878  O   HOH   194       4.315  21.299  24.137  1.00 44.05      1FKJ1107
+HETATM 1879  O   HOH   195      16.867  40.885  25.413  1.00 39.69      1FKJ1108
+HETATM 1880  O   HOH   196      13.621  12.577  22.468  1.00 37.48      1FKJ1109
+HETATM 1881  O   HOH   197      19.016  19.186  26.616  1.00 37.33      1FKJ1110
+HETATM 1882  O   HOH   198      27.311  25.340  28.383  1.00 30.85      1FKJ1111
+HETATM 1883  O   HOH   199      22.754  26.752  27.985  1.00 30.10      1FKJ1112
+HETATM 1884  O   HOH   200      17.826  37.803  29.199  1.00 34.71      1FKJ1113
+HETATM 1885  O   HOH   201      21.976  18.609  31.837  1.00 48.09      1FKJ1114
+HETATM 1886  O   HOH   202       7.376  23.055  31.673  1.00 24.98      1FKJ1115
+HETATM 1887  O   HOH   203       1.106  35.010  32.688  1.00 11.95      1FKJ1116
+HETATM 1888  O   HOH   204      18.836  21.922  37.800  1.00 15.31      1FKJ1117
+HETATM 1889  O   HOH   205      22.105  33.127  37.400  1.00 38.37      1FKJ1118
+CONECT 1667 1668 1712 1713                                              1FKJ1119
+CONECT 1668 1667 1669 1711                                              1FKJ1120
+CONECT 1669 1668 1670                                                   1FKJ1121
+CONECT 1670 1669 1671                                                   1FKJ1122
+CONECT 1671 1670 1672                                                   1FKJ1123
+CONECT 1672 1671 1711                                                   1FKJ1124
+CONECT 1673 1674 1711 1714                                              1FKJ1125
+CONECT 1674 1673 1675 1715                                              1FKJ1126
+CONECT 1675 1674 1676 1716 1717                                         1FKJ1127
+CONECT 1676 1675 1677 1700                                              1FKJ1128
+CONECT 1677 1676 1678                                                   1FKJ1129
+CONECT 1678 1677 1679 1718                                              1FKJ1130
+CONECT 1679 1678 1680 1716                                              1FKJ1131
+CONECT 1680 1679 1681 1719                                              1FKJ1132
+CONECT 1681 1680 1682                                                   1FKJ1133
+CONECT 1682 1681 1683 1701                                              1FKJ1134
+CONECT 1683 1682 1684                                                   1FKJ1135
+CONECT 1684 1683 1685 1702                                              1FKJ1136
+CONECT 1685 1684 1686                                                   1FKJ1137
+CONECT 1686 1685 1687 1703                                              1FKJ1138
+CONECT 1687 1686 1688 1720                                              1FKJ1139
+CONECT 1688 1687 1689                                                   1FKJ1140
+CONECT 1689 1688 1690 1721                                              1FKJ1141
+CONECT 1690 1689 1691 1706                                              1FKJ1142
+CONECT 1691 1690 1692 1712                                              1FKJ1143
+CONECT 1692 1691 1693 1707                                              1FKJ1144
+CONECT 1693 1692 1694                                                   1FKJ1145
+CONECT 1694 1693 1695 1699                                              1FKJ1146
+CONECT 1695 1694 1696                                                   1FKJ1147
+CONECT 1696 1695 1697 1722                                              1FKJ1148
+CONECT 1697 1696 1698 1723                                              1FKJ1149
+CONECT 1698 1697 1699                                                   1FKJ1150
+CONECT 1699 1694 1698                                                   1FKJ1151
+CONECT 1700 1676                                                        1FKJ1152
+CONECT 1701 1682                                                        1FKJ1153
+CONECT 1702 1684                                                        1FKJ1154
+CONECT 1703 1686 1704                                                   1FKJ1155
+CONECT 1704 1703 1705                                                   1FKJ1156
+CONECT 1705 1704                                                        1FKJ1157
+CONECT 1706 1690                                                        1FKJ1158
+CONECT 1707 1692                                                        1FKJ1159
+CONECT 1708 1718                                                        1FKJ1160
+CONECT 1709 1719                                                        1FKJ1161
+CONECT 1710 1722                                                        1FKJ1162
+CONECT 1711 1668 1672 1673                                              1FKJ1163
+CONECT 1712 1667 1691                                                   1FKJ1164
+CONECT 1713 1667                                                        1FKJ1165
+CONECT 1714 1673                                                        1FKJ1166
+CONECT 1715 1674                                                        1FKJ1167
+CONECT 1716 1675 1679                                                   1FKJ1168
+CONECT 1717 1675                                                        1FKJ1169
+CONECT 1718 1678 1708                                                   1FKJ1170
+CONECT 1719 1680 1709                                                   1FKJ1171
+CONECT 1720 1687                                                        1FKJ1172
+CONECT 1721 1689                                                        1FKJ1173
+CONECT 1722 1696 1710                                                   1FKJ1174
+CONECT 1723 1697                                                        1FKJ1175
+END                                                                     1FKJ1177

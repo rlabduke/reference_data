@@ -1,0 +1,1707 @@
+USER  MOD reduceV2.13.2 H: found=292, std=290, add=529, rem=0, adj=25
+HEADER    CELL ADHESION PROTEIN                   28-AUG-92   1TEN      1TEN   2
+COMPND    TENASCIN (THIRD FIBRONECTIN TYPE III REPEAT)                  1TEN   3
+SOURCE    HUMAN (HOMO SAPIENS) RECOMBINANT FORM EXPRESSED               1TEN   4
+SOURCE   2 IN (ESCHERICHIA COLI)                                        1TEN   5
+AUTHOR    D.J.LEAHY,W.A.HENDRICKSON,I.AUKHIL,H.P.ERICKSON               1TEN   6
+REVDAT   1   31-OCT-93 1TEN    0                                        1TEN   7
+JRNL        AUTH   D.J.LEAHY,W.A.HENDRICKSON,I.AUKHIL,H.P.ERICKSON      1TEN   8
+JRNL        TITL   STRUCTURE OF A FIBRONECTIN TYPE III DOMAIN FROM      1TEN   9
+JRNL        TITL 2 TENASCIN PHASED BY MAD ANALYSIS OF THE               1TEN  10
+JRNL        TITL 3 SELENOMETHIONYL PROTEIN                              1TEN  11
+JRNL        REF    SCIENCE                       V. 258   987 1992      1TEN  12
+JRNL        REFN   ASTM SCIEAS  US ISSN 0036-8075                  038  1TEN  13
+REMARK   1                                                              1TEN  14
+REMARK   2                                                              1TEN  15
+REMARK   2 RESOLUTION. 1.8  ANGSTROMS.                                  1TEN  16
+REMARK   3                                                              1TEN  17
+REMARK   3 REFINEMENT.                                                  1TEN  18
+REMARK   3   PROGRAM                    X-PLOR                          1TEN  19
+REMARK   3   AUTHORS                    BRUNGER                         1TEN  20
+REMARK   3   R VALUE                    0.196                           1TEN  21
+REMARK   3   RMSD BOND DISTANCES        0.012  ANGSTROMS                1TEN  22
+REMARK   3   RMSD BOND ANGLES           2.9    DEGREES                  1TEN  23
+REMARK   3                                                              1TEN  24
+REMARK   3   RESOLUTION RANGE      10.0 - 1.8  ANGSTROMS                1TEN  25
+REMARK   3   DATA CUTOFF                2.0    SIGMA(F)                 1TEN  26
+REMARK   3                                                              1TEN  27
+REMARK   3   NUMBER OF PROTEIN ATOMS                        715         1TEN  28
+REMARK   3   NUMBER OF SOLVENT ATOMS                         74         1TEN  29
+REMARK   4                                                              1TEN  30
+REMARK   4 RESIDUE 802 HAS ATOMS MISSING.                               1TEN  31
+REMARK   5                                                              1TEN  32
+REMARK   5 THREE WATER MOLECULES, 937, 959, AND 961 LIE ON SYMMETRY     1TEN  33
+REMARK   5 ELEMENTS.                                                    1TEN  34
+REMARK   6                                                              1TEN  35
+REMARK   6 RESIDUES ARE NUMBERED ACCORDING TO NIES ET AL. (1991),       1TEN  36
+REMARK   6 J. BIOL. CHEM., 266, P. 2818.                                1TEN  37
+REMARK   7                                                              1TEN  38
+REMARK   7 CHAIN STARTS WITH CARBONYL GROUP OF ARG 802 AND ENDS WITH    1TEN  39
+REMARK   7 THR 891.                                                     1TEN  40
+SEQRES   1     90  ARG LEU ASP ALA PRO SER GLN ILE GLU VAL LYS ASP VAL  1TEN  41
+SEQRES   2     90  THR ASP THR THR ALA LEU ILE THR TRP PHE LYS PRO LEU  1TEN  42
+SEQRES   3     90  ALA GLU ILE ASP GLY ILE GLU LEU THR TYR GLY ILE LYS  1TEN  43
+SEQRES   4     90  ASP VAL PRO GLY ASP ARG THR THR ILE ASP LEU THR GLU  1TEN  44
+SEQRES   5     90  ASP GLU ASN GLN TYR SER ILE GLY ASN LEU LYS PRO ASP  1TEN  45
+SEQRES   6     90  THR GLU TYR GLU VAL SER LEU ILE SER ARG ARG GLY ASP  1TEN  46
+SEQRES   7     90  MET SER SER ASN PRO ALA LYS GLU THR PHE THR THR      1TEN  47
+FTNOTE   1                                                              1TEN  48
+FTNOTE   1 RESIDUES 841, 871, 880, 888, AND 890 ARE DISORDERED.         1TEN  49
+FORMUL   2  HOH   *74(H2 O1)                                            1TEN  50
+CRYST1   49.780   49.780   71.040  90.00  90.00  90.00 P 43 21 2     8  1TEN  51
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1TEN  52
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1TEN  53
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1TEN  54
+SCALE1      0.020088  0.000000  0.000000        0.00000                 1TEN  55
+SCALE2      0.000000  0.020088  0.000000        0.00000                 1TEN  56
+SCALE3      0.000000  0.000000  0.014077        0.00000                 1TEN  57
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Set 1.1:  836 THR OG1 :   rot  -88:sc=    1.66
+USER  MOD Set 1.2:  848 THR OG1 :   rot   89:sc=    2.29
+USER  MOD Set 2.1:  815 THR OG1 :   rot  -94:sc=    1.26
+USER  MOD Set 2.2:  818 THR OG1 :   rot  112:sc=    2.31
+USER  MOD Set 3.1:  840 LYS NZ  :NH3+    179:sc=  -0.277   (180deg=-0.296)
+USER  MOD Set 3.2:  888 THR OG1A:   rot  178:sc=   0.184
+USER  MOD Set 4.1:  875 SER OG  :   rot  154:sc=  0.0547
+USER  MOD Set 4.2:  882 SER OG  :   rot   78:sc=    1.26
+USER  MOD Single :  807 SER OG  :   rot   94:sc=   0.182
+USER  MOD Single :  808 GLN     :      amide:sc=  -0.248  X(o=-0.25,f=0)
+USER  MOD Single :  812 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :  817 THR OG1 :   rot  -69:sc=    1.23
+USER  MOD Single :  822 THR OG1 :   rot  -80:sc=  -0.434
+USER  MOD Single :  825 LYS NZ  :NH3+    171:sc=  -0.217   (180deg=-0.724)
+USER  MOD Single :  837 TYR OH  :   rot  166:sc=   0.726
+USER  MOD Single :  847 THR OG1 :   rot  100:sc=     1.3
+USER  MOD Single :  852 THR OG1 :   rot   96:sc=   0.255
+USER  MOD Single :  856 ASN     :      amide:sc=    0.13  X(o=0.13,f=-0.019)
+USER  MOD Single :  857 GLN     :      amide:sc=       0  X(o=0,f=0)
+USER  MOD Single :  858 TYR OH  :   rot -173:sc=   0.616
+USER  MOD Single :  859 SER OG  :   rot   33:sc=    1.03
+USER  MOD Single :  862 ASN     :      amide:sc= -0.0102  X(o=-0.01,f=0)
+USER  MOD Single :  864 LYS NZ  :NH3+    162:sc=    1.29   (180deg=1.16)
+USER  MOD Single :  867 THR OG1 :   rot   66:sc=   0.899
+USER  MOD Single :  869 TYR OH  :   rot -171:sc=   0.878
+USER  MOD Single :  872 SER OG  :   rot  180:sc=       0
+USER  MOD Single :  880 MET CE A:methyl -161:sc= -0.0946   (180deg=-0.549)
+USER  MOD Single :  881 SER OG  :   rot  180:sc=       0
+USER  MOD Single :  883 ASN     :      amide:sc=   0.722  K(o=0.72,f=-5.4!)
+USER  MOD Single :  886 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :  890 THR OG1A:   rot  180:sc=       0
+USER  MOD Single :  891 THR OG1 :   rot  166:sc=    1.45
+USER  MOD -----------------------------------------------------------------
+ATOM      1  C   ARG   802      31.142  34.383  12.972  1.00 35.79      1TEN  58
+ATOM      2  O   ARG   802      32.275  34.066  13.343  1.00 36.69      1TEN  59
+ATOM      3  N   LEU   803      30.980  35.302  12.030  1.00 32.50      1TEN  60
+ATOM      4  CA  LEU   803      32.048  36.234  11.756  1.00 31.31      1TEN  61
+ATOM      5  C   LEU   803      32.230  37.196  12.910  1.00 28.72      1TEN  62
+ATOM      6  O   LEU   803      31.296  37.650  13.562  1.00 27.63      1TEN  63
+ATOM      7  CB  LEU   803      31.771  37.027  10.494  1.00 33.95      1TEN  64
+ATOM      8  CG  LEU   803      31.960  36.329   9.177  1.00 33.82      1TEN  65
+ATOM      9  CD1 LEU   803      31.324  37.143   8.089  1.00 33.55      1TEN  66
+ATOM     10  CD2 LEU   803      33.439  36.146   8.922  1.00 36.14      1TEN  67
+ATOM     11  H   LEU   803      30.086  35.414  11.597  1.00 32.50      1TEN  68 std
+ATOM     12  HA  LEU   803      32.967  35.646  11.619  1.00 31.31      1TEN H   new
+ATOM     13 1HB  LEU   803      30.732  37.387  10.541  1.00 33.95      1TEN H   new
+ATOM     14 2HB  LEU   803      32.420  37.915  10.503  1.00 33.95      1TEN H   new
+ATOM     15  HG  LEU   803      31.481  35.339   9.196  1.00 33.82      1TEN H   new
+ATOM     16 1HD1 LEU   803      31.460  36.635   7.123  1.00 33.55      1TEN H   new
+ATOM     17 2HD1 LEU   803      30.249  37.256   8.295  1.00 33.55      1TEN H   new
+ATOM     18 3HD1 LEU   803      31.795  38.136   8.050  1.00 33.55      1TEN H   new
+ATOM     19 1HD2 LEU   803      33.585  35.635   7.959  1.00 36.14      1TEN H   new
+ATOM     20 2HD2 LEU   803      33.931  37.129   8.893  1.00 36.14      1TEN H   new
+ATOM     21 3HD2 LEU   803      33.878  35.540   9.728  1.00 36.14      1TEN H   new
+ATOM     22  N   ASP   804      33.483  37.494  13.121  1.00 28.42      1TEN  69
+ATOM     23  CA  ASP   804      33.930  38.405  14.151  1.00 32.74      1TEN  70
+ATOM     24  C   ASP   804      33.677  39.850  13.665  1.00 31.63      1TEN  71
+ATOM     25  O   ASP   804      33.906  40.129  12.481  1.00 26.95      1TEN  72
+ATOM     26  CB  ASP   804      35.394  38.035  14.273  1.00 38.31      1TEN  73
+ATOM     27  CG  ASP   804      36.242  38.978  15.082  1.00 46.29      1TEN  74
+ATOM     28  OD1 ASP   804      36.224  38.901  16.305  1.00 55.21      1TEN  75
+ATOM     29  OD2 ASP   804      37.087  39.848  14.433  1.00 54.50      1TEN  76
+ATOM     30  H   ASP   804      34.161  37.106  12.496  1.00 28.42      1TEN  77 std
+ATOM     31  HD2 ASP   804      36.874  40.753  14.738  1.00  0.00      1TEN  78
+ATOM     32  HA  ASP   804      33.422  38.342  15.125  1.00 32.74      1TEN H   new
+ATOM     33 1HB  ASP   804      35.463  37.033  14.722  1.00 38.31      1TEN H   new
+ATOM     34 2HB  ASP   804      35.820  37.965  13.261  1.00 38.31      1TEN H   new
+ATOM     35  N   ALA   805      33.146  40.772  14.479  1.00 30.18      1TEN  79
+ATOM     36  CA  ALA   805      32.911  42.160  14.064  1.00 24.86      1TEN  80
+ATOM     37  C   ALA   805      34.223  42.938  14.027  1.00 22.17      1TEN  81
+ATOM     38  O   ALA   805      35.210  42.440  14.584  1.00 22.29      1TEN  82
+ATOM     39  CB  ALA   805      31.991  42.833  15.070  1.00 25.78      1TEN  83
+ATOM     40  H   ALA   805      32.938  40.503  15.419  1.00 30.18      1TEN  84 std
+ATOM     41  HA  ALA   805      32.459  42.153  13.061  1.00 24.86      1TEN H   new
+ATOM     42 1HB  ALA   805      31.811  43.874  14.764  1.00 25.78      1TEN H   new
+ATOM     43 2HB  ALA   805      31.034  42.293  15.111  1.00 25.78      1TEN H   new
+ATOM     44 3HB  ALA   805      32.462  42.820  16.064  1.00 25.78      1TEN H   new
+ATOM     45  N   PRO   806      34.381  44.095  13.359  1.00 21.44      1TEN  85
+ATOM     46  CA  PRO   806      35.651  44.839  13.353  1.00 21.43      1TEN  86
+ATOM     47  C   PRO   806      35.909  45.321  14.792  1.00 20.14      1TEN  87
+ATOM     48  O   PRO   806      34.970  45.650  15.537  1.00 18.39      1TEN  88
+ATOM     49  CB  PRO   806      35.415  45.973  12.353  1.00 21.28      1TEN  89
+ATOM     50  CG  PRO   806      34.354  45.388  11.441  1.00 22.07      1TEN  90
+ATOM     51  CD  PRO   806      33.420  44.676  12.421  1.00 19.38      1TEN  91
+ATOM     52  HA  PRO   806      36.540  44.265  13.054  1.00 21.43      1TEN H   new
+ATOM     53 1HB  PRO   806      35.068  46.891  12.849  1.00 21.28      1TEN H   new
+ATOM     54 2HB  PRO   806      36.332  46.231  11.802  1.00 21.28      1TEN H   new
+ATOM     55 1HG  PRO   806      33.829  46.169  10.871  1.00 22.07      1TEN H   new
+ATOM     56 2HG  PRO   806      34.785  44.690  10.708  1.00 22.07      1TEN H   new
+ATOM     57 1HD  PRO   806      32.727  45.373  12.915  1.00 19.38      1TEN H   new
+ATOM     58 2HD  PRO   806      32.806  43.909  11.927  1.00 19.38      1TEN H   new
+ATOM     59  N   SER   807      37.161  45.394  15.229  1.00 20.48      1TEN  92
+ATOM     60  CA  SER   807      37.434  45.777  16.605  1.00 21.07      1TEN  93
+ATOM     61  C   SER   807      38.076  47.149  16.663  1.00 17.37      1TEN  94
+ATOM     62  O   SER   807      38.512  47.683  15.647  1.00 18.23      1TEN  95
+ATOM     63  CB  SER   807      38.324  44.686  17.206  1.00 22.47      1TEN  96
+ATOM     64  OG  SER   807      38.572  44.759  18.608  1.00 29.52      1TEN  97
+ATOM     65  H   SER   807      37.919  45.249  14.594  1.00 20.48      1TEN  98 std
+ATOM     66  HG  SER   807      37.906  44.186  19.086  1.00 29.52      1TEN  99 std
+ATOM     67  HA  SER   807      36.506  45.858  17.190  1.00 21.07      1TEN H   new
+ATOM     68 1HB  SER   807      39.292  44.708  16.685  1.00 22.47      1TEN H   new
+ATOM     69 2HB  SER   807      37.864  43.710  16.989  1.00 22.47      1TEN H   new
+ATOM     70  N   GLN   808      38.143  47.713  17.867  1.00 17.96      1TEN 100
+ATOM     71  CA  GLN   808      38.721  49.017  18.148  1.00 20.95      1TEN 101
+ATOM     72  C   GLN   808      38.318  50.090  17.126  1.00 18.40      1TEN 102
+ATOM     73  O   GLN   808      39.135  50.696  16.416  1.00 15.34      1TEN 103
+ATOM     74  CB  GLN   808      40.223  48.876  18.266  1.00 19.39      1TEN 104
+ATOM     75  CG  GLN   808      40.818  50.021  19.072  1.00 31.72      1TEN 105
+ATOM     76  CD  GLN   808      42.316  49.902  19.329  1.00 37.78      1TEN 106
+ATOM     77  OE1 GLN   808      42.850  50.452  20.289  1.00 43.29      1TEN 107
+ATOM     78  NE2 GLN   808      43.100  49.209  18.511  1.00 39.16      1TEN 108
+ATOM     79  H   GLN   808      37.804  47.190  18.649  1.00 17.96      1TEN 109 std
+ATOM     80 1HE2 GLN   808      44.064  49.167  18.772  1.00 39.16      1TEN 110 std
+ATOM     81 2HE2 GLN   808      42.712  48.771  17.700  1.00 39.16      1TEN 111 std
+ATOM     82  HA  GLN   808      38.313  49.374  19.105  1.00 20.95      1TEN H   new
+ATOM     83 1HB  GLN   808      40.468  47.918  18.747  1.00 19.39      1TEN H   new
+ATOM     84 2HB  GLN   808      40.673  48.856  17.262  1.00 19.39      1TEN H   new
+ATOM     85 1HG  GLN   808      40.624  50.965  18.542  1.00 31.72      1TEN H   new
+ATOM     86 2HG  GLN   808      40.297  50.082  20.039  1.00 31.72      1TEN H   new
+ATOM     87  N   ILE   809      37.001  50.280  17.055  1.00 15.30      1TEN 112
+ATOM     88  CA  ILE   809      36.423  51.242  16.125  1.00 16.06      1TEN 113
+ATOM     89  C   ILE   809      36.532  52.558  16.853  1.00 14.86      1TEN 114
+ATOM     90  O   ILE   809      36.205  52.656  18.043  1.00 14.95      1TEN 115
+ATOM     91  CB  ILE   809      34.948  50.902  15.771  1.00 14.49      1TEN 116
+ATOM     92  CG1 ILE   809      34.855  49.511  15.157  1.00 14.99      1TEN 117
+ATOM     93  CG2 ILE   809      34.385  51.972  14.830  1.00 14.77      1TEN 118
+ATOM     94  CD1 ILE   809      33.439  48.935  15.128  1.00 16.60      1TEN 119
+ATOM     95  H   ILE   809      36.394  49.861  17.730  1.00 15.30      1TEN 120 std
+ATOM     96  HA  ILE   809      36.944  51.248  15.156  1.00 16.06      1TEN H   new
+ATOM     97  HB  ILE   809      34.343  50.897  16.689  1.00 14.49      1TEN H   new
+ATOM     98 1HG1 ILE   809      35.245  49.549  14.129  1.00 14.99      1TEN H   new
+ATOM     99 2HG1 ILE   809      35.506  48.828  15.723  1.00 14.99      1TEN H   new
+ATOM    100 1HG2 ILE   809      33.341  51.729  14.581  1.00 14.77      1TEN H   new
+ATOM    101 2HG2 ILE   809      34.425  52.954  15.325  1.00 14.77      1TEN H   new
+ATOM    102 3HG2 ILE   809      34.984  52.002  13.908  1.00 14.77      1TEN H   new
+ATOM    103 1HD1 ILE   809      33.459  47.934  14.672  1.00 16.60      1TEN H   new
+ATOM    104 2HD1 ILE   809      33.051  48.862  16.155  1.00 16.60      1TEN H   new
+ATOM    105 3HD1 ILE   809      32.787  49.594  14.536  1.00 16.60      1TEN H   new
+ATOM    106  N   GLU   810      37.106  53.536  16.155  1.00 12.69      1TEN 121
+ATOM    107  CA  GLU   810      37.286  54.854  16.724  1.00 13.69      1TEN 122
+ATOM    108  C   GLU   810      36.910  55.878  15.674  1.00 13.18      1TEN 123
+ATOM    109  O   GLU   810      37.171  55.652  14.482  1.00 17.48      1TEN 124
+ATOM    110  CB  GLU   810      38.750  55.059  17.136  1.00 17.21      1TEN 125
+ATOM    111  CG  GLU   810      39.239  54.069  18.214  1.00 20.12      1TEN 126
+ATOM    112  CD  GLU   810      40.677  54.266  18.625  1.00 26.18      1TEN 127
+ATOM    113  OE1 GLU   810      41.637  54.615  17.708  1.00 30.01      1TEN 128
+ATOM    114  OE2 GLU   810      40.989  54.189  19.814  1.00 35.06      1TEN 129
+ATOM    115  H   GLU   810      37.356  53.377  15.200  1.00 12.69      1TEN 130 std
+ATOM    116  HE1 GLU   810      41.563  53.926  17.016  1.00  0.00      1TEN 131
+ATOM    117  HA  GLU   810      36.652  54.964  17.616  1.00 13.69      1TEN H   new
+ATOM    118 1HB  GLU   810      39.389  54.962  16.246  1.00 17.21      1TEN H   new
+ATOM    119 2HB  GLU   810      38.875  56.086  17.511  1.00 17.21      1TEN H   new
+ATOM    120 1HG  GLU   810      38.598  54.166  19.103  1.00 20.12      1TEN H   new
+ATOM    121 2HG  GLU   810      39.114  53.043  17.838  1.00 20.12      1TEN H   new
+ATOM    122  N   VAL   811      36.257  56.963  16.076  1.00 11.17      1TEN 132
+ATOM    123  CA  VAL   811      35.899  58.053  15.176  1.00 13.39      1TEN 133
+ATOM    124  C   VAL   811      36.909  59.139  15.571  1.00 14.32      1TEN 134
+ATOM    125  O   VAL   811      37.053  59.374  16.756  1.00 14.12      1TEN 135
+ATOM    126  CB  VAL   811      34.442  58.504  15.411  1.00 11.38      1TEN 136
+ATOM    127  CG1 VAL   811      34.115  59.675  14.484  1.00  9.55      1TEN 137
+ATOM    128  CG2 VAL   811      33.492  57.342  15.154  1.00 12.63      1TEN 138
+ATOM    129  H   VAL   811      36.061  57.099  17.047  1.00 11.17      1TEN 139 std
+ATOM    130  HA  VAL   811      35.941  57.791  14.109  1.00 13.39      1TEN H   new
+ATOM    131  HB  VAL   811      34.322  58.830  16.455  1.00 11.38      1TEN H   new
+ATOM    132 1HG1 VAL   811      33.076  59.997  14.651  1.00  9.55      1TEN H   new
+ATOM    133 2HG1 VAL   811      34.796  60.512  14.696  1.00  9.55      1TEN H   new
+ATOM    134 3HG1 VAL   811      34.237  59.360  13.437  1.00  9.55      1TEN H   new
+ATOM    135 1HG2 VAL   811      32.456  57.670  15.323  1.00 12.63      1TEN H   new
+ATOM    136 2HG2 VAL   811      33.603  57.000  14.114  1.00 12.63      1TEN H   new
+ATOM    137 3HG2 VAL   811      33.730  56.515  15.839  1.00 12.63      1TEN H   new
+ATOM    138  N   LYS   812      37.690  59.723  14.674  1.00 13.41      1TEN 140
+ATOM    139  CA  LYS   812      38.688  60.715  15.080  1.00 13.76      1TEN 141
+ATOM    140  C   LYS   812      38.645  61.826  14.048  1.00 12.39      1TEN 142
+ATOM    141  O   LYS   812      37.931  61.726  13.025  1.00 13.26      1TEN 143
+ATOM    142  CB  LYS   812      40.091  60.121  14.990  1.00 19.53      1TEN 144
+ATOM    143  CG  LYS   812      40.383  58.790  15.662  1.00 24.57      1TEN 145
+ATOM    144  CD  LYS   812      41.680  58.290  15.059  1.00 28.59      1TEN 146
+ATOM    145  CE  LYS   812      42.054  56.843  15.393  1.00 30.10      1TEN 147
+ATOM    146  NZ  LYS   812      43.372  56.578  14.848  1.00 36.98      1TEN 148
+ATOM    147  H   LYS   812      37.524  59.604  13.695  1.00 13.41      1TEN 149 std
+ATOM    148 1HZ  LYS   812      43.631  55.635  15.058  1.00 36.98      1TEN 150 std
+ATOM    149 2HZ  LYS   812      43.368  56.627  13.849  1.00 36.98      1TEN 151 std
+ATOM    150 3HZ  LYS   812      44.064  57.198  15.217  1.00 36.98      1TEN 152 std
+ATOM    151  HA  LYS   812      38.477  61.052  16.106  1.00 13.76      1TEN H   new
+ATOM    152 1HB  LYS   812      40.335  60.012  13.923  1.00 19.53      1TEN H   new
+ATOM    153 2HB  LYS   812      40.790  60.861  15.407  1.00 19.53      1TEN H   new
+ATOM    154 1HG  LYS   812      40.477  58.912  16.751  1.00 24.57      1TEN H   new
+ATOM    155 2HG  LYS   812      39.566  58.074  15.488  1.00 24.57      1TEN H   new
+ATOM    156 1HD  LYS   812      41.616  58.389  13.965  1.00 28.59      1TEN H   new
+ATOM    157 2HD  LYS   812      42.496  58.947  15.395  1.00 28.59      1TEN H   new
+ATOM    158 1HE  LYS   812      42.051  56.688  16.482  1.00 30.10      1TEN H   new
+ATOM    159 2HE  LYS   812      41.316  56.148  14.967  1.00 30.10      1TEN H   new
+ATOM    160  N   ASP   813      39.388  62.903  14.280  1.00  8.14      1TEN 153
+ATOM    161  CA  ASP   813      39.518  64.032  13.365  1.00 12.00      1TEN 154
+ATOM    162  C   ASP   813      38.178  64.622  12.932  1.00 13.61      1TEN 155
+ATOM    163  O   ASP   813      37.945  64.914  11.736  1.00 13.01      1TEN 156
+ATOM    164  CB  ASP   813      40.355  63.578  12.110  1.00 14.38      1TEN 157
+ATOM    165  CG  ASP   813      41.749  63.043  12.429  1.00 13.29      1TEN 158
+ATOM    166  OD1 ASP   813      42.418  63.623  13.288  1.00 15.38      1TEN 159
+ATOM    167  OD2 ASP   813      42.157  62.038  11.846  1.00 17.44      1TEN 160
+ATOM    168  H   ASP   813      39.845  62.953  15.168  1.00  8.14      1TEN 161 std
+ATOM    169  HA  ASP   813      40.037  64.837  13.905  1.00 12.00      1TEN H   new
+ATOM    170 1HB  ASP   813      39.793  62.799  11.574  1.00 14.38      1TEN H   new
+ATOM    171 2HB  ASP   813      40.454  64.432  11.424  1.00 14.38      1TEN H   new
+ATOM    172  N   VAL   814      37.273  64.826  13.895  1.00 13.49      1TEN 162
+ATOM    173  CA  VAL   814      35.930  65.326  13.600  1.00 10.18      1TEN 163
+ATOM    174  C   VAL   814      35.933  66.838  13.484  1.00 11.87      1TEN 164
+ATOM    175  O   VAL   814      36.534  67.538  14.294  1.00 14.52      1TEN 165
+ATOM    176  CB  VAL   814      34.910  64.840  14.696  1.00 11.44      1TEN 166
+ATOM    177  CG1 VAL   814      33.499  65.346  14.439  1.00  9.08      1TEN 167
+ATOM    178  CG2 VAL   814      34.895  63.328  14.841  1.00 11.82      1TEN 168
+ATOM    179  H   VAL   814      37.520  64.674  14.852  1.00 13.49      1TEN 169 std
+ATOM    180  HA  VAL   814      35.609  64.917  12.631  1.00 10.18      1TEN H   new
+ATOM    181  HB  VAL   814      35.266  65.275  15.642  1.00 11.44      1TEN H   new
+ATOM    182 1HG1 VAL   814      32.828  64.980  15.230  1.00  9.08      1TEN H   new
+ATOM    183 2HG1 VAL   814      33.498  66.446  14.438  1.00  9.08      1TEN H   new
+ATOM    184 3HG1 VAL   814      33.149  64.979  13.463  1.00  9.08      1TEN H   new
+ATOM    185 1HG2 VAL   814      34.169  63.041  15.616  1.00 11.82      1TEN H   new
+ATOM    186 2HG2 VAL   814      34.608  62.870  13.883  1.00 11.82      1TEN H   new
+ATOM    187 3HG2 VAL   814      35.897  62.977  15.129  1.00 11.82      1TEN H   new
+ATOM    188  N   THR   815      35.329  67.370  12.434  1.00 13.32      1TEN 170
+ATOM    189  CA  THR   815      35.230  68.796  12.241  1.00 12.46      1TEN 171
+ATOM    190  C   THR   815      33.731  69.041  12.115  1.00 12.09      1TEN 172
+ATOM    191  O   THR   815      32.941  68.093  12.168  1.00 14.31      1TEN 173
+ATOM    192  CB  THR   815      35.989  69.280  10.965  1.00 11.09      1TEN 174
+ATOM    193  OG1 THR   815      35.311  68.809   9.808  1.00  9.35      1TEN 175
+ATOM    194  CG2 THR   815      37.423  68.792  10.933  1.00  9.01      1TEN 176
+ATOM    195  H   THR   815      34.779  66.782  11.842  1.00 13.32      1TEN 177 std
+ATOM    196  HG1 THR   815      35.722  67.948   9.508  1.00  9.35      1TEN 178 std
+ATOM    197  HA  THR   815      35.693  69.355  13.068  1.00 12.46      1TEN H   new
+ATOM    198  HB  THR   815      36.008  70.380  10.986  1.00 11.09      1TEN H   new
+ATOM    199 1HG2 THR   815      37.915  69.157  10.019  1.00  9.01      1TEN H   new
+ATOM    200 2HG2 THR   815      37.960  69.172  11.815  1.00  9.01      1TEN H   new
+ATOM    201 3HG2 THR   815      37.437  67.692  10.942  1.00  9.01      1TEN H   new
+ATOM    202  N   ASP   816      33.264  70.266  11.904  1.00 12.67      1TEN 179
+ATOM    203  CA  ASP   816      31.846  70.545  11.749  1.00 15.20      1TEN 180
+ATOM    204  C   ASP   816      31.233  69.751  10.606  1.00 13.15      1TEN 181
+ATOM    205  O   ASP   816      30.045  69.434  10.645  1.00 13.30      1TEN 182
+ATOM    206  CB  ASP   816      31.606  72.041  11.471  1.00 23.64      1TEN 183
+ATOM    207  CG  ASP   816      31.724  72.860  12.736  1.00 30.18      1TEN 184
+ATOM    208  OD1 ASP   816      32.830  73.283  13.058  1.00 37.51      1TEN 185
+ATOM    209  OD2 ASP   816      30.726  73.052  13.429  1.00 38.56      1TEN 186
+ATOM    210  H   ASP   816      33.898  71.039  11.900  1.00 12.67      1TEN 187 std
+ATOM    211  HA  ASP   816      31.368  70.250  12.695  1.00 15.20      1TEN H   new
+ATOM    212 1HB  ASP   816      32.335  72.400  10.729  1.00 23.64      1TEN H   new
+ATOM    213 2HB  ASP   816      30.606  72.180  11.033  1.00 23.64      1TEN H   new
+ATOM    214  N   THR   817      32.005  69.385   9.578  1.00  8.73      1TEN 188
+ATOM    215  CA  THR   817      31.443  68.664   8.456  1.00  8.91      1TEN 189
+ATOM    216  C   THR   817      32.154  67.389   8.053  1.00  8.28      1TEN 190
+ATOM    217  O   THR   817      31.733  66.807   7.045  1.00  9.12      1TEN 191
+ATOM    218  CB  THR   817      31.362  69.633   7.239  1.00  8.54      1TEN 192
+ATOM    219  OG1 THR   817      32.694  70.017   6.875  1.00 14.52      1TEN 193
+ATOM    220  CG2 THR   817      30.513  70.871   7.491  1.00  8.29      1TEN 194
+ATOM    221  H   THR   817      32.975  69.630   9.570  1.00  8.73      1TEN 195 std
+ATOM    222  HG1 THR   817      33.070  70.595   7.599  1.00 14.52      1TEN 196 std
+ATOM    223  HA  THR   817      30.453  68.322   8.790  1.00  8.91      1TEN H   new
+ATOM    224  HB  THR   817      30.863  69.092   6.422  1.00  8.54      1TEN H   new
+ATOM    225 1HG2 THR   817      30.506  71.501   6.589  1.00  8.29      1TEN H   new
+ATOM    226 2HG2 THR   817      29.484  70.567   7.734  1.00  8.29      1TEN H   new
+ATOM    227 3HG2 THR   817      30.935  71.440   8.332  1.00  8.29      1TEN H   new
+ATOM    228  N   THR   818      33.207  66.909   8.733  1.00 10.30      1TEN 197
+ATOM    229  CA  THR   818      33.927  65.691   8.340  1.00 10.76      1TEN 198
+ATOM    230  C   THR   818      34.251  64.808   9.552  1.00 11.80      1TEN 199
+ATOM    231  O   THR   818      34.187  65.281  10.691  1.00 10.41      1TEN 200
+ATOM    232  CB  THR   818      35.293  65.979   7.584  1.00 10.75      1TEN 201
+ATOM    233  OG1 THR   818      36.203  66.587   8.504  1.00 11.90      1TEN 202
+ATOM    234  CG2 THR   818      35.169  66.893   6.367  1.00  9.14      1TEN 203
+ATOM    235  H   THR   818      33.520  67.370   9.563  1.00 10.30      1TEN 204 std
+ATOM    236  HG1 THR   818      36.931  65.919   8.659  1.00 11.90      1TEN 205 std
+ATOM    237  HA  THR   818      33.240  65.176   7.652  1.00 10.76      1TEN H   new
+ATOM    238  HB  THR   818      35.645  65.006   7.211  1.00 10.75      1TEN H   new
+ATOM    239 1HG2 THR   818      36.160  67.034   5.911  1.00  9.14      1TEN H   new
+ATOM    240 2HG2 THR   818      34.490  66.436   5.632  1.00  9.14      1TEN H   new
+ATOM    241 3HG2 THR   818      34.768  67.868   6.680  1.00  9.14      1TEN H   new
+ATOM    242  N   ALA   819      34.632  63.551   9.337  1.00 10.93      1TEN 206
+ATOM    243  CA  ALA   819      35.012  62.617  10.390  1.00 12.60      1TEN 207
+ATOM    244  C   ALA   819      35.815  61.452   9.784  1.00 14.53      1TEN 208
+ATOM    245  O   ALA   819      35.602  61.110   8.610  1.00 13.95      1TEN 209
+ATOM    246  CB  ALA   819      33.747  62.039  11.050  1.00  6.99      1TEN 210
+ATOM    247  H   ALA   819      34.658  63.201   8.401  1.00 10.93      1TEN 211 std
+ATOM    248  HA  ALA   819      35.620  63.150  11.135  1.00 12.60      1TEN H   new
+ATOM    249 1HB  ALA   819      34.036  61.335  11.844  1.00  6.99      1TEN H   new
+ATOM    250 2HB  ALA   819      33.153  62.857  11.484  1.00  6.99      1TEN H   new
+ATOM    251 3HB  ALA   819      33.147  61.512  10.294  1.00  6.99      1TEN H   new
+ATOM    252  N   LEU   820      36.746  60.821  10.504  1.00 10.43      1TEN 212
+ATOM    253  CA  LEU   820      37.504  59.697  10.009  1.00 12.40      1TEN 213
+ATOM    254  C   LEU   820      37.110  58.496  10.869  1.00  9.68      1TEN 214
+ATOM    255  O   LEU   820      37.100  58.624  12.092  1.00 14.45      1TEN 215
+ATOM    256  CB  LEU   820      39.021  59.948  10.142  1.00 10.05      1TEN 216
+ATOM    257  CG  LEU   820      39.922  58.790   9.673  1.00 14.12      1TEN 217
+ATOM    258  CD1 LEU   820      39.897  58.630   8.164  1.00 13.54      1TEN 218
+ATOM    259  CD2 LEU   820      41.363  59.020  10.120  1.00 13.90      1TEN 219
+ATOM    260  H   LEU   820      36.928  61.107  11.445  1.00 10.43      1TEN 220 std
+ATOM    261  HA  LEU   820      37.289  59.530   8.943  1.00 12.40      1TEN H   new
+ATOM    262 1HB  LEU   820      39.279  60.848   9.565  1.00 10.05      1TEN H   new
+ATOM    263 2HB  LEU   820      39.249  60.165  11.196  1.00 10.05      1TEN H   new
+ATOM    264  HG  LEU   820      39.527  57.871  10.131  1.00 14.12      1TEN H   new
+ATOM    265 1HD1 LEU   820      40.551  57.795   7.872  1.00 13.54      1TEN H   new
+ATOM    266 2HD1 LEU   820      38.869  58.422   7.834  1.00 13.54      1TEN H   new
+ATOM    267 3HD1 LEU   820      40.253  59.557   7.691  1.00 13.54      1TEN H   new
+ATOM    268 1HD2 LEU   820      41.992  58.185   9.777  1.00 13.90      1TEN H   new
+ATOM    269 2HD2 LEU   820      41.736  59.960   9.688  1.00 13.90      1TEN H   new
+ATOM    270 3HD2 LEU   820      41.402  59.081  11.218  1.00 13.90      1TEN H   new
+ATOM    271  N   ILE   821      36.720  57.354  10.305  1.00  9.63      1TEN 221
+ATOM    272  CA  ILE   821      36.330  56.169  11.068  1.00 10.98      1TEN 222
+ATOM    273  C   ILE   821      37.494  55.199  10.866  1.00 10.72      1TEN 223
+ATOM    274  O   ILE   821      37.958  55.022   9.726  1.00 11.83      1TEN 224
+ATOM    275  CB  ILE   821      35.029  55.510  10.500  1.00 16.02      1TEN 225
+ATOM    276  CG1 ILE   821      33.876  56.472  10.146  1.00 11.93      1TEN 226
+ATOM    277  CG2 ILE   821      34.566  54.433  11.488  1.00 13.06      1TEN 227
+ATOM    278  CD1 ILE   821      33.431  57.417  11.280  1.00 16.30      1TEN 228
+ATOM    279  H   ILE   821      36.717  57.293   9.307  1.00  9.63      1TEN 229 std
+ATOM    280  HA  ILE   821      36.126  56.423  12.119  1.00 10.98      1TEN H   new
+ATOM    281  HB  ILE   821      35.302  55.081   9.525  1.00 16.02      1TEN H   new
+ATOM    282 1HG1 ILE   821      34.182  57.081   9.283  1.00 11.93      1TEN H   new
+ATOM    283 2HG1 ILE   821      33.008  55.876   9.827  1.00 11.93      1TEN H   new
+ATOM    284 1HG2 ILE   821      33.651  53.955  11.108  1.00 13.06      1TEN H   new
+ATOM    285 2HG2 ILE   821      35.355  53.675  11.601  1.00 13.06      1TEN H   new
+ATOM    286 3HG2 ILE   821      34.360  54.895  12.465  1.00 13.06      1TEN H   new
+ATOM    287 1HD1 ILE   821      32.609  58.056  10.924  1.00 16.30      1TEN H   new
+ATOM    288 2HD1 ILE   821      33.087  56.823  12.139  1.00 16.30      1TEN H   new
+ATOM    289 3HD1 ILE   821      34.279  58.047  11.586  1.00 16.30      1TEN H   new
+ATOM    290  N   THR   822      38.023  54.562  11.905  1.00 12.38      1TEN 230
+ATOM    291  CA  THR   822      39.146  53.637  11.767  1.00 15.12      1TEN 231
+ATOM    292  C   THR   822      38.766  52.382  12.523  1.00 15.79      1TEN 232
+ATOM    293  O   THR   822      37.884  52.469  13.387  1.00 17.25      1TEN 233
+ATOM    294  CB  THR   822      40.493  54.193  12.339  1.00 15.96      1TEN 234
+ATOM    295  OG1 THR   822      40.313  54.637  13.683  1.00 17.80      1TEN 235
+ATOM    296  CG2 THR   822      41.019  55.348  11.525  1.00 16.24      1TEN 236
+ATOM    297  H   THR   822      37.575  54.628  12.796  1.00 12.38      1TEN 237 std
+ATOM    298  HG1 THR   822      39.896  55.544  13.631  1.00 17.80      1TEN 238 std
+ATOM    299  HA  THR   822      39.324  53.460  10.696  1.00 15.12      1TEN H   new
+ATOM    300  HB  THR   822      41.221  53.369  12.297  1.00 15.96      1TEN H   new
+ATOM    301 1HG2 THR   822      41.963  55.705  11.962  1.00 16.24      1TEN H   new
+ATOM    302 2HG2 THR   822      41.196  55.018  10.491  1.00 16.24      1TEN H   new
+ATOM    303 3HG2 THR   822      40.282  56.165  11.528  1.00 16.24      1TEN H   new
+ATOM    304  N   TRP   823      39.348  51.232  12.218  1.00 13.01      1TEN 239
+ATOM    305  CA  TRP   823      39.036  50.027  12.959  1.00 16.49      1TEN 240
+ATOM    306  C   TRP   823      40.183  49.063  12.735  1.00 16.02      1TEN 241
+ATOM    307  O   TRP   823      41.101  49.366  11.962  1.00 16.14      1TEN 242
+ATOM    308  CB  TRP   823      37.703  49.396  12.484  1.00 13.76      1TEN 243
+ATOM    309  CG  TRP   823      37.620  49.159  10.975  1.00 15.92      1TEN 244
+ATOM    310  CD1 TRP   823      38.044  47.982  10.405  1.00 17.09      1TEN 245
+ATOM    311  CD2 TRP   823      37.170  50.062  10.043  1.00 18.82      1TEN 246
+ATOM    312  NE1 TRP   823      37.874  48.141   9.124  1.00 19.44      1TEN 247
+ATOM    313  CE2 TRP   823      37.362  49.355   8.865  1.00 19.88      1TEN 248
+ATOM    314  CE3 TRP   823      36.654  51.348  10.027  1.00 16.48      1TEN 249
+ATOM    315  CZ2 TRP   823      37.039  49.915   7.646  1.00 17.86      1TEN 250
+ATOM    316  CZ3 TRP   823      36.335  51.913   8.809  1.00 15.47      1TEN 251
+ATOM    317  CH2 TRP   823      36.529  51.197   7.637  1.00 17.86      1TEN 252
+ATOM    318  H   TRP   823      40.002  51.163  11.465  1.00 13.01      1TEN 253 std
+ATOM    319  HE1 TRP   823      38.085  47.441   8.441  1.00 19.44      1TEN 254 std
+ATOM    320  HA  TRP   823      38.912  50.261  14.027  1.00 16.49      1TEN H   new
+ATOM    321 1HB  TRP   823      37.560  48.436  13.002  1.00 13.76      1TEN H   new
+ATOM    322 2HB  TRP   823      36.873  50.051  12.786  1.00 13.76      1TEN H   new
+ATOM    323  HD1 TRP   823      38.442  47.096  10.921  1.00 17.09      1TEN H   new
+ATOM    324  HE3 TRP   823      36.502  51.905  10.963  1.00 16.48      1TEN H   new
+ATOM    325  HZ2 TRP   823      37.184  49.356   6.710  1.00 17.86      1TEN H   new
+ATOM    326  HZ3 TRP   823      35.926  52.933   8.768  1.00 15.47      1TEN H   new
+ATOM    327  HH2 TRP   823      36.269  51.663   6.675  1.00 17.86      1TEN H   new
+ATOM    328  N   PHE   824      40.125  47.924  13.419  1.00 20.34      1TEN 255
+ATOM    329  CA  PHE   824      41.086  46.843  13.249  1.00 25.78      1TEN 256
+ATOM    330  C   PHE   824      40.367  45.784  12.451  1.00 23.49      1TEN 257
+ATOM    331  O   PHE   824      39.194  45.492  12.724  1.00 29.89      1TEN 258
+ATOM    332  CB  PHE   824      41.502  46.188  14.554  1.00 28.05      1TEN 259
+ATOM    333  CG  PHE   824      42.754  46.796  15.160  1.00 36.99      1TEN 260
+ATOM    334  CD1 PHE   824      43.161  48.087  14.846  1.00 41.33      1TEN 261
+ATOM    335  CD2 PHE   824      43.490  46.042  16.050  1.00 42.54      1TEN 262
+ATOM    336  CE1 PHE   824      44.296  48.620  15.420  1.00 43.56      1TEN 263
+ATOM    337  CE2 PHE   824      44.625  46.579  16.624  1.00 47.02      1TEN 264
+ATOM    338  CZ  PHE   824      45.028  47.865  16.312  1.00 46.87      1TEN 265
+ATOM    339  H   PHE   824      39.334  47.760  14.009  1.00 20.34      1TEN 266 std
+ATOM    340  HA  PHE   824      41.992  47.254  12.779  1.00 25.78      1TEN H   new
+ATOM    341 1HB  PHE   824      40.677  46.270  15.276  1.00 28.05      1TEN H   new
+ATOM    342 2HB  PHE   824      41.671  45.115  14.380  1.00 28.05      1TEN H   new
+ATOM    343  HD1 PHE   824      42.574  48.687  14.135  1.00 41.33      1TEN H   new
+ATOM    344  HD2 PHE   824      43.174  45.019  16.301  1.00 42.54      1TEN H   new
+ATOM    345  HE1 PHE   824      44.616  49.642  15.168  1.00 43.56      1TEN H   new
+ATOM    346  HE2 PHE   824      45.213  45.980  17.335  1.00 47.02      1TEN H   new
+ATOM    347  HZ  PHE   824      45.933  48.285  16.776  1.00 46.87      1TEN H   new
+ATOM    348  N   LYS   825      41.049  45.215  11.473  1.00 27.19      1TEN 267
+ATOM    349  CA  LYS   825      40.490  44.163  10.636  1.00 29.67      1TEN 268
+ATOM    350  C   LYS   825      39.999  42.967  11.457  1.00 31.44      1TEN 269
+ATOM    351  O   LYS   825      40.664  42.617  12.439  1.00 31.93      1TEN 270
+ATOM    352  CB  LYS   825      41.579  43.673   9.685  1.00 33.46      1TEN 271
+ATOM    353  CG  LYS   825      41.127  42.540   8.777  1.00 36.99      1TEN 272
+ATOM    354  CD  LYS   825      42.197  42.072   7.834  1.00 45.14      1TEN 273
+ATOM    355  CE  LYS   825      41.552  40.986   7.001  1.00 50.20      1TEN 274
+ATOM    356  NZ  LYS   825      42.320  40.799   5.793  1.00 57.77      1TEN 275
+ATOM    357  H   LYS   825      42.004  45.481  11.344  1.00 27.19      1TEN 276 std
+ATOM    358 1HZ  LYS   825      42.064  40.010   5.235  1.00 57.77      1TEN 277 std
+ATOM    359 2HZ  LYS   825      42.291  41.626   5.231  1.00 57.77      1TEN 278 std
+ATOM    360 3HZ  LYS   825      43.303  40.755   5.973  1.00 57.77      1TEN 279 std
+ATOM    361  HA  LYS   825      39.629  44.583  10.095  1.00 29.67      1TEN H   new
+ATOM    362 1HB  LYS   825      41.919  44.515   9.065  1.00 33.46      1TEN H   new
+ATOM    363 2HB  LYS   825      42.445  43.337  10.274  1.00 33.46      1TEN H   new
+ATOM    364 1HG  LYS   825      40.797  41.693   9.396  1.00 36.99      1TEN H   new
+ATOM    365 2HG  LYS   825      40.255  42.872   8.195  1.00 36.99      1TEN H   new
+ATOM    366 1HD  LYS   825      42.556  42.897   7.201  1.00 45.14      1TEN H   new
+ATOM    367 2HD  LYS   825      43.068  41.686   8.383  1.00 45.14      1TEN H   new
+ATOM    368 1HE  LYS   825      41.507  40.046   7.571  1.00 50.20      1TEN H   new
+ATOM    369 2HE  LYS   825      40.516  41.262   6.753  1.00 50.20      1TEN H   new
+ATOM    370  N   PRO   826      38.847  42.347  11.143  1.00 32.88      1TEN 280
+ATOM    371  CA  PRO   826      38.320  41.193  11.857  1.00 36.58      1TEN 281
+ATOM    372  C   PRO   826      39.339  40.056  11.748  1.00 42.32      1TEN 282
+ATOM    373  O   PRO   826      40.110  39.988  10.779  1.00 42.32      1TEN 283
+ATOM    374  CB  PRO   826      37.041  40.862  11.117  1.00 33.22      1TEN 284
+ATOM    375  CG  PRO   826      36.575  42.228  10.726  1.00 32.11      1TEN 285
+ATOM    376  CD  PRO   826      37.851  42.848  10.206  1.00 32.37      1TEN 286
+ATOM    377  HA  PRO   826      38.133  41.365  12.927  1.00 36.58      1TEN H   new
+ATOM    378 1HB  PRO   826      37.220  40.218  10.244  1.00 33.22      1TEN H   new
+ATOM    379 2HB  PRO   826      36.313  40.341  11.757  1.00 33.22      1TEN H   new
+ATOM    380 1HG  PRO   826      35.789  42.192   9.957  1.00 32.11      1TEN H   new
+ATOM    381 2HG  PRO   826      36.163  42.785  11.581  1.00 32.11      1TEN H   new
+ATOM    382 1HD  PRO   826      38.067  42.537   9.173  1.00 32.37      1TEN H   new
+ATOM    383 2HD  PRO   826      37.803  43.947  10.207  1.00 32.37      1TEN H   new
+ATOM    384  N   LEU   827      39.347  39.168  12.754  1.00 45.97      1TEN 287
+ATOM    385  CA  LEU   827      40.265  38.026  12.789  1.00 49.24      1TEN 288
+ATOM    386  C   LEU   827      40.072  37.059  11.620  1.00 49.85      1TEN 289
+ATOM    387  O   LEU   827      41.005  36.627  10.940  1.00 48.25      1TEN 290
+ATOM    388  CB  LEU   827      40.111  37.270  14.111  1.00 49.36      1TEN 291
+ATOM    389  CG  LEU   827      40.668  37.836  15.429  1.00 54.77      1TEN 292
+ATOM    390  CD1 LEU   827      42.155  38.111  15.292  1.00 55.29      1TEN 293
+ATOM    391  CD2 LEU   827      39.971  39.114  15.869  1.00 58.43      1TEN 294
+ATOM    392  H   LEU   827      38.726  39.340  13.519  1.00 45.97      1TEN 295 std
+ATOM    393  HA  LEU   827      41.281  38.439  12.699  1.00 49.24      1TEN H   new
+ATOM    394 1HB  LEU   827      39.034  37.107  14.263  1.00 49.36      1TEN H   new
+ATOM    395 2HB  LEU   827      40.569  36.280  13.969  1.00 49.36      1TEN H   new
+ATOM    396  HG  LEU   827      40.482  37.072  16.198  1.00 54.77      1TEN H   new
+ATOM    397 1HD1 LEU   827      42.542  38.515  16.239  1.00 55.29      1TEN H   new
+ATOM    398 2HD1 LEU   827      42.681  37.175  15.051  1.00 55.29      1TEN H   new
+ATOM    399 3HD1 LEU   827      42.321  38.842  14.487  1.00 55.29      1TEN H   new
+ATOM    400 1HD2 LEU   827      40.412  39.467  16.813  1.00 58.43      1TEN H   new
+ATOM    401 2HD2 LEU   827      40.096  39.886  15.095  1.00 58.43      1TEN H   new
+ATOM    402 3HD2 LEU   827      38.899  38.915  16.018  1.00 58.43      1TEN H   new
+ATOM    403  N   ALA   828      38.801  36.713  11.413  1.00 50.82      1TEN 296
+ATOM    404  CA  ALA   828      38.405  35.813  10.351  1.00 51.43      1TEN 297
+ATOM    405  C   ALA   828      38.563  36.488   8.994  1.00 52.97      1TEN 298
+ATOM    406  O   ALA   828      38.393  37.704   8.860  1.00 54.87      1TEN 299
+ATOM    407  CB  ALA   828      36.926  35.485  10.514  1.00 49.87      1TEN 300
+ATOM    408  H   ALA   828      38.101  37.217  11.920  1.00 50.82      1TEN 301 std
+ATOM    409  HA  ALA   828      39.034  34.912  10.404  1.00 51.43      1TEN H   new
+ATOM    410 1HB  ALA   828      36.611  34.801   9.712  1.00 49.87      1TEN H   new
+ATOM    411 2HB  ALA   828      36.762  35.005  11.490  1.00 49.87      1TEN H   new
+ATOM    412 3HB  ALA   828      36.336  36.412  10.457  1.00 49.87      1TEN H   new
+ATOM    413  N   GLU   829      38.897  35.694   7.975  1.00 52.39      1TEN 302
+ATOM    414  CA  GLU   829      39.005  36.188   6.608  1.00 49.85      1TEN 303
+ATOM    415  C   GLU   829      37.581  36.602   6.218  1.00 43.90      1TEN 304
+ATOM    416  O   GLU   829      36.592  35.958   6.622  1.00 41.36      1TEN 305
+ATOM    417  CB  GLU   829      39.573  35.063   5.761  1.00 56.98      1TEN 306
+ATOM    418  CG  GLU   829      39.444  35.250   4.251  1.00 65.94      1TEN 307
+ATOM    419  CD  GLU   829      38.492  34.230   3.642  1.00 70.23      1TEN 308
+ATOM    420  OE1 GLU   829      37.327  34.190   4.062  1.00 71.57      1TEN 309
+ATOM    421  OE2 GLU   829      38.954  33.458   2.802  1.00 70.76      1TEN 310
+ATOM    422  H   GLU   829      39.134  34.739   8.152  1.00 52.39      1TEN 311 std
+ATOM    423  HA  GLU   829      39.675  37.050   6.474  1.00 49.85      1TEN H   new
+ATOM    424 1HB  GLU   829      40.638  34.943   6.009  1.00 56.98      1TEN H   new
+ATOM    425 2HB  GLU   829      39.070  34.126   6.041  1.00 56.98      1TEN H   new
+ATOM    426 1HG  GLU   829      39.082  36.266   4.035  1.00 65.94      1TEN H   new
+ATOM    427 2HG  GLU   829      40.435  35.155   3.782  1.00 65.94      1TEN H   new
+ATOM    428  N   ILE   830      37.472  37.687   5.469  1.00 36.72      1TEN 312
+ATOM    429  CA  ILE   830      36.194  38.269   5.113  1.00 31.51      1TEN 313
+ATOM    430  C   ILE   830      36.270  38.842   3.690  1.00 31.31      1TEN 314
+ATOM    431  O   ILE   830      37.359  39.171   3.209  1.00 32.73      1TEN 315
+ATOM    432  CB  ILE   830      35.938  39.449   6.122  1.00 24.90      1TEN 316
+ATOM    433  CG1 ILE   830      37.130  40.405   6.106  1.00 24.50      1TEN 317
+ATOM    434  CG2 ILE   830      35.705  38.985   7.556  1.00 21.93      1TEN 318
+ATOM    435  CD1 ILE   830      36.936  41.816   6.647  1.00 25.95      1TEN 319
+ATOM    436  H   ILE   830      38.266  38.041   4.975  1.00 36.72      1TEN 320 std
+ATOM    437  HA  ILE   830      35.392  37.517   5.154  1.00 31.51      1TEN H   new
+ATOM    438  HB  ILE   830      35.017  39.948   5.786  1.00 24.90      1TEN H   new
+ATOM    439 1HG1 ILE   830      37.943  39.936   6.679  1.00 24.50      1TEN H   new
+ATOM    440 2HG1 ILE   830      37.477  40.490   5.066  1.00 24.50      1TEN H   new
+ATOM    441 1HG2 ILE   830      35.534  39.859   8.202  1.00 21.93      1TEN H   new
+ATOM    442 2HG2 ILE   830      34.825  38.326   7.590  1.00 21.93      1TEN H   new
+ATOM    443 3HG2 ILE   830      36.588  38.434   7.912  1.00 21.93      1TEN H   new
+ATOM    444 1HD1 ILE   830      37.881  42.374   6.566  1.00 25.95      1TEN H   new
+ATOM    445 2HD1 ILE   830      36.157  42.329   6.064  1.00 25.95      1TEN H   new
+ATOM    446 3HD1 ILE   830      36.630  41.766   7.702  1.00 25.95      1TEN H   new
+ATOM    447  N   ASP   831      35.158  39.011   2.978  1.00 32.25      1TEN 321
+ATOM    448  CA  ASP   831      35.179  39.628   1.649  1.00 31.19      1TEN 322
+ATOM    449  C   ASP   831      35.267  41.137   1.808  1.00 29.45      1TEN 323
+ATOM    450  O   ASP   831      35.931  41.863   1.051  1.00 30.10      1TEN 324
+ATOM    451  CB  ASP   831      33.902  39.441   0.881  1.00 33.83      1TEN 325
+ATOM    452  CG  ASP   831      33.328  38.053   0.840  1.00 35.78      1TEN 326
+ATOM    453  OD1 ASP   831      34.039  37.059   0.941  1.00 35.03      1TEN 327
+ATOM    454  OD2 ASP   831      32.111  37.987   0.787  1.00 39.79      1TEN 328
+ATOM    455  H   ASP   831      34.297  38.631   3.317  1.00 32.25      1TEN 329 std
+ATOM    456  HA  ASP   831      36.025  39.159   1.125  1.00 31.19      1TEN H   new
+ATOM    457 1HB  ASP   831      33.143  40.112   1.310  1.00 33.83      1TEN H   new
+ATOM    458 2HB  ASP   831      34.074  39.771  -0.154  1.00 33.83      1TEN H   new
+ATOM    459  N   GLY   832      34.564  41.653   2.811  1.00 27.64      1TEN 330
+ATOM    460  CA  GLY   832      34.556  43.073   3.065  1.00 24.19      1TEN 331
+ATOM    461  C   GLY   832      33.848  43.426   4.362  1.00 23.63      1TEN 332
+ATOM    462  O   GLY   832      33.495  42.554   5.171  1.00 17.74      1TEN 333
+ATOM    463  H   GLY   832      34.031  41.045   3.399  1.00 27.64      1TEN 334 std
+ATOM    464 1HA  GLY   832      35.592  43.441   3.104  1.00 24.19      1TEN H   new
+ATOM    465 2HA  GLY   832      34.062  43.589   2.229  1.00 24.19      1TEN H   new
+ATOM    466  N   ILE   833      33.625  44.736   4.469  1.00 21.38      1TEN 335
+ATOM    467  CA  ILE   833      33.006  45.395   5.604  1.00 18.75      1TEN 336
+ATOM    468  C   ILE   833      31.911  46.302   5.064  1.00 16.41      1TEN 337
+ATOM    469  O   ILE   833      32.144  46.992   4.073  1.00 18.30      1TEN 338
+ATOM    470  CB  ILE   833      34.098  46.287   6.293  1.00 20.88      1TEN 339
+ATOM    471  CG1 ILE   833      35.264  45.461   6.805  1.00 26.05      1TEN 340
+ATOM    472  CG2 ILE   833      33.542  47.163   7.426  1.00 16.62      1TEN 341
+ATOM    473  CD1 ILE   833      34.862  44.535   7.970  1.00 27.78      1TEN 342
+ATOM    474  H   ILE   833      33.806  45.307   3.668  1.00 21.38      1TEN 343 std
+ATOM    475  HA  ILE   833      32.594  44.667   6.319  1.00 18.75      1TEN H   new
+ATOM    476  HB  ILE   833      34.458  46.962   5.502  1.00 20.88      1TEN H   new
+ATOM    477 1HG1 ILE   833      35.670  44.855   5.982  1.00 26.05      1TEN H   new
+ATOM    478 2HG1 ILE   833      36.069  46.134   7.136  1.00 26.05      1TEN H   new
+ATOM    479 1HG2 ILE   833      34.357  47.759   7.863  1.00 16.62      1TEN H   new
+ATOM    480 2HG2 ILE   833      32.770  47.836   7.025  1.00 16.62      1TEN H   new
+ATOM    481 3HG2 ILE   833      33.100  46.522   8.203  1.00 16.62      1TEN H   new
+ATOM    482 1HD1 ILE   833      35.740  43.961   8.302  1.00 27.78      1TEN H   new
+ATOM    483 2HD1 ILE   833      34.482  45.141   8.806  1.00 27.78      1TEN H   new
+ATOM    484 3HD1 ILE   833      34.077  43.842   7.634  1.00 27.78      1TEN H   new
+ATOM    485  N   GLU   834      30.730  46.331   5.644  1.00 10.55      1TEN 344
+ATOM    486  CA  GLU   834      29.693  47.252   5.225  1.00 12.27      1TEN 345
+ATOM    487  C   GLU   834      29.656  48.312   6.334  1.00 12.26      1TEN 346
+ATOM    488  O   GLU   834      29.608  47.975   7.530  1.00 10.91      1TEN 347
+ATOM    489  CB  GLU   834      28.356  46.573   5.153  1.00 14.77      1TEN 348
+ATOM    490  CG  GLU   834      28.330  45.513   4.067  1.00 28.31      1TEN 349
+ATOM    491  CD  GLU   834      26.988  44.841   3.825  1.00 35.86      1TEN 350
+ATOM    492  OE1 GLU   834      25.982  45.152   4.467  1.00 35.82      1TEN 351
+ATOM    493  OE2 GLU   834      26.939  43.951   2.984  1.00 42.42      1TEN 352
+ATOM    494  H   GLU   834      30.545  45.741   6.430  1.00 10.55      1TEN 353 std
+ATOM    495  HA  GLU   834      29.899  47.664   4.226  1.00 12.27      1TEN H   new
+ATOM    496 1HB  GLU   834      28.124  46.111   6.124  1.00 14.77      1TEN H   new
+ATOM    497 2HB  GLU   834      27.573  47.320   4.957  1.00 14.77      1TEN H   new
+ATOM    498 1HG  GLU   834      28.662  45.973   3.125  1.00 28.31      1TEN H   new
+ATOM    499 2HG  GLU   834      29.066  44.736   4.323  1.00 28.31      1TEN H   new
+ATOM    500  N   LEU   835      29.801  49.584   5.964  1.00 11.11      1TEN 354
+ATOM    501  CA  LEU   835      29.762  50.672   6.915  1.00 11.37      1TEN 355
+ATOM    502  C   LEU   835      28.491  51.478   6.693  1.00 10.41      1TEN 356
+ATOM    503  O   LEU   835      28.277  51.910   5.565  1.00 10.24      1TEN 357
+ATOM    504  CB  LEU   835      30.998  51.553   6.746  1.00 13.25      1TEN 358
+ATOM    505  CG  LEU   835      31.246  52.751   7.685  1.00 17.99      1TEN 359
+ATOM    506  CD1 LEU   835      32.730  53.056   7.701  1.00 19.93      1TEN 360
+ATOM    507  CD2 LEU   835      30.504  54.022   7.246  1.00 16.77      1TEN 361
+ATOM    508  H   LEU   835      29.864  49.795   4.988  1.00 11.11      1TEN 362 std
+ATOM    509  HA  LEU   835      29.761  50.275   7.941  1.00 11.37      1TEN H   new
+ATOM    510 1HB  LEU   835      31.877  50.896   6.821  1.00 13.25      1TEN H   new
+ATOM    511 2HB  LEU   835      30.977  51.946   5.719  1.00 13.25      1TEN H   new
+ATOM    512  HG  LEU   835      30.869  52.468   8.679  1.00 17.99      1TEN H   new
+ATOM    513 1HD1 LEU   835      32.922  53.910   8.368  1.00 19.93      1TEN H   new
+ATOM    514 2HD1 LEU   835      33.282  52.176   8.064  1.00 19.93      1TEN H   new
+ATOM    515 3HD1 LEU   835      33.065  53.304   6.683  1.00 19.93      1TEN H   new
+ATOM    516 1HD2 LEU   835      30.721  54.836   7.953  1.00 16.77      1TEN H   new
+ATOM    517 2HD2 LEU   835      30.838  54.313   6.239  1.00 16.77      1TEN H   new
+ATOM    518 3HD2 LEU   835      29.421  53.828   7.231  1.00 16.77      1TEN H   new
+ATOM    519  N   THR   836      27.614  51.697   7.678  1.00  8.18      1TEN 363
+ATOM    520  CA  THR   836      26.435  52.500   7.470  1.00  5.92      1TEN 364
+ATOM    521  C   THR   836      26.505  53.697   8.393  1.00  8.12      1TEN 365
+ATOM    522  O   THR   836      26.776  53.522   9.582  1.00  8.29      1TEN 366
+ATOM    523  CB  THR   836      25.185  51.670   7.769  1.00  7.14      1TEN 367
+ATOM    524  OG1 THR   836      25.226  50.576   6.859  1.00 11.33      1TEN 368
+ATOM    525  CG2 THR   836      23.865  52.437   7.623  1.00  4.69      1TEN 369
+ATOM    526  H   THR   836      27.756  51.267   8.570  1.00  8.18      1TEN 370 std
+ATOM    527  HG1 THR   836      24.775  50.866   6.015  1.00 11.33      1TEN 371 std
+ATOM    528  HA  THR   836      26.383  52.839   6.425  1.00  5.92      1TEN H   new
+ATOM    529  HB  THR   836      25.202  51.359   8.824  1.00  7.14      1TEN H   new
+ATOM    530 1HG2 THR   836      23.024  51.768   7.855  1.00  4.69      1TEN H   new
+ATOM    531 2HG2 THR   836      23.857  53.290   8.318  1.00  4.69      1TEN H   new
+ATOM    532 3HG2 THR   836      23.766  52.805   6.591  1.00  4.69      1TEN H   new
+ATOM    533  N   TYR   837      26.241  54.908   7.916  1.00  7.71      1TEN 372
+ATOM    534  CA  TYR   837      26.257  56.087   8.770  1.00  7.07      1TEN 373
+ATOM    535  C   TYR   837      25.055  56.956   8.467  1.00  9.72      1TEN 374
+ATOM    536  O   TYR   837      24.507  56.868   7.353  1.00  9.64      1TEN 375
+ATOM    537  CB  TYR   837      27.547  56.891   8.558  1.00  7.76      1TEN 376
+ATOM    538  CG  TYR   837      27.714  57.569   7.190  1.00  9.63      1TEN 377
+ATOM    539  CD1 TYR   837      28.327  56.890   6.152  1.00  9.64      1TEN 378
+ATOM    540  CD2 TYR   837      27.290  58.878   7.023  1.00 10.90      1TEN 379
+ATOM    541  CE1 TYR   837      28.525  57.531   4.951  1.00 10.98      1TEN 380
+ATOM    542  CE2 TYR   837      27.474  59.526   5.826  1.00 10.08      1TEN 381
+ATOM    543  CZ  TYR   837      28.099  58.838   4.804  1.00 15.16      1TEN 382
+ATOM    544  OH  TYR   837      28.318  59.491   3.602  1.00 17.95      1TEN 383
+ATOM    545  H   TYR   837      25.968  55.022   6.961  1.00  7.71      1TEN 384 std
+ATOM    546  HH  TYR   837      27.758  60.319   3.578  1.00 17.95      1TEN 385 std
+ATOM    547  HA  TYR   837      26.217  55.760   9.820  1.00  7.07      1TEN H   new
+ATOM    548 1HB  TYR   837      27.601  57.667   9.336  1.00  7.76      1TEN H   new
+ATOM    549 2HB  TYR   837      28.402  56.218   8.715  1.00  7.76      1TEN H   new
+ATOM    550  HD1 TYR   837      28.653  55.848   6.286  1.00  9.64      1TEN H   new
+ATOM    551  HD2 TYR   837      26.801  59.403   7.857  1.00 10.90      1TEN H   new
+ATOM    552  HE1 TYR   837      29.017  57.009   4.117  1.00 10.98      1TEN H   new
+ATOM    553  HE2 TYR   837      27.134  60.563   5.685  1.00 10.08      1TEN H   new
+ATOM    554  N   GLY   838      24.626  57.773   9.419  1.00  6.97      1TEN 386
+ATOM    555  CA  GLY   838      23.536  58.704   9.194  1.00  8.10      1TEN 387
+ATOM    556  C   GLY   838      23.238  59.471  10.472  1.00  7.81      1TEN 388
+ATOM    557  O   GLY   838      23.792  59.143  11.528  1.00  7.59      1TEN 389
+ATOM    558  H   GLY   838      25.034  57.730  10.331  1.00  6.97      1TEN 390 std
+ATOM    559 1HA  GLY   838      23.801  59.405   8.388  1.00  8.10      1TEN H   new
+ATOM    560 2HA  GLY   838      22.639  58.159   8.865  1.00  8.10      1TEN H   new
+ATOM    561  N   ILE   839      22.361  60.468  10.445  1.00  8.49      1TEN 391
+ATOM    562  CA  ILE   839      21.988  61.251  11.621  1.00  7.91      1TEN 392
+ATOM    563  C   ILE   839      21.283  60.262  12.546  1.00  7.41      1TEN 393
+ATOM    564  O   ILE   839      20.314  59.598  12.162  1.00  7.89      1TEN 394
+ATOM    565  CB  ILE   839      21.086  62.452  11.220  1.00 12.25      1TEN 395
+ATOM    566  CG1 ILE   839      21.877  63.447  10.351  1.00  8.61      1TEN 396
+ATOM    567  CG2 ILE   839      20.501  63.133  12.468  1.00  4.71      1TEN 397
+ATOM    568  CD1 ILE   839      20.922  64.381   9.600  1.00 13.39      1TEN 398
+ATOM    569  H   ILE   839      21.869  60.634   9.590  1.00  8.49      1TEN 399 std
+ATOM    570  HA  ILE   839      22.855  61.704  12.124  1.00  7.91      1TEN H   new
+ATOM    571  HB  ILE   839      20.242  62.077  10.622  1.00 12.25      1TEN H   new
+ATOM    572 1HG1 ILE   839      22.555  64.038  10.984  1.00  8.61      1TEN H   new
+ATOM    573 2HG1 ILE   839      22.504  62.898   9.633  1.00  8.61      1TEN H   new
+ATOM    574 1HG2 ILE   839      19.867  63.978  12.162  1.00  4.71      1TEN H   new
+ATOM    575 2HG2 ILE   839      19.897  62.408  13.033  1.00  4.71      1TEN H   new
+ATOM    576 3HG2 ILE   839      21.320  63.501  13.104  1.00  4.71      1TEN H   new
+ATOM    577 1HD1 ILE   839      21.504  65.084   8.985  1.00 13.39      1TEN H   new
+ATOM    578 2HD1 ILE   839      20.262  63.787   8.951  1.00 13.39      1TEN H   new
+ATOM    579 3HD1 ILE   839      20.314  64.944  10.324  1.00 13.39      1TEN H   new
+ATOM    580  N   LYS   840      21.747  60.192  13.787  1.00  7.92      1TEN 400
+ATOM    581  CA  LYS   840      21.264  59.214  14.728  1.00 10.98      1TEN 401
+ATOM    582  C   LYS   840      19.771  59.071  14.863  1.00 11.87      1TEN 402
+ATOM    583  O   LYS   840      19.270  57.956  14.688  1.00 14.51      1TEN 403
+ATOM    584  CB  LYS   840      21.884  59.441  16.094  1.00 14.46      1TEN 404
+ATOM    585  CG  LYS   840      21.627  58.227  16.993  1.00 22.27      1TEN 405
+ATOM    586  CD  LYS   840      22.248  58.320  18.385  1.00 29.43      1TEN 406
+ATOM    587  CE  LYS   840      22.141  56.951  19.091  1.00 36.76      1TEN 407
+ATOM    588  NZ  LYS   840      22.918  55.894  18.438  1.00 41.95      1TEN 408
+ATOM    589  H   LYS   840      22.343  60.923  14.119  1.00  7.92      1TEN 409 std
+ATOM    590 1HZ  LYS   840      22.842  55.024  18.926  1.00 41.95      1TEN 410 std
+ATOM    591 2HZ  LYS   840      22.610  55.645  17.520  1.00 41.95      1TEN 411 std
+ATOM    592 3HZ  LYS   840      23.898  56.066  18.334  1.00 41.95      1TEN 412 std
+ATOM    593  HA  LYS   840      21.586  58.258  14.289  1.00 10.98      1TEN H   new
+ATOM    594 1HB  LYS   840      22.966  59.610  15.992  1.00 14.46      1TEN H   new
+ATOM    595 2HB  LYS   840      21.459  60.345  16.554  1.00 14.46      1TEN H   new
+ATOM    596 1HG  LYS   840      20.541  58.091  17.100  1.00 22.27      1TEN H   new
+ATOM    597 2HG  LYS   840      22.016  57.328  16.492  1.00 22.27      1TEN H   new
+ATOM    598 1HD  LYS   840      23.302  58.624  18.308  1.00 29.43      1TEN H   new
+ATOM    599 2HD  LYS   840      21.733  59.091  18.977  1.00 29.43      1TEN H   new
+ATOM    600 1HE  LYS   840      22.482  57.056  20.131  1.00 36.76      1TEN H   new
+ATOM    601 2HE  LYS   840      21.084  56.648  19.128  1.00 36.76      1TEN H   new
+ATOM    602  N   ASP   841      19.071  60.160  15.065  1.00 13.50      1TEN 413
+ATOM    603  CA  ASP   841      17.640  60.066  15.255  1.00 17.49      1TEN 414
+ATOM    604  C   ASP   841      16.787  60.279  14.026  1.00 19.86      1TEN 415
+ATOM    605  O   ASP   841      15.577  60.537  14.131  1.00 22.77      1TEN 416
+ATOM    606  CB AASP   841      17.240  61.070  16.332  0.71 21.06      1TEN 417
+ATOM    607  CB BASP   841      17.175  60.989  16.385  0.29 15.41      1TEN 418
+ATOM    608  CG AASP   841      17.995  60.816  17.617  0.71 24.64      1TEN 419
+ATOM    609  CG BASP   841      17.819  62.356  16.342  0.29 13.51      1TEN 420
+ATOM    610  OD1AASP   841      17.575  59.974  18.400  0.71 23.53      1TEN 421
+ATOM    611  OD1BASP   841      17.875  62.993  15.295  0.29 10.36      1TEN 422
+ATOM    612  OD2AASP   841      19.044  61.431  17.787  0.71 29.55      1TEN 423
+ATOM    613  OD2BASP   841      18.405  62.741  17.344  0.29 15.32      1TEN 424
+ATOM    614  H   ASP   841      19.513  61.037  15.255  1.00 13.50      1TEN 425 std
+ATOM    615  HA  ASP   841      17.444  59.023  15.543  1.00 17.49      1TEN H   new
+ATOM    616 1HB AASP   841      17.442  62.092  15.979  0.71 15.41      1TEN H   new
+ATOM    617 2HB AASP   841      16.158  61.002  16.518  0.71 15.41      1TEN H   new
+ATOM    618  N   VAL   842      17.364  60.181  12.827  1.00 14.83      1TEN 426
+ATOM    619  CA  VAL   842      16.567  60.282  11.607  1.00 14.80      1TEN 427
+ATOM    620  C   VAL   842      16.652  58.852  11.058  1.00 15.79      1TEN 428
+ATOM    621  O   VAL   842      17.617  58.535  10.353  1.00 16.41      1TEN 429
+ATOM    622  CB  VAL   842      17.112  61.360  10.621  1.00 15.27      1TEN 430
+ATOM    623  CG1 VAL   842      16.349  61.346   9.280  1.00 10.93      1TEN 431
+ATOM    624  CG2 VAL   842      16.960  62.760  11.253  1.00 14.79      1TEN 432
+ATOM    625  H   VAL   842      18.355  60.062  12.772  1.00 14.83      1TEN 433 std
+ATOM    626  HA  VAL   842      15.534  60.619  11.776  1.00 14.80      1TEN H   new
+ATOM    627  HB  VAL   842      18.170  61.128  10.427  1.00 15.27      1TEN H   new
+ATOM    628 1HG1 VAL   842      16.762  62.118   8.614  1.00 10.93      1TEN H   new
+ATOM    629 2HG1 VAL   842      16.456  60.359   8.807  1.00 10.93      1TEN H   new
+ATOM    630 3HG1 VAL   842      15.284  61.551   9.462  1.00 10.93      1TEN H   new
+ATOM    631 1HG2 VAL   842      17.344  63.521  10.557  1.00 14.79      1TEN H   new
+ATOM    632 2HG2 VAL   842      15.898  62.956  11.459  1.00 14.79      1TEN H   new
+ATOM    633 3HG2 VAL   842      17.530  62.802  12.193  1.00 14.79      1TEN H   new
+ATOM    634  N   PRO   843      15.695  57.939  11.290  1.00 14.52      1TEN 434
+ATOM    635  CA  PRO   843      15.725  56.562  10.816  1.00 15.91      1TEN 435
+ATOM    636  C   PRO   843      15.960  56.346   9.335  1.00 13.98      1TEN 436
+ATOM    637  O   PRO   843      16.609  55.386   8.925  1.00 15.03      1TEN 437
+ATOM    638  CB  PRO   843      14.385  56.004  11.247  1.00 16.78      1TEN 438
+ATOM    639  CG  PRO   843      14.004  56.847  12.439  1.00 15.20      1TEN 439
+ATOM    640  CD  PRO   843      14.433  58.212  11.976  1.00 15.21      1TEN 440
+ATOM    641  HA  PRO   843      16.602  56.055  11.245  1.00 15.91      1TEN H   new
+ATOM    642 1HB  PRO   843      13.639  56.083  10.443  1.00 16.78      1TEN H   new
+ATOM    643 2HB  PRO   843      14.459  54.939  11.514  1.00 16.78      1TEN H   new
+ATOM    644 1HG  PRO   843      12.926  56.800  12.654  1.00 15.20      1TEN H   new
+ATOM    645 2HG  PRO   843      14.528  56.534  13.354  1.00 15.20      1TEN H   new
+ATOM    646 1HD  PRO   843      13.692  58.666  11.302  1.00 15.21      1TEN H   new
+ATOM    647 2HD  PRO   843      14.568  58.905  12.819  1.00 15.21      1TEN H   new
+ATOM    648  N   GLY   844      15.463  57.243   8.509  1.00 14.64      1TEN 441
+ATOM    649  CA  GLY   844      15.635  57.077   7.093  1.00 13.97      1TEN 442
+ATOM    650  C   GLY   844      16.969  57.577   6.591  1.00 14.50      1TEN 443
+ATOM    651  O   GLY   844      17.236  57.323   5.417  1.00 13.32      1TEN 444
+ATOM    652  H   GLY   844      14.941  58.019   8.864  1.00 14.64      1TEN 445 std
+ATOM    653 1HA  GLY   844      15.532  56.011   6.841  1.00 13.97      1TEN H   new
+ATOM    654 2HA  GLY   844      14.830  57.611   6.568  1.00 13.97      1TEN H   new
+ATOM    655  N   ASP   845      17.791  58.268   7.388  1.00 11.02      1TEN 446
+ATOM    656  CA  ASP   845      19.058  58.768   6.894  1.00 10.05      1TEN 447
+ATOM    657  C   ASP   845      20.106  57.698   7.084  1.00 10.44      1TEN 448
+ATOM    658  O   ASP   845      20.731  57.629   8.153  1.00 11.31      1TEN 449
+ATOM    659  CB  ASP   845      19.518  60.040   7.617  1.00  8.18      1TEN 450
+ATOM    660  CG  ASP   845      20.855  60.558   7.113  1.00 11.60      1TEN 451
+ATOM    661  OD1 ASP   845      21.324  60.248   6.015  1.00 13.89      1TEN 452
+ATOM    662  OD2 ASP   845      21.524  61.256   7.854  1.00 12.09      1TEN 453
+ATOM    663  H   ASP   845      17.580  58.409   8.355  1.00 11.02      1TEN 454 std
+ATOM    664  HA  ASP   845      18.923  59.022   5.832  1.00 10.05      1TEN H   new
+ATOM    665 1HB  ASP   845      18.756  60.823   7.490  1.00  8.18      1TEN H   new
+ATOM    666 2HB  ASP   845      19.593  59.836   8.695  1.00  8.18      1TEN H   new
+ATOM    667  N   ARG   846      20.290  56.799   6.118  1.00  9.21      1TEN 455
+ATOM    668  CA  ARG   846      21.296  55.751   6.251  1.00  8.99      1TEN 456
+ATOM    669  C   ARG   846      22.081  55.502   4.956  1.00  8.68      1TEN 457
+ATOM    670  O   ARG   846      21.512  55.012   3.964  1.00 11.48      1TEN 458
+ATOM    671  CB  ARG   846      20.643  54.424   6.749  1.00 10.70      1TEN 459
+ATOM    672  CG  ARG   846      20.019  54.404   8.167  1.00 14.69      1TEN 460
+ATOM    673  CD  ARG   846      21.037  54.749   9.279  1.00 14.76      1TEN 461
+ATOM    674  NE  ARG   846      20.461  54.805  10.628  1.00 19.43      1TEN 462
+ATOM    675  CZ  ARG   846      20.182  55.948  11.309  1.00 15.79      1TEN 463
+ATOM    676  NH1 ARG   846      20.411  57.161  10.777  1.00  9.45      1TEN 464
+ATOM    677  NH2 ARG   846      19.755  55.863  12.581  1.00 18.32      1TEN 465
+ATOM    678  H   ARG   846      19.773  56.901   5.268  1.00  9.21      1TEN 466 std
+ATOM    679  HE  ARG   846      20.246  53.914  11.028  1.00 19.43      1TEN 467 std
+ATOM    680 1HH1 ARG   846      20.721  57.246   9.830  1.00  9.45      1TEN 468 std
+ATOM    681 2HH1 ARG   846      20.161  58.014  11.234  1.00  9.45      1TEN 469 std
+ATOM    682 1HH2 ARG   846      19.673  54.965  13.012  1.00 18.32      1TEN 470 std
+ATOM    683 2HH2 ARG   846      19.516  56.651  13.148  1.00 18.32      1TEN 471 std
+ATOM    684  HA  ARG   846      22.020  56.108   6.998  1.00  8.99      1TEN H   new
+ATOM    685 1HB  ARG   846      19.857  54.146   6.032  1.00 10.70      1TEN H   new
+ATOM    686 2HB  ARG   846      21.409  53.636   6.708  1.00 10.70      1TEN H   new
+ATOM    687 1HG  ARG   846      19.186  55.121   8.205  1.00 14.69      1TEN H   new
+ATOM    688 2HG  ARG   846      19.595  53.408   8.361  1.00 14.69      1TEN H   new
+ATOM    689 1HD  ARG   846      21.843  54.000   9.268  1.00 14.76      1TEN H   new
+ATOM    690 2HD  ARG   846      21.498  55.721   9.049  1.00 14.76      1TEN H   new
+ATOM    691  N   THR   847      23.360  55.837   4.897  1.00  8.06      1TEN 472
+ATOM    692  CA  THR   847      24.165  55.553   3.703  1.00  6.92      1TEN 473
+ATOM    693  C   THR   847      25.050  54.350   4.019  1.00  6.22      1TEN 474
+ATOM    694  O   THR   847      25.714  54.354   5.063  1.00  7.00      1TEN 475
+ATOM    695  CB  THR   847      25.062  56.745   3.336  1.00  4.86      1TEN 476
+ATOM    696  OG1 THR   847      24.223  57.872   3.185  1.00  9.32      1TEN 477
+ATOM    697  CG2 THR   847      25.852  56.515   2.049  1.00  9.16      1TEN 478
+ATOM    698  H   THR   847      23.790  56.321   5.659  1.00  8.06      1TEN 479 std
+ATOM    699  HG1 THR   847      24.277  58.407   4.028  1.00  9.32      1TEN 480 std
+ATOM    700  HA  THR   847      23.496  55.356   2.853  1.00  6.92      1TEN H   new
+ATOM    701  HB  THR   847      25.804  56.890   4.135  1.00  4.86      1TEN H   new
+ATOM    702 1HG2 THR   847      26.474  57.397   1.837  1.00  9.16      1TEN H   new
+ATOM    703 2HG2 THR   847      26.497  55.632   2.167  1.00  9.16      1TEN H   new
+ATOM    704 3HG2 THR   847      25.155  56.350   1.215  1.00  9.16      1TEN H   new
+ATOM    705  N   THR   848      25.088  53.319   3.177  1.00  7.81      1TEN 481
+ATOM    706  CA  THR   848      25.939  52.153   3.388  1.00  7.81      1TEN 482
+ATOM    707  C   THR   848      27.044  52.159   2.324  1.00 10.27      1TEN 483
+ATOM    708  O   THR   848      26.754  52.369   1.142  1.00  9.38      1TEN 484
+ATOM    709  CB  THR   848      25.129  50.844   3.256  1.00  9.17      1TEN 485
+ATOM    710  OG1 THR   848      24.111  50.895   4.273  1.00 11.64      1TEN 486
+ATOM    711  CG2 THR   848      26.001  49.576   3.340  1.00  8.74      1TEN 487
+ATOM    712  H   THR   848      24.539  53.358   2.342  1.00  7.81      1TEN 488 std
+ATOM    713  HG1 THR   848      23.314  51.350   3.877  1.00 11.64      1TEN 489 std
+ATOM    714  HA  THR   848      26.364  52.201   4.401  1.00  7.81      1TEN H   new
+ATOM    715  HB  THR   848      24.676  50.773   2.256  1.00  9.17      1TEN H   new
+ATOM    716 1HG2 THR   848      25.364  48.685   3.239  1.00  8.74      1TEN H   new
+ATOM    717 2HG2 THR   848      26.745  49.588   2.530  1.00  8.74      1TEN H   new
+ATOM    718 3HG2 THR   848      26.517  49.549   4.311  1.00  8.74      1TEN H   new
+ATOM    719  N   ILE   849      28.290  51.960   2.734  1.00 10.29      1TEN 490
+ATOM    720  CA  ILE   849      29.460  51.909   1.869  1.00  9.65      1TEN 491
+ATOM    721  C   ILE   849      29.962  50.473   1.998  1.00 11.80      1TEN 492
+ATOM    722  O   ILE   849      30.058  49.949   3.116  1.00  9.32      1TEN 493
+ATOM    723  CB  ILE   849      30.581  52.861   2.371  1.00 10.01      1TEN 494
+ATOM    724  CG1 ILE   849      30.121  54.280   2.714  1.00 13.89      1TEN 495
+ATOM    725  CG2 ILE   849      31.719  52.863   1.339  1.00 10.11      1TEN 496
+ATOM    726  CD1 ILE   849      29.570  55.163   1.577  1.00 11.78      1TEN 497
+ATOM    727  H   ILE   849      28.447  51.768   3.703  1.00 10.29      1TEN 498 std
+ATOM    728  HA  ILE   849      29.207  52.210   0.842  1.00  9.65      1TEN H   new
+ATOM    729  HB  ILE   849      30.933  52.466   3.335  1.00 10.01      1TEN H   new
+ATOM    730 1HG1 ILE   849      29.342  54.203   3.487  1.00 13.89      1TEN H   new
+ATOM    731 2HG1 ILE   849      30.973  54.809   3.167  1.00 13.89      1TEN H   new
+ATOM    732 1HG2 ILE   849      32.522  53.533   1.679  1.00 10.11      1TEN H   new
+ATOM    733 2HG2 ILE   849      32.116  51.843   1.228  1.00 10.11      1TEN H   new
+ATOM    734 3HG2 ILE   849      31.335  53.214   0.370  1.00 10.11      1TEN H   new
+ATOM    735 1HD1 ILE   849      29.284  56.145   1.981  1.00 11.78      1TEN H   new
+ATOM    736 2HD1 ILE   849      30.344  55.295   0.807  1.00 11.78      1TEN H   new
+ATOM    737 3HD1 ILE   849      28.688  54.680   1.131  1.00 11.78      1TEN H   new
+ATOM    738  N   ASP   850      30.302  49.802   0.900  1.00 13.67      1TEN 499
+ATOM    739  CA  ASP   850      30.834  48.453   0.969  1.00 17.41      1TEN 500
+ATOM    740  C   ASP   850      32.335  48.585   0.762  1.00 14.28      1TEN 501
+ATOM    741  O   ASP   850      32.799  49.064  -0.279  1.00 14.36      1TEN 502
+ATOM    742  CB  ASP   850      30.248  47.536  -0.107  1.00 20.31      1TEN 503
+ATOM    743  CG  ASP   850      28.732  47.381  -0.105  1.00 27.34      1TEN 504
+ATOM    744  OD1 ASP   850      28.046  47.471   0.911  1.00 29.74      1TEN 505
+ATOM    745  OD2 ASP   850      28.194  47.180  -1.186  1.00 35.54      1TEN 506
+ATOM    746  H   ASP   850      30.169  50.229   0.005  1.00 13.67      1TEN 507 std
+ATOM    747  HA  ASP   850      30.575  47.998   1.936  1.00 17.41      1TEN H   new
+ATOM    748 1HB  ASP   850      30.555  47.918  -1.092  1.00 20.31      1TEN H   new
+ATOM    749 2HB  ASP   850      30.698  46.539   0.006  1.00 20.31      1TEN H   new
+ATOM    750  N   LEU   851      33.124  48.236   1.768  1.00 12.40      1TEN 508
+ATOM    751  CA  LEU   851      34.579  48.324   1.710  1.00 13.21      1TEN 509
+ATOM    752  C   LEU   851      35.183  46.974   1.358  1.00 15.47      1TEN 510
+ATOM    753  O   LEU   851      34.539  45.934   1.570  1.00 15.52      1TEN 511
+ATOM    754  CB  LEU   851      35.218  48.733   3.055  1.00 12.28      1TEN 512
+ATOM    755  CG  LEU   851      35.002  50.093   3.711  1.00 20.11      1TEN 513
+ATOM    756  CD1 LEU   851      35.169  51.231   2.734  1.00 17.21      1TEN 514
+ATOM    757  CD2 LEU   851      33.629  50.153   4.337  1.00 21.53      1TEN 515
+ATOM    758  H   LEU   851      32.679  47.882   2.591  1.00 12.40      1TEN 516 std
+ATOM    759  HA  LEU   851      34.788  49.090   0.949  1.00 13.21      1TEN H   new
+ATOM    760 1HB  LEU   851      34.899  47.980   3.791  1.00 12.28      1TEN H   new
+ATOM    761 2HB  LEU   851      36.305  48.619   2.929  1.00 12.28      1TEN H   new
+ATOM    762  HG  LEU   851      35.772  50.208   4.488  1.00 20.11      1TEN H   new
+ATOM    763 1HD1 LEU   851      35.004  52.187   3.252  1.00 17.21      1TEN H   new
+ATOM    764 2HD1 LEU   851      36.187  51.211   2.318  1.00 17.21      1TEN H   new
+ATOM    765 3HD1 LEU   851      34.438  51.126   1.919  1.00 17.21      1TEN H   new
+ATOM    766 1HD2 LEU   851      33.483  51.137   4.807  1.00 21.53      1TEN H   new
+ATOM    767 2HD2 LEU   851      32.865  50.001   3.561  1.00 21.53      1TEN H   new
+ATOM    768 3HD2 LEU   851      33.538  49.365   5.100  1.00 21.53      1TEN H   new
+ATOM    769  N   THR   852      36.400  46.947   0.826  1.00 16.81      1TEN 517
+ATOM    770  CA  THR   852      37.051  45.689   0.531  1.00 21.53      1TEN 518
+ATOM    771  C   THR   852      37.814  45.251   1.785  1.00 22.57      1TEN 519
+ATOM    772  O   THR   852      38.065  46.070   2.673  1.00 19.44      1TEN 520
+ATOM    773  CB  THR   852      37.862  45.821  -0.770  1.00 22.08      1TEN 521
+ATOM    774  OG1 THR   852      38.573  47.042  -0.776  1.00 25.08      1TEN 522
+ATOM    775  CG2 THR   852      36.913  45.793  -1.973  1.00 27.71      1TEN 523
+ATOM    776  H   THR   852      36.917  47.782   0.637  1.00 16.81      1TEN 524 std
+ATOM    777  HG1 THR   852      39.518  46.936  -0.467  1.00 25.08      1TEN 525 std
+ATOM    778  HA  THR   852      36.348  44.871   0.315  1.00 21.53      1TEN H   new
+ATOM    779  HB  THR   852      38.571  44.983  -0.832  1.00 22.08      1TEN H   new
+ATOM    780 1HG2 THR   852      37.495  45.888  -2.902  1.00 27.71      1TEN H   new
+ATOM    781 2HG2 THR   852      36.360  44.842  -1.982  1.00 27.71      1TEN H   new
+ATOM    782 3HG2 THR   852      36.202  46.629  -1.899  1.00 27.71      1TEN H   new
+ATOM    783  N   GLU   853      38.214  43.987   1.950  1.00 28.76      1TEN 526
+ATOM    784  CA  GLU   853      38.853  43.515   3.183  1.00 33.54      1TEN 527
+ATOM    785  C   GLU   853      40.139  44.153   3.697  1.00 33.64      1TEN 528
+ATOM    786  O   GLU   853      40.480  44.086   4.888  1.00 36.40      1TEN 529
+ATOM    787  CB  GLU   853      38.949  41.994   3.091  1.00 38.58      1TEN 530
+ATOM    788  CG  GLU   853      40.007  41.380   2.205  1.00 46.84      1TEN 531
+ATOM    789  CD  GLU   853      41.133  40.874   3.085  1.00 55.71      1TEN 532
+ATOM    790  OE1 GLU   853      41.016  39.809   3.702  1.00 63.17      1TEN 533
+ATOM    791  OE2 GLU   853      42.119  41.581   3.293  1.00 59.46      1TEN 534
+ATOM    792  H   GLU   853      38.133  43.341   1.191  1.00 28.76      1TEN 535 std
+ATOM    793  HA  GLU   853      38.187  43.877   3.980  1.00 33.54      1TEN H   new
+ATOM    794 1HB  GLU   853      39.104  41.609   4.110  1.00 38.58      1TEN H   new
+ATOM    795 2HB  GLU   853      37.972  41.619   2.751  1.00 38.58      1TEN H   new
+ATOM    796 1HG  GLU   853      39.581  40.554   1.616  1.00 46.84      1TEN H   new
+ATOM    797 2HG  GLU   853      40.386  42.124   1.489  1.00 46.84      1TEN H   new
+ATOM    798  N   ASP   854      40.804  44.779   2.747  1.00 33.51      1TEN 536
+ATOM    799  CA  ASP   854      42.056  45.524   2.852  1.00 35.90      1TEN 537
+ATOM    800  C   ASP   854      41.894  46.917   3.459  1.00 35.74      1TEN 538
+ATOM    801  O   ASP   854      42.824  47.469   4.061  1.00 32.24      1TEN 539
+ATOM    802  CB  ASP   854      42.626  45.668   1.440  1.00 45.65      1TEN 540
+ATOM    803  CG  ASP   854      41.580  46.105   0.417  1.00 53.18      1TEN 541
+ATOM    804  OD1 ASP   854      40.799  45.257  -0.027  1.00 60.46      1TEN 542
+ATOM    805  OD2 ASP   854      41.404  47.287   0.135  1.00 60.36      1TEN 543
+ATOM    806  H   ASP   854      40.434  44.669   1.825  1.00 33.51      1TEN 544 std
+ATOM    807  HA  ASP   854      42.722  44.965   3.526  1.00 35.90      1TEN H   new
+ATOM    808 1HB  ASP   854      43.446  46.401   1.454  1.00 45.65      1TEN H   new
+ATOM    809 2HB  ASP   854      43.059  44.707   1.126  1.00 45.65      1TEN H   new
+ATOM    810  N   GLU   855      40.712  47.542   3.355  1.00 31.38      1TEN 545
+ATOM    811  CA  GLU   855      40.477  48.866   3.912  1.00 26.62      1TEN 546
+ATOM    812  C   GLU   855      40.263  48.859   5.428  1.00 24.51      1TEN 547
+ATOM    813  O   GLU   855      39.541  48.035   5.995  1.00 21.34      1TEN 548
+ATOM    814  CB  GLU   855      39.300  49.497   3.183  1.00 26.33      1TEN 549
+ATOM    815  CG  GLU   855      39.711  49.902   1.778  1.00 27.68      1TEN 550
+ATOM    816  CD  GLU   855      38.584  50.493   0.961  1.00 24.13      1TEN 551
+ATOM    817  OE1 GLU   855      37.745  49.749   0.468  1.00 24.54      1TEN 552
+ATOM    818  OE2 GLU   855      38.516  51.712   0.815  1.00 30.84      1TEN 553
+ATOM    819  H   GLU   855      39.992  47.113   2.810  1.00 31.38      1TEN 554 std
+ATOM    820  HA  GLU   855      41.384  49.469   3.757  1.00 26.62      1TEN H   new
+ATOM    821 1HB  GLU   855      38.462  48.785   3.138  1.00 26.33      1TEN H   new
+ATOM    822 2HB  GLU   855      38.944  50.378   3.738  1.00 26.33      1TEN H   new
+ATOM    823 1HG  GLU   855      40.529  50.635   1.842  1.00 27.68      1TEN H   new
+ATOM    824 2HG  GLU   855      40.109  49.021   1.254  1.00 27.68      1TEN H   new
+ATOM    825  N   ASN   856      40.914  49.777   6.129  1.00 23.82      1TEN 555
+ATOM    826  CA  ASN   856      40.804  49.853   7.585  1.00 27.25      1TEN 556
+ATOM    827  C   ASN   856      40.379  51.241   8.064  1.00 23.91      1TEN 557
+ATOM    828  O   ASN   856      40.374  51.483   9.271  1.00 24.48      1TEN 558
+ATOM    829  CB  ASN   856      42.151  49.408   8.273  1.00 30.98      1TEN 559
+ATOM    830  CG  ASN   856      43.123  50.519   8.723  1.00 40.58      1TEN 560
+ATOM    831  OD1 ASN   856      43.828  51.180   7.935  1.00 42.65      1TEN 561
+ATOM    832  ND2 ASN   856      43.171  50.817  10.022  1.00 44.67      1TEN 562
+ATOM    833  H   ASN   856      41.532  50.394   5.641  1.00 23.82      1TEN 563 std
+ATOM    834 1HD2 ASN   856      43.823  51.499  10.353  1.00 44.67      1TEN 564 std
+ATOM    835 2HD2 ASN   856      42.530  50.332  10.617  1.00 44.67      1TEN 565 std
+ATOM    836  HA  ASN   856      40.010  49.154   7.885  1.00 27.25      1TEN H   new
+ATOM    837 1HB  ASN   856      41.897  48.801   9.155  1.00 30.98      1TEN H   new
+ATOM    838 2HB  ASN   856      42.688  48.750   7.574  1.00 30.98      1TEN H   new
+ATOM    839  N   GLN   857      40.019  52.186   7.185  1.00 20.89      1TEN 566
+ATOM    840  CA  GLN   857      39.607  53.523   7.586  1.00 18.40      1TEN 567
+ATOM    841  C   GLN   857      38.691  54.089   6.510  1.00 19.42      1TEN 568
+ATOM    842  O   GLN   857      38.736  53.584   5.378  1.00 16.27      1TEN 569
+ATOM    843  CB  GLN   857      40.776  54.487   7.817  1.00 24.50      1TEN 570
+ATOM    844  CG  GLN   857      41.607  54.952   6.618  1.00 33.30      1TEN 571
+ATOM    845  CD  GLN   857      42.680  55.984   6.971  1.00 37.62      1TEN 572
+ATOM    846  OE1 GLN   857      43.495  55.797   7.877  1.00 40.64      1TEN 573
+ATOM    847  NE2 GLN   857      42.779  57.102   6.263  1.00 39.30      1TEN 574
+ATOM    848  H   GLN   857      39.912  51.966   6.215  1.00 20.89      1TEN 575 std
+ATOM    849 1HE2 GLN   857      43.481  57.762   6.530  1.00 39.30      1TEN 576 std
+ATOM    850 2HE2 GLN   857      42.148  57.251   5.502  1.00 39.30      1TEN 577 std
+ATOM    851  HA  GLN   857      39.091  53.428   8.553  1.00 18.40      1TEN H   new
+ATOM    852 1HB  GLN   857      40.373  55.385   8.309  1.00 24.50      1TEN H   new
+ATOM    853 2HB  GLN   857      41.463  54.010   8.531  1.00 24.50      1TEN H   new
+ATOM    854 1HG  GLN   857      42.090  54.077   6.158  1.00 33.30      1TEN H   new
+ATOM    855 2HG  GLN   857      40.933  55.382   5.862  1.00 33.30      1TEN H   new
+ATOM    856  N   TYR   858      37.870  55.097   6.823  1.00 13.62      1TEN 578
+ATOM    857  CA  TYR   858      36.981  55.685   5.849  1.00 12.80      1TEN 579
+ATOM    858  C   TYR   858      36.767  57.123   6.273  1.00 11.56      1TEN 580
+ATOM    859  O   TYR   858      36.485  57.392   7.436  1.00 10.10      1TEN 581
+ATOM    860  CB  TYR   858      35.643  54.903   5.731  1.00 11.12      1TEN 582
+ATOM    861  CG  TYR   858      34.842  55.389   4.519  1.00 19.40      1TEN 583
+ATOM    862  CD1 TYR   858      35.290  55.143   3.227  1.00 15.62      1TEN 584
+ATOM    863  CD2 TYR   858      33.690  56.127   4.715  1.00 17.45      1TEN 585
+ATOM    864  CE1 TYR   858      34.588  55.639   2.137  1.00 20.62      1TEN 586
+ATOM    865  CE2 TYR   858      32.990  56.623   3.631  1.00 23.63      1TEN 587
+ATOM    866  CZ  TYR   858      33.442  56.377   2.349  1.00 22.45      1TEN 588
+ATOM    867  OH  TYR   858      32.730  56.878   1.267  1.00 28.40      1TEN 589
+ATOM    868  H   TYR   858      37.837  55.432   7.765  1.00 13.62      1TEN 590 std
+ATOM    869  HH  TYR   858      32.003  57.483   1.592  1.00 28.40      1TEN 591 std
+ATOM    870  HA  TYR   858      37.424  55.640   4.843  1.00 12.80      1TEN H   new
+ATOM    871 1HB  TYR   858      35.848  53.826   5.635  1.00 11.12      1TEN H   new
+ATOM    872 2HB  TYR   858      35.050  55.038   6.648  1.00 11.12      1TEN H   new
+ATOM    873  HD1 TYR   858      36.204  54.553   3.067  1.00 15.62      1TEN H   new
+ATOM    874  HD2 TYR   858      33.329  56.320   5.736  1.00 17.45      1TEN H   new
+ATOM    875  HE1 TYR   858      34.942  55.445   1.114  1.00 20.62      1TEN H   new
+ATOM    876  HE2 TYR   858      32.075  57.212   3.789  1.00 23.63      1TEN H   new
+ATOM    877  N   SER   859      36.939  58.056   5.335  1.00  8.83      1TEN 592
+ATOM    878  CA  SER   859      36.812  59.470   5.594  1.00 10.54      1TEN 593
+ATOM    879  C   SER   859      35.442  59.903   5.113  1.00 11.82      1TEN 594
+ATOM    880  O   SER   859      35.106  59.639   3.956  1.00 15.52      1TEN 595
+ATOM    881  CB  SER   859      37.965  60.136   4.821  1.00  9.40      1TEN 596
+ATOM    882  OG  SER   859      38.098  61.521   5.062  1.00 17.67      1TEN 597
+ATOM    883  H   SER   859      37.137  57.773   4.396  1.00  8.83      1TEN 598 std
+ATOM    884  HG  SER   859      37.839  61.730   6.005  1.00 17.67      1TEN 599 std
+ATOM    885  HA  SER   859      36.884  59.748   6.656  1.00 10.54      1TEN H   new
+ATOM    886 1HB  SER   859      37.810  59.976   3.744  1.00  9.40      1TEN H   new
+ATOM    887 2HB  SER   859      38.908  59.636   5.088  1.00  9.40      1TEN H   new
+ATOM    888  N   ILE   860      34.645  60.560   5.951  1.00 11.85      1TEN 600
+ATOM    889  CA  ILE   860      33.295  61.002   5.610  1.00 14.08      1TEN 601
+ATOM    890  C   ILE   860      33.272  62.510   5.503  1.00 11.41      1TEN 602
+ATOM    891  O   ILE   860      33.839  63.163   6.384  1.00 13.40      1TEN 603
+ATOM    892  CB  ILE   860      32.291  60.622   6.726  1.00 14.11      1TEN 604
+ATOM    893  CG1 ILE   860      32.320  59.156   7.091  1.00 17.66      1TEN 605
+ATOM    894  CG2 ILE   860      30.899  60.998   6.253  1.00 16.12      1TEN 606
+ATOM    895  CD1 ILE   860      31.398  58.866   8.295  1.00 20.42      1TEN 607
+ATOM    896  H   ILE   860      35.004  60.812   6.849  1.00 11.85      1TEN 608 std
+ATOM    897  HA  ILE   860      33.015  60.520   4.662  1.00 14.08      1TEN H   new
+ATOM    898  HB  ILE   860      32.578  61.170   7.635  1.00 14.11      1TEN H   new
+ATOM    899 1HG1 ILE   860      32.002  58.553   6.228  1.00 17.66      1TEN H   new
+ATOM    900 2HG1 ILE   860      33.350  58.855   7.332  1.00 17.66      1TEN H   new
+ATOM    901 1HG2 ILE   860      30.165  60.738   7.029  1.00 16.12      1TEN H   new
+ATOM    902 2HG2 ILE   860      30.857  62.080   6.057  1.00 16.12      1TEN H   new
+ATOM    903 3HG2 ILE   860      30.665  60.449   5.329  1.00 16.12      1TEN H   new
+ATOM    904 1HD1 ILE   860      31.438  57.794   8.539  1.00 20.42      1TEN H   new
+ATOM    905 2HD1 ILE   860      31.733  59.452   9.164  1.00 20.42      1TEN H   new
+ATOM    906 3HD1 ILE   860      30.365  59.145   8.042  1.00 20.42      1TEN H   new
+ATOM    907  N   GLY   861      32.583  63.100   4.529  1.00 12.61      1TEN 609
+ATOM    908  CA  GLY   861      32.504  64.551   4.379  1.00 11.73      1TEN 610
+ATOM    909  C   GLY   861      31.059  64.952   4.143  1.00 12.09      1TEN 611
+ATOM    910  O   GLY   861      30.165  64.112   4.008  1.00 10.68      1TEN 612
+ATOM    911  H   GLY   861      32.056  62.543   3.887  1.00 12.61      1TEN 613 std
+ATOM    912 1HA  GLY   861      32.892  65.047   5.281  1.00 11.73      1TEN H   new
+ATOM    913 2HA  GLY   861      33.131  64.879   3.537  1.00 11.73      1TEN H   new
+ATOM    914  N   ASN   862      30.845  66.254   4.081  1.00 12.35      1TEN 614
+ATOM    915  CA  ASN   862      29.538  66.887   3.870  1.00 13.78      1TEN 615
+ATOM    916  C   ASN   862      28.502  66.562   4.927  1.00 14.52      1TEN 616
+ATOM    917  O   ASN   862      27.315  66.411   4.649  1.00 14.60      1TEN 617
+ATOM    918  CB  ASN   862      28.940  66.590   2.497  1.00 14.01      1TEN 618
+ATOM    919  CG  ASN   862      29.783  67.172   1.392  1.00 18.50      1TEN 619
+ATOM    920  OD1 ASN   862      29.933  68.381   1.212  1.00 20.81      1TEN 620
+ATOM    921  ND2 ASN   862      30.425  66.284   0.658  1.00 25.13      1TEN 621
+ATOM    922  H   ASN   862      31.643  66.845   4.204  1.00 12.35      1TEN 622 std
+ATOM    923 1HD2 ASN   862      30.963  66.601  -0.123  1.00 25.13      1TEN 623 std
+ATOM    924 2HD2 ASN   862      30.341  65.322   0.918  1.00 25.13      1TEN 624 std
+ATOM    925  HA  ASN   862      29.774  67.959   3.944  1.00 13.78      1TEN H   new
+ATOM    926 1HB  ASN   862      28.853  65.502   2.360  1.00 14.01      1TEN H   new
+ATOM    927 2HB  ASN   862      27.922  67.003   2.441  1.00 14.01      1TEN H   new
+ATOM    928  N   LEU   863      28.942  66.473   6.179  1.00 10.70      1TEN 625
+ATOM    929  CA  LEU   863      28.040  66.199   7.285  1.00  9.04      1TEN 626
+ATOM    930  C   LEU   863      27.491  67.536   7.734  1.00 11.91      1TEN 627
+ATOM    931  O   LEU   863      28.006  68.591   7.348  1.00 14.52      1TEN 628
+ATOM    932  CB  LEU   863      28.803  65.554   8.432  1.00 10.57      1TEN 629
+ATOM    933  CG  LEU   863      29.495  64.236   8.082  1.00 12.62      1TEN 630
+ATOM    934  CD1 LEU   863      30.329  63.787   9.266  1.00 12.56      1TEN 631
+ATOM    935  CD2 LEU   863      28.458  63.188   7.640  1.00 12.25      1TEN 632
+ATOM    936  H   LEU   863      29.906  66.665   6.362  1.00 10.70      1TEN 633 std
+ATOM    937  HA  LEU   863      27.236  65.513   6.978  1.00  9.04      1TEN H   new
+ATOM    938 1HB  LEU   863      29.561  66.264   8.795  1.00 10.57      1TEN H   new
+ATOM    939 2HB  LEU   863      28.105  65.376   9.263  1.00 10.57      1TEN H   new
+ATOM    940  HG  LEU   863      30.176  64.372   7.229  1.00 12.62      1TEN H   new
+ATOM    941 1HD1 LEU   863      30.831  62.839   9.023  1.00 12.56      1TEN H   new
+ATOM    942 2HD1 LEU   863      31.084  64.553   9.495  1.00 12.56      1TEN H   new
+ATOM    943 3HD1 LEU   863      29.677  63.643  10.140  1.00 12.56      1TEN H   new
+ATOM    944 1HD2 LEU   863      28.970  62.247   7.392  1.00 12.25      1TEN H   new
+ATOM    945 2HD2 LEU   863      27.743  63.012   8.457  1.00 12.25      1TEN H   new
+ATOM    946 3HD2 LEU   863      27.919  63.556   6.755  1.00 12.25      1TEN H   new
+ATOM    947  N   LYS   864      26.437  67.492   8.537  1.00 15.33      1TEN 634
+ATOM    948  CA  LYS   864      25.754  68.651   9.084  1.00 13.59      1TEN 635
+ATOM    949  C   LYS   864      26.412  69.072  10.382  1.00 12.38      1TEN 636
+ATOM    950  O   LYS   864      26.680  68.205  11.207  1.00 11.09      1TEN 637
+ATOM    951  CB  LYS   864      24.312  68.266   9.411  1.00 17.95      1TEN 638
+ATOM    952  CG  LYS   864      23.248  68.787   8.460  1.00 29.96      1TEN 639
+ATOM    953  CD  LYS   864      22.623  70.080   8.980  1.00 37.98      1TEN 640
+ATOM    954  CE  LYS   864      21.663  69.776  10.126  1.00 43.87      1TEN 641
+ATOM    955  NZ  LYS   864      21.113  70.999  10.681  1.00 48.77      1TEN 642
+ATOM    956  H   LYS   864      26.125  66.594   8.848  1.00 15.33      1TEN 643 std
+ATOM    957 1HZ  LYS   864      20.292  70.781  11.208  1.00 48.77      1TEN 644 std
+ATOM    958 2HZ  LYS   864      21.762  71.484  11.267  1.00 48.77      1TEN 645 std
+ATOM    959 3HZ  LYS   864      20.846  71.597   9.926  1.00 48.77      1TEN 646 std
+ATOM    960  HA  LYS   864      25.795  69.468   8.349  1.00 13.59      1TEN H   new
+ATOM    961 1HB  LYS   864      24.245  67.168   9.438  1.00 17.95      1TEN H   new
+ATOM    962 2HB  LYS   864      24.078  68.628  10.423  1.00 17.95      1TEN H   new
+ATOM    963 1HG  LYS   864      23.693  68.964   7.470  1.00 29.96      1TEN H   new
+ATOM    964 2HG  LYS   864      22.465  68.025   8.329  1.00 29.96      1TEN H   new
+ATOM    965 1HD  LYS   864      23.412  70.765   9.324  1.00 37.98      1TEN H   new
+ATOM    966 2HD  LYS   864      22.086  70.590   8.167  1.00 37.98      1TEN H   new
+ATOM    967 1HE  LYS   864      20.847  69.133   9.765  1.00 43.87      1TEN H   new
+ATOM    968 2HE  LYS   864      22.190  69.216  10.913  1.00 43.87      1TEN H   new
+ATOM    969  N   PRO   865      26.705  70.342  10.637  1.00 14.84      1TEN 647
+ATOM    970  CA  PRO   865      27.333  70.808  11.873  1.00 15.64      1TEN 648
+ATOM    971  C   PRO   865      26.416  70.597  13.072  1.00 16.58      1TEN 649
+ATOM    972  O   PRO   865      25.177  70.588  12.915  1.00 16.52      1TEN 650
+ATOM    973  CB  PRO   865      27.535  72.294  11.617  1.00 16.88      1TEN 651
+ATOM    974  CG  PRO   865      27.693  72.372  10.123  1.00 19.33      1TEN 652
+ATOM    975  CD  PRO   865      26.606  71.422   9.653  1.00 17.72      1TEN 653
+ATOM    976  HA  PRO   865      28.263  70.270  12.108  1.00 15.64      1TEN H   new
+ATOM    977 1HB  PRO   865      26.676  72.886  11.965  1.00 16.88      1TEN H   new
+ATOM    978 2HB  PRO   865      28.423  72.678  12.139  1.00 16.88      1TEN H   new
+ATOM    979 1HG  PRO   865      27.542  73.393   9.744  1.00 19.33      1TEN H   new
+ATOM    980 2HG  PRO   865      28.693  72.051   9.795  1.00 19.33      1TEN H   new
+ATOM    981 1HD  PRO   865      25.613  71.896   9.659  1.00 17.72      1TEN H   new
+ATOM    982 2HD  PRO   865      26.786  71.064   8.628  1.00 17.72      1TEN H   new
+ATOM    983  N   ASP   866      27.051  70.429  14.235  1.00 13.83      1TEN 654
+ATOM    984  CA  ASP   866      26.409  70.250  15.543  1.00 17.06      1TEN 655
+ATOM    985  C   ASP   866      25.309  69.202  15.506  1.00 15.37      1TEN 656
+ATOM    986  O   ASP   866      24.170  69.384  15.927  1.00 13.76      1TEN 657
+ATOM    987  CB  ASP   866      25.908  71.623  16.042  1.00 21.16      1TEN 658
+ATOM    988  CG  ASP   866      25.224  71.613  17.408  1.00 28.69      1TEN 659
+ATOM    989  OD1 ASP   866      25.687  70.920  18.321  1.00 31.76      1TEN 660
+ATOM    990  OD2 ASP   866      24.201  72.283  17.554  1.00 31.64      1TEN 661
+ATOM    991  H   ASP   866      28.051  70.448  14.242  1.00 13.83      1TEN 662 std
+ATOM    992  HA  ASP   866      27.148  69.861  16.259  1.00 17.06      1TEN H   new
+ATOM    993 1HB  ASP   866      26.763  72.313  16.084  1.00 21.16      1TEN H   new
+ATOM    994 2HB  ASP   866      25.204  72.029  15.301  1.00 21.16      1TEN H   new
+ATOM    995  N   THR   867      25.646  68.065  14.921  1.00 13.04      1TEN 663
+ATOM    996  CA  THR   867      24.668  67.010  14.754  1.00 13.37      1TEN 664
+ATOM    997  C   THR   867      25.251  65.688  15.228  1.00 11.97      1TEN 665
+ATOM    998  O   THR   867      26.426  65.395  14.964  1.00 12.38      1TEN 666
+ATOM    999  CB  THR   867      24.271  66.961  13.226  1.00 11.00      1TEN 667
+ATOM   1000  OG1 THR   867      23.678  68.213  12.836  1.00 11.03      1TEN 668
+ATOM   1001  CG2 THR   867      23.265  65.857  12.924  1.00  9.43      1TEN 669
+ATOM   1002  H   THR   867      26.590  67.891  14.640  1.00 13.04      1TEN 670 std
+ATOM   1003  HG1 THR   867      24.392  68.909  12.911  1.00 11.03      1TEN 671 std
+ATOM   1004  HA  THR   867      23.768  67.202  15.356  1.00 13.37      1TEN H   new
+ATOM   1005  HB  THR   867      25.196  66.762  12.665  1.00 11.00      1TEN H   new
+ATOM   1006 1HG2 THR   867      23.022  65.865  11.851  1.00  9.43      1TEN H   new
+ATOM   1007 2HG2 THR   867      23.697  64.882  13.194  1.00  9.43      1TEN H   new
+ATOM   1008 3HG2 THR   867      22.348  66.026  13.508  1.00  9.43      1TEN H   new
+ATOM   1009  N   GLU   868      24.433  64.911  15.938  1.00 11.56      1TEN 672
+ATOM   1010  CA  GLU   868      24.824  63.603  16.408  1.00 12.78      1TEN 673
+ATOM   1011  C   GLU   868      24.643  62.534  15.313  1.00 10.94      1TEN 674
+ATOM   1012  O   GLU   868      23.590  62.422  14.682  1.00 12.56      1TEN 675
+ATOM   1013  CB  GLU   868      23.980  63.281  17.607  1.00 19.23      1TEN 676
+ATOM   1014  CG  GLU   868      24.591  62.064  18.270  1.00 28.26      1TEN 677
+ATOM   1015  CD  GLU   868      24.094  61.788  19.668  1.00 34.88      1TEN 678
+ATOM   1016  OE1 GLU   868      22.895  61.640  19.874  1.00 36.98      1TEN 679
+ATOM   1017  OE2 GLU   868      24.929  61.697  20.559  1.00 41.79      1TEN 680
+ATOM   1018  H   GLU   868      23.510  65.229  16.156  1.00 11.56      1TEN 681 std
+ATOM   1019  HA  GLU   868      25.891  63.606  16.675  1.00 12.78      1TEN H   new
+ATOM   1020 1HB  GLU   868      23.955  64.132  18.304  1.00 19.23      1TEN H   new
+ATOM   1021 2HB  GLU   868      22.941  63.080  17.308  1.00 19.23      1TEN H   new
+ATOM   1022 1HG  GLU   868      24.389  61.183  17.644  1.00 28.26      1TEN H   new
+ATOM   1023 2HG  GLU   868      25.683  62.192  18.303  1.00 28.26      1TEN H   new
+ATOM   1024  N   TYR   869      25.645  61.736  15.017  1.00  8.26      1TEN 682
+ATOM   1025  CA  TYR   869      25.590  60.720  13.990  1.00  9.47      1TEN 683
+ATOM   1026  C   TYR   869      25.861  59.344  14.568  1.00  9.76      1TEN 684
+ATOM   1027  O   TYR   869      26.470  59.192  15.626  1.00 10.27      1TEN 685
+ATOM   1028  CB  TYR   869      26.684  60.963  12.946  1.00  8.78      1TEN 686
+ATOM   1029  CG  TYR   869      26.364  62.034  11.911  1.00 10.34      1TEN 687
+ATOM   1030  CD1 TYR   869      26.558  63.364  12.212  1.00  6.19      1TEN 688
+ATOM   1031  CD2 TYR   869      25.839  61.644  10.692  1.00  7.35      1TEN 689
+ATOM   1032  CE1 TYR   869      26.214  64.325  11.293  1.00  8.90      1TEN 690
+ATOM   1033  CE2 TYR   869      25.488  62.607   9.777  1.00 10.84      1TEN 691
+ATOM   1034  CZ  TYR   869      25.673  63.934  10.083  1.00 12.02      1TEN 692
+ATOM   1035  OH  TYR   869      25.295  64.899   9.173  1.00 15.03      1TEN 693
+ATOM   1036  H   TYR   869      26.446  61.777  15.614  1.00  8.26      1TEN 694 std
+ATOM   1037  HH  TYR   869      24.802  64.443   8.432  1.00 15.03      1TEN 695 std
+ATOM   1038  HA  TYR   869      24.584  60.769  13.547  1.00  9.47      1TEN H   new
+ATOM   1039 1HB  TYR   869      27.611  61.245  13.468  1.00  8.78      1TEN H   new
+ATOM   1040 2HB  TYR   869      26.885  60.017  12.422  1.00  8.78      1TEN H   new
+ATOM   1041  HD1 TYR   869      26.986  63.655  13.183  1.00  6.19      1TEN H   new
+ATOM   1042  HD2 TYR   869      25.704  60.578  10.458  1.00  7.35      1TEN H   new
+ATOM   1043  HE1 TYR   869      26.367  65.391  11.517  1.00  8.90      1TEN H   new
+ATOM   1044  HE2 TYR   869      25.061  62.318   8.805  1.00 10.84      1TEN H   new
+ATOM   1045  N   GLU   870      25.394  58.322  13.875  1.00  8.96      1TEN 696
+ATOM   1046  CA  GLU   870      25.653  56.962  14.285  1.00 10.66      1TEN 697
+ATOM   1047  C   GLU   870      26.367  56.262  13.110  1.00 11.05      1TEN 698
+ATOM   1048  O   GLU   870      26.084  56.564  11.938  1.00  8.63      1TEN 699
+ATOM   1049  CB  GLU   870      24.341  56.269  14.573  1.00 11.01      1TEN 700
+ATOM   1050  CG  GLU   870      24.604  54.846  15.035  1.00 23.06      1TEN 701
+ATOM   1051  CD  GLU   870      23.366  54.153  15.541  1.00 34.04      1TEN 702
+ATOM   1052  OE1 GLU   870      22.480  53.827  14.749  1.00 36.83      1TEN 703
+ATOM   1053  OE2 GLU   870      23.294  53.958  16.754  1.00 37.73      1TEN 704
+ATOM   1054  H   GLU   870      24.934  58.472  13.000  1.00  8.96      1TEN 705 std
+ATOM   1055  HA  GLU   870      26.274  56.930  15.193  1.00 10.66      1TEN H   new
+ATOM   1056 1HB  GLU   870      23.786  56.820  15.347  1.00 11.01      1TEN H   new
+ATOM   1057 2HB  GLU   870      23.713  56.262  13.670  1.00 11.01      1TEN H   new
+ATOM   1058 1HG  GLU   870      25.026  54.267  14.200  1.00 23.06      1TEN H   new
+ATOM   1059 2HG  GLU   870      25.362  54.859  15.832  1.00 23.06      1TEN H   new
+ATOM   1060  N   VAL   871      27.321  55.373  13.399  1.00 10.56      1TEN 706
+ATOM   1061  CA  VAL   871      28.029  54.593  12.402  1.00  9.38      1TEN 707
+ATOM   1062  C   VAL   871      27.868  53.142  12.863  1.00 12.68      1TEN 708
+ATOM   1063  O   VAL   871      27.893  52.850  14.067  1.00 12.47      1TEN 709
+ATOM   1064  CB AVAL   871      29.502  55.082  12.306  0.46 13.39      1TEN 710
+ATOM   1065  CB BVAL   871      29.532  54.948  12.238  0.54 13.72      1TEN 711
+ATOM   1066  CG1AVAL   871      30.296  54.941  13.605  0.46 15.68      1TEN 712
+ATOM   1067  CG1BVAL   871      29.649  56.368  11.725  0.54 11.90      1TEN 713
+ATOM   1068  CG2AVAL   871      30.208  54.347  11.185  0.46 11.19      1TEN 714
+ATOM   1069  CG2BVAL   871      30.361  54.804  13.518  0.54 16.59      1TEN 715
+ATOM   1070  H   VAL   871      27.494  55.164  14.362  1.00 10.56      1TEN 716 std
+ATOM   1071  HA  VAL   871      27.638  54.698  11.379  1.00  9.38      1TEN H   new
+ATOM   1072  HB AVAL   871      29.456  56.161  12.099  0.46 13.72      1TEN H   new
+ATOM   1073 1HG1AVAL   871      31.321  55.308  13.450  0.46 11.90      1TEN H   new
+ATOM   1074 2HG1AVAL   871      29.812  55.531  14.397  0.46 11.90      1TEN H   new
+ATOM   1075 3HG1AVAL   871      30.327  53.883  13.903  0.46 11.90      1TEN H   new
+ATOM   1076 1HG2AVAL   871      31.250  54.693  11.118  0.46 16.59      1TEN H   new
+ATOM   1077 2HG2AVAL   871      30.194  53.266  11.389  0.46 16.59      1TEN H   new
+ATOM   1078 3HG2AVAL   871      29.693  54.547  10.234  0.46 16.59      1TEN H   new
+ATOM   1079  N   SER   872      27.683  52.216  11.932  1.00  9.02      1TEN 717
+ATOM   1080  CA  SER   872      27.502  50.812  12.215  1.00 10.57      1TEN 718
+ATOM   1081  C   SER   872      28.403  50.060  11.233  1.00 11.05      1TEN 719
+ATOM   1082  O   SER   872      28.471  50.454  10.065  1.00 10.04      1TEN 720
+ATOM   1083  CB  SER   872      26.042  50.508  11.940  1.00 12.23      1TEN 721
+ATOM   1084  OG  SER   872      25.671  49.148  12.124  1.00 27.11      1TEN 722
+ATOM   1085  H   SER   872      27.706  52.477  10.967  1.00  9.02      1TEN 723 std
+ATOM   1086  HG  SER   872      24.695  49.080  11.915  1.00 27.11      1TEN 724 std
+ATOM   1087  HA  SER   872      27.754  50.528  13.247  1.00 10.57      1TEN H   new
+ATOM   1088 1HB  SER   872      25.810  50.800  10.905  1.00 12.23      1TEN H   new
+ATOM   1089 2HB  SER   872      25.422  51.135  12.598  1.00 12.23      1TEN H   new
+ATOM   1090  N   LEU   873      29.112  49.018  11.672  1.00  8.98      1TEN 725
+ATOM   1091  CA  LEU   873      29.978  48.227  10.817  1.00 10.13      1TEN 726
+ATOM   1092  C   LEU   873      29.683  46.736  10.983  1.00 10.63      1TEN 727
+ATOM   1093  O   LEU   873      29.476  46.238  12.104  1.00  9.04      1TEN 728
+ATOM   1094  CB  LEU   873      31.444  48.474  11.137  1.00 11.93      1TEN 729
+ATOM   1095  CG  LEU   873      32.103  49.770  10.733  1.00 14.87      1TEN 730
+ATOM   1096  CD1 LEU   873      31.877  50.840  11.763  1.00 18.30      1TEN 731
+ATOM   1097  CD2 LEU   873      33.580  49.548  10.643  1.00 16.58      1TEN 732
+ATOM   1098  H   LEU   873      29.029  48.749  12.632  1.00  8.98      1TEN 733 std
+ATOM   1099  HA  LEU   873      29.779  48.533   9.779  1.00 10.13      1TEN H   new
+ATOM   1100 1HB  LEU   873      31.561  48.375  12.226  1.00 11.93      1TEN H   new
+ATOM   1101 2HB  LEU   873      32.020  47.658  10.676  1.00 11.93      1TEN H   new
+ATOM   1102  HG  LEU   873      31.673  50.087   9.772  1.00 14.87      1TEN H   new
+ATOM   1103 1HD1 LEU   873      32.368  51.770  11.440  1.00 18.30      1TEN H   new
+ATOM   1104 2HD1 LEU   873      30.797  51.017  11.878  1.00 18.30      1TEN H   new
+ATOM   1105 3HD1 LEU   873      32.300  50.518  12.726  1.00 18.30      1TEN H   new
+ATOM   1106 1HD2 LEU   873      34.075  50.485  10.349  1.00 16.58      1TEN H   new
+ATOM   1107 2HD2 LEU   873      33.963  49.223  11.622  1.00 16.58      1TEN H   new
+ATOM   1108 3HD2 LEU   873      33.790  48.772   9.892  1.00 16.58      1TEN H   new
+ATOM   1109  N   ILE   874      29.672  46.003   9.867  1.00 10.56      1TEN 734
+ATOM   1110  CA  ILE   874      29.419  44.559   9.806  1.00 12.49      1TEN 735
+ATOM   1111  C   ILE   874      30.494  43.913   8.914  1.00 16.61      1TEN 736
+ATOM   1112  O   ILE   874      30.848  44.479   7.865  1.00 13.19      1TEN 737
+ATOM   1113  CB  ILE   874      28.026  44.368   9.167  1.00 14.01      1TEN 738
+ATOM   1114  CG1 ILE   874      26.930  44.735  10.154  1.00 21.05      1TEN 739
+ATOM   1115  CG2 ILE   874      27.773  42.959   8.681  1.00 19.36      1TEN 740
+ATOM   1116  CD1 ILE   874      25.631  45.274   9.496  1.00 22.63      1TEN 741
+ATOM   1117  H   ILE   874      29.829  46.475   9.000  1.00 10.56      1TEN 742 std
+ATOM   1118  HA  ILE   874      29.452  44.097  10.804  1.00 12.49      1TEN H   new
+ATOM   1119  HB  ILE   874      28.010  45.036   8.293  1.00 14.01      1TEN H   new
+ATOM   1120 1HG1 ILE   874      26.682  43.847  10.755  1.00 21.05      1TEN H   new
+ATOM   1121 2HG1 ILE   874      27.318  45.495  10.848  1.00 21.05      1TEN H   new
+ATOM   1122 1HG2 ILE   874      26.767  42.898   8.240  1.00 19.36      1TEN H   new
+ATOM   1123 2HG2 ILE   874      28.523  42.692   7.921  1.00 19.36      1TEN H   new
+ATOM   1124 3HG2 ILE   874      27.845  42.260   9.527  1.00 19.36      1TEN H   new
+ATOM   1125 1HD1 ILE   874      24.895  45.513  10.278  1.00 22.63      1TEN H   new
+ATOM   1126 2HD1 ILE   874      25.861  46.182   8.919  1.00 22.63      1TEN H   new
+ATOM   1127 3HD1 ILE   874      25.215  44.509   8.824  1.00 22.63      1TEN H   new
+ATOM   1128  N   SER   875      31.068  42.780   9.336  1.00 17.09      1TEN 743
+ATOM   1129  CA  SER   875      32.034  42.018   8.544  1.00 16.34      1TEN 744
+ATOM   1130  C   SER   875      31.186  41.105   7.671  1.00 16.98      1TEN 745
+ATOM   1131  O   SER   875      30.132  40.620   8.115  1.00 15.92      1TEN 746
+ATOM   1132  CB  SER   875      32.873  41.149   9.438  1.00 14.15      1TEN 747
+ATOM   1133  OG  SER   875      33.577  41.975  10.339  1.00 25.98      1TEN 748
+ATOM   1134  H   SER   875      30.860  42.436  10.252  1.00 17.09      1TEN 749 std
+ATOM   1135  HG  SER   875      33.757  41.400  11.137  1.00 25.98      1TEN 750 std
+ATOM   1136  HA  SER   875      32.701  42.683   7.975  1.00 16.34      1TEN H   new
+ATOM   1137 1HB  SER   875      33.576  40.552   8.839  1.00 14.15      1TEN H   new
+ATOM   1138 2HB  SER   875      32.236  40.440   9.988  1.00 14.15      1TEN H   new
+ATOM   1139  N   ARG   876      31.627  40.810   6.453  1.00 19.90      1TEN 751
+ATOM   1140  CA  ARG   876      30.865  39.986   5.537  1.00 21.50      1TEN 752
+ATOM   1141  C   ARG   876      31.734  38.921   4.929  1.00 23.24      1TEN 753
+ATOM   1142  O   ARG   876      32.933  39.122   4.736  1.00 19.73      1TEN 754
+ATOM   1143  CB  ARG   876      30.415  40.846   4.372  1.00 27.22      1TEN 755
+ATOM   1144  CG  ARG   876      29.324  41.870   4.614  1.00 31.10      1TEN 756
+ATOM   1145  CD  ARG   876      28.008  41.151   4.878  1.00 43.18      1TEN 757
+ATOM   1146  NE  ARG   876      27.692  40.175   3.836  1.00 49.41      1TEN 758
+ATOM   1147  CZ  ARG   876      26.707  40.352   2.952  1.00 53.23      1TEN 759
+ATOM   1148  NH1 ARG   876      25.986  41.478   2.930  1.00 58.27      1TEN 760
+ATOM   1149  NH2 ARG   876      26.499  39.403   2.037  1.00 59.37      1TEN 761
+ATOM   1150  H   ARG   876      32.511  41.160   6.144  1.00 19.90      1TEN 762 std
+ATOM   1151  HE  ARG   876      28.254  39.350   3.785  1.00 49.41      1TEN 763 std
+ATOM   1152 1HH1 ARG   876      26.301  42.271   3.451  1.00 58.27      1TEN 764 std
+ATOM   1153 2HH1 ARG   876      25.294  41.690   2.239  1.00 58.27      1TEN 765 std
+ATOM   1154 1HH2 ARG   876      27.124  38.624   1.987  1.00 59.37      1TEN 766 std
+ATOM   1155 2HH2 ARG   876      25.799  39.456   1.325  1.00 59.37      1TEN 767 std
+ATOM   1156  HA  ARG   876      30.028  39.543   6.097  1.00 21.50      1TEN H   new
+ATOM   1157 1HB  ARG   876      31.297  41.380   3.989  1.00 27.22      1TEN H   new
+ATOM   1158 2HB  ARG   876      30.073  40.174   3.571  1.00 27.22      1TEN H   new
+ATOM   1159 1HG  ARG   876      29.586  42.507   5.472  1.00 31.10      1TEN H   new
+ATOM   1160 2HG  ARG   876      29.225  42.531   3.741  1.00 31.10      1TEN H   new
+ATOM   1161 1HD  ARG   876      28.060  40.641   5.851  1.00 43.18      1TEN H   new
+ATOM   1162 2HD  ARG   876      27.196  41.890   4.944  1.00 43.18      1TEN H   new
+ATOM   1163  N   ARG   877      31.133  37.780   4.662  1.00 28.84      1TEN 768
+ATOM   1164  CA  ARG   877      31.806  36.695   3.983  1.00 35.33      1TEN 769
+ATOM   1165  C   ARG   877      30.657  35.885   3.421  1.00 33.94      1TEN 770
+ATOM   1166  O   ARG   877      29.960  35.146   4.115  1.00 33.47      1TEN 771
+ATOM   1167  CB  ARG   877      32.678  35.813   4.850  1.00 44.13      1TEN 772
+ATOM   1168  CG  ARG   877      33.496  34.901   3.926  1.00 55.47      1TEN 773
+ATOM   1169  CD  ARG   877      33.965  33.636   4.629  1.00 63.76      1TEN 774
+ATOM   1170  NE  ARG   877      34.928  33.924   5.681  1.00 69.51      1TEN 775
+ATOM   1171  CZ  ARG   877      34.820  33.442   6.927  1.00 72.51      1TEN 776
+ATOM   1172  NH1 ARG   877      33.793  32.651   7.291  1.00 71.84      1TEN 777
+ATOM   1173  NH2 ARG   877      35.761  33.775   7.811  1.00 74.59      1TEN 778
+ATOM   1174  H   ARG   877      30.177  37.651   4.926  1.00 28.84      1TEN 779 std
+ATOM   1175  HE  ARG   877      35.728  34.439   5.374  1.00 69.51      1TEN 780 std
+ATOM   1176 1HH1 ARG   877      33.101  32.415   6.608  1.00 71.84      1TEN 781 std
+ATOM   1177 2HH1 ARG   877      33.685  32.286   8.216  1.00 71.84      1TEN 782 std
+ATOM   1178 1HH2 ARG   877      36.446  34.425   7.482  1.00 74.59      1TEN 783 std
+ATOM   1179 2HH2 ARG   877      35.762  33.502   8.773  1.00 74.59      1TEN 784 std
+ATOM   1180  HA  ARG   877      32.517  37.098   3.247  1.00 35.33      1TEN H   new
+ATOM   1181 1HB  ARG   877      33.345  36.426   5.474  1.00 44.13      1TEN H   new
+ATOM   1182 2HB  ARG   877      32.059  35.213   5.533  1.00 44.13      1TEN H   new
+ATOM   1183 1HG  ARG   877      32.887  34.627   3.052  1.00 55.47      1TEN H   new
+ATOM   1184 2HG  ARG   877      34.369  35.453   3.549  1.00 55.47      1TEN H   new
+ATOM   1185 1HD  ARG   877      33.098  33.113   5.059  1.00 63.76      1TEN H   new
+ATOM   1186 2HD  ARG   877      34.419  32.955   3.894  1.00 63.76      1TEN H   new
+ATOM   1187  N   GLY   878      30.422  36.123   2.148  1.00 37.06      1TEN 785
+ATOM   1188  CA  GLY   878      29.393  35.476   1.390  1.00 35.84      1TEN 786
+ATOM   1189  C   GLY   878      28.034  35.812   1.932  1.00 37.77      1TEN 787
+ATOM   1190  O   GLY   878      27.569  36.951   1.991  1.00 40.42      1TEN 788
+ATOM   1191  H   GLY   878      31.010  36.784   1.681  1.00 37.06      1TEN 789 std
+ATOM   1192 1HA  GLY   878      29.459  35.785   0.336  1.00 35.84      1TEN H   new
+ATOM   1193 2HA  GLY   878      29.543  34.387   1.415  1.00 35.84      1TEN H   new
+ATOM   1194  N   ASP   879      27.460  34.707   2.326  1.00 39.84      1TEN 790
+ATOM   1195  CA  ASP   879      26.134  34.605   2.900  1.00 43.31      1TEN 791
+ATOM   1196  C   ASP   879      26.096  35.091   4.356  1.00 43.28      1TEN 792
+ATOM   1197  O   ASP   879      25.087  35.607   4.855  1.00 44.37      1TEN 793
+ATOM   1198  CB  ASP   879      25.693  33.121   2.749  1.00 46.71      1TEN 794
+ATOM   1199  CG  ASP   879      26.690  32.027   3.181  1.00 49.77      1TEN 795
+ATOM   1200  OD1 ASP   879      27.798  31.954   2.635  1.00 51.33      1TEN 796
+ATOM   1201  OD2 ASP   879      26.363  31.235   4.063  1.00 51.76      1TEN 797
+ATOM   1202  H   ASP   879      27.989  33.860   2.270  1.00 39.84      1TEN 798 std
+ATOM   1203  HA  ASP   879      25.429  35.264   2.372  1.00 43.31      1TEN H   new
+ATOM   1204 1HB  ASP   879      24.768  32.983   3.328  1.00 46.71      1TEN H   new
+ATOM   1205 2HB  ASP   879      25.440  32.949   1.692  1.00 46.71      1TEN H   new
+ATOM   1206  N   MET   880      27.249  35.022   5.014  1.00 41.22      1TEN 799
+ATOM   1207  CA  MET   880      27.410  35.400   6.402  1.00 39.61      1TEN 800
+ATOM   1208  C   MET   880      27.820  36.839   6.689  1.00 36.68      1TEN 801
+ATOM   1209  O   MET   880      28.495  37.503   5.891  1.00 33.40      1TEN 802
+ATOM   1210  CB AMET   880      28.439  34.472   7.008  0.89 41.14      1TEN 803
+ATOM   1211  CB BMET   880      28.391  34.459   7.109  0.11 39.22      1TEN 804
+ATOM   1212  CG AMET   880      27.912  33.055   7.065  0.89 47.79      1TEN 805
+ATOM   1213  CG BMET   880      27.877  33.042   7.361  0.11 39.86      1TEN 806
+ATOM   1214  SD AMET   880      29.216  31.813   7.738  0.89 53.61      1TEN 807
+ATOM   1215  SD BMET   880      26.330  32.907   8.520  0.11 39.42      1TEN 808
+ATOM   1216  CE AMET   880      30.349  31.907   6.200  0.89 51.20      1TEN 809
+ATOM   1217  CE BMET   880      27.193  33.413  10.146  0.11 39.53      1TEN 810
+ATOM   1218  H   MET   880      28.029  34.670   4.496  1.00 41.22      1TEN 811 std
+ATOM   1219  HA  MET   880      26.406  35.316   6.845  1.00 39.61      1TEN H   new
+ATOM   1220 1HB AMET   880      29.363  34.502   6.413  0.89 39.22      1TEN H   new
+ATOM   1221 2HB AMET   880      28.698  34.814   8.021  0.89 39.22      1TEN H   new
+ATOM   1222 1HG AMET   880      27.017  33.025   7.704  0.89 39.86      1TEN H   new
+ATOM   1223 2HG AMET   880      27.598  32.743   6.058  0.89 39.86      1TEN H   new
+ATOM   1224 1HE AMET   880      31.012  31.030   6.178  0.89 39.53      1TEN H   new
+ATOM   1225 2HE AMET   880      29.732  31.922   5.290  0.89 39.53      1TEN H   new
+ATOM   1226 3HE AMET   880      30.956  32.823   6.246  0.89 39.53      1TEN H   new
+ATOM   1227  N   SER   881      27.425  37.307   7.873  1.00 31.68      1TEN 812
+ATOM   1228  CA  SER   881      27.731  38.636   8.338  1.00 27.69      1TEN 813
+ATOM   1229  C   SER   881      27.986  38.542   9.834  1.00 27.01      1TEN 814
+ATOM   1230  O   SER   881      27.564  37.568  10.485  1.00 29.15      1TEN 815
+ATOM   1231  CB  SER   881      26.555  39.545   8.040  1.00 25.99      1TEN 816
+ATOM   1232  OG  SER   881      25.335  39.025   8.534  1.00 31.33      1TEN 817
+ATOM   1233  H   SER   881      26.846  36.763   8.480  1.00 31.68      1TEN 818 std
+ATOM   1234  HG  SER   881      24.615  39.678   8.301  1.00 31.33      1TEN 819 std
+ATOM   1235  HA  SER   881      28.617  39.051   7.836  1.00 27.69      1TEN H   new
+ATOM   1236 1HB  SER   881      26.475  39.692   6.953  1.00 25.99      1TEN H   new
+ATOM   1237 2HB  SER   881      26.737  40.534   8.486  1.00 25.99      1TEN H   new
+ATOM   1238  N   SER   882      28.766  39.469  10.398  1.00 22.98      1TEN 820
+ATOM   1239  CA  SER   882      28.974  39.469  11.825  1.00 15.61      1TEN 821
+ATOM   1240  C   SER   882      27.767  40.184  12.424  1.00 17.85      1TEN 822
+ATOM   1241  O   SER   882      26.812  40.611  11.746  1.00 14.61      1TEN 823
+ATOM   1242  CB  SER   882      30.219  40.261  12.133  1.00 15.24      1TEN 824
+ATOM   1243  OG  SER   882      30.145  41.646  11.799  1.00 15.66      1TEN 825
+ATOM   1244  H   SER   882      29.152  40.211   9.850  1.00 22.98      1TEN 826 std
+ATOM   1245  HG  SER   882      29.608  42.105  12.507  1.00 15.66      1TEN 827 std
+ATOM   1246  HA  SER   882      29.086  38.451  12.227  1.00 15.61      1TEN H   new
+ATOM   1247 1HB  SER   882      31.065  39.813  11.592  1.00 15.24      1TEN H   new
+ATOM   1248 2HB  SER   882      30.439  40.169  13.207  1.00 15.24      1TEN H   new
+ATOM   1249  N   ASN   883      27.798  40.330  13.747  1.00 19.96      1TEN 828
+ATOM   1250  CA  ASN   883      26.788  41.113  14.432  1.00 17.59      1TEN 829
+ATOM   1251  C   ASN   883      27.263  42.558  14.208  1.00 13.19      1TEN 830
+ATOM   1252  O   ASN   883      28.468  42.771  14.026  1.00 15.25      1TEN 831
+ATOM   1253  CB  ASN   883      26.786  40.821  15.915  1.00 18.46      1TEN 832
+ATOM   1254  CG  ASN   883      26.151  39.485  16.285  1.00 21.02      1TEN 833
+ATOM   1255  OD1 ASN   883      25.086  39.094  15.787  1.00 23.56      1TEN 834
+ATOM   1256  ND2 ASN   883      26.849  38.745  17.119  1.00 18.49      1TEN 835
+ATOM   1257  H   ASN   883      28.551  39.944  14.280  1.00 19.96      1TEN 836 std
+ATOM   1258 1HD2 ASN   883      26.377  37.938  17.475  1.00 18.49      1TEN 837 std
+ATOM   1259 2HD2 ASN   883      27.770  39.014  17.400  1.00 18.49      1TEN 838 std
+ATOM   1260  HA  ASN   883      25.772  40.904  14.065  1.00 17.59      1TEN H   new
+ATOM   1261 1HB  ASN   883      27.823  40.836  16.282  1.00 18.46      1TEN H   new
+ATOM   1262 2HB  ASN   883      26.248  41.627  16.436  1.00 18.46      1TEN H   new
+ATOM   1263  N   PRO   884      26.406  43.573  14.108  1.00 13.25      1TEN 839
+ATOM   1264  CA  PRO   884      26.848  44.943  13.907  1.00 12.89      1TEN 840
+ATOM   1265  C   PRO   884      27.418  45.545  15.198  1.00 11.29      1TEN 841
+ATOM   1266  O   PRO   884      26.963  45.205  16.310  1.00 10.01      1TEN 842
+ATOM   1267  CB  PRO   884      25.578  45.659  13.471  1.00 11.53      1TEN 843
+ATOM   1268  CG  PRO   884      24.442  44.849  14.034  1.00 14.55      1TEN 844
+ATOM   1269  CD  PRO   884      24.956  43.425  13.925  1.00 11.15      1TEN 845
+ATOM   1270  HA  PRO   884      27.662  45.028  13.172  1.00 12.89      1TEN H   new
+ATOM   1271 1HB  PRO   884      25.555  46.691  13.852  1.00 11.53      1TEN H   new
+ATOM   1272 2HB  PRO   884      25.515  45.720  12.374  1.00 11.53      1TEN H   new
+ATOM   1273 1HG  PRO   884      24.222  45.125  15.076  1.00 14.55      1TEN H   new
+ATOM   1274 2HG  PRO   884      23.515  44.993  13.460  1.00 14.55      1TEN H   new
+ATOM   1275 1HD  PRO   884      24.514  42.774  14.694  1.00 11.15      1TEN H   new
+ATOM   1276 2HD  PRO   884      24.714  42.980  12.949  1.00 11.15      1TEN H   new
+ATOM   1277  N   ALA   885      28.454  46.369  15.022  1.00 10.52      1TEN 846
+ATOM   1278  CA  ALA   885      29.066  47.130  16.115  1.00 10.83      1TEN 847
+ATOM   1279  C   ALA   885      28.778  48.599  15.763  1.00 11.74      1TEN 848
+ATOM   1280  O   ALA   885      29.041  49.034  14.623  1.00  9.97      1TEN 849
+ATOM   1281  CB  ALA   885      30.550  46.881  16.177  1.00  7.37      1TEN 850
+ATOM   1282  H   ALA   885      28.822  46.488  14.100  1.00 10.52      1TEN 851 std
+ATOM   1283  HA  ALA   885      28.665  46.845  17.099  1.00 10.83      1TEN H   new
+ATOM   1284 1HB  ALA   885      30.986  47.462  17.003  1.00  7.37      1TEN H   new
+ATOM   1285 2HB  ALA   885      30.736  45.810  16.344  1.00  7.37      1TEN H   new
+ATOM   1286 3HB  ALA   885      31.014  47.189  15.228  1.00  7.37      1TEN H   new
+ATOM   1287  N   LYS   886      28.216  49.370  16.710  1.00  8.97      1TEN 852
+ATOM   1288  CA  LYS   886      27.808  50.757  16.520  1.00 10.90      1TEN 853
+ATOM   1289  C   LYS   886      28.477  51.720  17.469  1.00 12.51      1TEN 854
+ATOM   1290  O   LYS   886      28.714  51.382  18.639  1.00 12.85      1TEN 855
+ATOM   1291  CB  LYS   886      26.341  50.962  16.831  1.00 12.08      1TEN 856
+ATOM   1292  CG  LYS   886      25.421  50.167  15.950  1.00 22.29      1TEN 857
+ATOM   1293  CD  LYS   886      24.055  50.289  16.560  1.00 26.33      1TEN 858
+ATOM   1294  CE  LYS   886      23.102  49.741  15.525  1.00 36.10      1TEN 859
+ATOM   1295  NZ  LYS   886      22.017  49.040  16.166  1.00 42.39      1TEN 860
+ATOM   1296  H   LYS   886      28.164  49.005  17.639  1.00  8.97      1TEN 861 std
+ATOM   1297 1HZ  LYS   886      21.342  48.647  15.542  1.00 42.39      1TEN 862 std
+ATOM   1298 2HZ  LYS   886      22.349  48.384  16.844  1.00 42.39      1TEN 863 std
+ATOM   1299 3HZ  LYS   886      21.461  49.688  16.687  1.00 42.39      1TEN 864 std
+ATOM   1300  HA  LYS   886      28.075  50.950  15.471  1.00 10.90      1TEN H   new
+ATOM   1301 1HB  LYS   886      26.156  50.689  17.880  1.00 12.08      1TEN H   new
+ATOM   1302 2HB  LYS   886      26.099  52.030  16.729  1.00 12.08      1TEN H   new
+ATOM   1303 1HG  LYS   886      25.429  50.555  14.921  1.00 22.29      1TEN H   new
+ATOM   1304 2HG  LYS   886      25.737  49.115  15.899  1.00 22.29      1TEN H   new
+ATOM   1305 1HD  LYS   886      23.989  49.721  17.500  1.00 26.33      1TEN H   new
+ATOM   1306 2HD  LYS   886      23.820  51.337  16.800  1.00 26.33      1TEN H   new
+ATOM   1307 1HE  LYS   886      22.705  50.562  14.910  1.00 36.10      1TEN H   new
+ATOM   1308 2HE  LYS   886      23.638  49.061  14.846  1.00 36.10      1TEN H   new
+ATOM   1309  N   GLU   887      28.674  52.943  16.976  1.00 10.17      1TEN 865
+ATOM   1310  CA  GLU   887      29.283  54.027  17.733  1.00 11.87      1TEN 866
+ATOM   1311  C   GLU   887      28.579  55.306  17.334  1.00 10.66      1TEN 867
+ATOM   1312  O   GLU   887      27.995  55.388  16.243  1.00 10.50      1TEN 868
+ATOM   1313  CB  GLU   887      30.751  54.189  17.406  1.00 14.32      1TEN 869
+ATOM   1314  CG  GLU   887      31.522  52.926  17.755  1.00 23.67      1TEN 870
+ATOM   1315  CD  GLU   887      32.873  53.105  18.400  1.00 27.37      1TEN 871
+ATOM   1316  OE1 GLU   887      33.302  54.234  18.608  1.00 35.92      1TEN 872
+ATOM   1317  OE2 GLU   887      33.517  52.107  18.709  1.00 29.61      1TEN 873
+ATOM   1318  H   GLU   887      28.376  53.146  16.043  1.00 10.17      1TEN 874 std
+ATOM   1319  HA  GLU   887      29.190  53.804  18.806  1.00 11.87      1TEN H   new
+ATOM   1320 1HB  GLU   887      30.871  54.414  16.336  1.00 14.32      1TEN H   new
+ATOM   1321 2HB  GLU   887      31.164  55.043  17.963  1.00 14.32      1TEN H   new
+ATOM   1322 1HG  GLU   887      30.899  52.320  18.429  1.00 23.67      1TEN H   new
+ATOM   1323 2HG  GLU   887      31.658  52.343  16.832  1.00 23.67      1TEN H   new
+ATOM   1324  N   THR   888      28.564  56.287  18.217  1.00  8.99      1TEN 875
+ATOM   1325  CA  THR   888      27.961  57.585  17.954  1.00 13.10      1TEN 876
+ATOM   1326  C   THR   888      29.061  58.652  17.974  1.00 11.93      1TEN 877
+ATOM   1327  O   THR   888      30.110  58.400  18.571  1.00 13.02      1TEN 878
+ATOM   1328  CB ATHR   888      26.883  57.739  19.054  0.54 15.21      1TEN 879
+ATOM   1329  CB BTHR   888      26.956  58.020  19.036  0.46 14.16      1TEN 880
+ATOM   1330  OG1ATHR   888      25.892  56.702  18.873  0.54 17.08      1TEN 881
+ATOM   1331  OG1BTHR   888      27.469  57.741  20.327  0.46 19.15      1TEN 882
+ATOM   1332  CG2ATHR   888      26.220  59.086  18.977  0.54 17.13      1TEN 883
+ATOM   1333  CG2BTHR   888      25.697  57.235  18.907  0.46 15.24      1TEN 884
+ATOM   1334  H   THR   888      29.040  56.196  19.091  1.00  8.99      1TEN 885 std
+ATOM   1335  HG1ATHR   888      25.223  56.794  19.611  0.54 17.08      1TEN 886 std
+ATOM   1336  HG1BTHR   888      28.385  58.127  20.438  0.46 19.15      1TEN 887 std
+ATOM   1337  HA  THR   888      27.486  57.690  16.968  1.00 13.10      1TEN H   new
+ATOM   1338  HB ATHR   888      27.361  57.651  20.041  0.54 14.16      1TEN H   new
+ATOM   1339 1HG2ATHR   888      25.460  59.167  19.768  0.54 15.24      1TEN H   new
+ATOM   1340 2HG2ATHR   888      26.975  59.875  19.111  0.54 15.24      1TEN H   new
+ATOM   1341 3HG2ATHR   888      25.739  59.203  17.995  0.54 15.24      1TEN H   new
+ATOM   1342  N   PHE   889      28.907  59.806  17.341  1.00 10.28      1TEN 888
+ATOM   1343  CA  PHE   889      29.897  60.877  17.375  1.00  9.41      1TEN 889
+ATOM   1344  C   PHE   889      29.111  62.169  17.122  1.00 11.03      1TEN 890
+ATOM   1345  O   PHE   889      27.985  62.077  16.597  1.00  9.16      1TEN 891
+ATOM   1346  CB  PHE   889      31.014  60.674  16.314  1.00  8.64      1TEN 892
+ATOM   1347  CG  PHE   889      30.632  60.708  14.835  1.00 10.20      1TEN 893
+ATOM   1348  CD1 PHE   889      30.251  59.545  14.179  1.00 12.46      1TEN 894
+ATOM   1349  CD2 PHE   889      30.738  61.900  14.124  1.00 11.03      1TEN 895
+ATOM   1350  CE1 PHE   889      29.992  59.572  12.825  1.00 10.88      1TEN 896
+ATOM   1351  CE2 PHE   889      30.472  61.916  12.769  1.00  7.92      1TEN 897
+ATOM   1352  CZ  PHE   889      30.106  60.756  12.121  1.00  6.96      1TEN 898
+ATOM   1353  H   PHE   889      28.051  59.998  16.860  1.00 10.28      1TEN 899 std
+ATOM   1354  HA  PHE   889      30.421  60.902  18.342  1.00  9.41      1TEN H   new
+ATOM   1355 1HB  PHE   889      31.777  61.449  16.480  1.00  8.64      1TEN H   new
+ATOM   1356 2HB  PHE   889      31.492  59.704  16.513  1.00  8.64      1TEN H   new
+ATOM   1357  HD1 PHE   889      30.156  58.603  14.739  1.00 12.46      1TEN H   new
+ATOM   1358  HD2 PHE   889      31.033  62.826  14.640  1.00 11.03      1TEN H   new
+ATOM   1359  HE1 PHE   889      29.694  58.650  12.304  1.00 10.88      1TEN H   new
+ATOM   1360  HE2 PHE   889      30.552  62.857  12.205  1.00  7.92      1TEN H   new
+ATOM   1361  HZ  PHE   889      29.904  60.772  11.040  1.00  6.96      1TEN H   new
+ATOM   1362  N   THR   890      29.638  63.367  17.361  1.00 10.21      1TEN 900
+ATOM   1363  CA  THR   890      28.888  64.590  17.129  1.00  9.60      1TEN 901
+ATOM   1364  C   THR   890      29.789  65.518  16.332  1.00 10.62      1TEN 902
+ATOM   1365  O   THR   890      30.986  65.501  16.532  1.00 11.80      1TEN 903
+ATOM   1366  CB ATHR   890      28.606  65.132  18.547  0.28 10.72      1TEN 904
+ATOM   1367  CB BTHR   890      28.378  65.243  18.462  0.72 11.80      1TEN 905
+ATOM   1368  OG1ATHR   890      27.625  64.247  19.079  0.28  8.97      1TEN 906
+ATOM   1369  OG1BTHR   890      27.524  66.318  18.056  0.72 12.94      1TEN 907
+ATOM   1370  CG2ATHR   890      28.145  66.571  18.595  0.28 10.15      1TEN 908
+ATOM   1371  CG2BTHR   890      29.474  65.701  19.418  0.72  7.66      1TEN 909
+ATOM   1372  H   THR   890      30.586  63.489  17.654  1.00 10.21      1TEN 910 std
+ATOM   1373  HG1ATHR   890      27.365  64.506  20.009  0.50  8.97      1TEN 911 std
+ATOM   1374  HG1BTHR   890      27.016  66.729  18.812  0.50 12.94      1TEN 912 std
+ATOM   1375  HA  THR   890      27.949  64.468  16.568  1.00  9.60      1TEN H   new
+ATOM   1376  HB ATHR   890      29.535  65.156  19.135  0.28 11.80      1TEN H   new
+ATOM   1377 1HG2ATHR   890      27.970  66.866  19.640  0.28  7.66      1TEN H   new
+ATOM   1378 2HG2ATHR   890      28.918  67.219  18.156  0.28  7.66      1TEN H   new
+ATOM   1379 3HG2ATHR   890      27.211  66.677  18.024  0.28  7.66      1TEN H   new
+ATOM   1380  N   THR   891      29.279  66.246  15.341  1.00 10.80      1TEN 913
+ATOM   1381  CA  THR   891      30.109  67.194  14.602  1.00 11.54      1TEN 914
+ATOM   1382  C   THR   891      30.016  68.571  15.274  1.00 12.68      1TEN 915
+ATOM   1383  O   THR   891      29.317  68.719  16.280  1.00 12.09      1TEN 916
+ATOM   1384  CB  THR   891      29.611  67.270  13.145  1.00 10.50      1TEN 917
+ATOM   1385  OG1 THR   891      28.241  67.613  13.276  1.00  9.51      1TEN 918
+ATOM   1386  CG2 THR   891      29.759  65.984  12.338  1.00  5.19      1TEN 919
+ATOM   1387  OXT THR   891      30.619  69.506  14.762  1.00 17.59      1TEN 920
+ATOM   1388  H   THR   891      28.310  66.158  15.108  1.00 10.80      1TEN 921 std
+ATOM   1389  HG1 THR   891      27.964  67.892  12.357  1.00  9.51      1TEN 922 std
+ATOM   1390  HA  THR   891      31.159  66.866  14.604  1.00 11.54      1TEN H   new
+ATOM   1391  HB  THR   891      30.218  67.993  12.580  1.00 10.50      1TEN H   new
+ATOM   1392 1HG2 THR   891      29.377  66.144  11.319  1.00  5.19      1TEN H   new
+ATOM   1393 2HG2 THR   891      30.821  65.700  12.290  1.00  5.19      1TEN H   new
+ATOM   1394 3HG2 THR   891      29.186  65.179  12.822  1.00  5.19      1TEN H   new
+TER    1394      THR   891                                              1TEN 923
+HETATM 1395  O   HOH   901      38.368  65.058   9.076  1.00 10.12      1TEN 924
+HETATM 1396 1H   HOH   901      38.213  65.356  10.018  1.00 10.12      1TEN 925 std
+HETATM 1397 2H   HOH   901      38.801  64.179   9.277  1.00 10.12      1TEN 926 std
+HETATM 1398  O   HOH   902      23.807  59.123   5.540  1.00 11.04      1TEN 927
+HETATM 1399 1H   HOH   902      23.054  59.239   6.187  1.00 11.04      1TEN 928 std
+HETATM 1400 2H   HOH   902      23.818  60.038   5.137  1.00 11.04      1TEN 929 std
+HETATM 1401  O   HOH   903      23.183  72.349  11.803  0.67 25.53      1TEN 930
+HETATM 1402 1H   HOH   903      23.774  71.759  12.353  1.00 25.53      1TEN 931 std
+HETATM 1403 2H   HOH   903      23.391  73.233  12.223  1.00 25.53      1TEN 932 std
+HETATM 1404  O   HOH   904      26.467  48.276   8.071  1.00 17.74      1TEN 933
+HETATM 1405 1H   HOH   904      25.885  47.641   7.563  1.00 17.74      1TEN 934 std
+HETATM 1406 2H   HOH   904      26.170  49.154   7.696  1.00 17.74      1TEN 935 std
+HETATM 1407  O   HOH   905      18.981  54.823   2.910  0.94 17.69      1TEN 936
+HETATM 1408 1H   HOH   905      18.722  55.787   2.970  1.00 17.69      1TEN 937 std
+HETATM 1409 2H   HOH   905      19.972  54.955   2.942  1.00 17.69      1TEN 938 std
+HETATM 1410  O   HOH   906      32.464  63.494  18.271  1.00 14.28      1TEN 939
+HETATM 1411 1H   HOH   906      32.656  64.434  17.991  1.00 14.28      1TEN 940 std
+HETATM 1412 2H   HOH   906      33.374  63.418  18.678  1.00 14.28      1TEN 941 std
+HETATM 1413  O   HOH   907      37.666  63.150   7.159  1.00 14.29      1TEN 942
+HETATM 1414 1H   HOH   907      37.274  63.502   6.309  1.00 14.29      1TEN 943 std
+HETATM 1415 2H   HOH   907      37.737  63.984   7.706  1.00 14.29      1TEN 944 std
+HETATM 1416  O   HOH   908      21.738  52.117   3.461  1.00 17.86      1TEN 945
+HETATM 1417 1H   HOH   908      20.831  52.030   3.873  1.00 17.86      1TEN 946 std
+HETATM 1418 2H   HOH   908      21.737  53.088   3.221  1.00 17.86      1TEN 947 std
+HETATM 1419  O   HOH   909      40.998  52.737  15.593  1.00 25.63      1TEN 948
+HETATM 1420 1H   HOH   909      40.471  51.929  15.857  1.00 25.63      1TEN 949 std
+HETATM 1421 2H   HOH   909      40.480  53.056  14.799  1.00 25.63      1TEN 950 std
+HETATM 1422  O   HOH   910      34.989  62.050  18.547  0.94 19.67      1TEN 951
+HETATM 1423 1H   HOH   910      34.874  62.886  18.011  1.00 19.67      1TEN 952 std
+HETATM 1424 2H   HOH   910      35.953  61.984  18.289  1.00 19.67      1TEN 953 std
+HETATM 1425  O   HOH   911      20.801  62.734  15.918  0.98 16.92      1TEN 954
+HETATM 1426 1H   HOH   911      20.542  62.322  16.791  1.00 16.92      1TEN 955 std
+HETATM 1427 2H   HOH   911      19.868  63.045  15.738  1.00 16.92      1TEN 956 std
+HETATM 1428  O   HOH   912      35.044  49.158  19.092  0.98 23.80      1TEN 957
+HETATM 1429 1H   HOH   912      34.275  49.796  19.068  1.00 23.80      1TEN 958 std
+HETATM 1430 2H   HOH   912      35.671  49.733  19.619  1.00 23.80      1TEN 959 std
+HETATM 1431  O   HOH   913      38.176  69.797  14.753  1.00 21.09      1TEN 960
+HETATM 1432 1H   HOH   913      37.703  68.929  14.907  1.00 21.09      1TEN 961 std
+HETATM 1433 2H   HOH   913      39.086  69.490  14.474  1.00 21.09      1TEN 962 std
+HETATM 1434  O   HOH   914      35.283  72.341  11.934  0.89 33.02      1TEN 963
+HETATM 1435 1H   HOH   914      34.579  72.958  12.286  1.00 33.02      1TEN 964 std
+HETATM 1436 2H   HOH   914      35.874  72.311  12.740  1.00 33.02      1TEN 965 std
+HETATM 1437  O   HOH   915      36.434  42.982  20.122  1.00 20.94      1TEN 966
+HETATM 1438 1H   HOH   915      35.522  43.357  19.957  1.00 20.94      1TEN 967 std
+HETATM 1439 2H   HOH   915      36.345  42.108  19.643  1.00 20.94      1TEN 968 std
+HETATM 1440  O   HOH   916      33.930  46.360  18.146  1.00 22.15      1TEN 969
+HETATM 1441 1H   HOH   916      34.169  46.166  17.194  1.00 22.15      1TEN 970 std
+HETATM 1442 2H   HOH   916      34.229  47.309  18.250  1.00 22.15      1TEN 971 std
+HETATM 1443  O   HOH   917      37.579  46.611  20.897  1.00 24.82      1TEN 972
+HETATM 1444 1H   HOH   917      36.726  46.313  21.325  1.00 24.82      1TEN 973 std
+HETATM 1445 2H   HOH   917      38.220  45.915  21.220  1.00 24.82      1TEN 974 std
+HETATM 1446  O   HOH   918      27.892  69.918  19.603  1.00 33.49      1TEN 975
+HETATM 1447 1H   HOH   918      27.383  70.552  19.021  1.00 33.49      1TEN 976 std
+HETATM 1448 2H   HOH   918      27.151  69.524  20.147  1.00 33.49      1TEN 977 std
+HETATM 1449  O   HOH   919      36.880  50.977  20.234  1.00 47.95      1TEN 978
+HETATM 1450 1H   HOH   919      36.348  51.660  19.734  1.00 47.95      1TEN 979 std
+HETATM 1451 2H   HOH   919      37.588  51.579  20.602  1.00 47.95      1TEN 980 std
+HETATM 1452  O   HOH   920      34.468  42.687  -1.059  1.00 51.96      1TEN 981
+HETATM 1453 1H   HOH   920      35.295  42.306  -0.646  1.00 51.96      1TEN 982 std
+HETATM 1454 2H   HOH   920      34.090  41.866  -1.486  1.00 51.96      1TEN 983 std
+HETATM 1455  O   HOH   921      25.578  63.384   3.933  1.00 47.80      1TEN 984
+HETATM 1456 1H   HOH   921      25.012  62.803   3.348  1.00 47.80      1TEN 985 std
+HETATM 1457 2H   HOH   921      26.508  63.168   3.636  1.00 47.80      1TEN 986 std
+HETATM 1458  O   HOH   922      30.505  58.704   1.975  0.83 27.81      1TEN 987
+HETATM 1459 1H   HOH   922      29.820  58.647   1.249  1.00 27.81      1TEN 988 std
+HETATM 1460 2H   HOH   922      29.886  58.847   2.747  1.00 27.81      1TEN 989 std
+HETATM 1461  O   HOH   923      38.032  57.145   2.623  0.94 18.53      1TEN 990
+HETATM 1462 1H   HOH   923      37.965  57.568   1.719  1.00 18.53      1TEN 991 std
+HETATM 1463 2H   HOH   923      38.311  56.226   2.346  1.00 18.53      1TEN 992 std
+HETATM 1464  O   HOH   924      27.415  62.923  21.337  1.00 45.67      1TEN 993
+HETATM 1465 1H   HOH   924      28.039  62.225  20.986  1.00 45.67      1TEN 994 std
+HETATM 1466 2H   HOH   924      26.539  62.623  20.960  1.00 45.67      1TEN 995 std
+HETATM 1467  O   HOH   925      32.547  68.475   4.093  0.99 23.22      1TEN 996
+HETATM 1468 1H   HOH   925      32.897  68.788   4.976  1.00 23.22      1TEN 997 std
+HETATM 1469 2H   HOH   925      32.037  69.278   3.787  1.00 23.22      1TEN 998 std
+HETATM 1470  O   HOH   926      28.192  70.282   5.012  1.00 29.05      1TEN 999
+HETATM 1471 1H   HOH   926      28.108  69.865   5.917  1.00 29.05      1TEN1000 std
+HETATM 1472 2H   HOH   926      27.565  69.734   4.458  1.00 29.05      1TEN1001 std
+HETATM 1473  O   HOH   927      18.924  57.439   3.293  1.00 38.61      1TEN1002
+HETATM 1474 1H   HOH   927      18.336  58.101   3.758  1.00 38.61      1TEN1003 std
+HETATM 1475 2H   HOH   927      19.623  58.050   2.922  1.00 38.61      1TEN1004 std
+HETATM 1476  O   HOH   928      15.731  55.549   3.733  1.00 38.65      1TEN1005
+HETATM 1477 1H   HOH   928      16.521  55.874   4.254  1.00 38.65      1TEN1006 std
+HETATM 1478 2H   HOH   928      15.741  56.231   3.001  1.00 38.65      1TEN1007 std
+HETATM 1479  O   HOH   929      35.408  56.228  18.722  1.00 29.89      1TEN1008
+HETATM 1480 1H   HOH   929      35.927  55.850  19.489  1.00 29.89      1TEN1009 std
+HETATM 1481 2H   HOH   929      34.618  55.616  18.730  1.00 29.89      1TEN1010 std
+HETATM 1482  O   HOH   930      18.578  57.583  18.247  1.00 61.10      1TEN1011
+HETATM 1483 1H   HOH   930      18.887  58.515  18.056  1.00 61.10      1TEN1012 std
+HETATM 1484 2H   HOH   930      17.703  57.887  18.624  1.00 61.10      1TEN1013 std
+HETATM 1485  O   HOH   931      21.636  65.533  16.623  1.00 32.27      1TEN1014
+HETATM 1486 1H   HOH   931      21.501  64.579  16.356  1.00 32.27      1TEN1015 std
+HETATM 1487 2H   HOH   931      20.840  65.634  17.220  1.00 32.27      1TEN1016 std
+HETATM 1488  O   HOH   932      35.530  59.532  18.818  1.00 69.62      1TEN1017
+HETATM 1489 1H   HOH   932      35.159  60.453  18.699  1.00 69.62      1TEN1018 std
+HETATM 1490 2H   HOH   932      36.396  59.782  18.384  1.00 69.62      1TEN1019 std
+HETATM 1491  O   HOH   933      24.440  41.454  10.397  1.00 47.09      1TEN1020
+HETATM 1492 1H   HOH   933      23.839  41.270  11.175  1.00 47.09      1TEN1021 std
+HETATM 1493 2H   HOH   933      25.339  41.255  10.788  1.00 47.09      1TEN1022 std
+HETATM 1494  O   HOH   934      44.816  62.753  14.572  1.00 34.15      1TEN1023
+HETATM 1495 1H   HOH   934      44.019  62.783  13.969  1.00 34.15      1TEN1024 std
+HETATM 1496 2H   HOH   934      45.113  63.701  14.461  1.00 34.15      1TEN1025 std
+HETATM 1497  O   HOH   935      39.183  45.425   7.234  1.00 36.52      1TEN1026
+HETATM 1498 1H   HOH   935      39.664  44.959   6.491  1.00 36.52      1TEN1027 std
+HETATM 1499 2H   HOH   935      39.104  46.340   6.838  1.00 36.52      1TEN1028 std
+HETATM 1500  O   HOH   936      37.257  53.957  -0.150  1.00 34.15      1TEN1029
+HETATM 1501 1H   HOH   936      37.286  53.651   0.801  1.00 34.15      1TEN1030 std
+HETATM 1502 2H   HOH   936      37.897  53.264  -0.482  1.00 34.15      1TEN1031 std
+HETATM 1503  O   HOH   937      33.556  66.005  17.760  1.00 17.20      1TEN1032
+HETATM 1504  O   HOH   938      23.494  40.385  14.091  0.59 49.87      1TEN1033
+HETATM 1505 1H   HOH   938      24.033  39.564  14.278  1.00 49.87      1TEN1034 std
+HETATM 1506 2H   HOH   938      23.250  40.639  15.027  1.00 49.87      1TEN1035 std
+HETATM 1507  O   HOH   939      32.911  58.817  19.605  1.00 31.63      1TEN1036
+HETATM 1508 1H   HOH   939      33.857  59.004  19.341  1.00 31.63      1TEN1037 std
+HETATM 1509 2H   HOH   939      32.842  57.841  19.397  1.00 31.63      1TEN1038 std
+HETATM 1510  O   HOH   940      24.825  46.684   6.258  1.00 32.56      1TEN1039
+HETATM 1511 1H   HOH   940      25.522  46.738   5.543  1.00 32.56      1TEN1040 std
+HETATM 1512 2H   HOH   940      24.766  45.686   6.292  1.00 32.56      1TEN1041 std
+HETATM 1513  O   HOH   941      34.426  71.544   8.303  0.79 31.44      1TEN1042
+HETATM 1514 1H   HOH   941      35.297  71.276   7.891  1.00 31.44      1TEN1043 std
+HETATM 1515 2H   HOH   941      34.705  71.918   9.187  1.00 31.44      1TEN1044 std
+HETATM 1516  O   HOH   942      33.407  65.682   0.825  0.51 46.08      1TEN1045
+HETATM 1517 1H   HOH   942      34.228  65.701   1.395  1.00 46.08      1TEN1046 std
+HETATM 1518 2H   HOH   942      33.005  66.578   1.016  1.00 46.08      1TEN1047 std
+HETATM 1519  O   HOH   943      27.256  46.219  -3.602  0.19  5.26      1TEN1048
+HETATM 1520 1H   HOH   943      27.760  46.034  -4.446  1.00  5.26      1TEN1049 std
+HETATM 1521 2H   HOH   943      27.987  46.565  -3.013  1.00  5.26      1TEN1050 std
+HETATM 1522  O   HOH   944      32.491  36.725  17.627  0.70 58.22      1TEN1051
+HETATM 1523 1H   HOH   944      32.220  36.233  16.800  1.00 58.22      1TEN1052 std
+HETATM 1524 2H   HOH   944      32.321  37.680  17.384  1.00 58.22      1TEN1053 std
+HETATM 1525  O   HOH   945      32.743  39.918  17.249  1.00 47.87      1TEN1054
+HETATM 1526 1H   HOH   945      33.605  39.919  17.756  1.00 47.87      1TEN1055 std
+HETATM 1527 2H   HOH   945      32.294  40.697  17.687  1.00 47.87      1TEN1056 std
+HETATM 1528  O   HOH   946      32.658  43.989   0.561  1.00 57.41      1TEN1057
+HETATM 1529 1H   HOH   946      33.298  43.535  -0.058  1.00 57.41      1TEN1058 std
+HETATM 1530 2H   HOH   946      33.135  44.849   0.741  1.00 57.41      1TEN1059 std
+HETATM 1531  O   HOH   947      17.602  53.487  10.787  0.43 31.48      1TEN1060
+HETATM 1532 1H   HOH   947      17.456  54.001   9.942  1.00 31.48      1TEN1061 std
+HETATM 1533 2H   HOH   947      16.910  52.768  10.723  1.00 31.48      1TEN1062 std
+HETATM 1534  O   HOH   948      22.937  48.179   4.838  0.79 23.25      1TEN1063
+HETATM 1535 1H   HOH   948      23.486  47.717   5.535  1.00 23.25      1TEN1064 std
+HETATM 1536 2H   HOH   948      23.226  49.129   4.955  1.00 23.25      1TEN1065 std
+HETATM 1537  O   HOH   949      44.585  60.300  11.959  1.00 53.77      1TEN1066
+HETATM 1538 1H   HOH   949      45.221  60.995  11.624  1.00 53.77      1TEN1067 std
+HETATM 1539 2H   HOH   949      43.758  60.862  11.948  1.00 53.77      1TEN1068 std
+HETATM 1540  O   HOH   950      34.338  53.787  21.109  1.00 34.58      1TEN1069
+HETATM 1541 1H   HOH   950      34.518  53.104  21.817  1.00 34.58      1TEN1070 std
+HETATM 1542 2H   HOH   950      34.108  53.239  20.305  1.00 34.58      1TEN1071 std
+HETATM 1543  O   HOH   951      30.248  42.460   0.963  1.00 50.15      1TEN1072
+HETATM 1544 1H   HOH   951      29.672  43.223   1.256  1.00 50.15      1TEN1073 std
+HETATM 1545 2H   HOH   951      31.106  42.939   0.778  1.00 50.15      1TEN1074 std
+HETATM 1546  O   HOH   952      23.765  63.165   7.062  0.79 28.57      1TEN1075
+HETATM 1547 1H   HOH   952      23.845  63.342   6.081  1.00 28.57      1TEN1076 std
+HETATM 1548 2H   HOH   952      23.032  62.487   7.119  1.00 28.57      1TEN1077 std
+HETATM 1549  O   HOH   953      16.783  56.685  14.686  0.29  9.79      1TEN1078
+HETATM 1550 1H   HOH   953      17.537  57.276  14.974  1.00  9.79      1TEN1079 std
+HETATM 1551 2H   HOH   953      16.479  56.325  15.568  1.00  9.79      1TEN1080 std
+HETATM 1552  O   HOH   954      13.210  61.545  15.180  0.47 20.82      1TEN1081
+HETATM 1553 1H   HOH   954      14.079  61.150  15.479  1.00 20.82      1TEN1082 std
+HETATM 1554 2H   HOH   954      13.590  62.250  14.581  1.00 20.82      1TEN1083 std
+HETATM 1555  O   HOH   955      20.599  49.685   1.308  0.45 28.57      1TEN1084
+HETATM 1556 1H   HOH   955      21.128  49.472   0.487  1.00 28.57      1TEN1085 std
+HETATM 1557 2H   HOH   955      21.249  50.214   1.854  1.00 28.57      1TEN1086 std
+HETATM 1558  O   HOH   956      46.277  42.437   7.216  0.34 24.50      1TEN1087
+HETATM 1559 1H   HOH   956      46.611  43.011   7.963  1.00 24.50      1TEN1088 std
+HETATM 1560 2H   HOH   956      47.099  42.288   6.667  1.00 24.50      1TEN1089 std
+HETATM 1561  O   HOH   957      38.673  52.747  21.128  1.00 53.66      1TEN1090
+HETATM 1562 1H   HOH   957      39.548  53.227  21.193  1.00 53.66      1TEN1091 std
+HETATM 1563 2H   HOH   957      38.036  53.518  21.141  1.00 53.66      1TEN1092 std
+HETATM 1564  O   HOH   958      37.675  41.617  16.194  0.88 37.89      1TEN1093
+HETATM 1565 1H   HOH   958      38.623  41.531  16.501  1.00 37.89      1TEN1094 std
+HETATM 1566 2H   HOH   958      37.191  41.052  16.862  1.00 37.89      1TEN1095 std
+HETATM 1567  O   HOH   959      45.962  45.962   0.000  0.32 10.26      1TEN1096
+HETATM 1568  O   HOH   960      43.799  57.708  12.486  0.00 37.43      1TEN1097
+HETATM 1569 1H   HOH   960      44.110  58.656  12.423  1.00 37.43      1TEN1098 std
+HETATM 1570 2H   HOH   960      43.750  57.529  11.503  1.00 37.43      1TEN1099 std
+HETATM 1571  O   HOH   961      37.473  62.089  17.760  1.00 37.63      1TEN1100
+HETATM 1572  O   HOH   962      23.839  53.253  11.482  1.00 31.74      1TEN1101
+HETATM 1573 1H   HOH   962      24.615  53.875  11.377  1.00 31.74      1TEN1102 std
+HETATM 1574 2H   HOH   962      23.592  53.414  12.437  1.00 31.74      1TEN1103 std
+HETATM 1575  O   HOH   963      43.744  46.171  11.236  1.00 61.11      1TEN1104
+HETATM 1576 1H   HOH   963      44.101  47.105  11.268  1.00 61.11      1TEN1105 std
+HETATM 1577 2H   HOH   963      44.563  45.601  11.296  1.00 61.11      1TEN1106 std
+HETATM 1578  O   HOH   964      26.658  35.756  14.239  1.00 56.64      1TEN1107
+HETATM 1579 1H   HOH   964      26.242  35.764  15.148  1.00 56.64      1TEN1108 std
+HETATM 1580 2H   HOH   964      26.248  36.567  13.822  1.00 56.64      1TEN1109 std
+HETATM 1581  O   HOH   965      11.672  60.283  13.175  1.00 49.67      1TEN1110
+HETATM 1582 1H   HOH   965      10.882  60.895  13.199  1.00 49.67      1TEN1111 std
+HETATM 1583 2H   HOH   965      12.328  60.784  13.740  1.00 49.67      1TEN1112 std
+HETATM 1584  O   HOH   966      35.815  54.467  -2.399  0.76 25.74      1TEN1113
+HETATM 1585 1H   HOH   966      36.388  55.135  -2.874  1.00 25.74      1TEN1114 std
+HETATM 1586 2H   HOH   966      36.316  54.362  -1.540  1.00 25.74      1TEN1115 std
+HETATM 1587  O   HOH   967      21.446  49.202  18.554  0.58 21.88      1TEN1116
+HETATM 1588 1H   HOH   967      21.491  48.303  18.989  1.00 21.88      1TEN1117 std
+HETATM 1589 2H   HOH   967      21.371  49.785  19.363  1.00 21.88      1TEN1118 std
+HETATM 1590  O   HOH   968      34.577  59.881   1.252  1.00 52.00      1TEN1119
+HETATM 1591 1H   HOH   968      34.847  59.483   2.129  1.00 52.00      1TEN1120 std
+HETATM 1592 2H   HOH   968      34.945  60.806   1.348  1.00 52.00      1TEN1121 std
+HETATM 1593  O   HOH   969      29.627  39.566   1.100  1.00 46.22      1TEN1122
+HETATM 1594 1H   HOH   969      29.935  40.505   0.948  1.00 46.22      1TEN1123 std
+HETATM 1595 2H   HOH   969      30.445  39.065   0.816  1.00 46.22      1TEN1124 std
+HETATM 1596  O   HOH   970      23.752  46.285   2.907  0.30 22.31      1TEN1125
+HETATM 1597 1H   HOH   970      24.395  45.786   3.488  1.00 22.31      1TEN1126 std
+HETATM 1598 2H   HOH   970      23.383  46.964   3.542  1.00 22.31      1TEN1127 std
+HETATM 1599  O   HOH   971      10.887  58.679  15.266  1.00 59.23      1TEN1128
+HETATM 1600 1H   HOH   971      11.591  57.982  15.405  1.00 59.23      1TEN1129 std
+HETATM 1601 2H   HOH   971      11.172  59.053  14.383  1.00 59.23      1TEN1130 std
+HETATM 1602  O   HOH   972      25.591  67.873  19.441  0.51 21.25      1TEN1131
+HETATM 1603 1H   HOH   972      25.382  68.807  19.151  1.00 21.25      1TEN1132 std
+HETATM 1604 2H   HOH   972      25.668  67.969  20.433  1.00 21.25      1TEN1133 std
+HETATM 1605  O   HOH   973      21.325  52.159  11.251  1.00 73.15      1TEN1134
+HETATM 1606 1H   HOH   973      22.252  52.529  11.312  1.00 73.15      1TEN1135 std
+HETATM 1607 2H   HOH   973      21.502  51.180  11.152  1.00 73.15      1TEN1136 std
+HETATM 1608  O   HOH   974      10.495  61.841  15.654  1.00 58.62      1TEN1137
+HETATM 1609 1H   HOH   974      11.493  61.881  15.598  1.00 58.62      1TEN1138 std
+HETATM 1610 2H   HOH   974      10.367  60.861  15.807  1.00 58.62      1TEN1139 std
+END                                                                     1TEN1141

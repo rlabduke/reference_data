@@ -1,0 +1,596 @@
+USER  MOD reduceV2.10.2 H: found=0, std=0, add=205, rem=0, adj=6
+USER  MOD reduceV2.6.3 removed 106 hydrogens (54 hets) had Bval of 0.00
+USER  MOD removed waters >6A from remaining chains and Ca55
+USER  MOD edited to remove chain A leaving chain I
+HEADER    COMPLEX(PROTEINASE/INHIBITOR)           24-OCT-92   1MCT      1MCT   2
+COMPND    TRYPSIN (E.C.3.4.21.4) COMPLEXED WITH INHIBITOR FROM BITTER   1MCT   3
+COMPND   2 GOURD                                                        1MCT   4
+SOURCE    TRYPSIN: PORCINE (SUS SCROFA) PANCREAS; INHIBITOR: BITTER     1MCT   5
+SOURCE   2 GOURD (MOMORDICA CHARANTIA, LINN. CUCURBITACEAE) SEED        1MCT   6
+AUTHOR    Q.HUANG,S.LIU,Y.TANG                                          1MCT   7
+REVDAT   2   15-JAN-94 1MCTA   3       CRYST1 SCALE                     1MCTA  1
+REVDAT   1   31-JAN-94 1MCT    0                                        1MCT   8
+JRNL        AUTH   Q.HUANG,S.LIU,Y.TANG                                 1MCT   9
+JRNL        TITL   THE REFINED 1.6 ANGSTROMS RESOLUTION CRYSTAL         1MCT  10
+JRNL        TITL 2 STRUCTURE OF THE COMPLEX FORMED BETWEEN PORCINE      1MCT  11
+JRNL        TITL 3 BETA-TRYPSIN AND MCTI-A, A TRYPSIN INHIBITOR OF      1MCT  12
+JRNL        TITL 4 SQUASH FAMILY                                        1MCT  13
+JRNL        REF    J.MOL.BIOL.                   V. 229  1022 1993      1MCT  14
+JRNL        REFN   ASTM JMOBAK  UK ISSN 0022-2836                  070  1MCT  15
+REMARK   1                                                              1MCT  16
+REMARK   1 REFERENCE 1                                                  1MCT  17
+REMARK   1  AUTH   Q.HUANG,S.LIU,Y.TANG,F.ZENG,R.QIAN                   1MCT  18
+REMARK   1  TITL   AMINO ACID SEQUENCING OF A TRYPSIN INHIBITOR BY      1MCT  19
+REMARK   1  TITL 2 REFINED 1.6 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF     1MCT  20
+REMARK   1  TITL 3 ITS COMPLEX WITH PORCINE BETA-TRYPSIN                1MCT  21
+REMARK   1  REF    /FEBS$ LETT.                  V. 297   143 1992      1MCT  22
+REMARK   1  REFN   ASTM FEBLAL  NE ISSN 0014-5793                  165  1MCT  23
+REMARK   2                                                              1MCT  24
+REMARK   2 RESOLUTION. 1.6  ANGSTROMS.                                  1MCT  25
+REMARK   3                                                              1MCT  26
+REMARK   3 REFINEMENT.                                                  1MCT  27
+REMARK   3   PROGRAM                    X-PLOR                          1MCT  28
+REMARK   3   AUTHORS                    BRUNGER                         1MCT  29
+REMARK   3   R VALUE                    0.167                           1MCT  30
+REMARK   3   RMSD BOND DISTANCES        0.011  ANGSTROMS                1MCT  31
+REMARK   3   RMSD BOND ANGLES           2.2    DEGREES                  1MCT  32
+REMARK   3   RMSD DIHEDRAL ANGLES       14.8   DEGREES                  1MCT  33
+REMARK   4                                                              1MCT  34
+REMARK   4 THE 223 AMINO ACIDS OF TRYPSIN ARE IDENTIFIED BY THE         1MCT  35
+REMARK   4 RESIDUE NUMBERS OF THE HOMOLOGOUS CHYMOTRYPSINOGEN.          1MCT  36
+REMARK   4 RESIDUES ARE NUMBERED ACCORDING TO THE HUBER NUMBERING       1MCT  37
+REMARK   4 SCHEME.                                                      1MCT  38
+REMARK   5                                                              1MCT  39
+REMARK   5 SEQUENCE ADVISORY NOTICE:                                    1MCT  40
+REMARK   5      DIFFERENCE BETWEEN SWISS-PROT AND PDB SEQUENCE.         1MCT  41
+REMARK   5                                                              1MCT  42
+REMARK   5      SWISS-PROT ENTRY NAME: TRYP_PIG                         1MCT  43
+REMARK   5                                                              1MCT  44
+REMARK   5      SWISS-PROT RESIDUE      PDB SEQRES                      1MCT  45
+REMARK   5        NAME   NUMBER         NAME  CHAIN  SEQ/INSERT CODE    1MCT  46
+REMARK   5        ASP    145            ASN   A      145                1MCT  47
+REMARK   5        GLU    167            GLN   A      167                1MCT  48
+REMARK   5                                                              1MCT  49
+REMARK   5      SWISS-PROT ENTRY NAME: ITR2_MOMCH                       1MCT  50
+REMARK   5                                                              1MCT  51
+REMARK   5      SWISS-PROT RESIDUE      PDB SEQRES                      1MCT  52
+REMARK   5        NAME   NUMBER         NAME  CHAIN  SEQ/INSERT CODE    1MCT  53
+REMARK   5        LYS     11            THR   I       11                1MCT  54
+REMARK   5        GLN     19            LYS   I       19                1MCT  55
+REMARK   5        ASP     24            ALA   I       24                1MCT  56
+REMARK   5                                                              1MCT  57
+REMARK   5 THE SEQUENCE USED IN THIS ENTRY WAS DETERMINED BY X-RAY      1MCT  58
+REMARK   5 CRYSTALLOGRAPHY.  THERE ARE SEVERAL UNCERTAIN ASSIGNMENTS    1MCT  59
+REMARK   5 WHICH DIFFER FROM THE CHEMICALLY DETERMINED SEQUENCES.       1MCT  60
+REMARK   6                                                              1MCTA  2
+REMARK   6 CORRECTION. CORRECT CELL DIMENSION, SPACE GROUP, AND SCALE   1MCTA  3
+REMARK   6  UPON INSTRUCTIONS FROM THE DEPOSITOR.  15-JAN-95.           1MCTA  4
+SEQRES   1 A  223  ILE VAL GLY GLY TYR THR CYS ALA ALA ASN SER ILE PRO  1MCT  61
+SEQRES   2 A  223  TYR GLN VAL SER LEU ASN SER GLY SER HIS PHE CYS GLY  1MCT  62
+SEQRES   3 A  223  GLY SER LEU ILE ASN SER GLN TRP VAL VAL SER ALA ALA  1MCT  63
+SEQRES   4 A  223  HIS CYS TYR LYS SER ARG ILE GLN VAL ARG LEU GLY GLU  1MCT  64
+SEQRES   5 A  223  HIS ASN ILE ASP VAL LEU GLU GLY ASN GLU GLN PHE ILE  1MCT  65
+SEQRES   6 A  223  ASN ALA ALA LYS ILE ILE THR HIS PRO ASN PHE ASN GLY  1MCT  66
+SEQRES   7 A  223  ASN THR LEU ASP ASN ASP ILE MET LEU ILE LYS LEU SER  1MCT  67
+SEQRES   8 A  223  SER PRO ALA THR LEU ASN SER ARG VAL ALA THR VAL SER  1MCT  68
+SEQRES   9 A  223  LEU PRO ARG SER CYS ALA ALA ALA GLY THR GLU CYS LEU  1MCT  69
+SEQRES  10 A  223  ILE SER GLY TRP GLY ASN THR LYS SER SER GLY SER SER  1MCT  70
+SEQRES  11 A  223  TYR PRO SER LEU LEU GLN CYS LEU LYS ALA PRO VAL LEU  1MCT  71
+SEQRES  12 A  223  SER ASN SER SER CYS LYS SER SER TYR PRO GLY GLN ILE  1MCT  72
+SEQRES  13 A  223  THR GLY ASN MET ILE CYS VAL GLY PHE LEU GLN GLY GLY  1MCT  73
+SEQRES  14 A  223  LYS ASP SER CYS GLN GLY ASP SER GLY GLY PRO VAL VAL  1MCT  74
+SEQRES  15 A  223  CYS ASN GLY GLN LEU GLN GLY ILE VAL SER TRP GLY TYR  1MCT  75
+SEQRES  16 A  223  GLY CYS ALA GLN LYS ASN LYS PRO GLY VAL TYR THR LYS  1MCT  76
+SEQRES  17 A  223  VAL CYS ASN TYR VAL ASN TRP ILE GLN GLN THR ILE ALA  1MCT  77
+SEQRES  18 A  223  ALA ASN                                              1MCT  78
+SEQRES   1 I   28  ARG ILE CYS PRO ARG ILE TRP MET GLU CYS THR ARG ASP  1MCT  79
+SEQRES   2 I   28  SER ASP CYS MET ALA LYS CYS ILE CYS VAL ALA GLY HIS  1MCT  80
+SEQRES   3 I   28  CYS GLY                                              1MCT  81
+HET     CA     55       1     CALCIUM +2 COUNTER ION                    1MCT  82
+FORMUL   3   CA    CA1                                                  1MCT  83
+FORMUL   4  HOH   *135(H2 O1)                                           1MCT  84
+HELIX    1  H1 SER A  164  PRO A  173  1                                1MCT  85
+HELIX    2  H2 TYR A  234  ASN A  245  1                                1MCT  86
+SSBOND   1 CYS A   22    CYS A  157                                     1MCT  87
+SSBOND   2 CYS A   42    CYS A   58                                     1MCT  88
+SSBOND   3 CYS A  128    CYS A  232                                     1MCT  89
+SSBOND   4 CYS A  136    CYS A  201                                     1MCT  90
+SSBOND   5 CYS A  168    CYS A  182                                     1MCT  91
+SSBOND   6 CYS A  191    CYS A  220                                     1MCT  92
+SSBOND   7 CYS I    3    CYS I   20                                     1MCT  93
+SSBOND   8 CYS I   10    CYS I   22                                     1MCT  94
+SSBOND   9 CYS I   16    CYS I   27                                     1MCT  95
+CRYST1   62.650   62.650  124.310  90.00  90.00 120.00 P 32 2 1      6  1MCTA  5
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1MCT  97
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1MCT  98
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1MCT  99
+SCALE1      0.015962  0.009215  0.000000        0.00000                 1MCT 100
+SCALE2      0.000000  0.018431  0.000000        0.00000                 1MCT 101
+SCALE3      0.000000  0.000000  0.008044        0.00000                 1MCTA  6
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD NoAdj-H:I   3 CYS HG  :I   3 CYS SG  :I  20 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:I  10 CYS HG  :I  10 CYS SG  :I  22 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:I  16 CYS HG  :I  16 CYS SG  :I  27 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:I  20 CYS HG  :I  20 CYS SG  :I   3 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:I  22 CYS HG  :I  22 CYS SG  :I  10 CYS SG  :(RXR or RXXR)
+USER  MOD NoAdj-H:I  27 CYS HG  :I  27 CYS SG  :I  16 CYS SG  :(RXR or RXXR)
+USER  MOD Set 1.1:I   8 MET CE  :methyl -120:sc= -0.0286   (180deg=-4.1!)
+USER  MOD Set 1.2:I  17 MET CE  :methyl -115:sc=       0   (180deg=-3.89!)
+USER  MOD Single :I   1 ARG N   :NH3+   -160:sc=  -0.411   (180deg=-1.62!)
+USER  MOD Single :I  11 THR OG1 :   rot  180:sc=       0
+USER  MOD Single :I  14 SER OG  :   rot  180:sc=  0.0705
+USER  MOD Single :I  19 LYS NZ  :NH3+   -127:sc=  -0.259   (180deg=-1.04)
+USER  MOD Single :I  26 HIS     :     no HD1:sc= -0.0795  X(o=-0.079,f=-0.42)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   ARG I   1       4.580  17.972  13.160  1.00 52.42      1MCT2133
+ATOM      2  CA  ARG I   1       5.557  19.089  12.941  1.00 60.31      1MCT2134
+ATOM      3  C   ARG I   1       4.645  20.348  12.884  1.00 66.50      1MCT2135
+ATOM      4  O   ARG I   1       3.504  20.069  12.500  1.00 32.73      1MCT2136
+ATOM      5  CB  ARG I   1       6.283  18.774  11.615  1.00 65.94      1MCT2137
+ATOM      6  CG  ARG I   1       6.650  17.284  11.382  1.00 82.68      1MCT2138
+ATOM      7  CD  ARG I   1       6.785  16.808   9.905  1.00 69.65      1MCT2139
+ATOM      8  NE  ARG I   1       5.881  17.628   9.122  1.00 82.19      1MCT2140
+ATOM      9  CZ  ARG I   1       4.593  17.451   8.839  1.00 86.08      1MCT2141
+ATOM     10  NH1 ARG I   1       3.866  16.380   9.123  1.00 97.11      1MCT2142
+ATOM     11  NH2 ARG I   1       4.059  18.438   8.197  1.00 86.52      1MCT2143
+ATOM     12 1H   ARG I   1       5.060  17.177  13.531  1.00 52.42      new  H +
+ATOM     13 2H   ARG I   1       3.875  18.267  13.805  1.00 52.42      new  H +
+ATOM     14 3H   ARG I   1       4.153  17.727  12.290  1.00 52.42      new  H +
+ATOM     15  HA  ARG I   1       6.337  19.231  13.703  1.00 60.31      new  H
+ATOM     16 1HB  ARG I   1       5.647  19.110  10.782  1.00 65.94      new  H
+ATOM     17 2HB  ARG I   1       7.207  19.370  11.575  1.00 65.94      new  H
+ATOM     18 1HG  ARG I   1       7.603  17.083  11.894  1.00 82.68      new  H
+ATOM     19 2HG  ARG I   1       5.885  16.664  11.872  1.00 82.68      new  H
+ATOM     20 1HD  ARG I   1       7.820  16.920   9.551  1.00 69.65      new  H
+ATOM     21 2HD  ARG I   1       6.527  15.743   9.812  1.00 69.65      new  H
+ATOM     22  HE  ARG I   1       6.289  18.455   8.735  1.00 82.19      new  H +
+ATOM     23 1HH1 ARG I   1       4.283  15.604   9.596  1.00 97.11      new  H +
+ATOM     24 2HH1 ARG I   1       2.900  16.348   8.865  1.00 97.11      new  H +
+ATOM     25 1HH2 ARG I   1       4.611  19.238   7.960  1.00 86.52      new  H +
+ATOM     26 2HH2 ARG I   1       3.094  18.402   7.937  1.00 86.52      new  H +
+ATOM     27  N   ILE I   2       4.955  21.618  13.305  1.00 28.52      1MCT2152
+ATOM     28  CA  ILE I   2       3.980  22.750  13.247  1.00 22.20      1MCT2153
+ATOM     29  C   ILE I   2       3.574  22.893  11.785  1.00 18.41      1MCT2154
+ATOM     30  O   ILE I   2       4.427  23.146  10.911  1.00 19.29      1MCT2155
+ATOM     31  CB  ILE I   2       4.473  24.221  13.625  1.00 26.41      1MCT2156
+ATOM     32  CG1 ILE I   2       4.769  24.312  15.095  1.00 59.65      1MCT2157
+ATOM     33  CG2 ILE I   2       3.377  25.277  13.308  1.00 17.01      1MCT2158
+ATOM     34  CD1 ILE I   2       4.731  25.734  15.648  1.00 51.59      1MCT2159
+ATOM     35  H   ILE I   2       5.848  21.872  13.677  1.00 28.52      new  H
+ATOM     36  HA  ILE I   2       3.222  22.469  13.993  1.00 22.20      new  H
+ATOM     37  HB  ILE I   2       5.376  24.422  13.030  1.00 26.41      new  H
+ATOM     38 1HG1 ILE I   2       4.041  23.696  15.644  1.00 59.65      new  H
+ATOM     39 2HG1 ILE I   2       5.763  23.882  15.286  1.00 59.65      new  H
+ATOM     40 1HG2 ILE I   2       3.743  26.279  13.578  1.00 17.01      new  H
+ATOM     41 2HG2 ILE I   2       3.141  25.250  12.234  1.00 17.01      new  H
+ATOM     42 3HG2 ILE I   2       2.470  25.050  13.888  1.00 17.01      new  H
+ATOM     43 1HD1 ILE I   2       4.957  25.716  16.724  1.00 51.59      new  H
+ATOM     44 2HD1 ILE I   2       5.479  26.351  15.127  1.00 51.59      new  H
+ATOM     45 3HD1 ILE I   2       3.730  26.162  15.491  1.00 51.59      new  H
+ATOM     46  N   CYS I   3       2.292  22.680  11.555  1.00 14.42      1MCT2161
+ATOM     47  CA  CYS I   3       1.855  22.768  10.179  1.00  7.53      1MCT2162
+ATOM     48  C   CYS I   3       0.533  23.535  10.194  1.00 13.10      1MCT2163
+ATOM     49  O   CYS I   3      -0.435  23.060  10.816  1.00 13.12      1MCT2164
+ATOM     50  CB  CYS I   3       1.690  21.362   9.650  1.00 11.69      1MCT2165
+ATOM     51  SG  CYS I   3       1.056  21.439   7.982  1.00 17.58      1MCT2166
+ATOM     52  H   CYS I   3       1.593  22.464  12.237  1.00 14.42      new  H
+ATOM     53  HA  CYS I   3       2.571  23.290   9.527  1.00  7.53      new  H
+ATOM     54 1HB  CYS I   3       2.655  20.834   9.666  1.00 11.69      new  H
+ATOM     55 2HB  CYS I   3       1.002  20.793  10.292  1.00 11.69      new  H
+ATOM     56  N   PRO I   4       0.504  24.759   9.627  1.00 11.25      1MCT2168
+ATOM     57  CA  PRO I   4      -0.720  25.569   9.501  1.00 14.76      1MCT2169
+ATOM     58  C   PRO I   4      -1.834  24.775   8.782  1.00  9.33      1MCT2170
+ATOM     59  O   PRO I   4      -1.523  24.062   7.813  1.00 10.57      1MCT2171
+ATOM     60  CB  PRO I   4      -0.284  26.805   8.707  1.00 16.46      1MCT2172
+ATOM     61  CG  PRO I   4       1.174  26.856   8.940  1.00 18.82      1MCT2173
+ATOM     62  CD  PRO I   4       1.612  25.441   8.915  1.00 11.04      1MCT2174
+ATOM     63  HA  PRO I   4      -1.148  25.848  10.475  1.00 14.76      new  H
+ATOM     64 1HB  PRO I   4      -0.522  26.706   7.638  1.00 16.46      new  H
+ATOM     65 2HB  PRO I   4      -0.785  27.716   9.065  1.00 16.46      new  H
+ATOM     66 1HG  PRO I   4       1.682  27.445   8.162  1.00 18.82      new  H
+ATOM     67 2HG  PRO I   4       1.408  27.329   9.905  1.00 18.82      new  H
+ATOM     68 1HD  PRO I   4       1.733  25.066   7.888  1.00 11.04      new  H
+ATOM     69 2HD  PRO I   4       2.577  25.300   9.425  1.00 11.04      new  H
+ATOM     70  N   ARG I   5      -3.107  25.008   9.125  1.00  9.73      1MCT2175
+ATOM     71  CA  ARG I   5      -4.191  24.246   8.523  1.00 10.81      1MCT2176
+ATOM     72  C   ARG I   5      -4.806  24.856   7.247  1.00 11.39      1MCT2177
+ATOM     73  O   ARG I   5      -6.028  24.871   7.024  1.00  8.03      1MCT2178
+ATOM     74  CB  ARG I   5      -5.205  23.977   9.651  1.00  8.04      1MCT2179
+ATOM     75  CG  ARG I   5      -4.587  22.892  10.500  1.00 11.77      1MCT2180
+ATOM     76  CD  ARG I   5      -5.263  22.598  11.810  1.00 14.99      1MCT2181
+ATOM     77  NE  ARG I   5      -4.605  21.419  12.405  1.00 11.70      1MCT2182
+ATOM     78  CZ  ARG I   5      -5.022  20.822  13.534  1.00 11.60      1MCT2183
+ATOM     79  NH1 ARG I   5      -6.080  21.319  14.197  1.00 11.47      1MCT2184
+ATOM     80  NH2 ARG I   5      -4.481  19.651  13.888  1.00 11.78      1MCT2185
+ATOM     81  H   ARG I   5      -3.396  25.694   9.792  1.00  9.73      new  H
+ATOM     82  HA  ARG I   5      -3.795  23.302   8.119  1.00 10.81      new  H
+ATOM     83 1HB  ARG I   5      -5.389  24.886  10.243  1.00  8.04      new  H
+ATOM     84 2HB  ARG I   5      -6.175  23.656   9.243  1.00  8.04      new  H
+ATOM     85 1HG  ARG I   5      -4.563  21.964   9.909  1.00 11.77      new  H
+ATOM     86 2HG  ARG I   5      -3.543  23.169  10.706  1.00 11.77      new  H
+ATOM     87 1HD  ARG I   5      -5.187  23.463  12.485  1.00 14.99      new  H
+ATOM     88 2HD  ARG I   5      -6.335  22.404  11.655  1.00 14.99      new  H
+ATOM     89  HE  ARG I   5      -3.803  21.043  11.941  1.00 11.70      new  H +
+ATOM     90 1HH1 ARG I   5      -6.552  22.129  13.849  1.00 11.47      new  H +
+ATOM     91 2HH1 ARG I   5      -6.395  20.879  15.038  1.00 11.47      new  H +
+ATOM     92 1HH2 ARG I   5      -3.777  19.232  13.315  1.00 11.78      new  H +
+ATOM     93 2HH2 ARG I   5      -4.781  19.194  14.726  1.00 11.78      new  H +
+ATOM     94  N   ILE I   6      -3.958  25.504   6.446  1.00  9.41      1MCT2192
+ATOM     95  CA  ILE I   6      -4.346  26.062   5.155  1.00 10.57      1MCT2193
+ATOM     96  C   ILE I   6      -4.305  24.940   4.116  1.00 12.37      1MCT2194
+ATOM     97  O   ILE I   6      -3.514  23.994   4.251  1.00 12.57      1MCT2195
+ATOM     98  CB  ILE I   6      -3.364  27.260   4.799  1.00 12.43      1MCT2196
+ATOM     99  CG1 ILE I   6      -3.783  27.921   3.467  1.00  8.30      1MCT2197
+ATOM    100  CG2 ILE I   6      -1.903  26.748   4.751  1.00 11.52      1MCT2198
+ATOM    101  CD1 ILE I   6      -3.010  29.190   3.198  1.00  7.34      1MCT2199
+ATOM    102  H   ILE I   6      -2.996  25.653   6.675  1.00  9.41      new  H
+ATOM    103  HA  ILE I   6      -5.368  26.468   5.176  1.00 10.57      new  H
+ATOM    104  HB  ILE I   6      -3.428  28.029   5.583  1.00 12.43      new  H
+ATOM    105 1HG1 ILE I   6      -3.623  27.213   2.641  1.00  8.30      new  H
+ATOM    106 2HG1 ILE I   6      -4.859  28.147   3.493  1.00  8.30      new  H
+ATOM    107 1HG2 ILE I   6      -1.230  27.582   4.504  1.00 11.52      new  H
+ATOM    108 2HG2 ILE I   6      -1.627  26.332   5.731  1.00 11.52      new  H
+ATOM    109 3HG2 ILE I   6      -1.813  25.965   3.983  1.00 11.52      new  H
+ATOM    110 1HD1 ILE I   6      -3.340  29.625   2.243  1.00  7.34      new  H
+ATOM    111 2HD1 ILE I   6      -3.191  29.909   4.010  1.00  7.34      new  H
+ATOM    112 3HD1 ILE I   6      -1.935  28.961   3.145  1.00  7.34      new  H
+ATOM    113  N   TRP I   7      -5.209  25.006   3.140  1.00  8.86      1MCT2201
+ATOM    114  CA  TRP I   7      -5.194  24.078   2.015  1.00 12.34      1MCT2202
+ATOM    115  C   TRP I   7      -4.197  24.629   0.976  1.00 12.44      1MCT2203
+ATOM    116  O   TRP I   7      -4.330  25.779   0.517  1.00 15.32      1MCT2204
+ATOM    117  CB  TRP I   7      -6.599  23.979   1.418  1.00 12.84      1MCT2205
+ATOM    118  CG  TRP I   7      -6.639  23.034   0.251  1.00 17.20      1MCT2206
+ATOM    119  CD1 TRP I   7      -6.844  21.681   0.272  1.00 20.82      1MCT2207
+ATOM    120  CD2 TRP I   7      -6.478  23.400  -1.125  1.00 21.54      1MCT2208
+ATOM    121  NE1 TRP I   7      -6.826  21.187  -1.007  1.00 26.17      1MCT2209
+ATOM    122  CE2 TRP I   7      -6.604  22.215  -1.889  1.00 31.71      1MCT2210
+ATOM    123  CE3 TRP I   7      -6.239  24.617  -1.772  1.00 19.92      1MCT2211
+ATOM    124  CZ2 TRP I   7      -6.508  22.220  -3.280  1.00 32.22      1MCT2212
+ATOM    125  CZ3 TRP I   7      -6.143  24.616  -3.152  1.00 35.12      1MCT2213
+ATOM    126  CH2 TRP I   7      -6.276  23.429  -3.887  1.00 29.61      1MCT2214
+ATOM    127  H   TRP I   7      -5.946  25.681   3.108  1.00  8.86      new  H
+ATOM    128  HA  TRP I   7      -4.888  23.070   2.333  1.00 12.34      new  H
+ATOM    129 1HB  TRP I   7      -7.304  23.639   2.191  1.00 12.84      new  H
+ATOM    130 2HB  TRP I   7      -6.932  24.976   1.095  1.00 12.84      new  H
+ATOM    131  HD1 TRP I   7      -7.000  21.079   1.180  1.00 20.82      new  H
+ATOM    132  HE1 TRP I   7      -6.955  20.228  -1.258  1.00 26.17      new  H
+ATOM    133  HE3 TRP I   7      -6.130  25.550  -1.199  1.00 19.92      new  H
+ATOM    134  HZ2 TRP I   7      -6.614  21.295  -3.866  1.00 32.22      new  H
+ATOM    135  HZ3 TRP I   7      -5.959  25.562  -3.682  1.00 35.12      new  H
+ATOM    136  HH2 TRP I   7      -6.192  23.468  -4.983  1.00 29.61      new  H
+ATOM    137  N   MET I   8      -3.240  23.786   0.589  1.00 12.01      1MCT2217
+ATOM    138  CA  MET I   8      -2.219  24.206  -0.335  1.00 12.22      1MCT2218
+ATOM    139  C   MET I   8      -1.726  22.974  -1.099  1.00 15.86      1MCT2219
+ATOM    140  O   MET I   8      -1.430  21.922  -0.523  1.00 17.65      1MCT2220
+ATOM    141  CB  MET I   8      -1.100  24.875   0.501  1.00 14.06      1MCT2221
+ATOM    142  CG  MET I   8      -0.043  25.662  -0.248  1.00 40.24      1MCT2222
+ATOM    143  SD  MET I   8       1.137  26.441   0.869  1.00 33.84      1MCT2223
+ATOM    144  CE  MET I   8       0.179  27.791   1.485  1.00 30.45      1MCT2224
+ATOM    145  H   MET I   8      -3.163  22.838   0.898  1.00 12.01      new  H
+ATOM    146  HA  MET I   8      -2.584  24.930  -1.079  1.00 12.22      new  H
+ATOM    147 1HB  MET I   8      -1.576  25.551   1.226  1.00 14.06      new  H
+ATOM    148 2HB  MET I   8      -0.592  24.089   1.079  1.00 14.06      new  H
+ATOM    149 1HG  MET I   8       0.493  24.992  -0.937  1.00 40.24      new  H
+ATOM    150 2HG  MET I   8      -0.529  26.434  -0.863  1.00 40.24      new  H
+ATOM    151 1HE  MET I   8       0.676  28.739   1.233  1.00 30.45      new  H
+ATOM    152 2HE  MET I   8      -0.822  27.769   1.029  1.00 30.45      new  H
+ATOM    153 3HE  MET I   8       0.085  27.706   2.578  1.00 30.45      new  H
+ATOM    154  N   GLU I   9      -1.743  23.077  -2.409  1.00 21.58      1MCT2226
+ATOM    155  CA  GLU I   9      -1.129  22.059  -3.258  1.00 23.23      1MCT2227
+ATOM    156  C   GLU I   9       0.389  22.255  -3.278  1.00 18.87      1MCT2228
+ATOM    157  O   GLU I   9       0.887  23.357  -3.006  1.00 21.49      1MCT2229
+ATOM    158  CB  GLU I   9      -1.635  22.174  -4.665  1.00 29.03      1MCT2230
+ATOM    159  CG  GLU I   9      -3.122  21.953  -4.763  1.00 44.55      1MCT2231
+ATOM    160  CD  GLU I   9      -3.566  21.976  -6.212  1.00 57.40      1MCT2232
+ATOM    161  OE1 GLU I   9      -3.386  23.023  -6.873  1.00 50.27      1MCT2233
+ATOM    162  OE2 GLU I   9      -4.088  20.940  -6.669  1.00 62.50      1MCT2234
+ATOM    163  H   GLU I   9      -2.164  23.835  -2.907  1.00 21.58      new  H
+ATOM    164  HA  GLU I   9      -1.386  21.070  -2.852  1.00 23.23      new  H
+ATOM    165 1HB  GLU I   9      -1.389  23.171  -5.059  1.00 29.03      new  H
+ATOM    166 2HB  GLU I   9      -1.116  21.440  -5.299  1.00 29.03      new  H
+ATOM    167 1HG  GLU I   9      -3.387  20.988  -4.307  1.00 44.55      new  H
+ATOM    168 2HG  GLU I   9      -3.653  22.733  -4.197  1.00 44.55      new  H
+ATOM    169  N   CYS I  10       1.129  21.215  -3.614  1.00 19.00      1MCT2236
+ATOM    170  CA  CYS I  10       2.590  21.301  -3.618  1.00 20.78      1MCT2237
+ATOM    171  C   CYS I  10       3.065  20.176  -4.516  1.00 22.82      1MCT2238
+ATOM    172  O   CYS I  10       2.307  19.244  -4.844  1.00 23.85      1MCT2239
+ATOM    173  CB  CYS I  10       3.173  21.100  -2.188  1.00 14.49      1MCT2240
+ATOM    174  SG  CYS I  10       2.458  19.631  -1.392  1.00 19.20      1MCT2241
+ATOM    175  H   CYS I  10       0.761  20.324  -3.881  1.00 19.00      new  H
+ATOM    176  HA  CYS I  10       2.920  22.290  -3.968  1.00 20.78      new  H
+ATOM    177 1HB  CYS I  10       4.266  20.995  -2.245  1.00 14.49      new  H
+ATOM    178 2HB  CYS I  10       2.967  21.990  -1.576  1.00 14.49      new  H
+ATOM    179  N   THR I  11       4.297  20.322  -4.959  1.00 31.04      1MCT2243
+ATOM    180  CA  THR I  11       4.987  19.250  -5.636  1.00 38.45      1MCT2244
+ATOM    181  C   THR I  11       6.223  18.956  -4.797  1.00 37.28      1MCT2245
+ATOM    182  O   THR I  11       6.644  17.804  -4.809  1.00 32.21      1MCT2246
+ATOM    183  CB  THR I  11       5.426  19.585  -7.123  1.00 55.95      1MCT2247
+ATOM    184  OG1 THR I  11       6.082  20.859  -7.313  1.00 65.77      1MCT2248
+ATOM    185  CG2 THR I  11       4.147  19.543  -7.962  1.00 58.24      1MCT2249
+ATOM    186  H   THR I  11       4.831  21.162  -4.862  1.00 31.04      new  H
+ATOM    187  HA  THR I  11       4.301  18.395  -5.729  1.00 38.45      new  H
+ATOM    188  HB  THR I  11       6.184  18.845  -7.420  1.00 55.95      new  H
+ATOM    189  HG1 THR I  11       6.318  20.972  -8.278  1.00 65.77      new  H
+ATOM    190 1HG2 THR I  11       4.388  19.769  -9.011  1.00 58.24      new  H
+ATOM    191 2HG2 THR I  11       3.698  18.541  -7.897  1.00 58.24      new  H
+ATOM    192 3HG2 THR I  11       3.434  20.289  -7.582  1.00 58.24      new  H
+ATOM    193  N   ARG I  12       6.838  19.926  -4.115  1.00 18.25      1MCT2252
+ATOM    194  CA  ARG I  12       7.951  19.625  -3.239  1.00 17.73      1MCT2253
+ATOM    195  C   ARG I  12       7.662  20.122  -1.847  1.00 23.85      1MCT2254
+ATOM    196  O   ARG I  12       6.832  21.015  -1.655  1.00 23.34      1MCT2255
+ATOM    197  CB  ARG I  12       9.236  20.274  -3.757  1.00 30.28      1MCT2256
+ATOM    198  CG  ARG I  12       9.689  19.627  -5.049  1.00 40.41      1MCT2257
+ATOM    199  CD  ARG I  12      10.937  20.281  -5.543  1.00 34.47      1MCT2258
+ATOM    200  NE  ARG I  12      12.140  19.637  -5.027  1.00 57.60      1MCT2259
+ATOM    201  CZ  ARG I  12      12.826  18.684  -5.673  1.00 63.95      1MCT2260
+ATOM    202  NH1 ARG I  12      12.420  18.255  -6.884  1.00 46.47      1MCT2261
+ATOM    203  NH2 ARG I  12      13.964  18.238  -5.141  1.00 60.03      1MCT2262
+ATOM    204  H   ARG I  12       6.586  20.893  -4.157  1.00 18.25      new  H
+ATOM    205  HA  ARG I  12       8.088  18.534  -3.217  1.00 17.73      new  H
+ATOM    206 1HB  ARG I  12       9.068  21.349  -3.920  1.00 30.28      new  H
+ATOM    207 2HB  ARG I  12      10.028  20.183  -2.999  1.00 30.28      new  H
+ATOM    208 1HG  ARG I  12       9.867  18.554  -4.888  1.00 40.41      new  H
+ATOM    209 2HG  ARG I  12       8.897  19.711  -5.808  1.00 40.41      new  H
+ATOM    210 1HD  ARG I  12      10.952  20.254  -6.643  1.00 34.47      new  H
+ATOM    211 2HD  ARG I  12      10.935  21.340  -5.247  1.00 34.47      new  H
+ATOM    212  HE  ARG I  12      12.476  19.926  -4.130  1.00 57.60      new  H +
+ATOM    213 1HH1 ARG I  12      11.603  18.648  -7.306  1.00 46.47      new  H +
+ATOM    214 2HH1 ARG I  12      12.936  17.544  -7.361  1.00 46.47      new  H +
+ATOM    215 1HH2 ARG I  12      14.292  18.614  -4.274  1.00 60.03      new  H +
+ATOM    216 2HH2 ARG I  12      14.490  17.527  -5.608  1.00 60.03      new  H +
+ATOM    217  N   ASP I  13       8.381  19.584  -0.876  1.00 22.27      1MCT2269
+ATOM    218  CA  ASP I  13       8.229  19.963   0.526  1.00 20.69      1MCT2270
+ATOM    219  C   ASP I  13       8.403  21.444   0.728  1.00 23.83      1MCT2271
+ATOM    220  O   ASP I  13       7.748  22.031   1.588  1.00 24.31      1MCT2272
+ATOM    221  CB  ASP I  13       9.252  19.279   1.446  1.00 17.32      1MCT2273
+ATOM    222  CG  ASP I  13       9.022  17.799   1.625  1.00 39.84      1MCT2274
+ATOM    223  OD1 ASP I  13       7.859  17.358   1.536  1.00 20.63      1MCT2275
+ATOM    224  OD2 ASP I  13      10.011  17.093   1.882  1.00 28.90      1MCT2276
+ATOM    225  H   ASP I  13       9.077  18.883  -1.032  1.00 22.27      new  H
+ATOM    226  HA  ASP I  13       7.210  19.641   0.787  1.00 20.69      new  H
+ATOM    227 1HB  ASP I  13      10.261  19.436   1.036  1.00 17.32      new  H
+ATOM    228 2HB  ASP I  13       9.226  19.766   2.432  1.00 17.32      new  H
+ATOM    229  N   SER I  14       9.314  22.013  -0.055  1.00 19.25      1MCT2278
+ATOM    230  CA  SER I  14       9.649  23.428   0.005  1.00 37.85      1MCT2279
+ATOM    231  C   SER I  14       8.470  24.336  -0.328  1.00 38.82      1MCT2280
+ATOM    232  O   SER I  14       8.526  25.499   0.068  1.00 33.53      1MCT2281
+ATOM    233  CB  SER I  14      10.821  23.704  -0.958  1.00 44.96      1MCT2282
+ATOM    234  OG  SER I  14      10.712  22.852  -2.085  1.00 59.93      1MCT2283
+ATOM    235  H   SER I  14       9.835  21.507  -0.743  1.00 19.25      new  H
+ATOM    236  HA  SER I  14       9.934  23.660   1.042  1.00 37.85      new  H
+ATOM    237 1HB  SER I  14      11.780  23.534  -0.446  1.00 44.96      new  H
+ATOM    238 2HB  SER I  14      10.809  24.757  -1.277  1.00 44.96      new  H
+ATOM    239  HG  SER I  14      11.470  23.030  -2.713  1.00 59.93      new  H
+ATOM    240  N   ASP I  15       7.469  23.806  -1.036  1.00 20.36      1MCT2286
+ATOM    241  CA  ASP I  15       6.275  24.577  -1.369  1.00 24.13      1MCT2287
+ATOM    242  C   ASP I  15       5.408  24.914  -0.156  1.00 28.04      1MCT2288
+ATOM    243  O   ASP I  15       4.687  25.917  -0.158  1.00 28.69      1MCT2289
+ATOM    244  CB  ASP I  15       5.431  23.800  -2.388  1.00 26.59      1MCT2290
+ATOM    245  CG  ASP I  15       6.122  23.613  -3.726  1.00 43.57      1MCT2291
+ATOM    246  OD1 ASP I  15       7.043  24.376  -4.068  1.00 29.62      1MCT2292
+ATOM    247  OD2 ASP I  15       5.791  22.649  -4.438  1.00 29.94      1MCT2293
+ATOM    248  H   ASP I  15       7.464  22.867  -1.381  1.00 20.36      new  H
+ATOM    249  HA  ASP I  15       6.626  25.532  -1.788  1.00 24.13      new  H
+ATOM    250 1HB  ASP I  15       5.183  22.813  -1.971  1.00 26.59      new  H
+ATOM    251 2HB  ASP I  15       4.480  24.330  -2.546  1.00 26.59      new  H
+ATOM    252  N   CYS I  16       5.513  24.089   0.882  1.00 21.13      1MCT2295
+ATOM    253  CA  CYS I  16       4.665  24.212   2.063  1.00 20.50      1MCT2296
+ATOM    254  C   CYS I  16       5.170  25.183   3.116  1.00 25.72      1MCT2297
+ATOM    255  O   CYS I  16       6.332  25.610   3.111  1.00 24.72      1MCT2298
+ATOM    256  CB  CYS I  16       4.492  22.833   2.669  1.00 10.81      1MCT2299
+ATOM    257  SG  CYS I  16       3.830  21.689   1.447  1.00 15.94      1MCT2300
+ATOM    258  H   CYS I  16       6.170  23.337   0.927  1.00 21.13      new  H
+ATOM    259  HA  CYS I  16       3.708  24.636   1.724  1.00 20.50      new  H
+ATOM    260 1HB  CYS I  16       5.460  22.464   3.040  1.00 10.81      new  H
+ATOM    261 2HB  CYS I  16       3.815  22.888   3.534  1.00 10.81      new  H
+ATOM    262  N   MET I  17       4.265  25.542   4.020  1.00 21.20      1MCT2302
+ATOM    263  CA  MET I  17       4.595  26.450   5.112  1.00 17.28      1MCT2303
+ATOM    264  C   MET I  17       5.115  25.702   6.327  1.00 20.94      1MCT2304
+ATOM    265  O   MET I  17       4.775  24.550   6.597  1.00 17.79      1MCT2305
+ATOM    266  CB  MET I  17       3.383  27.251   5.573  1.00 15.67      1MCT2306
+ATOM    267  CG  MET I  17       2.783  28.202   4.590  1.00 32.34      1MCT2307
+ATOM    268  SD  MET I  17       1.467  29.083   5.453  1.00 27.75      1MCT2308
+ATOM    269  CE  MET I  17       1.027  30.178   4.122  1.00 21.33      1MCT2309
+ATOM    270  H   MET I  17       3.317  25.225   4.018  1.00 21.20      new  H
+ATOM    271  HA  MET I  17       5.368  27.121   4.710  1.00 17.28      new  H
+ATOM    272 1HB  MET I  17       2.602  26.541   5.882  1.00 15.67      new  H
+ATOM    273 2HB  MET I  17       3.671  27.822   6.468  1.00 15.67      new  H
+ATOM    274 1HG  MET I  17       3.541  28.905   4.214  1.00 32.34      new  H
+ATOM    275 2HG  MET I  17       2.385  27.662   3.718  1.00 32.34      new  H
+ATOM    276 1HE  MET I  17       1.253  31.215   4.410  1.00 21.33      new  H
+ATOM    277 2HE  MET I  17       1.604  29.914   3.223  1.00 21.33      new  H
+ATOM    278 3HE  MET I  17      -0.048  30.083   3.908  1.00 21.33      new  H
+ATOM    279  N   ALA I  18       5.909  26.455   7.072  1.00 22.70      1MCT2311
+ATOM    280  CA  ALA I  18       6.500  26.034   8.326  1.00 23.38      1MCT2312
+ATOM    281  C   ALA I  18       7.011  24.597   8.226  1.00 22.64      1MCT2313
+ATOM    282  O   ALA I  18       7.731  24.293   7.269  1.00 22.60      1MCT2314
+ATOM    283  CB  ALA I  18       5.433  26.231   9.428  1.00 16.21      1MCT2315
+ATOM    284  H   ALA I  18       6.161  27.388   6.814  1.00 22.70      new  H
+ATOM    285  HA  ALA I  18       7.384  26.638   8.579  1.00 23.38      new  H
+ATOM    286 1HB  ALA I  18       5.846  25.921  10.399  1.00 16.21      new  H
+ATOM    287 2HB  ALA I  18       5.145  27.292   9.475  1.00 16.21      new  H
+ATOM    288 3HB  ALA I  18       4.548  25.621   9.195  1.00 16.21      new  H
+ATOM    289  N   LYS I  19       6.638  23.711   9.141  1.00 16.66      1MCT2317
+ATOM    290  CA  LYS I  19       7.120  22.357   9.092  1.00 18.01      1MCT2318
+ATOM    291  C   LYS I  19       6.135  21.460   8.357  1.00 22.19      1MCT2319
+ATOM    292  O   LYS I  19       6.222  20.238   8.532  1.00 19.97      1MCT2320
+ATOM    293  CB  LYS I  19       7.368  21.882  10.530  1.00 25.42      1MCT2321
+ATOM    294  CG  LYS I  19       8.480  22.612  11.289  1.00 26.36      1MCT2322
+ATOM    295  CD  LYS I  19       8.191  22.679  12.794  1.00 52.80      1MCT2323
+ATOM    296  CE  LYS I  19       8.287  21.398  13.630  1.00 56.50      1MCT2324
+ATOM    297  NZ  LYS I  19       7.744  21.578  15.023  1.00 47.35      1MCT2325
+ATOM    298  H   LYS I  19       6.020  23.910   9.901  1.00 16.66      new  H
+ATOM    299  HA  LYS I  19       8.065  22.308   8.530  1.00 18.01      new  H
+ATOM    300 1HB  LYS I  19       6.432  21.988  11.098  1.00 25.42      new  H
+ATOM    301 2HB  LYS I  19       7.610  20.809  10.505  1.00 25.42      new  H
+ATOM    302 1HG  LYS I  19       9.438  22.097  11.122  1.00 26.36      new  H
+ATOM    303 2HG  LYS I  19       8.589  23.631  10.890  1.00 26.36      new  H
+ATOM    304 1HD  LYS I  19       8.883  23.413  13.232  1.00 52.80      new  H
+ATOM    305 2HD  LYS I  19       7.175  23.081  12.919  1.00 52.80      new  H
+ATOM    306 1HE  LYS I  19       7.734  20.592  13.125  1.00 56.50      new  H
+ATOM    307 2HE  LYS I  19       9.338  21.079  13.688  1.00 56.50      new  H
+ATOM    308 1HZ  LYS I  19       8.430  21.284  15.689  1.00 47.35      new  H +
+ATOM    309 2HZ  LYS I  19       7.525  22.542  15.174  1.00 47.35      new  H +
+ATOM    310 3HZ  LYS I  19       6.916  21.027  15.132  1.00 47.35      new  H +
+ATOM    311  N   CYS I  20       5.199  21.964   7.549  1.00 19.47      1MCT2330
+ATOM    312  CA  CYS I  20       4.357  21.091   6.730  1.00 16.68      1MCT2331
+ATOM    313  C   CYS I  20       5.235  20.378   5.679  1.00 23.22      1MCT2332
+ATOM    314  O   CYS I  20       6.300  20.883   5.321  1.00 20.95      1MCT2333
+ATOM    315  CB  CYS I  20       3.292  21.839   5.951  1.00 15.06      1MCT2334
+ATOM    316  SG  CYS I  20       2.157  22.793   6.985  1.00 17.10      1MCT2335
+ATOM    317  H   CYS I  20       5.011  22.941   7.447  1.00 19.47      new  H
+ATOM    318  HA  CYS I  20       3.869  20.398   7.431  1.00 16.68      new  H
+ATOM    319 1HB  CYS I  20       3.783  22.519   5.240  1.00 15.06      new  H
+ATOM    320 2HB  CYS I  20       2.712  21.117   5.358  1.00 15.06      new  H
+ATOM    321  N   ILE I  21       4.900  19.177   5.255  1.00 18.22      1MCT2337
+ATOM    322  CA  ILE I  21       5.591  18.533   4.149  1.00 25.07      1MCT2338
+ATOM    323  C   ILE I  21       4.540  18.275   3.072  1.00 24.63      1MCT2339
+ATOM    324  O   ILE I  21       3.330  18.395   3.327  1.00 18.62      1MCT2340
+ATOM    325  CB  ILE I  21       6.249  17.195   4.574  1.00 26.90      1MCT2341
+ATOM    326  CG1 ILE I  21       5.282  16.313   5.353  1.00 29.07      1MCT2342
+ATOM    327  CG2 ILE I  21       7.496  17.546   5.365  1.00 26.73      1MCT2343
+ATOM    328  CD1 ILE I  21       5.693  14.869   5.374  1.00 39.26      1MCT2344
+ATOM    329  H   ILE I  21       4.162  18.632   5.653  1.00 18.22      new  H
+ATOM    330  HA  ILE I  21       6.403  19.181   3.787  1.00 25.07      new  H
+ATOM    331  HB  ILE I  21       6.525  16.597   3.693  1.00 26.90      new  H
+ATOM    332 1HG1 ILE I  21       5.208  16.683   6.386  1.00 29.07      new  H
+ATOM    333 2HG1 ILE I  21       4.279  16.397   4.909  1.00 29.07      new  H
+ATOM    334 1HG2 ILE I  21       7.998  16.622   5.689  1.00 26.73      new  H
+ATOM    335 2HG2 ILE I  21       8.179  18.132   4.732  1.00 26.73      new  H
+ATOM    336 3HG2 ILE I  21       7.216  18.139   6.248  1.00 26.73      new  H
+ATOM    337 1HD1 ILE I  21       4.958  14.286   5.949  1.00 39.26      new  H
+ATOM    338 2HD1 ILE I  21       5.739  14.485   4.344  1.00 39.26      new  H
+ATOM    339 3HD1 ILE I  21       6.683  14.776   5.844  1.00 39.26      new  H
+ATOM    340  N   CYS I  22       4.999  17.967   1.873  1.00 15.82      1MCT2346
+ATOM    341  CA  CYS I  22       4.108  17.773   0.754  1.00 12.91      1MCT2347
+ATOM    342  C   CYS I  22       3.731  16.310   0.770  1.00 30.91      1MCT2348
+ATOM    343  O   CYS I  22       4.523  15.442   0.428  1.00 25.12      1MCT2349
+ATOM    344  CB  CYS I  22       4.848  18.167  -0.515  1.00 16.98      1MCT2350
+ATOM    345  SG  CYS I  22       3.723  18.138  -1.937  1.00 22.22      1MCT2351
+ATOM    346  H   CYS I  22       5.968  17.849   1.657  1.00 15.82      new  H
+ATOM    347  HA  CYS I  22       3.196  18.386   0.806  1.00 12.91      new  H
+ATOM    348 1HB  CYS I  22       5.278  19.173  -0.400  1.00 16.98      new  H
+ATOM    349 2HB  CYS I  22       5.687  17.476  -0.688  1.00 16.98      new  H
+ATOM    350  N   VAL I  23       2.535  15.986   1.185  1.00 29.18      1MCT2353
+ATOM    351  CA  VAL I  23       2.071  14.611   1.255  1.00 21.86      1MCT2354
+ATOM    352  C   VAL I  23       1.078  14.469   0.112  1.00 32.31      1MCT2355
+ATOM    353  O   VAL I  23      -0.019  15.025   0.142  1.00 38.47      1MCT2356
+ATOM    354  CB  VAL I  23       1.390  14.376   2.623  1.00 44.66      1MCT2357
+ATOM    355  CG1 VAL I  23       0.844  12.970   2.679  1.00 51.52      1MCT2358
+ATOM    356  CG2 VAL I  23       2.386  14.576   3.744  1.00 37.51      1MCT2359
+ATOM    357  H   VAL I  23       1.856  16.657   1.483  1.00 29.18      new  H
+ATOM    358  HA  VAL I  23       2.884  13.875   1.166  1.00 21.86      new  H
+ATOM    359  HB  VAL I  23       0.568  15.098   2.742  1.00 44.66      new  H
+ATOM    360 1HG1 VAL I  23       0.360  12.803   3.652  1.00 51.52      new  H
+ATOM    361 2HG1 VAL I  23       0.107  12.830   1.874  1.00 51.52      new  H
+ATOM    362 3HG1 VAL I  23       1.667  12.251   2.551  1.00 51.52      new  H
+ATOM    363 1HG2 VAL I  23       1.890  14.406   4.711  1.00 37.51      new  H
+ATOM    364 2HG2 VAL I  23       3.217  13.864   3.629  1.00 37.51      new  H
+ATOM    365 3HG2 VAL I  23       2.777  15.604   3.709  1.00 37.51      new  H
+ATOM    366  N   ALA I  24       1.531  13.792  -0.927  1.00 34.00      1MCT2361
+ATOM    367  CA  ALA I  24       0.732  13.510  -2.118  1.00 49.84      1MCT2362
+ATOM    368  C   ALA I  24       0.033  14.742  -2.733  1.00 25.81      1MCT2363
+ATOM    369  O   ALA I  24      -1.192  14.838  -2.873  1.00 37.25      1MCT2364
+ATOM    370  CB  ALA I  24      -0.281  12.401  -1.743  1.00 55.10      1MCT2365
+ATOM    371  H   ALA I  24       2.459  13.422  -0.973  1.00 34.00      new  H
+ATOM    372  HA  ALA I  24       1.411  13.177  -2.917  1.00 49.84      new  H
+ATOM    373 1HB  ALA I  24      -0.903  12.161  -2.618  1.00 55.10      new  H
+ATOM    374 2HB  ALA I  24       0.263  11.500  -1.422  1.00 55.10      new  H
+ATOM    375 3HB  ALA I  24      -0.924  12.753  -0.922  1.00 55.10      new  H
+ATOM    376  N   GLY I  25       0.855  15.716  -3.066  1.00 20.57      1MCT2367
+ATOM    377  CA  GLY I  25       0.345  16.887  -3.743  1.00 32.55      1MCT2368
+ATOM    378  C   GLY I  25      -0.315  17.903  -2.851  1.00 23.10      1MCT2369
+ATOM    379  O   GLY I  25      -0.800  18.912  -3.373  1.00 24.38      1MCT2370
+ATOM    380  H   GLY I  25       1.839  15.721  -2.887  1.00 20.57      new  H
+ATOM    381 1HA  GLY I  25       1.175  17.374  -4.276  1.00 32.55      new  H
+ATOM    382 2HA  GLY I  25      -0.380  16.564  -4.504  1.00 32.55      new  H
+ATOM    383  N   HIS I  26      -0.434  17.676  -1.542  1.00 22.39      1MCT2372
+ATOM    384  CA  HIS I  26      -0.920  18.734  -0.653  1.00 23.38      1MCT2373
+ATOM    385  C   HIS I  26      -0.043  18.820   0.585  1.00 16.32      1MCT2374
+ATOM    386  O   HIS I  26       0.536  17.815   1.015  1.00 18.72      1MCT2375
+ATOM    387  CB  HIS I  26      -2.359  18.506  -0.153  1.00 31.99      1MCT2376
+ATOM    388  CG  HIS I  26      -3.344  18.321  -1.269  1.00 67.50      1MCT2377
+ATOM    389  ND1 HIS I  26      -3.715  19.248  -2.249  1.00 73.58      1MCT2378
+ATOM    390  CD2 HIS I  26      -4.018  17.186  -1.574  1.00 59.96      1MCT2379
+ATOM    391  CE1 HIS I  26      -4.563  18.707  -3.112  1.00 66.91      1MCT2380
+ATOM    392  NE2 HIS I  26      -4.750  17.455  -2.701  1.00 79.20      1MCT2381
+ATOM    393  H   HIS I  26      -0.212  16.811  -1.091  1.00 22.39      new  H
+ATOM    394  HA  HIS I  26      -0.891  19.654  -1.255  1.00 23.38      new  H
+ATOM    395 1HB  HIS I  26      -2.379  17.619   0.497  1.00 31.99      new  H
+ATOM    396 2HB  HIS I  26      -2.668  19.364   0.463  1.00 31.99      new  H
+ATOM    398  HD2 HIS I  26      -3.984  16.234  -1.024  1.00 59.96      new  H
+ATOM    399  HE1 HIS I  26      -5.018  19.193  -3.988  1.00 66.91      new  H
+ATOM    400  HE2 HIS I  26      -5.348  16.795  -3.156  1.00 79.20      new  H
+ATOM    401  N   CYS I  27       0.026  20.015   1.133  1.00 11.90      1MCT2385
+ATOM    402  CA  CYS I  27       0.781  20.242   2.358  1.00 11.14      1MCT2386
+ATOM    403  C   CYS I  27       0.045  19.677   3.559  1.00 12.73      1MCT2387
+ATOM    404  O   CYS I  27      -1.198  19.726   3.604  1.00 15.10      1MCT2388
+ATOM    405  CB  CYS I  27       0.995  21.731   2.539  1.00 12.44      1MCT2389
+ATOM    406  SG  CYS I  27       1.946  22.392   1.138  1.00 16.96      1MCT2390
+ATOM    407  H   CYS I  27      -0.420  20.829   0.762  1.00 11.90      new  H
+ATOM    408  HA  CYS I  27       1.751  19.730   2.279  1.00 11.14      new  H
+ATOM    409 1HB  CYS I  27       0.025  22.244   2.611  1.00 12.44      new  H
+ATOM    410 2HB  CYS I  27       1.530  21.922   3.481  1.00 12.44      new  H
+ATOM    411  N   GLY I  28       0.750  19.088   4.507  1.00 13.06      1MCT2392
+ATOM    412  CA  GLY I  28       0.105  18.558   5.706  1.00 13.39      1MCT2393
+ATOM    413  C   GLY I  28       1.163  18.193   6.720  1.00 25.20      1MCT2394
+ATOM    414  O   GLY I  28       0.850  17.900   7.886  1.00 22.16      1MCT2395
+ATOM    415  OXT GLY I  28       2.355  18.244   6.366  1.00 15.60      1MCT2396
+ATOM    416  H   GLY I  28       1.742  18.965   4.477  1.00 13.06      new  H
+ATOM    417 1HA  GLY I  28      -0.583  19.306   6.128  1.00 13.39      new  H
+ATOM    418 2HA  GLY I  28      -0.498  17.674   5.452  1.00 13.39      new  H
+TER     418      GLY I  28                                              1MCT2398
+HETATM  419  O   HOH     4      -3.365  16.355  15.520  1.00 14.19      1MCT2408
+HETATM  420  O   HOH     5      -6.301  24.423  14.683  1.00 13.79      1MCT2411
+HETATM  421  O   HOH    11      -8.431  17.586  19.162  1.00 15.54      1MCT2429
+HETATM  422  O   HOH    17       5.004  28.647  18.263  1.00 18.02      1MCT2447
+HETATM  423  O   HOH    20      -0.680  23.566   5.101  1.00 17.07      1MCT2456
+HETATM  424  O   HOH    24      -2.797  21.710   2.489  1.00 16.21      1MCT2468
+HETATM  425  O   HOH    27       1.845  18.068  10.615  1.00 22.29      1MCT2477
+HETATM  426  O   HOH    36      -2.278  13.461  11.035  1.00 26.33      1MCT2504
+HETATM  427  O   HOH    44      -3.586  27.987  -1.147  1.00 31.05      1MCT2522
+HETATM  428  O   HOH    50      -2.660  25.550  -3.641  1.00 25.19      1MCT2534
+HETATM  429  O   HOH    51      11.790  21.668   2.122  1.00 41.38      1MCT2537
+HETATM  430  O   HOH    58      -2.027  20.551  11.125  1.00 11.37      1MCT2556
+HETATM  431  O   HOH    62      -9.623  20.741  17.531  1.00 13.00      1MCT2568
+HETATM  432  O   HOH    64      -4.302  17.136   5.866  1.00 19.55      1MCT2574
+HETATM  433  O   HOH    65       1.556  24.751   3.889  1.00 15.15      1MCT2577
+HETATM  434  O   HOH    68      -1.832  17.329   8.676  1.00 20.27      1MCT2586
+HETATM  435  O   HOH    70      -6.192  16.090  17.915  1.00 19.86      1MCT2592
+HETATM  436  O   HOH    72      -2.834  17.428   3.522  1.00 35.95      1MCT2598
+HETATM  437  O   HOH    87     -10.033  23.028  -1.376  1.00 40.12      1MCT2637
+HETATM  438  O   HOH    91      -2.442  14.666   8.677  1.00 32.49      1MCT2646
+HETATM  439  O   HOH   101      -1.788  32.188   2.094  1.00 42.67      1MCT2661
+HETATM  440  O   HOH   108       0.975  35.841   5.851  1.00 30.00      1MCT2679
+HETATM  441  O   HOH   110       5.040  18.675  20.353  1.00 49.04      1MCT2682
+HETATM  442  O   HOH   119       7.043  14.898   0.130  1.00 48.10      1MCT2703
+HETATM  443  O   HOH   125       7.177  26.989  17.467  1.00 36.62      1MCT2721
+HETATM  444  O   HOH   905       5.824  21.202  20.890  1.00 38.79      1MCT2787
+HETATM  445  O   HOH   911       6.744  30.227  19.895  1.00 42.59      1MCT2796
+CONECT    0                                                             1MCT2805
+CONECT    0                                                             1MCT2806
+CONECT    0                                                             1MCT2807
+CONECT    0                                                             1MCT2808
+CONECT    0                                                             1MCT2809
+CONECT    0                                                             1MCT2810
+CONECT    0                                                             1MCT2811
+CONECT    0                                                             1MCT2812
+CONECT    0                                                             1MCT2813
+CONECT    0                                                             1MCT2814
+CONECT    0                                                             1MCT2815
+CONECT    0                                                             1MCT2816
+CONECT    0                                                             1MCT2817
+CONECT    0                                                             1MCT2818
+CONECT    0                                                             1MCT2819
+CONECT   51   50  316                                                   1MCT2820
+CONECT  174  173  345                                                   1MCT2821
+CONECT  257  256  406                                                   1MCT2822
+CONECT  316   51  315                                                   1MCT2823
+CONECT  345  174  344                                                   1MCT2824
+CONECT  406  257  405                                                   1MCT2825
+CONECT    0                                                             1MCT2826
+END                                                                     1MCT2828

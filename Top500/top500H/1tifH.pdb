@@ -1,0 +1,1589 @@
+USER  MOD reduceV2.13.2 H: found=238, std=238, add=501, rem=0, adj=13
+HEADER    RIBOSOME BINDING FACTOR                 16-AUG-95   1TIF      1TIF   2
+TITLE     TRANSLATION INITIATION FACTOR 3 N-TERMINAL DOMAIN             1TIF   3
+COMPND    MOL_ID: 1;                                                    1TIF   4
+COMPND   2 MOLECULE: TRANSLATION INITIATION FACTOR 3;                   1TIF   5
+COMPND   3 CHAIN: NULL;                                                 1TIF   6
+COMPND   4 DOMAIN: N-TERMINAL RESIDUES 1 - 78;                          1TIF   7
+COMPND   5 SYNONYM: IF3-N;                                              1TIF   8
+COMPND   6 ENGINEERED: YES;                                             1TIF   9
+SOURCE    MOL_ID: 1;                                                    1TIF  10
+SOURCE   2 ORGANISM_SCIENTIFIC: BACILLUS STEAROTHERMOPHILUS;            1TIF  11
+SOURCE   3 EXPRESSION_SYSTEM: ESCHERICHIA COLI BL21(DE3);               1TIF  12
+SOURCE   4 EXPRESSION_SYSTEM_PLASMID: T7 VECTOR PET13A                  1TIF  13
+KEYWDS    IF3 N-TERMINAL DOMAIN                                         1TIF  14
+EXPDTA    X-RAY DIFFRACTION                                             1TIF  15
+AUTHOR    V.BIOU,F.SHU,V.RAMAKRISHNAN                                   1TIF  16
+REVDAT   1   07-DEC-95 1TIF    0                                        1TIF  17
+JRNL        AUTH   V.BIOU,F.SHU,V.RAMAKRISHNAN                          1TIF  18
+JRNL        TITL   X-RAY CRYSTALLOGRAPHY SHOWS THAT TRANSLATIONAL       1TIF  19
+JRNL        TITL 2 INITIATION FACTOR IF3 CONSISTS OF TWO COMPACT        1TIF  20
+JRNL        TITL 3 ALPHA(SLASH)BETA DOMAINS LINKED BY AN ALPHA-HELIX    1TIF  21
+JRNL        REF    EMBO J.                       V.  14  4056 1995      1TIF  22
+JRNL        REFN   ASTM EMJODG  UK ISSN 0261-4189                 0897  1TIF  23
+REMARK   1                                                              1TIF  24
+REMARK   1 REFERENCE 1                                                  1TIF  25
+REMARK   1  AUTH   J.H.KYCIA,V.BIOU,F.SHU,S.E.GERCHMAN,V.GRAZIANO,      1TIF  26
+REMARK   1  AUTH 2 V.RAMAKRISHNAN                                       1TIF  27
+REMARK   1  TITL   PROKARYOTIC TRANSLATION INITIATION FACTOR IF3 IS     1TIF  28
+REMARK   1  TITL 2 AN ELONGATED PROTEIN CONSISTING OF TWO               1TIF  29
+REMARK   1  TITL 3 CRYSTALLIZABLE DOMAINS                               1TIF  30
+REMARK   1  REF    BIOCHEMISTRY                  V.  34  6183 1995      1TIF  31
+REMARK   1  REFN   ASTM BICHAW  US ISSN 0006-2960                 0033  1TIF  32
+REMARK   2                                                              1TIF  33
+REMARK   2 RESOLUTION. 1.8  ANGSTROMS.                                  1TIF  34
+REMARK   3                                                              1TIF  35
+REMARK   3 REFINEMENT.                                                  1TIF  36
+REMARK   3   PROGRAM                    X-PLOR 3.1                      1TIF  37
+REMARK   3   AUTHORS                    BRUNGER                         1TIF  38
+REMARK   3   R VALUE                    0.192                           1TIF  39
+REMARK   3   FREE R VALUE               0.233                           1TIF  40
+REMARK   3                                                              1TIF  41
+REMARK   3   NUMBER OF REFLECTIONS      6646                            1TIF  42
+REMARK   3   RESOLUTION RANGE       10. - 1.8  ANGSTROMS                1TIF  43
+REMARK   3   DATA CUTOFF                0.0    SIGMA(F)                 1TIF  44
+REMARK   3                                                              1TIF  45
+REMARK   3  DATA COLLECTION.                                            1TIF  46
+REMARK   3   NUMBER OF UNIQUE REFLECTIONS      6646                     1TIF  47
+REMARK   3   COMPLETENESS OF DATA              95.9   %                 1TIF  48
+REMARK   3   REJECTION CRITERIA                0.0    SIGMA(I)          1TIF  49
+REMARK   3                                                              1TIF  50
+REMARK   3  NUMBER OF ATOMS USED IN REFINEMENT.                         1TIF  51
+REMARK   3   NUMBER OF PROTEIN ATOMS                        788         1TIF  52
+REMARK   3   NUMBER OF NUCLEIC ACID ATOMS                     0         1TIF  53
+REMARK   3   NUMBER OF HETEROGEN ATOMS                        7         1TIF  54
+REMARK   3   NUMBER OF SOLVENT ATOMS                        130         1TIF  55
+REMARK   3                                                              1TIF  56
+REMARK   3  THE FOLLOWING ATOMIC SCATTERING FACTORS WERE USED:          1TIF  57
+REMARK   3   C*:                                                        1TIF  58
+REMARK   3   2.31000 20.8439 1.02000 10.2075 1.58860 0.568700 0.865000  1TIF  59
+REMARK   3   51.6512 0.215600                                           1TIF  60
+REMARK   3   N*:                                                        1TIF  61
+REMARK   3   12.2126 0.005700 3.13220 9.89330 2.01250 28.9975 1.16630   1TIF  62
+REMARK   3   0.582600 -11.529                                           1TIF  63
+REMARK   3   O*:                                                        1TIF  64
+REMARK   3   3.04850 13.2771 2.28680 5.70110 1.54630 0.323900 0.867000  1TIF  65
+REMARK   3   32.9089 0.250800                                           1TIF  66
+REMARK   3   S*:                                                        1TIF  67
+REMARK   3   6.90530 1.46790 5.20340 22.2151 1.43790 0.253600 1.58630   1TIF  68
+REMARK   3   56.1720 0.866900                                           1TIF  69
+REMARK   3   FE*:                                                       1TIF  70
+REMARK   3   11.1764 4.61470 7.38630 0.30050 3.39480 11.6729 0.07240    1TIF  71
+REMARK   3   38.5566 0.97070                                            1TIF  72
+REMARK   3   PB*:                                                       1TIF  73
+REMARK   3   31.0671 0.6902 13.0637 2.3576 18.442 8.618 5.9696 47.2579  1TIF  74
+REMARK   3   3.4118, IMAGINARY 10.                                      1TIF  75
+REMARK   3   CL:                                                        1TIF  76
+REMARK   3   11.46 0.0104 7.1964 1.1662 6.2556 18.5194 1.6455 47.7784   1TIF  77
+REMARK   3   -9.557                                                     1TIF  78
+REMARK   3                                                              1TIF  79
+REMARK   3  AN IMAGINARY STRUCTURE FACTOR WAS USED FOR PB TO TAKE THE   1TIF  80
+REMARK   3  ANOMALOUS CONTRIBUTION INTO ACCOUNT. THE                    1TIF  81
+REMARK   3  "HERMITIAN=FALSE" OPTION IN X-PLOR WAS USED ALONG WITH IT.  1TIF  82
+REMARK   3                                                              1TIF  83
+REMARK   3  THE STRUCTURE OF THE N-TERMINAL FRAGMENT WAS SOLVED USING   1TIF  84
+REMARK   3  ONE SINGLE TRIMETHYL LEAD ACETATE DERIVATIVE AND ITS        1TIF  85
+REMARK   3  ANOMALOUS SIGNAL.                                           1TIF  86
+REMARK   4                                                              1TIF  87
+REMARK   4 ORIGINAL DEPOSITION REVISED PRIOR TO RELEASE                 1TIF  88
+REMARK   4    TRACKING NUMBER: T6917, DATE REVISED: 23-OCT-95           1TIF  89
+REMARK   5                                                              1TIF  90
+REMARK   5 THIS ENTRY PRESENTS THE N-TERMINAL DOMAIN OF IF3.  PDB       1TIF  91
+REMARK   5 ENTRY 1TIG PRESENTS THE C-TERMINAL DOMAIN OF IF3.            1TIF  92
+REMARK   6                                                              1TIF  93
+REMARK   6 RESIDUES 1 - 2 ARE DISORDERED AND WERE NOT INCLUDED IN THE   1TIF  94
+REMARK   6 STRUCTURE CALCULATION.                                       1TIF  95
+REMARK   7                                                              1TIF  96
+REMARK   7 NOTE THAT SOME SOLVENT MOLECULES HAVE AN OCCUPANCY           1TIF  97
+REMARK   7 GREATER THAN 1.0.  IF IT IS SIGNIFICANTLY GREATER THAN 1.0   1TIF  98
+REMARK   7 THEY COULD, IN FACT, BE OTHER IONS.                          1TIF  99
+REMARK  18                                                              1TIF 100
+REMARK  18 EXPERIMENTAL DETAILS.                                        1TIF 101
+REMARK  18  DATE OF DATA COLLECTION        : APR-94                     1TIF 102
+REMARK  18  SOURCE                         : NSLS                       1TIF 103
+REMARK  18  BEAMLINE                       : X12C                       1TIF 104
+REMARK  18  MONOCHROMATIC (Y/N)            : Y                          1TIF 105
+REMARK  18  LAUE (Y/N)                     : N                          1TIF 106
+REMARK  18  WAVELENGTH OR RANGE (A)        : 0.95 (PB EDGE)             1TIF 107
+REMARK  18  DETECTOR TYPE                  : IMAGING PLATE              1TIF 108
+REMARK  18  DETECTOR MANUFACTURER          : MARRESEARCH                1TIF 109
+REMARK  18  INTENSITY-INTEGRATION SOFTWARE : MOSFLM                     1TIF 110
+REMARK  18  DATA REDUNDANCY                : 7.2 (3.5)                  1TIF 111
+REMARK  18  MERGING R VALUE (INTENSITY)    : 0.039 (0.084)              1TIF 112
+REMARK  18                                                              1TIF 113
+REMARK  18  THE FIGURES BETWEEN BRACKETS SHOW VALUES IN THE OUTER       1TIF 114
+REMARK  18  RESOLUTION SHELL.                                           1TIF 115
+REMARK  19                                                              1TIF 116
+REMARK  19 SOLVENT CONTENT (VS)      : 30.0 %                           1TIF 117
+REMARK 999                                                              1TIF 118
+REMARK 999 FOR CHAIN " " -   2 N-TERMINAL RESIDUES NOT IN ATOMS LIST    1TIF 119
+DBREF  1TIF      3    78  SWS    P03000   IF3_BACST        2     77     1TIF 120
+SEQRES   1     78  MET SER LYS ASP PHE ILE ILE ASN GLU GLN ILE ARG ALA  1TIF 121
+SEQRES   2     78  ARG GLU VAL ARG LEU ILE ASP GLN ASN GLY ASP GLN LEU  1TIF 122
+SEQRES   3     78  GLY ILE LYS SER LYS GLN GLU ALA LEU GLU ILE ALA ALA  1TIF 123
+SEQRES   4     78  ARG ARG ASN LEU ASP LEU VAL LEU VAL ALA PRO ASN ALA  1TIF 124
+SEQRES   5     78  LYS PRO PRO VAL CYS ARG ILE MET ASP TYR GLY LYS PHE  1TIF 125
+SEQRES   6     78  ARG PHE GLU GLN GLN LYS LYS GLU LYS GLU ALA ARG LYS  1TIF 126
+FTNOTE   1                                                              1TIF 127
+FTNOTE   1 CIS PROLINE - PRO      54                                    1TIF 128
+HET    PBM    101       4     TRIMETHYL LEAD ION                        1TIF 129
+HET     CL    102       1     CHLORIDE ION                              1TIF 130
+HET     CL    103       1     CHLORIDE ION                              1TIF 131
+FORMUL   2  PBM    C3 H9 PB1 2+                                         1TIF 132
+FORMUL   3   CL    2(CL1 1-)                                            1TIF 133
+FORMUL   4  HOH   *37(H2 O1)                                            1TIF 134
+HELIX    1   1 ASN      8  GLN     10  5                                1TIF 135
+HELIX    2   2 LYS     31  ARG     40  1                                1TIF 136
+HELIX    3   3 TYR     62  GLU     75  1                                1TIF 137
+SHEET    1   A 4 GLN    25  SER    30  0                                1TIF 138
+SHEET    2   A 4 GLU    15  ILE    19 -1  N  LEU    18   O  LEU    26   1TIF 139
+SHEET    3   A 4 VAL    56  MET    60  1  N  CYS    57   O  ARG    17   1TIF 140
+SHEET    4   A 4 ASP    44  ALA    49 -1  N  ALA    49   O  VAL    56   1TIF 141
+CRYST1   27.600   39.200   65.900  90.00  90.00  90.00 P 21 21 21    4  1TIF 142
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 1TIF 143
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 1TIF 144
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 1TIF 145
+SCALE1      0.036232  0.000000  0.000000        0.00000                 1TIF 146
+SCALE2      0.000000  0.025510  0.000000        0.00000                 1TIF 147
+SCALE3      0.000000  0.000000  0.015175        0.00000                 1TIF 148
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Set 1.1:   69 GLN     :FLIP  amide:sc=   0.112  F(o=0.037,f=0.67)
+USER  MOD Set 1.2:   72 LYS NZ  :NH3+   -176:sc=   0.553   (180deg=-1.34!)
+USER  MOD Single :    3 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single :    8 ASN     :      amide:sc=    1.34  K(o=1.3,f=-5.6!)
+USER  MOD Single :   10 GLN     :      amide:sc=   0.539  K(o=0.54,f=-4.6!)
+USER  MOD Single :   21 GLN     :FLIP  amide:sc= -0.0187  F(o=-7.7!,f=-0.019)
+USER  MOD Single :   22 ASN     :      amide:sc=    1.02  K(o=1,f=-0.44)
+USER  MOD Single :   25 GLN     :      amide:sc=   0.921  K(o=0.92,f=-2.7!)
+USER  MOD Single :   29 LYS NZ  :NH3+   -164:sc=   0.569   (180deg=0.519)
+USER  MOD Single :   30 SER OG  :   rot -104:sc=    1.33
+USER  MOD Single :   31 LYS NZ  :NH3+   -125:sc=   0.511   (180deg=0)
+USER  MOD Single :   32 GLN     :      amide:sc=  0.0906  K(o=0.091,f=-0.8)
+USER  MOD Single :   42 ASN     :      amide:sc=   0.889  K(o=0.89,f=-0.00095)
+USER  MOD Single :   51 ASN     :      amide:sc= -0.0595  X(o=-0.059,f=0)
+USER  MOD Single :   53 LYS NZ  :NH3+    165:sc= -0.0132   (180deg=-0.212)
+USER  MOD Single :   57 CYS SG  :   rot  180:sc=  -0.213
+USER  MOD Single :   60 MET CE  :methyl -145:sc=   -3.13!  (180deg=-6.41!)
+USER  MOD Single :   62 TYR OH  :   rot  180:sc=  0.0679
+USER  MOD Single :   64 LYS NZ  :NH3+   -178:sc=   0.509   (180deg=0.507)
+USER  MOD Single :   70 GLN     :      amide:sc= -0.0445  X(o=-0.044,f=0)
+USER  MOD Single :   71 LYS NZ  :NH3+    153:sc=   0.143   (180deg=-0.604)
+USER  MOD Single :   74 LYS NZ  :NH3+   -153:sc=  -0.137   (180deg=-0.71)
+USER  MOD Single :   78 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD -----------------------------------------------------------------
+ATOM      1  N   LYS     3       8.280  10.386  26.478  0.00 28.91      1TIF 149
+ATOM      2  CA  LYS     3       6.958  10.380  25.796  0.00 27.20      1TIF 150
+ATOM      3  C   LYS     3       7.014   9.474  24.573  0.00 26.43      1TIF 151
+ATOM      4  O   LYS     3       6.693   8.292  24.664  0.00 27.31      1TIF 152
+ATOM      5  CB  LYS     3       6.554  11.801  25.388  0.00 28.63      1TIF 153
+ATOM      6  CG  LYS     3       6.283  12.735  26.556  0.00 28.67      1TIF 154
+ATOM      7  CD  LYS     3       5.867  14.113  26.067  0.00 28.27      1TIF 155
+ATOM      8  CE  LYS     3       5.521  15.035  27.226  0.00 27.73      1TIF 156
+ATOM      9  NZ  LYS     3       4.339  14.548  27.988  0.00 28.05      1TIF 157
+ATOM     10 1H   LYS     3       8.509   9.432  26.671  1.00 28.91      1TIF 158 std
+ATOM     11 2H   LYS     3       8.958  10.719  25.823  1.00 28.91      1TIF 159 std
+ATOM     12 3H   LYS     3       8.284  10.937  27.312  1.00 28.91      1TIF 160 std
+ATOM     13 1HZ  LYS     3       4.142  15.177  28.740  1.00 28.05      1TIF 161 std
+ATOM     14 2HZ  LYS     3       3.553  14.497  27.372  1.00 28.05      1TIF 162 std
+ATOM     15 3HZ  LYS     3       4.542  13.638  28.348  1.00 28.05      1TIF 163 std
+ATOM     16  HA  LYS     3       6.201   9.995  26.495  0.00 27.20      1TIF H   new
+ATOM     17 1HB  LYS     3       7.353  12.232  24.767  0.00 28.63      1TIF H   new
+ATOM     18 2HB  LYS     3       5.652  11.747  24.760  0.00 28.63      1TIF H   new
+ATOM     19 1HG  LYS     3       5.491  12.313  27.192  0.00 28.67      1TIF H   new
+ATOM     20 2HG  LYS     3       7.185  12.820  27.180  0.00 28.67      1TIF H   new
+ATOM     21 1HD  LYS     3       6.682  14.555  25.475  0.00 28.27      1TIF H   new
+ATOM     22 2HD  LYS     3       4.998  14.020  25.399  0.00 28.27      1TIF H   new
+ATOM     23 1HE  LYS     3       6.385  15.114  27.902  0.00 27.73      1TIF H   new
+ATOM     24 2HE  LYS     3       5.319  16.046  26.842  0.00 27.73      1TIF H   new
+ATOM     25  N   ASP     4       7.456  10.022  23.445  0.00 24.64      1TIF 164
+ATOM     26  CA  ASP     4       7.559   9.267  22.201  0.00 23.14      1TIF 165
+ATOM     27  C   ASP     4       8.457   8.045  22.364  0.00 20.81      1TIF 166
+ATOM     28  O   ASP     4       9.540   8.129  22.950  0.00 20.42      1TIF 167
+ATOM     29  CB  ASP     4       8.095  10.167  21.082  0.00 22.97      1TIF 168
+ATOM     30  CG  ASP     4       8.275   9.427  19.766  0.00 23.79      1TIF 169
+ATOM     31  OD1 ASP     4       7.262   9.157  19.087  0.00 23.63      1TIF 170
+ATOM     32  OD2 ASP     4       9.432   9.120  19.408  0.00 24.00      1TIF 171
+ATOM     33  H   ASP     4       7.727  10.983  23.384  1.00 24.64      1TIF 172 std
+ATOM     34  HA  ASP     4       6.552   8.915  21.935  0.00 23.14      1TIF H   new
+ATOM     35 1HB  ASP     4       7.403  11.009  20.932  0.00 22.97      1TIF H   new
+ATOM     36 2HB  ASP     4       9.060  10.594  21.392  0.00 22.97      1TIF H   new
+ATOM     37  N   PHE     5       7.977   6.910  21.870  1.00 18.06      1TIF 173
+ATOM     38  CA  PHE     5       8.710   5.653  21.923  1.00 15.46      1TIF 174
+ATOM     39  C   PHE     5       8.871   5.171  20.488  1.00 13.85      1TIF 175
+ATOM     40  O   PHE     5       8.038   5.490  19.633  1.00 12.97      1TIF 176
+ATOM     41  CB  PHE     5       7.896   4.579  22.658  1.00 14.88      1TIF 177
+ATOM     42  CG  PHE     5       7.699   4.839  24.121  1.00 16.80      1TIF 178
+ATOM     43  CD1 PHE     5       8.776   4.837  24.998  1.00 16.48      1TIF 179
+ATOM     44  CD2 PHE     5       6.425   5.051  24.628  1.00 17.03      1TIF 180
+ATOM     45  CE1 PHE     5       8.586   5.044  26.365  1.00 17.30      1TIF 181
+ATOM     46  CE2 PHE     5       6.223   5.260  25.994  1.00 17.29      1TIF 182
+ATOM     47  CZ  PHE     5       7.304   5.255  26.862  1.00 16.97      1TIF 183
+ATOM     48  H   PHE     5       7.089   6.900  21.410  1.00 18.06      1TIF 184 std
+ATOM     49  HA  PHE     5       9.668   5.811  22.440  1.00 15.46      1TIF H   new
+ATOM     50 1HB  PHE     5       6.910   4.493  22.178  1.00 14.88      1TIF H   new
+ATOM     51 2HB  PHE     5       8.399   3.609  22.536  1.00 14.88      1TIF H   new
+ATOM     52  HD1 PHE     5       9.792   4.670  24.610  1.00 16.48      1TIF H   new
+ATOM     53  HD2 PHE     5       5.563   5.055  23.945  1.00 17.03      1TIF H   new
+ATOM     54  HE1 PHE     5       9.448   5.040  27.048  1.00 17.30      1TIF H   new
+ATOM     55  HE2 PHE     5       5.207   5.428  26.381  1.00 17.29      1TIF H   new
+ATOM     56  HZ  PHE     5       7.149   5.417  27.939  1.00 16.97      1TIF H   new
+ATOM     57  N   ILE     6       9.939   4.434  20.200  1.00 10.75      1TIF 185
+ATOM     58  CA  ILE     6      10.079   3.892  18.857  1.00  9.65      1TIF 186
+ATOM     59  C   ILE     6       9.349   2.558  18.897  1.00  8.87      1TIF 187
+ATOM     60  O   ILE     6       9.332   1.881  19.929  1.00  7.82      1TIF 188
+ATOM     61  CB  ILE     6      11.538   3.739  18.397  1.00 11.31      1TIF 189
+ATOM     62  CG1 ILE     6      12.337   2.862  19.357  1.00 10.95      1TIF 190
+ATOM     63  CG2 ILE     6      12.173   5.117  18.227  1.00 11.04      1TIF 191
+ATOM     64  CD1 ILE     6      13.721   2.512  18.817  1.00 12.18      1TIF 192
+ATOM     65  H   ILE     6      10.619   4.246  20.909  1.00 10.75      1TIF 193 std
+ATOM     66  HA  ILE     6       9.653   4.582  18.114  1.00  9.65      1TIF H   new
+ATOM     67  HB  ILE     6      11.549   3.229  17.422  1.00 11.31      1TIF H   new
+ATOM     68 1HG1 ILE     6      12.444   3.382  20.320  1.00 10.95      1TIF H   new
+ATOM     69 2HG1 ILE     6      11.778   1.935  19.552  1.00 10.95      1TIF H   new
+ATOM     70 1HG2 ILE     6      13.216   5.002  17.898  1.00 11.04      1TIF H   new
+ATOM     71 2HG2 ILE     6      11.612   5.689  17.473  1.00 11.04      1TIF H   new
+ATOM     72 3HG2 ILE     6      12.149   5.653  19.187  1.00 11.04      1TIF H   new
+ATOM     73 1HD1 ILE     6      14.251   1.881  19.546  1.00 12.18      1TIF H   new
+ATOM     74 2HD1 ILE     6      13.617   1.966  17.868  1.00 12.18      1TIF H   new
+ATOM     75 3HD1 ILE     6      14.293   3.436  18.648  1.00 12.18      1TIF H   new
+ATOM     76  N   ILE     7       8.716   2.193  17.795  1.00  7.30      1TIF 194
+ATOM     77  CA  ILE     7       7.926   0.973  17.766  1.00  6.36      1TIF 195
+ATOM     78  C   ILE     7       8.164   0.101  16.552  1.00  6.56      1TIF 196
+ATOM     79  O   ILE     7       8.743   0.531  15.553  1.00  5.65      1TIF 197
+ATOM     80  CB  ILE     7       6.402   1.312  17.779  1.00  7.35      1TIF 198
+ATOM     81  CG1 ILE     7       5.994   1.983  16.450  1.00  7.34      1TIF 199
+ATOM     82  CG2 ILE     7       6.071   2.229  18.950  1.00  6.62      1TIF 200
+ATOM     83  CD1 ILE     7       4.495   2.227  16.290  1.00  6.89      1TIF 201
+ATOM     84  H   ILE     7       8.775   2.769  16.980  1.00  7.30      1TIF 202 std
+ATOM     85  HA  ILE     7       8.244   0.418  18.661  1.00  6.36      1TIF H   new
+ATOM     86  HB  ILE     7       5.837   0.375  17.894  1.00  7.35      1TIF H   new
+ATOM     87 1HG1 ILE     7       6.519   2.946  16.365  1.00  7.34      1TIF H   new
+ATOM     88 2HG1 ILE     7       6.340   1.354  15.617  1.00  7.34      1TIF H   new
+ATOM     89 1HG2 ILE     7       4.995   2.458  18.945  1.00  6.62      1TIF H   new
+ATOM     90 2HG2 ILE     7       6.334   1.729  19.894  1.00  6.62      1TIF H   new
+ATOM     91 3HG2 ILE     7       6.644   3.163  18.858  1.00  6.62      1TIF H   new
+ATOM     92 1HD1 ILE     7       4.303   2.706  15.318  1.00  6.89      1TIF H   new
+ATOM     93 2HD1 ILE     7       3.960   1.267  16.338  1.00  6.89      1TIF H   new
+ATOM     94 3HD1 ILE     7       4.142   2.884  17.098  1.00  6.89      1TIF H   new
+ATOM     95  N   ASN     8       7.677  -1.129  16.653  1.00  6.34      1TIF 203
+ATOM     96  CA  ASN     8       7.740  -2.101  15.577  1.00  6.82      1TIF 204
+ATOM     97  C   ASN     8       9.081  -2.201  14.835  1.00  8.40      1TIF 205
+ATOM     98  O   ASN     8      10.107  -2.456  15.463  1.00  7.68      1TIF 206
+ATOM     99  CB  ASN     8       6.552  -1.855  14.637  1.00  6.94      1TIF 207
+ATOM    100  CG  ASN     8       5.215  -1.953  15.370  1.00  6.71      1TIF 208
+ATOM    101  OD1 ASN     8       5.071  -2.752  16.293  1.00  6.07      1TIF 209
+ATOM    102  ND2 ASN     8       4.259  -1.113  15.000  1.00  6.41      1TIF 210
+ATOM    103  H   ASN     8       7.260  -1.401  17.520  1.00  6.34      1TIF 211 std
+ATOM    104 1HD2 ASN     8       3.373  -1.227  15.449  1.00  6.41      1TIF 212 std
+ATOM    105 2HD2 ASN     8       4.440  -0.438  14.285  1.00  6.41      1TIF 213 std
+ATOM    106  HA  ASN     8       7.668  -3.097  16.038  1.00  6.82      1TIF H   new
+ATOM    107 1HB  ASN     8       6.647  -0.859  14.180  1.00  6.94      1TIF H   new
+ATOM    108 2HB  ASN     8       6.575  -2.589  13.818  1.00  6.94      1TIF H   new
+ATOM    109  N   GLU     9       9.092  -1.981  13.524  1.00  9.30      1TIF 214
+ATOM    110  CA  GLU     9      10.331  -2.095  12.753  1.00 11.33      1TIF 215
+ATOM    111  C   GLU     9      11.405  -1.035  13.030  1.00 11.22      1TIF 216
+ATOM    112  O   GLU     9      12.519  -1.147  12.522  1.00 10.80      1TIF 217
+ATOM    113  CB  GLU     9      10.026  -2.145  11.249  1.00 14.73      1TIF 218
+ATOM    114  CG  GLU     9       9.299  -3.410  10.784  1.00 20.58      1TIF 219
+ATOM    115  CD  GLU     9      10.235  -4.592  10.552  1.00 23.88      1TIF 220
+ATOM    116  OE1 GLU     9      10.837  -5.085  11.530  1.00 25.05      1TIF 221
+ATOM    117  OE2 GLU     9      10.359  -5.028   9.386  1.00 25.25      1TIF 222
+ATOM    118  H   GLU     9       8.278  -1.695  13.018  1.00  9.30      1TIF 223 std
+ATOM    119  HA  GLU     9      10.774  -3.039  13.102  1.00 11.33      1TIF H   new
+ATOM    120 1HB  GLU     9       9.415  -1.269  10.984  1.00 14.73      1TIF H   new
+ATOM    121 2HB  GLU     9      10.972  -2.058  10.694  1.00 14.73      1TIF H   new
+ATOM    122 1HG  GLU     9       8.546  -3.689  11.536  1.00 20.58      1TIF H   new
+ATOM    123 2HG  GLU     9       8.757  -3.192   9.852  1.00 20.58      1TIF H   new
+ATOM    124  N   GLN    10      11.069   0.010  13.782  1.00 10.33      1TIF 224
+ATOM    125  CA  GLN    10      12.045   1.052  14.104  1.00  9.64      1TIF 225
+ATOM    126  C   GLN    10      13.049   0.532  15.132  1.00  9.84      1TIF 226
+ATOM    127  O   GLN    10      14.136   1.096  15.297  1.00  9.60      1TIF 227
+ATOM    128  CB  GLN    10      11.354   2.286  14.689  1.00  9.70      1TIF 228
+ATOM    129  CG  GLN    10      10.347   2.973  13.779  1.00 10.42      1TIF 229
+ATOM    130  CD  GLN    10       9.697   4.166  14.453  1.00 11.52      1TIF 230
+ATOM    131  OE1 GLN    10       9.295   4.099  15.613  1.00 10.18      1TIF 231
+ATOM    132  NE2 GLN    10       9.605   5.270  13.735  1.00 12.60      1TIF 232
+ATOM    133  H   GLN    10      10.144   0.085  14.156  1.00 10.33      1TIF 233 std
+ATOM    134 1HE2 GLN    10       9.170   6.053  14.180  1.00 12.60      1TIF 234 std
+ATOM    135 2HE2 GLN    10       9.969   5.256  12.804  1.00 12.60      1TIF 235 std
+ATOM    136  HA  GLN    10      12.560   1.327  13.172  1.00  9.64      1TIF H   new
+ATOM    137 1HB  GLN    10      10.841   1.991  15.616  1.00  9.70      1TIF H   new
+ATOM    138 2HB  GLN    10      12.126   3.018  14.968  1.00  9.70      1TIF H   new
+ATOM    139 1HG  GLN    10      10.850   3.302  12.858  1.00 10.42      1TIF H   new
+ATOM    140 2HG  GLN    10       9.571   2.252  13.482  1.00 10.42      1TIF H   new
+ATOM    141  N   ILE    11      12.652  -0.511  15.858  1.00  8.88      1TIF 236
+ATOM    142  CA  ILE    11      13.488  -1.113  16.890  1.00  8.68      1TIF 237
+ATOM    143  C   ILE    11      14.675  -1.823  16.249  1.00  9.84      1TIF 238
+ATOM    144  O   ILE    11      14.509  -2.586  15.302  1.00  9.28      1TIF 239
+ATOM    145  CB  ILE    11      12.673  -2.112  17.747  1.00  8.95      1TIF 240
+ATOM    146  CG1 ILE    11      11.541  -1.375  18.471  1.00  9.35      1TIF 241
+ATOM    147  CG2 ILE    11      13.577  -2.814  18.756  1.00  8.91      1TIF 242
+ATOM    148  CD1 ILE    11      10.557  -2.297  19.174  1.00  9.61      1TIF 243
+ATOM    149  H   ILE    11      11.770  -0.943  15.671  1.00  8.88      1TIF 244 std
+ATOM    150  HA  ILE    11      13.856  -0.313  17.549  1.00  8.68      1TIF H   new
+ATOM    151  HB  ILE    11      12.238  -2.874  17.083  1.00  8.95      1TIF H   new
+ATOM    152 1HG1 ILE    11      11.978  -0.688  19.211  1.00  9.35      1TIF H   new
+ATOM    153 2HG1 ILE    11      10.994  -0.758  17.743  1.00  9.35      1TIF H   new
+ATOM    154 1HG2 ILE    11      12.981  -3.519  19.355  1.00  8.91      1TIF H   new
+ATOM    155 2HG2 ILE    11      14.366  -3.363  18.222  1.00  8.91      1TIF H   new
+ATOM    156 3HG2 ILE    11      14.036  -2.067  19.420  1.00  8.91      1TIF H   new
+ATOM    157 1HD1 ILE    11       9.779  -1.696  19.667  1.00  9.61      1TIF H   new
+ATOM    158 2HD1 ILE    11      10.090  -2.967  18.437  1.00  9.61      1TIF H   new
+ATOM    159 3HD1 ILE    11      11.089  -2.896  19.927  1.00  9.61      1TIF H   new
+ATOM    160  N   ARG    12      15.869  -1.560  16.770  1.00 10.71      1TIF 245
+ATOM    161  CA  ARG    12      17.084  -2.162  16.235  1.00 12.20      1TIF 246
+ATOM    162  C   ARG    12      17.664  -3.299  17.087  1.00 11.29      1TIF 247
+ATOM    163  O   ARG    12      18.520  -4.052  16.615  1.00 10.76      1TIF 248
+ATOM    164  CB  ARG    12      18.146  -1.082  16.021  1.00 15.18      1TIF 249
+ATOM    165  CG  ARG    12      17.708   0.085  15.135  1.00 19.02      1TIF 250
+ATOM    166  CD  ARG    12      17.790  -0.221  13.637  1.00 24.56      1TIF 251
+ATOM    167  NE  ARG    12      16.797  -1.195  13.191  1.00 30.08      1TIF 252
+ATOM    168  CZ  ARG    12      15.877  -0.964  12.257  1.00 31.90      1TIF 253
+ATOM    169  NH1 ARG    12      15.805   0.217  11.655  1.00 33.73      1TIF 254
+ATOM    170  NH2 ARG    12      15.040  -1.931  11.906  1.00 33.53      1TIF 255
+ATOM    171  H   ARG    12      15.943  -0.912  17.528  1.00 10.71      1TIF 256 std
+ATOM    172  HE  ARG    12      16.791  -2.100  13.616  1.00 30.08      1TIF 257 std
+ATOM    173 1HH1 ARG    12      16.448   0.945  11.890  1.00 33.73      1TIF 258 std
+ATOM    174 2HH1 ARG    12      15.115   0.370  10.947  1.00 33.73      1TIF 259 std
+ATOM    175 1HH2 ARG    12      15.103  -2.829  12.341  1.00 33.53      1TIF 260 std
+ATOM    176 2HH2 ARG    12      14.348  -1.766  11.204  1.00 33.53      1TIF 261 std
+ATOM    177  HA  ARG    12      16.793  -2.624  15.280  1.00 12.20      1TIF H   new
+ATOM    178 1HB  ARG    12      18.448  -0.686  17.002  1.00 15.18      1TIF H   new
+ATOM    179 2HB  ARG    12      19.037  -1.548  15.575  1.00 15.18      1TIF H   new
+ATOM    180 1HG  ARG    12      16.673   0.359  15.389  1.00 19.02      1TIF H   new
+ATOM    181 2HG  ARG    12      18.337   0.960  15.357  1.00 19.02      1TIF H   new
+ATOM    182 1HD  ARG    12      17.657   0.713  13.071  1.00 24.56      1TIF H   new
+ATOM    183 2HD  ARG    12      18.796  -0.599  13.402  1.00 24.56      1TIF H   new
+ATOM    184  N   ALA    13      17.207  -3.424  18.331  1.00 10.47      1TIF 262
+ATOM    185  CA  ALA    13      17.696  -4.468  19.235  1.00 10.40      1TIF 263
+ATOM    186  C   ALA    13      17.508  -5.885  18.692  1.00 10.05      1TIF 264
+ATOM    187  O   ALA    13      16.438  -6.227  18.184  1.00  9.93      1TIF 265
+ATOM    188  CB  ALA    13      17.024  -4.338  20.607  1.00  8.58      1TIF 266
+ATOM    189  H   ALA    13      16.495  -2.796  18.646  1.00 10.47      1TIF 267 std
+ATOM    190  HA  ALA    13      18.781  -4.311  19.329  1.00 10.40      1TIF H   new
+ATOM    191 1HB  ALA    13      17.399  -5.127  21.276  1.00  8.58      1TIF H   new
+ATOM    192 2HB  ALA    13      17.255  -3.352  21.037  1.00  8.58      1TIF H   new
+ATOM    193 3HB  ALA    13      15.935  -4.442  20.494  1.00  8.58      1TIF H   new
+ATOM    194  N   ARG    14      18.549  -6.708  18.817  1.00 10.11      1TIF 268
+ATOM    195  CA  ARG    14      18.506  -8.095  18.352  1.00 10.67      1TIF 269
+ATOM    196  C   ARG    14      17.556  -8.920  19.221  1.00  9.87      1TIF 270
+ATOM    197  O   ARG    14      16.812  -9.771  18.718  1.00  9.60      1TIF 271
+ATOM    198  CB  ARG    14      19.901  -8.717  18.406  1.00 13.19      1TIF 272
+ATOM    199  CG  ARG    14      19.948 -10.167  17.956  1.00 14.83      1TIF 273
+ATOM    200  CD  ARG    14      21.272 -10.805  18.327  1.00 16.32      1TIF 274
+ATOM    201  NE  ARG    14      21.392 -12.167  17.813  1.00 18.40      1TIF 275
+ATOM    202  CZ  ARG    14      22.093 -13.131  18.404  1.00 19.14      1TIF 276
+ATOM    203  NH1 ARG    14      22.735 -12.895  19.542  1.00 18.63      1TIF 277
+ATOM    204  NH2 ARG    14      22.186 -14.323  17.834  1.00 18.96      1TIF 278
+ATOM    205  H   ARG    14      19.388  -6.355  19.231  1.00 10.11      1TIF 279 std
+ATOM    206  HE  ARG    14      20.908 -12.400  16.969  1.00 18.40      1TIF 280 std
+ATOM    207 1HH1 ARG    14      22.703 -11.989  19.965  1.00 18.63      1TIF 281 std
+ATOM    208 2HH1 ARG    14      23.267 -13.625  19.971  1.00 18.63      1TIF 282 std
+ATOM    209 1HH2 ARG    14      21.724 -14.499  16.965  1.00 18.96      1TIF 283 std
+ATOM    210 2HH2 ARG    14      22.718 -15.045  18.277  1.00 18.96      1TIF 284 std
+ATOM    211  HA  ARG    14      18.144  -8.096  17.313  1.00 10.67      1TIF H   new
+ATOM    212 1HB  ARG    14      20.580  -8.125  17.774  1.00 13.19      1TIF H   new
+ATOM    213 2HB  ARG    14      20.281  -8.651  19.436  1.00 13.19      1TIF H   new
+ATOM    214 1HG  ARG    14      19.123 -10.727  18.421  1.00 14.83      1TIF H   new
+ATOM    215 2HG  ARG    14      19.801 -10.223  16.867  1.00 14.83      1TIF H   new
+ATOM    216 1HD  ARG    14      22.096 -10.192  17.932  1.00 16.32      1TIF H   new
+ATOM    217 2HD  ARG    14      21.377 -10.818  19.422  1.00 16.32      1TIF H   new
+ATOM    218  N   GLU    15      17.641  -8.712  20.529  1.00  9.10      1TIF 285
+ATOM    219  CA  GLU    15      16.792  -9.402  21.487  1.00  9.59      1TIF 286
+ATOM    220  C   GLU    15      16.241  -8.397  22.479  1.00  8.53      1TIF 287
+ATOM    221  O   GLU    15      16.898  -7.399  22.796  1.00  7.89      1TIF 288
+ATOM    222  CB  GLU    15      17.561 -10.494  22.226  1.00 12.89      1TIF 289
+ATOM    223  CG  GLU    15      17.791 -11.736  21.389  1.00 17.65      1TIF 290
+ATOM    224  CD  GLU    15      18.285 -12.901  22.210  1.00 19.34      1TIF 291
+ATOM    225  OE1 GLU    15      19.111 -12.679  23.124  1.00 20.42      1TIF 292
+ATOM    226  OE2 GLU    15      17.834 -14.039  21.939  1.00 22.07      1TIF 293
+ATOM    227  H   GLU    15      18.284  -8.034  20.885  1.00  9.10      1TIF 294 std
+ATOM    228  HA  GLU    15      15.967  -9.883  20.941  1.00  9.59      1TIF H   new
+ATOM    229 1HB  GLU    15      18.533 -10.093  22.550  1.00 12.89      1TIF H   new
+ATOM    230 2HB  GLU    15      17.008 -10.771  23.136  1.00 12.89      1TIF H   new
+ATOM    231 1HG  GLU    15      16.852 -12.016  20.888  1.00 17.65      1TIF H   new
+ATOM    232 2HG  GLU    15      18.523 -11.512  20.599  1.00 17.65      1TIF H   new
+ATOM    233  N   VAL    16      15.030  -8.661  22.957  1.00  7.40      1TIF 295
+ATOM    234  CA  VAL    16      14.358  -7.779  23.905  1.00  6.58      1TIF 296
+ATOM    235  C   VAL    16      13.650  -8.606  24.978  1.00  6.56      1TIF 297
+ATOM    236  O   VAL    16      13.428  -9.805  24.794  1.00  7.67      1TIF 298
+ATOM    237  CB  VAL    16      13.280  -6.904  23.183  1.00  5.91      1TIF 299
+ATOM    238  CG1 VAL    16      13.916  -5.998  22.144  1.00  5.58      1TIF 300
+ATOM    239  CG2 VAL    16      12.224  -7.790  22.513  1.00  5.58      1TIF 301
+ATOM    240  H   VAL    16      14.544  -9.492  22.684  1.00  7.40      1TIF 302 std
+ATOM    241  HA  VAL    16      15.123  -7.130  24.358  1.00  6.58      1TIF H   new
+ATOM    242  HB  VAL    16      12.795  -6.278  23.947  1.00  5.91      1TIF H   new
+ATOM    243 1HG1 VAL    16      13.136  -5.397  21.654  1.00  5.58      1TIF H   new
+ATOM    244 2HG1 VAL    16      14.640  -5.330  22.633  1.00  5.58      1TIF H   new
+ATOM    245 3HG1 VAL    16      14.433  -6.610  21.391  1.00  5.58      1TIF H   new
+ATOM    246 1HG2 VAL    16      11.477  -7.156  22.012  1.00  5.58      1TIF H   new
+ATOM    247 2HG2 VAL    16      12.709  -8.441  21.771  1.00  5.58      1TIF H   new
+ATOM    248 3HG2 VAL    16      11.727  -8.409  23.275  1.00  5.58      1TIF H   new
+ATOM    249  N   ARG    17      13.358  -7.989  26.117  1.00  6.26      1TIF 303
+ATOM    250  CA  ARG    17      12.609  -8.662  27.170  1.00  6.68      1TIF 304
+ATOM    251  C   ARG    17      11.182  -8.209  26.865  1.00  6.70      1TIF 305
+ATOM    252  O   ARG    17      10.912  -7.007  26.789  1.00  8.67      1TIF 306
+ATOM    253  CB  ARG    17      13.041  -8.206  28.567  1.00  7.79      1TIF 307
+ATOM    254  CG  ARG    17      12.223  -8.861  29.681  1.00 10.12      1TIF 308
+ATOM    255  CD  ARG    17      12.936  -8.850  31.019  1.00 11.33      1TIF 309
+ATOM    256  NE  ARG    17      13.197  -7.499  31.507  1.00 13.10      1TIF 310
+ATOM    257  CZ  ARG    17      12.431  -6.852  32.379  1.00 13.44      1TIF 311
+ATOM    258  NH1 ARG    17      11.338  -7.423  32.869  1.00 14.30      1TIF 312
+ATOM    259  NH2 ARG    17      12.785  -5.646  32.801  1.00 12.59      1TIF 313
+ATOM    260  H   ARG    17      13.611  -7.029  26.237  1.00  6.26      1TIF 314 std
+ATOM    261  HE  ARG    17      14.008  -7.040  31.145  1.00 13.10      1TIF 315 std
+ATOM    262 1HH1 ARG    17      11.070  -8.349  32.603  1.00 14.30      1TIF 316 std
+ATOM    263 2HH1 ARG    17      10.777  -6.912  33.520  1.00 14.30      1TIF 317 std
+ATOM    264 1HH2 ARG    17      13.630  -5.214  32.486  1.00 12.59      1TIF 318 std
+ATOM    265 2HH2 ARG    17      12.208  -5.156  33.454  1.00 12.59      1TIF 319 std
+ATOM    266  HA  ARG    17      12.751  -9.753  27.181  1.00  6.68      1TIF H   new
+ATOM    267 1HB  ARG    17      14.106  -8.442  28.712  1.00  7.79      1TIF H   new
+ATOM    268 2HB  ARG    17      12.941  -7.113  28.639  1.00  7.79      1TIF H   new
+ATOM    269 1HG  ARG    17      11.261  -8.337  29.779  1.00 10.12      1TIF H   new
+ATOM    270 2HG  ARG    17      11.996  -9.900  29.400  1.00 10.12      1TIF H   new
+ATOM    271 1HD  ARG    17      12.328  -9.391  31.758  1.00 11.33      1TIF H   new
+ATOM    272 2HD  ARG    17      13.888  -9.393  30.927  1.00 11.33      1TIF H   new
+ATOM    273  N   LEU    18      10.281  -9.167  26.690  1.00  5.80      1TIF 320
+ATOM    274  CA  LEU    18       8.906  -8.873  26.314  1.00  6.39      1TIF 321
+ATOM    275  C   LEU    18       7.855  -8.964  27.414  1.00  6.74      1TIF 322
+ATOM    276  O   LEU    18       7.810  -9.940  28.158  1.00  6.51      1TIF 323
+ATOM    277  CB  LEU    18       8.518  -9.804  25.166  1.00  6.48      1TIF 324
+ATOM    278  CG  LEU    18       7.208  -9.572  24.420  1.00  6.50      1TIF 325
+ATOM    279  CD1 LEU    18       7.216  -8.179  23.814  1.00  6.27      1TIF 326
+ATOM    280  CD2 LEU    18       7.045 -10.641  23.339  1.00  6.11      1TIF 327
+ATOM    281  H   LEU    18      10.549 -10.119  26.838  1.00  5.80      1TIF 328 std
+ATOM    282  HA  LEU    18       8.905  -7.809  26.034  1.00  6.39      1TIF H   new
+ATOM    283 1HB  LEU    18       9.330  -9.769  24.425  1.00  6.48      1TIF H   new
+ATOM    284 2HB  LEU    18       8.492 -10.828  25.567  1.00  6.48      1TIF H   new
+ATOM    285  HG  LEU    18       6.357  -9.646  25.113  1.00  6.50      1TIF H   new
+ATOM    286 1HD1 LEU    18       6.273  -8.008  23.275  1.00  6.27      1TIF H   new
+ATOM    287 2HD1 LEU    18       7.322  -7.431  24.614  1.00  6.27      1TIF H   new
+ATOM    288 3HD1 LEU    18       8.060  -8.088  23.114  1.00  6.27      1TIF H   new
+ATOM    289 1HD2 LEU    18       6.101 -10.476  22.799  1.00  6.11      1TIF H   new
+ATOM    290 2HD2 LEU    18       7.886 -10.580  22.633  1.00  6.11      1TIF H   new
+ATOM    291 3HD2 LEU    18       7.031 -11.637  23.806  1.00  6.11      1TIF H   new
+ATOM    292  N   ILE    19       7.018  -7.930  27.512  1.00  6.96      1TIF 329
+ATOM    293  CA  ILE    19       5.917  -7.879  28.479  1.00  7.25      1TIF 330
+ATOM    294  C   ILE    19       4.667  -7.679  27.615  1.00  8.10      1TIF 331
+ATOM    295  O   ILE    19       4.633  -6.772  26.769  1.00  6.98      1TIF 332
+ATOM    296  CB  ILE    19       6.039  -6.679  29.455  1.00  7.45      1TIF 333
+ATOM    297  CG1 ILE    19       7.372  -6.715  30.203  1.00  6.93      1TIF 334
+ATOM    298  CG2 ILE    19       4.897  -6.712  30.471  1.00  6.44      1TIF 335
+ATOM    299  CD1 ILE    19       7.595  -5.515  31.110  1.00  8.08      1TIF 336
+ATOM    300  H   ILE    19       7.133  -7.142  26.907  1.00  6.96      1TIF 337 std
+ATOM    301  HA  ILE    19       5.902  -8.787  29.100  1.00  7.25      1TIF H   new
+ATOM    302  HB  ILE    19       5.987  -5.754  28.862  1.00  7.45      1TIF H   new
+ATOM    303 1HG1 ILE    19       7.419  -7.634  30.806  1.00  6.93      1TIF H   new
+ATOM    304 2HG1 ILE    19       8.192  -6.768  29.471  1.00  6.93      1TIF H   new
+ATOM    305 1HG2 ILE    19       4.992  -5.858  31.158  1.00  6.44      1TIF H   new
+ATOM    306 2HG2 ILE    19       3.934  -6.652  29.943  1.00  6.44      1TIF H   new
+ATOM    307 3HG2 ILE    19       4.942  -7.650  31.044  1.00  6.44      1TIF H   new
+ATOM    308 1HD1 ILE    19       8.569  -5.610  31.612  1.00  8.08      1TIF H   new
+ATOM    309 2HD1 ILE    19       7.581  -4.593  30.510  1.00  8.08      1TIF H   new
+ATOM    310 3HD1 ILE    19       6.796  -5.472  31.865  1.00  8.08      1TIF H   new
+ATOM    311  N   ASP    20       3.653  -8.525  27.786  1.00  9.72      1TIF 338
+ATOM    312  CA  ASP    20       2.459  -8.384  26.959  1.00 12.10      1TIF 339
+ATOM    313  C   ASP    20       1.493  -7.314  27.459  1.00 13.32      1TIF 340
+ATOM    314  O   ASP    20       1.710  -6.727  28.516  1.00 11.63      1TIF 341
+ATOM    315  CB  ASP    20       1.775  -9.738  26.702  1.00 13.68      1TIF 342
+ATOM    316  CG  ASP    20       0.829 -10.169  27.812  1.00 13.58      1TIF 343
+ATOM    317  OD1 ASP    20       0.770  -9.541  28.889  1.00 14.79      1TIF 344
+ATOM    318  OD2 ASP    20       0.131 -11.176  27.589  1.00 14.97      1TIF 345
+ATOM    319  H   ASP    20       3.732  -9.233  28.487  1.00  9.72      1TIF 346 std
+ATOM    320  HA  ASP    20       2.807  -8.015  25.983  1.00 12.10      1TIF H   new
+ATOM    321 1HB  ASP    20       1.215  -9.681  25.757  1.00 13.68      1TIF H   new
+ATOM    322 2HB  ASP    20       2.548 -10.510  26.572  1.00 13.68      1TIF H   new
+ATOM    323  N   GLN    21       0.393  -7.125  26.736  1.00 15.68      1TIF 347
+ATOM    324  CA  GLN    21      -0.592  -6.098  27.073  1.00 17.59      1TIF 348
+ATOM    325  C   GLN    21      -1.226  -6.198  28.464  1.00 17.56      1TIF 349
+ATOM    326  O   GLN    21      -1.735  -5.205  28.983  1.00 17.31      1TIF 350
+ATOM    327  CB  GLN    21      -1.676  -5.990  25.978  1.00 17.68      1TIF 351
+ATOM    328  CG  GLN    21      -2.727  -7.105  25.933  1.00 20.00      1TIF 352
+ATOM    329  CD  GLN    21      -2.307  -8.342  25.144  1.00 20.94      1TIF 353
+ATOM    330  OE1 GLN    21      -1.068  -8.376  24.682  1.00 21.25      1TIF 354 flip
+ATOM    331  NE2 GLN    21      -3.109  -9.247  24.937  1.00 21.96      1TIF 355 flip
+ATOM    332  H   GLN    21       0.261  -7.739  25.958  1.00 15.68      1TIF 356 std
+ATOM    333 1HE2 GLN    21      -2.834 -10.046  24.402  1.00 21.96      1TIF 357 std
+ATOM    334 2HE2 GLN    21      -4.038  -9.186  25.303  1.00 21.96      1TIF 358 std
+ATOM    335  HA  GLN    21      -0.004  -5.170  27.115  1.00 17.59      1TIF H   new
+ATOM    336 1HB  GLN    21      -2.199  -5.031  26.107  1.00 17.68      1TIF H   new
+ATOM    337 2HB  GLN    21      -1.173  -5.953  25.000  1.00 17.68      1TIF H   new
+ATOM    338 1HG  GLN    21      -2.966  -7.407  26.963  1.00 20.00      1TIF H   new
+ATOM    339 2HG  GLN    21      -3.651  -6.702  25.493  1.00 20.00      1TIF H   new
+ATOM    340  N   ASN    22      -1.155  -7.377  29.080  1.00 16.94      1TIF 359
+ATOM    341  CA  ASN    22      -1.728  -7.583  30.411  1.00 17.64      1TIF 360
+ATOM    342  C   ASN    22      -0.710  -7.646  31.555  1.00 17.12      1TIF 361
+ATOM    343  O   ASN    22      -1.081  -7.848  32.715  1.00 17.27      1TIF 362
+ATOM    344  CB  ASN    22      -2.601  -8.837  30.409  1.00 18.95      1TIF 363
+ATOM    345  CG  ASN    22      -3.789  -8.705  29.487  1.00 21.80      1TIF 364
+ATOM    346  OD1 ASN    22      -4.403  -7.645  29.409  1.00 22.14      1TIF 365
+ATOM    347  ND2 ASN    22      -4.100  -9.766  28.758  1.00 22.37      1TIF 366
+ATOM    348  H   ASN    22      -0.723  -8.142  28.602  1.00 16.94      1TIF 367 std
+ATOM    349 1HD2 ASN    22      -4.902  -9.702  28.164  1.00 22.37      1TIF 368 std
+ATOM    350 2HD2 ASN    22      -3.534 -10.586  28.844  1.00 22.37      1TIF 369 std
+ATOM    351  HA  ASN    22      -2.331  -6.686  30.615  1.00 17.64      1TIF H   new
+ATOM    352 1HB  ASN    22      -1.995  -9.702  30.102  1.00 18.95      1TIF H   new
+ATOM    353 2HB  ASN    22      -2.953  -9.038  31.432  1.00 18.95      1TIF H   new
+ATOM    354  N   GLY    23       0.569  -7.471  31.235  1.00 15.70      1TIF 370
+ATOM    355  CA  GLY    23       1.591  -7.505  32.266  1.00 12.72      1TIF 371
+ATOM    356  C   GLY    23       2.310  -8.833  32.413  1.00 11.40      1TIF 372
+ATOM    357  O   GLY    23       3.135  -8.999  33.311  1.00 11.12      1TIF 373
+ATOM    358  H   GLY    23       0.861  -7.270  30.300  1.00 15.70      1TIF 374 std
+ATOM    359 1HA  GLY    23       2.335  -6.725  32.049  1.00 12.72      1TIF H   new
+ATOM    360 2HA  GLY    23       1.127  -7.248  33.230  1.00 12.72      1TIF H   new
+ATOM    361  N   ASP    24       1.999  -9.782  31.538  1.00  9.54      1TIF 375
+ATOM    362  CA  ASP    24       2.632 -11.098  31.566  1.00  9.48      1TIF 376
+ATOM    363  C   ASP    24       4.062 -10.954  31.044  1.00  9.36      1TIF 377
+ATOM    364  O   ASP    24       4.280 -10.383  29.972  1.00  9.59      1TIF 378
+ATOM    365  CB  ASP    24       1.839 -12.083  30.693  1.00 10.31      1TIF 379
+ATOM    366  CG  ASP    24       2.272 -13.531  30.880  1.00 11.38      1TIF 380
+ATOM    367  OD1 ASP    24       2.952 -13.845  31.876  1.00 10.36      1TIF 381
+ATOM    368  OD2 ASP    24       1.909 -14.366  30.027  1.00 12.15      1TIF 382
+ATOM    369  H   ASP    24       1.304  -9.582  30.847  1.00  9.54      1TIF 383 std
+ATOM    370  HA  ASP    24       2.648 -11.490  32.594  1.00  9.48      1TIF H   new
+ATOM    371 1HB  ASP    24       0.769 -11.993  30.930  1.00 10.31      1TIF H   new
+ATOM    372 2HB  ASP    24       1.959 -11.805  29.636  1.00 10.31      1TIF H   new
+ATOM    373  N   GLN    25       5.029 -11.423  31.831  1.00  8.68      1TIF 384
+ATOM    374  CA  GLN    25       6.443 -11.356  31.465  1.00  9.35      1TIF 385
+ATOM    375  C   GLN    25       6.760 -12.542  30.557  1.00 10.25      1TIF 386
+ATOM    376  O   GLN    25       6.913 -13.672  31.029  1.00 10.63      1TIF 387
+ATOM    377  CB  GLN    25       7.309 -11.408  32.727  1.00 10.83      1TIF 388
+ATOM    378  CG  GLN    25       7.095 -10.245  33.694  1.00  9.56      1TIF 389
+ATOM    379  CD  GLN    25       7.887  -8.996  33.318  1.00 11.13      1TIF 390
+ATOM    380  OE1 GLN    25       8.840  -9.059  32.546  1.00 11.15      1TIF 391
+ATOM    381  NE2 GLN    25       7.501  -7.862  33.879  1.00 11.75      1TIF 392
+ATOM    382  H   GLN    25       4.789 -11.861  32.697  1.00  8.68      1TIF 393 std
+ATOM    383 1HE2 GLN    25       7.991  -7.022  33.648  1.00 11.75      1TIF 394 std
+ATOM    384 2HE2 GLN    25       6.716  -7.898  34.498  1.00 11.75      1TIF 395 std
+ATOM    385  HA  GLN    25       6.656 -10.414  30.938  1.00  9.35      1TIF H   new
+ATOM    386 1HB  GLN    25       7.105 -12.350  33.257  1.00 10.83      1TIF H   new
+ATOM    387 2HB  GLN    25       8.368 -11.429  32.429  1.00 10.83      1TIF H   new
+ATOM    388 1HG  GLN    25       6.024  -9.996  33.726  1.00  9.56      1TIF H   new
+ATOM    389 2HG  GLN    25       7.382 -10.562  34.707  1.00  9.56      1TIF H   new
+ATOM    390  N   LEU    26       6.844 -12.283  29.257  1.00 11.29      1TIF 396
+ATOM    391  CA  LEU    26       7.113 -13.322  28.267  1.00 12.21      1TIF 397
+ATOM    392  C   LEU    26       8.575 -13.766  28.152  1.00 12.72      1TIF 398
+ATOM    393  O   LEU    26       8.874 -14.757  27.480  1.00 13.15      1TIF 399
+ATOM    394  CB  LEU    26       6.560 -12.896  26.903  1.00 14.89      1TIF 400
+ATOM    395  CG  LEU    26       5.141 -13.354  26.525  1.00 16.13      1TIF 401
+ATOM    396  CD1 LEU    26       4.227 -13.428  27.726  1.00 18.50      1TIF 402
+ATOM    397  CD2 LEU    26       4.556 -12.441  25.465  1.00 17.06      1TIF 403
+ATOM    398  H   LEU    26       6.744 -11.334  28.957  1.00 11.29      1TIF 404 std
+ATOM    399  HA  LEU    26       6.590 -14.217  28.634  1.00 12.21      1TIF H   new
+ATOM    400 1HB  LEU    26       6.583 -11.797  26.858  1.00 14.89      1TIF H   new
+ATOM    401 2HB  LEU    26       7.250 -13.264  26.130  1.00 14.89      1TIF H   new
+ATOM    402  HG  LEU    26       5.223 -14.372  26.116  1.00 16.13      1TIF H   new
+ATOM    403 1HD1 LEU    26       3.228 -13.759  27.407  1.00 18.50      1TIF H   new
+ATOM    404 2HD1 LEU    26       4.635 -14.145  28.454  1.00 18.50      1TIF H   new
+ATOM    405 3HD1 LEU    26       4.152 -12.435  28.192  1.00 18.50      1TIF H   new
+ATOM    406 1HD2 LEU    26       3.543 -12.781  25.206  1.00 17.06      1TIF H   new
+ATOM    407 2HD2 LEU    26       4.509 -11.412  25.852  1.00 17.06      1TIF H   new
+ATOM    408 3HD2 LEU    26       5.191 -12.466  24.567  1.00 17.06      1TIF H   new
+ATOM    409  N   GLY    27       9.475 -13.056  28.824  1.00 11.93      1TIF 405
+ATOM    410  CA  GLY    27      10.879 -13.419  28.782  1.00 11.71      1TIF 406
+ATOM    411  C   GLY    27      11.646 -12.786  27.640  1.00 10.86      1TIF 407
+ATOM    412  O   GLY    27      11.147 -11.889  26.956  1.00 10.75      1TIF 408
+ATOM    413  H   GLY    27       9.218 -12.253  29.361  1.00 11.93      1TIF 409 std
+ATOM    414 1HA  GLY    27      11.351 -13.128  29.732  1.00 11.71      1TIF H   new
+ATOM    415 2HA  GLY    27      10.962 -14.513  28.703  1.00 11.71      1TIF H   new
+ATOM    416  N   ILE    28      12.876 -13.249  27.446  1.00 10.58      1TIF 410
+ATOM    417  CA  ILE    28      13.738 -12.724  26.398  1.00 10.71      1TIF 411
+ATOM    418  C   ILE    28      13.373 -13.364  25.071  1.00 10.57      1TIF 412
+ATOM    419  O   ILE    28      13.340 -14.589  24.950  1.00 11.09      1TIF 413
+ATOM    420  CB  ILE    28      15.241 -12.970  26.718  1.00 12.27      1TIF 414
+ATOM    421  CG1 ILE    28      15.623 -12.291  28.039  1.00 12.42      1TIF 415
+ATOM    422  CG2 ILE    28      16.124 -12.423  25.601  1.00 11.34      1TIF 416
+ATOM    423  CD1 ILE    28      15.207 -13.052  29.279  1.00 13.46      1TIF 417
+ATOM    424  H   ILE    28      13.207 -13.990  28.031  1.00 10.58      1TIF 418 std
+ATOM    425  HA  ILE    28      13.584 -11.636  26.338  1.00 10.71      1TIF H   new
+ATOM    426  HB  ILE    28      15.397 -14.055  26.805  1.00 12.27      1TIF H   new
+ATOM    427 1HG1 ILE    28      16.713 -12.148  28.061  1.00 12.42      1TIF H   new
+ATOM    428 2HG1 ILE    28      15.166 -11.291  28.068  1.00 12.42      1TIF H   new
+ATOM    429 1HG2 ILE    28      17.181 -12.606  25.845  1.00 11.34      1TIF H   new
+ATOM    430 2HG2 ILE    28      15.874 -12.927  24.655  1.00 11.34      1TIF H   new
+ATOM    431 3HG2 ILE    28      15.955 -11.341  25.496  1.00 11.34      1TIF H   new
+ATOM    432 1HD1 ILE    28      15.520 -12.495  30.174  1.00 13.46      1TIF H   new
+ATOM    433 2HD1 ILE    28      14.114 -13.173  29.286  1.00 13.46      1TIF H   new
+ATOM    434 3HD1 ILE    28      15.685 -14.043  29.279  1.00 13.46      1TIF H   new
+ATOM    435  N   LYS    29      13.082 -12.526  24.084  1.00 10.46      1TIF 419
+ATOM    436  CA  LYS    29      12.699 -12.984  22.758  1.00 11.09      1TIF 420
+ATOM    437  C   LYS    29      13.506 -12.261  21.691  1.00  9.35      1TIF 421
+ATOM    438  O   LYS    29      13.979 -11.144  21.906  1.00  8.95      1TIF 422
+ATOM    439  CB  LYS    29      11.219 -12.674  22.500  1.00 12.29      1TIF 423
+ATOM    440  CG  LYS    29      10.232 -13.266  23.495  1.00 14.90      1TIF 424
+ATOM    441  CD  LYS    29      10.096 -14.750  23.288  1.00 16.65      1TIF 425
+ATOM    442  CE  LYS    29       8.961 -15.319  24.109  1.00 18.42      1TIF 426
+ATOM    443  NZ  LYS    29       8.764 -16.757  23.787  1.00 21.12      1TIF 427
+ATOM    444  H   LYS    29      13.129 -11.538  24.229  1.00 10.46      1TIF 428 std
+ATOM    445 1HZ  LYS    29       7.868 -17.039  24.130  1.00 21.12      1TIF 429 std
+ATOM    446 2HZ  LYS    29       8.807 -16.905  22.799  1.00 21.12      1TIF 430 std
+ATOM    447 3HZ  LYS    29       9.480 -17.290  24.238  1.00 21.12      1TIF 431 std
+ATOM    448  HA  LYS    29      12.885 -14.067  22.712  1.00 11.09      1TIF H   new
+ATOM    449 1HB  LYS    29      11.090 -11.582  22.491  1.00 12.29      1TIF H   new
+ATOM    450 2HB  LYS    29      10.958 -13.037  21.495  1.00 12.29      1TIF H   new
+ATOM    451 1HG  LYS    29      10.571 -13.063  24.522  1.00 14.90      1TIF H   new
+ATOM    452 2HG  LYS    29       9.251 -12.782  23.379  1.00 14.90      1TIF H   new
+ATOM    453 1HD  LYS    29       9.921 -14.959  22.222  1.00 16.65      1TIF H   new
+ATOM    454 2HD  LYS    29      11.037 -15.249  23.564  1.00 16.65      1TIF H   new
+ATOM    455 1HE  LYS    29       9.179 -15.202  25.181  1.00 18.42      1TIF H   new
+ATOM    456 2HE  LYS    29       8.036 -14.760  23.906  1.00 18.42      1TIF H   new
+ATOM    457  N   SER    30      13.662 -12.901  20.538  1.00  8.52      1TIF 432
+ATOM    458  CA  SER    30      14.349 -12.263  19.429  1.00  8.28      1TIF 433
+ATOM    459  C   SER    30      13.367 -11.179  18.983  1.00  8.23      1TIF 434
+ATOM    460  O   SER    30      12.158 -11.306  19.214  1.00  7.88      1TIF 435
+ATOM    461  CB  SER    30      14.579 -13.256  18.285  1.00  8.27      1TIF 436
+ATOM    462  OG  SER    30      13.357 -13.795  17.790  1.00  6.54      1TIF 437
+ATOM    463  H   SER    30      13.320 -13.837  20.454  1.00  8.52      1TIF 438 std
+ATOM    464  HG  SER    30      13.294 -14.728  18.145  1.00  6.54      1TIF 439 std
+ATOM    465  HA  SER    30      15.339 -11.875  19.711  1.00  8.28      1TIF H   new
+ATOM    466 1HB  SER    30      15.224 -14.075  18.636  1.00  8.27      1TIF H   new
+ATOM    467 2HB  SER    30      15.115 -12.753  17.466  1.00  8.27      1TIF H   new
+ATOM    468  N   LYS    31      13.871 -10.111  18.377  1.00  8.39      1TIF 440
+ATOM    469  CA  LYS    31      13.006  -9.041  17.897  1.00  9.33      1TIF 441
+ATOM    470  C   LYS    31      11.968  -9.609  16.926  1.00  8.85      1TIF 442
+ATOM    471  O   LYS    31      10.804  -9.212  16.950  1.00  7.99      1TIF 443
+ATOM    472  CB  LYS    31      13.827  -7.956  17.197  1.00 10.57      1TIF 444
+ATOM    473  CG  LYS    31      12.985  -6.782  16.728  1.00 13.93      1TIF 445
+ATOM    474  CD  LYS    31      13.803  -5.748  15.973  1.00 17.94      1TIF 446
+ATOM    475  CE  LYS    31      14.315  -6.276  14.651  1.00 19.35      1TIF 447
+ATOM    476  NZ  LYS    31      14.935  -5.183  13.846  1.00 21.96      1TIF 448
+ATOM    477  H   LYS    31      14.862 -10.013  18.289  1.00  8.39      1TIF 449 std
+ATOM    478 1HZ  LYS    31      14.501  -5.140  12.946  1.00 21.96      1TIF 450 std
+ATOM    479 2HZ  LYS    31      14.805  -4.310  14.315  1.00 21.96      1TIF 451 std
+ATOM    480 3HZ  LYS    31      15.912  -5.368  13.739  1.00 21.96      1TIF 452 std
+ATOM    481  HA  LYS    31      12.494  -8.592  18.761  1.00  9.33      1TIF H   new
+ATOM    482 1HB  LYS    31      14.604  -7.591  17.885  1.00 10.57      1TIF H   new
+ATOM    483 2HB  LYS    31      14.345  -8.397  16.332  1.00 10.57      1TIF H   new
+ATOM    484 1HG  LYS    31      12.176  -7.150  16.080  1.00 13.93      1TIF H   new
+ATOM    485 2HG  LYS    31      12.509  -6.305  17.597  1.00 13.93      1TIF H   new
+ATOM    486 1HD  LYS    31      13.186  -4.855  15.795  1.00 17.94      1TIF H   new
+ATOM    487 2HD  LYS    31      14.654  -5.432  16.594  1.00 17.94      1TIF H   new
+ATOM    488 1HE  LYS    31      15.055  -7.070  14.830  1.00 19.35      1TIF H   new
+ATOM    489 2HE  LYS    31      13.487  -6.729  14.086  1.00 19.35      1TIF H   new
+ATOM    490  N   GLN    32      12.399 -10.543  16.081  1.00  8.07      1TIF 453
+ATOM    491  CA  GLN    32      11.523 -11.188  15.103  1.00  8.90      1TIF 454
+ATOM    492  C   GLN    32      10.314 -11.871  15.763  1.00  8.16      1TIF 455
+ATOM    493  O   GLN    32       9.174 -11.677  15.334  1.00  7.08      1TIF 456
+ATOM    494  CB  GLN    32      12.320 -12.212  14.281  1.00 10.88      1TIF 457
+ATOM    495  CG  GLN    32      11.483 -13.033  13.301  1.00 12.55      1TIF 458
+ATOM    496  CD  GLN    32      10.841 -12.194  12.209  1.00 13.03      1TIF 459
+ATOM    497  OE1 GLN    32      11.290 -11.083  11.908  1.00 15.52      1TIF 460
+ATOM    498  NE2 GLN    32       9.780 -12.720  11.612  1.00 14.99      1TIF 461
+ATOM    499  H   GLN    32      13.365 -10.801  16.113  1.00  8.07      1TIF 462 std
+ATOM    500 1HE2 GLN    32       9.361 -12.199  10.869  1.00 14.99      1TIF 463 std
+ATOM    501 2HE2 GLN    32       9.448 -13.611  11.921  1.00 14.99      1TIF 464 std
+ATOM    502  HA  GLN    32      11.133 -10.400  14.441  1.00  8.90      1TIF H   new
+ATOM    503 1HB  GLN    32      13.103 -11.681  13.719  1.00 10.88      1TIF H   new
+ATOM    504 2HB  GLN    32      12.830 -12.899  14.972  1.00 10.88      1TIF H   new
+ATOM    505 1HG  GLN    32      12.121 -13.799  12.837  1.00 12.55      1TIF H   new
+ATOM    506 2HG  GLN    32      10.696 -13.563  13.857  1.00 12.55      1TIF H   new
+ATOM    507  N   GLU    33      10.566 -12.673  16.796  1.00  7.32      1TIF 465
+ATOM    508  CA  GLU    33       9.481 -13.366  17.488  1.00  7.40      1TIF 466
+ATOM    509  C   GLU    33       8.578 -12.372  18.218  1.00  7.28      1TIF 467
+ATOM    510  O   GLU    33       7.357 -12.542  18.251  1.00  5.58      1TIF 468
+ATOM    511  CB  GLU    33      10.015 -14.410  18.474  1.00  8.23      1TIF 469
+ATOM    512  CG  GLU    33       8.897 -15.236  19.111  1.00 10.30      1TIF 470
+ATOM    513  CD  GLU    33       9.374 -16.284  20.101  1.00 11.21      1TIF 471
+ATOM    514  OE1 GLU    33      10.585 -16.580  20.148  1.00 10.57      1TIF 472
+ATOM    515  OE2 GLU    33       8.520 -16.825  20.834  1.00 10.63      1TIF 473
+ATOM    516  H   GLU    33      11.509 -12.792  17.106  1.00  7.32      1TIF 474 std
+ATOM    517  HA  GLU    33       8.890 -13.890  16.722  1.00  7.40      1TIF H   new
+ATOM    518 1HB  GLU    33      10.711 -15.082  17.951  1.00  8.23      1TIF H   new
+ATOM    519 2HB  GLU    33      10.589 -13.904  19.264  1.00  8.23      1TIF H   new
+ATOM    520 1HG  GLU    33       8.202 -14.555  19.624  1.00 10.30      1TIF H   new
+ATOM    521 2HG  GLU    33       8.328 -15.736  18.313  1.00 10.30      1TIF H   new
+ATOM    522  N   ALA    34       9.177 -11.328  18.786  1.00  6.39      1TIF 475
+ATOM    523  CA  ALA    34       8.417 -10.303  19.499  1.00  6.12      1TIF 476
+ATOM    524  C   ALA    34       7.460  -9.614  18.528  1.00  6.17      1TIF 477
+ATOM    525  O   ALA    34       6.299  -9.357  18.862  1.00  5.58      1TIF 478
+ATOM    526  CB  ALA    34       9.358  -9.294  20.136  1.00  5.90      1TIF 479
+ATOM    527  H   ALA    34      10.171 -11.238  18.727  1.00  6.39      1TIF 480 std
+ATOM    528  HA  ALA    34       7.832 -10.775  20.302  1.00  6.12      1TIF H   new
+ATOM    529 1HB  ALA    34       8.772  -8.530  20.668  1.00  5.90      1TIF H   new
+ATOM    530 2HB  ALA    34      10.021  -9.808  20.847  1.00  5.90      1TIF H   new
+ATOM    531 3HB  ALA    34       9.963  -8.812  19.354  1.00  5.90      1TIF H   new
+ATOM    532  N   LEU    35       7.947  -9.343  17.319  1.00  5.95      1TIF 481
+ATOM    533  CA  LEU    35       7.147  -8.706  16.278  1.00  6.73      1TIF 482
+ATOM    534  C   LEU    35       6.001  -9.628  15.832  1.00  6.22      1TIF 483
+ATOM    535  O   LEU    35       4.905  -9.163  15.505  1.00  5.86      1TIF 484
+ATOM    536  CB  LEU    35       8.032  -8.327  15.084  1.00  7.16      1TIF 485
+ATOM    537  CG  LEU    35       9.008  -7.165  15.322  1.00  8.14      1TIF 486
+ATOM    538  CD1 LEU    35      10.056  -7.114  14.226  1.00  8.57      1TIF 487
+ATOM    539  CD2 LEU    35       8.245  -5.844  15.415  1.00  8.91      1TIF 488
+ATOM    540  H   LEU    35       8.897  -9.580  17.117  1.00  5.95      1TIF 489 std
+ATOM    541  HA  LEU    35       6.705  -7.787  16.691  1.00  6.73      1TIF H   new
+ATOM    542 1HB  LEU    35       8.611  -9.213  14.785  1.00  7.16      1TIF H   new
+ATOM    543 2HB  LEU    35       7.381  -8.067  14.236  1.00  7.16      1TIF H   new
+ATOM    544  HG  LEU    35       9.527  -7.331  16.277  1.00  8.14      1TIF H   new
+ATOM    545 1HD1 LEU    35      10.744  -6.277  14.414  1.00  8.57      1TIF H   new
+ATOM    546 2HD1 LEU    35      10.622  -8.057  14.215  1.00  8.57      1TIF H   new
+ATOM    547 3HD1 LEU    35       9.563  -6.971  13.253  1.00  8.57      1TIF H   new
+ATOM    548 1HD2 LEU    35       8.955  -5.021  15.585  1.00  8.91      1TIF H   new
+ATOM    549 2HD2 LEU    35       7.699  -5.668  14.476  1.00  8.91      1TIF H   new
+ATOM    550 3HD2 LEU    35       7.531  -5.890  16.250  1.00  8.91      1TIF H   new
+ATOM    551  N   GLU    36       6.260 -10.931  15.816  1.00  5.79      1TIF 490
+ATOM    552  CA  GLU    36       5.232 -11.901  15.439  1.00  6.95      1TIF 491
+ATOM    553  C   GLU    36       4.110 -11.930  16.473  1.00  6.00      1TIF 492
+ATOM    554  O   GLU    36       2.930 -11.935  16.115  1.00  5.80      1TIF 493
+ATOM    555  CB  GLU    36       5.841 -13.292  15.306  1.00  5.96      1TIF 494
+ATOM    556  CG  GLU    36       6.790 -13.398  14.145  1.00  6.19      1TIF 495
+ATOM    557  CD  GLU    36       7.536 -14.710  14.102  1.00  8.34      1TIF 496
+ATOM    558  OE1 GLU    36       7.504 -15.485  15.083  1.00  7.19      1TIF 497
+ATOM    559  OE2 GLU    36       8.169 -14.947  13.062  1.00  7.79      1TIF 498
+ATOM    560  H   GLU    36       7.182 -11.236  16.052  1.00  5.79      1TIF 499 std
+ATOM    561  HA  GLU    36       4.812 -11.594  14.470  1.00  6.95      1TIF H   new
+ATOM    562 1HB  GLU    36       6.373 -13.546  16.235  1.00  5.96      1TIF H   new
+ATOM    563 2HB  GLU    36       5.035 -14.031  15.185  1.00  5.96      1TIF H   new
+ATOM    564 1HG  GLU    36       6.228 -13.273  13.208  1.00  6.19      1TIF H   new
+ATOM    565 2HG  GLU    36       7.516 -12.573  14.197  1.00  6.19      1TIF H   new
+ATOM    566  N   ILE    37       4.480 -11.955  17.751  1.00  5.98      1TIF 500
+ATOM    567  CA  ILE    37       3.498 -11.973  18.835  1.00  7.06      1TIF 501
+ATOM    568  C   ILE    37       2.630 -10.714  18.797  1.00  7.03      1TIF 502
+ATOM    569  O   ILE    37       1.416 -10.787  18.964  1.00  7.37      1TIF 503
+ATOM    570  CB  ILE    37       4.177 -12.096  20.217  1.00  7.01      1TIF 504
+ATOM    571  CG1 ILE    37       4.953 -13.416  20.301  1.00  6.53      1TIF 505
+ATOM    572  CG2 ILE    37       3.127 -12.040  21.324  1.00  6.84      1TIF 506
+ATOM    573  CD1 ILE    37       5.779 -13.577  21.571  1.00  6.26      1TIF 507
+ATOM    574  H   ILE    37       5.455 -11.974  17.972  1.00  5.98      1TIF 508 std
+ATOM    575  HA  ILE    37       2.862 -12.858  18.684  1.00  7.06      1TIF H   new
+ATOM    576  HB  ILE    37       4.877 -11.257  20.346  1.00  7.01      1TIF H   new
+ATOM    577 1HG1 ILE    37       4.241 -14.252  20.232  1.00  6.53      1TIF H   new
+ATOM    578 2HG1 ILE    37       5.622 -13.491  19.431  1.00  6.53      1TIF H   new
+ATOM    579 1HG2 ILE    37       3.621 -12.128  22.303  1.00  6.84      1TIF H   new
+ATOM    580 2HG2 ILE    37       2.588 -11.083  21.271  1.00  6.84      1TIF H   new
+ATOM    581 3HG2 ILE    37       2.415 -12.869  21.197  1.00  6.84      1TIF H   new
+ATOM    582 1HD1 ILE    37       6.300 -14.545  21.550  1.00  6.26      1TIF H   new
+ATOM    583 2HD1 ILE    37       6.518 -12.765  21.634  1.00  6.26      1TIF H   new
+ATOM    584 3HD1 ILE    37       5.116 -13.537  22.448  1.00  6.26      1TIF H   new
+ATOM    585  N   ALA    38       3.248  -9.560  18.569  1.00  6.53      1TIF 509
+ATOM    586  CA  ALA    38       2.506  -8.304  18.500  1.00  7.16      1TIF 510
+ATOM    587  C   ALA    38       1.513  -8.353  17.345  1.00  8.30      1TIF 511
+ATOM    588  O   ALA    38       0.343  -8.008  17.505  1.00  8.62      1TIF 512
+ATOM    589  CB  ALA    38       3.466  -7.125  18.313  1.00  7.14      1TIF 513
+ATOM    590  H   ALA    38       4.242  -9.556  18.461  1.00  6.53      1TIF 514 std
+ATOM    591  HA  ALA    38       1.958  -8.165  19.444  1.00  7.16      1TIF H   new
+ATOM    592 1HB  ALA    38       2.892  -6.188  18.263  1.00  7.14      1TIF H   new
+ATOM    593 2HB  ALA    38       4.164  -7.082  19.162  1.00  7.14      1TIF H   new
+ATOM    594 3HB  ALA    38       4.033  -7.257  17.379  1.00  7.14      1TIF H   new
+ATOM    595  N   ALA    39       1.981  -8.835  16.199  1.00  7.57      1TIF 515
+ATOM    596  CA  ALA    39       1.165  -8.922  14.999  1.00  8.02      1TIF 516
+ATOM    597  C   ALA    39      -0.039  -9.839  15.147  1.00  8.67      1TIF 517
+ATOM    598  O   ALA    39      -1.141  -9.488  14.713  1.00  8.55      1TIF 518
+ATOM    599  CB  ALA    39       2.010  -9.345  13.820  1.00  8.94      1TIF 519
+ATOM    600  H   ALA    39       2.926  -9.157  16.143  1.00  7.57      1TIF 520 std
+ATOM    601  HA  ALA    39       0.762  -7.913  14.824  1.00  8.02      1TIF H   new
+ATOM    602 1HB  ALA    39       1.380  -9.407  12.920  1.00  8.94      1TIF H   new
+ATOM    603 2HB  ALA    39       2.809  -8.607  13.658  1.00  8.94      1TIF H   new
+ATOM    604 3HB  ALA    39       2.456 -10.330  14.023  1.00  8.94      1TIF H   new
+ATOM    605  N   ARG    40       0.146 -11.004  15.763  1.00  9.27      1TIF 521
+ATOM    606  CA  ARG    40      -0.978 -11.920  15.922  1.00 10.16      1TIF 522
+ATOM    607  C   ARG    40      -2.051 -11.346  16.839  1.00  9.75      1TIF 523
+ATOM    608  O   ARG    40      -3.224 -11.704  16.727  1.00  9.76      1TIF 524
+ATOM    609  CB  ARG    40      -0.531 -13.316  16.375  1.00 10.73      1TIF 525
+ATOM    610  CG  ARG    40       0.113 -13.410  17.740  1.00 12.71      1TIF 526
+ATOM    611  CD  ARG    40       0.691 -14.818  17.981  1.00 12.88      1TIF 527
+ATOM    612  NE  ARG    40      -0.345 -15.835  18.162  1.00 13.75      1TIF 528
+ATOM    613  CZ  ARG    40      -0.398 -16.988  17.499  1.00 13.55      1TIF 529
+ATOM    614  NH1 ARG    40       0.525 -17.293  16.593  1.00 13.50      1TIF 530
+ATOM    615  NH2 ARG    40      -1.375 -17.848  17.752  1.00 11.85      1TIF 531
+ATOM    616  H   ARG    40       1.055 -11.258  16.093  1.00  9.27      1TIF 532 std
+ATOM    617  HE  ARG    40      -1.067 -15.656  18.830  1.00 13.75      1TIF 533 std
+ATOM    618 1HH1 ARG    40       1.271 -16.656  16.397  1.00 13.50      1TIF 534 std
+ATOM    619 2HH1 ARG    40       0.472 -18.161  16.099  1.00 13.50      1TIF 535 std
+ATOM    620 1HH2 ARG    40      -2.070 -17.640  18.441  1.00 11.85      1TIF 536 std
+ATOM    621 2HH2 ARG    40      -1.416 -18.709  17.246  1.00 11.85      1TIF 537 std
+ATOM    622  HA  ARG    40      -1.430 -12.040  14.926  1.00 10.16      1TIF H   new
+ATOM    623 1HB  ARG    40      -1.409 -13.979  16.362  1.00 10.73      1TIF H   new
+ATOM    624 2HB  ARG    40       0.179 -13.708  15.632  1.00 10.73      1TIF H   new
+ATOM    625 1HG  ARG    40       0.914 -12.661  17.824  1.00 12.71      1TIF H   new
+ATOM    626 2HG  ARG    40      -0.629 -13.176  18.517  1.00 12.71      1TIF H   new
+ATOM    627 1HD  ARG    40       1.328 -15.098  17.129  1.00 12.88      1TIF H   new
+ATOM    628 2HD  ARG    40       1.336 -14.797  18.872  1.00 12.88      1TIF H   new
+ATOM    629  N   ARG    41      -1.654 -10.424  17.712  1.00  9.31      1TIF 538
+ATOM    630  CA  ARG    41      -2.582  -9.787  18.635  1.00 10.44      1TIF 539
+ATOM    631  C   ARG    41      -3.102  -8.455  18.116  1.00  9.89      1TIF 540
+ATOM    632  O   ARG    41      -3.866  -7.776  18.803  1.00  9.31      1TIF 541
+ATOM    633  CB  ARG    41      -1.919  -9.594  19.993  1.00 10.83      1TIF 542
+ATOM    634  CG  ARG    41      -1.510 -10.899  20.614  1.00 12.25      1TIF 543
+ATOM    635  CD  ARG    41      -1.034 -10.725  22.028  1.00 13.86      1TIF 544
+ATOM    636  NE  ARG    41      -0.599 -12.005  22.571  1.00 16.23      1TIF 545
+ATOM    637  CZ  ARG    41      -0.508 -12.278  23.866  1.00 16.53      1TIF 546
+ATOM    638  NH1 ARG    41      -0.826 -11.362  24.768  1.00 17.37      1TIF 547
+ATOM    639  NH2 ARG    41      -0.090 -13.473  24.259  1.00 17.65      1TIF 548
+ATOM    640  H   ARG    41      -0.691 -10.161  17.762  1.00  9.31      1TIF 549 std
+ATOM    641  HE  ARG    41      -0.344 -12.720  21.920  1.00 16.23      1TIF 550 std
+ATOM    642 1HH1 ARG    41      -1.147 -10.465  24.464  1.00 17.37      1TIF 551 std
+ATOM    643 2HH1 ARG    41      -0.768 -11.579  25.742  1.00 17.37      1TIF 552 std
+ATOM    644 1HH2 ARG    41       0.155 -14.159  23.574  1.00 17.65      1TIF 553 std
+ATOM    645 2HH2 ARG    41      -0.037 -13.686  25.235  1.00 17.65      1TIF 554 std
+ATOM    646  HA  ARG    41      -3.449 -10.457  18.734  1.00 10.44      1TIF H   new
+ATOM    647 1HB  ARG    41      -1.034  -8.951  19.879  1.00 10.83      1TIF H   new
+ATOM    648 2HB  ARG    41      -2.613  -9.070  20.667  1.00 10.83      1TIF H   new
+ATOM    649 1HG  ARG    41      -2.362 -11.595  20.598  1.00 12.25      1TIF H   new
+ATOM    650 2HG  ARG    41      -0.710 -11.356  20.012  1.00 12.25      1TIF H   new
+ATOM    651 1HD  ARG    41      -0.204 -10.004  22.058  1.00 13.86      1TIF H   new
+ATOM    652 2HD  ARG    41      -1.843 -10.311  22.647  1.00 13.86      1TIF H   new
+ATOM    653  N   ASN    42      -2.680  -8.088  16.909  1.00 10.09      1TIF 555
+ATOM    654  CA  ASN    42      -3.085  -6.834  16.282  1.00 10.83      1TIF 556
+ATOM    655  C   ASN    42      -2.738  -5.637  17.162  1.00 10.08      1TIF 557
+ATOM    656  O   ASN    42      -3.534  -4.704  17.323  1.00  8.78      1TIF 558
+ATOM    657  CB  ASN    42      -4.582  -6.847  15.962  1.00 13.43      1TIF 559
+ATOM    658  CG  ASN    42      -4.851  -6.873  14.480  1.00 17.22      1TIF 560
+ATOM    659  OD1 ASN    42      -5.007  -5.825  13.849  1.00 19.53      1TIF 561
+ATOM    660  ND2 ASN    42      -4.889  -8.068  13.902  1.00 19.06      1TIF 562
+ATOM    661  H   ASN    42      -2.050  -8.676  16.402  1.00 10.09      1TIF 563 std
+ATOM    662 1HD2 ASN    42      -5.015  -8.079  12.910  1.00 19.06      1TIF 564 std
+ATOM    663 2HD2 ASN    42      -4.781  -8.895  14.454  1.00 19.06      1TIF 565 std
+ATOM    664  HA  ASN    42      -2.526  -6.736  15.340  1.00 10.83      1TIF H   new
+ATOM    665 1HB  ASN    42      -5.047  -7.726  16.432  1.00 13.43      1TIF H   new
+ATOM    666 2HB  ASN    42      -5.056  -5.958  16.403  1.00 13.43      1TIF H   new
+ATOM    667  N   LEU    43      -1.548  -5.694  17.751  1.00  7.86      1TIF 566
+ATOM    668  CA  LEU    43      -1.034  -4.648  18.623  1.00  7.40      1TIF 567
+ATOM    669  C   LEU    43       0.360  -4.242  18.128  1.00  6.83      1TIF 568
+ATOM    670  O   LEU    43       0.879  -4.811  17.160  1.00  6.50      1TIF 569
+ATOM    671  CB  LEU    43      -0.944  -5.176  20.059  1.00  6.97      1TIF 570
+ATOM    672  CG  LEU    43      -2.015  -4.847  21.105  1.00  8.67      1TIF 571
+ATOM    673  CD1 LEU    43      -3.302  -4.353  20.495  1.00  7.64      1TIF 572
+ATOM    674  CD2 LEU    43      -2.248  -6.045  21.988  1.00  6.81      1TIF 573
+ATOM    675  H   LEU    43      -0.943  -6.469  17.567  1.00  7.86      1TIF 574 std
+ATOM    676  HA  LEU    43      -1.705  -3.776  18.606  1.00  7.40      1TIF H   new
+ATOM    677 1HB  LEU    43      -0.889  -6.273  19.993  1.00  6.97      1TIF H   new
+ATOM    678 2HB  LEU    43       0.017  -4.830  20.467  1.00  6.97      1TIF H   new
+ATOM    679  HG  LEU    43      -1.637  -4.014  21.716  1.00  8.67      1TIF H   new
+ATOM    680 1HD1 LEU    43      -4.027  -4.135  21.293  1.00  7.64      1TIF H   new
+ATOM    681 2HD1 LEU    43      -3.107  -3.437  19.918  1.00  7.64      1TIF H   new
+ATOM    682 3HD1 LEU    43      -3.713  -5.126  19.828  1.00  7.64      1TIF H   new
+ATOM    683 1HD2 LEU    43      -3.017  -5.805  22.737  1.00  6.81      1TIF H   new
+ATOM    684 2HD2 LEU    43      -2.586  -6.893  21.375  1.00  6.81      1TIF H   new
+ATOM    685 3HD2 LEU    43      -1.311  -6.313  22.498  1.00  6.81      1TIF H   new
+ATOM    686  N   ASP    44       0.964  -3.269  18.799  1.00  5.77      1TIF 575
+ATOM    687  CA  ASP    44       2.289  -2.786  18.425  1.00  5.91      1TIF 576
+ATOM    688  C   ASP    44       3.324  -3.260  19.434  1.00  5.58      1TIF 577
+ATOM    689  O   ASP    44       2.991  -3.565  20.579  1.00  5.64      1TIF 578
+ATOM    690  CB  ASP    44       2.322  -1.252  18.413  1.00  5.98      1TIF 579
+ATOM    691  CG  ASP    44       1.332  -0.645  17.438  1.00  6.05      1TIF 580
+ATOM    692  OD1 ASP    44       1.486  -0.845  16.223  1.00  5.58      1TIF 581
+ATOM    693  OD2 ASP    44       0.407   0.048  17.897  1.00  6.49      1TIF 582
+ATOM    694  H   ASP    44       0.544  -2.883  19.620  1.00  5.77      1TIF 583 std
+ATOM    695  HA  ASP    44       2.516  -3.179  17.423  1.00  5.91      1TIF H   new
+ATOM    696 1HB  ASP    44       2.107  -0.878  19.425  1.00  5.98      1TIF H   new
+ATOM    697 2HB  ASP    44       3.337  -0.915  18.154  1.00  5.98      1TIF H   new
+ATOM    698  N   LEU    45       4.575  -3.319  18.992  1.00  5.66      1TIF 584
+ATOM    699  CA  LEU    45       5.698  -3.694  19.845  1.00  5.77      1TIF 585
+ATOM    700  C   LEU    45       6.319  -2.335  20.172  1.00  5.67      1TIF 586
+ATOM    701  O   LEU    45       6.819  -1.652  19.282  1.00  5.69      1TIF 587
+ATOM    702  CB  LEU    45       6.700  -4.556  19.074  1.00  6.27      1TIF 588
+ATOM    703  CG  LEU    45       7.870  -5.114  19.891  1.00  7.35      1TIF 589
+ATOM    704  CD1 LEU    45       7.359  -6.084  20.935  1.00  7.25      1TIF 590
+ATOM    705  CD2 LEU    45       8.852  -5.809  18.970  1.00  7.76      1TIF 591
+ATOM    706  H   LEU    45       4.753  -3.073  18.039  1.00  5.66      1TIF 592 std
+ATOM    707  HA  LEU    45       5.404  -4.281  20.727  1.00  5.77      1TIF H   new
+ATOM    708 1HB  LEU    45       6.157  -5.400  18.623  1.00  6.27      1TIF H   new
+ATOM    709 2HB  LEU    45       7.109  -3.957  18.246  1.00  6.27      1TIF H   new
+ATOM    710  HG  LEU    45       8.381  -4.284  20.401  1.00  7.35      1TIF H   new
+ATOM    711 1HD1 LEU    45       8.206  -6.478  21.515  1.00  7.25      1TIF H   new
+ATOM    712 2HD1 LEU    45       6.663  -5.564  21.610  1.00  7.25      1TIF H   new
+ATOM    713 3HD1 LEU    45       6.836  -6.915  20.439  1.00  7.25      1TIF H   new
+ATOM    714 1HD2 LEU    45       9.690  -6.208  19.560  1.00  7.76      1TIF H   new
+ATOM    715 2HD2 LEU    45       8.345  -6.635  18.449  1.00  7.76      1TIF H   new
+ATOM    716 3HD2 LEU    45       9.235  -5.090  18.231  1.00  7.76      1TIF H   new
+ATOM    717  N   VAL    46       6.249  -1.928  21.432  1.00  5.58      1TIF 593
+ATOM    718  CA  VAL    46       6.765  -0.625  21.833  1.00  5.58      1TIF 594
+ATOM    719  C   VAL    46       7.996  -0.715  22.734  1.00  5.58      1TIF 595
+ATOM    720  O   VAL    46       7.984  -1.408  23.751  1.00  5.58      1TIF 596
+ATOM    721  CB  VAL    46       5.654   0.191  22.542  1.00  5.58      1TIF 597
+ATOM    722  CG1 VAL    46       6.143   1.585  22.885  1.00  6.30      1TIF 598
+ATOM    723  CG2 VAL    46       4.410   0.252  21.661  1.00  6.25      1TIF 599
+ATOM    724  H   VAL    46       5.833  -2.521  22.122  1.00  5.58      1TIF 600 std
+ATOM    725  HA  VAL    46       7.082  -0.116  20.911  1.00  5.58      1TIF H   new
+ATOM    726  HB  VAL    46       5.393  -0.313  23.484  1.00  5.58      1TIF H   new
+ATOM    727 1HG1 VAL    46       5.339   2.143  23.386  1.00  6.30      1TIF H   new
+ATOM    728 2HG1 VAL    46       7.012   1.515  23.555  1.00  6.30      1TIF H   new
+ATOM    729 3HG1 VAL    46       6.433   2.110  21.963  1.00  6.30      1TIF H   new
+ATOM    730 1HG2 VAL    46       3.627   0.832  22.171  1.00  6.25      1TIF H   new
+ATOM    731 2HG2 VAL    46       4.660   0.736  20.705  1.00  6.25      1TIF H   new
+ATOM    732 3HG2 VAL    46       4.044  -0.768  21.471  1.00  6.25      1TIF H   new
+ATOM    733  N   LEU    47       9.054  -0.002  22.359  1.00  5.58      1TIF 601
+ATOM    734  CA  LEU    47      10.282   0.000  23.141  1.00  6.29      1TIF 602
+ATOM    735  C   LEU    47      10.101   0.961  24.319  1.00  5.74      1TIF 603
+ATOM    736  O   LEU    47      10.341   2.159  24.198  1.00  5.76      1TIF 604
+ATOM    737  CB  LEU    47      11.466   0.419  22.259  1.00  7.05      1TIF 605
+ATOM    738  CG  LEU    47      12.868   0.305  22.872  1.00  7.11      1TIF 606
+ATOM    739  CD1 LEU    47      13.113  -1.124  23.345  1.00  7.12      1TIF 607
+ATOM    740  CD2 LEU    47      13.930   0.717  21.853  1.00  8.11      1TIF 608
+ATOM    741  H   LEU    47       8.997   0.558  21.532  1.00  5.58      1TIF 609 std
+ATOM    742  HA  LEU    47      10.495  -1.008  23.525  1.00  6.29      1TIF H   new
+ATOM    743 1HB  LEU    47      11.443  -0.191  21.344  1.00  7.05      1TIF H   new
+ATOM    744 2HB  LEU    47      11.311   1.464  21.953  1.00  7.05      1TIF H   new
+ATOM    745  HG  LEU    47      12.935   0.983  23.736  1.00  7.11      1TIF H   new
+ATOM    746 1HD1 LEU    47      14.119  -1.198  23.783  1.00  7.12      1TIF H   new
+ATOM    747 2HD1 LEU    47      12.363  -1.394  24.103  1.00  7.12      1TIF H   new
+ATOM    748 3HD1 LEU    47      13.034  -1.812  22.491  1.00  7.12      1TIF H   new
+ATOM    749 1HD2 LEU    47      14.928   0.630  22.307  1.00  8.11      1TIF H   new
+ATOM    750 2HD2 LEU    47      13.869   0.059  20.973  1.00  8.11      1TIF H   new
+ATOM    751 3HD2 LEU    47      13.758   1.759  21.544  1.00  8.11      1TIF H   new
+ATOM    752  N   VAL    48       9.661   0.434  25.456  1.00  5.92      1TIF 610
+ATOM    753  CA  VAL    48       9.420   1.263  26.633  1.00  6.65      1TIF 611
+ATOM    754  C   VAL    48      10.640   1.536  27.506  1.00  6.57      1TIF 612
+ATOM    755  O   VAL    48      10.643   2.499  28.269  1.00  7.39      1TIF 613
+ATOM    756  CB  VAL    48       8.254   0.710  27.498  1.00  5.75      1TIF 614
+ATOM    757  CG1 VAL    48       6.966   0.724  26.691  1.00  5.85      1TIF 615
+ATOM    758  CG2 VAL    48       8.563  -0.707  27.986  1.00  5.75      1TIF 616
+ATOM    759  H   VAL    48       9.494  -0.552  25.482  1.00  5.92      1TIF 617 std
+ATOM    760  HA  VAL    48       9.139   2.239  26.210  1.00  6.65      1TIF H   new
+ATOM    761  HB  VAL    48       8.133   1.354  28.381  1.00  5.75      1TIF H   new
+ATOM    762 1HG1 VAL    48       6.143   0.332  27.306  1.00  5.85      1TIF H   new
+ATOM    763 2HG1 VAL    48       6.736   1.755  26.385  1.00  5.85      1TIF H   new
+ATOM    764 3HG1 VAL    48       7.086   0.095  25.797  1.00  5.85      1TIF H   new
+ATOM    765 1HG2 VAL    48       7.725  -1.077  28.595  1.00  5.75      1TIF H   new
+ATOM    766 2HG2 VAL    48       8.707  -1.370  27.120  1.00  5.75      1TIF H   new
+ATOM    767 3HG2 VAL    48       9.480  -0.694  28.594  1.00  5.75      1TIF H   new
+ATOM    768  N   ALA    49      11.659   0.689  27.412  1.00  6.18      1TIF 618
+ATOM    769  CA  ALA    49      12.878   0.877  28.196  1.00  6.65      1TIF 619
+ATOM    770  C   ALA    49      14.074   0.582  27.296  1.00  7.16      1TIF 620
+ATOM    771  O   ALA    49      14.689  -0.482  27.385  1.00  6.49      1TIF 621
+ATOM    772  CB  ALA    49      12.876  -0.036  29.418  1.00  6.22      1TIF 622
+ATOM    773  H   ALA    49      11.577  -0.103  26.807  1.00  6.18      1TIF 623 std
+ATOM    774  HA  ALA    49      12.936   1.913  28.562  1.00  6.65      1TIF H   new
+ATOM    775 1HB  ALA    49      13.800   0.120  29.994  1.00  6.22      1TIF H   new
+ATOM    776 2HB  ALA    49      12.006   0.198  30.050  1.00  6.22      1TIF H   new
+ATOM    777 3HB  ALA    49      12.820  -1.085  29.092  1.00  6.22      1TIF H   new
+ATOM    778  N   PRO    50      14.447   1.554  26.448  1.00  8.35      1TIF 624
+ATOM    779  CA  PRO    50      15.559   1.455  25.499  1.00  8.58      1TIF 625
+ATOM    780  C   PRO    50      16.902   1.117  26.112  1.00  9.39      1TIF 626
+ATOM    781  O   PRO    50      17.686   0.379  25.518  1.00  9.26      1TIF 627
+ATOM    782  CB  PRO    50      15.605   2.849  24.869  1.00  8.84      1TIF 628
+ATOM    783  CG  PRO    50      14.215   3.345  25.015  1.00  9.22      1TIF 629
+ATOM    784  CD  PRO    50      13.860   2.903  26.406  1.00  7.93      1TIF 630
+ATOM    785  HA  PRO    50      15.386   0.627  24.796  1.00  8.58      1TIF H   new
+ATOM    786 1HB  PRO    50      16.324   3.502  25.385  1.00  8.84      1TIF H   new
+ATOM    787 2HB  PRO    50      15.910   2.806  23.813  1.00  8.84      1TIF H   new
+ATOM    788 1HG  PRO    50      14.156   4.438  24.904  1.00  9.22      1TIF H   new
+ATOM    789 2HG  PRO    50      13.543   2.908  24.262  1.00  9.22      1TIF H   new
+ATOM    790 1HD  PRO    50      14.290   3.565  27.172  1.00  7.93      1TIF H   new
+ATOM    791 2HD  PRO    50      12.772   2.886  26.569  1.00  7.93      1TIF H   new
+ATOM    792  N   ASN    51      17.163   1.641  27.304  1.00  9.48      1TIF 631
+ATOM    793  CA  ASN    51      18.446   1.417  27.954  1.00 10.67      1TIF 632
+ATOM    794  C   ASN    51      18.524   0.277  28.965  1.00 11.09      1TIF 633
+ATOM    795  O   ASN    51      19.545   0.114  29.635  1.00 10.91      1TIF 634
+ATOM    796  CB  ASN    51      18.960   2.726  28.559  1.00 12.24      1TIF 635
+ATOM    797  CG  ASN    51      19.150   3.809  27.511  1.00 13.54      1TIF 636
+ATOM    798  OD1 ASN    51      18.579   4.893  27.610  1.00 14.69      1TIF 637
+ATOM    799  ND2 ASN    51      19.933   3.511  26.489  1.00 13.61      1TIF 638
+ATOM    800  H   ASN    51      16.474   2.194  27.773  1.00  9.48      1TIF 639 std
+ATOM    801 1HD2 ASN    51      20.079   4.190  25.769  1.00 13.61      1TIF 640 std
+ATOM    802 2HD2 ASN    51      20.351   2.603  26.471  1.00 13.61      1TIF 641 std
+ATOM    803  HA  ASN    51      19.102   1.070  27.143  1.00 10.67      1TIF H   new
+ATOM    804 1HB  ASN    51      18.251   3.078  29.323  1.00 12.24      1TIF H   new
+ATOM    805 2HB  ASN    51      19.917   2.541  29.070  1.00 12.24      1TIF H   new
+ATOM    806  N   ALA    52      17.459  -0.512  29.073  1.00 11.13      1TIF 642
+ATOM    807  CA  ALA    52      17.453  -1.646  29.991  1.00  9.83      1TIF 643
+ATOM    808  C   ALA    52      18.251  -2.766  29.334  1.00  9.44      1TIF 644
+ATOM    809  O   ALA    52      18.507  -2.723  28.127  1.00  9.05      1TIF 645
+ATOM    810  CB  ALA    52      16.032  -2.102  30.269  1.00  9.53      1TIF 646
+ATOM    811  H   ALA    52      16.661  -0.344  28.494  1.00 11.13      1TIF 647 std
+ATOM    812  HA  ALA    52      17.902  -1.363  30.955  1.00  9.83      1TIF H   new
+ATOM    813 1HB  ALA    52      16.049  -2.956  30.962  1.00  9.53      1TIF H   new
+ATOM    814 2HB  ALA    52      15.463  -1.276  30.720  1.00  9.53      1TIF H   new
+ATOM    815 3HB  ALA    52      15.553  -2.405  29.326  1.00  9.53      1TIF H   new
+ATOM    816  N   LYS    53      18.655  -3.759  30.121  1.00  9.03      1TIF 648
+ATOM    817  CA  LYS    53      19.442  -4.876  29.599  1.00  9.84      1TIF 649
+ATOM    818  C   LYS    53      18.792  -6.232  29.854  1.00  8.68      1TIF 650
+ATOM    819  O   LYS    53      18.701  -6.667  31.000  1.00  9.64      1TIF 651
+ATOM    820  CB  LYS    53      20.848  -4.876  30.211  1.00 12.61      1TIF 652
+ATOM    821  CG  LYS    53      21.702  -3.673  29.862  1.00 15.82      1TIF 653
+ATOM    822  CD  LYS    53      23.134  -3.892  30.331  1.00 19.19      1TIF 654
+ATOM    823  CE  LYS    53      23.986  -2.644  30.157  1.00 21.22      1TIF 655
+ATOM    824  NZ  LYS    53      23.514  -1.535  31.042  1.00 24.52      1TIF 656
+ATOM    825  H   LYS    53      18.413  -3.758  31.091  1.00  9.03      1TIF 657 std
+ATOM    826 1HZ  LYS    53      24.217  -0.826  31.095  1.00 24.52      1TIF 658 std
+ATOM    827 2HZ  LYS    53      22.671  -1.144  30.672  1.00 24.52      1TIF 659 std
+ATOM    828 3HZ  LYS    53      23.337  -1.902  31.955  1.00 24.52      1TIF 660 std
+ATOM    829  HA  LYS    53      19.498  -4.728  28.510  1.00  9.84      1TIF H   new
+ATOM    830 1HB  LYS    53      20.754  -4.934  31.305  1.00 12.61      1TIF H   new
+ATOM    831 2HB  LYS    53      21.373  -5.786  29.884  1.00 12.61      1TIF H   new
+ATOM    832 1HG  LYS    53      21.686  -3.505  28.775  1.00 15.82      1TIF H   new
+ATOM    833 2HG  LYS    53      21.287  -2.770  30.334  1.00 15.82      1TIF H   new
+ATOM    834 1HD  LYS    53      23.131  -4.189  31.390  1.00 19.19      1TIF H   new
+ATOM    835 2HD  LYS    53      23.582  -4.723  29.766  1.00 19.19      1TIF H   new
+ATOM    836 1HE  LYS    53      25.036  -2.879  30.388  1.00 21.22      1TIF H   new
+ATOM    837 2HE  LYS    53      23.953  -2.318  29.107  1.00 21.22      1TIF H   new
+ATOM    838  N   PRO    54      18.211  -6.852  28.812  1.00  8.46      1TIF 661
+ATOM    839  CA  PRO    54      18.137  -6.335  27.442  1.00  7.53      1TIF 662
+ATOM    840  C   PRO    54      16.997  -5.300  27.372  1.00  6.52      1TIF 663
+ATOM    841  O   PRO    54      16.231  -5.157  28.332  1.00  7.03      1TIF 664
+ATOM    842  CB  PRO    54      17.833  -7.593  26.628  1.00  8.59      1TIF 665
+ATOM    843  CG  PRO    54      17.031  -8.411  27.563  1.00  8.26      1TIF 666
+ATOM    844  CD  PRO    54      17.749  -8.253  28.867  1.00  8.30      1TIF 667
+ATOM    845  HA  PRO    54      19.040  -5.822  27.079  1.00  7.53      1TIF H   new
+ATOM    846 1HB  PRO    54      17.274  -7.359  25.710  1.00  8.59      1TIF H   new
+ATOM    847 2HB  PRO    54      18.753  -8.111  26.321  1.00  8.59      1TIF H   new
+ATOM    848 1HG  PRO    54      15.993  -8.054  27.626  1.00  8.26      1TIF H   new
+ATOM    849 2HG  PRO    54      16.990  -9.464  27.248  1.00  8.26      1TIF H   new
+ATOM    850 1HD  PRO    54      17.084  -8.431  29.725  1.00  8.30      1TIF H   new
+ATOM    851 2HD  PRO    54      18.589  -8.957  28.960  1.00  8.30      1TIF H   new
+ATOM    852  N   PRO    55      16.908  -4.532  26.270  1.00  6.14      1TIF 668
+ATOM    853  CA  PRO    55      15.849  -3.519  26.132  1.00  6.03      1TIF 669
+ATOM    854  C   PRO    55      14.456  -4.112  26.352  1.00  5.80      1TIF 670
+ATOM    855  O   PRO    55      14.167  -5.215  25.894  1.00  5.81      1TIF 671
+ATOM    856  CB  PRO    55      16.038  -3.032  24.700  1.00  6.37      1TIF 672
+ATOM    857  CG  PRO    55      17.528  -3.178  24.499  1.00  7.29      1TIF 673
+ATOM    858  CD  PRO    55      17.783  -4.538  25.084  1.00  6.34      1TIF 674
+ATOM    859  HA  PRO    55      15.920  -2.714  26.879  1.00  6.03      1TIF H   new
+ATOM    860 1HB  PRO    55      15.467  -3.639  23.982  1.00  6.37      1TIF H   new
+ATOM    861 2HB  PRO    55      15.708  -1.990  24.575  1.00  6.37      1TIF H   new
+ATOM    862 1HG  PRO    55      17.808  -3.126  23.437  1.00  7.29      1TIF H   new
+ATOM    863 2HG  PRO    55      18.094  -2.392  25.020  1.00  7.29      1TIF H   new
+ATOM    864 1HD  PRO    55      17.520  -5.344  24.383  1.00  6.34      1TIF H   new
+ATOM    865 2HD  PRO    55      18.840  -4.678  25.353  1.00  6.34      1TIF H   new
+ATOM    866  N   VAL    56      13.604  -3.380  27.066  1.00  6.26      1TIF 675
+ATOM    867  CA  VAL    56      12.253  -3.858  27.360  1.00  5.82      1TIF 676
+ATOM    868  C   VAL    56      11.202  -3.339  26.387  1.00  6.12      1TIF 677
+ATOM    869  O   VAL    56      11.133  -2.140  26.101  1.00  5.58      1TIF 678
+ATOM    870  CB  VAL    56      11.827  -3.506  28.803  1.00  6.85      1TIF 679
+ATOM    871  CG1 VAL    56      10.442  -4.080  29.106  1.00  6.85      1TIF 680
+ATOM    872  CG2 VAL    56      12.845  -4.042  29.803  1.00  6.33      1TIF 681
+ATOM    873  H   VAL    56      13.888  -2.482  27.401  1.00  6.26      1TIF 682 std
+ATOM    874  HA  VAL    56      12.304  -4.951  27.245  1.00  5.82      1TIF H   new
+ATOM    875  HB  VAL    56      11.783  -2.411  28.894  1.00  6.85      1TIF H   new
+ATOM    876 1HG1 VAL    56      10.154  -3.821  30.136  1.00  6.85      1TIF H   new
+ATOM    877 2HG1 VAL    56       9.708  -3.658  28.403  1.00  6.85      1TIF H   new
+ATOM    878 3HG1 VAL    56      10.466  -5.174  28.997  1.00  6.85      1TIF H   new
+ATOM    879 1HG2 VAL    56      12.528  -3.784  30.824  1.00  6.33      1TIF H   new
+ATOM    880 2HG2 VAL    56      12.914  -5.136  29.707  1.00  6.33      1TIF H   new
+ATOM    881 3HG2 VAL    56      13.829  -3.594  29.601  1.00  6.33      1TIF H   new
+ATOM    882  N   CYS    57      10.402  -4.264  25.871  1.00  6.48      1TIF 683
+ATOM    883  CA  CYS    57       9.327  -3.943  24.943  1.00  6.96      1TIF 684
+ATOM    884  C   CYS    57       7.999  -4.354  25.556  1.00  7.88      1TIF 685
+ATOM    885  O   CYS    57       7.903  -5.379  26.236  1.00  7.58      1TIF 686
+ATOM    886  CB  CYS    57       9.513  -4.682  23.615  1.00  7.53      1TIF 687
+ATOM    887  SG  CYS    57      10.788  -3.987  22.547  1.00  7.31      1TIF 688
+ATOM    888  H   CYS    57      10.519  -5.214  26.160  1.00  6.48      1TIF 689 std
+ATOM    889  HA  CYS    57       9.343  -2.860  24.750  1.00  6.96      1TIF H   new
+ATOM    890 1HB  CYS    57       9.762  -5.733  23.826  1.00  7.53      1TIF H   new
+ATOM    891 2HB  CYS    57       8.556  -4.681  23.072  1.00  7.53      1TIF H   new
+ATOM    892  HG  CYS    57      10.866  -4.685  21.453  1.00  7.31      1TIF H   new
+ATOM    893  N   ARG    58       6.974  -3.553  25.306  1.00  8.78      1TIF 690
+ATOM    894  CA  ARG    58       5.645  -3.838  25.813  1.00 10.37      1TIF 691
+ATOM    895  C   ARG    58       4.704  -3.940  24.623  1.00 10.39      1TIF 692
+ATOM    896  O   ARG    58       4.827  -3.176  23.656  1.00  9.83      1TIF 693
+ATOM    897  CB  ARG    58       5.182  -2.716  26.743  1.00 14.50      1TIF 694
+ATOM    898  CG  ARG    58       3.837  -2.970  27.411  1.00 18.88      1TIF 695
+ATOM    899  CD  ARG    58       3.392  -1.750  28.208  1.00 22.75      1TIF 696
+ATOM    900  NE  ARG    58       4.436  -1.279  29.114  1.00 26.96      1TIF 697
+ATOM    901  CZ  ARG    58       4.786  -1.898  30.237  1.00 29.11      1TIF 698
+ATOM    902  NH1 ARG    58       4.169  -3.019  30.600  1.00 29.98      1TIF 699
+ATOM    903  NH2 ARG    58       5.754  -1.396  30.997  1.00 31.25      1TIF 700
+ATOM    904  H   ARG    58       7.084  -2.730  24.749  1.00  8.78      1TIF 701 std
+ATOM    905  HE  ARG    58       4.923  -0.440  28.872  1.00 26.96      1TIF 702 std
+ATOM    906 1HH1 ARG    58       3.430  -3.383  30.033  1.00 29.98      1TIF 703 std
+ATOM    907 2HH1 ARG    58       4.427  -3.505  31.435  1.00 29.98      1TIF 704 std
+ATOM    908 1HH2 ARG    58       6.221  -0.558  30.715  1.00 31.25      1TIF 705 std
+ATOM    909 2HH2 ARG    58       6.022  -1.856  31.843  1.00 31.25      1TIF 706 std
+ATOM    910  HA  ARG    58       5.651  -4.778  26.384  1.00 10.37      1TIF H   new
+ATOM    911 1HB  ARG    58       5.943  -2.565  27.523  1.00 14.50      1TIF H   new
+ATOM    912 2HB  ARG    58       5.121  -1.780  26.168  1.00 14.50      1TIF H   new
+ATOM    913 1HG  ARG    58       3.082  -3.211  26.648  1.00 18.88      1TIF H   new
+ATOM    914 2HG  ARG    58       3.911  -3.842  28.077  1.00 18.88      1TIF H   new
+ATOM    915 1HD  ARG    58       3.116  -0.941  27.516  1.00 22.75      1TIF H   new
+ATOM    916 2HD  ARG    58       2.490  -2.000  28.787  1.00 22.75      1TIF H   new
+ATOM    917  N   ILE    59       3.808  -4.918  24.666  1.00  9.61      1TIF 707
+ATOM    918  CA  ILE    59       2.837  -5.090  23.592  1.00  9.33      1TIF 708
+ATOM    919  C   ILE    59       1.635  -4.239  23.978  1.00  9.71      1TIF 709
+ATOM    920  O   ILE    59       1.072  -4.416  25.059  1.00  8.98      1TIF 710
+ATOM    921  CB  ILE    59       2.433  -6.574  23.424  1.00 10.23      1TIF 711
+ATOM    922  CG1 ILE    59       3.656  -7.388  22.988  1.00 11.33      1TIF 712
+ATOM    923  CG2 ILE    59       1.313  -6.712  22.393  1.00 10.84      1TIF 713
+ATOM    924  CD1 ILE    59       3.364  -8.832  22.680  1.00 12.79      1TIF 714
+ATOM    925  H   ILE    59       3.790  -5.506  25.474  1.00  9.61      1TIF 715 std
+ATOM    926  HA  ILE    59       3.259  -4.780  22.625  1.00  9.33      1TIF H   new
+ATOM    927  HB  ILE    59       2.063  -6.956  24.387  1.00 10.23      1TIF H   new
+ATOM    928 1HG1 ILE    59       4.096  -6.917  22.096  1.00 11.33      1TIF H   new
+ATOM    929 2HG1 ILE    59       4.415  -7.342  23.783  1.00 11.33      1TIF H   new
+ATOM    930 1HG2 ILE    59       1.040  -7.772  22.287  1.00 10.84      1TIF H   new
+ATOM    931 2HG2 ILE    59       0.435  -6.139  22.726  1.00 10.84      1TIF H   new
+ATOM    932 3HG2 ILE    59       1.657  -6.324  21.423  1.00 10.84      1TIF H   new
+ATOM    933 1HD1 ILE    59       4.293  -9.338  22.377  1.00 12.79      1TIF H   new
+ATOM    934 2HD1 ILE    59       2.955  -9.323  23.575  1.00 12.79      1TIF H   new
+ATOM    935 3HD1 ILE    59       2.631  -8.892  21.862  1.00 12.79      1TIF H   new
+ATOM    936  N   MET    60       1.268  -3.301  23.111  1.00  9.85      1TIF 716
+ATOM    937  CA  MET    60       0.147  -2.407  23.383  1.00 10.37      1TIF 717
+ATOM    938  C   MET    60      -0.266  -1.681  22.119  1.00  9.44      1TIF 718
+ATOM    939  O   MET    60       0.438  -1.721  21.112  1.00  9.21      1TIF 719
+ATOM    940  CB  MET    60       0.552  -1.349  24.413  1.00 12.11      1TIF 720
+ATOM    941  CG  MET    60       1.532  -0.301  23.871  1.00 15.56      1TIF 721
+ATOM    942  SD  MET    60       1.846   1.073  25.014  1.00 20.80      1TIF 722
+ATOM    943  CE  MET    60       3.367   0.574  25.716  1.00 20.02      1TIF 723
+ATOM    944  H   MET    60       1.776  -3.183  22.258  1.00  9.85      1TIF 724 std
+ATOM    945  HA  MET    60      -0.685  -3.017  23.764  1.00 10.37      1TIF H   new
+ATOM    946 1HB  MET    60      -0.352  -0.839  24.776  1.00 12.11      1TIF H   new
+ATOM    947 2HB  MET    60       1.008  -1.850  25.280  1.00 12.11      1TIF H   new
+ATOM    948 1HG  MET    60       2.487  -0.794  23.635  1.00 15.56      1TIF H   new
+ATOM    949 2HG  MET    60       1.136   0.103  22.927  1.00 15.56      1TIF H   new
+ATOM    950 1HE  MET    60       3.402   0.880  26.772  1.00 20.02      1TIF H   new
+ATOM    951 2HE  MET    60       3.461  -0.520  25.649  1.00 20.02      1TIF H   new
+ATOM    952 3HE  MET    60       4.196   1.047  25.170  1.00 20.02      1TIF H   new
+ATOM    953  N   ASP    61      -1.419  -1.024  22.169  1.00  8.51      1TIF 725
+ATOM    954  CA  ASP    61      -1.877  -0.246  21.030  1.00  8.66      1TIF 726
+ATOM    955  C   ASP    61      -1.238   1.130  21.215  1.00  7.98      1TIF 727
+ATOM    956  O   ASP    61      -1.668   1.909  22.061  1.00  7.49      1TIF 728
+ATOM    957  CB  ASP    61      -3.400  -0.129  21.020  1.00  9.52      1TIF 729
+ATOM    958  CG  ASP    61      -3.927   0.484  19.733  1.00 10.29      1TIF 730
+ATOM    959  OD1 ASP    61      -3.499   1.604  19.376  1.00 10.36      1TIF 731
+ATOM    960  OD2 ASP    61      -4.764  -0.161  19.065  1.00 10.88      1TIF 732
+ATOM    961  H   ASP    61      -1.985  -1.053  22.993  1.00  8.51      1TIF 733 std
+ATOM    962  HA  ASP    61      -1.597  -0.715  20.075  1.00  8.66      1TIF H   new
+ATOM    963 1HB  ASP    61      -3.842  -1.127  21.155  1.00  9.52      1TIF H   new
+ATOM    964 2HB  ASP    61      -3.723   0.484  21.874  1.00  9.52      1TIF H   new
+ATOM    965  N   TYR    62      -0.226   1.429  20.411  1.00  8.04      1TIF 734
+ATOM    966  CA  TYR    62       0.486   2.699  20.506  1.00  7.38      1TIF 735
+ATOM    967  C   TYR    62      -0.374   3.941  20.262  1.00  6.86      1TIF 736
+ATOM    968  O   TYR    62      -0.219   4.947  20.957  1.00  6.93      1TIF 737
+ATOM    969  CB  TYR    62       1.685   2.704  19.558  1.00  8.02      1TIF 738
+ATOM    970  CG  TYR    62       2.599   3.894  19.745  1.00  8.76      1TIF 739
+ATOM    971  CD1 TYR    62       3.187   4.156  20.983  1.00 10.61      1TIF 740
+ATOM    972  CD2 TYR    62       2.885   4.755  18.682  1.00  8.69      1TIF 741
+ATOM    973  CE1 TYR    62       4.043   5.243  21.161  1.00  9.23      1TIF 742
+ATOM    974  CE2 TYR    62       3.742   5.846  18.846  1.00 10.88      1TIF 743
+ATOM    975  CZ  TYR    62       4.315   6.084  20.089  1.00 10.20      1TIF 744
+ATOM    976  OH  TYR    62       5.166   7.155  20.268  1.00 11.40      1TIF 745
+ATOM    977  H   TYR    62       0.080   0.742  19.752  1.00  8.04      1TIF 746 std
+ATOM    978  HH  TYR    62       5.269   7.661  19.412  1.00 11.40      1TIF 747 std
+ATOM    979  HA  TYR    62       0.815   2.768  21.553  1.00  7.38      1TIF H   new
+ATOM    980 1HB  TYR    62       2.264   1.781  19.707  1.00  8.02      1TIF H   new
+ATOM    981 2HB  TYR    62       1.321   2.691  18.520  1.00  8.02      1TIF H   new
+ATOM    982  HD1 TYR    62       2.972   3.493  21.834  1.00 10.61      1TIF H   new
+ATOM    983  HD2 TYR    62       2.427   4.570  17.699  1.00  8.69      1TIF H   new
+ATOM    984  HE1 TYR    62       4.500   5.433  22.144  1.00  9.23      1TIF H   new
+ATOM    985  HE2 TYR    62       3.961   6.511  17.998  1.00 10.88      1TIF H   new
+ATOM    986  N   GLY    63      -1.263   3.878  19.277  1.00  6.73      1TIF 748
+ATOM    987  CA  GLY    63      -2.114   5.018  18.979  1.00  7.52      1TIF 749
+ATOM    988  C   GLY    63      -3.037   5.355  20.134  1.00  7.84      1TIF 750
+ATOM    989  O   GLY    63      -3.137   6.513  20.548  1.00  8.11      1TIF 751
+ATOM    990  H   GLY    63      -1.369   3.054  18.720  1.00  6.73      1TIF 752 std
+ATOM    991 1HA  GLY    63      -1.487   5.891  18.745  1.00  7.52      1TIF H   new
+ATOM    992 2HA  GLY    63      -2.714   4.803  18.082  1.00  7.52      1TIF H   new
+ATOM    993  N   LYS    64      -3.682   4.334  20.688  1.00  8.78      1TIF 753
+ATOM    994  CA  LYS    64      -4.599   4.519  21.804  1.00 10.43      1TIF 754
+ATOM    995  C   LYS    64      -3.845   5.055  23.019  1.00  9.91      1TIF 755
+ATOM    996  O   LYS    64      -4.336   5.941  23.719  1.00  9.90      1TIF 756
+ATOM    997  CB  LYS    64      -5.309   3.201  22.128  1.00 10.91      1TIF 757
+ATOM    998  CG  LYS    64      -6.521   3.358  23.036  1.00 13.09      1TIF 758
+ATOM    999  CD  LYS    64      -7.411   2.118  23.029  1.00 13.70      1TIF 759
+ATOM   1000  CE  LYS    64      -6.760   0.949  23.734  1.00 14.53      1TIF 760
+ATOM   1001  NZ  LYS    64      -7.699  -0.199  23.837  1.00 14.56      1TIF 761
+ATOM   1002  H   LYS    64      -3.521   3.415  20.327  1.00  8.78      1TIF 762 std
+ATOM   1003 1HZ  LYS    64      -7.261  -0.948  24.334  1.00 14.56      1TIF 763 std
+ATOM   1004 2HZ  LYS    64      -8.528   0.091  24.316  1.00 14.56      1TIF 764 std
+ATOM   1005 3HZ  LYS    64      -7.934  -0.504  22.914  1.00 14.56      1TIF 765 std
+ATOM   1006  HA  LYS    64      -5.365   5.258  21.525  1.00 10.43      1TIF H   new
+ATOM   1007 1HB  LYS    64      -5.627   2.727  21.188  1.00 10.91      1TIF H   new
+ATOM   1008 2HB  LYS    64      -4.592   2.518  22.606  1.00 10.91      1TIF H   new
+ATOM   1009 1HG  LYS    64      -6.184   3.559  24.063  1.00 13.09      1TIF H   new
+ATOM   1010 2HG  LYS    64      -7.108   4.230  22.713  1.00 13.09      1TIF H   new
+ATOM   1011 1HD  LYS    64      -8.369   2.352  23.517  1.00 13.70      1TIF H   new
+ATOM   1012 2HD  LYS    64      -7.639   1.838  21.990  1.00 13.70      1TIF H   new
+ATOM   1013 1HE  LYS    64      -5.857   0.642  23.186  1.00 14.53      1TIF H   new
+ATOM   1014 2HE  LYS    64      -6.437   1.256  24.740  1.00 14.53      1TIF H   new
+ATOM   1015  N   PHE    65      -2.641   4.530  23.245  1.00 10.75      1TIF 766
+ATOM   1016  CA  PHE    65      -1.797   4.965  24.357  1.00 12.06      1TIF 767
+ATOM   1017  C   PHE    65      -1.432   6.448  24.200  1.00 11.60      1TIF 768
+ATOM   1018  O   PHE    65      -1.620   7.249  25.120  1.00 11.65      1TIF 769
+ATOM   1019  CB  PHE    65      -0.522   4.102  24.414  1.00 11.25      1TIF 770
+ATOM   1020  CG  PHE    65       0.563   4.657  25.309  1.00 12.58      1TIF 771
+ATOM   1021  CD1 PHE    65       0.566   4.388  26.672  1.00 13.57      1TIF 772
+ATOM   1022  CD2 PHE    65       1.581   5.453  24.783  1.00 14.32      1TIF 773
+ATOM   1023  CE1 PHE    65       1.565   4.910  27.499  1.00 14.62      1TIF 774
+ATOM   1024  CE2 PHE    65       2.579   5.976  25.602  1.00 13.76      1TIF 775
+ATOM   1025  CZ  PHE    65       2.570   5.702  26.960  1.00 14.12      1TIF 776
+ATOM   1026  H   PHE    65      -2.305   3.802  22.647  1.00 10.75      1TIF 777 std
+ATOM   1027  HA  PHE    65      -2.353   4.842  25.298  1.00 12.06      1TIF H   new
+ATOM   1028 1HB  PHE    65      -0.790   3.094  24.764  1.00 11.25      1TIF H   new
+ATOM   1029 2HB  PHE    65      -0.121   3.993  23.396  1.00 11.25      1TIF H   new
+ATOM   1030  HD1 PHE    65      -0.225   3.758  27.105  1.00 13.57      1TIF H   new
+ATOM   1031  HD2 PHE    65       1.596   5.671  23.705  1.00 14.32      1TIF H   new
+ATOM   1032  HE1 PHE    65       1.555   4.693  28.577  1.00 14.62      1TIF H   new
+ATOM   1033  HE2 PHE    65       3.372   6.605  25.172  1.00 13.76      1TIF H   new
+ATOM   1034  HZ  PHE    65       3.358   6.111  27.610  1.00 14.12      1TIF H   new
+ATOM   1035  N   ARG    66      -0.919   6.808  23.029  1.00 11.94      1TIF 778
+ATOM   1036  CA  ARG    66      -0.517   8.180  22.753  1.00 13.65      1TIF 779
+ATOM   1037  C   ARG    66      -1.673   9.173  22.826  1.00 12.90      1TIF 780
+ATOM   1038  O   ARG    66      -1.512  10.280  23.340  1.00 13.60      1TIF 781
+ATOM   1039  CB  ARG    66       0.179   8.257  21.400  1.00 15.17      1TIF 782
+ATOM   1040  CG  ARG    66       1.624   7.796  21.440  1.00 17.08      1TIF 783
+ATOM   1041  CD  ARG    66       2.541   8.954  21.790  1.00 19.72      1TIF 784
+ATOM   1042  NE  ARG    66       2.451   9.985  20.761  1.00 21.82      1TIF 785
+ATOM   1043  CZ  ARG    66       2.429  11.292  20.996  1.00 23.10      1TIF 786
+ATOM   1044  NH1 ARG    66       2.503  11.756  22.237  1.00 23.15      1TIF 787
+ATOM   1045  NH2 ARG    66       2.282  12.135  19.985  1.00 23.88      1TIF 788
+ATOM   1046  H   ARG    66      -0.817   6.125  22.305  1.00 11.94      1TIF 789 std
+ATOM   1047  HE  ARG    66       2.407   9.693  19.805  1.00 21.82      1TIF 790 std
+ATOM   1048 1HH1 ARG    66       2.570  11.127  23.012  1.00 23.15      1TIF 791 std
+ATOM   1049 2HH1 ARG    66       2.489  12.741  22.408  1.00 23.15      1TIF 792 std
+ATOM   1050 1HH2 ARG    66       2.185  11.794  19.050  1.00 23.88      1TIF 793 std
+ATOM   1051 2HH2 ARG    66       2.267  13.119  20.163  1.00 23.88      1TIF 794 std
+ATOM   1052  HA  ARG    66       0.186   8.474  23.546  1.00 13.65      1TIF H   new
+ATOM   1053 1HB  ARG    66      -0.375   7.642  20.675  1.00 15.17      1TIF H   new
+ATOM   1054 2HB  ARG    66       0.143   9.294  21.036  1.00 15.17      1TIF H   new
+ATOM   1055 1HG  ARG    66       1.739   6.992  22.182  1.00 17.08      1TIF H   new
+ATOM   1056 2HG  ARG    66       1.909   7.376  20.464  1.00 17.08      1TIF H   new
+ATOM   1057 1HD  ARG    66       2.261   9.373  22.768  1.00 19.72      1TIF H   new
+ATOM   1058 2HD  ARG    66       3.579   8.599  21.877  1.00 19.72      1TIF H   new
+ATOM   1059  N   PHE    67      -2.834   8.786  22.308  1.00 12.51      1TIF 795
+ATOM   1060  CA  PHE    67      -4.006   9.659  22.351  1.00 13.85      1TIF 796
+ATOM   1061  C   PHE    67      -4.380   9.955  23.802  1.00 13.26      1TIF 797
+ATOM   1062  O   PHE    67      -4.613  11.101  24.163  1.00 13.62      1TIF 798
+ATOM   1063  CB  PHE    67      -5.204   9.027  21.629  1.00 15.01      1TIF 799
+ATOM   1064  CG  PHE    67      -6.502   9.756  21.865  1.00 16.91      1TIF 800
+ATOM   1065  CD1 PHE    67      -6.755  10.978  21.244  1.00 16.62      1TIF 801
+ATOM   1066  CD2 PHE    67      -7.456   9.241  22.736  1.00 17.21      1TIF 802
+ATOM   1067  CE1 PHE    67      -7.942  11.677  21.492  1.00 17.77      1TIF 803
+ATOM   1068  CE2 PHE    67      -8.645   9.933  22.991  1.00 18.71      1TIF 804
+ATOM   1069  CZ  PHE    67      -8.886  11.152  22.365  1.00 18.06      1TIF 805
+ATOM   1070  H   PHE    67      -2.905   7.892  21.866  1.00 12.51      1TIF 806 std
+ATOM   1071  HA  PHE    67      -3.749  10.595  21.834  1.00 13.85      1TIF H   new
+ATOM   1072 1HB  PHE    67      -4.999   9.001  20.549  1.00 15.01      1TIF H   new
+ATOM   1073 2HB  PHE    67      -5.313   7.984  21.961  1.00 15.01      1TIF H   new
+ATOM   1074  HD1 PHE    67      -6.012  11.398  20.550  1.00 16.62      1TIF H   new
+ATOM   1075  HD2 PHE    67      -7.273   8.276  23.231  1.00 17.21      1TIF H   new
+ATOM   1076  HE1 PHE    67      -8.127  12.641  20.996  1.00 17.77      1TIF H   new
+ATOM   1077  HE2 PHE    67      -9.388   9.514  23.685  1.00 18.71      1TIF H   new
+ATOM   1078  HZ  PHE    67      -9.821  11.698  22.561  1.00 18.06      1TIF H   new
+ATOM   1079  N   GLU    68      -4.425   8.916  24.627  1.00 13.73      1TIF 807
+ATOM   1080  CA  GLU    68      -4.770   9.072  26.035  1.00 15.44      1TIF 808
+ATOM   1081  C   GLU    68      -3.779   9.954  26.788  1.00 16.54      1TIF 809
+ATOM   1082  O   GLU    68      -4.173  10.741  27.649  1.00 16.45      1TIF 810
+ATOM   1083  CB  GLU    68      -4.879   7.708  26.720  1.00 16.57      1TIF 811
+ATOM   1084  CG  GLU    68      -6.120   6.912  26.328  1.00 18.15      1TIF 812
+ATOM   1085  CD  GLU    68      -7.418   7.607  26.721  1.00 18.24      1TIF 813
+ATOM   1086  OE1 GLU    68      -7.498   8.137  27.848  1.00 19.42      1TIF 814
+ATOM   1087  OE2 GLU    68      -8.359   7.622  25.900  1.00 19.45      1TIF 815
+ATOM   1088  H   GLU    68      -4.219   8.002  24.277  1.00 13.73      1TIF 816 std
+ATOM   1089  HA  GLU    68      -5.747   9.576  26.064  1.00 15.44      1TIF H   new
+ATOM   1090 1HB  GLU    68      -3.985   7.115  26.477  1.00 16.57      1TIF H   new
+ATOM   1091 2HB  GLU    68      -4.881   7.856  27.810  1.00 16.57      1TIF H   new
+ATOM   1092 1HG  GLU    68      -6.114   6.745  25.241  1.00 18.15      1TIF H   new
+ATOM   1093 2HG  GLU    68      -6.081   5.922  26.806  1.00 18.15      1TIF H   new
+ATOM   1094  N   GLN    69      -2.496   9.824  26.462  1.00 18.12      1TIF 817
+ATOM   1095  CA  GLN    69      -1.459  10.621  27.113  1.00 20.47      1TIF 818
+ATOM   1096  C   GLN    69      -1.630  12.097  26.784  1.00 19.88      1TIF 819
+ATOM   1097  O   GLN    69      -1.539  12.952  27.667  1.00 20.05      1TIF 820
+ATOM   1098  CB  GLN    69      -0.064  10.153  26.689  1.00 22.75      1TIF 821
+ATOM   1099  CG  GLN    69       0.277   8.732  27.117  1.00 24.65      1TIF 822
+ATOM   1100  CD  GLN    69       0.053   8.495  28.601  1.00 26.82      1TIF 823
+ATOM   1101  OE1 GLN    69       0.649   9.338  29.433  1.00 28.73      1TIF 824 flip
+ATOM   1102  NE2 GLN    69      -0.654   7.565  28.994  1.00 27.98      1TIF 825 flip
+ATOM   1103  H   GLN    69      -2.247   9.139  25.778  1.00 18.12      1TIF 826 std
+ATOM   1104 1HE2 GLN    69      -0.796   7.424  29.974  1.00 27.98      1TIF 827 std
+ATOM   1105 2HE2 GLN    69      -1.086   6.951  28.333  1.00 27.98      1TIF 828 std
+ATOM   1106  HA  GLN    69      -1.562  10.484  28.200  1.00 20.47      1TIF H   new
+ATOM   1107 1HB  GLN    69       0.016  10.223  25.594  1.00 22.75      1TIF H   new
+ATOM   1108 2HB  GLN    69       0.684  10.840  27.111  1.00 22.75      1TIF H   new
+ATOM   1109 1HG  GLN    69      -0.336   8.023  26.541  1.00 24.65      1TIF H   new
+ATOM   1110 2HG  GLN    69       1.328   8.522  26.871  1.00 24.65      1TIF H   new
+ATOM   1111  N   GLN    70      -1.882  12.392  25.513  1.00 20.05      1TIF 829
+ATOM   1112  CA  GLN    70      -2.070  13.768  25.071  1.00 21.72      1TIF 830
+ATOM   1113  C   GLN    70      -3.366  14.338  25.621  1.00 22.64      1TIF 831
+ATOM   1114  O   GLN    70      -3.445  15.518  25.955  1.00 21.75      1TIF 832
+ATOM   1115  CB  GLN    70      -2.069  13.840  23.551  1.00 22.55      1TIF 833
+ATOM   1116  CG  GLN    70      -0.734  13.488  22.943  1.00 25.02      1TIF 834
+ATOM   1117  CD  GLN    70      -0.781  13.490  21.444  1.00 26.22      1TIF 835
+ATOM   1118  OE1 GLN    70      -0.027  14.210  20.788  1.00 27.03      1TIF 836
+ATOM   1119  NE2 GLN    70      -1.673  12.687  20.881  1.00 26.76      1TIF 837
+ATOM   1120  H   GLN    70      -1.940  11.652  24.843  1.00 20.05      1TIF 838 std
+ATOM   1121 1HE2 GLN    70      -1.780  12.739  19.888  1.00 26.76      1TIF 839 std
+ATOM   1122 2HE2 GLN    70      -2.229  12.094  21.463  1.00 26.76      1TIF 840 std
+ATOM   1123  HA  GLN    70      -1.234  14.370  25.456  1.00 21.72      1TIF H   new
+ATOM   1124 1HB  GLN    70      -2.836  13.157  23.157  1.00 22.55      1TIF H   new
+ATOM   1125 2HB  GLN    70      -2.351  14.856  23.238  1.00 22.55      1TIF H   new
+ATOM   1126 1HG  GLN    70       0.025  14.206  23.286  1.00 25.02      1TIF H   new
+ATOM   1127 2HG  GLN    70      -0.421  12.495  23.298  1.00 25.02      1TIF H   new
+ATOM   1128  N   LYS    71      -4.382  13.488  25.700  1.00 23.61      1TIF 841
+ATOM   1129  CA  LYS    71      -5.681  13.876  26.226  1.00 24.80      1TIF 842
+ATOM   1130  C   LYS    71      -5.452  14.344  27.663  1.00 25.43      1TIF 843
+ATOM   1131  O   LYS    71      -5.797  15.466  28.027  1.00 23.88      1TIF 844
+ATOM   1132  CB  LYS    71      -6.605  12.657  26.219  1.00 25.01      1TIF 845
+ATOM   1133  CG  LYS    71      -8.066  12.935  26.499  1.00 25.92      1TIF 846
+ATOM   1134  CD  LYS    71      -8.830  11.620  26.611  1.00 27.18      1TIF 847
+ATOM   1135  CE  LYS    71     -10.321  11.820  26.419  1.00 27.36      1TIF 848
+ATOM   1136  NZ  LYS    71     -10.607  12.353  25.051  1.00 28.59      1TIF 849
+ATOM   1137  H   LYS    71      -4.254  12.549  25.381  1.00 23.61      1TIF 850 std
+ATOM   1138 1HZ  LYS    71     -11.526  12.083  24.763  1.00 28.59      1TIF 851 std
+ATOM   1139 2HZ  LYS    71     -10.536  13.350  25.047  1.00 28.59      1TIF 852 std
+ATOM   1140 3HZ  LYS    71      -9.934  11.987  24.408  1.00 28.59      1TIF 853 std
+ATOM   1141  HA  LYS    71      -6.142  14.672  25.623  1.00 24.80      1TIF H   new
+ATOM   1142 1HB  LYS    71      -6.526  12.167  25.237  1.00 25.01      1TIF H   new
+ATOM   1143 2HB  LYS    71      -6.238  11.939  26.967  1.00 25.01      1TIF H   new
+ATOM   1144 1HG  LYS    71      -8.168  13.510  27.431  1.00 25.92      1TIF H   new
+ATOM   1145 2HG  LYS    71      -8.493  13.551  25.694  1.00 25.92      1TIF H   new
+ATOM   1146 1HD  LYS    71      -8.454  10.912  25.858  1.00 27.18      1TIF H   new
+ATOM   1147 2HD  LYS    71      -8.644  11.170  27.597  1.00 27.18      1TIF H   new
+ATOM   1148 1HE  LYS    71     -10.847  10.865  26.564  1.00 27.36      1TIF H   new
+ATOM   1149 2HE  LYS    71     -10.704  12.517  27.178  1.00 27.36      1TIF H   new
+ATOM   1150  N   LYS    72      -4.818  13.483  28.453  1.00 26.73      1TIF 854
+ATOM   1151  CA  LYS    72      -4.513  13.755  29.855  1.00 28.43      1TIF 855
+ATOM   1152  C   LYS    72      -3.808  15.094  30.054  1.00 28.72      1TIF 856
+ATOM   1153  O   LYS    72      -4.229  15.908  30.879  1.00 28.22      1TIF 857
+ATOM   1154  CB  LYS    72      -3.666  12.607  30.418  1.00 28.25      1TIF 858
+ATOM   1155  CG  LYS    72      -3.029  12.870  31.774  1.00 29.22      1TIF 859
+ATOM   1156  CD  LYS    72      -2.431  11.593  32.352  1.00 30.32      1TIF 860
+ATOM   1157  CE  LYS    72      -1.485  10.904  31.369  1.00 30.98      1TIF 861
+ATOM   1158  NZ  LYS    72      -0.283  11.715  31.022  1.00 30.82      1TIF 862
+ATOM   1159  H   LYS    72      -4.535  12.604  28.070  1.00 26.73      1TIF 863 std
+ATOM   1160 1HZ  LYS    72       0.256  11.236  30.329  1.00 30.82      1TIF 864 std
+ATOM   1161 2HZ  LYS    72      -0.561  12.605  30.660  1.00 30.82      1TIF 865 std
+ATOM   1162 3HZ  LYS    72       0.262  11.849  31.849  1.00 30.82      1TIF 866 std
+ATOM   1163  HA  LYS    72      -5.465  13.823  30.402  1.00 28.43      1TIF H   new
+ATOM   1164 1HB  LYS    72      -4.300  11.711  30.497  1.00 28.25      1TIF H   new
+ATOM   1165 2HB  LYS    72      -2.869  12.374  29.697  1.00 28.25      1TIF H   new
+ATOM   1166 1HG  LYS    72      -2.244  13.634  31.673  1.00 29.22      1TIF H   new
+ATOM   1167 2HG  LYS    72      -3.783  13.273  32.466  1.00 29.22      1TIF H   new
+ATOM   1168 1HD  LYS    72      -1.886  11.831  33.277  1.00 30.32      1TIF H   new
+ATOM   1169 2HD  LYS    72      -3.241  10.901  32.625  1.00 30.32      1TIF H   new
+ATOM   1170 1HE  LYS    72      -1.158   9.946  31.800  1.00 30.98      1TIF H   new
+ATOM   1171 2HE  LYS    72      -2.037  10.670  30.447  1.00 30.98      1TIF H   new
+ATOM   1172  N   GLU    73      -2.747  15.323  29.286  1.00 29.32      1TIF 867
+ATOM   1173  CA  GLU    73      -1.984  16.562  29.371  1.00 30.37      1TIF 868
+ATOM   1174  C   GLU    73      -2.829  17.793  29.067  1.00 29.33      1TIF 869
+ATOM   1175  O   GLU    73      -2.777  18.786  29.796  1.00 28.80      1TIF 870
+ATOM   1176  CB  GLU    73      -0.782  16.510  28.426  1.00 31.22      1TIF 871
+ATOM   1177  CG  GLU    73       0.509  16.027  29.076  1.00 36.06      1TIF 872
+ATOM   1178  CD  GLU    73       0.391  14.644  29.688  1.00 36.84      1TIF 873
+ATOM   1179  OE1 GLU    73      -0.096  14.539  30.837  1.00 37.81      1TIF 874
+ATOM   1180  OE2 GLU    73       0.800  13.663  29.027  1.00 37.81      1TIF 875
+ATOM   1181  H   GLU    73      -2.464  14.618  28.635  1.00 29.32      1TIF 876 std
+ATOM   1182  HA  GLU    73      -1.637  16.652  30.411  1.00 30.37      1TIF H   new
+ATOM   1183 1HB  GLU    73      -1.023  15.847  27.582  1.00 31.22      1TIF H   new
+ATOM   1184 2HB  GLU    73      -0.615  17.514  28.009  1.00 31.22      1TIF H   new
+ATOM   1185 1HG  GLU    73       1.310  16.020  28.323  1.00 36.06      1TIF H   new
+ATOM   1186 2HG  GLU    73       0.808  16.742  29.857  1.00 36.06      1TIF H   new
+ATOM   1187  N   LYS    74      -3.600  17.725  27.987  1.00 29.32      1TIF 877
+ATOM   1188  CA  LYS    74      -4.457  18.830  27.572  1.00 28.96      1TIF 878
+ATOM   1189  C   LYS    74      -5.539  19.161  28.593  1.00 28.87      1TIF 879
+ATOM   1190  O   LYS    74      -5.696  20.315  28.984  1.00 28.01      1TIF 880
+ATOM   1191  CB  LYS    74      -5.115  18.522  26.221  1.00 29.93      1TIF 881
+ATOM   1192  CG  LYS    74      -4.402  19.082  24.982  1.00 31.80      1TIF 882
+ATOM   1193  CD  LYS    74      -3.097  18.365  24.644  1.00 33.29      1TIF 883
+ATOM   1194  CE  LYS    74      -1.917  18.905  25.442  1.00 34.15      1TIF 884
+ATOM   1195  NZ  LYS    74      -1.687  20.355  25.181  1.00 35.54      1TIF 885
+ATOM   1196  H   LYS    74      -3.606  16.888  27.440  1.00 29.32      1TIF 886 std
+ATOM   1197 1HZ  LYS    74      -0.724  20.580  25.332  1.00 35.54      1TIF 887 std
+ATOM   1198 2HZ  LYS    74      -1.934  20.545  24.231  1.00 35.54      1TIF 888 std
+ATOM   1199 3HZ  LYS    74      -2.264  20.896  25.793  1.00 35.54      1TIF 889 std
+ATOM   1200  HA  LYS    74      -3.802  19.710  27.485  1.00 28.96      1TIF H   new
+ATOM   1201 1HB  LYS    74      -5.191  17.430  26.113  1.00 29.93      1TIF H   new
+ATOM   1202 2HB  LYS    74      -6.142  18.916  26.238  1.00 29.93      1TIF H   new
+ATOM   1203 1HG  LYS    74      -5.080  19.015  24.119  1.00 31.80      1TIF H   new
+ATOM   1204 2HG  LYS    74      -4.192  20.150  25.143  1.00 31.80      1TIF H   new
+ATOM   1205 1HD  LYS    74      -3.210  17.289  24.844  1.00 33.29      1TIF H   new
+ATOM   1206 2HD  LYS    74      -2.890  18.473  23.569  1.00 33.29      1TIF H   new
+ATOM   1207 1HE  LYS    74      -2.099  18.750  26.516  1.00 34.15      1TIF H   new
+ATOM   1208 2HE  LYS    74      -1.010  18.338  25.185  1.00 34.15      1TIF H   new
+ATOM   1209  N   GLU    75      -6.272  18.143  29.030  1.00 28.34      1TIF 890
+ATOM   1210  CA  GLU    75      -7.360  18.328  29.984  1.00 28.46      1TIF 891
+ATOM   1211  C   GLU    75      -6.910  18.979  31.292  1.00 27.72      1TIF 892
+ATOM   1212  O   GLU    75      -7.559  19.901  31.787  1.00 27.78      1TIF 893
+ATOM   1213  CB  GLU    75      -8.055  16.994  30.289  1.00 30.56      1TIF 894
+ATOM   1214  CG  GLU    75      -8.376  16.119  29.080  1.00 31.98      1TIF 895
+ATOM   1215  CD  GLU    75      -9.088  16.855  27.958  1.00 33.83      1TIF 896
+ATOM   1216  OE1 GLU    75     -10.247  17.282  28.162  1.00 34.62      1TIF 897
+ATOM   1217  OE2 GLU    75      -8.491  16.988  26.862  1.00 34.75      1TIF 898
+ATOM   1218  H   GLU    75      -6.053  17.228  28.690  1.00 28.34      1TIF 899 std
+ATOM   1219  HA  GLU    75      -8.069  19.016  29.501  1.00 28.46      1TIF H   new
+ATOM   1220 1HB  GLU    75      -7.416  16.418  30.975  1.00 30.56      1TIF H   new
+ATOM   1221 2HB  GLU    75      -8.993  17.205  30.824  1.00 30.56      1TIF H   new
+ATOM   1222 1HG  GLU    75      -7.440  15.693  28.689  1.00 31.98      1TIF H   new
+ATOM   1223 2HG  GLU    75      -9.002  15.275  29.406  1.00 31.98      1TIF H   new
+ATOM   1224  N   ALA    76      -5.789  18.512  31.834  1.00 26.74      1TIF 900
+ATOM   1225  CA  ALA    76      -5.261  19.036  33.093  1.00 25.83      1TIF 901
+ATOM   1226  C   ALA    76      -4.731  20.466  32.998  1.00 25.52      1TIF 902
+ATOM   1227  O   ALA    76      -4.369  21.065  34.012  1.00 27.76      1TIF 903
+ATOM   1228  CB  ALA    76      -4.174  18.117  33.625  1.00 27.26      1TIF 904
+ATOM   1229  H   ALA    76      -5.279  17.789  31.368  1.00 26.74      1TIF 905 std
+ATOM   1230  HA  ALA    76      -6.112  19.069  33.789  1.00 25.83      1TIF H   new
+ATOM   1231 1HB  ALA    76      -3.784  18.519  34.571  1.00 27.26      1TIF H   new
+ATOM   1232 2HB  ALA    76      -4.593  17.115  33.798  1.00 27.26      1TIF H   new
+ATOM   1233 3HB  ALA    76      -3.358  18.051  32.891  1.00 27.26      1TIF H   new
+ATOM   1234  N   ARG    77      -4.683  21.015  31.790  1.00 24.81      1TIF 906
+ATOM   1235  CA  ARG    77      -4.172  22.367  31.617  1.00 24.99      1TIF 907
+ATOM   1236  C   ARG    77      -5.176  23.383  31.074  1.00 24.57      1TIF 908
+ATOM   1237  O   ARG    77      -4.805  24.530  30.795  1.00 24.84      1TIF 909
+ATOM   1238  CB  ARG    77      -2.903  22.336  30.763  1.00 25.57      1TIF 910
+ATOM   1239  CG  ARG    77      -1.735  21.640  31.455  1.00 25.24      1TIF 911
+ATOM   1240  CD  ARG    77      -0.545  21.483  30.525  1.00 26.13      1TIF 912
+ATOM   1241  NE  ARG    77       0.659  21.026  31.219  1.00 27.33      1TIF 913
+ATOM   1242  CZ  ARG    77       0.824  19.811  31.737  1.00 27.87      1TIF 914
+ATOM   1243  NH1 ARG    77      -0.142  18.904  31.654  1.00 28.29      1TIF 915
+ATOM   1244  NH2 ARG    77       1.976  19.489  32.313  1.00 28.36      1TIF 916
+ATOM   1245  H   ARG    77      -5.011  20.518  30.987  1.00 24.81      1TIF 917 std
+ATOM   1246  HE  ARG    77       1.421  21.669  31.303  1.00 27.33      1TIF 918 std
+ATOM   1247 1HH1 ARG    77      -0.997  19.128  31.187  1.00 28.29      1TIF 919 std
+ATOM   1248 2HH1 ARG    77      -0.014  17.987  32.033  1.00 28.29      1TIF 920 std
+ATOM   1249 1HH2 ARG    77       2.722  20.155  32.345  1.00 28.36      1TIF 921 std
+ATOM   1250 2HH2 ARG    77       2.089  18.575  32.703  1.00 28.36      1TIF 922 std
+ATOM   1251  HA  ARG    77      -3.944  22.729  32.630  1.00 24.99      1TIF H   new
+ATOM   1252 1HB  ARG    77      -3.119  21.822  29.814  1.00 25.57      1TIF H   new
+ATOM   1253 2HB  ARG    77      -2.612  23.367  30.512  1.00 25.57      1TIF H   new
+ATOM   1254 1HG  ARG    77      -1.435  22.219  32.341  1.00 25.24      1TIF H   new
+ATOM   1255 2HG  ARG    77      -2.056  20.650  31.811  1.00 25.24      1TIF H   new
+ATOM   1256 1HD  ARG    77      -0.799  20.767  29.730  1.00 26.13      1TIF H   new
+ATOM   1257 2HD  ARG    77      -0.338  22.446  30.036  1.00 26.13      1TIF H   new
+ATOM   1258  N   LYS    78      -6.441  22.981  30.964  1.00 24.47      1TIF 923
+ATOM   1259  CA  LYS    78      -7.493  23.870  30.469  1.00 24.36      1TIF 924
+ATOM   1260  C   LYS    78      -8.705  23.847  31.407  1.00 24.43      1TIF 925
+ATOM   1261  O   LYS    78      -9.462  24.840  31.434  1.00 24.46      1TIF 926
+ATOM   1262  CB  LYS    78      -7.929  23.473  29.048  1.00 23.92      1TIF 927
+ATOM   1263  CG  LYS    78      -8.811  22.229  28.985  1.00 24.59      1TIF 928
+ATOM   1264  CD  LYS    78      -9.336  21.990  27.578  1.00 25.41      1TIF 929
+ATOM   1265  CE  LYS    78     -10.237  20.762  27.522  1.00 25.81      1TIF 930
+ATOM   1266  NZ  LYS    78     -10.551  20.366  26.118  1.00 27.25      1TIF 931
+ATOM   1267  OXT LYS    78      -8.895  22.827  32.102  1.00 25.02      1TIF 932
+ATOM   1268  H   LYS    78      -6.746  22.075  31.256  1.00 24.47      1TIF 933 std
+ATOM   1269 1HZ  LYS    78     -11.142  19.559  26.113  1.00 27.25      1TIF 934 std
+ATOM   1270 2HZ  LYS    78     -11.030  21.117  25.663  1.00 27.25      1TIF 935 std
+ATOM   1271 3HZ  LYS    78      -9.707  20.152  25.627  1.00 27.25      1TIF 936 std
+ATOM   1272  HA  LYS    78      -7.081  24.890  30.438  1.00 24.36      1TIF H   new
+ATOM   1273 1HB  LYS    78      -8.472  24.316  28.595  1.00 23.92      1TIF H   new
+ATOM   1274 2HB  LYS    78      -7.031  23.302  28.436  1.00 23.92      1TIF H   new
+ATOM   1275 1HG  LYS    78      -8.236  21.352  29.317  1.00 24.59      1TIF H   new
+ATOM   1276 2HG  LYS    78      -9.657  22.341  29.680  1.00 24.59      1TIF H   new
+ATOM   1277 1HD  LYS    78      -9.896  22.874  27.238  1.00 25.41      1TIF H   new
+ATOM   1278 2HD  LYS    78      -8.491  21.859  26.886  1.00 25.41      1TIF H   new
+ATOM   1279 1HE  LYS    78      -9.746  19.924  28.038  1.00 25.81      1TIF H   new
+ATOM   1280 2HE  LYS    78     -11.173  20.969  28.062  1.00 25.81      1TIF H   new
+TER    1280      LYS    78                                              1TIF 937
+HETATM 1281 PB   PBM   101       9.541 -17.077  13.425  0.92  8.03      1TIF 938
+HETATM 1282  C1  PBM   101      10.468 -16.529  15.323  1.03 15.89      1TIF 939
+HETATM 1283  C2  PBM   101       7.743 -18.366  13.406  1.03 16.49      1TIF 940
+HETATM 1284  C3  PBM   101      10.488 -16.428  11.559  1.03 16.41      1TIF 941
+HETATM 1285 1H1  PBM   101      11.343 -15.890  15.133  1.03 15.89      1TIF H   new
+HETATM 1286 2H1  PBM   101      10.787 -17.439  15.852  1.03 15.89      1TIF H   new
+HETATM 1287 3H1  PBM   101       9.742 -15.982  15.942  1.03 15.89      1TIF H   new
+HETATM 1288 1H2  PBM   101       7.422 -18.533  12.367  1.03 16.49      1TIF H   new
+HETATM 1289 2H2  PBM   101       6.933 -17.875  13.966  1.03 16.49      1TIF H   new
+HETATM 1290 3H2  PBM   101       7.979 -19.332  13.876  1.03 16.49      1TIF H   new
+HETATM 1291 1H3  PBM   101       9.897 -16.786  10.703  1.03 16.41      1TIF H   new
+HETATM 1292 2H3  PBM   101      11.505 -16.842  11.500  1.03 16.41      1TIF H   new
+HETATM 1293 3H3  PBM   101      10.538 -15.329  11.535  1.03 16.41      1TIF H   new
+HETATM 1294 CL    CL   102      11.036 -19.548  13.264  1.09  9.30      1TIF 942
+HETATM 1295 CL    CL   103      -0.053  -1.068  14.538  0.64 11.91      1TIF 943
+HETATM 1296  O   HOH   206       1.645 -13.680  34.298  1.46 16.65      1TIF 944
+HETATM 1297 1H   HOH   206       1.596 -13.924  35.267  0.00 16.65      1TIF 945 std
+HETATM 1298 2H   HOH   206       2.630 -13.584  34.153  0.00 16.65      1TIF 946 std
+HETATM 1299  O   HOH   207      15.444   2.976  29.458  0.95 11.06      1TIF 947
+HETATM 1300 1H   HOH   207      15.973   3.491  30.132  0.00 11.06      1TIF 948 std
+HETATM 1301 2H   HOH   207      14.510   3.271  29.661  0.00 11.06      1TIF 949 std
+HETATM 1302  O   HOH   210      -3.726  -0.984  15.384  1.02  9.17      1TIF 950
+HETATM 1303 1H   HOH   210      -4.058  -1.648  16.054  0.00  9.17      1TIF 951 std
+HETATM 1304 2H   HOH   210      -4.334  -1.133  14.604  0.00  9.17      1TIF 952 std
+HETATM 1305  O   HOH   211      -8.867  -1.265  21.303  1.28 25.74      1TIF 953
+HETATM 1306 1H   HOH   211      -8.404  -0.379  21.309  0.00 25.74      1TIF 954 std
+HETATM 1307 2H   HOH   211      -8.976  -1.452  22.279  0.00 25.74      1TIF 955 std
+HETATM 1308  O   HOH   212      19.487  -6.587  22.468  1.22 25.32      1TIF 956
+HETATM 1309 1H   HOH   212      18.559  -6.742  22.806  0.00 25.32      1TIF 957 std
+HETATM 1310 2H   HOH   212      20.058  -7.073  23.130  0.00 25.32      1TIF 958 std
+HETATM 1311  O   HOH   213      -3.320  -1.648  24.375  0.96 16.19      1TIF 959
+HETATM 1312 1H   HOH   213      -3.193  -2.166  25.221  0.00 16.19      1TIF 960 std
+HETATM 1313 2H   HOH   213      -4.318  -1.611  24.327  0.00 16.19      1TIF 961 std
+HETATM 1314  O   HOH   215       9.561 -10.524  30.242  1.16 14.68      1TIF 962
+HETATM 1315 1H   HOH   215       9.617  -9.991  31.087  0.00 14.68      1TIF 963 std
+HETATM 1316 2H   HOH   215       9.088  -9.895  29.625  0.00 14.68      1TIF 964 std
+HETATM 1317  O   HOH   216       4.734 -15.783  32.257  1.28 21.58      1TIF 965
+HETATM 1318 1H   HOH   216       5.056 -16.536  31.684  0.00 21.58      1TIF 966 std
+HETATM 1319 2H   HOH   216       5.319 -15.032  31.951  0.00 21.58      1TIF 967 std
+HETATM 1320  O   HOH   221      -1.505   5.280  30.284  0.96 40.32      1TIF 968
+HETATM 1321 1H   HOH   221      -1.666   6.235  30.035  0.00 40.32      1TIF 969 std
+HETATM 1322 2H   HOH   221      -0.739   5.066  29.679  0.00 40.32      1TIF 970 std
+HETATM 1323  O   HOH   222     -12.360  11.193  21.296  0.33 16.47      1TIF 971
+HETATM 1324 1H   HOH   222     -11.697  11.553  20.640  0.00 16.47      1TIF 972 std
+HETATM 1325 2H   HOH   222     -12.164  10.213  21.272  0.00 16.47      1TIF 973 std
+HETATM 1326  O   HOH   223      -2.528 -14.269  24.444  1.03 32.34      1TIF 974
+HETATM 1327 1H   HOH   223      -2.880 -15.123  24.062  0.00 32.34      1TIF 975 std
+HETATM 1328 2H   HOH   223      -2.080 -13.842  23.658  0.00 32.34      1TIF 976 std
+HETATM 1329  O   HOH   226      11.491   4.287  22.761  1.07 11.16      1TIF 977
+HETATM 1330 1H   HOH   226      11.397   4.976  23.480  0.00 11.16      1TIF 978 std
+HETATM 1331 2H   HOH   226      11.164   3.468  23.232  0.00 11.16      1TIF 979 std
+HETATM 1332  O   HOH   227      12.866 -16.299  18.834  1.63 18.08      1TIF 980
+HETATM 1333 1H   HOH   227      13.223 -16.499  17.921  0.00 18.08      1TIF 981 std
+HETATM 1334 2H   HOH   227      12.335 -17.139  18.942  0.00 18.08      1TIF 982 std
+HETATM 1335  O   HOH   230      -0.226  -5.589  14.683  0.72 12.85      1TIF 983
+HETATM 1336 1H   HOH   230      -0.368  -5.544  13.694  0.00 12.85      1TIF 984 std
+HETATM 1337 2H   HOH   230       0.731  -5.873  14.745  0.00 12.85      1TIF 985 std
+HETATM 1338  O   HOH   231      20.478 -10.511  24.875  0.67 25.65      1TIF 986
+HETATM 1339 1H   HOH   231      21.263 -10.077  25.317  0.00 25.65      1TIF 987 std
+HETATM 1340 2H   HOH   231      20.837 -10.664  23.954  0.00 25.65      1TIF 988 std
+HETATM 1341  O   HOH   233      -2.553 -15.557  20.896  2.53 30.13      1TIF 989
+HETATM 1342 1H   HOH   233      -1.556 -15.476  20.881  0.00 30.13      1TIF 990 std
+HETATM 1343 2H   HOH   233      -2.861 -14.779  20.348  0.00 30.13      1TIF 991 std
+HETATM 1344  O   HOH   234      -7.053  -1.734  26.518  0.86 10.05      1TIF 992
+HETATM 1345 1H   HOH   234      -7.855  -1.427  26.006  0.00 10.05      1TIF 993 std
+HETATM 1346 2H   HOH   234      -7.458  -1.875  27.421  0.00 10.05      1TIF 994 std
+HETATM 1347  O   HOH   235      -8.818   5.357  24.378  1.34 22.63      1TIF 995
+HETATM 1348 1H   HOH   235      -8.471   5.703  25.250  0.00 22.63      1TIF 996 std
+HETATM 1349 2H   HOH   235      -9.781   5.203  24.597  0.00 22.63      1TIF 997 std
+HETATM 1350  O   HOH   240      10.319  11.231  25.026  0.81 31.21      1TIF 998
+HETATM 1351 1H   HOH   240      10.552  11.025  24.076  0.00 31.21      1TIF 999 std
+HETATM 1352 2H   HOH   240      11.198  11.615  25.310  0.00 31.21      1TIF1000 std
+HETATM 1353  O   HOH   242      -6.572  -2.128  19.850  1.30 26.16      1TIF1001
+HETATM 1354 1H   HOH   242      -6.439  -3.113  19.738  0.00 26.16      1TIF1002 std
+HETATM 1355 2H   HOH   242      -7.505  -2.063  20.205  0.00 26.16      1TIF1003 std
+HETATM 1356  O   HOH   248      -3.137   2.794  17.002  0.63 11.08      1TIF1004
+HETATM 1357 1H   HOH   248      -4.098   2.969  16.790  0.00 11.08      1TIF1005 std
+HETATM 1358 2H   HOH   248      -2.866   2.283  16.186  0.00 11.08      1TIF1006 std
+HETATM 1359  O   HOH   254       1.812  -3.894  33.276  0.76 25.81      1TIF1007
+HETATM 1360 1H   HOH   254       2.591  -3.303  33.068  0.00 25.81      1TIF1008 std
+HETATM 1361 2H   HOH   254       2.375  -4.687  33.508  0.00 25.81      1TIF1009 std
+HETATM 1362  O   HOH   256      10.852 -16.629  26.430  0.98 26.19      1TIF1010
+HETATM 1363 1H   HOH   256      10.200 -15.891  26.603  0.00 26.19      1TIF1011 std
+HETATM 1364 2H   HOH   256      11.393 -16.275  25.667  0.00 26.19      1TIF1012 std
+HETATM 1365  O   HOH   260      -4.171  -0.602  10.794  0.48 24.56      1TIF1013
+HETATM 1366 1H   HOH   260      -4.880  -1.200  10.420  0.00 24.56      1TIF1014 std
+HETATM 1367 2H   HOH   260      -3.325  -1.089  10.576  0.00 24.56      1TIF1015 std
+HETATM 1368  O   HOH   263       2.701  -5.015  13.412  1.42 27.78      1TIF1016
+HETATM 1369 1H   HOH   263       1.965  -4.362  13.234  0.00 27.78      1TIF1017 std
+HETATM 1370 2H   HOH   263       3.043  -4.635  14.272  0.00 27.78      1TIF1018 std
+HETATM 1371  O   HOH   267      14.122 -16.007  21.202  1.26 36.88      1TIF1019
+HETATM 1372 1H   HOH   267      13.555 -16.407  21.922  0.00 36.88      1TIF1020 std
+HETATM 1373 2H   HOH   267      13.647 -16.235  20.352  0.00 36.88      1TIF1021 std
+HETATM 1374  O   HOH   268      19.479  -7.516  14.890  0.93 30.42      1TIF1022
+HETATM 1375 1H   HOH   268      19.476  -6.555  15.165  0.00 30.42      1TIF1023 std
+HETATM 1376 2H   HOH   268      18.820  -7.930  15.518  0.00 30.42      1TIF1024 std
+HETATM 1377  O   HOH   271       5.567 -16.471  16.711  1.34 28.67      1TIF1025
+HETATM 1378 1H   HOH   271       5.311 -16.839  17.605  0.00 28.67      1TIF1026 std
+HETATM 1379 2H   HOH   271       6.502 -16.150  16.863  0.00 28.67      1TIF1027 std
+HETATM 1380  O   HOH   273       7.701  -0.002  11.352  0.73 18.79      1TIF1028
+HETATM 1381 1H   HOH   273       8.214  -0.113  10.501  0.00 18.79      1TIF1029 std
+HETATM 1382 2H   HOH   273       7.350   0.931  11.271  0.00 18.79      1TIF1030 std
+HETATM 1383  O   HOH   275      21.307  -5.540  19.043  1.19 21.73      1TIF1031
+HETATM 1384 1H   HOH   275      21.580  -5.081  18.198  0.00 21.73      1TIF1032 std
+HETATM 1385 2H   HOH   275      22.199  -5.797  19.414  0.00 21.73      1TIF1033 std
+HETATM 1386  O   HOH   277      -5.724  -4.132  26.097  0.59 23.58      1TIF1034
+HETATM 1387 1H   HOH   277      -4.771  -3.862  26.234  1.00 23.58      1TIF1035 std
+HETATM 1388 2H   HOH   277      -6.199  -3.267  26.258  1.00 23.58      1TIF1036 std
+HETATM 1389  O   HOH   278      -4.564 -10.764  14.542  0.87 23.58      1TIF1037
+HETATM 1390 1H   HOH   278      -4.584 -11.270  15.405  1.00 23.58      1TIF1038 std
+HETATM 1391 2H   HOH   278      -3.625 -10.918  14.233  1.00 23.58      1TIF1039 std
+HETATM 1392  O   HOH   280       5.678 -16.831  25.017  0.47 23.58      1TIF1040
+HETATM 1393 1H   HOH   280       4.965 -17.311  25.527  1.00 23.58      1TIF1041 std
+HETATM 1394 2H   HOH   280       6.476 -16.976  25.603  1.00 23.58      1TIF1042 std
+HETATM 1395  O   HOH   281       1.169  -3.236  14.954  0.44 23.58      1TIF1043
+HETATM 1396 1H   HOH   281       0.432  -2.570  15.072  1.00 23.58      1TIF1044 std
+HETATM 1397 2H   HOH   281       0.711  -4.060  15.288  1.00 23.58      1TIF1045 std
+HETATM 1398  O   HOH   282      -3.055  -3.213  26.607  0.40 23.58      1TIF1046
+HETATM 1399 1H   HOH   282      -3.316  -3.502  27.528  1.00 23.58      1TIF1047 std
+HETATM 1400 2H   HOH   282      -2.064  -3.333  26.667  1.00 23.58      1TIF1048 std
+HETATM 1401  O   HOH   283      -2.383 -12.025  28.751  1.02 23.58      1TIF1049
+HETATM 1402 1H   HOH   283      -2.316 -12.422  27.836  1.00 23.58      1TIF1050 std
+HETATM 1403 2H   HOH   283      -2.789 -12.775  29.273  1.00 23.58      1TIF1051 std
+HETATM 1404  O   HOH   284      -3.194   2.316  11.010  0.79 23.58      1TIF1052
+HETATM 1405 1H   HOH   284      -3.908   2.671  10.407  1.00 23.58      1TIF1053 std
+HETATM 1406 2H   HOH   284      -3.477   1.364  11.127  1.00 23.58      1TIF1054 std
+CONECT 1281 1282 1283 1284                                              1TIF1055
+CONECT 1282 1281                                                        1TIF1056
+CONECT 1283 1281                                                        1TIF1057
+CONECT 1284 1281                                                        1TIF1058
+END                                                                     1TIF1060
