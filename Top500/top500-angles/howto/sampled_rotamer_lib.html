@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>HOWTO: Create sampled rotamer libraries</title>
+</head>
+<body>
+<h1 style="text-align: center;">HOWTO: Create sampled rotamer libraries</h1>
+This document details how to use the Richardson lab rotamer data to
+create a sampled library of rotamers, <span style="font-style: italic;">e.g.</span>
+for protein design calculations.<br>
+<br>
+There is already a target in the <span style="font-family: monospace;">Makefile</span>,
+called <span style="font-family: monospace;">rotasamp</span>, for
+constructing sampled rotamer libraries. You can start with this target
+and further modify it to meet your needs. (Found at about line 290 as
+of August 2004.) Unless you've run <span
+ style="font-family: monospace;">make clean</span> or otherwise
+corrupted the original distribution, you shouldn't have to run any
+other targets (<span style="font-style: italic;">e.g.</span> <span
+ style="font-family: monospace;">make rota</span>) first.<br>
+<br>
+The calculation proceeds in two steps. In the first step, a <span
+ style="font-family: monospace;">.list</span> file is generated.
+Samples can be found in the <span style="font-family: monospace;">rotasamp/</span>
+folder. Each line corresponds to one sample point, and lists all the
+chi angles for that sidechain. The final two numbers, cryptically
+labeled "main" and "check", are for debugging and calculating a
+weighting factor or figure of merit for each rotamer. If you're
+generating your own list files, you can set them to 1.0 and ignore
+them. In the second step, the list file is transformed into a PDB file.
+One residue entry is created for each line in the list file, with its
+chi angles twisted to the values specified in the list.<br>
+<br>
+By creating your own list files, you can transform any collection of
+chi angle specifications into PDB-format conformers for use in your
+application. This is accomplished with the (included) Java program <span
+ style="font-family: monospace;">chiropraxis.sc.RotamerSampler</span>,
+abbreviated C_SAMP in the makefile. You will need a Java virtual
+machine installed; see <a href="http://java.sun.com">http://java.sun.com</a>
+if you need one.<br>
+<br>
+The default mechanism for creating list files is the one shown in the
+makefile: the Java program <span style="font-family: monospace;">silk.util.RotamerSampler</span>.
+Given the statistical and percentile data from the original rotamer
+calculations (see <a href="../README.html">the README file</a> for a
+refresher), it creates sample points a regular grid, provided they fall
+inside the contour lines at a specified percentile level. For example,
+it might sample leucine rotamers at five-degree intervals on a
+chi1-chi2 grid, and keep only those that score at or above 10% on the
+rotamer quality evaluation. It then writes out the statistical value as
+"main" and the percentile value as "check", along with the chi angles.
+"Main" is used in the second step to provide a figure of merit for each
+conformation.<br>
+</body>
+</html>

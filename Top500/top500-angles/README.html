@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>Top500-Angle README</title>
+  <meta name="author" content="Ian W. Davis">
+</head>
+<body>
+<h1 align="center">README for Top500 angle data <br>
+(Ramachandran &amp; rotamers)</h1>
+<hr width="100%" size="2">
+<h2>What's in this distribution</h2>
+<ul>
+  <li><tt>README.html</tt> - this file (supplemental documentation and
+notes for posterity ;)</li>
+  <li><span style="font-family: monospace;">howto/</span> - additional
+documentation on how to use this data for specific tasks<br>
+  </li>
+  <li><a href="StructValid.pdf"><tt>StructValid.pdf</tt></a> - the 2003
+paper by Lovell, <i>et al.</i> that fully describes the Ramachandran
+data, including the density-dependent <a href="#Gaussians_vs._cosines">smoothing</a>
+method. The rotamer data has not yet been published (as of April 2003),
+but the information on materials &amp; methods is equally applicable.
+Please, read the paper carefully before trying to use this data in your
+own research! <a href="#Nomenclature_changes">[details]</a></li>
+  <li><a href="PenultRotLib.pdf"><tt>PenultRotLib.pdf</tt></a> - the
+2000 paper by Lovell, <i>et al.</i> that describes an earlier analysis
+of sidechain rotamers. It focuses on identifying and naming true
+rotamers (<i>i.e.</i>, energy minima) and so is complementary to this
+data, which defines a probability distribution over all possible
+conformations.<br>
+  </li>
+  <li><tt>Makefile</tt> - a file that will re-create <tt>stat/</tt>, <tt>pct/</tt>,
+and <tt>kin/</tt> from the data in <tt>srcdata/</tt></li>
+  <li><tt>lib/</tt> - Java software used to smooth the input data (Silk)</li>
+  <li><tt>scriptbin/</tt> - a collection of AWK scripts that were used
+to prepare the input data</li>
+  <li><tt>srcdata/</tt> - quality-filtered input data that was
+extracted
+from the Top500 database<br>
+  </li>
+  <li><tt>stat/</tt> - raw density traces that can be used for
+statistical purposes, like Boltzmann energy potentials <a
+ href="#The_stat_folder">[details]</a></li>
+  <li><tt>pct/</tt> - density traces that have been converted so as to
+be useful in determing whether given conformations are allowed or
+outlier <a href="#The_pct_folder">[details]</a></li>
+  <li><tt>kin/</tt> - kinemage format illustrations for exploring the
+data interactively <a href="#The_kin_folder">[details]</a></li>
+</ul>
+<h2>What's NOT in this distribution</h2>
+<ul>
+  <li>The Top500 database of PDB files - available from <a
+ href="http://kinemage.biochem.duke.edu">http://kinemage.biochem.duke.edu</a></li>
+  <li>The <tt>kin2Dcont</tt> and <tt>kin3Dcont</tt> contouring
+software
+- available from <a href="http://kinemage.biochem.duke.edu">http://kinemage.biochem.duke.edu</a></li>
+</ul>
+<hr width="100%" size="2">
+<h2>About the data</h2>
+The data used for both the Ramachandran and rotamer studies is drawn
+from our <b>Top500 database</b>, a selection of 500 files from the <a
+ href="http://www.rcsb.org/pdb/">Protein Data Bank</a> that are high
+resolution (1.8 &Aring; or better), low homology, and high quality (see
+<a href="http://kinemage.biochem.duke.edu/databases/top500.php">http://kinemage.biochem.duke.edu/databases/top500.php</a>
+for details).<br>
+<br>
+This gives us more than 100,000 residues to analyze. To remove some of
+the noisiest data, residues with <b>high B factors are discarded</b>.
+For the Ramachandran plots, only residues where B &lt; 30 for all
+mainchain atoms are considered. For the rotamer plots, only residues
+where B &lt; 40 for all atoms are considered. As described in <a
+ href="PenultRotLib.pdf">The Penultimate Rotamer Library</a> (2000),
+this measure is found to significantly sharpen the distribution. Unlike
+that analysis, however, data is <i>not</i> filtered on the basis of
+all-atom contacts.<br>
+<br>
+Because glycine is a symmetrical molecule, the local physical
+constraints on its phi-psi preferences should also be symmetrical.
+However, natural selection favors glycines only when they are
+necessary, and so there is a frequency bias towards L-alpha in the
+natural distribution. To generate our density traces, we <b>symmetrize
+Gly</b> -- for each sample at (phi, psi) we generate a duplicate at
+(-phi, -psi). The <tt>kins/</tt> folder shows the natural (asymmetric)
+distribution of points overlaid on the symmetrized contours. The
+density
+data in the <tt>pct/</tt> and <tt>stat/</tt> folders reflects the
+symmetrized data.<br>
+<br>
+As described in <a href="PenultRotLib.pdf">The Penultimate Rotamer
+Library</a>, previous rotamer libraries have included some physically
+impossible "decoy" rotamers for leucine that fill roughly the same
+space as real leucine rotamers. We <b>excise Leu decoy rotamers</b>
+tt*
+and mp* by discarding any data points that fall within a 34&deg;-radius
+circle around (214.3, 215.6) or within a 40&deg;-radius circle around
+(253, 10.4).<br>
+<br>
+After inspecting the distributions for phenylalanine and tyrosine, we
+conclude that there is no observable difference. Therefore, in order to
+improve the quality of the data, rotamer data for <b>Phe and Tyr are
+merged</b>.<br>
+<br>
+<h2>Things left undone</h2>
+There are some issues that have not yet been addressed in this
+analysis. For <i>cis</i> prolines, the allowed rotamers and
+Ramachandran
+values are a subset of those for the <i>trans</i> distribution, but
+here they are not treated separately. This data analysis also makes no
+allowance for the secondary structure dependence of rotamers. This
+issue was addressed only for location and frequency of central rotamer
+values in&nbsp;<a href="PenultRotLib.pdf">The Penultimate Rotamer
+Library</a>, (with separately defined helix, sheet, and plus-phi
+rotamer locations for Asp and Asn, and separate occurancy frequencies
+for rotamers of other residues). We plan a treatment of this problem
+for the full distributions in the near future.<br>
+<hr width="100%" size="2">
+<h2><a name="Nomenclature_changes"></a>Nomenclature changes</h2>
+There has been an important change in the way that we describe the data
+since publication of <a href="StructValid.pdf">the Ramachandran paper</a>.
+In that paper, we report contour levels by the percentage of data
+points they include; for example, the favored/allowed boundary for
+Ramachandran regions was defined to be the 98% contour. This has the
+weird side effect that high numbers describe areas of low data density,
+and vice versa.<br>
+<br>
+We are now classifying density levels by the fraction of data points <i>excluded</i>
+(that is, the fraction of data points lying in areas of lower density
+than the area under consideration). Therefore, low numbers represent
+low
+density, and high numbers represent high density. The scale also now
+ranges from 0.0 to 1.0, rather than from 100% to 0%, so the
+favored/allowed Ramachandran boundary is now set at 0.02. The new
+scheme
+is used to describe data in the <tt>pct/</tt> folder.<br>
+<br>
+Another important change relates to the way the smoothing functions are
+specified. In the paper, we give the maximum radius of the cosine
+function, the distance at which it falls to zero. The software now uses
+the half-width (<i>i.e.</i>, radius) at half-height. This is consistent
+with earlier smoothing software we produced, and more importantly,
+allows one specification to refer to roughly equivalent Gaussian and
+cosine distribution functions. (Because a Gaussian only approaches
+zero,
+no maximum radius can be defined for it.)<br>
+<hr width="100%" size="2">
+<h2><a name="Gaussians_vs._cosines"></a>Gaussians vs. cosines</h2>
+In analyzing these discrete data points, we build up a function that
+represents the density of data points in each small local region
+[specified as a vector of angles -- (phi, psi) or (chi1, chi2, ...)] --
+a probability distribution. We do that by representing each data point
+as a Gaussian-like function and summing those up to get the overall
+distribution. The result is a density trace, something like a histogram
+but without some of the histogram's limitations. (See our <a
+ href="StructValid.pdf">Structural Validation</a> paper for a full
+description.)<br>
+<br>
+In fact, we don't actually use a Gaussian (something like exp[-x<sup>2</sup>])
+-- we use one period of a cosine function, from -pi to +pi. The curves
+are a similar shape, and they produce almost the same result. In fact,
+you can regenerate the data using Gaussian smoothing instead of cosines
+by changing the <tt>-cosine=#</tt> switches in the <tt>Makefile</tt>
+to <tt>-gaussian=#</tt>
+switches instead.<br>
+<br>
+However, the choice of smoothing function has far less impact on the
+outcome than does the use of our density-dependent smoothing algorithm.
+The problem with the traditional, one-pass, Gaussian-smoothing analysis
+is that it blurs out the boundaries of the Ramachandran plot. Some
+regions, like the shallow "beach" in the lower-left of the general
+plot, have very sparse populations and soft boundaries. Other regions,
+like alpha helix, are "cliffs" that have very high populations (many
+orders of magnitude above the other regions) with very hard boundaries
+(the population falls to zero just a few degrees to the right). The
+traditional analysis is incapable of treating both in a way that gives
+in physically realistic results -- either the beach is left too lumpy
+or the cliff is smeared out.<br>
+<br>
+It is for this reason that we developed the density-dependent smoothing
+algorithm, which smooths the dense regions less and the sparse regions
+more. In this application the cosine has some advantages over the
+Gaussian, because it falls to zero at a finite distance. Thus, it can
+be computed without truncation, so its volume really sums to 1. Also,
+the Gaussian must be evaluated further out [we use 4.5 halfwidths as
+the limit (where the value falls to ~ 1e-6 of its maximum), rather than
+just 2 for the cosine] in order to get a good approximation, which
+means it can take substantially longer to compute, particularly for
+higher-dimensional data spaces. Finally, because its tails actually go
+to zero, the cosine is less prone to smearing out the cliffs than the
+Gaussian is. The suggestion for constructing a density trace using
+cosines was taken from the NCSS statistical analysis software package;
+see <a href="http://exploringdata.cqu.edu.au/den_trac.htm">http://exploringdata.cqu.edu.au/den_trac.htm</a>.<br>
+<br>
+As far as we know,&nbsp;the density-dependent smoothing algorithm is
+completely novel; no existing statistical technique could be discovered
+to treat this type of problem. Our approach attempts to better
+represent what we believe is the true underlying structure of the
+(noisy) data. Thus, this analysis is almost like image processing, in
+which one filters and manipulates a noisy photograph in an attempt to
+extract a clearer image of the original subject. The resulting image is
+quite different from the original photo, but (hopefully) is a better
+representation of <i>reality</i> than the original data was.
+<hr width="100%" size="2">
+<h2>Data format</h2>
+All the data in the <tt>stat/</tt>, <tt>pct/</tt>, and <tt>kin/</tt>
+folders is stored in plain text (ASCII) formats with Unix-style (\n)
+linebreaks.<br>
+<hr width="100%" size="2">
+<h2><a name="The_stat_folder"></a>The <tt>stat/</tt> folder</h2>
+This folder holds the raw density traces for the Ramachandran and
+rotamer data, where each sample is taken directly from the probability
+distribution that we calculate in two passes as a sum of cosines. The
+values have been normalized such that each point contributes a single
+unit of area/volume/hyper-volume to the density trace (<i>e.g.</i>, for
+the Ramachandran plot, each point contributed 1.0 cubic degrees to the
+volume enclosed by the distribution).<br>
+<br>
+Each <tt>.data</tt> file begins with a series of comments describing
+the size and spacing of the grid of samples. Samples are written one
+per line, with the full coordinates (<i>e.g.</i>, phi and psi; or chi1,
+chi2, ...) followed by the density value. This format means the data
+can be fed into the <tt>kinNDcont</tt> programs without further
+manipulation.<br>
+<br>
+This data would be appropriate for statistical applications, such as
+predicting the energy difference between two conformational states.
+Normalizing the data in a way that is appropriate to the application at
+hand is left to the user.<br>
+<br>
+Note that the Ramachandran plots are heavily biased by inter-residue
+interactions -- secondary structure. For this reason, alpha helix and
+beta sheet conformations are greatly over-represented relative to their
+individual energies. You may find it more helpful to work with the data
+labeled "nosec," which has all residues in repetitive secondary
+structure removed.<br>
+<hr width="100%" size="2">
+<h2><a name="The_pct_folder"></a>The <tt>pct/</tt> folder</h2>
+This folder holds density traces that have been converted to <a
+ href="#Nomenclature_changes">fraction-excluded</a>. Using the data
+from <tt>stat/</tt>, we calculate for each sample what fraction of
+data
+points occur at lower density than that sample, and then output that
+fraction. This data is appropriate for lookup tables that determine
+whether, <i>e.g.</i>, a given residue is in the favored (&gt;0.02),
+allowed, or outlier (&lt;0.002; &lt;0.0005 for general case) region of
+the Ramachandran plot. Again, the files are self-describing.<br>
+<hr width="100%" size="2">
+<h2><a name="The_kin_folder"></a>The <tt>kin/</tt> folder</h2>
+This folder holds kinemage illustrations of the data from <tt>pct/</tt>.
+View them with Mage or KiNG (downloadable from <a
+ href="http://kinemage.biochem.duke.edu">http://kinemage.biochem.duke.edu</a>).
+<hr width="100%" size="2"><small><i>Last updated 23 Apr 2003 by Ian W.
+Davis</i></small><br>
+</body>
+</html>
