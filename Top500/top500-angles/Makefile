@@ -1,5 +1,5 @@
 # (jEdit options) :folding=explicit:collapseFolds=1:
-.PHONY : all rama rama-stat rama-pct rama-kin rota rota1 rota1-stat rota1-pct rota1-kin rota2 rota2-stat rota2-pct rota2-kin rota3 rota3-stat rota3-pct rota3-kin rota4 rota4-stat rota4-pct rota4-kin clean
+.PHONY : all rama rama-stat rama-pct rama-kin psiphi psiphi-stat psiphi-energy psiphi-pct psiphi-kin rota rota1 rota1-stat rota1-pct rota1-kin rota2 rota2-stat rota2-pct rota2-kin rota3 rota3-stat rota3-pct rota3-kin rota4 rota4-stat rota4-pct rota4-kin clean
 
 # Takes about 15 minutes to 'make all'
 all : rama rota
@@ -68,6 +68,64 @@ rama-kin :
 	$(SILK) $(RAMA_OTHER_OPT) $(RAMA_PCT_OPT) -title="Top500 Glycine (asym, no repet sec struct) B<30" -kin < srcdata/rama500-gly-nosym-nosec.tab >  kin/rama/rama500-gly-nosec.kin
 	$(SILK) $(RAMA_OTHER_OPT) $(RAMA_KIN_OPT) -title="Top500 Glycine (sym, no repet sec struct) B<30" < srcdata/rama500-gly-sym-nosec.tab | \
 	kin2Dcont $(KCONT_RAMA_OTHER_OPT) - >>  kin/rama/rama500-gly-nosec.kin
+
+#}}}
+
+#{{{ Psi-Phi (cross-peptide) plots
+# Options for generating the various plots of data
+PSIPHI_OPT = -ndim=2 -label=1 -coords=2,3 -wrap -insep=: -gridsize=2 -cosine=5
+PSIPHI_GEN_OPT = $(PSIPHI_OPT) -twopass=6.5
+PSIPHI_OTHER_OPT = $(PSIPHI_OPT) -twopass=8
+PSIPHI_STAT_OPT = -bounds=-180,180,-180,180
+PSIPHI_ENERGY_OPT = -bounds=-180,180,-180,180 -energy
+PSIPHI_PCT_OPT = -bounds=-180,180,-180,180 -fraction
+PSIPHI_KIN_OPT = -bounds=-181,179,-181,179 -fraction
+
+# Options for kin2Dcont
+KCONT_PSIPHI_OPT = $(KCONT_OPT) -wrap -180 180 -180 180 -g2
+KCONT_PSIPHI_GEN_OPT = $(KCONT_PSIPHI_OPT) -l 0.0005 bluetint -l 0.02 sky
+KCONT_PSIPHI_OTHER_OPT = $(KCONT_PSIPHI_OPT) -l 0.002 bluetint -l 0.02 sky
+
+psiphi : psiphi-stat psiphi-energy psiphi-pct psiphi-kin
+
+psiphi-stat :
+	mkdir -p stat/psiphi
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_STAT_OPT) -title="Top500 non(Gly,Pro) B<30" < srcdata/psiphi500-nogp.tab > stat/psiphi/psiphi500-nogp.data
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_STAT_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" < srcdata/psiphi500-nogp-no2str.tab > stat/psiphi/psiphi500-nogp-no2str.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_STAT_OPT) -title="Top500 X-Gly B<30" < srcdata/psiphi500-x_gly.tab > stat/psiphi/psiphi500-x_gly.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_STAT_OPT) -title="Top500 X-Pro B<30" < srcdata/psiphi500-x_pro.tab > stat/psiphi/psiphi500-x_pro.data
+
+psiphi-energy :
+	mkdir -p energy/psiphi
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_ENERGY_OPT) -title="Top500 non(Gly,Pro) B<30" < srcdata/psiphi500-nogp.tab > energy/psiphi/psiphi500-nogp.data
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_ENERGY_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" < srcdata/psiphi500-nogp-no2str.tab > energy/psiphi/psiphi500-nogp-no2str.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_ENERGY_OPT) -title="Top500 X-Gly B<30" < srcdata/psiphi500-x_gly.tab > energy/psiphi/psiphi500-x_gly.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_ENERGY_OPT) -title="Top500 X-Pro B<30" < srcdata/psiphi500-x_pro.tab > energy/psiphi/psiphi500-x_pro.data
+#	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_ENERGY_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" -kin < srcdata/psiphi500-nogp-no2str.tab >  energy/psiphi/psiphi500-nogp-no2str.kin
+#	$(SILK) $(PSIPHI_GEN_OPT) -bounds=-181,179,-181,179 -energy -title="Top500 non(Gly,Pro) no 2str B<30" < srcdata/psiphi500-nogp-no2str.tab | \
+#	kin2Dcont $(KCONT_PSIPHI_OPT) -l 1.0 red -l 2.0 orange -l 3.0 gold -l 4.0 yellow -l 5.0 lime -l 6.0 green -l 7.0 sea -l 8.0 cyan -l 9.0 sky -l 10.0 blue -l 11.0 purple -l 12.0 magenta -l 100.0 white - >>  energy/psiphi/psiphi500-nogp-no2str.kin
+
+psiphi-pct :
+	mkdir -p pct/psiphi
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_PCT_OPT) -title="Top500 non(Gly,Pro) B<30" < srcdata/psiphi500-nogp.tab > pct/psiphi/psiphi500-nogp.data
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_PCT_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" < srcdata/psiphi500-nogp-no2str.tab > pct/psiphi/psiphi500-nogp-no2str.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_PCT_OPT) -title="Top500 X-Gly B<30" < srcdata/psiphi500-x_gly.tab > pct/psiphi/psiphi500-x_gly.data
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_PCT_OPT) -title="Top500 X-Pro B<30" < srcdata/psiphi500-x_pro.tab > pct/psiphi/psiphi500-x_pro.data
+
+psiphi-kin :
+	mkdir -p kin/psiphi
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_PCT_OPT) -title="Top500 non(Gly,Pro) B<30" -kin < srcdata/psiphi500-nogp.tab >  kin/psiphi/psiphi500-nogp.kin
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_KIN_OPT) -title="Top500 non(Gly,Pro) B<30" < srcdata/psiphi500-nogp.tab | \
+	kin2Dcont $(KCONT_PSIPHI_GEN_OPT) - >>  kin/psiphi/psiphi500-nogp.kin
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_PCT_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" -kin < srcdata/psiphi500-nogp-no2str.tab >  kin/psiphi/psiphi500-nogp-no2str.kin
+	$(SILK) $(PSIPHI_GEN_OPT) $(PSIPHI_KIN_OPT) -title="Top500 non(Gly,Pro) no 2str B<30" < srcdata/psiphi500-nogp-no2str.tab | \
+	kin2Dcont $(KCONT_PSIPHI_GEN_OPT) - >>  kin/psiphi/psiphi500-nogp-no2str.kin
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_PCT_OPT) -title="Top500 X-Gly B<30" -kin < srcdata/psiphi500-x_gly.tab >  kin/psiphi/psiphi500-x_gly.kin
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_KIN_OPT) -title="Top500 X-Gly B<30" < srcdata/psiphi500-x_gly.tab | \
+	kin2Dcont $(KCONT_PSIPHI_OTHER_OPT) - >>  kin/psiphi/psiphi500-x_gly.kin
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_PCT_OPT) -title="Top500 X-Pro B<30" -kin < srcdata/psiphi500-x_pro.tab >  kin/psiphi/psiphi500-x_pro.kin
+	$(SILK) $(PSIPHI_OTHER_OPT) $(PSIPHI_KIN_OPT) -title="Top500 X-Pro B<30" < srcdata/psiphi500-x_pro.tab | \
+	kin2Dcont $(KCONT_PSIPHI_OTHER_OPT) - >>  kin/psiphi/psiphi500-x_pro.kin
 
 #}}}
 
@@ -285,7 +343,7 @@ clean :
 # The following tasks are not part of 'make all' but may depend on the files it creates.
 # If they are not present or are out of date, run 'make all' first.
 
-#{{{ rotasamp: Rotamer sampling for Homme
+#{{{ rotasamp: Rotamer sampling for Homme Hellinga
 #
 # 	Symmetric chis need to be sampled with half the number of samples
 #	Free Hs need to be rotatable
@@ -353,6 +411,49 @@ rotasamp4 : rotasamp-init
 	$(S_SAMP) stat/rota/rota500-lys.data pct/rota/rota500-lys.data $(CUTOFF) -sample=9,9,9,9 > rotasamp/lys.list
 	$(C_SAMP) lys rotasamp/lys.list > rotasamp/lys.pdb
 
+# For visualization afterwards, run this in Bash:
+# for pdb in *.pdb; do kin=`basename $pdb .pdb`; prekin -scope -show "mc(brown),sc(green),hy(pinktint)" $pdb $kin.kin; done
+#}}}
+
+#{{{ jmarvin: Rotamer sampling for Jonathan S. Marvin
+# The programs to run
+C_SAMP = java -cp lib/chiropraxis.jar chiropraxis.sc.RotamerSampler
+
+.PHONY : jmarvin jmarvin1 jmarvin2 jmarvin3 jmarvin4
+jmarvin : jmarvin1 jmarvin2 jmarvin3 jmarvin4
+
+# Proline is a special case, because you need to measure chi2 and chi3
+# even though they correlate very highly with chi1.
+jmarvin1 :
+	$(C_SAMP) ser jmarvin/ser.list > jmarvin/ser.pdb
+	$(C_SAMP) thr jmarvin/thr.list > jmarvin/thr.pdb
+	$(C_SAMP) val jmarvin/val.list > jmarvin/val.pdb
+	$(C_SAMP) cys jmarvin/cys.list > jmarvin/cys.pdb
+
+jmarvin2 :
+	$(C_SAMP) ile jmarvin/ile.list > jmarvin/ile.pdb
+	$(C_SAMP) leu jmarvin/leu.list > jmarvin/leu.pdb
+	$(C_SAMP) his jmarvin/his.list > jmarvin/his.pdb
+	$(C_SAMP) trp jmarvin/trp.list > jmarvin/trp.pdb
+	$(C_SAMP) asn jmarvin/asn.list > jmarvin/asn.pdb
+	$(C_SAMP) asp jmarvin/asp.list > jmarvin/asp.pdb
+	$(C_SAMP) phe jmarvin/phe.list > jmarvin/phe.pdb
+	$(C_SAMP) tyr jmarvin/tyr.list > jmarvin/tyr.pdb
+
+#jmarvin3 :
+#	$(S_SAMP) stat/rota/rota500-met.data pct/rota/rota500-met.data $(CUTOFF) -sample=12,12,12 > jmarvin/met.list
+#	$(C_SAMP) met jmarvin/met.list > jmarvin/met.pdb
+#	$(S_SAMP) stat/rota/rota500-gln.data pct/rota/rota500-gln.data $(CUTOFF) -sample=12,12,12 > jmarvin/gln.list
+#	$(C_SAMP) gln jmarvin/gln.list > jmarvin/gln.pdb
+#	$(S_SAMP) stat/rota/rota500-glu.data pct/rota/rota500-glu.data $(CUTOFF) -sample=12,12,6 > jmarvin/glu.list
+#	$(C_SAMP) glu jmarvin/glu.list > jmarvin/glu.pdb
+#
+#jmarvin4 : jmarvin-init
+#	$(S_SAMP) stat/rota/rota500-arg.data pct/rota/rota500-arg.data $(CUTOFF) -sample=9,9,9,9 > jmarvin/arg.list
+#	$(C_SAMP) arg jmarvin/arg.list > jmarvin/arg.pdb
+#	$(S_SAMP) stat/rota/rota500-lys.data pct/rota/rota500-lys.data $(CUTOFF) -sample=9,9,9,9 > jmarvin/lys.list
+#	$(C_SAMP) lys jmarvin/lys.list > jmarvin/lys.pdb
+#
 # For visualization afterwards, run this in Bash:
 # for pdb in *.pdb; do kin=`basename $pdb .pdb`; prekin -scope -show "mc(brown),sc(green),hy(pinktint)" $pdb $kin.kin; done
 #}}}
