@@ -15,7 +15,7 @@ In this directory are included:
 This directory contains, for each of the rotameric canonical amino acids, a table listing rotamer frequency data and the means and standard deviations of each rotamer's bond torsion and bond angle geometries.
 
 ## Top8000_rotamer_kinemages
-This directory contains kinemage files plotting the rotamer distributions in various chi angle spaces, for visualization of the distributions.  
+This directory contains kinemage files plotting the rotamer distributions in various chi angle spaces (including both the data points and the contours), for visualization of the distributions.
 
 ## Top8000_rotamer_pct_contour_grids
-This directory contains contour/rotamericity grids for sidechain conformation for each of the rotameric canonical amino acids.  Each file's header describes how to interpret it.  Broadly, each file is a list of points that collectively grid out all of chi space (in however many dimensions/chi that sidechain has), plotting rotamericity at each grid point.  Contours drawn through grid points of given values define regions of chi space above a certain rotamericity.  Grid areas with rotamericity below 0.3% (inclusive) represent outlier regions, regions above 2.0% (exclusive) define favored rotamers, and regions in between are defined as allowed.
+This directory contains contour/rotamericity grids for sidechain conformation for each of the rotameric canonical amino acids.  Each file's header describes how to interpret it.  Broadly, each file is a list of points that collectively grid out all of chi space (in however many dimensions/chi that sidechain has), plotting rotamericity at each grid point.  Contours drawn through grid points of given values define regions of chi space above a certain rotamericity.  Grid areas with rotamericity below 0.3% (inclusive) represent outlier regions, regions above 2.0% (inclusive) define favored rotamers, and regions in between are defined as allowed.
