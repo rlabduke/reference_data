@@ -1,4 +1,6 @@
-# Top100
+# Top100 (legacy dataset)
+
+**Legacy dataset, kept for the historical record and to reproduce the published work that used it. Not recommended for general use, new analyses or validation.** The coordinates, hydrogens and corrections reflect the PDB entries and lab software of 1998. For current work use the [Top8000](../Top8000) or the Top2018 (Williams, Richardson & Richardson 2022, https://doi.org/10.1002/pro.4239).
 
 100 very high resolution, non-redundant protein structures with all hydrogen atoms added and optimized by Reduce (v2.10.2), from Word et al. (1999). The structures were chosen for resolution (0.8 to 1.7 Å), non-homology and wild-type sequence. Besides adding H atoms, the lab made minor corrections, including 180° flips of Asn, Gln and His side chains where the H-bonding and contacts required them. Each file's `USER MOD` header lines record what was changed.
 

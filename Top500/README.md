@@ -1,4 +1,6 @@
-# Top500
+# Top500 (legacy dataset)
+
+**Legacy dataset, kept for the historical record and to reproduce the published work that used it. Not recommended for general use, new analyses or validation.** The coordinates, hydrogens, filters and contours reflect the PDB entries and lab software of 2001-2005; MolProbity's current Ramachandran and rotamer contours come from the [Top8000](../Top8000). For current work use the Top8000 or the Top2018 (Williams, Richardson & Richardson 2022, https://doi.org/10.1002/pro.4239).
 
 500 high-resolution, low-homology, high-quality protein structures with hydrogens added by Reduce. They are the reference set behind the Lovell et al. (2003) Ramachandran distributions and the Top500 rotamer distributions.
 
